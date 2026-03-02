@@ -1,0 +1,65 @@
+# vault/.metadata/sources/catalog.yaml
+#
+# Each entry represents one API namespace to import into the vault.
+# The import script reads this file and runs `apix import` for each entry.
+
+apis:
+  - name: petstore
+    spec_url: https://petstore3.swagger.io/api/v3/openapi.json
+    pinned_ref: null
+    tags: [demo, pets, crud]
+    notes: Canonical OpenAPI example. Good baseline for validation.
+
+  - name: openai
+    spec_url: https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml
+    pinned_ref: null
+    tags: [ai, llm, ml, chat, embeddings]
+    notes: Official OpenAI API spec from their GitHub repo.
+
+  - name: anthropic
+    spec_url: https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/main/openapi.json
+    pinned_ref: null
+    tags: [ai, llm, ml, chat]
+    notes: Anthropic Claude API. Spec extracted from their Python SDK repo.
+
+  - name: stripe
+    spec_url: https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json
+    pinned_ref: null
+    tags: [payments, billing, subscriptions, fintech]
+    notes: Very large spec. May need to verify import handles size gracefully.
+
+  - name: github
+    spec_url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
+    pinned_ref: null
+    tags: [devtools, git, repos, issues, ci]
+    notes: Extremely large spec (~6MB+). Import may take a while.
+
+  - name: cloudflare
+    spec_url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.json
+    pinned_ref: null
+    tags: [infrastructure, cdn, dns, workers, security]
+    notes: Large spec covering all Cloudflare products.
+
+  - name: resend
+    spec_url: https://raw.githubusercontent.com/resend/resend-openapi/main/resend.yaml
+    pinned_ref: null
+    tags: [email, transactional, communication]
+    notes: Small, clean spec. Good early-batch candidate.
+
+  - name: notion
+    spec_url: https://raw.githubusercontent.com/readmeio/oas-examples/main/3.1/json/notion.json
+    pinned_ref: null
+    tags: [productivity, docs, databases, workspace]
+    notes: Notion API. Verify spec source is current.
+
+  - name: digitalocean
+    spec_url: https://api-engineering.nyc3.cdn.digitaloceanspaces.com/spec-ci/DigitalOcean-public.v2.yaml
+    pinned_ref: null
+    tags: [infrastructure, cloud, vps, kubernetes, databases]
+    notes: Official DigitalOcean public spec. Large.
+
+  - name: slack
+    spec_url: https://raw.githubusercontent.com/slackapi/slack-api-specs/master/web-api/slack_web_openapi_v2.json
+    pinned_ref: null
+    tags: [communication, messaging, chat, bots]
+    notes: Slack Web API. May be Swagger 2.0 — check if conversion is needed.

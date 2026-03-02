@@ -1,0 +1,12 @@
+{
+  "apis": {
+    "petstore": {
+      "name": "petstore",
+      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
+      "versions": [
+        "1.0.27"
+      ],
+      "tags": []
+    }
+  }
+}
