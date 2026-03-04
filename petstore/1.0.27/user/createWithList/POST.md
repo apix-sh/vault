@@ -11,22 +11,16 @@ Creates list of users with given input array.
 
 ## Path Parameters
 
-
 _(None)_
 
 
 ## Query Parameters
 
-
 _(None)_
 
 
 
-
-
-
 ## Request Body
-
 
 Supported content types:
 - `application/json`
@@ -37,16 +31,9 @@ array<[User](../../_types/User.md)>
 
 ## Responses
 
-
-
 ### 200
 
-
 Successful operation
-
-
-
-
 
 #### Response Schema (`application/json`)
 [User](../../_types/User.md)
@@ -55,16 +42,7 @@ Successful operation
 [User](../../_types/User.md)
 
 
-
-
-
 ### default
 
-
 Unexpected error
-
-
-
-
-
 

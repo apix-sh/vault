@@ -1,15 +1,13 @@
 ---
-type: object
+type: "object"
 ---
 
 # Order
 
-
-
 ## Properties
 
 | Property | Required | Type | Description |
-| :--- | :---: | :--- | :--- |
+| :------- | :------: | :--- | :---------- |
 | `id` | No | integer |  |
 | `petId` | No | integer |  |
 | `quantity` | No | integer |  |

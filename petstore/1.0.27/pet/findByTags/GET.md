@@ -11,40 +11,27 @@ Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3
 
 ## Path Parameters
 
-
 _(None)_
 
 
 ## Query Parameters
 
-
 | Name | Required | Type | Description |
-| :--- | :---: | :--- | :--- |
+| :--- | :------: | :--- | :---------- |
 | `tags` | Yes | array<string> | Tags to filter by<br/>*Serialization: style=Form, explode=true* |
 
 
 
-
-
-
 ## Request Body
-
 
 _(None)_
 
 
 ## Responses
 
-
-
 ### 200
 
-
 successful operation
-
-
-
-
 
 #### Response Schema (`application/json`)
 array<[Pet](../../_types/Pet.md)>
@@ -53,28 +40,11 @@ array<[Pet](../../_types/Pet.md)>
 array<[Pet](../../_types/Pet.md)>
 
 
-
-
-
 ### 400
-
 
 Invalid tag value
 
-
-
-
-
-
-
-
 ### default
 
-
 Unexpected error
-
-
-
-
-
 

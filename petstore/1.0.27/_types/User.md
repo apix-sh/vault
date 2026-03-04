@@ -1,15 +1,13 @@
 ---
-type: object
+type: "object"
 ---
 
 # User
 
-
-
 ## Properties
 
 | Property | Required | Type | Description |
-| :--- | :---: | :--- | :--- |
+| :------- | :------: | :--- | :---------- |
 | `id` | No | integer |  |
 | `username` | No | string |  |
 | `firstName` | No | string |  |

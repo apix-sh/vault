@@ -11,17 +11,14 @@ Delete a pet.
 
 ## Path Parameters
 
-
 | Name | Required | Type | Description |
-| :--- | :---: | :--- | :--- |
+| :--- | :------: | :--- | :---------- |
 | `petId` | Yes | integer | Pet id to delete<br/>*Serialization: style=Simple* |
 
 
 ## Query Parameters
 
-
 _(None)_
-
 
 ## Header Parameters
 
@@ -31,49 +28,22 @@ _(None)_
 | `api_key` | No | string | *Serialization: style=Simple* |
 
 
-
-
 ## Request Body
-
 
 _(None)_
 
 
 ## Responses
 
-
-
 ### 200
-
 
 Pet deleted
 
-
-
-
-
-
-
-
 ### 400
-
 
 Invalid pet value
 
-
-
-
-
-
-
-
 ### default
 
-
 Unexpected error
-
-
-
-
-
 

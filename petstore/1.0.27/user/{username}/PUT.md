@@ -11,24 +11,18 @@ This can only be done by the logged in user.
 
 ## Path Parameters
 
-
 | Name | Required | Type | Description |
-| :--- | :---: | :--- | :--- |
+| :--- | :------: | :--- | :---------- |
 | `username` | Yes | string | name that need to be deleted<br/>*Serialization: style=Simple* |
 
 
 ## Query Parameters
 
-
 _(None)_
 
 
 
-
-
-
 ## Request Body
-
 
 Supported content types:
 - `application/json`
@@ -47,51 +41,19 @@ Supported content types:
 
 ## Responses
 
-
-
 ### 200
-
 
 successful operation
 
-
-
-
-
-
-
-
 ### 400
-
 
 bad request
 
-
-
-
-
-
-
-
 ### 404
-
 
 user not found
 
-
-
-
-
-
-
-
 ### default
 
-
 Unexpected error
-
-
-
-
-
 

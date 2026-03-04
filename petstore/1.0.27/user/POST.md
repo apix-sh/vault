@@ -11,22 +11,16 @@ This can only be done by the logged in user.
 
 ## Path Parameters
 
-
 _(None)_
 
 
 ## Query Parameters
 
-
 _(None)_
 
 
 
-
-
-
 ## Request Body
-
 
 Supported content types:
 - `application/json`
@@ -45,16 +39,9 @@ Supported content types:
 
 ## Responses
 
-
-
 ### 200
 
-
 successful operation
-
-
-
-
 
 #### Response Schema (`application/json`)
 [User](../_types/User.md)
@@ -63,16 +50,7 @@ successful operation
 [User](../_types/User.md)
 
 
-
-
-
 ### default
 
-
 Unexpected error
-
-
-
-
-
 

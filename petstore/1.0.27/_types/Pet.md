@@ -1,15 +1,13 @@
 ---
-type: object
+type: "object"
 ---
 
 # Pet
 
-
-
 ## Properties
 
 | Property | Required | Type | Description |
-| :--- | :---: | :--- | :--- |
+| :------- | :------: | :--- | :---------- |
 | `id` | No | integer |  |
 | `name` | Yes | string |  |
 | `category` | No | [Category](Category.md) |  |
