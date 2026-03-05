@@ -1,7 +1,7 @@
 ---
 method: "GET"
 url: "/api/v3/pet/findByStatus"
-auth: "Unknown"
+auth: "oauth2"
 content_type: "application/json"
 ---
 

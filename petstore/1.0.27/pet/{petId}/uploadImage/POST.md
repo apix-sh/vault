@@ -1,7 +1,7 @@
 ---
 method: "POST"
 url: "/api/v3/pet/{petId}/uploadImage"
-auth: "Unknown"
+auth: "oauth2"
 content_type: "application/octet-stream"
 ---
 

@@ -1,7 +1,6 @@
 ---
 method: "POST"
 url: "/api/v3/user/createWithList"
-auth: "Unknown"
 content_type: "application/json"
 ---
 

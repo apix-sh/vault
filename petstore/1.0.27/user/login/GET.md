@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "/api/v3/user/login"
-auth: "Unknown"
 content_type: "application/json"
 ---
 

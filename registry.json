@@ -6,7 +6,11 @@
       "versions": [
         "1.0.27"
       ],
-      "tags": []
+      "tags": [
+        "pet",
+        "store",
+        "user"
+      ]
     }
   }
 }

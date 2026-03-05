@@ -1,6 +1,7 @@
 ---
 base_url: "/api/v3"
-auth: "Unknown"
+auth: "none"
+tags: [pet, store, user]
 ---
 
 # Swagger Petstore - OpenAPI 3.0

@@ -1,7 +1,7 @@
 ---
 method: "POST"
 url: "/api/v3/pet"
-auth: "Unknown"
+auth: "oauth2"
 content_type: "application/json"
 ---
 

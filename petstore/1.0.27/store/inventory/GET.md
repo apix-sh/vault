@@ -1,7 +1,7 @@
 ---
 method: "GET"
 url: "/api/v3/store/inventory"
-auth: "Unknown"
+auth: "apiKey (header: api_key)"
 content_type: "application/json"
 ---
 

@@ -1,7 +1,7 @@
 ---
 method: "GET"
 url: "/api/v3/pet/{petId}"
-auth: "Unknown"
+auth: "apiKey (header: api_key) | oauth2"
 content_type: "application/json"
 ---
 

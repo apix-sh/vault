@@ -1,7 +1,7 @@
 ---
 method: "DELETE"
 url: "/api/v3/pet/{petId}"
-auth: "Unknown"
+auth: "oauth2"
 content_type: "application/json"
 ---
 

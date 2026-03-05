@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "/api/v3/store/order/{orderId}"
-auth: "Unknown"
 content_type: "application/json"
 ---
 

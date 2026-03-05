@@ -1,7 +1,6 @@
 ---
 method: "POST"
 url: "/api/v3/store/order"
-auth: "Unknown"
 content_type: "application/json"
 ---
 
