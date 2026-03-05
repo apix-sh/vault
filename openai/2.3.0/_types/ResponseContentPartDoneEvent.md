@@ -1,0 +1,22 @@
+---
+type: "object"
+---
+
+# ResponseContentPartDoneEvent
+
+
+Emitted when a content part is done.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |
+| `type` | Yes | string | The type of the event. Always `response.content_part.done`.
+ Allowed values: response.content_part.done |
+| `item_id` | Yes | string | The ID of the output item that the content part was added to.
+ |
+| `output_index` | Yes | integer | The index of the output item that the content part was added to.
+ |
+| `content_index` | Yes | integer | The index of the content part that is done.
+ |
+| `part` | Yes | [OutputContent](OutputContent.md) |  |

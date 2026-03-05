@@ -1,0 +1,13 @@
+---
+type: "boolean"
+---
+
+# ParallelToolCalls
+
+
+Whether to enable [parallel function calling](/docs/guides/function-calling#configuring-parallel-function-calling) during tool use.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

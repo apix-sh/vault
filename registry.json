@@ -1,5 +1,28 @@
 {
   "apis": {
+    "openai": {
+      "name": "openai",
+      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
+      "versions": [
+        "2.3.0"
+      ],
+      "tags": [
+        "Assistants",
+        "Audio",
+        "Audit Logs",
+        "Batch",
+        "Chat",
+        "Completions",
+        "Embeddings",
+        "Evals",
+        "Files",
+        "Fine-tuning",
+        "Images",
+        "Models",
+        "Moderations",
+        "Uploads"
+      ]
+    },
     "petstore": {
       "name": "petstore",
       "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
