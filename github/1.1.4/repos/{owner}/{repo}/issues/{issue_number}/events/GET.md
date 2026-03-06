@@ -1,0 +1,52 @@
+---
+method: "GET"
+url: "https://api.github.com/repos/{owner}/{repo}/issues/{issue_number}/events"
+content_type: "application/json"
+---
+
+# List issue events
+
+Lists all events for an issue.
+
+## Path Parameters
+
+_(None)_
+
+
+## Query Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
+| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
+| `issue-number (unresolved)` | Unknown | [issue-number](../../../../../../_types/issue-number.md) |  |
+| `per-page (unresolved)` | Unknown | [per-page](../../../../../../_types/per-page.md) |  |
+| `page (unresolved)` | Unknown | [page](../../../../../../_types/page.md) |  |
+
+
+
+## Request Body
+
+_(None)_
+
+
+## Responses
+
+### 200
+
+Response
+
+#### Headers
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+
+| `Link (ref)` | Unknown | [link](../../../../../../_types/link.md) |  |
+#### Response Schema (`application/json`)
+array<[issue-event-for-issue](../../../../../../_types/issue-event-for-issue.md)>
+
+
+### 410
+
+Reference: #/components/responses/gone
+

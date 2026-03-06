@@ -1,0 +1,35 @@
+---
+method: "DELETE"
+url: "https://api.github.com/repos/{owner}/{repo}/automated-security-fixes"
+content_type: "application/json"
+---
+
+# Disable Dependabot security updates
+
+Disables Dependabot security updates for a repository. The authenticated user must have admin access to the repository. For more information, see "[Configuring Dependabot security updates](https://docs.github.com/articles/configuring-automated-security-fixes)".
+
+## Path Parameters
+
+_(None)_
+
+
+## Query Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
+| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+
+
+
+## Request Body
+
+_(None)_
+
+
+## Responses
+
+### 204
+
+Response
+

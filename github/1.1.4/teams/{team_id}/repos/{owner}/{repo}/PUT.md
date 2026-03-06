@@ -1,0 +1,55 @@
+---
+method: "PUT"
+url: "https://api.github.com/teams/{team_id}/repos/{owner}/{repo}"
+content_type: "application/json"
+---
+
+# Add or update team repository permissions (Legacy)
+
+> [!WARNING]
+> **Endpoint closing down notice:** This endpoint route is closing down and will be removed from the Teams API. We recommend migrating your existing code to use the new "[Add or update team repository permissions](https://docs.github.com/rest/teams/teams#add-or-update-team-repository-permissions)" endpoint.
+
+To add a repository to a team or update the team's permission on a repository, the authenticated user must have admin access to the repository, and must be able to see the team. The repository must be owned by the organization, or a direct fork of a repository owned by the organization. You will get a `422 Unprocessable Entity` status if you attempt to add a repository to a team that is not owned by the organization.
+
+Note that, if you choose not to pass any parameters, you'll need to set `Content-Length` to zero when calling out to this endpoint. For more information, see "[HTTP method](https://docs.github.com/rest/guides/getting-started-with-the-rest-api#http-method)."
+
+## Path Parameters
+
+_(None)_
+
+
+## Query Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `team-id (unresolved)` | Unknown | [team-id](../../../../../_types/team-id.md) |  |
+| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
+| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+
+
+
+## Request Body
+
+Supported content types:
+- `application/json`
+
+### Inline Request Schema (`application/json`)
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `permission` | No | string | The permission to grant the team on this repository. If no permission is specified, the team's `permission` attribute will be used to determine what permission to grant the team on this repository. |
+
+
+## Responses
+
+### 204
+
+Response
+
+### 403
+
+Reference: #/components/responses/forbidden
+
+### 422
+
+Reference: #/components/responses/validation_failed
+

@@ -1,5 +1,71 @@
 {
   "apis": {
+    "github": {
+      "name": "github",
+      "description": "GitHub's v3 REST API.",
+      "versions": [
+        "1.1.4"
+      ],
+      "tags": [
+        "actions",
+        "activity",
+        "apps",
+        "billing",
+        "campaigns",
+        "checks",
+        "classroom",
+        "code-scanning",
+        "code-security",
+        "codes-of-conduct",
+        "codespaces",
+        "copilot",
+        "credentials",
+        "dependabot",
+        "dependency-graph",
+        "desktop",
+        "emojis",
+        "enterprise-team-memberships",
+        "enterprise-team-organizations",
+        "enterprise-teams",
+        "gists",
+        "git",
+        "gitignore",
+        "hosted-compute",
+        "interactions",
+        "issues",
+        "licenses",
+        "markdown",
+        "merge-queue",
+        "meta",
+        "migrations",
+        "oidc",
+        "orgs",
+        "packages",
+        "private-registries",
+        "projects",
+        "pulls",
+        "rate-limit",
+        "reactions",
+        "repos",
+        "search",
+        "secret-scanning",
+        "security-advisories",
+        "teams",
+        "users"
+      ]
+    },
+    "petstore": {
+      "name": "petstore",
+      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
+      "versions": [
+        "1.0.27"
+      ],
+      "tags": [
+        "pet",
+        "store",
+        "user"
+      ]
+    },
     "openai": {
       "name": "openai",
       "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
@@ -21,18 +87,6 @@
         "Models",
         "Moderations",
         "Uploads"
-      ]
-    },
-    "petstore": {
-      "name": "petstore",
-      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
-      "versions": [
-        "1.0.27"
-      ],
-      "tags": [
-        "pet",
-        "store",
-        "user"
       ]
     },
     "resend": {

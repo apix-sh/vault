@@ -1,0 +1,18 @@
+---
+type: "object"
+---
+
+# webhook-member-added
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |
+| `action` | Yes | string | Allowed values: added |
+| `changes` | No | object |  |
+| `enterprise` | No | [enterprise-webhooks](enterprise-webhooks.md) |  |
+| `installation` | No | [simple-installation](simple-installation.md) |  |
+| `member` | Yes | [webhooks_user](webhooks_user.md) |  |
+| `organization` | No | [organization-simple-webhooks](organization-simple-webhooks.md) |  |
+| `repository` | Yes | [repository-webhooks](repository-webhooks.md) |  |
+| `sender` | Yes | [simple-user](simple-user.md) |  |

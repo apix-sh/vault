@@ -1,0 +1,18 @@
+---
+type: "object"
+---
+
+# webhook-issues-typed
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |
+| `action` | Yes | string | Allowed values: typed |
+| `enterprise` | No | [enterprise-webhooks](enterprise-webhooks.md) |  |
+| `installation` | No | [simple-installation](simple-installation.md) |  |
+| `issue` | Yes | [webhooks_issue](webhooks_issue.md) |  |
+| `type` | Yes | [issue-type](issue-type.md) |  |
+| `organization` | No | [organization-simple-webhooks](organization-simple-webhooks.md) |  |
+| `repository` | Yes | [repository-webhooks](repository-webhooks.md) |  |
+| `sender` | Yes | [simple-user](simple-user.md) |  |

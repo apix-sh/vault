@@ -1,0 +1,76 @@
+---
+method: "POST"
+url: "https://api.github.com/user/codespaces/{codespace_name}/start"
+content_type: "application/json"
+---
+
+# Start a codespace for the authenticated user
+
+Starts a user's codespace.
+
+OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.
+
+## Path Parameters
+
+_(None)_
+
+
+## Query Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `codespace-name (unresolved)` | Unknown | [codespace-name](../../../../_types/codespace-name.md) |  |
+
+
+
+## Request Body
+
+_(None)_
+
+
+## Responses
+
+### 200
+
+Response
+
+#### Response Schema (`application/json`)
+[codespace](../../../../_types/codespace.md)
+
+
+### 304
+
+Reference: #/components/responses/not_modified
+
+### 500
+
+Reference: #/components/responses/internal_error
+
+### 400
+
+Reference: #/components/responses/bad_request
+
+### 401
+
+Reference: #/components/responses/requires_authentication
+
+### 402
+
+Payment required
+
+#### Response Schema (`application/json`)
+[basic-error](../../../../_types/basic-error.md)
+
+
+### 403
+
+Reference: #/components/responses/forbidden
+
+### 404
+
+Reference: #/components/responses/not_found
+
+### 409
+
+Reference: #/components/responses/conflict
+

@@ -1,0 +1,59 @@
+---
+method: "POST"
+url: "https://api.github.com/users/{username}/projectsV2/{project_number}/fields"
+content_type: "application/json"
+---
+
+# Add field to user owned project
+
+Add a field to a specified user owned project.
+
+## Path Parameters
+
+_(None)_
+
+
+## Query Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `username (unresolved)` | Unknown | [username](../../../../../_types/username.md) |  |
+| `project-number (unresolved)` | Unknown | [project-number](../../../../../_types/project-number.md) |  |
+
+
+
+## Request Body
+
+Supported content types:
+- `application/json`
+
+### Inline Request Schema (`application/json`)
+*(No object properties found)*
+
+
+## Responses
+
+### 201
+
+Response
+
+#### Response Schema (`application/json`)
+[projects-v2-field](../../../../../_types/projects-v2-field.md)
+
+
+### 304
+
+Reference: #/components/responses/not_modified
+
+### 403
+
+Reference: #/components/responses/forbidden
+
+### 401
+
+Reference: #/components/responses/requires_authentication
+
+### 422
+
+Reference: #/components/responses/validation_failed
+
