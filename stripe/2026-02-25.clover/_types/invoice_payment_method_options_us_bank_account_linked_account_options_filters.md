@@ -1,0 +1,11 @@
+---
+type: "object"
+---
+
+# invoice_payment_method_options_us_bank_account_linked_account_options_filters
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |
+| `account_subcategories` | No | array<string> | The account subcategories to use to filter for possible accounts to link. Valid subcategories are `checking` and `savings`. |

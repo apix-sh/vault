@@ -1,0 +1,13 @@
+---
+type: "object"
+---
+
+# payment_links_resource_optional_item_adjustable_quantity
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |
+| `enabled` | Yes | boolean | Set to true if the quantity can be adjusted to any non-negative integer. |
+| `maximum` | No | integer | The maximum quantity of this item the customer can purchase. By default this value is 99. |
+| `minimum` | No | integer | The minimum quantity of this item the customer must purchase, if they choose to purchase it. Because this item is optional, the customer will always be able to remove it from their order, even if the `minimum` configured here is greater than 0. By default this value is 0. |

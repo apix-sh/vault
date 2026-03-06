@@ -1,0 +1,111 @@
+---
+type: "object"
+---
+
+# tax_product_registrations_resource_country_options
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |
+| `ae` | No | [tax_product_registrations_resource_country_options_default_inbound_goods](tax_product_registrations_resource_country_options_default_inbound_goods.md) |  |
+| `al` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `am` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `ao` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `at` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `au` | No | [tax_product_registrations_resource_country_options_default_inbound_goods](tax_product_registrations_resource_country_options_default_inbound_goods.md) |  |
+| `aw` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `az` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `ba` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `bb` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `bd` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `be` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `bf` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `bg` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `bh` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `bj` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `bs` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `by` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `ca` | No | [tax_product_registrations_resource_country_options_canada](tax_product_registrations_resource_country_options_canada.md) |  |
+| `cd` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `ch` | No | [tax_product_registrations_resource_country_options_default_inbound_goods](tax_product_registrations_resource_country_options_default_inbound_goods.md) |  |
+| `cl` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `cm` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `co` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `cr` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `cv` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `cy` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `cz` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `de` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `dk` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `ec` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `ee` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `eg` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `es` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `et` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `fi` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `fr` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `gb` | No | [tax_product_registrations_resource_country_options_default_inbound_goods](tax_product_registrations_resource_country_options_default_inbound_goods.md) |  |
+| `ge` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `gn` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `gr` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `hr` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `hu` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `id` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `ie` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `in` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `is` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `it` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `jp` | No | [tax_product_registrations_resource_country_options_default_inbound_goods](tax_product_registrations_resource_country_options_default_inbound_goods.md) |  |
+| `ke` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `kg` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `kh` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `kr` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `kz` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `la` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `lk` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `lt` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `lu` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `lv` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `ma` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `md` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `me` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `mk` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `mr` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `mt` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `mx` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `my` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `ng` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `nl` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `no` | No | [tax_product_registrations_resource_country_options_default_inbound_goods](tax_product_registrations_resource_country_options_default_inbound_goods.md) |  |
+| `np` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `nz` | No | [tax_product_registrations_resource_country_options_default_inbound_goods](tax_product_registrations_resource_country_options_default_inbound_goods.md) |  |
+| `om` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `pe` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `ph` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `pl` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `pt` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `ro` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `rs` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `ru` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `sa` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `se` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `sg` | No | [tax_product_registrations_resource_country_options_default_inbound_goods](tax_product_registrations_resource_country_options_default_inbound_goods.md) |  |
+| `si` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `sk` | No | [tax_product_registrations_resource_country_options_europe](tax_product_registrations_resource_country_options_europe.md) |  |
+| `sn` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `sr` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `th` | No | [tax_product_registrations_resource_country_options_thailand](tax_product_registrations_resource_country_options_thailand.md) |  |
+| `tj` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `tr` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `tw` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `tz` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `ua` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `ug` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `us` | No | [tax_product_registrations_resource_country_options_united_states](tax_product_registrations_resource_country_options_united_states.md) |  |
+| `uy` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `uz` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `vn` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `za` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |
+| `zm` | No | [tax_product_registrations_resource_country_options_simplified](tax_product_registrations_resource_country_options_simplified.md) |  |
+| `zw` | No | [tax_product_registrations_resource_country_options_default](tax_product_registrations_resource_country_options_default.md) |  |

@@ -1,5 +1,57 @@
 {
   "apis": {
+    "stripe": {
+      "name": "stripe",
+      "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
+      "versions": [
+        "2026-02-25.clover"
+      ],
+      "tags": []
+    },
+    "openai": {
+      "name": "openai",
+      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
+      "versions": [
+        "2.3.0"
+      ],
+      "tags": [
+        "Assistants",
+        "Audio",
+        "Audit Logs",
+        "Batch",
+        "Chat",
+        "Completions",
+        "Embeddings",
+        "Evals",
+        "Files",
+        "Fine-tuning",
+        "Images",
+        "Models",
+        "Moderations",
+        "Uploads"
+      ]
+    },
+    "resend": {
+      "name": "resend",
+      "description": "Resend is the email platform for developers.",
+      "versions": [
+        "1.5.0"
+      ],
+      "tags": [
+        "API Keys",
+        "Audiences",
+        "Broadcasts",
+        "Contact Properties",
+        "Contacts",
+        "Domains",
+        "Emails",
+        "Receiving Emails",
+        "Segments",
+        "Templates",
+        "Topics",
+        "Webhooks"
+      ]
+    },
     "github": {
       "name": "github",
       "description": "GitHub's v3 REST API.",
@@ -64,50 +116,6 @@
         "pet",
         "store",
         "user"
-      ]
-    },
-    "openai": {
-      "name": "openai",
-      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
-      "versions": [
-        "2.3.0"
-      ],
-      "tags": [
-        "Assistants",
-        "Audio",
-        "Audit Logs",
-        "Batch",
-        "Chat",
-        "Completions",
-        "Embeddings",
-        "Evals",
-        "Files",
-        "Fine-tuning",
-        "Images",
-        "Models",
-        "Moderations",
-        "Uploads"
-      ]
-    },
-    "resend": {
-      "name": "resend",
-      "description": "Resend is the email platform for developers.",
-      "versions": [
-        "1.5.0"
-      ],
-      "tags": [
-        "API Keys",
-        "Audiences",
-        "Broadcasts",
-        "Contact Properties",
-        "Contacts",
-        "Domains",
-        "Emails",
-        "Receiving Emails",
-        "Segments",
-        "Templates",
-        "Topics",
-        "Webhooks"
       ]
     }
   }
