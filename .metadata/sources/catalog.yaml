@@ -6,60 +6,65 @@
 apis:
   - name: petstore
     spec_url: https://petstore3.swagger.io/api/v3/openapi.json
-    pinned_ref: null
     tags: [demo, pets, crud]
     notes: Canonical OpenAPI example. Good baseline for validation.
 
-  - name: openai
+  - name: OpenAI Responses API (GPT-5.4)
     spec_url: https://raw.githubusercontent.com/openai/openai-openapi/refs/heads/manual_spec/openapi.yaml
-    pinned_ref: null
-    tags: [ai, llm, ml, chat, embeddings]
-    notes: Official OpenAI API spec from their GitHub repo.
+    tags: ["AI", "Generative Intelligence"]
+    notes: Latest 2026 Agentic interface supporting tool search, computer use, and long-range task reasoning.[4, 5]
 
-  - name: anthropic
-    spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/anthropic%2Fanthropic-29a6b7ba51942cd606e5bf4b533e5aac1bef42f6d4b1f7f45f756304cf676782.yml
-    pinned_ref: null
-    tags: [ai, llm, ml, chat]
-    notes: Anthropic Claude API. Spec extracted from their TypeScript SDK repo (https://github.com/anthropics/anthropic-sdk-typescript/blob/main/.stats.yml).
+  - name: Stripe Combined API (v1/v2)
+    spec_url: https://raw.githubusercontent.com/stripe/openapi/master/latest/spec3.json
+    tags: ["Fintech", "Payments"]
+    notes: The gold standard for financial payments; 2026 version fully supports OAS 3.1 and complex extension models.[14, 23]
 
-  - name: stripe
-    spec_url: https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json
-    pinned_ref: null
-    tags: [payments, billing, subscriptions, fintech]
-    notes: Very large spec. May need to verify import handles size gracefully.
+  - name: Cloudflare Full API Schema
+    spec_url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
+    tags: ["Infrastructure", "Cloud"]
+    notes: Comprehensive schema covering hundreds of endpoints including Workers AI, Zero Trust, and DNS management.[21]
 
-  - name: github
+  - name: GitHub REST API (OAS 3.1 Compliant)
     spec_url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
-    pinned_ref: null
-    tags: [devtools, git, repos, issues, ci]
-    notes: Extremely large spec (~6MB+). Import may take a while.
-
-  - name: cloudflare
-    spec_url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.json
-    pinned_ref: null
-    tags: [infrastructure, cdn, dns, workers, security]
-    notes: Large spec covering all Cloudflare products.
+    tags: ["Code", "DevOps", "Social"]
+    notes: Covers 600+ operations, supporting Webhook definitions and GitHub Actions integration specs.[25]
 
   - name: resend
     spec_url: https://raw.githubusercontent.com/resend/resend-openapi/main/resend.yaml
-    pinned_ref: null
     tags: [email, transactional, communication]
     notes: Small, clean spec. Good early-batch candidate.
 
-  - name: notion
-    spec_url: https://raw.githubusercontent.com/readmeio/oas-examples/main/3.1/json/notion.json
-    pinned_ref: null
-    tags: [productivity, docs, databases, workspace]
-    notes: Notion API. Verify spec source is current.
+  - name: anthropic
+    spec_url: https://raw.githubusercontent.com/laszukdawid/anthropic-openapi-spec/main/hosted_spec.json
+    tags: ["AI", "LLM"]
+    notes: Official SDK-generated version supporting 1M+ context window and Extended Thinking outputs.[13, 22]
 
-  - name: digitalocean
-    spec_url: https://api-engineering.nyc3.cdn.digitaloceanspaces.com/spec-ci/DigitalOcean-public.v2.yaml
-    pinned_ref: null
-    tags: [infrastructure, cloud, vps, kubernetes, databases]
-    notes: Official DigitalOcean public spec. Large.
+  - name: discord
+    spec_url: https://raw.githubusercontent.com/discord/discord-api-spec/refs/heads/main/specs/openapi.json
+    tags: ["Social", "Chat", "Bot"]
+    notes: Official preview specification for building complex social bot ecosystems in 2026.[24]
 
-  - name: slack
-    spec_url: https://raw.githubusercontent.com/slackapi/slack-api-specs/master/web-api/slack_web_openapi_v2.json
-    pinned_ref: null
-    tags: [communication, messaging, chat, bots]
-    notes: Slack Web API. May be Swagger 2.0 — check if conversion is needed.
+  - name: vercel
+    spec_url: https://openapi.vercel.sh/
+    tags: ["Infrastructure", "Cloud"]
+    notes: Manages edge networks, deployment lifecycles, and 2026-era Serverless AI projects.[16, 34]
+
+  - name: planetscale
+    spec_url: https://planetscale.com/docs/openapi.yaml
+    tags: ["Database", "Cloud"]
+    notes: Database service API with advanced branching and version management capabilities.[35]
+
+  - name: linode
+    spec_url: https://raw.githubusercontent.com/linode/linode-api-docs/refs/heads/development/openapi.json
+    tags: ["Infrastructure", "Cloud"]
+    notes: Post-Akamai acquisition integrated API for global CDN and compute node scheduling.[19]
+
+  - name: gitlab
+    spec_url: https://raw.githubusercontent.com/gitlabhq/gitlabhq/master/doc/api/openapi/openapi.yaml
+    tags: ["DevOps", "Code", "CI/CD"]
+    notes: Open-source DevOps full lifecycle management API.[38, 39]
+
+  - name: huggingface
+    spec_url: https://api.endpoints.huggingface.cloud/openapi.json
+    tags: ["AI", "LLM"]
+    notes: Management interface for accessing the world's largest open-source model hub.
