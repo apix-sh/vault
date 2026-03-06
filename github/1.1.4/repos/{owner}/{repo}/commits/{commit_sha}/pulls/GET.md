@@ -19,11 +19,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `commit-sha (unresolved)` | Unknown | [commit-sha](../../../../../../_types/commit-sha.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../_types/page.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [commit-sha](../../../../../../_components/parameters/commit-sha.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -43,12 +43,14 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[pull-request-simple](../../../../../../_types/pull-request-simple.md)>
+array<[pull-request-simple](../../../../../../_components/schemas/pull-request-simple.md)>
 
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../../../_components/responses/conflict.md)
 

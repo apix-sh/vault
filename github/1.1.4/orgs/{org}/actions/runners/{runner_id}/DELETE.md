@@ -21,8 +21,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `runner-id (unresolved)` | Unknown | [runner-id](../../../../../_types/runner-id.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [runner-id](../../../../../_components/parameters/runner-id.md) |  |
 
 
 
@@ -39,5 +39,5 @@ Response
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../../../_components/responses/validation_failed_simple.md)
 

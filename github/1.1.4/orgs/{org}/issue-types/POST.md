@@ -22,7 +22,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 
 
 
@@ -32,7 +32,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[organization-create-issue-type](../../../_types/organization-create-issue-type.md)
+[organization-create-issue-type](../../../_components/schemas/organization-create-issue-type.md)
 
 
 ## Responses
@@ -42,14 +42,14 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[issue-type](../../../_types/issue-type.md)
+[issue-type](../../../_components/schemas/issue-type.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../_components/responses/validation_failed_simple.md)
 

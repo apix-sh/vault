@@ -41,7 +41,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[login_link](../../../../_types/login_link.md)
+[login_link](../../../../_components/schemas/login_link.md)
 
 
 ### default
@@ -49,6 +49,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

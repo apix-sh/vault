@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `client-id (unresolved)` | Unknown | [client-id](../../../_types/client-id.md) |  |
+| `Reference` | N/A | [client-id](../../../_components/parameters/client-id.md) |  |
 
 
 
@@ -40,5 +40,5 @@ Response
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

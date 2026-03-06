@@ -24,8 +24,8 @@ If `truncated` is `true` in the response then the number of items in the `tree` 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 | `recursive` | No | string | Setting this parameter to any value returns the objects or subtrees referenced by the tree specified in `:tree_sha`. For example, setting `recursive` to any of the following will enable returning objects or subtrees: `0`, `1`, `"true"`, and `"false"`. Omit this parameter to prevent recursively returning objects or subtrees.<br/>*Serialization: style=Form* |
 
 
@@ -42,18 +42,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[git-tree](../../../../../../_types/git-tree.md)
+[git-tree](../../../../../../_components/schemas/git-tree.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../../../_components/responses/conflict.md)
 

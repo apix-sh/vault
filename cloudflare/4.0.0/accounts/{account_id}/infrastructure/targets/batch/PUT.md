@@ -1,0 +1,51 @@
+---
+method: "PUT"
+url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/infrastructure/targets/batch"
+auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) + bearer"
+content_type: "application/json"
+---
+
+# Create new targets
+
+Adds one or more targets.
+
+## Path Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `account_id` | Yes | [infra_AccountTag](../../../../../_components/schemas/infra_AccountTag.md) | *Serialization: style=Simple* |
+
+
+## Query Parameters
+
+_(None)_
+
+
+
+## Request Body
+
+Supported content types:
+- `application/json`
+
+### Inline Request Schema (`application/json`)
+array<object>
+
+
+## Responses
+
+### 200
+
+Successfully created the targets
+
+#### Response Schema (`application/json`)
+*(No object properties found)*
+
+
+### 4xx
+
+Failed to create the targets
+
+#### Response Schema (`application/json`)
+[infra_api-response-common-failure](../../../../../_components/schemas/infra_api-response-common-failure.md)
+
+

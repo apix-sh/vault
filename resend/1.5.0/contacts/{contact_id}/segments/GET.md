@@ -17,9 +17,9 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `PaginationLimit (unresolved)` | Unknown | [PaginationLimit](../../../_types/PaginationLimit.md) |  |
-| `PaginationAfter (unresolved)` | Unknown | [PaginationAfter](../../../_types/PaginationAfter.md) |  |
-| `PaginationBefore (unresolved)` | Unknown | [PaginationBefore](../../../_types/PaginationBefore.md) |  |
+| `Reference` | N/A | [PaginationLimit](../../../_components/parameters/PaginationLimit.md) |  |
+| `Reference` | N/A | [PaginationAfter](../../../_components/parameters/PaginationAfter.md) |  |
+| `Reference` | N/A | [PaginationBefore](../../../_components/parameters/PaginationBefore.md) |  |
 
 
 
@@ -35,6 +35,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListContactSegmentsResponseSuccess](../../../_types/ListContactSegmentsResponseSuccess.md)
+[ListContactSegmentsResponseSuccess](../../../_components/schemas/ListContactSegmentsResponseSuccess.md)
 
 

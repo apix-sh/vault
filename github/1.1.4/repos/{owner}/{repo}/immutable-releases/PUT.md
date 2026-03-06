@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -31,9 +31,9 @@ _(None)_
 
 ### 204
 
-Reference: #/components/responses/no_content
+Reference: [no_content](../../../../_components/responses/no_content.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../_components/responses/conflict.md)
 

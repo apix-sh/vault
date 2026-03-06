@@ -26,7 +26,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateEvalRunRequest](../../../_types/CreateEvalRunRequest.md)
+[CreateEvalRunRequest](../../../_components/schemas/CreateEvalRunRequest.md)
 
 
 ## Responses
@@ -36,7 +36,7 @@ Supported content types:
 Successfully created a run for the evaluation
 
 #### Response Schema (`application/json`)
-[EvalRun](../../../_types/EvalRun.md)
+[EvalRun](../../../_components/schemas/EvalRun.md)
 
 
 ### 400
@@ -44,6 +44,6 @@ Successfully created a run for the evaluation
 Bad request (for example, missing eval object)
 
 #### Response Schema (`application/json`)
-[Error](../../../_types/Error.md)
+[Error](../../../_components/schemas/Error.md)
 
 

@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 | `ref` | No | string | The branch or commit to check for a default devcontainer path. If not specified, the default branch will be checked.<br/>*Serialization: style=Form* |
 | `client_ip` | No | string | An alternative IP for default location auto-detection, such as when proxying a request.<br/>*Serialization: style=Form* |
 
@@ -40,19 +40,19 @@ Response when a user is able to create codespaces from the repository.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `billable_owner` | No | [simple-user](../../../../../_types/simple-user.md) |  |
+| `billable_owner` | No | [simple-user](../../../../../_components/schemas/simple-user.md) |  |
 | `defaults` | No | object |  |
 
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

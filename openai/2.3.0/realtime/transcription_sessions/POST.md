@@ -30,7 +30,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[RealtimeTranscriptionSessionCreateRequest](../../_types/RealtimeTranscriptionSessionCreateRequest.md)
+[RealtimeTranscriptionSessionCreateRequest](../../_components/schemas/RealtimeTranscriptionSessionCreateRequest.md)
 
 
 ## Responses
@@ -40,6 +40,6 @@ Supported content types:
 Session created successfully.
 
 #### Response Schema (`application/json`)
-[RealtimeTranscriptionSessionCreateResponse](../../_types/RealtimeTranscriptionSessionCreateResponse.md)
+[RealtimeTranscriptionSessionCreateResponse](../../_components/schemas/RealtimeTranscriptionSessionCreateResponse.md)
 
 

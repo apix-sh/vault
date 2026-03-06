@@ -23,9 +23,9 @@ Otherwise a `404` status code is returned.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `issue-number (unresolved)` | Unknown | [issue-number](../../../../../../../_types/issue-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [issue-number](../../../../../../../_components/parameters/issue-number.md) |  |
 
 
 
@@ -45,6 +45,6 @@ Response if `assignee` can be assigned to `issue_number`
 Response if `assignee` can not be assigned to `issue_number`
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../../../_types/basic-error.md)
+[basic-error](../../../../../../../_components/schemas/basic-error.md)
 
 

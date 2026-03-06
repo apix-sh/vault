@@ -35,8 +35,8 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -52,7 +52,7 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[code-scanning-analysis](../../../../../../_types/code-scanning-analysis.md)
+[code-scanning-analysis](../../../../../../_components/schemas/code-scanning-analysis.md)
 
 #### Response Schema (`application/sarif+json`)
 *(No object properties found)*
@@ -60,17 +60,17 @@ Response
 
 ### 403
 
-Reference: #/components/responses/code_scanning_forbidden_read
+Reference: [code_scanning_forbidden_read](../../../../../../_components/responses/code_scanning_forbidden_read.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/unprocessable_analysis
+Reference: [unprocessable_analysis](../../../../../../_components/responses/unprocessable_analysis.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../_components/responses/service_unavailable.md)
 

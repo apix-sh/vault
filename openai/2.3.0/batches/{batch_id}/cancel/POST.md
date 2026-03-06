@@ -31,6 +31,6 @@ _(None)_
 Batch is cancelling. Returns the cancelling batch's details.
 
 #### Response Schema (`application/json`)
-[Batch](../../../_types/Batch.md)
+[Batch](../../../_components/schemas/Batch.md)
 
 

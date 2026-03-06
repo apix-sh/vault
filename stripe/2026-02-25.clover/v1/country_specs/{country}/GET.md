@@ -39,7 +39,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[country_spec](../../../_types/country_spec.md)
+[country_spec](../../../_components/schemas/country_spec.md)
 
 
 ### default
@@ -47,6 +47,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

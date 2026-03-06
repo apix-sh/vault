@@ -20,12 +20,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../../_types/direction.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
-| `pagination-before (unresolved)` | Unknown | [pagination-before](../../../../_types/pagination-before.md) |  |
-| `pagination-after (unresolved)` | Unknown | [pagination-after](../../../../_types/pagination-after.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [direction](../../../../_components/parameters/direction.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [pagination-before](../../../../_components/parameters/pagination-before.md) |  |
+| `Reference` | N/A | [pagination-after](../../../../_components/parameters/pagination-after.md) |  |
 | `ref` | No | string | The Git reference for the activities you want to list.
 
 The `ref` for a branch can be formatted either as `refs/heads/BRANCH_NAME` or `BRANCH_NAME`, where `BRANCH_NAME` is the name of your branch.<br/>*Serialization: style=Form* |
@@ -55,12 +55,14 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[activity](../../../../_types/activity.md)>
+array<[activity](../../../../_components/schemas/activity.md)>
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../../_components/responses/validation_failed_simple.md)
 

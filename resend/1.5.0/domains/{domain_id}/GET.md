@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[Domain](../../_types/Domain.md)
+[Domain](../../_components/schemas/Domain.md)
 
 

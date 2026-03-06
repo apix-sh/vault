@@ -40,6 +40,6 @@ _(None)_
 A list of output items for the evaluation run
 
 #### Response Schema (`application/json`)
-[EvalRunOutputItemList](../../../../../_types/EvalRunOutputItemList.md)
+[EvalRunOutputItemList](../../../../../_components/schemas/EvalRunOutputItemList.md)
 
 

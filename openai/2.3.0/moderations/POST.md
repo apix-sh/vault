@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateModerationRequest](../_types/CreateModerationRequest.md)
+[CreateModerationRequest](../_components/schemas/CreateModerationRequest.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateModerationResponse](../_types/CreateModerationResponse.md)
+[CreateModerationResponse](../_components/schemas/CreateModerationResponse.md)
 
 

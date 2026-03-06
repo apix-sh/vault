@@ -39,7 +39,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[climate.product](../../../../_types/climate.product.md)
+[climate.product](../../../../_components/schemas/climate.product.md)
 
 
 ### default
@@ -47,6 +47,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

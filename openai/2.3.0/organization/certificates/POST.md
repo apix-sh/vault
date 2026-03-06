@@ -26,7 +26,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[UploadCertificateRequest](../../_types/UploadCertificateRequest.md)
+[UploadCertificateRequest](../../_components/schemas/UploadCertificateRequest.md)
 
 
 ## Responses
@@ -36,6 +36,6 @@ Supported content types:
 Certificate uploaded successfully.
 
 #### Response Schema (`application/json`)
-[Certificate](../../_types/Certificate.md)
+[Certificate](../../_components/schemas/Certificate.md)
 
 

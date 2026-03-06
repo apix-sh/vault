@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ghsa_id (unresolved)` | Unknown | [ghsa_id](../../_types/ghsa_id.md) |  |
+| `Reference` | N/A | [ghsa_id](../../_components/parameters/ghsa_id.md) |  |
 
 
 
@@ -33,10 +33,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[global-advisory](../../_types/global-advisory.md)
+[global-advisory](../../_components/schemas/global-advisory.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 

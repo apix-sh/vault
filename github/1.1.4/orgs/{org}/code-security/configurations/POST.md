@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 
 
 
@@ -47,9 +47,9 @@ Supported content types:
 | `dependabot_alerts` | No | string | The enablement status of Dependabot alerts |
 | `dependabot_security_updates` | No | string | The enablement status of Dependabot security updates |
 | `dependabot_delegated_alert_dismissal` | No | string | The enablement status of Dependabot delegated alert dismissal. Requires Dependabot alerts to be enabled. |
-| `code_scanning_options` | No | [code-scanning-options](../../../../_types/code-scanning-options.md) |  |
+| `code_scanning_options` | No | [code-scanning-options](../../../../_components/schemas/code-scanning-options.md) |  |
 | `code_scanning_default_setup` | No | string | The enablement status of code scanning default setup |
-| `code_scanning_default_setup_options` | No | [code-scanning-default-setup-options](../../../../_types/code-scanning-default-setup-options.md) |  |
+| `code_scanning_default_setup_options` | No | [code-scanning-default-setup-options](../../../../_components/schemas/code-scanning-default-setup-options.md) |  |
 | `code_scanning_delegated_alert_dismissal` | No | string | The enablement status of code scanning delegated alert dismissal |
 | `secret_protection` | No | string | The enablement status of GitHub Secret Protection features. |
 | `secret_scanning` | No | string | The enablement status of secret scanning |
@@ -72,6 +72,6 @@ Supported content types:
 Successfully created code security configuration
 
 #### Response Schema (`application/json`)
-[code-security-configuration](../../../../_types/code-security-configuration.md)
+[code-security-configuration](../../../../_components/schemas/code-security-configuration.md)
 
 

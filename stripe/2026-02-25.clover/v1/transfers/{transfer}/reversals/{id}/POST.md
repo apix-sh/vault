@@ -43,7 +43,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[transfer_reversal](../../../../../_types/transfer_reversal.md)
+[transfer_reversal](../../../../../_components/schemas/transfer_reversal.md)
 
 
 ### default
@@ -51,6 +51,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../../_types/error.md)
+[error](../../../../../_components/schemas/error.md)
 
 

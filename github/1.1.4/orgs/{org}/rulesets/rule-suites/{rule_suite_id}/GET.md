@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `rule-suite-id (unresolved)` | Unknown | [rule-suite-id](../../../../../_types/rule-suite-id.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [rule-suite-id](../../../../../_components/parameters/rule-suite-id.md) |  |
 
 
 
@@ -35,14 +35,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[rule-suite](../../../../../_types/rule-suite.md)
+[rule-suite](../../../../../_components/schemas/rule-suite.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 

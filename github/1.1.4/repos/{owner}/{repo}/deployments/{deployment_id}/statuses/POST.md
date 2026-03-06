@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `deployment-id (unresolved)` | Unknown | [deployment-id](../../../../../../_types/deployment-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [deployment-id](../../../../../../_components/parameters/deployment-id.md) |  |
 
 
 
@@ -57,11 +57,13 @@ Response
 | :--- | :------: | :--- | :---------- |
 
 | `Location` | No | string |  |
+
+
 #### Response Schema (`application/json`)
-[deployment-status](../../../../../../_types/deployment-status.md)
+[deployment-status](../../../../../../_components/schemas/deployment-status.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 

@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `repository-id (unresolved)` | Unknown | [repository-id](../../../../../../_types/repository-id.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [repository-id](../../../../../../_components/parameters/repository-id.md) |  |
 
 
 

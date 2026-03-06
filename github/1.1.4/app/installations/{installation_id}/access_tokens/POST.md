@@ -23,7 +23,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `installation-id (unresolved)` | Unknown | [installation-id](../../../../_types/installation-id.md) |  |
+| `Reference` | N/A | [installation-id](../../../../_components/parameters/installation-id.md) |  |
 
 
 
@@ -37,7 +37,7 @@ Supported content types:
 | :--- | :---: | :--- | :--- |
 | `repositories` | No | array<string> | List of repository names that the token should have access to |
 | `repository_ids` | No | array<integer> | List of repository IDs that the token should have access to |
-| `permissions` | No | [app-permissions](../../../../_types/app-permissions.md) |  |
+| `permissions` | No | [app-permissions](../../../../_components/schemas/app-permissions.md) |  |
 
 
 ## Responses
@@ -47,22 +47,22 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[installation-token](../../../../_types/installation-token.md)
+[installation-token](../../../../_components/schemas/installation-token.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

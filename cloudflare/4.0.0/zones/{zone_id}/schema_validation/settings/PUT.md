@@ -1,0 +1,39 @@
+---
+method: "PUT"
+url: "https://api.cloudflare.com/client/v4/zones/{zone_id}/schema_validation/settings"
+auth: "bearer | apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key)"
+content_type: "application/json"
+---
+
+# Update global schema validation settings
+
+Fully updates global schema validation settings for a zone, replacing existing configuration.
+
+## Path Parameters
+
+_(None)_
+
+
+## Query Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `Reference` | N/A | [api-shield_zone_id](../../../../_components/parameters/api-shield_zone_id.md) |  |
+
+
+
+## Request Body
+
+[api-shield_global_settings_update](../../../../_components/requestBodies/api-shield_global_settings_update.md)
+
+
+## Responses
+
+### 200
+
+Reference: [api-shield_global_settings_update_success](../../../../_components/responses/api-shield_global_settings_update_success.md)
+
+### 4xx
+
+Reference: [api-shield_generic_failure](../../../../_components/responses/api-shield_generic_failure.md)
+

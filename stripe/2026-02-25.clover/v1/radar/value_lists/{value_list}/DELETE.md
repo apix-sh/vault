@@ -37,7 +37,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[deleted_radar.value_list](../../../../_types/deleted_radar.value_list.md)
+[deleted_radar.value_list](../../../../_components/schemas/deleted_radar.value_list.md)
 
 
 ### default
@@ -45,6 +45,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

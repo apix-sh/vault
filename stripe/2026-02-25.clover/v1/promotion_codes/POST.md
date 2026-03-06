@@ -48,7 +48,7 @@ If left blank, we will generate one automatically. |
 Successful response.
 
 #### Response Schema (`application/json`)
-[promotion_code](../../_types/promotion_code.md)
+[promotion_code](../../_components/schemas/promotion_code.md)
 
 
 ### default
@@ -56,6 +56,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../_types/error.md)
+[error](../../_components/schemas/error.md)
 
 

@@ -44,7 +44,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[funding_instructions](../../../../_types/funding_instructions.md)
+[funding_instructions](../../../../_components/schemas/funding_instructions.md)
 
 
 ### default
@@ -52,6 +52,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

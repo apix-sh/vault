@@ -33,6 +33,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[package](../../../_types/package.md)>
+array<[package](../../../_components/schemas/package.md)>
 
 

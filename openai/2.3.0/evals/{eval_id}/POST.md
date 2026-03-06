@@ -29,7 +29,7 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `name` | No | string | Rename the evaluation. |
-| `metadata` | No | [Metadata](../../_types/Metadata.md) |  |
+| `metadata` | No | [Metadata](../../_components/schemas/Metadata.md) |  |
 
 
 ## Responses
@@ -39,6 +39,6 @@ Supported content types:
 The updated evaluation
 
 #### Response Schema (`application/json`)
-[Eval](../../_types/Eval.md)
+[Eval](../../_components/schemas/Eval.md)
 
 

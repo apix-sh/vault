@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateDomainRequest](../_types/CreateDomainRequest.md)
+[CreateDomainRequest](../_components/schemas/CreateDomainRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateDomainResponse](../_types/CreateDomainResponse.md)
+[CreateDomainResponse](../_components/schemas/CreateDomainResponse.md)
 
 

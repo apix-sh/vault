@@ -19,13 +19,13 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `alert-number (unresolved)` | Unknown | [alert-number](../../../../../../../_types/alert-number.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../../_types/per-page.md) |  |
-| `git-ref (unresolved)` | Unknown | [git-ref](../../../../../../../_types/git-ref.md) |  |
-| `pr-alias (unresolved)` | Unknown | [pr-alias](../../../../../../../_types/pr-alias.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [alert-number](../../../../../../../_components/parameters/alert-number.md) |  |
+| `Reference` | N/A | [page](../../../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [git-ref](../../../../../../../_components/parameters/git-ref.md) |  |
+| `Reference` | N/A | [pr-alias](../../../../../../../_components/parameters/pr-alias.md) |  |
 
 
 
@@ -41,18 +41,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[code-scanning-alert-instance-list](../../../../../../../_types/code-scanning-alert-instance-list.md)>
+array<[code-scanning-alert-instance-list](../../../../../../../_components/schemas/code-scanning-alert-instance-list.md)>
 
 
 ### 403
 
-Reference: #/components/responses/code_scanning_forbidden_read
+Reference: [code_scanning_forbidden_read](../../../../../../../_components/responses/code_scanning_forbidden_read.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../../_components/responses/not_found.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../../_components/responses/service_unavailable.md)
 

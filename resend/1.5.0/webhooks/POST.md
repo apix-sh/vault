@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateWebhookRequest](../_types/CreateWebhookRequest.md)
+[CreateWebhookRequest](../_components/schemas/CreateWebhookRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 Created
 
 #### Response Schema (`application/json`)
-[CreateWebhookResponse](../_types/CreateWebhookResponse.md)
+[CreateWebhookResponse](../_components/schemas/CreateWebhookResponse.md)
 
 

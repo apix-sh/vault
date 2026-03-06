@@ -34,10 +34,10 @@ _(None)_
 successful operation
 
 #### Response Schema (`application/json`)
-array<[Pet](../../_types/Pet.md)>
+array<[Pet](../../_components/schemas/Pet.md)>
 
 #### Response Schema (`application/xml`)
-array<[Pet](../../_types/Pet.md)>
+array<[Pet](../../_components/schemas/Pet.md)>
 
 
 ### 400

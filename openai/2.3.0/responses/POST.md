@@ -30,7 +30,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateResponse](../_types/CreateResponse.md)
+[CreateResponse](../_components/schemas/CreateResponse.md)
 
 
 ## Responses
@@ -40,9 +40,9 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[Response](../_types/Response.md)
+[Response](../_components/schemas/Response.md)
 
 #### Response Schema (`text/event-stream`)
-[ResponseStreamEvent](../_types/ResponseStreamEvent.md)
+[ResponseStreamEvent](../_components/schemas/ResponseStreamEvent.md)
 
 

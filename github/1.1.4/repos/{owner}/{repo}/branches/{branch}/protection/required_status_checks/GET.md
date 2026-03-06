@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `branch (unresolved)` | Unknown | [branch](../../../../../../../_types/branch.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [branch](../../../../../../../_components/parameters/branch.md) |  |
 
 
 
@@ -35,10 +35,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[status-check-policy](../../../../../../../_types/status-check-policy.md)
+[status-check-policy](../../../../../../../_components/schemas/status-check-policy.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../../_components/responses/not_found.md)
 

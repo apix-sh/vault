@@ -22,9 +22,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `runner-id (unresolved)` | Unknown | [runner-id](../../../../../../../_types/runner-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [runner-id](../../../../../../../_components/parameters/runner-id.md) |  |
 
 
 
@@ -43,13 +43,13 @@ Supported content types:
 
 ### 200
 
-Reference: #/components/responses/actions_runner_labels
+Reference: [actions_runner_labels](../../../../../../../_components/responses/actions_runner_labels.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../../../../../_components/responses/validation_failed_simple.md)
 

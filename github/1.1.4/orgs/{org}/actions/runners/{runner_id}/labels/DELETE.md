@@ -22,8 +22,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `runner-id (unresolved)` | Unknown | [runner-id](../../../../../../_types/runner-id.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [runner-id](../../../../../../_components/parameters/runner-id.md) |  |
 
 
 
@@ -36,9 +36,9 @@ _(None)_
 
 ### 200
 
-Reference: #/components/responses/actions_runner_labels_readonly
+Reference: [actions_runner_labels_readonly](../../../../../../_components/responses/actions_runner_labels_readonly.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

@@ -45,22 +45,22 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[migration](../../_types/migration.md)
+[migration](../../_components/schemas/migration.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
 

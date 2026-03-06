@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../_types/enterprise.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../_types/page.md) |  |
+| `Reference` | N/A | [enterprise](../../../_components/parameters/enterprise.md) |  |
+| `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
 
 
 
@@ -39,12 +39,14 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[enterprise-team](../../../_types/enterprise-team.md)>
+array<[enterprise-team](../../../_components/schemas/enterprise-team.md)>
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 

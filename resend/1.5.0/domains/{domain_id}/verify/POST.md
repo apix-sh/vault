@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[VerifyDomainResponse](../../../_types/VerifyDomainResponse.md)
+[VerifyDomainResponse](../../../_components/schemas/VerifyDomainResponse.md)
 
 

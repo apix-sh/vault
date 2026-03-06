@@ -20,7 +20,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 
 
 
@@ -49,14 +49,14 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[organization-invitation](../../../_types/organization-invitation.md)
+[organization-invitation](../../../_components/schemas/organization-invitation.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 

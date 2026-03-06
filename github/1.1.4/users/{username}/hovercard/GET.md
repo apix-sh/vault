@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username (unresolved)` | Unknown | [username](../../../_types/username.md) |  |
+| `Reference` | N/A | [username](../../../_components/parameters/username.md) |  |
 | `subject_type` | No | string | Identifies which additional information you'd like to receive about the person's hovercard. Can be `organization`, `repository`, `issue`, `pull_request`. **Required** when using `subject_id`.<br/>*Serialization: style=Form* |
 | `subject_id` | No | string | Uses the ID for the `subject_type` you specified. **Required** when using `subject_type`.<br/>*Serialization: style=Form* |
 
@@ -39,14 +39,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[hovercard](../../../_types/hovercard.md)
+[hovercard](../../../_components/schemas/hovercard.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

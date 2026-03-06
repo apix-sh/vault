@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../_types/environment-name.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../_components/parameters/environment-name.md) |  |
 
 
 
@@ -31,7 +31,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[deployment-branch-policy-name-pattern-with-type](../../../../../../_types/deployment-branch-policy-name-pattern-with-type.md)
+[deployment-branch-policy-name-pattern-with-type](../../../../../../_components/schemas/deployment-branch-policy-name-pattern-with-type.md)
 
 
 ## Responses
@@ -41,7 +41,7 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[deployment-branch-policy](../../../../../../_types/deployment-branch-policy.md)
+[deployment-branch-policy](../../../../../../_components/schemas/deployment-branch-policy.md)
 
 
 ### 404

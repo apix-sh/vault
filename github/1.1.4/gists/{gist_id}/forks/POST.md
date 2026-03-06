@@ -15,7 +15,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `gist-id (unresolved)` | Unknown | [gist-id](../../../_types/gist-id.md) |  |
+| `Reference` | N/A | [gist-id](../../../_components/parameters/gist-id.md) |  |
 
 
 
@@ -36,23 +36,25 @@ Response
 | :--- | :------: | :--- | :---------- |
 
 | `Location` | No | string |  |
+
+
 #### Response Schema (`application/json`)
-[base-gist](../../../_types/base-gist.md)
+[base-gist](../../../_components/schemas/base-gist.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 

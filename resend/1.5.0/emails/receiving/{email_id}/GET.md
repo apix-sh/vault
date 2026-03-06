@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[GetReceivedEmailResponse](../../../_types/GetReceivedEmailResponse.md)
+[GetReceivedEmailResponse](../../../_components/schemas/GetReceivedEmailResponse.md)
 
 

@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -34,6 +34,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[codespaces-public-key](../../../../../_types/codespaces-public-key.md)
+[codespaces-public-key](../../../../../_components/schemas/codespaces-public-key.md)
 
 

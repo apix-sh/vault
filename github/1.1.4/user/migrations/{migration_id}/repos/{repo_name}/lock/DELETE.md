@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `migration-id (unresolved)` | Unknown | [migration-id](../../../../../../_types/migration-id.md) |  |
-| `repo-name (unresolved)` | Unknown | [repo-name](../../../../../../_types/repo-name.md) |  |
+| `Reference` | N/A | [migration-id](../../../../../../_components/parameters/migration-id.md) |  |
+| `Reference` | N/A | [repo-name](../../../../../../_components/parameters/repo-name.md) |  |
 
 
 
@@ -35,17 +35,17 @@ Response
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../../_components/responses/not_modified.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../../_components/responses/requires_authentication.md)
 

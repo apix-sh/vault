@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `network-configuration-id (unresolved)` | Unknown | [network-configuration-id](../../../../../_types/network-configuration-id.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [network-configuration-id](../../../../../_components/parameters/network-configuration-id.md) |  |
 
 
 
@@ -40,8 +40,10 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-[network-configuration](../../../../../_types/network-configuration.md)
+[network-configuration](../../../../../_components/schemas/network-configuration.md)
 
 

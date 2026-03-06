@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../../../../_types/org.md) |  |
-| `actions-custom-image-definition-id (unresolved)` | Unknown | [actions-custom-image-definition-id](../../../../../../../../../_types/actions-custom-image-definition-id.md) |  |
-| `actions-custom-image-version (unresolved)` | Unknown | [actions-custom-image-version](../../../../../../../../../_types/actions-custom-image-version.md) |  |
+| `Reference` | N/A | [org](../../../../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [actions-custom-image-definition-id](../../../../../../../../../_components/parameters/actions-custom-image-definition-id.md) |  |
+| `Reference` | N/A | [actions-custom-image-version](../../../../../../../../../_components/parameters/actions-custom-image-version.md) |  |
 
 
 

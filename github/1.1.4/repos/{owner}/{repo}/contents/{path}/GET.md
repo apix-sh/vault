@@ -43,8 +43,8 @@ string and the `encoding` field will be `"none"`. To get the contents of these l
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 | `ref` | No | string | The name of the commit/branch/tag. Default: the repository’s default branch.<br/>*Serialization: style=Form* |
 
 
@@ -64,7 +64,7 @@ No schema provided for `application/json`.
 Response
 
 #### Response Schema (`application/vnd.github.object`)
-[content-tree](../../../../../_types/content-tree.md)
+[content-tree](../../../../../_components/schemas/content-tree.md)
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
@@ -72,17 +72,17 @@ Response
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 302
 
-Reference: #/components/responses/found
+Reference: [found](../../../../../_components/responses/found.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 

@@ -23,8 +23,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../../../_types/enterprise.md) |  |
-| `configuration-id (unresolved)` | Unknown | [configuration-id](../../../../../../_types/configuration-id.md) |  |
+| `Reference` | N/A | [enterprise](../../../../../../_components/parameters/enterprise.md) |  |
+| `Reference` | N/A | [configuration-id](../../../../../../_components/parameters/configuration-id.md) |  |
 
 
 
@@ -49,14 +49,14 @@ Default successfully changed.
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `default_for_new_repos` | No | string | Specifies which types of repository this security configuration is applied to by default. |
-| `configuration` | No | [code-security-configuration](../../../../../../_types/code-security-configuration.md) |  |
+| `configuration` | No | [code-security-configuration](../../../../../../_components/schemas/code-security-configuration.md) |  |
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

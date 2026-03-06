@@ -31,6 +31,6 @@ _(None)_
 Project retrieved successfully.
 
 #### Response Schema (`application/json`)
-[Project](../../../_types/Project.md)
+[Project](../../../_components/schemas/Project.md)
 
 

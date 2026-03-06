@@ -36,5 +36,5 @@ Response
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 

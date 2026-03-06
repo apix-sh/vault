@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `delivery-id (unresolved)` | Unknown | [delivery-id](../../../../_types/delivery-id.md) |  |
+| `Reference` | N/A | [delivery-id](../../../../_components/parameters/delivery-id.md) |  |
 
 
 
@@ -35,14 +35,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[hook-delivery](../../../../_types/hook-delivery.md)
+[hook-delivery](../../../../_components/schemas/hook-delivery.md)
 
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../_components/responses/bad_request.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

@@ -37,6 +37,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[DeleteFineTuningCheckpointPermissionResponse](../../../../../_types/DeleteFineTuningCheckpointPermissionResponse.md)
+[DeleteFineTuningCheckpointPermissionResponse](../../../../../_components/schemas/DeleteFineTuningCheckpointPermissionResponse.md)
 
 

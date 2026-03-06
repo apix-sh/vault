@@ -19,11 +19,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `package-type (unresolved)` | Unknown | [package-type](../../../../../../_types/package-type.md) |  |
-| `package-name (unresolved)` | Unknown | [package-name](../../../../../../_types/package-name.md) |  |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../_types/per-page.md) |  |
+| `Reference` | N/A | [package-type](../../../../../../_components/parameters/package-type.md) |  |
+| `Reference` | N/A | [package-name](../../../../../../_components/parameters/package-name.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [page](../../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../_components/parameters/per-page.md) |  |
 | `state` | No | string | The state of the package, either active or deleted.<br/>*Serialization: style=Form* |
 
 
@@ -40,18 +40,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[package-version](../../../../../../_types/package-version.md)>
+array<[package-version](../../../../../../_components/schemas/package-version.md)>
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../../_components/responses/requires_authentication.md)
 

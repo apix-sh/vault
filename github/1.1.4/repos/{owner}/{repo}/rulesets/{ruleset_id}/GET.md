@@ -22,8 +22,8 @@ making the API request has write access to the ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 | `includes_parents` | No | boolean | Include rulesets configured at higher levels that apply to this repository<br/>*Serialization: style=Form* |
 
 
@@ -40,14 +40,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[repository-ruleset](../../../../../_types/repository-ruleset.md)
+[repository-ruleset](../../../../../_components/schemas/repository-ruleset.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 

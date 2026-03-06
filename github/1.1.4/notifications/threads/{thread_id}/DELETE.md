@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `thread-id (unresolved)` | Unknown | [thread-id](../../../_types/thread-id.md) |  |
+| `Reference` | N/A | [thread-id](../../../_components/parameters/thread-id.md) |  |
 
 
 

@@ -21,23 +21,23 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `dependabot-alert-comma-separated-states (unresolved)` | Unknown | [dependabot-alert-comma-separated-states](../../../../_types/dependabot-alert-comma-separated-states.md) |  |
-| `dependabot-alert-comma-separated-severities (unresolved)` | Unknown | [dependabot-alert-comma-separated-severities](../../../../_types/dependabot-alert-comma-separated-severities.md) |  |
-| `dependabot-alert-comma-separated-ecosystems (unresolved)` | Unknown | [dependabot-alert-comma-separated-ecosystems](../../../../_types/dependabot-alert-comma-separated-ecosystems.md) |  |
-| `dependabot-alert-comma-separated-packages (unresolved)` | Unknown | [dependabot-alert-comma-separated-packages](../../../../_types/dependabot-alert-comma-separated-packages.md) |  |
-| `dependabot-alert-comma-separated-epss (unresolved)` | Unknown | [dependabot-alert-comma-separated-epss](../../../../_types/dependabot-alert-comma-separated-epss.md) |  |
-| `dependabot-alert-comma-separated-artifact-registry-urls (unresolved)` | Unknown | [dependabot-alert-comma-separated-artifact-registry-urls](../../../../_types/dependabot-alert-comma-separated-artifact-registry-urls.md) |  |
-| `dependabot-alert-comma-separated-artifact-registry (unresolved)` | Unknown | [dependabot-alert-comma-separated-artifact-registry](../../../../_types/dependabot-alert-comma-separated-artifact-registry.md) |  |
-| `dependabot-alert-org-scope-comma-separated-has (unresolved)` | Unknown | [dependabot-alert-org-scope-comma-separated-has](../../../../_types/dependabot-alert-org-scope-comma-separated-has.md) |  |
-| `dependabot-alert-comma-separated-assignees (unresolved)` | Unknown | [dependabot-alert-comma-separated-assignees](../../../../_types/dependabot-alert-comma-separated-assignees.md) |  |
-| `dependabot-alert-comma-separated-runtime-risk (unresolved)` | Unknown | [dependabot-alert-comma-separated-runtime-risk](../../../../_types/dependabot-alert-comma-separated-runtime-risk.md) |  |
-| `dependabot-alert-scope (unresolved)` | Unknown | [dependabot-alert-scope](../../../../_types/dependabot-alert-scope.md) |  |
-| `dependabot-alert-sort (unresolved)` | Unknown | [dependabot-alert-sort](../../../../_types/dependabot-alert-sort.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../../_types/direction.md) |  |
-| `pagination-before (unresolved)` | Unknown | [pagination-before](../../../../_types/pagination-before.md) |  |
-| `pagination-after (unresolved)` | Unknown | [pagination-after](../../../../_types/pagination-after.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [dependabot-alert-comma-separated-states](../../../../_components/parameters/dependabot-alert-comma-separated-states.md) |  |
+| `Reference` | N/A | [dependabot-alert-comma-separated-severities](../../../../_components/parameters/dependabot-alert-comma-separated-severities.md) |  |
+| `Reference` | N/A | [dependabot-alert-comma-separated-ecosystems](../../../../_components/parameters/dependabot-alert-comma-separated-ecosystems.md) |  |
+| `Reference` | N/A | [dependabot-alert-comma-separated-packages](../../../../_components/parameters/dependabot-alert-comma-separated-packages.md) |  |
+| `Reference` | N/A | [dependabot-alert-comma-separated-epss](../../../../_components/parameters/dependabot-alert-comma-separated-epss.md) |  |
+| `Reference` | N/A | [dependabot-alert-comma-separated-artifact-registry-urls](../../../../_components/parameters/dependabot-alert-comma-separated-artifact-registry-urls.md) |  |
+| `Reference` | N/A | [dependabot-alert-comma-separated-artifact-registry](../../../../_components/parameters/dependabot-alert-comma-separated-artifact-registry.md) |  |
+| `Reference` | N/A | [dependabot-alert-org-scope-comma-separated-has](../../../../_components/parameters/dependabot-alert-org-scope-comma-separated-has.md) |  |
+| `Reference` | N/A | [dependabot-alert-comma-separated-assignees](../../../../_components/parameters/dependabot-alert-comma-separated-assignees.md) |  |
+| `Reference` | N/A | [dependabot-alert-comma-separated-runtime-risk](../../../../_components/parameters/dependabot-alert-comma-separated-runtime-risk.md) |  |
+| `Reference` | N/A | [dependabot-alert-scope](../../../../_components/parameters/dependabot-alert-scope.md) |  |
+| `Reference` | N/A | [dependabot-alert-sort](../../../../_components/parameters/dependabot-alert-sort.md) |  |
+| `Reference` | N/A | [direction](../../../../_components/parameters/direction.md) |  |
+| `Reference` | N/A | [pagination-before](../../../../_components/parameters/pagination-before.md) |  |
+| `Reference` | N/A | [pagination-after](../../../../_components/parameters/pagination-after.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
 
 
 
@@ -53,26 +53,26 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[dependabot-alert-with-repository](../../../../_types/dependabot-alert-with-repository.md)>
+array<[dependabot-alert-with-repository](../../../../_components/schemas/dependabot-alert-with-repository.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../_components/responses/bad_request.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../../_components/responses/validation_failed_simple.md)
 

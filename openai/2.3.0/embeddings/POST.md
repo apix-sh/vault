@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateEmbeddingRequest](../_types/CreateEmbeddingRequest.md)
+[CreateEmbeddingRequest](../_components/schemas/CreateEmbeddingRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateEmbeddingResponse](../_types/CreateEmbeddingResponse.md)
+[CreateEmbeddingResponse](../_components/schemas/CreateEmbeddingResponse.md)
 
 

@@ -20,7 +20,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 
 
 
@@ -49,14 +49,14 @@ Supported content types:
 The organization private registry configuration
 
 #### Response Schema (`application/json`)
-[org-private-registry-configuration-with-selected-repositories](../../../_types/org-private-registry-configuration-with-selected-repositories.md)
+[org-private-registry-configuration-with-selected-repositories](../../../_components/schemas/org-private-registry-configuration-with-selected-repositories.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

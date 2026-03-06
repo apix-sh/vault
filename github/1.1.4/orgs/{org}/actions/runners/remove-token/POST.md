@@ -27,7 +27,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -43,6 +43,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[authentication-token](../../../../../_types/authentication-token.md)
+[authentication-token](../../../../../_components/schemas/authentication-token.md)
 
 

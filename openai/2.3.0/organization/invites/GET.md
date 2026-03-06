@@ -34,6 +34,6 @@ _(None)_
 Invites listed successfully.
 
 #### Response Schema (`application/json`)
-[InviteListResponse](../../_types/InviteListResponse.md)
+[InviteListResponse](../../_components/schemas/InviteListResponse.md)
 
 

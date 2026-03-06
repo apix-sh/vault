@@ -25,8 +25,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -51,10 +51,10 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[import](../../../../_types/import.md)
+[import](../../../../_components/schemas/import.md)
 
 
 ### 503
 
-Reference: #/components/responses/porter_maintenance
+Reference: [porter_maintenance](../../../../_components/responses/porter_maintenance.md)
 

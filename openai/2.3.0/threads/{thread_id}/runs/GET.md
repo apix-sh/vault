@@ -40,6 +40,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListRunsResponse](../../../_types/ListRunsResponse.md)
+[ListRunsResponse](../../../_components/schemas/ListRunsResponse.md)
 
 

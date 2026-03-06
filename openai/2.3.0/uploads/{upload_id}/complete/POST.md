@@ -33,7 +33,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CompleteUploadRequest](../../../_types/CompleteUploadRequest.md)
+[CompleteUploadRequest](../../../_components/schemas/CompleteUploadRequest.md)
 
 
 ## Responses
@@ -43,6 +43,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[Upload](../../../_types/Upload.md)
+[Upload](../../../_components/schemas/Upload.md)
 
 

@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -34,6 +34,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[language](../../../../_types/language.md)
+[language](../../../../_components/schemas/language.md)
 
 

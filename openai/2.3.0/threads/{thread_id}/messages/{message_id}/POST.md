@@ -26,7 +26,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ModifyMessageRequest](../../../../_types/ModifyMessageRequest.md)
+[ModifyMessageRequest](../../../../_components/schemas/ModifyMessageRequest.md)
 
 
 ## Responses
@@ -36,6 +36,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[MessageObject](../../../../_types/MessageObject.md)
+[MessageObject](../../../../_components/schemas/MessageObject.md)
 
 

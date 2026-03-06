@@ -22,9 +22,9 @@ OAuth tokens and personal access tokens (classic) need the `repo` scope to use t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `artifact-id (unresolved)` | Unknown | [artifact-id](../../../../../../../_types/artifact-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [artifact-id](../../../../../../../_components/parameters/artifact-id.md) |  |
 
 
 
@@ -44,8 +44,10 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Location (ref)` | Unknown | [location](../../../../../../../_types/location.md) |  |
+| `Location (ref)` | Unknown | [location](../../../../../../../_components/headers/location.md) |  |
+
+
 ### 410
 
-Reference: #/components/responses/gone
+Reference: [gone](../../../../../../../_components/responses/gone.md)
 

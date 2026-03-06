@@ -39,7 +39,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[financial_connections.session](../../../../_types/financial_connections.session.md)
+[financial_connections.session](../../../../_components/schemas/financial_connections.session.md)
 
 
 ### default
@@ -47,6 +47,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

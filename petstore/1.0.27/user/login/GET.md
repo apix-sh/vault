@@ -40,6 +40,8 @@ successful operation
 
 | `X-Rate-Limit` | No | integer | calls per hour allowed by the user |
 | `X-Expires-After` | No | string | date in UTC when token expires |
+
+
 #### Response Schema (`application/xml`)
 *(No object properties found)*
 

@@ -24,11 +24,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `commit-ref (unresolved)` | Unknown | [commit-ref](../../../../../../_types/commit-ref.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../_types/page.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [commit-ref](../../../../../../_components/parameters/commit-ref.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -44,10 +44,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[combined-commit-status](../../../../../../_types/combined-commit-status.md)
+[combined-commit-status](../../../../../../_components/schemas/combined-commit-status.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

@@ -44,6 +44,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[feed](../_types/feed.md)
+[feed](../_components/schemas/feed.md)
 
 

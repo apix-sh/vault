@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[GetTopicResponseSuccess](../../_types/GetTopicResponseSuccess.md)
+[GetTopicResponseSuccess](../../_components/schemas/GetTopicResponseSuccess.md)
 
 

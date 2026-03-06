@@ -31,6 +31,6 @@ _(None)_
 User retrieved successfully.
 
 #### Response Schema (`application/json`)
-[User](../../../_types/User.md)
+[User](../../../_components/schemas/User.md)
 
 

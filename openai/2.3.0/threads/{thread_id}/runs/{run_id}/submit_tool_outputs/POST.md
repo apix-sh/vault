@@ -27,7 +27,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[SubmitToolOutputsRunRequest](../../../../../_types/SubmitToolOutputsRunRequest.md)
+[SubmitToolOutputsRunRequest](../../../../../_components/schemas/SubmitToolOutputsRunRequest.md)
 
 
 ## Responses
@@ -37,6 +37,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[RunObject](../../../../../_types/RunObject.md)
+[RunObject](../../../../../_components/schemas/RunObject.md)
 
 

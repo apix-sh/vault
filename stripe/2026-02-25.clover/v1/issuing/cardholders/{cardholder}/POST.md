@@ -49,7 +49,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[issuing.cardholder](../../../../_types/issuing.cardholder.md)
+[issuing.cardholder](../../../../_components/schemas/issuing.cardholder.md)
 
 
 ### default
@@ -57,6 +57,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

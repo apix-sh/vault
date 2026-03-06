@@ -40,7 +40,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[subscription_schedule](../../../../_types/subscription_schedule.md)
+[subscription_schedule](../../../../_components/schemas/subscription_schedule.md)
 
 
 ### default
@@ -48,6 +48,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

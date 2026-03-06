@@ -45,16 +45,16 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 | `sha` | No | string | SHA or branch to start listing commits from. Default: the repository’s default branch (usually `main`).<br/>*Serialization: style=Form* |
 | `path` | No | string | Only commits containing this file path will be returned.<br/>*Serialization: style=Form* |
 | `author` | No | string | GitHub username or email address to use to filter by commit author.<br/>*Serialization: style=Form* |
 | `committer` | No | string | GitHub username or email address to use to filter by commit committer.<br/>*Serialization: style=Form* |
 | `since` | No | string | Only show results that were last updated after the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned.<br/>*Serialization: style=Form* |
 | `until` | No | string | Only commits before this date will be returned. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned.<br/>*Serialization: style=Form* |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../_types/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
 
 
@@ -74,24 +74,26 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[commit](../../../../_types/commit.md)>
+array<[commit](../../../../_components/schemas/commit.md)>
 
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../_components/responses/bad_request.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../_components/responses/conflict.md)
 

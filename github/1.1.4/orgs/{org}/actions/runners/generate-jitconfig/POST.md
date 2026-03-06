@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -43,17 +43,17 @@ Supported content types:
 
 ### 201
 
-Reference: #/components/responses/actions_runner_jitconfig
+Reference: [actions_runner_jitconfig](../../../../../_components/responses/actions_runner_jitconfig.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../../../_components/responses/validation_failed_simple.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../../_components/responses/conflict.md)
 

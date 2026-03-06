@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username (unresolved)` | Unknown | [username](../../../_types/username.md) |  |
+| `Reference` | N/A | [username](../../../_components/parameters/username.md) |  |
 
 
 
@@ -34,17 +34,17 @@ Response
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 

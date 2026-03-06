@@ -24,9 +24,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `security-product (unresolved)` | Unknown | [security-product](../../../../_types/security-product.md) |  |
-| `org-security-product-enablement (unresolved)` | Unknown | [org-security-product-enablement](../../../../_types/org-security-product-enablement.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [security-product](../../../../_components/parameters/security-product.md) |  |
+| `Reference` | N/A | [org-security-product-enablement](../../../../_components/parameters/org-security-product-enablement.md) |  |
 
 
 

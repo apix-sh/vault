@@ -19,10 +19,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `runner-group-id (unresolved)` | Unknown | [runner-group-id](../../../../../../_types/runner-group-id.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../_types/page.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [runner-group-id](../../../../../../_components/parameters/runner-group-id.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -42,11 +42,13 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | number |  |
-| `runners` | Yes | array<[runner](../../../../../../_types/runner.md)> |  |
+| `runners` | Yes | array<[runner](../../../../../../_components/schemas/runner.md)> |  |
 
 

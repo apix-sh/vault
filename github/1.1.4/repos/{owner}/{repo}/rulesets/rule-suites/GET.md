@@ -18,14 +18,14 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `ref-in-query (unresolved)` | Unknown | [ref-in-query](../../../../../_types/ref-in-query.md) |  |
-| `time-period (unresolved)` | Unknown | [time-period](../../../../../_types/time-period.md) |  |
-| `actor-name-in-query (unresolved)` | Unknown | [actor-name-in-query](../../../../../_types/actor-name-in-query.md) |  |
-| `rule-suite-result (unresolved)` | Unknown | [rule-suite-result](../../../../../_types/rule-suite-result.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [ref-in-query](../../../../../_components/parameters/ref-in-query.md) |  |
+| `Reference` | N/A | [time-period](../../../../../_components/parameters/time-period.md) |  |
+| `Reference` | N/A | [actor-name-in-query](../../../../../_components/parameters/actor-name-in-query.md) |  |
+| `Reference` | N/A | [rule-suite-result](../../../../../_components/parameters/rule-suite-result.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -41,14 +41,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[rule-suites](../../../../../_types/rule-suites.md)
+[rule-suites](../../../../../_components/schemas/rule-suites.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 

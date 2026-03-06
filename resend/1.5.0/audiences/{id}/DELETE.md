@@ -33,6 +33,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[RemoveAudienceResponseSuccess](../../_types/RemoveAudienceResponseSuccess.md)
+[RemoveAudienceResponseSuccess](../../_components/schemas/RemoveAudienceResponseSuccess.md)
 
 

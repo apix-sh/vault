@@ -29,10 +29,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `url` | No | [webhook-config-url](../../../_types/webhook-config-url.md) |  |
-| `content_type` | No | [webhook-config-content-type](../../../_types/webhook-config-content-type.md) |  |
-| `secret` | No | [webhook-config-secret](../../../_types/webhook-config-secret.md) |  |
-| `insecure_ssl` | No | [webhook-config-insecure-ssl](../../../_types/webhook-config-insecure-ssl.md) |  |
+| `url` | No | [webhook-config-url](../../../_components/schemas/webhook-config-url.md) |  |
+| `content_type` | No | [webhook-config-content-type](../../../_components/schemas/webhook-config-content-type.md) |  |
+| `secret` | No | [webhook-config-secret](../../../_components/schemas/webhook-config-secret.md) |  |
+| `insecure_ssl` | No | [webhook-config-insecure-ssl](../../../_components/schemas/webhook-config-insecure-ssl.md) |  |
 
 
 ## Responses
@@ -42,6 +42,6 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[webhook-config](../../../_types/webhook-config.md)
+[webhook-config](../../../_components/schemas/webhook-config.md)
 
 

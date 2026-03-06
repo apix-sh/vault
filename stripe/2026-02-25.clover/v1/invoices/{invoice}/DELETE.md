@@ -37,7 +37,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[deleted_invoice](../../../_types/deleted_invoice.md)
+[deleted_invoice](../../../_components/schemas/deleted_invoice.md)
 
 
 ### default
@@ -45,6 +45,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

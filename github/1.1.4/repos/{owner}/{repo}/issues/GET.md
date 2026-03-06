@@ -27,20 +27,20 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 | `milestone` | No | string | If an `integer` is passed, it should refer to a milestone by its `number` field. If the string `*` is passed, issues with any milestone are accepted. If the string `none` is passed, issues without milestones are returned.<br/>*Serialization: style=Form* |
 | `state` | No | string | Indicates the state of the issues to return.<br/>*Serialization: style=Form* |
 | `assignee` | No | string | Can be the name of a user. Pass in `none` for issues with no assigned user, and `*` for issues assigned to any user.<br/>*Serialization: style=Form* |
 | `type` | No | string | Can be the name of an issue type. If the string `*` is passed, issues with any type are accepted. If the string `none` is passed, issues without type are returned.<br/>*Serialization: style=Form* |
 | `creator` | No | string | The user that created the issue.<br/>*Serialization: style=Form* |
 | `mentioned` | No | string | A user that's mentioned in the issue.<br/>*Serialization: style=Form* |
-| `labels (unresolved)` | Unknown | [labels](../../../../_types/labels.md) |  |
+| `Reference` | N/A | [labels](../../../../_components/parameters/labels.md) |  |
 | `sort` | No | string | What to sort results by.<br/>*Serialization: style=Form* |
-| `direction (unresolved)` | Unknown | [direction](../../../../_types/direction.md) |  |
-| `since (unresolved)` | Unknown | [since](../../../../_types/since.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../_types/page.md) |  |
+| `Reference` | N/A | [direction](../../../../_components/parameters/direction.md) |  |
+| `Reference` | N/A | [since](../../../../_components/parameters/since.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
 
 
@@ -60,20 +60,22 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[issue](../../../../_types/issue.md)>
+array<[issue](../../../../_components/schemas/issue.md)>
 
 
 ### 301
 
-Reference: #/components/responses/moved_permanently
+Reference: [moved_permanently](../../../../_components/responses/moved_permanently.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

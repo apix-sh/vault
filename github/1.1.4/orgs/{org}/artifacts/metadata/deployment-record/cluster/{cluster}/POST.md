@@ -22,7 +22,7 @@ If no existing records match, new records will be created.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -50,6 +50,6 @@ Deployment records created or updated successfully.
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | No | integer | The number of deployment records created |
-| `deployment_records` | No | array<[artifact-deployment-record](../../../../../../../_types/artifact-deployment-record.md)> |  |
+| `deployment_records` | No | array<[artifact-deployment-record](../../../../../../../_components/schemas/artifact-deployment-record.md)> |  |
 
 

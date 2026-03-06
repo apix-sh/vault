@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `git-ref-only (unresolved)` | Unknown | [git-ref-only](../../../../../../_types/git-ref-only.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [git-ref-only](../../../../../../_components/parameters/git-ref-only.md) |  |
 
 
 
@@ -40,5 +40,5 @@ Validation failed, an attempt was made to delete the default branch, or the endp
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../../../_components/responses/conflict.md)
 

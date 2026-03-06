@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `hosted-runner-id (unresolved)` | Unknown | [hosted-runner-id](../../../../../_types/hosted-runner-id.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [hosted-runner-id](../../../../../_components/parameters/hosted-runner-id.md) |  |
 
 
 
@@ -40,8 +40,10 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-[actions-hosted-runner](../../../../../_types/actions-hosted-runner.md)
+[actions-hosted-runner](../../../../../_components/schemas/actions-hosted-runner.md)
 
 

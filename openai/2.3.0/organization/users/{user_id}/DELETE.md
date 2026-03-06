@@ -31,6 +31,6 @@ _(None)_
 User deleted successfully.
 
 #### Response Schema (`application/json`)
-[UserDeleteResponse](../../../_types/UserDeleteResponse.md)
+[UserDeleteResponse](../../../_components/schemas/UserDeleteResponse.md)
 
 

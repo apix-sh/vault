@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `dependabot-alert-number (unresolved)` | Unknown | [dependabot-alert-number](../../../../../../_types/dependabot-alert-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [dependabot-alert-number](../../../../../../_components/parameters/dependabot-alert-number.md) |  |
 
 
 
@@ -35,18 +35,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[dependabot-alert](../../../../../../_types/dependabot-alert.md)
+[dependabot-alert](../../../../../../_components/schemas/dependabot-alert.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

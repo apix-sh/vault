@@ -33,14 +33,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[code-of-conduct](../../_types/code-of-conduct.md)
+[code-of-conduct](../../_components/schemas/code-of-conduct.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 

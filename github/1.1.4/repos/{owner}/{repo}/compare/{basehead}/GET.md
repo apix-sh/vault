@@ -69,10 +69,10 @@ These are the possible values for `reason` in the `verification` object:
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
 
 
 
@@ -88,18 +88,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[commit-comparison](../../../../../_types/commit-comparison.md)
+[commit-comparison](../../../../../_components/schemas/commit-comparison.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

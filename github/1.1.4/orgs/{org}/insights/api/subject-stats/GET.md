@@ -17,14 +17,14 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `api-insights-min-timestamp (unresolved)` | Unknown | [api-insights-min-timestamp](../../../../../_types/api-insights-min-timestamp.md) |  |
-| `api-insights-max-timestamp (unresolved)` | Unknown | [api-insights-max-timestamp](../../../../../_types/api-insights-max-timestamp.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../../../_types/direction.md) |  |
-| `api-insights-sort (unresolved)` | Unknown | [api-insights-sort](../../../../../_types/api-insights-sort.md) |  |
-| `api-insights-subject-name-substring (unresolved)` | Unknown | [api-insights-subject-name-substring](../../../../../_types/api-insights-subject-name-substring.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [api-insights-min-timestamp](../../../../../_components/parameters/api-insights-min-timestamp.md) |  |
+| `Reference` | N/A | [api-insights-max-timestamp](../../../../../_components/parameters/api-insights-max-timestamp.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [direction](../../../../../_components/parameters/direction.md) |  |
+| `Reference` | N/A | [api-insights-sort](../../../../../_components/parameters/api-insights-sort.md) |  |
+| `Reference` | N/A | [api-insights-subject-name-substring](../../../../../_components/parameters/api-insights-subject-name-substring.md) |  |
 
 
 
@@ -40,6 +40,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[api-insights-subject-stats](../../../../../_types/api-insights-subject-stats.md)
+[api-insights-subject-stats](../../../../../_components/schemas/api-insights-subject-stats.md)
 
 

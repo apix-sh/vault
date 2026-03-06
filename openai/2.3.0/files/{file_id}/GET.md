@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[OpenAIFile](../../_types/OpenAIFile.md)
+[OpenAIFile](../../_components/schemas/OpenAIFile.md)
 
 

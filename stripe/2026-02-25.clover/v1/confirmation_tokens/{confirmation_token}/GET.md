@@ -39,7 +39,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[confirmation_token](../../../_types/confirmation_token.md)
+[confirmation_token](../../../_components/schemas/confirmation_token.md)
 
 
 ### default
@@ -47,6 +47,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

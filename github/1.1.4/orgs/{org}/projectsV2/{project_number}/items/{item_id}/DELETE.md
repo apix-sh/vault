@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `project-number (unresolved)` | Unknown | [project-number](../../../../../../_types/project-number.md) |  |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `item-id (unresolved)` | Unknown | [item-id](../../../../../../_types/item-id.md) |  |
+| `Reference` | N/A | [project-number](../../../../../../_components/parameters/project-number.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [item-id](../../../../../../_components/parameters/item-id.md) |  |
 
 
 
@@ -36,9 +36,9 @@ Response
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../../_components/responses/requires_authentication.md)
 

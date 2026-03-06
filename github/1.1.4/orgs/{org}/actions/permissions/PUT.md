@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 
 
 
@@ -31,9 +31,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `enabled_repositories` | Yes | [enabled-repositories](../../../../_types/enabled-repositories.md) |  |
-| `allowed_actions` | No | [allowed-actions](../../../../_types/allowed-actions.md) |  |
-| `sha_pinning_required` | No | [sha-pinning-required](../../../../_types/sha-pinning-required.md) |  |
+| `enabled_repositories` | Yes | [enabled-repositories](../../../../_components/schemas/enabled-repositories.md) |  |
+| `allowed_actions` | No | [allowed-actions](../../../../_components/schemas/allowed-actions.md) |  |
+| `sha_pinning_required` | No | [sha-pinning-required](../../../../_components/schemas/sha-pinning-required.md) |  |
 
 
 ## Responses

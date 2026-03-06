@@ -31,6 +31,6 @@ _(None)_
 Invite retrieved successfully.
 
 #### Response Schema (`application/json`)
-[Invite](../../../_types/Invite.md)
+[Invite](../../../_components/schemas/Invite.md)
 
 

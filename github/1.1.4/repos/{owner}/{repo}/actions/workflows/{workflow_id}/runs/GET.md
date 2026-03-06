@@ -23,19 +23,19 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `workflow-id (unresolved)` | Unknown | [workflow-id](../../../../../../../_types/workflow-id.md) |  |
-| `actor (unresolved)` | Unknown | [actor](../../../../../../../_types/actor.md) |  |
-| `workflow-run-branch (unresolved)` | Unknown | [workflow-run-branch](../../../../../../../_types/workflow-run-branch.md) |  |
-| `event (unresolved)` | Unknown | [event](../../../../../../../_types/event.md) |  |
-| `workflow-run-status (unresolved)` | Unknown | [workflow-run-status](../../../../../../../_types/workflow-run-status.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../../_types/page.md) |  |
-| `created (unresolved)` | Unknown | [created](../../../../../../../_types/created.md) |  |
-| `exclude-pull-requests (unresolved)` | Unknown | [exclude-pull-requests](../../../../../../../_types/exclude-pull-requests.md) |  |
-| `workflow-run-check-suite-id (unresolved)` | Unknown | [workflow-run-check-suite-id](../../../../../../../_types/workflow-run-check-suite-id.md) |  |
-| `workflow-run-head-sha (unresolved)` | Unknown | [workflow-run-head-sha](../../../../../../../_types/workflow-run-head-sha.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [workflow-id](../../../../../../../_components/parameters/workflow-id.md) |  |
+| `Reference` | N/A | [actor](../../../../../../../_components/parameters/actor.md) |  |
+| `Reference` | N/A | [workflow-run-branch](../../../../../../../_components/parameters/workflow-run-branch.md) |  |
+| `Reference` | N/A | [event](../../../../../../../_components/parameters/event.md) |  |
+| `Reference` | N/A | [workflow-run-status](../../../../../../../_components/parameters/workflow-run-status.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [created](../../../../../../../_components/parameters/created.md) |  |
+| `Reference` | N/A | [exclude-pull-requests](../../../../../../../_components/parameters/exclude-pull-requests.md) |  |
+| `Reference` | N/A | [workflow-run-check-suite-id](../../../../../../../_components/parameters/workflow-run-check-suite-id.md) |  |
+| `Reference` | N/A | [workflow-run-head-sha](../../../../../../../_components/parameters/workflow-run-head-sha.md) |  |
 
 
 
@@ -55,11 +55,13 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
-| `workflow_runs` | Yes | array<[workflow-run](../../../../../../../_types/workflow-run.md)> |  |
+| `workflow_runs` | Yes | array<[workflow-run](../../../../../../../_components/schemas/workflow-run.md)> |  |
 
 

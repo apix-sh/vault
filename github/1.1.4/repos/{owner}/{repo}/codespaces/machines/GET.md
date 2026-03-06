@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 | `location` | No | string | The location to check for available machines. Assigned by IP if not provided.<br/>*Serialization: style=Form* |
 | `client_ip` | No | string | IP for location auto-detection when proxying a request<br/>*Serialization: style=Form* |
 | `ref` | No | string | The branch or commit to check for prebuild availability and devcontainer restrictions.<br/>*Serialization: style=Form* |
@@ -42,26 +42,26 @@ Response
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
-| `machines` | Yes | array<[codespace-machine](../../../../../_types/codespace-machine.md)> |  |
+| `machines` | Yes | array<[codespace-machine](../../../../../_components/schemas/codespace-machine.md)> |  |
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

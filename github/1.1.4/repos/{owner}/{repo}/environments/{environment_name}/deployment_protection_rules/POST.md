@@ -23,9 +23,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../_types/environment-name.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../_components/parameters/environment-name.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
 
 
 
@@ -47,6 +47,6 @@ Supported content types:
 The enabled custom deployment protection rule
 
 #### Response Schema (`application/json`)
-[deployment-protection-rule](../../../../../../_types/deployment-protection-rule.md)
+[deployment-protection-rule](../../../../../../_components/schemas/deployment-protection-rule.md)
 
 

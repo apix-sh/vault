@@ -32,6 +32,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[RunObject](../../../../../_types/RunObject.md)
+[RunObject](../../../../../_components/schemas/RunObject.md)
 
 

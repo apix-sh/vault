@@ -32,6 +32,6 @@ _(None)_
 Certificate deleted successfully.
 
 #### Response Schema (`application/json`)
-[DeleteCertificateResponse](../../../_types/DeleteCertificateResponse.md)
+[DeleteCertificateResponse](../../../_components/schemas/DeleteCertificateResponse.md)
 
 

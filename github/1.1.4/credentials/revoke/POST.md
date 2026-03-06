@@ -46,13 +46,13 @@ Supported content types:
 
 ### 202
 
-Reference: #/components/responses/accepted
+Reference: [accepted](../../_components/responses/accepted.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../_components/responses/validation_failed_simple.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../_components/responses/internal_error.md)
 

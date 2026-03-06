@@ -26,8 +26,8 @@ This endpoint supports the following custom media types. For more information, s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -43,22 +43,22 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[blob](../../../../../../_types/blob.md)
+[blob](../../../../../../_components/schemas/blob.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../../../_components/responses/conflict.md)
 

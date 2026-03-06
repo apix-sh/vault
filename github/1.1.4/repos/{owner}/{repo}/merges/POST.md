@@ -15,8 +15,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -40,7 +40,7 @@ Supported content types:
 Successful Response (The resulting merge commit)
 
 #### Response Schema (`application/json`)
-[commit](../../../../_types/commit.md)
+[commit](../../../../_components/schemas/commit.md)
 
 
 ### 204
@@ -57,9 +57,9 @@ Conflict when there is a merge conflict
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

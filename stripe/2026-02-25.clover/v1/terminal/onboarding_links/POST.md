@@ -40,7 +40,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[terminal.onboarding_link](../../../_types/terminal.onboarding_link.md)
+[terminal.onboarding_link](../../../_components/schemas/terminal.onboarding_link.md)
 
 
 ### default
@@ -48,6 +48,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

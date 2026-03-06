@@ -22,9 +22,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `check-suite-id (unresolved)` | Unknown | [check-suite-id](../../../../../_types/check-suite-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [check-suite-id](../../../../../_components/parameters/check-suite-id.md) |  |
 
 
 
@@ -40,6 +40,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[check-suite](../../../../../_types/check-suite.md)
+[check-suite](../../../../../_components/schemas/check-suite.md)
 
 

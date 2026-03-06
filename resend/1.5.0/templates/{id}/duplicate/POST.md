@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[DuplicateTemplateResponseSuccess](../../../_types/DuplicateTemplateResponseSuccess.md)
+[DuplicateTemplateResponseSuccess](../../../_components/schemas/DuplicateTemplateResponseSuccess.md)
 
 

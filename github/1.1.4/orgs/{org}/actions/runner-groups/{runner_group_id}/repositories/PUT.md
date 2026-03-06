@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `runner-group-id (unresolved)` | Unknown | [runner-group-id](../../../../../../_types/runner-group-id.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [runner-group-id](../../../../../../_components/parameters/runner-group-id.md) |  |
 
 
 

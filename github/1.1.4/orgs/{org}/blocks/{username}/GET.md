@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../_types/username.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [username](../../../../_components/parameters/username.md) |  |
 
 
 
@@ -38,6 +38,6 @@ If the user is blocked
 If the user is not blocked
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../_types/basic-error.md)
+[basic-error](../../../../_components/schemas/basic-error.md)
 
 

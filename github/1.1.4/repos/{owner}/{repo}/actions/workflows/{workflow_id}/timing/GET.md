@@ -26,9 +26,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `workflow-id (unresolved)` | Unknown | [workflow-id](../../../../../../../_types/workflow-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [workflow-id](../../../../../../../_components/parameters/workflow-id.md) |  |
 
 
 
@@ -44,6 +44,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[workflow-usage](../../../../../../../_types/workflow-usage.md)
+[workflow-usage](../../../../../../../_components/schemas/workflow-usage.md)
 
 

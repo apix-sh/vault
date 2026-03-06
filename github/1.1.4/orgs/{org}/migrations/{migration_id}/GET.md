@@ -24,8 +24,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `migration-id (unresolved)` | Unknown | [migration-id](../../../../_types/migration-id.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [migration-id](../../../../_components/parameters/migration-id.md) |  |
 | `exclude` | No | array<string> | Exclude attributes from the API response to improve performance<br/>*Serialization: style=Form* |
 
 
@@ -45,10 +45,10 @@ _(None)_
 *   `failed`, which means the migration failed.
 
 #### Response Schema (`application/json`)
-[migration](../../../../_types/migration.md)
+[migration](../../../../_components/schemas/migration.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

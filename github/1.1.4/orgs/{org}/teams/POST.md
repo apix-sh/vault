@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 
 
 
@@ -58,14 +58,14 @@ Default: `notifications_enabled` |
 Response
 
 #### Response Schema (`application/json`)
-[team-full](../../../_types/team-full.md)
+[team-full](../../../_components/schemas/team-full.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 

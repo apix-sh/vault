@@ -64,8 +64,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -95,7 +95,7 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[deployment](../../../../_types/deployment.md)
+[deployment](../../../../_components/schemas/deployment.md)
 
 
 ### 202
@@ -114,5 +114,5 @@ Conflict when there is a merge conflict or the commit's status checks failed
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

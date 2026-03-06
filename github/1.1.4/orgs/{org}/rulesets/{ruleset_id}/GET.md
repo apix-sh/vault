@@ -22,7 +22,7 @@ making the API request has write access to the ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 
 
 
@@ -38,14 +38,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[repository-ruleset](../../../../_types/repository-ruleset.md)
+[repository-ruleset](../../../../_components/schemas/repository-ruleset.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 

@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[Model](../../_types/Model.md)
+[Model](../../_components/schemas/Model.md)
 
 

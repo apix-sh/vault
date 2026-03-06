@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 | `page` | No | integer | The page number of the results to fetch.<br/>*Serialization: style=Form* |
 | `per_page` | No | integer | The number of results per page (max 10).<br/>*Serialization: style=Form* |
 | `scope` | No | string | Filter budgets by scope type.<br/>*Serialization: style=Form* |
@@ -37,17 +37,17 @@ _(None)_
 
 ### 200
 
-Reference: #/components/responses/get_all_budgets
+Reference: [get_all_budgets](../../../../../_components/responses/get_all_budgets.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 

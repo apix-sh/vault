@@ -18,7 +18,7 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `model` | No | string | The model used to generate the Chat Completions.<br/>*Serialization: style=Form* |
-| `metadata` | No | [Metadata](../../_types/Metadata.md) | A list of metadata keys to filter the Chat Completions by. Example:
+| `metadata` | No | [Metadata](../../_components/schemas/Metadata.md) | A list of metadata keys to filter the Chat Completions by. Example:
 
 `metadata[key1]=value1&metadata[key2]=value2`
 <br/>*Serialization: style=Form* |
@@ -40,6 +40,6 @@ _(None)_
 A list of Chat Completions
 
 #### Response Schema (`application/json`)
-[ChatCompletionList](../../_types/ChatCompletionList.md)
+[ChatCompletionList](../../_components/schemas/ChatCompletionList.md)
 
 

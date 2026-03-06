@@ -39,7 +39,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[treasury.financial_account_features](../../../../../_types/treasury.financial_account_features.md)
+[treasury.financial_account_features](../../../../../_components/schemas/treasury.financial_account_features.md)
 
 
 ### default
@@ -47,6 +47,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../../_types/error.md)
+[error](../../../../../_components/schemas/error.md)
 
 

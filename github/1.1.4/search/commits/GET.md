@@ -26,9 +26,9 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `q` | Yes | string | The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). See "[Searching commits](https://docs.github.com/search-github/searching-on-github/searching-commits)" for a detailed list of qualifiers.<br/>*Serialization: style=Form* |
 | `sort` | No | string | Sorts the results of your query by `author-date` or `committer-date`. Default: [best match](https://docs.github.com/rest/search/search#ranking-search-results)<br/>*Serialization: style=Form* |
-| `order (unresolved)` | Unknown | [order](../../_types/order.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../_types/page.md) |  |
+| `Reference` | N/A | [order](../../_components/parameters/order.md) |  |
+| `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
 
 
 
@@ -48,10 +48,10 @@ Response
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
 | `incomplete_results` | Yes | boolean |  |
-| `items` | Yes | array<[commit-search-result-item](../../_types/commit-search-result-item.md)> |  |
+| `items` | Yes | array<[commit-search-result-item](../../_components/schemas/commit-search-result-item.md)> |  |
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 

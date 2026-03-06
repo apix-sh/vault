@@ -40,7 +40,7 @@ Supported content types:
 successful operation
 
 #### Response Schema (`application/json`)
-[ApiResponse](../../../_types/ApiResponse.md)
+[ApiResponse](../../../_components/schemas/ApiResponse.md)
 
 
 ### 400

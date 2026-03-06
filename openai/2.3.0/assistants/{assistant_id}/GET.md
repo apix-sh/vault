@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[AssistantObject](../../_types/AssistantObject.md)
+[AssistantObject](../../_components/schemas/AssistantObject.md)
 
 

@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `assignment-id (unresolved)` | Unknown | [assignment-id](../../_types/assignment-id.md) |  |
+| `Reference` | N/A | [assignment-id](../../_components/parameters/assignment-id.md) |  |
 
 
 
@@ -33,10 +33,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[classroom-assignment](../../_types/classroom-assignment.md)
+[classroom-assignment](../../_components/schemas/classroom-assignment.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 

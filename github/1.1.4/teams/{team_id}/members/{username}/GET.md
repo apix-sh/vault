@@ -21,8 +21,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `team-id (unresolved)` | Unknown | [team-id](../../../../_types/team-id.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../_types/username.md) |  |
+| `Reference` | N/A | [team-id](../../../../_components/parameters/team-id.md) |  |
+| `Reference` | N/A | [username](../../../../_components/parameters/username.md) |  |
 
 
 

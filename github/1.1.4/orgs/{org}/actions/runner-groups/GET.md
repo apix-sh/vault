@@ -19,10 +19,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../_types/page.md) |  |
-| `visible-to-repository (unresolved)` | Unknown | [visible-to-repository](../../../../_types/visible-to-repository.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [visible-to-repository](../../../../_components/parameters/visible-to-repository.md) |  |
 
 
 
@@ -41,6 +41,6 @@ Response
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | number |  |
-| `runner_groups` | Yes | array<[runner-groups-org](../../../../_types/runner-groups-org.md)> |  |
+| `runner_groups` | Yes | array<[runner-groups-org](../../../../_components/schemas/runner-groups-org.md)> |  |
 
 

@@ -1,0 +1,13 @@
+---
+type: "string"
+---
+
+# zones_content_converter_value
+
+
+Value of the zone setting.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

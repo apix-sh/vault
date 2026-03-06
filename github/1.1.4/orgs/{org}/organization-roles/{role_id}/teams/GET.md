@@ -21,10 +21,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `role-id (unresolved)` | Unknown | [role-id](../../../../../_types/role-id.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [role-id](../../../../../_components/parameters/role-id.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -44,9 +44,11 @@ Response - List of assigned teams
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[team-role-assignment](../../../../../_types/team-role-assignment.md)>
+array<[team-role-assignment](../../../../../_components/schemas/team-role-assignment.md)>
 
 
 ### 404

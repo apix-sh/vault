@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../../../_types/enterprise.md) |  |
-| `enterprise-team (unresolved)` | Unknown | [enterprise-team](../../../../../../_types/enterprise-team.md) |  |
+| `Reference` | N/A | [enterprise](../../../../../../_components/parameters/enterprise.md) |  |
+| `Reference` | N/A | [enterprise-team](../../../../../../_components/parameters/enterprise-team.md) |  |
 
 
 
@@ -40,6 +40,6 @@ Supported content types:
 Successfully removed team members.
 
 #### Response Schema (`application/json`)
-array<[simple-user](../../../../../../_types/simple-user.md)>
+array<[simple-user](../../../../../../_components/schemas/simple-user.md)>
 
 

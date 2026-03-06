@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ModifyAssistantRequest](../../_types/ModifyAssistantRequest.md)
+[ModifyAssistantRequest](../../_components/schemas/ModifyAssistantRequest.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[AssistantObject](../../_types/AssistantObject.md)
+[AssistantObject](../../_components/schemas/AssistantObject.md)
 
 

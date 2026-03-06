@@ -30,7 +30,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `metadata` | Yes | [Metadata](../../../_types/Metadata.md) |  |
+| `metadata` | Yes | [Metadata](../../../_components/schemas/Metadata.md) |  |
 
 
 ## Responses
@@ -40,6 +40,6 @@ Supported content types:
 A chat completion
 
 #### Response Schema (`application/json`)
-[CreateChatCompletionResponse](../../../_types/CreateChatCompletionResponse.md)
+[CreateChatCompletionResponse](../../../_components/schemas/CreateChatCompletionResponse.md)
 
 

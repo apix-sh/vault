@@ -33,6 +33,6 @@ _(None)_
 The canceled eval run object
 
 #### Response Schema (`application/json`)
-[EvalRun](../../../../_types/EvalRun.md)
+[EvalRun](../../../../_components/schemas/EvalRun.md)
 
 

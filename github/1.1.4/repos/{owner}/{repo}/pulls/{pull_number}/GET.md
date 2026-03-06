@@ -39,9 +39,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `pull-number (unresolved)` | Unknown | [pull-number](../../../../../_types/pull-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [pull-number](../../../../../_components/parameters/pull-number.md) |  |
 
 
 
@@ -57,26 +57,26 @@ _(None)_
 Pass the appropriate [media type](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types) to fetch diff and patch formats.
 
 #### Response Schema (`application/json`)
-[pull-request](../../../../../_types/pull-request.md)
+[pull-request](../../../../../_components/schemas/pull-request.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 406
 
-Reference: #/components/responses/unacceptable
+Reference: [unacceptable](../../../../../_components/responses/unacceptable.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

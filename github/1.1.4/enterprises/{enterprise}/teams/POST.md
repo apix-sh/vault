@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../_types/enterprise.md) |  |
+| `Reference` | N/A | [enterprise](../../../_components/parameters/enterprise.md) |  |
 
 
 
@@ -50,6 +50,6 @@ This value cannot be set.
 Response
 
 #### Response Schema (`application/json`)
-[enterprise-team](../../../_types/enterprise-team.md)
+[enterprise-team](../../../_components/schemas/enterprise-team.md)
 
 

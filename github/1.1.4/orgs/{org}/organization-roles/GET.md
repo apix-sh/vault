@@ -24,7 +24,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 
 
 
@@ -43,14 +43,14 @@ Response - list of organization roles
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | No | integer | The total number of organization roles available to the organization. |
-| `roles` | No | array<[organization-role](../../../_types/organization-role.md)> | The list of organization roles available to the organization. |
+| `roles` | No | array<[organization-role](../../../_components/schemas/organization-role.md)> | The list of organization roles available to the organization. |
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

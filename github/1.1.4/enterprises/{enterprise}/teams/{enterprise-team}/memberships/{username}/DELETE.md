@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../../../_types/enterprise.md) |  |
-| `enterprise-team (unresolved)` | Unknown | [enterprise-team](../../../../../../_types/enterprise-team.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../../../_types/username.md) |  |
+| `Reference` | N/A | [enterprise](../../../../../../_components/parameters/enterprise.md) |  |
+| `Reference` | N/A | [enterprise-team](../../../../../../_components/parameters/enterprise-team.md) |  |
+| `Reference` | N/A | [username](../../../../../../_components/parameters/username.md) |  |
 
 
 
@@ -36,5 +36,5 @@ Response
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 

@@ -41,7 +41,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[radar.early_fraud_warning](../../../../_types/radar.early_fraud_warning.md)
+[radar.early_fraud_warning](../../../../_components/schemas/radar.early_fraud_warning.md)
 
 
 ### default
@@ -49,6 +49,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

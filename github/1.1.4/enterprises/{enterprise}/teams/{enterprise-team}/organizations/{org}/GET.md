@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../../../_types/enterprise.md) |  |
-| `enterprise-team (unresolved)` | Unknown | [enterprise-team](../../../../../../_types/enterprise-team.md) |  |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
+| `Reference` | N/A | [enterprise](../../../../../../_components/parameters/enterprise.md) |  |
+| `Reference` | N/A | [enterprise-team](../../../../../../_components/parameters/enterprise-team.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -35,7 +35,7 @@ _(None)_
 The team is assigned to the organization
 
 #### Response Schema (`application/json`)
-[organization-simple](../../../../../../_types/organization-simple.md)
+[organization-simple](../../../../../../_components/schemas/organization-simple.md)
 
 
 ### 404

@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[RemoveContactPropertyResponseSuccess](../../_types/RemoveContactPropertyResponseSuccess.md)
+[RemoveContactPropertyResponseSuccess](../../_components/schemas/RemoveContactPropertyResponseSuccess.md)
 
 

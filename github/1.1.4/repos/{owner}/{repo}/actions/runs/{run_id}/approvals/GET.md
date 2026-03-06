@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `run-id (unresolved)` | Unknown | [run-id](../../../../../../../_types/run-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [run-id](../../../../../../../_components/parameters/run-id.md) |  |
 
 
 
@@ -37,6 +37,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[environment-approvals](../../../../../../../_types/environment-approvals.md)>
+array<[environment-approvals](../../../../../../../_components/schemas/environment-approvals.md)>
 
 

@@ -40,7 +40,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[source_transaction](../../../../../_types/source_transaction.md)
+[source_transaction](../../../../../_components/schemas/source_transaction.md)
 
 
 ### default
@@ -48,6 +48,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../../_types/error.md)
+[error](../../../../../_components/schemas/error.md)
 
 

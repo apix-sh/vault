@@ -32,7 +32,7 @@ Supported content types:
 - `multipart/form-data`
 
 ### Inline Request Schema (`multipart/form-data`)
-[CreateFileRequest](../_types/CreateFileRequest.md)
+[CreateFileRequest](../_components/schemas/CreateFileRequest.md)
 
 
 ## Responses
@@ -42,6 +42,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[OpenAIFile](../_types/OpenAIFile.md)
+[OpenAIFile](../_components/schemas/OpenAIFile.md)
 
 

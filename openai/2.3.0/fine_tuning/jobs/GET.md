@@ -35,6 +35,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListPaginatedFineTuningJobsResponse](../../_types/ListPaginatedFineTuningJobsResponse.md)
+[ListPaginatedFineTuningJobsResponse](../../_components/schemas/ListPaginatedFineTuningJobsResponse.md)
 
 

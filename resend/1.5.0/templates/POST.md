@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateTemplateRequest](../_types/CreateTemplateRequest.md)
+[CreateTemplateRequest](../_components/schemas/CreateTemplateRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateTemplateResponseSuccess](../_types/CreateTemplateResponseSuccess.md)
+[CreateTemplateResponseSuccess](../_components/schemas/CreateTemplateResponseSuccess.md)
 
 

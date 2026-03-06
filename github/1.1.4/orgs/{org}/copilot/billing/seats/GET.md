@@ -26,8 +26,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 | `per_page` | No | integer | The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."<br/>*Serialization: style=Form* |
 
 
@@ -48,27 +48,29 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_seats` | No | integer | Total number of Copilot seats for the organization currently being billed. |
-| `seats` | No | array<[copilot-seat-details](../../../../../_types/copilot-seat-details.md)> |  |
+| `seats` | No | array<[copilot-seat-details](../../../../../_components/schemas/copilot-seat-details.md)> |  |
 
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

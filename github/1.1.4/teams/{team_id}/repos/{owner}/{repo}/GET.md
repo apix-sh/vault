@@ -23,9 +23,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `team-id (unresolved)` | Unknown | [team-id](../../../../../_types/team-id.md) |  |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [team-id](../../../../../_components/parameters/team-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -41,7 +41,7 @@ _(None)_
 Alternative response with extra repository information
 
 #### Response Schema (`application/json`)
-[team-repository](../../../../../_types/team-repository.md)
+[team-repository](../../../../../_components/schemas/team-repository.md)
 
 
 ### 204

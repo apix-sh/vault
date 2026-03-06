@@ -20,8 +20,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -33,7 +33,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `properties` | Yes | array<[custom-property-value](../../../../../_types/custom-property-value.md)> | A list of custom property names and associated values to apply to the repositories. |
+| `properties` | Yes | array<[custom-property-value](../../../../../_components/schemas/custom-property-value.md)> | A list of custom property names and associated values to apply to the repositories. |
 
 
 ## Responses
@@ -44,13 +44,13 @@ No Content when custom property values are successfully created or updated
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 

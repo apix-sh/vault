@@ -17,12 +17,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../../_types/org.md) |  |
-| `api-insights-actor-type (unresolved)` | Unknown | [api-insights-actor-type](../../../../../../../_types/api-insights-actor-type.md) |  |
-| `api-insights-actor-id (unresolved)` | Unknown | [api-insights-actor-id](../../../../../../../_types/api-insights-actor-id.md) |  |
-| `api-insights-min-timestamp (unresolved)` | Unknown | [api-insights-min-timestamp](../../../../../../../_types/api-insights-min-timestamp.md) |  |
-| `api-insights-max-timestamp (unresolved)` | Unknown | [api-insights-max-timestamp](../../../../../../../_types/api-insights-max-timestamp.md) |  |
-| `api-insights-timestamp-increment (unresolved)` | Unknown | [api-insights-timestamp-increment](../../../../../../../_types/api-insights-timestamp-increment.md) |  |
+| `Reference` | N/A | [org](../../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [api-insights-actor-type](../../../../../../../_components/parameters/api-insights-actor-type.md) |  |
+| `Reference` | N/A | [api-insights-actor-id](../../../../../../../_components/parameters/api-insights-actor-id.md) |  |
+| `Reference` | N/A | [api-insights-min-timestamp](../../../../../../../_components/parameters/api-insights-min-timestamp.md) |  |
+| `Reference` | N/A | [api-insights-max-timestamp](../../../../../../../_components/parameters/api-insights-max-timestamp.md) |  |
+| `Reference` | N/A | [api-insights-timestamp-increment](../../../../../../../_components/parameters/api-insights-timestamp-increment.md) |  |
 
 
 
@@ -38,6 +38,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[api-insights-time-stats](../../../../../../../_types/api-insights-time-stats.md)
+[api-insights-time-stats](../../../../../../../_components/schemas/api-insights-time-stats.md)
 
 

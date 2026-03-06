@@ -36,6 +36,6 @@ _(None)_
 Certificates listed successfully.
 
 #### Response Schema (`application/json`)
-[ListCertificatesResponse](../../../../_types/ListCertificatesResponse.md)
+[ListCertificatesResponse](../../../../_components/schemas/ListCertificatesResponse.md)
 
 

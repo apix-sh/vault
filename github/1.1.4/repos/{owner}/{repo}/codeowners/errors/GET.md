@@ -21,8 +21,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 | `ref` | No | string | A branch, tag or commit name used to determine which version of the CODEOWNERS file to use. Default: the repository's default branch (e.g. `main`)<br/>*Serialization: style=Form* |
 
 
@@ -39,7 +39,7 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[codeowners-errors](../../../../../_types/codeowners-errors.md)
+[codeowners-errors](../../../../../_components/schemas/codeowners-errors.md)
 
 
 ### 404

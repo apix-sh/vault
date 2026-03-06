@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 
 
 
@@ -31,10 +31,10 @@ Supported content types:
 | :--- | :---: | :--- | :--- |
 | `name` | Yes | string | The name of the ruleset. |
 | `target` | No | string | The target of the ruleset |
-| `enforcement` | Yes | [repository-rule-enforcement](../../../_types/repository-rule-enforcement.md) |  |
-| `bypass_actors` | No | array<[repository-ruleset-bypass-actor](../../../_types/repository-ruleset-bypass-actor.md)> | The actors that can bypass the rules in this ruleset |
-| `conditions` | No | [org-ruleset-conditions](../../../_types/org-ruleset-conditions.md) |  |
-| `rules` | No | array<[org-rules](../../../_types/org-rules.md)> | An array of rules within the ruleset. |
+| `enforcement` | Yes | [repository-rule-enforcement](../../../_components/schemas/repository-rule-enforcement.md) |  |
+| `bypass_actors` | No | array<[repository-ruleset-bypass-actor](../../../_components/schemas/repository-ruleset-bypass-actor.md)> | The actors that can bypass the rules in this ruleset |
+| `conditions` | No | [org-ruleset-conditions](../../../_components/schemas/org-ruleset-conditions.md) |  |
+| `rules` | No | array<[org-rules](../../../_components/schemas/org-rules.md)> | An array of rules within the ruleset. |
 
 
 ## Responses
@@ -44,18 +44,18 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[repository-ruleset](../../../_types/repository-ruleset.md)
+[repository-ruleset](../../../_components/schemas/repository-ruleset.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../_components/responses/internal_error.md)
 

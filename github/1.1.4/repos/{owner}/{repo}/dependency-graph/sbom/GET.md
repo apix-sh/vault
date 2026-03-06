@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -38,16 +38,18 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-[dependency-graph-spdx-sbom](../../../../../_types/dependency-graph-spdx-sbom.md)
+[dependency-graph-spdx-sbom](../../../../../_components/schemas/dependency-graph-spdx-sbom.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 

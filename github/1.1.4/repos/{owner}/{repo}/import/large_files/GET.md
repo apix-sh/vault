@@ -20,8 +20,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -37,10 +37,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[porter-large-file](../../../../../_types/porter-large-file.md)>
+array<[porter-large-file](../../../../../_components/schemas/porter-large-file.md)>
 
 
 ### 503
 
-Reference: #/components/responses/porter_maintenance
+Reference: [porter_maintenance](../../../../../_components/responses/porter_maintenance.md)
 

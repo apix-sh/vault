@@ -36,7 +36,7 @@ _(None)_
 Project service accounts listed successfully.
 
 #### Response Schema (`application/json`)
-[ProjectServiceAccountListResponse](../../../../_types/ProjectServiceAccountListResponse.md)
+[ProjectServiceAccountListResponse](../../../../_components/schemas/ProjectServiceAccountListResponse.md)
 
 
 ### 400
@@ -44,6 +44,6 @@ Project service accounts listed successfully.
 Error response when project is archived.
 
 #### Response Schema (`application/json`)
-[ErrorResponse](../../../../_types/ErrorResponse.md)
+[ErrorResponse](../../../../_components/schemas/ErrorResponse.md)
 
 

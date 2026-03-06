@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../../_types/enterprise.md) |  |
+| `Reference` | N/A | [enterprise](../../../../../_components/parameters/enterprise.md) |  |
 
 
 
@@ -37,6 +37,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[code-security-default-configurations](../../../../../_types/code-security-default-configurations.md)
+[code-security-default-configurations](../../../../../_components/schemas/code-security-default-configurations.md)
 
 

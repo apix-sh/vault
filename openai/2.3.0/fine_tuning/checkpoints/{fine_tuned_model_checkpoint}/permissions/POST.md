@@ -29,7 +29,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateFineTuningCheckpointPermissionRequest](../../../../_types/CreateFineTuningCheckpointPermissionRequest.md)
+[CreateFineTuningCheckpointPermissionRequest](../../../../_components/schemas/CreateFineTuningCheckpointPermissionRequest.md)
 
 
 ## Responses
@@ -39,6 +39,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[ListFineTuningCheckpointPermissionResponse](../../../../_types/ListFineTuningCheckpointPermissionResponse.md)
+[ListFineTuningCheckpointPermissionResponse](../../../../_components/schemas/ListFineTuningCheckpointPermissionResponse.md)
 
 

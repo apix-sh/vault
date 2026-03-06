@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[DeleteWebhookResponse](../../_types/DeleteWebhookResponse.md)
+[DeleteWebhookResponse](../../_components/schemas/DeleteWebhookResponse.md)
 
 

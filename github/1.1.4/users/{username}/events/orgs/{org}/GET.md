@@ -20,10 +20,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username (unresolved)` | Unknown | [username](../../../../../_types/username.md) |  |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
+| `Reference` | N/A | [username](../../../../../_components/parameters/username.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -39,6 +39,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[event](../../../../../_types/event.md)>
+array<[event](../../../../../_components/schemas/event.md)>
 
 

@@ -21,8 +21,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -32,7 +32,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[actions-workflow-access-to-repository](../../../../../../_types/actions-workflow-access-to-repository.md)
+[actions-workflow-access-to-repository](../../../../../../_components/schemas/actions-workflow-access-to-repository.md)
 
 
 ## Responses

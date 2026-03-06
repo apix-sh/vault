@@ -37,6 +37,6 @@ _(None)_
 A list of runs for the evaluation
 
 #### Response Schema (`application/json`)
-[EvalRunList](../../../_types/EvalRunList.md)
+[EvalRunList](../../../_components/schemas/EvalRunList.md)
 
 

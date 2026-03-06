@@ -21,9 +21,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `package-type (unresolved)` | Unknown | [package-type](../../../../../_types/package-type.md) |  |
-| `package-name (unresolved)` | Unknown | [package-name](../../../../../_types/package-name.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../../_types/username.md) |  |
+| `Reference` | N/A | [package-type](../../../../../_components/parameters/package-type.md) |  |
+| `Reference` | N/A | [package-name](../../../../../_components/parameters/package-name.md) |  |
+| `Reference` | N/A | [username](../../../../../_components/parameters/username.md) |  |
 
 
 
@@ -40,13 +40,13 @@ Response
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
 

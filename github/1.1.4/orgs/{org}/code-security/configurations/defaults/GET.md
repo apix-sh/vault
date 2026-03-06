@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -37,18 +37,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[code-security-default-configurations](../../../../../_types/code-security-default-configurations.md)
+[code-security-default-configurations](../../../../../_components/schemas/code-security-default-configurations.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

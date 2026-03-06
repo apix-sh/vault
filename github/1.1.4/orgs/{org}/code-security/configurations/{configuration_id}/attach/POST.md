@@ -23,8 +23,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `configuration-id (unresolved)` | Unknown | [configuration-id](../../../../../../_types/configuration-id.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [configuration-id](../../../../../../_components/parameters/configuration-id.md) |  |
 
 
 
@@ -44,5 +44,5 @@ Supported content types:
 
 ### 202
 
-Reference: #/components/responses/accepted
+Reference: [accepted](../../../../../../_components/responses/accepted.md)
 

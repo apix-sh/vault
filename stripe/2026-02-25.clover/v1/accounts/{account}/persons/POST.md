@@ -67,7 +67,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[person](../../../../_types/person.md)
+[person](../../../../_components/schemas/person.md)
 
 
 ### default
@@ -75,6 +75,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

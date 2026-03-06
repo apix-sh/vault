@@ -32,6 +32,6 @@ _(None)_
 Project service account retrieved successfully.
 
 #### Response Schema (`application/json`)
-[ProjectServiceAccount](../../../../../_types/ProjectServiceAccount.md)
+[ProjectServiceAccount](../../../../../_components/schemas/ProjectServiceAccount.md)
 
 

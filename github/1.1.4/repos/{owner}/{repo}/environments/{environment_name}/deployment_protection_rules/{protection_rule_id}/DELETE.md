@@ -21,10 +21,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../../_types/environment-name.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `protection-rule-id (unresolved)` | Unknown | [protection-rule-id](../../../../../../../_types/protection-rule-id.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../../_components/parameters/environment-name.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [protection-rule-id](../../../../../../../_components/parameters/protection-rule-id.md) |  |
 
 
 

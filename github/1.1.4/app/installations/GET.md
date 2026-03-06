@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `per-page (unresolved)` | Unknown | [per-page](../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../_types/page.md) |  |
-| `since (unresolved)` | Unknown | [since](../../_types/since.md) |  |
+| `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [since](../../_components/parameters/since.md) |  |
 | `outdated` | No | string | *Serialization: style=Form* |
 
 
@@ -42,8 +42,10 @@ The permissions the installation has are included under the `permissions` key.
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[installation](../../_types/installation.md)>
+array<[installation](../../_components/schemas/installation.md)>
 
 

@@ -23,20 +23,20 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `tool-name (unresolved)` | Unknown | [tool-name](../../../../../_types/tool-name.md) |  |
-| `tool-guid (unresolved)` | Unknown | [tool-guid](../../../../../_types/tool-guid.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
-| `git-ref (unresolved)` | Unknown | [git-ref](../../../../../_types/git-ref.md) |  |
-| `pr-alias (unresolved)` | Unknown | [pr-alias](../../../../../_types/pr-alias.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../../../_types/direction.md) |  |
-| `pagination-before (unresolved)` | Unknown | [pagination-before](../../../../../_types/pagination-before.md) |  |
-| `pagination-after (unresolved)` | Unknown | [pagination-after](../../../../../_types/pagination-after.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [tool-name](../../../../../_components/parameters/tool-name.md) |  |
+| `Reference` | N/A | [tool-guid](../../../../../_components/parameters/tool-guid.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [git-ref](../../../../../_components/parameters/git-ref.md) |  |
+| `Reference` | N/A | [pr-alias](../../../../../_components/parameters/pr-alias.md) |  |
+| `Reference` | N/A | [direction](../../../../../_components/parameters/direction.md) |  |
+| `Reference` | N/A | [pagination-before](../../../../../_components/parameters/pagination-before.md) |  |
+| `Reference` | N/A | [pagination-after](../../../../../_components/parameters/pagination-after.md) |  |
 | `sort` | No | string | The property by which to sort the results.<br/>*Serialization: style=Form* |
-| `state` | No | [code-scanning-alert-state-query](../../../../../_types/code-scanning-alert-state-query.md) | If specified, only code scanning alerts with this state will be returned.<br/>*Serialization: style=Form* |
-| `severity` | No | [code-scanning-alert-severity](../../../../../_types/code-scanning-alert-severity.md) | If specified, only code scanning alerts with this severity will be returned.<br/>*Serialization: style=Form* |
+| `state` | No | [code-scanning-alert-state-query](../../../../../_components/schemas/code-scanning-alert-state-query.md) | If specified, only code scanning alerts with this state will be returned.<br/>*Serialization: style=Form* |
+| `severity` | No | [code-scanning-alert-severity](../../../../../_components/schemas/code-scanning-alert-severity.md) | If specified, only code scanning alerts with this severity will be returned.<br/>*Serialization: style=Form* |
 | `assignees` | No | string | Filter alerts by assignees. Provide a comma-separated list of user handles (e.g., `octocat` or `octocat,hubot`).
 Use `*` to list alerts with at least one assignee or `none` to list alerts with no assignees.
 <br/>*Serialization: style=Form* |
@@ -55,22 +55,22 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[code-scanning-alert-items](../../../../../_types/code-scanning-alert-items.md)>
+array<[code-scanning-alert-items](../../../../../_components/schemas/code-scanning-alert-items.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/code_scanning_forbidden_read
+Reference: [code_scanning_forbidden_read](../../../../../_components/responses/code_scanning_forbidden_read.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

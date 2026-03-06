@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `comment-id (unresolved)` | Unknown | [comment-id](../../../../../../_types/comment-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [comment-id](../../../../../../_components/parameters/comment-id.md) |  |
 
 
 
@@ -41,7 +41,7 @@ Supported content types:
 Reaction exists
 
 #### Response Schema (`application/json`)
-[reaction](../../../../../../_types/reaction.md)
+[reaction](../../../../../../_components/schemas/reaction.md)
 
 
 ### 201
@@ -49,10 +49,10 @@ Reaction exists
 Reaction created
 
 #### Response Schema (`application/json`)
-[reaction](../../../../../../_types/reaction.md)
+[reaction](../../../../../../_components/schemas/reaction.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 

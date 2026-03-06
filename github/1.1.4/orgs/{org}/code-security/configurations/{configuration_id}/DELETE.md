@@ -23,8 +23,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `configuration-id (unresolved)` | Unknown | [configuration-id](../../../../../_types/configuration-id.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [configuration-id](../../../../../_components/parameters/configuration-id.md) |  |
 
 
 
@@ -37,21 +37,21 @@ _(None)_
 
 ### 204
 
-Reference: #/components/responses/no_content
+Reference: [no_content](../../../../../_components/responses/no_content.md)
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../../_components/responses/bad_request.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../../_components/responses/conflict.md)
 

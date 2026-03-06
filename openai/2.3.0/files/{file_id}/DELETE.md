@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[DeleteFileResponse](../../_types/DeleteFileResponse.md)
+[DeleteFileResponse](../../_components/schemas/DeleteFileResponse.md)
 
 

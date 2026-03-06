@@ -24,9 +24,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `comment-id (unresolved)` | Unknown | [comment-id](../../../../../../_types/comment-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [comment-id](../../../../../../_components/parameters/comment-id.md) |  |
 
 
 
@@ -48,6 +48,6 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[pull-request-review-comment](../../../../../../_types/pull-request-review-comment.md)
+[pull-request-review-comment](../../../../../../_components/schemas/pull-request-review-comment.md)
 
 

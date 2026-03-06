@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -40,6 +40,6 @@ Response
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | number |  |
-| `repositories` | Yes | array<[repository](../../../../../_types/repository.md)> |  |
+| `repositories` | Yes | array<[repository](../../../../../_components/schemas/repository.md)> |  |
 
 

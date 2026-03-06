@@ -21,12 +21,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../../_types/direction.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [direction](../../../../_components/parameters/direction.md) |  |
 | `sort` | No | string | The property to sort the results by.<br/>*Serialization: style=Form* |
-| `pagination-before (unresolved)` | Unknown | [pagination-before](../../../../_types/pagination-before.md) |  |
-| `pagination-after (unresolved)` | Unknown | [pagination-after](../../../../_types/pagination-after.md) |  |
+| `Reference` | N/A | [pagination-before](../../../../_components/parameters/pagination-before.md) |  |
+| `Reference` | N/A | [pagination-after](../../../../_components/parameters/pagination-after.md) |  |
 | `per_page` | No | integer | The number of advisories to return per page. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."<br/>*Serialization: style=Form* |
 | `state` | No | string | Filter by state of the repository advisories. Only advisories of this state will be returned.<br/>*Serialization: style=Form* |
 
@@ -44,14 +44,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[repository-advisory](../../../../_types/repository-advisory.md)>
+array<[repository-advisory](../../../../_components/schemas/repository-advisory.md)>
 
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../_components/responses/bad_request.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

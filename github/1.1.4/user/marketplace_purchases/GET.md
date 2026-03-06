@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `per-page (unresolved)` | Unknown | [per-page](../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../_types/page.md) |  |
+| `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
 
 
 
@@ -38,20 +38,22 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[user-marketplace-purchase](../../_types/user-marketplace-purchase.md)>
+array<[user-marketplace-purchase](../../_components/schemas/user-marketplace-purchase.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 

@@ -22,9 +22,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `since-user (unresolved)` | Unknown | [since-user](../../../../../_types/since-user.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [since-user](../../../../../_components/parameters/since-user.md) |  |
 
 
 
@@ -40,14 +40,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[porter-author](../../../../../_types/porter-author.md)>
+array<[porter-author](../../../../../_components/schemas/porter-author.md)>
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 503
 
-Reference: #/components/responses/porter_maintenance
+Reference: [porter_maintenance](../../../../../_components/responses/porter_maintenance.md)
 

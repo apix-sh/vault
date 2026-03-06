@@ -23,8 +23,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `hook-id (unresolved)` | Unknown | [hook-id](../../../../../_types/hook-id.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [hook-id](../../../../../_components/parameters/hook-id.md) |  |
 
 
 
@@ -41,5 +41,5 @@ Response
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

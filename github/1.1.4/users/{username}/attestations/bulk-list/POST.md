@@ -21,10 +21,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
-| `pagination-before (unresolved)` | Unknown | [pagination-before](../../../../_types/pagination-before.md) |  |
-| `pagination-after (unresolved)` | Unknown | [pagination-after](../../../../_types/pagination-after.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../_types/username.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [pagination-before](../../../../_components/parameters/pagination-before.md) |  |
+| `Reference` | N/A | [pagination-after](../../../../_components/parameters/pagination-after.md) |  |
+| `Reference` | N/A | [username](../../../../_components/parameters/username.md) |  |
 
 
 

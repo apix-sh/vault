@@ -43,12 +43,14 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `X-CommonMarker-Version (ref)` | Unknown | [x-common-marker-version](../../_types/x-common-marker-version.md) |  |
+| `X-CommonMarker-Version (ref)` | Unknown | [x-common-marker-version](../../_components/headers/x-common-marker-version.md) |  |
+
+
 #### Response Schema (`text/html`)
 *(No object properties found)*
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 

@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../../_types/secret-name.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [secret-name](../../../../../_components/parameters/secret-name.md) |  |
 
 
 
@@ -36,6 +36,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[organization-dependabot-secret](../../../../../_types/organization-dependabot-secret.md)
+[organization-dependabot-secret](../../../../../_components/schemas/organization-dependabot-secret.md)
 
 

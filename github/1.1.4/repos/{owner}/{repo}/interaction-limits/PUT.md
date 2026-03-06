@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -28,7 +28,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[interaction-limit](../../../../_types/interaction-limit.md)
+[interaction-limit](../../../../_components/schemas/interaction-limit.md)
 
 
 ## Responses
@@ -38,7 +38,7 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[interaction-limit-response](../../../../_types/interaction-limit-response.md)
+[interaction-limit-response](../../../../_components/schemas/interaction-limit-response.md)
 
 
 ### 409

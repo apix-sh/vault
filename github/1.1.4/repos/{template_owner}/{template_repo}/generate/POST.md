@@ -51,7 +51,9 @@ Response
 | :--- | :------: | :--- | :---------- |
 
 | `Location` | No | string |  |
+
+
 #### Response Schema (`application/json`)
-[full-repository](../../../../_types/full-repository.md)
+[full-repository](../../../../_components/schemas/full-repository.md)
 
 

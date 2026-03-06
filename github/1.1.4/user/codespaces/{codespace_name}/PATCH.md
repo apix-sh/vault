@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `codespace-name (unresolved)` | Unknown | [codespace-name](../../../_types/codespace-name.md) |  |
+| `Reference` | N/A | [codespace-name](../../../_components/parameters/codespace-name.md) |  |
 
 
 
@@ -45,18 +45,18 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[codespace](../../../_types/codespace.md)
+[codespace](../../../_components/schemas/codespace.md)
 
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 

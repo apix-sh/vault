@@ -23,7 +23,7 @@ Supported content types:
 - `multipart/form-data`
 
 ### Inline Request Schema (`multipart/form-data`)
-[CreateTranscriptionRequest](../../_types/CreateTranscriptionRequest.md)
+[CreateTranscriptionRequest](../../_components/schemas/CreateTranscriptionRequest.md)
 
 
 ## Responses
@@ -36,6 +36,6 @@ OK
 *(No object properties found)*
 
 #### Response Schema (`text/event-stream`)
-[CreateTranscriptionResponseStreamEvent](../../_types/CreateTranscriptionResponseStreamEvent.md)
+[CreateTranscriptionResponseStreamEvent](../../_components/schemas/CreateTranscriptionResponseStreamEvent.md)
 
 

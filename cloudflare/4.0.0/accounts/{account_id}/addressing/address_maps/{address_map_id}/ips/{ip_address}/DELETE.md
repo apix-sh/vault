@@ -1,0 +1,52 @@
+---
+method: "DELETE"
+url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/addressing/address_maps/{address_map_id}/ips/{ip_address}"
+auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key)"
+content_type: "application/json"
+---
+
+# Remove an IP from an Address Map
+
+Remove an IP from a particular address map.
+
+## Path Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `ip_address` | Yes | [addressing_ip_address](../../../../../../../_components/schemas/addressing_ip_address.md) | *Serialization: style=Simple* |
+| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../../../_components/schemas/addressing_address_map_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+
+
+## Query Parameters
+
+_(None)_
+
+
+
+## Request Body
+
+Supported content types:
+- `application/json`
+
+No schema provided for `application/json`.
+
+
+## Responses
+
+### 200
+
+Remove an IP from an Address Map response
+
+#### Response Schema (`application/json`)
+[addressing_api-response-collection](../../../../../../../_components/schemas/addressing_api-response-collection.md)
+
+
+### 4xx
+
+Remove an IP from an Address Map response failure
+
+#### Response Schema (`application/json`)
+*(No object properties found)*
+
+

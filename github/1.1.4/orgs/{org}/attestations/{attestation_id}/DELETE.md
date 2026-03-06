@@ -19,7 +19,7 @@ Delete an artifact attestation by unique ID that is associated with a repository
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 
 
 
@@ -40,9 +40,9 @@ Response
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

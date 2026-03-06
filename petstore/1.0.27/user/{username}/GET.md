@@ -33,10 +33,10 @@ _(None)_
 successful operation
 
 #### Response Schema (`application/json`)
-[User](../../_types/User.md)
+[User](../../_components/schemas/User.md)
 
 #### Response Schema (`application/xml`)
-[User](../../_types/User.md)
+[User](../../_components/schemas/User.md)
 
 
 ### 400

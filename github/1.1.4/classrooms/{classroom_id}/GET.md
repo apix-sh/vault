@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `classroom-id (unresolved)` | Unknown | [classroom-id](../../_types/classroom-id.md) |  |
+| `Reference` | N/A | [classroom-id](../../_components/parameters/classroom-id.md) |  |
 
 
 
@@ -33,10 +33,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[classroom](../../_types/classroom.md)
+[classroom](../../_components/schemas/classroom.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 

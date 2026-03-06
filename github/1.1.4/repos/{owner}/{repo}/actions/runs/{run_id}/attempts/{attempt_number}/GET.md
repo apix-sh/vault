@@ -21,11 +21,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../../_types/repo.md) |  |
-| `run-id (unresolved)` | Unknown | [run-id](../../../../../../../../_types/run-id.md) |  |
-| `attempt-number (unresolved)` | Unknown | [attempt-number](../../../../../../../../_types/attempt-number.md) |  |
-| `exclude-pull-requests (unresolved)` | Unknown | [exclude-pull-requests](../../../../../../../../_types/exclude-pull-requests.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [run-id](../../../../../../../../_components/parameters/run-id.md) |  |
+| `Reference` | N/A | [attempt-number](../../../../../../../../_components/parameters/attempt-number.md) |  |
+| `Reference` | N/A | [exclude-pull-requests](../../../../../../../../_components/parameters/exclude-pull-requests.md) |  |
 
 
 
@@ -41,6 +41,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[workflow-run](../../../../../../../../_types/workflow-run.md)
+[workflow-run](../../../../../../../../_components/schemas/workflow-run.md)
 
 

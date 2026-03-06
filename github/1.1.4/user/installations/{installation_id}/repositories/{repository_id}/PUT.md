@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `installation-id (unresolved)` | Unknown | [installation-id](../../../../../_types/installation-id.md) |  |
-| `repository-id (unresolved)` | Unknown | [repository-id](../../../../../_types/repository-id.md) |  |
+| `Reference` | N/A | [installation-id](../../../../../_components/parameters/installation-id.md) |  |
+| `Reference` | N/A | [repository-id](../../../../../_components/parameters/repository-id.md) |  |
 
 
 
@@ -37,13 +37,13 @@ Response
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

@@ -24,7 +24,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ModifyCertificateRequest](../../../_types/ModifyCertificateRequest.md)
+[ModifyCertificateRequest](../../../_components/schemas/ModifyCertificateRequest.md)
 
 
 ## Responses
@@ -34,6 +34,6 @@ Supported content types:
 Certificate modified successfully.
 
 #### Response Schema (`application/json`)
-[Certificate](../../../_types/Certificate.md)
+[Certificate](../../../_components/schemas/Certificate.md)
 
 

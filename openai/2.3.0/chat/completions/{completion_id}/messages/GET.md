@@ -38,6 +38,6 @@ _(None)_
 A list of messages
 
 #### Response Schema (`application/json`)
-[ChatCompletionMessageList](../../../../_types/ChatCompletionMessageList.md)
+[ChatCompletionMessageList](../../../../_components/schemas/ChatCompletionMessageList.md)
 
 

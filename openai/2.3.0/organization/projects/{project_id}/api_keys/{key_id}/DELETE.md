@@ -32,7 +32,7 @@ _(None)_
 Project API key deleted successfully.
 
 #### Response Schema (`application/json`)
-[ProjectApiKeyDeleteResponse](../../../../../_types/ProjectApiKeyDeleteResponse.md)
+[ProjectApiKeyDeleteResponse](../../../../../_components/schemas/ProjectApiKeyDeleteResponse.md)
 
 
 ### 400
@@ -40,6 +40,6 @@ Project API key deleted successfully.
 Error response for various conditions.
 
 #### Response Schema (`application/json`)
-[ErrorResponse](../../../../../_types/ErrorResponse.md)
+[ErrorResponse](../../../../../_components/schemas/ErrorResponse.md)
 
 

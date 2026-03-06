@@ -1,5 +1,26 @@
 {
   "apis": {
+    "resend": {
+      "name": "resend",
+      "description": "Resend is the email platform for developers.",
+      "versions": [
+        "1.5.0"
+      ],
+      "tags": [
+        "API Keys",
+        "Audiences",
+        "Broadcasts",
+        "Contact Properties",
+        "Contacts",
+        "Domains",
+        "Emails",
+        "Receiving Emails",
+        "Segments",
+        "Templates",
+        "Topics",
+        "Webhooks"
+      ]
+    },
     "stripe": {
       "name": "stripe",
       "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
@@ -31,25 +52,24 @@
         "Uploads"
       ]
     },
-    "resend": {
-      "name": "resend",
-      "description": "Resend is the email platform for developers.",
+    "cloudflare": {
+      "name": "cloudflare",
+      "description": "Welcome to Cloudflare's API documentation site. We are experimenting with an updated version of our API documentation - check out [developers.cloudflare.com/api-next/](https://developers.cloudflare.com/api-next/) to test out the new experience.",
       "versions": [
-        "1.5.0"
+        "4.0.0"
+      ],
+      "tags": []
+    },
+    "petstore": {
+      "name": "petstore",
+      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
+      "versions": [
+        "1.0.27"
       ],
       "tags": [
-        "API Keys",
-        "Audiences",
-        "Broadcasts",
-        "Contact Properties",
-        "Contacts",
-        "Domains",
-        "Emails",
-        "Receiving Emails",
-        "Segments",
-        "Templates",
-        "Topics",
-        "Webhooks"
+        "pet",
+        "store",
+        "user"
       ]
     },
     "github": {
@@ -104,18 +124,6 @@
         "security-advisories",
         "teams",
         "users"
-      ]
-    },
-    "petstore": {
-      "name": "petstore",
-      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
-      "versions": [
-        "1.0.27"
-      ],
-      "tags": [
-        "pet",
-        "store",
-        "user"
       ]
     }
   }

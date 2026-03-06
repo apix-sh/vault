@@ -21,9 +21,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `team-slug (unresolved)` | Unknown | [team-slug](../../../../../../_types/team-slug.md) |  |
-| `role-id (unresolved)` | Unknown | [role-id](../../../../../../_types/role-id.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [team-slug](../../../../../../_components/parameters/team-slug.md) |  |
+| `Reference` | N/A | [role-id](../../../../../../_components/parameters/role-id.md) |  |
 
 
 

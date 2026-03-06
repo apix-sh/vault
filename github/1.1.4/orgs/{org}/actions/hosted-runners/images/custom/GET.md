@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -38,6 +38,6 @@ Response
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
-| `images` | Yes | array<[actions-hosted-runner-custom-image](../../../../../../_types/actions-hosted-runner-custom-image.md)> |  |
+| `images` | Yes | array<[actions-hosted-runner-custom-image](../../../../../../_components/schemas/actions-hosted-runner-custom-image.md)> |  |
 
 

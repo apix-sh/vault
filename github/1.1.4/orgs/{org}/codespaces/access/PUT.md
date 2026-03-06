@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 
 
 
@@ -42,7 +42,7 @@ Response when successfully modifying permissions.
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
 ### 400
 
@@ -50,13 +50,13 @@ Users are neither members nor collaborators of this organization.
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 

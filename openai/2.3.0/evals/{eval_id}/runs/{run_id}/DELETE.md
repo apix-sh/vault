@@ -45,6 +45,6 @@ Successfully deleted the eval run
 Run not found
 
 #### Response Schema (`application/json`)
-[Error](../../../../_types/Error.md)
+[Error](../../../../_components/schemas/Error.md)
 
 

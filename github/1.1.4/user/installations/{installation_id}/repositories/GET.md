@@ -21,9 +21,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `installation-id (unresolved)` | Unknown | [installation-id](../../../../_types/installation-id.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../_types/page.md) |  |
+| `Reference` | N/A | [installation-id](../../../../_components/parameters/installation-id.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
 
 
@@ -43,7 +43,9 @@ The access the user has to each repository is included in the hash under the `pe
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
@@ -54,13 +56,13 @@ The access the user has to each repository is included in the hash under the `pe
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
 

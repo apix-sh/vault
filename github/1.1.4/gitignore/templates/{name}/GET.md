@@ -37,10 +37,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[gitignore-template](../../../_types/gitignore-template.md)
+[gitignore-template](../../../_components/schemas/gitignore-template.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../_components/responses/not_modified.md)
 

@@ -35,6 +35,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[codespaces-user-public-key](../../../../_types/codespaces-user-public-key.md)
+[codespaces-user-public-key](../../../../_components/schemas/codespaces-user-public-key.md)
 
 

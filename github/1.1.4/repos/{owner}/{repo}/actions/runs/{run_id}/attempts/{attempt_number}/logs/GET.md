@@ -22,10 +22,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../../../_types/repo.md) |  |
-| `run-id (unresolved)` | Unknown | [run-id](../../../../../../../../../_types/run-id.md) |  |
-| `attempt-number (unresolved)` | Unknown | [attempt-number](../../../../../../../../../_types/attempt-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [run-id](../../../../../../../../../_components/parameters/run-id.md) |  |
+| `Reference` | N/A | [attempt-number](../../../../../../../../../_components/parameters/attempt-number.md) |  |
 
 
 
@@ -46,3 +46,5 @@ Response
 | :--- | :------: | :--- | :---------- |
 
 | `Location` | No | string |  |
+
+

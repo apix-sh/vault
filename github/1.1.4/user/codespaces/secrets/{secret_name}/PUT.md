@@ -22,7 +22,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../_types/secret-name.md) |  |
+| `Reference` | N/A | [secret-name](../../../../_components/parameters/secret-name.md) |  |
 
 
 
@@ -46,7 +46,7 @@ Supported content types:
 Response after successfully creating a secret
 
 #### Response Schema (`application/json`)
-[empty-object](../../../../_types/empty-object.md)
+[empty-object](../../../../_components/schemas/empty-object.md)
 
 
 ### 204
@@ -55,9 +55,9 @@ Response after successfully updating a secret
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

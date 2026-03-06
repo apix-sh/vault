@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -52,7 +52,7 @@ Supported content types:
 Response when the codespace was successfully created
 
 #### Response Schema (`application/json`)
-[codespace](../../../../_types/codespace.md)
+[codespace](../../../../_components/schemas/codespace.md)
 
 
 ### 202
@@ -60,26 +60,26 @@ Response when the codespace was successfully created
 Response when the codespace creation partially failed but is being retried in the background
 
 #### Response Schema (`application/json`)
-[codespace](../../../../_types/codespace.md)
+[codespace](../../../../_components/schemas/codespace.md)
 
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../_components/responses/bad_request.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../_components/responses/service_unavailable.md)
 

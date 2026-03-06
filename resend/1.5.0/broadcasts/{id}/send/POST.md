@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[SendBroadcastOptions](../../../_types/SendBroadcastOptions.md)
+[SendBroadcastOptions](../../../_components/schemas/SendBroadcastOptions.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[SendBroadcastResponseSuccess](../../../_types/SendBroadcastResponseSuccess.md)
+[SendBroadcastResponseSuccess](../../../_components/schemas/SendBroadcastResponseSuccess.md)
 
 

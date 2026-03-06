@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[VectorStoreSearchRequest](../../../_types/VectorStoreSearchRequest.md)
+[VectorStoreSearchRequest](../../../_components/schemas/VectorStoreSearchRequest.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[VectorStoreSearchResultsPage](../../../_types/VectorStoreSearchResultsPage.md)
+[VectorStoreSearchResultsPage](../../../_components/schemas/VectorStoreSearchResultsPage.md)
 
 

@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `branch (unresolved)` | Unknown | [branch](../../../../../../../_types/branch.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [branch](../../../../../../../_components/parameters/branch.md) |  |
 
 
 
@@ -37,6 +37,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[protected-branch-admin-enforced](../../../../../../../_types/protected-branch-admin-enforced.md)
+[protected-branch-admin-enforced](../../../../../../../_components/schemas/protected-branch-admin-enforced.md)
 
 

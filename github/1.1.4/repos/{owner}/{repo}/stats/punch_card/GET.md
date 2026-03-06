@@ -23,8 +23,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -40,10 +40,10 @@ _(None)_
 For example, `[2, 14, 25]` indicates that there were 25 total commits, during the 2:00pm hour on Tuesdays. All times are based on the time zone of individual commits.
 
 #### Response Schema (`application/json`)
-array<[code-frequency-stat](../../../../../_types/code-frequency-stat.md)>
+array<[code-frequency-stat](../../../../../_components/schemas/code-frequency-stat.md)>
 
 
 ### 204
 
-Reference: #/components/responses/no_content
+Reference: [no_content](../../../../../_components/responses/no_content.md)
 

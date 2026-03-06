@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `pull-number (unresolved)` | Unknown | [pull-number](../../../../../../_types/pull-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [pull-number](../../../../../../_components/parameters/pull-number.md) |  |
 
 
 
@@ -45,7 +45,7 @@ Supported content types:
 if merge was successful
 
 #### Response Schema (`application/json`)
-[pull-request-merge-result](../../../../../../_types/pull-request-merge-result.md)
+[pull-request-merge-result](../../../../../../_components/schemas/pull-request-merge-result.md)
 
 
 ### 405
@@ -72,13 +72,13 @@ Conflict if sha was provided and pull request head did not match
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

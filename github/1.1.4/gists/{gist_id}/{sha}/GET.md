@@ -24,7 +24,7 @@ This endpoint supports the following custom media types. For more information, s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `gist-id (unresolved)` | Unknown | [gist-id](../../../_types/gist-id.md) |  |
+| `Reference` | N/A | [gist-id](../../../_components/parameters/gist-id.md) |  |
 
 
 
@@ -40,18 +40,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[gist-simple](../../../_types/gist-simple.md)
+[gist-simple](../../../_components/schemas/gist-simple.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 

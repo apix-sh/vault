@@ -20,7 +20,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -36,14 +36,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[actions-cache-storage-limit-for-organization](../../../../../_types/actions-cache-storage-limit-for-organization.md)
+[actions-cache-storage-limit-for-organization](../../../../../_components/schemas/actions-cache-storage-limit-for-organization.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

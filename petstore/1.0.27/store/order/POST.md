@@ -27,13 +27,13 @@ Supported content types:
 - `application/x-www-form-urlencoded`
 
 ### Inline Request Schema (`application/json`)
-[Order](../../_types/Order.md)
+[Order](../../_components/schemas/Order.md)
 
 ### Inline Request Schema (`application/xml`)
-[Order](../../_types/Order.md)
+[Order](../../_components/schemas/Order.md)
 
 ### Inline Request Schema (`application/x-www-form-urlencoded`)
-[Order](../../_types/Order.md)
+[Order](../../_components/schemas/Order.md)
 
 
 ## Responses
@@ -43,7 +43,7 @@ Supported content types:
 successful operation
 
 #### Response Schema (`application/json`)
-[Order](../../_types/Order.md)
+[Order](../../_components/schemas/Order.md)
 
 
 ### 400

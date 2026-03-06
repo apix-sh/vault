@@ -22,8 +22,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `issue-type-id (unresolved)` | Unknown | [issue-type-id](../../../../_types/issue-type-id.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [issue-type-id](../../../../_components/parameters/issue-type-id.md) |  |
 
 
 
@@ -40,9 +40,9 @@ Response
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../../_components/responses/validation_failed_simple.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

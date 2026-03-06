@@ -26,7 +26,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateVectorStoreFileBatchRequest](../../../_types/CreateVectorStoreFileBatchRequest.md)
+[CreateVectorStoreFileBatchRequest](../../../_components/schemas/CreateVectorStoreFileBatchRequest.md)
 
 
 ## Responses
@@ -36,6 +36,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[VectorStoreFileBatchObject](../../../_types/VectorStoreFileBatchObject.md)
+[VectorStoreFileBatchObject](../../../_components/schemas/VectorStoreFileBatchObject.md)
 
 

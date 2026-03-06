@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `per (unresolved)` | Unknown | [per](../../../../../_types/per.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [per](../../../../../_components/parameters/per.md) |  |
 
 
 
@@ -35,10 +35,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[view-traffic](../../../../../_types/view-traffic.md)
+[view-traffic](../../../../../_components/schemas/view-traffic.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 

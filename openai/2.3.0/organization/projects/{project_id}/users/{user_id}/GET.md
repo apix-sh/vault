@@ -32,6 +32,6 @@ _(None)_
 Project user retrieved successfully.
 
 #### Response Schema (`application/json`)
-[ProjectUser](../../../../../_types/ProjectUser.md)
+[ProjectUser](../../../../../_components/schemas/ProjectUser.md)
 
 

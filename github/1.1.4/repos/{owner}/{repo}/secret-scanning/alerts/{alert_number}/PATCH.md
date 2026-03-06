@@ -23,9 +23,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `alert-number (unresolved)` | Unknown | [alert-number](../../../../../../_types/alert-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [alert-number](../../../../../../_components/parameters/alert-number.md) |  |
 
 
 
@@ -45,7 +45,7 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[secret-scanning-alert](../../../../../../_types/secret-scanning-alert.md)
+[secret-scanning-alert](../../../../../../_components/schemas/secret-scanning-alert.md)
 
 
 ### 400
@@ -62,5 +62,5 @@ State does not match the resolution or resolution comment, or assignee does not 
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../_components/responses/service_unavailable.md)
 

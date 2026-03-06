@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[UpdateTopicOptions](../../_types/UpdateTopicOptions.md)
+[UpdateTopicOptions](../../_components/schemas/UpdateTopicOptions.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[UpdateTopicResponseSuccess](../../_types/UpdateTopicResponseSuccess.md)
+[UpdateTopicResponseSuccess](../../_components/schemas/UpdateTopicResponseSuccess.md)
 
 

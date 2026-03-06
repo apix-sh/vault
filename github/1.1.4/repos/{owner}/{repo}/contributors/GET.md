@@ -19,11 +19,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 | `anon` | No | string | Set to `1` or `true` to include anonymous contributors in results.<br/>*Serialization: style=Form* |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../_types/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
 
 
@@ -43,9 +43,11 @@ If repository contains content
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[contributor](../../../../_types/contributor.md)>
+array<[contributor](../../../../_components/schemas/contributor.md)>
 
 
 ### 204
@@ -54,9 +56,9 @@ Response if repository is empty
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

@@ -36,7 +36,7 @@ _(None)_
 Project users listed successfully.
 
 #### Response Schema (`application/json`)
-[ProjectUserListResponse](../../../../_types/ProjectUserListResponse.md)
+[ProjectUserListResponse](../../../../_components/schemas/ProjectUserListResponse.md)
 
 
 ### 400
@@ -44,6 +44,6 @@ Project users listed successfully.
 Error response when project is archived.
 
 #### Response Schema (`application/json`)
-[ErrorResponse](../../../../_types/ErrorResponse.md)
+[ErrorResponse](../../../../_components/schemas/ErrorResponse.md)
 
 

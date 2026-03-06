@@ -30,15 +30,15 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 | `state` | No | string | Either `open`, `closed`, or `all` to filter by state.<br/>*Serialization: style=Form* |
 | `head` | No | string | Filter pulls by head user or head organization and branch name in the format of `user:ref-name` or `organization:ref-name`. For example: `github:new-script-format` or `octocat:test-branch`.<br/>*Serialization: style=Form* |
 | `base` | No | string | Filter pulls by base branch name. Example: `gh-pages`.<br/>*Serialization: style=Form* |
 | `sort` | No | string | What to sort results by. `popularity` will sort by the number of comments. `long-running` will sort by date created and will limit the results to pull requests that have been open for more than a month and have had activity within the past month.<br/>*Serialization: style=Form* |
 | `direction` | No | string | The direction of the sort. Default: `desc` when sort is `created` or sort is not specified, otherwise `asc`.<br/>*Serialization: style=Form* |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../_types/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
 
 
@@ -58,16 +58,18 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[pull-request-simple](../../../../_types/pull-request-simple.md)>
+array<[pull-request-simple](../../../../_components/schemas/pull-request-simple.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

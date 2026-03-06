@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 | `ref` | Yes | string | The git reference that points to the location of the devcontainer configuration to use for the permission check. The value of `ref` will typically be a branch name (`heads/BRANCH_NAME`). For more information, see "[Git References](https://git-scm.com/book/en/v2/Git-Internals-Git-References)" in the Git documentation.<br/>*Serialization: style=Form* |
 | `devcontainer_path` | Yes | string | Path to the devcontainer.json configuration to use for the permission check.<br/>*Serialization: style=Form* |
 
@@ -38,26 +38,26 @@ _(None)_
 Response when the permission check is successful
 
 #### Response Schema (`application/json`)
-[codespaces-permissions-check-for-devcontainer](../../../../../_types/codespaces-permissions-check-for-devcontainer.md)
+[codespaces-permissions-check-for-devcontainer](../../../../../_components/schemas/codespaces-permissions-check-for-devcontainer.md)
 
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

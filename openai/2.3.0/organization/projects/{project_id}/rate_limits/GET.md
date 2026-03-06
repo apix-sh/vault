@@ -38,6 +38,6 @@ _(None)_
 Project rate limits listed successfully.
 
 #### Response Schema (`application/json`)
-[ProjectRateLimitListResponse](../../../../_types/ProjectRateLimitListResponse.md)
+[ProjectRateLimitListResponse](../../../../_components/schemas/ProjectRateLimitListResponse.md)
 
 

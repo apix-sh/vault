@@ -44,7 +44,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[payment_intent](../../../_types/payment_intent.md)
+[payment_intent](../../../_components/schemas/payment_intent.md)
 
 
 ### default
@@ -52,6 +52,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

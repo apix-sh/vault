@@ -1,0 +1,7 @@
+# Parameter: teams-devices_devices_list_devices_param_sort_order
+
+- **Location**: query
+- **Required**: No
+- **Type**: string
+
+Sort direction.

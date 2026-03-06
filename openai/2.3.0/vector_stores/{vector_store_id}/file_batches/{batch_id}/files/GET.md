@@ -42,6 +42,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListVectorStoreFilesResponse](../../../../../_types/ListVectorStoreFilesResponse.md)
+[ListVectorStoreFilesResponse](../../../../../_components/schemas/ListVectorStoreFilesResponse.md)
 
 

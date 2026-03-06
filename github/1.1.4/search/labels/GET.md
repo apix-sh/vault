@@ -28,9 +28,9 @@ _(None)_
 | `repository_id` | Yes | integer | The id of the repository.<br/>*Serialization: style=Form* |
 | `q` | Yes | string | The search keywords. This endpoint does not accept qualifiers in the query. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query).<br/>*Serialization: style=Form* |
 | `sort` | No | string | Sorts the results of your query by when the label was `created` or `updated`. Default: [best match](https://docs.github.com/rest/search/search#ranking-search-results)<br/>*Serialization: style=Form* |
-| `order (unresolved)` | Unknown | [order](../../_types/order.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../_types/page.md) |  |
+| `Reference` | N/A | [order](../../_components/parameters/order.md) |  |
+| `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
 
 
 
@@ -50,22 +50,22 @@ Response
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
 | `incomplete_results` | Yes | boolean |  |
-| `items` | Yes | array<[label-search-result-item](../../_types/label-search-result-item.md)> |  |
+| `items` | Yes | array<[label-search-result-item](../../_components/schemas/label-search-result-item.md)> |  |
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../_components/responses/forbidden.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 

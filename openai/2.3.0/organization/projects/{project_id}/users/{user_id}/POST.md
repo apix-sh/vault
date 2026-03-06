@@ -26,7 +26,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ProjectUserUpdateRequest](../../../../../_types/ProjectUserUpdateRequest.md)
+[ProjectUserUpdateRequest](../../../../../_components/schemas/ProjectUserUpdateRequest.md)
 
 
 ## Responses
@@ -36,7 +36,7 @@ Supported content types:
 Project user's role updated successfully.
 
 #### Response Schema (`application/json`)
-[ProjectUser](../../../../../_types/ProjectUser.md)
+[ProjectUser](../../../../../_components/schemas/ProjectUser.md)
 
 
 ### 400
@@ -44,6 +44,6 @@ Project user's role updated successfully.
 Error response for various conditions.
 
 #### Response Schema (`application/json`)
-[ErrorResponse](../../../../../_types/ErrorResponse.md)
+[ErrorResponse](../../../../../_components/schemas/ErrorResponse.md)
 
 

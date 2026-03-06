@@ -38,7 +38,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[balance_settings](../../_types/balance_settings.md)
+[balance_settings](../../_components/schemas/balance_settings.md)
 
 
 ### default
@@ -46,6 +46,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../_types/error.md)
+[error](../../_components/schemas/error.md)
 
 

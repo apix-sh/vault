@@ -39,7 +39,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[treasury.debit_reversal](../../../_types/treasury.debit_reversal.md)
+[treasury.debit_reversal](../../../_components/schemas/treasury.debit_reversal.md)
 
 
 ### default
@@ -47,6 +47,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

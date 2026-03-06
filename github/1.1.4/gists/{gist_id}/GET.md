@@ -22,7 +22,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `gist-id (unresolved)` | Unknown | [gist-id](../../_types/gist-id.md) |  |
+| `Reference` | N/A | [gist-id](../../_components/parameters/gist-id.md) |  |
 
 
 
@@ -38,18 +38,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[gist-simple](../../_types/gist-simple.md)
+[gist-simple](../../_components/schemas/gist-simple.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden_gist
+Reference: [forbidden_gist](../../_components/responses/forbidden_gist.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 

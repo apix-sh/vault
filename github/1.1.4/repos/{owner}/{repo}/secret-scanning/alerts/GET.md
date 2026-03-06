@@ -21,22 +21,22 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `secret-scanning-alert-state (unresolved)` | Unknown | [secret-scanning-alert-state](../../../../../_types/secret-scanning-alert-state.md) |  |
-| `secret-scanning-alert-secret-type (unresolved)` | Unknown | [secret-scanning-alert-secret-type](../../../../../_types/secret-scanning-alert-secret-type.md) |  |
-| `secret-scanning-alert-resolution (unresolved)` | Unknown | [secret-scanning-alert-resolution](../../../../../_types/secret-scanning-alert-resolution.md) |  |
-| `secret-scanning-alert-assignee (unresolved)` | Unknown | [secret-scanning-alert-assignee](../../../../../_types/secret-scanning-alert-assignee.md) |  |
-| `secret-scanning-alert-sort (unresolved)` | Unknown | [secret-scanning-alert-sort](../../../../../_types/secret-scanning-alert-sort.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../../../_types/direction.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
-| `secret-scanning-pagination-before-org-repo (unresolved)` | Unknown | [secret-scanning-pagination-before-org-repo](../../../../../_types/secret-scanning-pagination-before-org-repo.md) |  |
-| `secret-scanning-pagination-after-org-repo (unresolved)` | Unknown | [secret-scanning-pagination-after-org-repo](../../../../../_types/secret-scanning-pagination-after-org-repo.md) |  |
-| `secret-scanning-alert-validity (unresolved)` | Unknown | [secret-scanning-alert-validity](../../../../../_types/secret-scanning-alert-validity.md) |  |
-| `secret-scanning-alert-publicly-leaked (unresolved)` | Unknown | [secret-scanning-alert-publicly-leaked](../../../../../_types/secret-scanning-alert-publicly-leaked.md) |  |
-| `secret-scanning-alert-multi-repo (unresolved)` | Unknown | [secret-scanning-alert-multi-repo](../../../../../_types/secret-scanning-alert-multi-repo.md) |  |
-| `secret-scanning-alert-hide-secret (unresolved)` | Unknown | [secret-scanning-alert-hide-secret](../../../../../_types/secret-scanning-alert-hide-secret.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-state](../../../../../_components/parameters/secret-scanning-alert-state.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-secret-type](../../../../../_components/parameters/secret-scanning-alert-secret-type.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-resolution](../../../../../_components/parameters/secret-scanning-alert-resolution.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-assignee](../../../../../_components/parameters/secret-scanning-alert-assignee.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-sort](../../../../../_components/parameters/secret-scanning-alert-sort.md) |  |
+| `Reference` | N/A | [direction](../../../../../_components/parameters/direction.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [secret-scanning-pagination-before-org-repo](../../../../../_components/parameters/secret-scanning-pagination-before-org-repo.md) |  |
+| `Reference` | N/A | [secret-scanning-pagination-after-org-repo](../../../../../_components/parameters/secret-scanning-pagination-after-org-repo.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-validity](../../../../../_components/parameters/secret-scanning-alert-validity.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-publicly-leaked](../../../../../_components/parameters/secret-scanning-alert-publicly-leaked.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-multi-repo](../../../../../_components/parameters/secret-scanning-alert-multi-repo.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-hide-secret](../../../../../_components/parameters/secret-scanning-alert-hide-secret.md) |  |
 
 
 
@@ -52,7 +52,7 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[secret-scanning-alert](../../../../../_types/secret-scanning-alert.md)>
+array<[secret-scanning-alert](../../../../../_components/schemas/secret-scanning-alert.md)>
 
 
 ### 404
@@ -61,5 +61,5 @@ Repository is public or secret scanning is disabled for the repository
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

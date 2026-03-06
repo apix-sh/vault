@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[UserRoleUpdateRequest](../../../_types/UserRoleUpdateRequest.md)
+[UserRoleUpdateRequest](../../../_components/schemas/UserRoleUpdateRequest.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 User role updated successfully.
 
 #### Response Schema (`application/json`)
-[User](../../../_types/User.md)
+[User](../../../_components/schemas/User.md)
 
 

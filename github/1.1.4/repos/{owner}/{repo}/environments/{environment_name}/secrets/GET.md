@@ -22,11 +22,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../_types/environment-name.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../_types/page.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../_components/parameters/environment-name.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -46,11 +46,13 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
-| `secrets` | Yes | array<[actions-secret](../../../../../../_types/actions-secret.md)> |  |
+| `secrets` | Yes | array<[actions-secret](../../../../../../_components/schemas/actions-secret.md)> |  |
 
 

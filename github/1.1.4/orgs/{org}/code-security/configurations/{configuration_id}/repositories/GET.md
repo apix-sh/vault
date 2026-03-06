@@ -21,11 +21,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `configuration-id (unresolved)` | Unknown | [configuration-id](../../../../../../_types/configuration-id.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [configuration-id](../../../../../../_components/parameters/configuration-id.md) |  |
 | `per_page` | No | integer | The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."<br/>*Serialization: style=Form* |
-| `pagination-before (unresolved)` | Unknown | [pagination-before](../../../../../../_types/pagination-before.md) |  |
-| `pagination-after (unresolved)` | Unknown | [pagination-after](../../../../../../_types/pagination-after.md) |  |
+| `Reference` | N/A | [pagination-before](../../../../../../_components/parameters/pagination-before.md) |  |
+| `Reference` | N/A | [pagination-after](../../../../../../_components/parameters/pagination-after.md) |  |
 | `status` | No | string | A comma-separated list of statuses. If specified, only repositories with these attachment statuses will be returned.
 
 Can be: `all`, `attached`, `attaching`, `detached`, `removed`, `enforced`, `failed`, `updating`, `removed_by_enterprise`<br/>*Serialization: style=Form* |
@@ -44,14 +44,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[code-security-configuration-repositories](../../../../../../_types/code-security-configuration-repositories.md)>
+array<[code-security-configuration-repositories](../../../../../../_components/schemas/code-security-configuration-repositories.md)>
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

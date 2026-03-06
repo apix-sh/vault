@@ -33,6 +33,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[integration](../_types/integration.md)
+[integration](../_components/schemas/integration.md)
 
 

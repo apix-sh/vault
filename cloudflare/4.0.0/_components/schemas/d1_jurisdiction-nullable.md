@@ -1,0 +1,13 @@
+---
+type: "string"
+---
+
+# d1_jurisdiction-nullable
+
+
+Specify the location to restrict the D1 database to run and store data. If this option is present, the location hint is ignored.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

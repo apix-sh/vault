@@ -36,6 +36,6 @@ OK
 Not Found
 
 #### Response Schema (`application/json`)
-[Error](../../_types/Error.md)
+[Error](../../_components/schemas/Error.md)
 
 

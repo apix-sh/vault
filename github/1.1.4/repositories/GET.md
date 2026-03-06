@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `since-repo (unresolved)` | Unknown | [since-repo](../_types/since-repo.md) |  |
+| `Reference` | N/A | [since-repo](../_components/parameters/since-repo.md) |  |
 
 
 
@@ -42,15 +42,17 @@ Response
 | :--- | :------: | :--- | :---------- |
 
 | `Link` | No | string |  |
+
+
 #### Response Schema (`application/json`)
-array<[minimal-repository](../_types/minimal-repository.md)>
+array<[minimal-repository](../_components/schemas/minimal-repository.md)>
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../_components/responses/validation_failed.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 

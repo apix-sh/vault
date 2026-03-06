@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ThreadObject](../../_types/ThreadObject.md)
+[ThreadObject](../../_components/schemas/ThreadObject.md)
 
 

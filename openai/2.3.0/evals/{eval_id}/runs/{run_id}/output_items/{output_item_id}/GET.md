@@ -34,6 +34,6 @@ _(None)_
 The evaluation run output item
 
 #### Response Schema (`application/json`)
-[EvalRunOutputItem](../../../../../../_types/EvalRunOutputItem.md)
+[EvalRunOutputItem](../../../../../../_components/schemas/EvalRunOutputItem.md)
 
 

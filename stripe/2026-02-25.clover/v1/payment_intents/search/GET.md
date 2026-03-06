@@ -45,7 +45,7 @@ Successful response.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `data` | Yes | array<[payment_intent](../../../_types/payment_intent.md)> |  |
+| `data` | Yes | array<[payment_intent](../../../_components/schemas/payment_intent.md)> |  |
 | `has_more` | Yes | boolean |  |
 | `next_page` | No | string |  |
 | `object` | Yes | string | String representing the object's type. Objects of the same type share the same value. |
@@ -58,6 +58,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

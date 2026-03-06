@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 
 
 
@@ -35,6 +35,6 @@ _(None)_
 Immutable releases settings response
 
 #### Response Schema (`application/json`)
-[immutable-releases-organization-settings](../../../../_types/immutable-releases-organization-settings.md)
+[immutable-releases-organization-settings](../../../../_components/schemas/immutable-releases-organization-settings.md)
 
 

@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -34,7 +34,7 @@ _(None)_
 if you subscribe to the repository
 
 #### Response Schema (`application/json`)
-[repository-subscription](../../../../_types/repository-subscription.md)
+[repository-subscription](../../../../_components/schemas/repository-subscription.md)
 
 
 ### 404
@@ -43,5 +43,5 @@ Not Found if you don't subscribe to the repository
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 

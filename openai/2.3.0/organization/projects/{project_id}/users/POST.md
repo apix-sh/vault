@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ProjectUserCreateRequest](../../../../_types/ProjectUserCreateRequest.md)
+[ProjectUserCreateRequest](../../../../_components/schemas/ProjectUserCreateRequest.md)
 
 
 ## Responses
@@ -35,7 +35,7 @@ Supported content types:
 User added to project successfully.
 
 #### Response Schema (`application/json`)
-[ProjectUser](../../../../_types/ProjectUser.md)
+[ProjectUser](../../../../_components/schemas/ProjectUser.md)
 
 
 ### 400
@@ -43,6 +43,6 @@ User added to project successfully.
 Error response for various conditions.
 
 #### Response Schema (`application/json`)
-[ErrorResponse](../../../../_types/ErrorResponse.md)
+[ErrorResponse](../../../../_components/schemas/ErrorResponse.md)
 
 

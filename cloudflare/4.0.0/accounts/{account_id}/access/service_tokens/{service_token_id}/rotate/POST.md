@@ -1,0 +1,52 @@
+---
+method: "POST"
+url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/access/service_tokens/{service_token_id}/rotate"
+auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) + bearer"
+content_type: "application/json"
+---
+
+# Rotate a service token
+
+Generates a new Client Secret for a service token and revokes the old one.
+
+## Path Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `service_token_id` | Yes | [access_uuid](../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+
+
+## Query Parameters
+
+_(None)_
+
+
+
+## Request Body
+
+Supported content types:
+- `application/json`
+
+### Inline Request Schema (`application/json`)
+*(No object properties found)*
+
+
+## Responses
+
+### 200
+
+Rotate a service token response
+
+#### Response Schema (`application/json`)
+[access_create_response](../../../../../../_components/schemas/access_create_response.md)
+
+
+### 4xx
+
+Rotate a service token response failure
+
+#### Response Schema (`application/json`)
+[access_api-response-common-failure](../../../../../../_components/schemas/access_api-response-common-failure.md)
+
+

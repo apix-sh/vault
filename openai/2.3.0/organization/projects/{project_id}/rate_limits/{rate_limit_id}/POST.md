@@ -26,7 +26,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ProjectRateLimitUpdateRequest](../../../../../_types/ProjectRateLimitUpdateRequest.md)
+[ProjectRateLimitUpdateRequest](../../../../../_components/schemas/ProjectRateLimitUpdateRequest.md)
 
 
 ## Responses
@@ -36,7 +36,7 @@ Supported content types:
 Project rate limit updated successfully.
 
 #### Response Schema (`application/json`)
-[ProjectRateLimit](../../../../../_types/ProjectRateLimit.md)
+[ProjectRateLimit](../../../../../_components/schemas/ProjectRateLimit.md)
 
 
 ### 400
@@ -44,6 +44,6 @@ Project rate limit updated successfully.
 Error response for various conditions.
 
 #### Response Schema (`application/json`)
-[ErrorResponse](../../../../../_types/ErrorResponse.md)
+[ErrorResponse](../../../../../_components/schemas/ErrorResponse.md)
 
 

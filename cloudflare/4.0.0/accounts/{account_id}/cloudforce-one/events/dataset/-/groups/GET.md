@@ -1,0 +1,51 @@
+---
+method: "GET"
+url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/cloudforce-one/events/dataset/-/groups"
+auth: "bearer"
+content_type: "application/json"
+---
+
+# List groups for an account
+
+List groups for an account
+
+## Path Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+
+
+## Query Parameters
+
+_(None)_
+
+
+
+## Request Body
+
+_(None)_
+
+
+## Responses
+
+### 200
+
+Returns the list of groups.
+
+#### Response Schema (`application/json`)
+array<object>
+
+
+### 400
+
+Bad Request.
+
+#### Response Schema (`application/json`)
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `errors` | Yes | array<object> |  |
+| `result` | Yes | object |  |
+| `success` | Yes | boolean |  |
+
+

@@ -1,0 +1,13 @@
+---
+type: "string"
+---
+
+# teams-devices_expiration
+
+
+Sets the expiration time for a posture check result. If empty, the result remains valid until it is overwritten by new data from the WARP client.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

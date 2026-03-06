@@ -21,9 +21,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `workflow-id (unresolved)` | Unknown | [workflow-id](../../../../../../../_types/workflow-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [workflow-id](../../../../../../../_components/parameters/workflow-id.md) |  |
 
 
 
@@ -51,6 +51,6 @@ Empty response when `return_run_details` parameter is `false`.
 Response including the workflow run ID and URLs when `return_run_details` parameter is `true`.
 
 #### Response Schema (`application/json`)
-[workflow-dispatch-response](../../../../../../../_types/workflow-dispatch-response.md)
+[workflow-dispatch-response](../../../../../../../_components/schemas/workflow-dispatch-response.md)
 
 

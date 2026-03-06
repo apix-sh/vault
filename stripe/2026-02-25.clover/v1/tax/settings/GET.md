@@ -37,7 +37,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[tax.settings](../../../_types/tax.settings.md)
+[tax.settings](../../../_components/schemas/tax.settings.md)
 
 
 ### default
@@ -45,6 +45,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

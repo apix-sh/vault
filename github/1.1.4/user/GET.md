@@ -36,13 +36,13 @@ Response
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../_components/responses/requires_authentication.md)
 

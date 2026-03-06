@@ -15,7 +15,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `invitation-id (unresolved)` | Unknown | [invitation-id](../../../_types/invitation-id.md) |  |
+| `Reference` | N/A | [invitation-id](../../../_components/parameters/invitation-id.md) |  |
 
 
 
@@ -32,17 +32,17 @@ Response
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../_components/responses/conflict.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../_components/responses/not_modified.md)
 

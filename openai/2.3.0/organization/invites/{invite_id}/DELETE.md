@@ -31,6 +31,6 @@ _(None)_
 Invite deleted successfully.
 
 #### Response Schema (`application/json`)
-[InviteDeleteResponse](../../../_types/InviteDeleteResponse.md)
+[InviteDeleteResponse](../../../_components/schemas/InviteDeleteResponse.md)
 
 

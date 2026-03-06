@@ -17,10 +17,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../../_types/org.md) |  |
-| `api-insights-user-id (unresolved)` | Unknown | [api-insights-user-id](../../../../../../../_types/api-insights-user-id.md) |  |
-| `api-insights-min-timestamp (unresolved)` | Unknown | [api-insights-min-timestamp](../../../../../../../_types/api-insights-min-timestamp.md) |  |
-| `api-insights-max-timestamp (unresolved)` | Unknown | [api-insights-max-timestamp](../../../../../../../_types/api-insights-max-timestamp.md) |  |
+| `Reference` | N/A | [org](../../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [api-insights-user-id](../../../../../../../_components/parameters/api-insights-user-id.md) |  |
+| `Reference` | N/A | [api-insights-min-timestamp](../../../../../../../_components/parameters/api-insights-min-timestamp.md) |  |
+| `Reference` | N/A | [api-insights-max-timestamp](../../../../../../../_components/parameters/api-insights-max-timestamp.md) |  |
 
 
 
@@ -36,6 +36,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[api-insights-summary-stats](../../../../../../../_types/api-insights-summary-stats.md)
+[api-insights-summary-stats](../../../../../../../_components/schemas/api-insights-summary-stats.md)
 
 

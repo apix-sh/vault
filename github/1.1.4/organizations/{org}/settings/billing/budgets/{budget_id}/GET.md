@@ -20,8 +20,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `budget (unresolved)` | Unknown | [budget](../../../../../../_types/budget.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [budget](../../../../../../_components/parameters/budget.md) |  |
 
 
 
@@ -34,25 +34,25 @@ _(None)_
 
 ### 200
 
-Reference: #/components/responses/budget
+Reference: [budget](../../../../../../_components/responses/budget.md)
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../../../_components/responses/bad_request.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../../_components/responses/internal_error.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../_components/responses/service_unavailable.md)
 

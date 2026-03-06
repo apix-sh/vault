@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `client-id (unresolved)` | Unknown | [client-id](../../../_types/client-id.md) |  |
+| `Reference` | N/A | [client-id](../../../_components/parameters/client-id.md) |  |
 
 
 
@@ -39,14 +39,14 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[authorization](../../../_types/authorization.md)
+[authorization](../../../_components/schemas/authorization.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 

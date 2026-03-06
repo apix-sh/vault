@@ -26,8 +26,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -43,14 +43,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[contributor-activity](../../../../../_types/contributor-activity.md)>
+array<[contributor-activity](../../../../../_components/schemas/contributor-activity.md)>
 
 
 ### 202
 
-Reference: #/components/responses/accepted
+Reference: [accepted](../../../../../_components/responses/accepted.md)
 
 ### 204
 
-Reference: #/components/responses/no_content
+Reference: [no_content](../../../../../_components/responses/no_content.md)
 

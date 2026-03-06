@@ -35,9 +35,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `release-id (unresolved)` | Unknown | [release-id](../../../../../../_types/release-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [release-id](../../../../../../_components/parameters/release-id.md) |  |
 | `name` | Yes | string | *Serialization: style=Form* |
 | `label` | No | string | *Serialization: style=Form* |
 
@@ -59,7 +59,7 @@ Supported content types:
 Response for successful upload
 
 #### Response Schema (`application/json`)
-[release-asset](../../../../../../_types/release-asset.md)
+[release-asset](../../../../../../_components/schemas/release-asset.md)
 
 
 ### 422

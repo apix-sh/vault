@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateThreadAndRunRequest](../../_types/CreateThreadAndRunRequest.md)
+[CreateThreadAndRunRequest](../../_components/schemas/CreateThreadAndRunRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[RunObject](../../_types/RunObject.md)
+[RunObject](../../_components/schemas/RunObject.md)
 
 

@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListAudiencesResponseSuccess](../_types/ListAudiencesResponseSuccess.md)
+[ListAudiencesResponseSuccess](../_components/schemas/ListAudiencesResponseSuccess.md)
 
 

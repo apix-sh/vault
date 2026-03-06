@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -43,18 +43,18 @@ Supported content types:
 Empty response
 
 #### Response Schema (`application/json`)
-[empty-object](../../../../../../../_types/empty-object.md)
+[empty-object](../../../../../../../_components/schemas/empty-object.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../../_components/responses/not_found.md)
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../../../../_components/responses/bad_request.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../../../../../_components/responses/validation_failed_simple.md)
 

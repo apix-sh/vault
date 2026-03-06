@@ -21,11 +21,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username (unresolved)` | Unknown | [username](../../../_types/username.md) |  |
-| `sort-starred (unresolved)` | Unknown | [sort-starred](../../../_types/sort-starred.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../_types/direction.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../_types/page.md) |  |
+| `Reference` | N/A | [username](../../../_components/parameters/username.md) |  |
+| `Reference` | N/A | [sort-starred](../../../_components/parameters/sort-starred.md) |  |
+| `Reference` | N/A | [direction](../../../_components/parameters/direction.md) |  |
+| `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
 
 
 
@@ -45,7 +45,9 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
 *(No object properties found)*
 

@@ -17,10 +17,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../../_types/repo.md) |  |
-| `hook-id (unresolved)` | Unknown | [hook-id](../../../../../../../../_types/hook-id.md) |  |
-| `delivery-id (unresolved)` | Unknown | [delivery-id](../../../../../../../../_types/delivery-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [hook-id](../../../../../../../../_components/parameters/hook-id.md) |  |
+| `Reference` | N/A | [delivery-id](../../../../../../../../_components/parameters/delivery-id.md) |  |
 
 
 
@@ -33,13 +33,13 @@ _(None)_
 
 ### 202
 
-Reference: #/components/responses/accepted
+Reference: [accepted](../../../../../../../../_components/responses/accepted.md)
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../../../../../_components/responses/bad_request.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../../../../_components/responses/validation_failed.md)
 

@@ -32,6 +32,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[AddContactToSegmentResponseSuccess](../../../../_types/AddContactToSegmentResponseSuccess.md)
+[AddContactToSegmentResponseSuccess](../../../../_components/schemas/AddContactToSegmentResponseSuccess.md)
 
 

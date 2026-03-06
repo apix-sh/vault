@@ -21,9 +21,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `artifact-id (unresolved)` | Unknown | [artifact-id](../../../../../../_types/artifact-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [artifact-id](../../../../../../_components/parameters/artifact-id.md) |  |
 
 
 
@@ -39,6 +39,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[artifact](../../../../../../_types/artifact.md)
+[artifact](../../../../../../_components/schemas/artifact.md)
 
 

@@ -37,10 +37,10 @@ _(None)_
 successful operation
 
 #### Response Schema (`application/json`)
-[Pet](../../_types/Pet.md)
+[Pet](../../_components/schemas/Pet.md)
 
 #### Response Schema (`application/xml`)
-[Pet](../../_types/Pet.md)
+[Pet](../../_components/schemas/Pet.md)
 
 
 ### 400

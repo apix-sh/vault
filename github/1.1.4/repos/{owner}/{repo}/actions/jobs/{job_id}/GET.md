@@ -21,9 +21,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `job-id (unresolved)` | Unknown | [job-id](../../../../../../_types/job-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [job-id](../../../../../../_components/parameters/job-id.md) |  |
 
 
 
@@ -39,6 +39,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[job](../../../../../../_types/job.md)
+[job](../../../../../../_components/schemas/job.md)
 
 

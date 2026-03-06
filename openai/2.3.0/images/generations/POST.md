@@ -24,7 +24,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateImageRequest](../../_types/CreateImageRequest.md)
+[CreateImageRequest](../../_components/schemas/CreateImageRequest.md)
 
 
 ## Responses
@@ -34,6 +34,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[ImagesResponse](../../_types/ImagesResponse.md)
+[ImagesResponse](../../_components/schemas/ImagesResponse.md)
 
 

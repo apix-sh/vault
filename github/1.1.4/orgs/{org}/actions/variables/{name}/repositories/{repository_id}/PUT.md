@@ -24,8 +24,8 @@ OAuth tokens and personal access tokens (classic) need the `admin:org` scope to 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../../_types/org.md) |  |
-| `variable-name (unresolved)` | Unknown | [variable-name](../../../../../../../_types/variable-name.md) |  |
+| `Reference` | N/A | [org](../../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [variable-name](../../../../../../../_components/parameters/variable-name.md) |  |
 
 
 

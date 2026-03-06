@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateSegmentOptions](../_types/CreateSegmentOptions.md)
+[CreateSegmentOptions](../_components/schemas/CreateSegmentOptions.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateSegmentResponseSuccess](../_types/CreateSegmentResponseSuccess.md)
+[CreateSegmentResponseSuccess](../_components/schemas/CreateSegmentResponseSuccess.md)
 
 

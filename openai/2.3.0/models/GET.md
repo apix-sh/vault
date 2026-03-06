@@ -29,6 +29,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListModelsResponse](../_types/ListModelsResponse.md)
+[ListModelsResponse](../_components/schemas/ListModelsResponse.md)
 
 

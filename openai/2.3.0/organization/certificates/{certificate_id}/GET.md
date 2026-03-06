@@ -36,6 +36,6 @@ _(None)_
 Certificate retrieved successfully.
 
 #### Response Schema (`application/json`)
-[Certificate](../../../_types/Certificate.md)
+[Certificate](../../../_components/schemas/Certificate.md)
 
 

@@ -25,8 +25,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../_types/username.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [username](../../../../_components/parameters/username.md) |  |
 
 
 
@@ -50,14 +50,14 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[org-membership](../../../../_types/org-membership.md)
+[org-membership](../../../../_components/schemas/org-membership.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 

@@ -19,10 +19,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `billing-usage-report-year (unresolved)` | Unknown | [billing-usage-report-year](../../../../../_types/billing-usage-report-year.md) |  |
-| `billing-usage-report-month (unresolved)` | Unknown | [billing-usage-report-month](../../../../../_types/billing-usage-report-month.md) |  |
-| `billing-usage-report-day (unresolved)` | Unknown | [billing-usage-report-day](../../../../../_types/billing-usage-report-day.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [billing-usage-report-year](../../../../../_components/parameters/billing-usage-report-year.md) |  |
+| `Reference` | N/A | [billing-usage-report-month](../../../../../_components/parameters/billing-usage-report-month.md) |  |
+| `Reference` | N/A | [billing-usage-report-day](../../../../../_components/parameters/billing-usage-report-day.md) |  |
 
 
 
@@ -35,21 +35,21 @@ _(None)_
 
 ### 200
 
-Reference: #/components/responses/billing_usage_report_org
+Reference: [billing_usage_report_org](../../../../../_components/responses/billing_usage_report_org.md)
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../../_components/responses/bad_request.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

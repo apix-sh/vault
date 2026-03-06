@@ -29,7 +29,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-array<[SendEmailRequest](../../_types/SendEmailRequest.md)>
+array<[SendEmailRequest](../../_components/schemas/SendEmailRequest.md)>
 
 
 ## Responses
@@ -39,6 +39,6 @@ array<[SendEmailRequest](../../_types/SendEmailRequest.md)>
 OK
 
 #### Response Schema (`application/json`)
-[CreateBatchEmailsResponse](../../_types/CreateBatchEmailsResponse.md)
+[CreateBatchEmailsResponse](../../_components/schemas/CreateBatchEmailsResponse.md)
 
 

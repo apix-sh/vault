@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[UpdateVectorStoreRequest](../../_types/UpdateVectorStoreRequest.md)
+[UpdateVectorStoreRequest](../../_components/schemas/UpdateVectorStoreRequest.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[VectorStoreObject](../../_types/VectorStoreObject.md)
+[VectorStoreObject](../../_components/schemas/VectorStoreObject.md)
 
 

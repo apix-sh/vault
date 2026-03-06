@@ -17,10 +17,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `api-insights-min-timestamp (unresolved)` | Unknown | [api-insights-min-timestamp](../../../../../_types/api-insights-min-timestamp.md) |  |
-| `api-insights-max-timestamp (unresolved)` | Unknown | [api-insights-max-timestamp](../../../../../_types/api-insights-max-timestamp.md) |  |
-| `api-insights-timestamp-increment (unresolved)` | Unknown | [api-insights-timestamp-increment](../../../../../_types/api-insights-timestamp-increment.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [api-insights-min-timestamp](../../../../../_components/parameters/api-insights-min-timestamp.md) |  |
+| `Reference` | N/A | [api-insights-max-timestamp](../../../../../_components/parameters/api-insights-max-timestamp.md) |  |
+| `Reference` | N/A | [api-insights-timestamp-increment](../../../../../_components/parameters/api-insights-timestamp-increment.md) |  |
 
 
 
@@ -36,6 +36,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[api-insights-time-stats](../../../../../_types/api-insights-time-stats.md)
+[api-insights-time-stats](../../../../../_components/schemas/api-insights-time-stats.md)
 
 

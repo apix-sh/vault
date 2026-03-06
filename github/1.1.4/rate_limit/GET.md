@@ -51,18 +51,20 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `X-RateLimit-Limit (ref)` | Unknown | [x-rate-limit-limit](../_types/x-rate-limit-limit.md) |  |
-| `X-RateLimit-Remaining (ref)` | Unknown | [x-rate-limit-remaining](../_types/x-rate-limit-remaining.md) |  |
-| `X-RateLimit-Reset (ref)` | Unknown | [x-rate-limit-reset](../_types/x-rate-limit-reset.md) |  |
+| `X-RateLimit-Limit (ref)` | Unknown | [x-rate-limit-limit](../_components/headers/x-rate-limit-limit.md) |  |
+| `X-RateLimit-Remaining (ref)` | Unknown | [x-rate-limit-remaining](../_components/headers/x-rate-limit-remaining.md) |  |
+| `X-RateLimit-Reset (ref)` | Unknown | [x-rate-limit-reset](../_components/headers/x-rate-limit-reset.md) |  |
+
+
 #### Response Schema (`application/json`)
-[rate-limit-overview](../_types/rate-limit-overview.md)
+[rate-limit-overview](../_components/schemas/rate-limit-overview.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../_components/responses/not_found.md)
 

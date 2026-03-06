@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-array<[User](../../_types/User.md)>
+array<[User](../../_components/schemas/User.md)>
 
 
 ## Responses
@@ -35,10 +35,10 @@ array<[User](../../_types/User.md)>
 Successful operation
 
 #### Response Schema (`application/json`)
-[User](../../_types/User.md)
+[User](../../_components/schemas/User.md)
 
 #### Response Schema (`application/xml`)
-[User](../../_types/User.md)
+[User](../../_components/schemas/User.md)
 
 
 ### default

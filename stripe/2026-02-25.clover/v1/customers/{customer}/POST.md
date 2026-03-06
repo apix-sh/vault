@@ -69,7 +69,7 @@ If you want to add a new payment source and make it the default, see the [source
 Successful response.
 
 #### Response Schema (`application/json`)
-[customer](../../../_types/customer.md)
+[customer](../../../_components/schemas/customer.md)
 
 
 ### default
@@ -77,6 +77,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

@@ -21,10 +21,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `alert-number (unresolved)` | Unknown | [alert-number](../../../../../../_types/alert-number.md) |  |
-| `secret-scanning-alert-hide-secret (unresolved)` | Unknown | [secret-scanning-alert-hide-secret](../../../../../../_types/secret-scanning-alert-hide-secret.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [alert-number](../../../../../../_components/parameters/alert-number.md) |  |
+| `Reference` | N/A | [secret-scanning-alert-hide-secret](../../../../../../_components/parameters/secret-scanning-alert-hide-secret.md) |  |
 
 
 
@@ -40,12 +40,12 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[secret-scanning-alert](../../../../../../_types/secret-scanning-alert.md)
+[secret-scanning-alert](../../../../../../_components/schemas/secret-scanning-alert.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../../_components/responses/not_modified.md)
 
 ### 404
 
@@ -53,5 +53,5 @@ Repository is public, or secret scanning is disabled for the repository, or the 
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../_components/responses/service_unavailable.md)
 

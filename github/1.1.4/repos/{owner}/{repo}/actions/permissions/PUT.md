@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -32,9 +32,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `enabled` | Yes | [actions-enabled](../../../../../_types/actions-enabled.md) |  |
-| `allowed_actions` | No | [allowed-actions](../../../../../_types/allowed-actions.md) |  |
-| `sha_pinning_required` | No | [sha-pinning-required](../../../../../_types/sha-pinning-required.md) |  |
+| `enabled` | Yes | [actions-enabled](../../../../../_components/schemas/actions-enabled.md) |  |
+| `allowed_actions` | No | [allowed-actions](../../../../../_components/schemas/allowed-actions.md) |  |
+| `sha_pinning_required` | No | [sha-pinning-required](../../../../../_components/schemas/sha-pinning-required.md) |  |
 
 
 ## Responses

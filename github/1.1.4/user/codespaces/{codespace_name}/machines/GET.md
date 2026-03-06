@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `codespace-name (unresolved)` | Unknown | [codespace-name](../../../../_types/codespace-name.md) |  |
+| `Reference` | N/A | [codespace-name](../../../../_components/parameters/codespace-name.md) |  |
 
 
 
@@ -38,26 +38,26 @@ Response
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
-| `machines` | Yes | array<[codespace-machine](../../../../_types/codespace-machine.md)> |  |
+| `machines` | Yes | array<[codespace-machine](../../../../_components/schemas/codespace-machine.md)> |  |
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

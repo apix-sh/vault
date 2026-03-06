@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../_types/secret-name.md) |  |
+| `Reference` | N/A | [secret-name](../../../../_components/parameters/secret-name.md) |  |
 
 
 
@@ -37,6 +37,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[codespaces-secret](../../../../_types/codespaces-secret.md)
+[codespaces-secret](../../../../_components/schemas/codespaces-secret.md)
 
 

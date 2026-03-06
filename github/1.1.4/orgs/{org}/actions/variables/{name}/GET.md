@@ -21,8 +21,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `variable-name (unresolved)` | Unknown | [variable-name](../../../../../_types/variable-name.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [variable-name](../../../../../_components/parameters/variable-name.md) |  |
 
 
 
@@ -38,6 +38,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[organization-actions-variable](../../../../../_types/organization-actions-variable.md)
+[organization-actions-variable](../../../../../_components/schemas/organization-actions-variable.md)
 
 

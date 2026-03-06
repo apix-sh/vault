@@ -24,10 +24,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../../_types/repo.md) |  |
-| `pull-number (unresolved)` | Unknown | [pull-number](../../../../../../../../_types/pull-number.md) |  |
-| `review-id (unresolved)` | Unknown | [review-id](../../../../../../../../_types/review-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [pull-number](../../../../../../../../_components/parameters/pull-number.md) |  |
+| `Reference` | N/A | [review-id](../../../../../../../../_components/parameters/review-id.md) |  |
 
 
 
@@ -50,18 +50,18 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[pull-request-review](../../../../../../../../_types/pull-request-review.md)
+[pull-request-review](../../../../../../../../_components/schemas/pull-request-review.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../../../../../../_components/responses/validation_failed_simple.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../../../_components/responses/forbidden.md)
 

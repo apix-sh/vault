@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../../_types/org.md) |  |
-| `migration-id (unresolved)` | Unknown | [migration-id](../../../../../../../_types/migration-id.md) |  |
-| `repo-name (unresolved)` | Unknown | [repo-name](../../../../../../../_types/repo-name.md) |  |
+| `Reference` | N/A | [org](../../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [migration-id](../../../../../../../_components/parameters/migration-id.md) |  |
+| `Reference` | N/A | [repo-name](../../../../../../../_components/parameters/repo-name.md) |  |
 
 
 
@@ -36,5 +36,5 @@ Response
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../../_components/responses/not_found.md)
 

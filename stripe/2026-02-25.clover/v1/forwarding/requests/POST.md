@@ -42,7 +42,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[forwarding.request](../../../_types/forwarding.request.md)
+[forwarding.request](../../../_components/schemas/forwarding.request.md)
 
 
 ### default
@@ -50,6 +50,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

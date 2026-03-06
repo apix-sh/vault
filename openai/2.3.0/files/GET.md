@@ -37,6 +37,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListFilesResponse](../_types/ListFilesResponse.md)
+[ListFilesResponse](../_components/schemas/ListFilesResponse.md)
 
 

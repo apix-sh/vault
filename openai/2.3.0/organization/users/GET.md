@@ -35,6 +35,6 @@ _(None)_
 Users listed successfully.
 
 #### Response Schema (`application/json`)
-[UserListResponse](../../_types/UserListResponse.md)
+[UserListResponse](../../_components/schemas/UserListResponse.md)
 
 

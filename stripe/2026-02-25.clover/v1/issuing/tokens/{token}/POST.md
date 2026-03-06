@@ -40,7 +40,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[issuing.token](../../../../_types/issuing.token.md)
+[issuing.token](../../../../_components/schemas/issuing.token.md)
 
 
 ### default
@@ -48,6 +48,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

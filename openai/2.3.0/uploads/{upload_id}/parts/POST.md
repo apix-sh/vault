@@ -31,7 +31,7 @@ Supported content types:
 - `multipart/form-data`
 
 ### Inline Request Schema (`multipart/form-data`)
-[AddUploadPartRequest](../../../_types/AddUploadPartRequest.md)
+[AddUploadPartRequest](../../../_components/schemas/AddUploadPartRequest.md)
 
 
 ## Responses
@@ -41,6 +41,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[UploadPart](../../../_types/UploadPart.md)
+[UploadPart](../../../_components/schemas/UploadPart.md)
 
 

@@ -19,10 +19,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `actions-cache-key-required (unresolved)` | Unknown | [actions-cache-key-required](../../../../../_types/actions-cache-key-required.md) |  |
-| `actions-cache-git-ref-full (unresolved)` | Unknown | [actions-cache-git-ref-full](../../../../../_types/actions-cache-git-ref-full.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [actions-cache-key-required](../../../../../_components/parameters/actions-cache-key-required.md) |  |
+| `Reference` | N/A | [actions-cache-git-ref-full](../../../../../_components/parameters/actions-cache-git-ref-full.md) |  |
 
 
 
@@ -38,6 +38,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[actions-cache-list](../../../../../_types/actions-cache-list.md)
+[actions-cache-list](../../../../../_components/schemas/actions-cache-list.md)
 
 

@@ -33,6 +33,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListReceivedEmailsResponse](../../_types/ListReceivedEmailsResponse.md)
+[ListReceivedEmailsResponse](../../_components/schemas/ListReceivedEmailsResponse.md)
 
 

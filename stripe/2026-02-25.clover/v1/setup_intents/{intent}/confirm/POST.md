@@ -65,7 +65,7 @@ This parameter is only used for cards and other redirect-based payment methods. 
 Successful response.
 
 #### Response Schema (`application/json`)
-[setup_intent](../../../../_types/setup_intent.md)
+[setup_intent](../../../../_components/schemas/setup_intent.md)
 
 
 ### default
@@ -73,6 +73,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

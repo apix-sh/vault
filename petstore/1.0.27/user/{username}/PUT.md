@@ -29,13 +29,13 @@ Supported content types:
 - `application/x-www-form-urlencoded`
 
 ### Inline Request Schema (`application/json`)
-[User](../../_types/User.md)
+[User](../../_components/schemas/User.md)
 
 ### Inline Request Schema (`application/xml`)
-[User](../../_types/User.md)
+[User](../../_components/schemas/User.md)
 
 ### Inline Request Schema (`application/x-www-form-urlencoded`)
-[User](../../_types/User.md)
+[User](../../_components/schemas/User.md)
 
 
 ## Responses

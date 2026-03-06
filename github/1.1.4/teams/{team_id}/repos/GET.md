@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `team-id (unresolved)` | Unknown | [team-id](../../../_types/team-id.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../_types/page.md) |  |
+| `Reference` | N/A | [team-id](../../../_components/parameters/team-id.md) |  |
+| `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
 
 
 
@@ -40,12 +40,14 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[minimal-repository](../../../_types/minimal-repository.md)>
+array<[minimal-repository](../../../_components/schemas/minimal-repository.md)>
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 

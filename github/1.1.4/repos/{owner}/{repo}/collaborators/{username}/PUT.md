@@ -41,9 +41,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../../_types/username.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [username](../../../../../_components/parameters/username.md) |  |
 
 
 
@@ -65,7 +65,7 @@ Supported content types:
 Response when a new invitation is created
 
 #### Response Schema (`application/json`)
-[repository-invitation](../../../../../_types/repository-invitation.md)
+[repository-invitation](../../../../../_components/schemas/repository-invitation.md)
 
 
 ### 204
@@ -82,10 +82,10 @@ Response when:
 - an Enterprise Managed User (EMU) account was invited to a repository in an enterprise with personal user accounts
 
 #### Response Schema (`application/json`)
-[validation-error](../../../../../_types/validation-error.md)
+[validation-error](../../../../../_components/schemas/validation-error.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 

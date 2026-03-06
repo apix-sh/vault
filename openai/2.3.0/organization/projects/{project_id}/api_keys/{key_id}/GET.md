@@ -32,6 +32,6 @@ _(None)_
 Project API key retrieved successfully.
 
 #### Response Schema (`application/json`)
-[ProjectApiKey](../../../../../_types/ProjectApiKey.md)
+[ProjectApiKey](../../../../../_components/schemas/ProjectApiKey.md)
 
 

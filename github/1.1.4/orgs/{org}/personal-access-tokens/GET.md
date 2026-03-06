@@ -19,17 +19,17 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../_types/page.md) |  |
-| `personal-access-token-sort (unresolved)` | Unknown | [personal-access-token-sort](../../../_types/personal-access-token-sort.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../_types/direction.md) |  |
-| `personal-access-token-owner (unresolved)` | Unknown | [personal-access-token-owner](../../../_types/personal-access-token-owner.md) |  |
-| `personal-access-token-repository (unresolved)` | Unknown | [personal-access-token-repository](../../../_types/personal-access-token-repository.md) |  |
-| `personal-access-token-permission (unresolved)` | Unknown | [personal-access-token-permission](../../../_types/personal-access-token-permission.md) |  |
-| `personal-access-token-before (unresolved)` | Unknown | [personal-access-token-before](../../../_types/personal-access-token-before.md) |  |
-| `personal-access-token-after (unresolved)` | Unknown | [personal-access-token-after](../../../_types/personal-access-token-after.md) |  |
-| `personal-access-token-token-id (unresolved)` | Unknown | [personal-access-token-token-id](../../../_types/personal-access-token-token-id.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [personal-access-token-sort](../../../_components/parameters/personal-access-token-sort.md) |  |
+| `Reference` | N/A | [direction](../../../_components/parameters/direction.md) |  |
+| `Reference` | N/A | [personal-access-token-owner](../../../_components/parameters/personal-access-token-owner.md) |  |
+| `Reference` | N/A | [personal-access-token-repository](../../../_components/parameters/personal-access-token-repository.md) |  |
+| `Reference` | N/A | [personal-access-token-permission](../../../_components/parameters/personal-access-token-permission.md) |  |
+| `Reference` | N/A | [personal-access-token-before](../../../_components/parameters/personal-access-token-before.md) |  |
+| `Reference` | N/A | [personal-access-token-after](../../../_components/parameters/personal-access-token-after.md) |  |
+| `Reference` | N/A | [personal-access-token-token-id](../../../_components/parameters/personal-access-token-token-id.md) |  |
 
 
 
@@ -42,19 +42,19 @@ _(None)_
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../_components/responses/internal_error.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 200
 
@@ -65,8 +65,10 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[organization-programmatic-access-grant](../../../_types/organization-programmatic-access-grant.md)>
+array<[organization-programmatic-access-grant](../../../_components/schemas/organization-programmatic-access-grant.md)>
 
 

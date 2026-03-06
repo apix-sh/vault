@@ -33,6 +33,6 @@ _(None)_
 Details of the requested API key.
 
 #### Response Schema (`application/json`)
-[AdminApiKey](../../../_types/AdminApiKey.md)
+[AdminApiKey](../../../_components/schemas/AdminApiKey.md)
 
 

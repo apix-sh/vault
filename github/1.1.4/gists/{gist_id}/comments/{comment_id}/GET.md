@@ -22,8 +22,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `gist-id (unresolved)` | Unknown | [gist-id](../../../../_types/gist-id.md) |  |
-| `comment-id (unresolved)` | Unknown | [comment-id](../../../../_types/comment-id.md) |  |
+| `Reference` | N/A | [gist-id](../../../../_components/parameters/gist-id.md) |  |
+| `Reference` | N/A | [comment-id](../../../../_components/parameters/comment-id.md) |  |
 
 
 
@@ -39,18 +39,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[gist-comment](../../../../_types/gist-comment.md)
+[gist-comment](../../../../_components/schemas/gist-comment.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden_gist
+Reference: [forbidden_gist](../../../../_components/responses/forbidden_gist.md)
 

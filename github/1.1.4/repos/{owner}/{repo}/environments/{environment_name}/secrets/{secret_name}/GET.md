@@ -21,10 +21,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../../_types/environment-name.md) |  |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../../../../_types/secret-name.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../../_components/parameters/environment-name.md) |  |
+| `Reference` | N/A | [secret-name](../../../../../../../_components/parameters/secret-name.md) |  |
 
 
 
@@ -40,6 +40,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[actions-secret](../../../../../../../_types/actions-secret.md)
+[actions-secret](../../../../../../../_components/schemas/actions-secret.md)
 
 

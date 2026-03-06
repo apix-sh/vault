@@ -37,6 +37,6 @@ _(None)_
 A list of evals
 
 #### Response Schema (`application/json`)
-[EvalList](../_types/EvalList.md)
+[EvalList](../_components/schemas/EvalList.md)
 
 

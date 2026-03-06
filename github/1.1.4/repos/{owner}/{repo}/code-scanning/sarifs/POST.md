@@ -50,8 +50,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -63,9 +63,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `commit_sha` | Yes | [code-scanning-analysis-commit-sha](../../../../../_types/code-scanning-analysis-commit-sha.md) |  |
-| `ref` | Yes | [code-scanning-ref-full](../../../../../_types/code-scanning-ref-full.md) |  |
-| `sarif` | Yes | [code-scanning-analysis-sarif-file](../../../../../_types/code-scanning-analysis-sarif-file.md) |  |
+| `commit_sha` | Yes | [code-scanning-analysis-commit-sha](../../../../../_components/schemas/code-scanning-analysis-commit-sha.md) |  |
+| `ref` | Yes | [code-scanning-ref-full](../../../../../_components/schemas/code-scanning-ref-full.md) |  |
+| `sarif` | Yes | [code-scanning-analysis-sarif-file](../../../../../_components/schemas/code-scanning-analysis-sarif-file.md) |  |
 | `checkout_uri` | No | string | The base directory used in the analysis, as it appears in the SARIF file.
 This property is used to convert file paths from absolute to relative, so that alerts can be mapped to their correct location in the repository. |
 | `started_at` | No | string | The time that the analysis run began. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. |
@@ -81,7 +81,7 @@ This parameter is intended to help integrators ensure that the uploaded SARIF fi
 Response
 
 #### Response Schema (`application/json`)
-[code-scanning-sarifs-receipt](../../../../../_types/code-scanning-sarifs-receipt.md)
+[code-scanning-sarifs-receipt](../../../../../_components/schemas/code-scanning-sarifs-receipt.md)
 
 
 ### 400
@@ -90,11 +90,11 @@ Bad Request if the sarif field is invalid
 
 ### 403
 
-Reference: #/components/responses/code_scanning_forbidden_write
+Reference: [code_scanning_forbidden_write](../../../../../_components/responses/code_scanning_forbidden_write.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 413
 
@@ -102,5 +102,5 @@ Payload Too Large if the sarif field is too large
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

@@ -31,6 +31,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[root](_types/root.md)
+[root](_components/schemas/root.md)
 
 

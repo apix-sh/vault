@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 
 
 
@@ -43,6 +43,6 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[network-configuration](../../../../_types/network-configuration.md)
+[network-configuration](../../../../_components/schemas/network-configuration.md)
 
 

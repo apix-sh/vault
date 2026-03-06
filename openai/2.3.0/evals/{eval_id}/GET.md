@@ -32,6 +32,6 @@ _(None)_
 The evaluation
 
 #### Response Schema (`application/json`)
-[Eval](../../_types/Eval.md)
+[Eval](../../_components/schemas/Eval.md)
 
 

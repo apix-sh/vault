@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `runner-group-id (unresolved)` | Unknown | [runner-group-id](../../../../../_types/runner-group-id.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [runner-group-id](../../../../../_components/parameters/runner-group-id.md) |  |
 
 
 
@@ -47,6 +47,6 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[runner-groups-org](../../../../../_types/runner-groups-org.md)
+[runner-groups-org](../../../../../_components/schemas/runner-groups-org.md)
 
 

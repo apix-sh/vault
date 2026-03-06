@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `team-id (unresolved)` | Unknown | [team-id](../../../_types/team-id.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../_types/page.md) |  |
+| `Reference` | N/A | [team-id](../../../_components/parameters/team-id.md) |  |
+| `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
 
 
 
@@ -40,20 +40,22 @@ if child teams exist
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[team](../../../_types/team.md)>
+array<[team](../../../_components/schemas/team.md)>
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

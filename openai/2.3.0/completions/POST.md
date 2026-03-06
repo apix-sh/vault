@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateCompletionRequest](../_types/CreateCompletionRequest.md)
+[CreateCompletionRequest](../_components/schemas/CreateCompletionRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateCompletionResponse](../_types/CreateCompletionResponse.md)
+[CreateCompletionResponse](../_components/schemas/CreateCompletionResponse.md)
 
 

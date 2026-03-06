@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username (unresolved)` | Unknown | [username](../../../../_types/username.md) |  |
+| `Reference` | N/A | [username](../../../../_components/parameters/username.md) |  |
 
 
 
@@ -35,14 +35,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[package](../../../../_types/package.md)>
+array<[package](../../../../_components/schemas/package.md)>
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
 

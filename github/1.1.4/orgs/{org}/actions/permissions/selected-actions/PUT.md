@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -29,7 +29,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[selected-actions](../../../../../_types/selected-actions.md)
+[selected-actions](../../../../../_components/schemas/selected-actions.md)
 
 
 ## Responses

@@ -23,7 +23,7 @@ Supported content types:
 - `multipart/form-data`
 
 ### Inline Request Schema (`multipart/form-data`)
-[CreateTranslationRequest](../../_types/CreateTranslationRequest.md)
+[CreateTranslationRequest](../../_components/schemas/CreateTranslationRequest.md)
 
 
 ## Responses

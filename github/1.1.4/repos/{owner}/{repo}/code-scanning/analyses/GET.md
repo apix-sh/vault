@@ -31,16 +31,16 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `tool-name (unresolved)` | Unknown | [tool-name](../../../../../_types/tool-name.md) |  |
-| `tool-guid (unresolved)` | Unknown | [tool-guid](../../../../../_types/tool-guid.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
-| `pr-alias (unresolved)` | Unknown | [pr-alias](../../../../../_types/pr-alias.md) |  |
-| `ref` | No | [code-scanning-ref](../../../../../_types/code-scanning-ref.md) | The Git reference for the analyses you want to list. The `ref` for a branch can be formatted either as `refs/heads/<branch name>` or simply `<branch name>`. To reference a pull request use `refs/pull/<number>/merge`.<br/>*Serialization: style=Form* |
-| `sarif_id` | No | [code-scanning-analysis-sarif-id](../../../../../_types/code-scanning-analysis-sarif-id.md) | Filter analyses belonging to the same SARIF upload.<br/>*Serialization: style=Form* |
-| `direction (unresolved)` | Unknown | [direction](../../../../../_types/direction.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [tool-name](../../../../../_components/parameters/tool-name.md) |  |
+| `Reference` | N/A | [tool-guid](../../../../../_components/parameters/tool-guid.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [pr-alias](../../../../../_components/parameters/pr-alias.md) |  |
+| `ref` | No | [code-scanning-ref](../../../../../_components/schemas/code-scanning-ref.md) | The Git reference for the analyses you want to list. The `ref` for a branch can be formatted either as `refs/heads/<branch name>` or simply `<branch name>`. To reference a pull request use `refs/pull/<number>/merge`.<br/>*Serialization: style=Form* |
+| `sarif_id` | No | [code-scanning-analysis-sarif-id](../../../../../_components/schemas/code-scanning-analysis-sarif-id.md) | Filter analyses belonging to the same SARIF upload.<br/>*Serialization: style=Form* |
+| `Reference` | N/A | [direction](../../../../../_components/parameters/direction.md) |  |
 | `sort` | No | string | The property by which to sort the results.<br/>*Serialization: style=Form* |
 
 
@@ -57,18 +57,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[code-scanning-analysis](../../../../../_types/code-scanning-analysis.md)>
+array<[code-scanning-analysis](../../../../../_components/schemas/code-scanning-analysis.md)>
 
 
 ### 403
 
-Reference: #/components/responses/code_scanning_forbidden_read
+Reference: [code_scanning_forbidden_read](../../../../../_components/responses/code_scanning_forbidden_read.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

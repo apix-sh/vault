@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[UpdateContactPropertyOptions](../../_types/UpdateContactPropertyOptions.md)
+[UpdateContactPropertyOptions](../../_components/schemas/UpdateContactPropertyOptions.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[UpdateContactPropertyResponseSuccess](../../_types/UpdateContactPropertyResponseSuccess.md)
+[UpdateContactPropertyResponseSuccess](../../_components/schemas/UpdateContactPropertyResponseSuccess.md)
 
 

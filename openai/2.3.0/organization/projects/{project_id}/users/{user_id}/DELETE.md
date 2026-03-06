@@ -32,7 +32,7 @@ _(None)_
 Project user deleted successfully.
 
 #### Response Schema (`application/json`)
-[ProjectUserDeleteResponse](../../../../../_types/ProjectUserDeleteResponse.md)
+[ProjectUserDeleteResponse](../../../../../_components/schemas/ProjectUserDeleteResponse.md)
 
 
 ### 400
@@ -40,6 +40,6 @@ Project user deleted successfully.
 Error response for various conditions.
 
 #### Response Schema (`application/json`)
-[ErrorResponse](../../../../../_types/ErrorResponse.md)
+[ErrorResponse](../../../../../_components/schemas/ErrorResponse.md)
 
 

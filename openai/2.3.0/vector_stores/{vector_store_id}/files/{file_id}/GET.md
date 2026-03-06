@@ -32,6 +32,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[VectorStoreFileObject](../../../../_types/VectorStoreFileObject.md)
+[VectorStoreFileObject](../../../../_components/schemas/VectorStoreFileObject.md)
 
 

@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `release-id (unresolved)` | Unknown | [release-id](../../../../../_types/release-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [release-id](../../../../../_components/parameters/release-id.md) |  |
 
 
 
@@ -48,7 +48,7 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[release](../../../../../_types/release.md)
+[release](../../../../../_components/schemas/release.md)
 
 
 ### 404
@@ -56,6 +56,6 @@ Response
 Not Found if the discussion category name is invalid
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../_types/basic-error.md)
+[basic-error](../../../../../_components/schemas/basic-error.md)
 
 

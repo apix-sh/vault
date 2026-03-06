@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../../../_types/enterprise.md) |  |
-| `enterprise-team (unresolved)` | Unknown | [enterprise-team](../../../../../../_types/enterprise-team.md) |  |
+| `Reference` | N/A | [enterprise](../../../../../../_components/parameters/enterprise.md) |  |
+| `Reference` | N/A | [enterprise-team](../../../../../../_components/parameters/enterprise-team.md) |  |
 
 
 
@@ -40,6 +40,6 @@ Supported content types:
 Successfully assigned the enterprise team to organizations.
 
 #### Response Schema (`application/json`)
-array<[organization-simple](../../../../../../_types/organization-simple.md)>
+array<[organization-simple](../../../../../../_components/schemas/organization-simple.md)>
 
 

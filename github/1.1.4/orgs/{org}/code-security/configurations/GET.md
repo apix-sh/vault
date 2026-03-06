@@ -21,11 +21,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 | `target_type` | No | string | The target type of the code security configuration<br/>*Serialization: style=Form* |
 | `per_page` | No | integer | The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."<br/>*Serialization: style=Form* |
-| `pagination-before (unresolved)` | Unknown | [pagination-before](../../../../_types/pagination-before.md) |  |
-| `pagination-after (unresolved)` | Unknown | [pagination-after](../../../../_types/pagination-after.md) |  |
+| `Reference` | N/A | [pagination-before](../../../../_components/parameters/pagination-before.md) |  |
+| `Reference` | N/A | [pagination-after](../../../../_components/parameters/pagination-after.md) |  |
 
 
 
@@ -41,14 +41,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[code-security-configuration](../../../../_types/code-security-configuration.md)>
+array<[code-security-configuration](../../../../_components/schemas/code-security-configuration.md)>
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

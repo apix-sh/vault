@@ -21,8 +21,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -38,6 +38,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[runner-application](../../../../../../_types/runner-application.md)>
+array<[runner-application](../../../../../../_components/schemas/runner-application.md)>
 
 

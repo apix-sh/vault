@@ -21,9 +21,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../../_types/repo.md) |  |
-| `alert-number (unresolved)` | Unknown | [alert-number](../../../../../../../../_types/alert-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [alert-number](../../../../../../../../_components/parameters/alert-number.md) |  |
 
 
 
@@ -33,7 +33,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[code-scanning-autofix-commits](../../../../../../../../_types/code-scanning-autofix-commits.md)
+[code-scanning-autofix-commits](../../../../../../../../_components/schemas/code-scanning-autofix-commits.md)
 
 
 ## Responses
@@ -43,20 +43,20 @@ Supported content types:
 Created
 
 #### Response Schema (`application/json`)
-[code-scanning-autofix-commits-response](../../../../../../../../_types/code-scanning-autofix-commits-response.md)
+[code-scanning-autofix-commits-response](../../../../../../../../_components/schemas/code-scanning-autofix-commits-response.md)
 
 
 ### 400
 
-Reference: #/components/responses/code_scanning_bad_request
+Reference: [code_scanning_bad_request](../../../../../../../../_components/responses/code_scanning_bad_request.md)
 
 ### 403
 
-Reference: #/components/responses/code_scanning_forbidden_write
+Reference: [code_scanning_forbidden_write](../../../../../../../../_components/responses/code_scanning_forbidden_write.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../../../_components/responses/not_found.md)
 
 ### 422
 
@@ -64,5 +64,5 @@ Unprocessable Entity
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../../../_components/responses/service_unavailable.md)
 

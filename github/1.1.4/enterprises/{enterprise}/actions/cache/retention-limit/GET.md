@@ -20,7 +20,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../../_types/enterprise.md) |  |
+| `Reference` | N/A | [enterprise](../../../../../_components/parameters/enterprise.md) |  |
 
 
 
@@ -36,14 +36,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[actions-cache-retention-limit-for-enterprise](../../../../../_types/actions-cache-retention-limit-for-enterprise.md)
+[actions-cache-retention-limit-for-enterprise](../../../../../_components/schemas/actions-cache-retention-limit-for-enterprise.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

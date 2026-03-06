@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ModifyThreadRequest](../../_types/ModifyThreadRequest.md)
+[ModifyThreadRequest](../../_components/schemas/ModifyThreadRequest.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[ThreadObject](../../_types/ThreadObject.md)
+[ThreadObject](../../_components/schemas/ThreadObject.md)
 
 

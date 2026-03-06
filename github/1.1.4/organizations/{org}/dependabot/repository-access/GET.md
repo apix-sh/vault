@@ -20,7 +20,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 | `page` | No | integer | The page number of results to fetch.<br/>*Serialization: style=Form* |
 | `per_page` | No | integer | Number of results per page.<br/>*Serialization: style=Form* |
 
@@ -38,14 +38,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[dependabot-repository-access-details](../../../../_types/dependabot-repository-access-details.md)
+[dependabot-repository-access-details](../../../../_components/schemas/dependabot-repository-access-details.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

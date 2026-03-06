@@ -23,8 +23,8 @@ Otherwise a `404` status code is returned.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -44,6 +44,6 @@ If the `assignee` can be assigned to issues in the repository, a `204` header wi
 Otherwise a `404` status code is returned.
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../_types/basic-error.md)
+[basic-error](../../../../../_components/schemas/basic-error.md)
 
 

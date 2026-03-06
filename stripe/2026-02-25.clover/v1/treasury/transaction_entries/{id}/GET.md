@@ -39,7 +39,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[treasury.transaction_entry](../../../../_types/treasury.transaction_entry.md)
+[treasury.transaction_entry](../../../../_components/schemas/treasury.transaction_entry.md)
 
 
 ### default
@@ -47,6 +47,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `project-number (unresolved)` | Unknown | [project-number](../../../../../../_types/project-number.md) |  |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `item-id (unresolved)` | Unknown | [item-id](../../../../../../_types/item-id.md) |  |
+| `Reference` | N/A | [project-number](../../../../../../_components/parameters/project-number.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [item-id](../../../../../../_components/parameters/item-id.md) |  |
 | `fields` | No | oneOf(2) | Limit results to specific fields, by their IDs. If not specified, the title field will be returned.
 
 Example: fields[]=123&fields[]=456&fields[]=789 or fields=123,456,789<br/>*Serialization: style=Form* |
@@ -42,20 +42,22 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-[projects-v2-item-with-content](../../../../../../_types/projects-v2-item-with-content.md)
+[projects-v2-item-with-content](../../../../../../_components/schemas/projects-v2-item-with-content.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../../_components/responses/requires_authentication.md)
 

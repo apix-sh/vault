@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -35,7 +35,7 @@ _(None)_
 Response if immutable releases are enabled
 
 #### Response Schema (`application/json`)
-[check-immutable-releases](../../../../_types/check-immutable-releases.md)
+[check-immutable-releases](../../../../_components/schemas/check-immutable-releases.md)
 
 
 ### 404

@@ -22,10 +22,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../../../_types/secret-name.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../_types/per-page.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [secret-name](../../../../../../_components/parameters/secret-name.md) |  |
+| `Reference` | N/A | [page](../../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../_components/parameters/per-page.md) |  |
 
 
 
@@ -44,6 +44,6 @@ Response
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
-| `repositories` | Yes | array<[minimal-repository](../../../../../../_types/minimal-repository.md)> |  |
+| `repositories` | Yes | array<[minimal-repository](../../../../../../_components/schemas/minimal-repository.md)> |  |
 
 

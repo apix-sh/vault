@@ -24,7 +24,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 
 
 
@@ -44,7 +44,7 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[campaign-summary](../../../_types/campaign-summary.md)
+[campaign-summary](../../../_components/schemas/campaign-summary.md)
 
 
 ### 400
@@ -52,19 +52,19 @@ Response
 Bad Request
 
 #### Response Schema (`application/json`)
-[basic-error](../../../_types/basic-error.md)
+[basic-error](../../../_components/schemas/basic-error.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 422
 
 Unprocessable Entity
 
 #### Response Schema (`application/json`)
-[basic-error](../../../_types/basic-error.md)
+[basic-error](../../../_components/schemas/basic-error.md)
 
 
 ### 429
@@ -73,5 +73,5 @@ Too Many Requests
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../_components/responses/service_unavailable.md)
 

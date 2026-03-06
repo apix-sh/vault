@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -27,7 +27,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[actions-fork-pr-workflows-private-repos-request](../../../../../_types/actions-fork-pr-workflows-private-repos-request.md)
+[actions-fork-pr-workflows-private-repos-request](../../../../../_components/schemas/actions-fork-pr-workflows-private-repos-request.md)
 
 
 ## Responses
@@ -41,14 +41,14 @@ Empty response for successful settings update
 Forbidden - Fork PR workflow settings for private repositories are managed by the enterprise owner
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../_types/basic-error.md)
+[basic-error](../../../../../_components/schemas/basic-error.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 

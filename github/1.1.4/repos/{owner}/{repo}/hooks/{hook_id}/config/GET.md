@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `hook-id (unresolved)` | Unknown | [hook-id](../../../../../../_types/hook-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [hook-id](../../../../../../_components/parameters/hook-id.md) |  |
 
 
 
@@ -37,6 +37,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[webhook-config](../../../../../../_types/webhook-config.md)
+[webhook-config](../../../../../../_components/schemas/webhook-config.md)
 
 

@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -30,7 +30,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[code-scanning-default-setup-update](../../../../../_types/code-scanning-default-setup-update.md)
+[code-scanning-default-setup-update](../../../../../_components/schemas/code-scanning-default-setup-update.md)
 
 
 ## Responses
@@ -40,7 +40,7 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[empty-object](../../../../../_types/empty-object.md)
+[empty-object](../../../../../_components/schemas/empty-object.md)
 
 
 ### 202
@@ -48,26 +48,26 @@ Response
 Response
 
 #### Response Schema (`application/json`)
-[code-scanning-default-setup-update-response](../../../../../_types/code-scanning-default-setup-update-response.md)
+[code-scanning-default-setup-update-response](../../../../../_components/schemas/code-scanning-default-setup-update-response.md)
 
 
 ### 403
 
-Reference: #/components/responses/code_scanning_forbidden_write
+Reference: [code_scanning_forbidden_write](../../../../../_components/responses/code_scanning_forbidden_write.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 409
 
-Reference: #/components/responses/code_scanning_conflict
+Reference: [code_scanning_conflict](../../../../../_components/responses/code_scanning_conflict.md)
 
 ### 422
 
-Reference: #/components/responses/code_scanning_invalid_state
+Reference: [code_scanning_invalid_state](../../../../../_components/responses/code_scanning_invalid_state.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

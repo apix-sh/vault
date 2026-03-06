@@ -19,12 +19,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username (unresolved)` | Unknown | [username](../../../../../../_types/username.md) |  |
-| `billing-usage-report-year (unresolved)` | Unknown | [billing-usage-report-year](../../../../../../_types/billing-usage-report-year.md) |  |
-| `billing-usage-report-month-default (unresolved)` | Unknown | [billing-usage-report-month-default](../../../../../../_types/billing-usage-report-month-default.md) |  |
-| `billing-usage-report-day (unresolved)` | Unknown | [billing-usage-report-day](../../../../../../_types/billing-usage-report-day.md) |  |
-| `billing-usage-report-model (unresolved)` | Unknown | [billing-usage-report-model](../../../../../../_types/billing-usage-report-model.md) |  |
-| `billing-usage-report-product (unresolved)` | Unknown | [billing-usage-report-product](../../../../../../_types/billing-usage-report-product.md) |  |
+| `Reference` | N/A | [username](../../../../../../_components/parameters/username.md) |  |
+| `Reference` | N/A | [billing-usage-report-year](../../../../../../_components/parameters/billing-usage-report-year.md) |  |
+| `Reference` | N/A | [billing-usage-report-month-default](../../../../../../_components/parameters/billing-usage-report-month-default.md) |  |
+| `Reference` | N/A | [billing-usage-report-day](../../../../../../_components/parameters/billing-usage-report-day.md) |  |
+| `Reference` | N/A | [billing-usage-report-model](../../../../../../_components/parameters/billing-usage-report-model.md) |  |
+| `Reference` | N/A | [billing-usage-report-product](../../../../../../_components/parameters/billing-usage-report-product.md) |  |
 
 
 
@@ -37,25 +37,25 @@ _(None)_
 
 ### 200
 
-Reference: #/components/responses/billing_premium_request_usage_report_user
+Reference: [billing_premium_request_usage_report_user](../../../../../../_components/responses/billing_premium_request_usage_report_user.md)
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../../../_components/responses/bad_request.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../../_components/responses/internal_error.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../_components/responses/service_unavailable.md)
 

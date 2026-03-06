@@ -22,8 +22,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `team-slug (unresolved)` | Unknown | [team-slug](../../../../_types/team-slug.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [team-slug](../../../../_components/parameters/team-slug.md) |  |
 
 
 
@@ -40,5 +40,5 @@ Response
 
 ### 422
 
-Reference: #/components/responses/enterprise_team_unsupported
+Reference: [enterprise_team_unsupported](../../../../_components/responses/enterprise_team_unsupported.md)
 

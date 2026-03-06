@@ -39,7 +39,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[account_session](../../_types/account_session.md)
+[account_session](../../_components/schemas/account_session.md)
 
 
 ### default
@@ -47,6 +47,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../_types/error.md)
+[error](../../_components/schemas/error.md)
 
 

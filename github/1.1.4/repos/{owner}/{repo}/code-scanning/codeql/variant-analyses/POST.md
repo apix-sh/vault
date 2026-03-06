@@ -24,8 +24,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -45,22 +45,22 @@ Supported content types:
 Variant analysis submitted for processing
 
 #### Response Schema (`application/json`)
-[code-scanning-variant-analysis](../../../../../../_types/code-scanning-variant-analysis.md)
+[code-scanning-variant-analysis](../../../../../../_components/schemas/code-scanning-variant-analysis.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 422
 
 Unable to process variant analysis submission
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../../_types/basic-error.md)
+[basic-error](../../../../../../_components/schemas/basic-error.md)
 
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../_components/responses/service_unavailable.md)
 

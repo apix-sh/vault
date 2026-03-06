@@ -20,7 +20,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -36,6 +36,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[dependabot-public-key](../../../../../_types/dependabot-public-key.md)
+[dependabot-public-key](../../../../../_components/schemas/dependabot-public-key.md)
 
 

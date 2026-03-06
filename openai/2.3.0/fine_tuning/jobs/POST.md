@@ -28,7 +28,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateFineTuningJobRequest](../../_types/CreateFineTuningJobRequest.md)
+[CreateFineTuningJobRequest](../../_components/schemas/CreateFineTuningJobRequest.md)
 
 
 ## Responses
@@ -38,6 +38,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[FineTuningJob](../../_types/FineTuningJob.md)
+[FineTuningJob](../../_components/schemas/FineTuningJob.md)
 
 

@@ -22,7 +22,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `team-id (unresolved)` | Unknown | [team-id](../../_types/team-id.md) |  |
+| `Reference` | N/A | [team-id](../../_components/parameters/team-id.md) |  |
 
 
 
@@ -39,9 +39,9 @@ Response
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 

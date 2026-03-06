@@ -38,7 +38,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[apple_pay_domain](../../../_types/apple_pay_domain.md)
+[apple_pay_domain](../../../_components/schemas/apple_pay_domain.md)
 
 
 ### default
@@ -46,6 +46,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

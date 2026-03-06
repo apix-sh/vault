@@ -33,6 +33,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[Upload](../../../_types/Upload.md)
+[Upload](../../../_components/schemas/Upload.md)
 
 

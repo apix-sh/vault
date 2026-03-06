@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ProjectServiceAccountCreateRequest](../../../../_types/ProjectServiceAccountCreateRequest.md)
+[ProjectServiceAccountCreateRequest](../../../../_components/schemas/ProjectServiceAccountCreateRequest.md)
 
 
 ## Responses
@@ -35,7 +35,7 @@ Supported content types:
 Project service account created successfully.
 
 #### Response Schema (`application/json`)
-[ProjectServiceAccountCreateResponse](../../../../_types/ProjectServiceAccountCreateResponse.md)
+[ProjectServiceAccountCreateResponse](../../../../_components/schemas/ProjectServiceAccountCreateResponse.md)
 
 
 ### 400
@@ -43,6 +43,6 @@ Project service account created successfully.
 Error response when project is archived.
 
 #### Response Schema (`application/json`)
-[ErrorResponse](../../../../_types/ErrorResponse.md)
+[ErrorResponse](../../../../_components/schemas/ErrorResponse.md)
 
 

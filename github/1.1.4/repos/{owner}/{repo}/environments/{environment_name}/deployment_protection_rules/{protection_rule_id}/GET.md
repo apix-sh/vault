@@ -21,10 +21,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../../_types/environment-name.md) |  |
-| `protection-rule-id (unresolved)` | Unknown | [protection-rule-id](../../../../../../../_types/protection-rule-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../../_components/parameters/environment-name.md) |  |
+| `Reference` | N/A | [protection-rule-id](../../../../../../../_components/parameters/protection-rule-id.md) |  |
 
 
 
@@ -40,6 +40,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[deployment-protection-rule](../../../../../../../_types/deployment-protection-rule.md)
+[deployment-protection-rule](../../../../../../../_components/schemas/deployment-protection-rule.md)
 
 

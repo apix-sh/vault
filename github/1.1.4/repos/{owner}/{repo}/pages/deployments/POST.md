@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -46,18 +46,18 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[page-deployment](../../../../../_types/page-deployment.md)
+[page-deployment](../../../../../_components/schemas/page-deployment.md)
 
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../../_components/responses/bad_request.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

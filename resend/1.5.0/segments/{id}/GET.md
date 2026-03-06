@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[GetSegmentResponseSuccess](../../_types/GetSegmentResponseSuccess.md)
+[GetSegmentResponseSuccess](../../_components/schemas/GetSegmentResponseSuccess.md)
 
 

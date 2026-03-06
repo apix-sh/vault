@@ -32,6 +32,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[DeleteVectorStoreFileResponse](../../../../_types/DeleteVectorStoreFileResponse.md)
+[DeleteVectorStoreFileResponse](../../../../_components/schemas/DeleteVectorStoreFileResponse.md)
 
 

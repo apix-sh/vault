@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `since-user (unresolved)` | Unknown | [since-user](../_types/since-user.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../_types/per-page.md) |  |
+| `Reference` | N/A | [since-user](../_components/parameters/since-user.md) |  |
+| `Reference` | N/A | [per-page](../_components/parameters/per-page.md) |  |
 
 
 
@@ -41,11 +41,13 @@ Response
 | :--- | :------: | :--- | :---------- |
 
 | `Link` | No | string |  |
+
+
 #### Response Schema (`application/json`)
-array<[simple-user](../_types/simple-user.md)>
+array<[simple-user](../_components/schemas/simple-user.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 

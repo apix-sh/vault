@@ -20,7 +20,7 @@ Get a version of an organization ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -36,14 +36,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[ruleset-version-with-state](../../../../../../_types/ruleset-version-with-state.md)
+[ruleset-version-with-state](../../../../../../_components/schemas/ruleset-version-with-state.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../../_components/responses/internal_error.md)
 

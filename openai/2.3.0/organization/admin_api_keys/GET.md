@@ -35,6 +35,6 @@ _(None)_
 A list of organization API keys.
 
 #### Response Schema (`application/json`)
-[ApiKeyList](../../_types/ApiKeyList.md)
+[ApiKeyList](../../_components/schemas/ApiKeyList.md)
 
 

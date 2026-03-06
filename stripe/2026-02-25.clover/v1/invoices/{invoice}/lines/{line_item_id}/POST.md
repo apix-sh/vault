@@ -54,7 +54,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[line_item](../../../../../_types/line_item.md)
+[line_item](../../../../../_components/schemas/line_item.md)
 
 
 ### default
@@ -62,6 +62,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../../_types/error.md)
+[error](../../../../../_components/schemas/error.md)
 
 

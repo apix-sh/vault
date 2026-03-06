@@ -24,7 +24,7 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../../../../_types/owner.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../../../../_components/parameters/owner.md) |  |
 
 
 
@@ -40,14 +40,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[code-scanning-variant-analysis-repo-task](../../../../../../../../../../_types/code-scanning-variant-analysis-repo-task.md)
+[code-scanning-variant-analysis-repo-task](../../../../../../../../../../_components/schemas/code-scanning-variant-analysis-repo-task.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../../../../../_components/responses/not_found.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../../../../../_components/responses/service_unavailable.md)
 

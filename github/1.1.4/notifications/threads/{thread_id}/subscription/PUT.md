@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `thread-id (unresolved)` | Unknown | [thread-id](../../../../_types/thread-id.md) |  |
+| `Reference` | N/A | [thread-id](../../../../_components/parameters/thread-id.md) |  |
 
 
 
@@ -43,18 +43,18 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[thread-subscription](../../../../_types/thread-subscription.md)
+[thread-subscription](../../../../_components/schemas/thread-subscription.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
 

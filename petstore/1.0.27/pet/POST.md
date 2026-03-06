@@ -28,13 +28,13 @@ Supported content types:
 - `application/x-www-form-urlencoded`
 
 ### Inline Request Schema (`application/json`)
-[Pet](../_types/Pet.md)
+[Pet](../_components/schemas/Pet.md)
 
 ### Inline Request Schema (`application/xml`)
-[Pet](../_types/Pet.md)
+[Pet](../_components/schemas/Pet.md)
 
 ### Inline Request Schema (`application/x-www-form-urlencoded`)
-[Pet](../_types/Pet.md)
+[Pet](../_components/schemas/Pet.md)
 
 
 ## Responses
@@ -44,10 +44,10 @@ Supported content types:
 Successful operation
 
 #### Response Schema (`application/json`)
-[Pet](../_types/Pet.md)
+[Pet](../_components/schemas/Pet.md)
 
 #### Response Schema (`application/xml`)
-[Pet](../_types/Pet.md)
+[Pet](../_components/schemas/Pet.md)
 
 
 ### 400

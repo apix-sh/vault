@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `issue-number (unresolved)` | Unknown | [issue-number](../../../../../../_types/issue-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [issue-number](../../../../../../_components/parameters/issue-number.md) |  |
 
 
 
@@ -41,6 +41,6 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[issue](../../../../../../_types/issue.md)
+[issue](../../../../../../_components/schemas/issue.md)
 
 

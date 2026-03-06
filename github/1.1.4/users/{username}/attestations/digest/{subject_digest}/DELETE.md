@@ -19,7 +19,7 @@ Delete an artifact attestation by subject digest.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username (unresolved)` | Unknown | [username](../../../../../_types/username.md) |  |
+| `Reference` | N/A | [username](../../../../../_components/parameters/username.md) |  |
 
 
 
@@ -40,5 +40,5 @@ Response
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

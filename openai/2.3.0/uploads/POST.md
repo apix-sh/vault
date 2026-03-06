@@ -40,7 +40,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateUploadRequest](../_types/CreateUploadRequest.md)
+[CreateUploadRequest](../_components/schemas/CreateUploadRequest.md)
 
 
 ## Responses
@@ -50,6 +50,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[Upload](../_types/Upload.md)
+[Upload](../_components/schemas/Upload.md)
 
 

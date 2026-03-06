@@ -23,8 +23,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../../../_types/enterprise.md) |  |
-| `configuration-id (unresolved)` | Unknown | [configuration-id](../../../../../../_types/configuration-id.md) |  |
+| `Reference` | N/A | [enterprise](../../../../../../_components/parameters/enterprise.md) |  |
+| `Reference` | N/A | [configuration-id](../../../../../../_components/parameters/configuration-id.md) |  |
 
 
 
@@ -43,17 +43,17 @@ Supported content types:
 
 ### 202
 
-Reference: #/components/responses/accepted
+Reference: [accepted](../../../../../../_components/responses/accepted.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../../../_components/responses/conflict.md)
 

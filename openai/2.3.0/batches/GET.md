@@ -34,6 +34,6 @@ _(None)_
 Batch listed successfully.
 
 #### Response Schema (`application/json`)
-[ListBatchesResponse](../_types/ListBatchesResponse.md)
+[ListBatchesResponse](../_components/schemas/ListBatchesResponse.md)
 
 

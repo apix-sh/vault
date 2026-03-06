@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[interaction-limit](../../_types/interaction-limit.md)
+[interaction-limit](../../_components/schemas/interaction-limit.md)
 
 
 ## Responses
@@ -35,10 +35,10 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[interaction-limit-response](../../_types/interaction-limit-response.md)
+[interaction-limit-response](../../_components/schemas/interaction-limit-response.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 

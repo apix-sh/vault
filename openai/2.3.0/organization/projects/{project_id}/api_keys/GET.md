@@ -36,6 +36,6 @@ _(None)_
 Project API keys listed successfully.
 
 #### Response Schema (`application/json`)
-[ProjectApiKeyListResponse](../../../../_types/ProjectApiKeyListResponse.md)
+[ProjectApiKeyListResponse](../../../../_components/schemas/ProjectApiKeyListResponse.md)
 
 

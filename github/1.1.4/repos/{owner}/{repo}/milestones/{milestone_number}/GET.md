@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `milestone-number (unresolved)` | Unknown | [milestone-number](../../../../../_types/milestone-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [milestone-number](../../../../../_components/parameters/milestone-number.md) |  |
 
 
 
@@ -35,10 +35,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[milestone](../../../../../_types/milestone.md)
+[milestone](../../../../../_components/schemas/milestone.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

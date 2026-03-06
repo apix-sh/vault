@@ -25,9 +25,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `branch (unresolved)` | Unknown | [branch](../../../../../../_types/branch.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [branch](../../../../../../_components/parameters/branch.md) |  |
 
 
 
@@ -59,18 +59,18 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[protected-branch](../../../../../../_types/protected-branch.md)
+[protected-branch](../../../../../../_components/schemas/protected-branch.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../../../../../../_components/responses/validation_failed_simple.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

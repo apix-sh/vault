@@ -33,10 +33,10 @@ _(None)_
 successful operation
 
 #### Response Schema (`application/json`)
-[Order](../../../_types/Order.md)
+[Order](../../../_components/schemas/Order.md)
 
 #### Response Schema (`application/xml`)
-[Order](../../../_types/Order.md)
+[Order](../../../_components/schemas/Order.md)
 
 
 ### 400

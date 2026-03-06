@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account-id (unresolved)` | Unknown | [account-id](../../../_types/account-id.md) |  |
+| `Reference` | N/A | [account-id](../../../_components/parameters/account-id.md) |  |
 
 
 
@@ -35,7 +35,7 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[marketplace-purchase](../../../_types/marketplace-purchase.md)
+[marketplace-purchase](../../../_components/schemas/marketplace-purchase.md)
 
 
 ### 404
@@ -43,10 +43,10 @@ Response
 Not Found when the account has not purchased the listing
 
 #### Response Schema (`application/json`)
-[basic-error](../../../_types/basic-error.md)
+[basic-error](../../../_components/schemas/basic-error.md)
 
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
 

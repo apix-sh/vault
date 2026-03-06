@@ -22,9 +22,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `ghsa_id (unresolved)` | Unknown | [ghsa_id](../../../../../_types/ghsa_id.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [ghsa_id](../../../../../_components/parameters/ghsa_id.md) |  |
 
 
 
@@ -34,7 +34,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[repository-advisory-update](../../../../../_types/repository-advisory-update.md)
+[repository-advisory-update](../../../../../_components/schemas/repository-advisory-update.md)
 
 
 ## Responses
@@ -44,22 +44,22 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[repository-advisory](../../../../../_types/repository-advisory.md)
+[repository-advisory](../../../../../_components/schemas/repository-advisory.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 422
 
 Validation failed, or the endpoint has been spammed.
 
 #### Response Schema (`application/json`)
-[validation-error](../../../../../_types/validation-error.md)
+[validation-error](../../../../../_components/schemas/validation-error.md)
 
 

@@ -38,6 +38,6 @@ _(None)_
 Costs data retrieved successfully.
 
 #### Response Schema (`application/json`)
-[UsageResponse](../../_types/UsageResponse.md)
+[UsageResponse](../../_components/schemas/UsageResponse.md)
 
 

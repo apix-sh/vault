@@ -39,7 +39,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[issuing.personalization_design](../../../../../../_types/issuing.personalization_design.md)
+[issuing.personalization_design](../../../../../../_components/schemas/issuing.personalization_design.md)
 
 
 ### default
@@ -47,6 +47,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../../../_types/error.md)
+[error](../../../../../../_components/schemas/error.md)
 
 

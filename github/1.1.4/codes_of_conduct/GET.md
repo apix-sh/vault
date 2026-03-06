@@ -31,10 +31,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[code-of-conduct](../_types/code-of-conduct.md)>
+array<[code-of-conduct](../_components/schemas/code-of-conduct.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 

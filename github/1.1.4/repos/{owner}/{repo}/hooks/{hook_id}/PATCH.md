@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `hook-id (unresolved)` | Unknown | [hook-id](../../../../../_types/hook-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [hook-id](../../../../../_components/parameters/hook-id.md) |  |
 
 
 
@@ -31,7 +31,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `config` | No | [webhook-config](../../../../../_types/webhook-config.md) |  |
+| `config` | No | [webhook-config](../../../../../_components/schemas/webhook-config.md) |  |
 | `events` | No | array<string> | Determines what [events](https://docs.github.com/webhooks/event-payloads) the hook is triggered for. This replaces the entire array of events. |
 | `add_events` | No | array<string> | Determines a list of events to be added to the list of events that the Hook triggers for. |
 | `remove_events` | No | array<string> | Determines a list of events to be removed from the list of events that the Hook triggers for. |
@@ -45,14 +45,14 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[hook](../../../../../_types/hook.md)
+[hook](../../../../../_components/schemas/hook.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

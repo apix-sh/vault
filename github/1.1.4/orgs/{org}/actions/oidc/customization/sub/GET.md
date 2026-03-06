@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -35,6 +35,6 @@ _(None)_
 A JSON serialized template for OIDC subject claim customization
 
 #### Response Schema (`application/json`)
-[oidc-custom-sub](../../../../../../_types/oidc-custom-sub.md)
+[oidc-custom-sub](../../../../../../_components/schemas/oidc-custom-sub.md)
 
 

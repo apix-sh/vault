@@ -26,7 +26,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ToggleCertificatesRequest](../../../../../_types/ToggleCertificatesRequest.md)
+[ToggleCertificatesRequest](../../../../../_components/schemas/ToggleCertificatesRequest.md)
 
 
 ## Responses
@@ -36,6 +36,6 @@ Supported content types:
 Certificates activated successfully.
 
 #### Response Schema (`application/json`)
-[ListCertificatesResponse](../../../../../_types/ListCertificatesResponse.md)
+[ListCertificatesResponse](../../../../../_components/schemas/ListCertificatesResponse.md)
 
 

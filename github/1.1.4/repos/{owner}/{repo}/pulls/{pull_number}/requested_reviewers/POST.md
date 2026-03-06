@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `pull-number (unresolved)` | Unknown | [pull-number](../../../../../../_types/pull-number.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [pull-number](../../../../../../_components/parameters/pull-number.md) |  |
 
 
 
@@ -40,7 +40,7 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[pull-request-simple](../../../../../../_types/pull-request-simple.md)
+[pull-request-simple](../../../../../../_components/schemas/pull-request-simple.md)
 
 
 ### 422
@@ -49,5 +49,5 @@ Unprocessable Entity if user is not a collaborator
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 

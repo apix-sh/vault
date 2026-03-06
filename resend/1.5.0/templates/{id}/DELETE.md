@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[RemoveTemplateResponseSuccess](../../_types/RemoveTemplateResponseSuccess.md)
+[RemoveTemplateResponseSuccess](../../_components/schemas/RemoveTemplateResponseSuccess.md)
 
 

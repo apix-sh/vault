@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page (unresolved)` | Unknown | [page](../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../_types/per-page.md) |  |
+| `Reference` | N/A | [page](../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../_components/parameters/per-page.md) |  |
 
 
 
@@ -34,6 +34,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[simple-classroom](../_types/simple-classroom.md)>
+array<[simple-classroom](../_components/schemas/simple-classroom.md)>
 
 

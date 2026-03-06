@@ -95,7 +95,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[payment_method_configuration](../../_types/payment_method_configuration.md)
+[payment_method_configuration](../../_components/schemas/payment_method_configuration.md)
 
 
 ### default
@@ -103,6 +103,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../_types/error.md)
+[error](../../_components/schemas/error.md)
 
 

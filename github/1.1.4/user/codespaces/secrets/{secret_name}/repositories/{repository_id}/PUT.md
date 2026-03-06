@@ -23,7 +23,7 @@ OAuth app tokens and personal access tokens (classic) need the `codespace` or `c
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../../../_types/secret-name.md) |  |
+| `Reference` | N/A | [secret-name](../../../../../../_components/parameters/secret-name.md) |  |
 
 
 
@@ -40,17 +40,17 @@ No Content when repository was added to the selected list
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../../_components/responses/internal_error.md)
 

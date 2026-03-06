@@ -19,11 +19,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `plan-id (unresolved)` | Unknown | [plan-id](../../../../_types/plan-id.md) |  |
-| `sort (unresolved)` | Unknown | [sort](../../../../_types/sort.md) |  |
+| `Reference` | N/A | [plan-id](../../../../_components/parameters/plan-id.md) |  |
+| `Reference` | N/A | [sort](../../../../_components/parameters/sort.md) |  |
 | `direction` | No | string | To return the oldest accounts first, set to `asc`. Ignored without the `sort` parameter.<br/>*Serialization: style=Form* |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../_types/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
 
 
@@ -43,20 +43,22 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[marketplace-purchase](../../../../_types/marketplace-purchase.md)>
+array<[marketplace-purchase](../../../../_components/schemas/marketplace-purchase.md)>
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
 

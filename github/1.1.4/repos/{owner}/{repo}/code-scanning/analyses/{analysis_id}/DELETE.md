@@ -82,8 +82,8 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 | `confirm_delete` | No | string | Allow deletion if the specified analysis is the last in a set. If you attempt to delete the final analysis in a set without setting this parameter to `true`, you'll get a 400 response with the message: `Analysis is last of its type and deletion may result in the loss of historical alert data. Please specify confirm_delete.`<br/>*Serialization: style=Form* |
 
 
@@ -100,22 +100,22 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[code-scanning-analysis-deletion](../../../../../../_types/code-scanning-analysis-deletion.md)
+[code-scanning-analysis-deletion](../../../../../../_components/schemas/code-scanning-analysis-deletion.md)
 
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../../../_components/responses/bad_request.md)
 
 ### 403
 
-Reference: #/components/responses/code_scanning_forbidden_write
+Reference: [code_scanning_forbidden_write](../../../../../../_components/responses/code_scanning_forbidden_write.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../_components/responses/service_unavailable.md)
 

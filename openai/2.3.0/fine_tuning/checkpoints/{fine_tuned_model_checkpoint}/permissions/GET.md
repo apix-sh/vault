@@ -40,6 +40,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListFineTuningCheckpointPermissionResponse](../../../../_types/ListFineTuningCheckpointPermissionResponse.md)
+[ListFineTuningCheckpointPermissionResponse](../../../../_components/schemas/ListFineTuningCheckpointPermissionResponse.md)
 
 

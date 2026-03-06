@@ -22,8 +22,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -45,7 +45,7 @@ Supported content types:
 Response when the suite already exists
 
 #### Response Schema (`application/json`)
-[check-suite](../../../../_types/check-suite.md)
+[check-suite](../../../../_components/schemas/check-suite.md)
 
 
 ### 201
@@ -53,6 +53,6 @@ Response when the suite already exists
 Response when the suite was created
 
 #### Response Schema (`application/json`)
-[check-suite](../../../../_types/check-suite.md)
+[check-suite](../../../../_components/schemas/check-suite.md)
 
 

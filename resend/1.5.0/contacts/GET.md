@@ -16,9 +16,9 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `segment_id` | No | string | Filter contacts by segment ID.<br/>*Serialization: style=Form* |
-| `PaginationLimit (unresolved)` | Unknown | [PaginationLimit](../_types/PaginationLimit.md) |  |
-| `PaginationAfter (unresolved)` | Unknown | [PaginationAfter](../_types/PaginationAfter.md) |  |
-| `PaginationBefore (unresolved)` | Unknown | [PaginationBefore](../_types/PaginationBefore.md) |  |
+| `Reference` | N/A | [PaginationLimit](../_components/parameters/PaginationLimit.md) |  |
+| `Reference` | N/A | [PaginationAfter](../_components/parameters/PaginationAfter.md) |  |
+| `Reference` | N/A | [PaginationBefore](../_components/parameters/PaginationBefore.md) |  |
 
 
 
@@ -34,6 +34,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListContactsResponseSuccess](../_types/ListContactsResponseSuccess.md)
+[ListContactsResponseSuccess](../_components/schemas/ListContactsResponseSuccess.md)
 
 

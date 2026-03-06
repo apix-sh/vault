@@ -26,7 +26,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateEvalRequest](../_types/CreateEvalRequest.md)
+[CreateEvalRequest](../_components/schemas/CreateEvalRequest.md)
 
 
 ## Responses
@@ -36,6 +36,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[Eval](../_types/Eval.md)
+[Eval](../_components/schemas/Eval.md)
 
 

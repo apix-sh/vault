@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -33,14 +33,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[actions-fork-pr-workflows-private-repos](../../../../../_types/actions-fork-pr-workflows-private-repos.md)
+[actions-fork-pr-workflows-private-repos](../../../../../_components/schemas/actions-fork-pr-workflows-private-repos.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

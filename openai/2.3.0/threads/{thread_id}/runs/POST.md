@@ -30,7 +30,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateRunRequest](../../../_types/CreateRunRequest.md)
+[CreateRunRequest](../../../_components/schemas/CreateRunRequest.md)
 
 
 ## Responses
@@ -40,6 +40,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[RunObject](../../../_types/RunObject.md)
+[RunObject](../../../_components/schemas/RunObject.md)
 
 

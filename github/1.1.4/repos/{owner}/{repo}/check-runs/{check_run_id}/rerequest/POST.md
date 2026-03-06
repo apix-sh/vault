@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `check-run-id (unresolved)` | Unknown | [check-run-id](../../../../../../_types/check-run-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [check-run-id](../../../../../../_components/parameters/check-run-id.md) |  |
 
 
 
@@ -37,7 +37,7 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[empty-object](../../../../../../_types/empty-object.md)
+[empty-object](../../../../../../_components/schemas/empty-object.md)
 
 
 ### 403
@@ -45,7 +45,7 @@ Response
 Forbidden if the check run is not rerequestable or doesn't belong to the authenticated GitHub App
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../../_types/basic-error.md)
+[basic-error](../../../../../../_components/schemas/basic-error.md)
 
 
 ### 422
@@ -53,10 +53,10 @@ Forbidden if the check run is not rerequestable or doesn't belong to the authent
 Validation error if the check run is not rerequestable
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../../_types/basic-error.md)
+[basic-error](../../../../../../_components/schemas/basic-error.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

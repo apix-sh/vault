@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 
 
 
@@ -46,6 +46,6 @@ Supported content types:
 Response when creating a variable
 
 #### Response Schema (`application/json`)
-[empty-object](../../../../_types/empty-object.md)
+[empty-object](../../../../_components/schemas/empty-object.md)
 
 

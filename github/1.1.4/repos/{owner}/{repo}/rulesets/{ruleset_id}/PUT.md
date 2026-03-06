@@ -19,8 +19,8 @@ Update a ruleset for a repository.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -34,10 +34,10 @@ Supported content types:
 | :--- | :---: | :--- | :--- |
 | `name` | No | string | The name of the ruleset. |
 | `target` | No | string | The target of the ruleset |
-| `enforcement` | No | [repository-rule-enforcement](../../../../../_types/repository-rule-enforcement.md) |  |
-| `bypass_actors` | No | array<[repository-ruleset-bypass-actor](../../../../../_types/repository-ruleset-bypass-actor.md)> | The actors that can bypass the rules in this ruleset |
-| `conditions` | No | [repository-ruleset-conditions](../../../../../_types/repository-ruleset-conditions.md) |  |
-| `rules` | No | array<[repository-rule](../../../../../_types/repository-rule.md)> | An array of rules within the ruleset. |
+| `enforcement` | No | [repository-rule-enforcement](../../../../../_components/schemas/repository-rule-enforcement.md) |  |
+| `bypass_actors` | No | array<[repository-ruleset-bypass-actor](../../../../../_components/schemas/repository-ruleset-bypass-actor.md)> | The actors that can bypass the rules in this ruleset |
+| `conditions` | No | [repository-ruleset-conditions](../../../../../_components/schemas/repository-ruleset-conditions.md) |  |
+| `rules` | No | array<[repository-rule](../../../../../_components/schemas/repository-rule.md)> | An array of rules within the ruleset. |
 
 
 ## Responses
@@ -47,18 +47,18 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[repository-ruleset](../../../../../_types/repository-ruleset.md)
+[repository-ruleset](../../../../../_components/schemas/repository-ruleset.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 

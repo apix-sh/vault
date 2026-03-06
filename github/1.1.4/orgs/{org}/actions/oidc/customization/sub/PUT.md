@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -29,7 +29,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[oidc-custom-sub](../../../../../../_types/oidc-custom-sub.md)
+[oidc-custom-sub](../../../../../../_components/schemas/oidc-custom-sub.md)
 
 
 ## Responses
@@ -39,14 +39,14 @@ Supported content types:
 Empty response
 
 #### Response Schema (`application/json`)
-[empty-object](../../../../../../_types/empty-object.md)
+[empty-object](../../../../../../_components/schemas/empty-object.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 

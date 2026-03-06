@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 
 
 
@@ -31,7 +31,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `pattern_config_version` | No | [secret-scanning-row-version](../../../../_types/secret-scanning-row-version.md) |  |
+| `pattern_config_version` | No | [secret-scanning-row-version](../../../../_components/schemas/secret-scanning-row-version.md) |  |
 | `provider_pattern_settings` | No | array<object> | Pattern settings for provider patterns. |
 | `custom_pattern_settings` | No | array<object> | Pattern settings for custom patterns. |
 
@@ -50,21 +50,21 @@ Response
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../_components/responses/bad_request.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../_components/responses/conflict.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

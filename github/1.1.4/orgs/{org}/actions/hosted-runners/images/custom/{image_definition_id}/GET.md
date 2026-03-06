@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../../_types/org.md) |  |
-| `actions-custom-image-definition-id (unresolved)` | Unknown | [actions-custom-image-definition-id](../../../../../../../_types/actions-custom-image-definition-id.md) |  |
+| `Reference` | N/A | [org](../../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [actions-custom-image-definition-id](../../../../../../../_components/parameters/actions-custom-image-definition-id.md) |  |
 
 
 
@@ -36,6 +36,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[actions-hosted-runner-custom-image](../../../../../../../_types/actions-hosted-runner-custom-image.md)
+[actions-hosted-runner-custom-image](../../../../../../../_components/schemas/actions-hosted-runner-custom-image.md)
 
 

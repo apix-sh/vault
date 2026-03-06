@@ -38,10 +38,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[api-overview](../_types/api-overview.md)
+[api-overview](../_components/schemas/api-overview.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 

@@ -22,9 +22,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `check-run-id (unresolved)` | Unknown | [check-run-id](../../../../../_types/check-run-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [check-run-id](../../../../../_components/parameters/check-run-id.md) |  |
 
 
 
@@ -40,6 +40,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[check-run](../../../../../_types/check-run.md)
+[check-run](../../../../../_components/schemas/check-run.md)
 
 

@@ -20,8 +20,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `since-org (unresolved)` | Unknown | [since-org](../_types/since-org.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../_types/per-page.md) |  |
+| `Reference` | N/A | [since-org](../_components/parameters/since-org.md) |  |
+| `Reference` | N/A | [per-page](../_components/parameters/per-page.md) |  |
 
 
 
@@ -42,11 +42,13 @@ Response
 | :--- | :------: | :--- | :---------- |
 
 | `Link` | No | string |  |
+
+
 #### Response Schema (`application/json`)
-array<[organization-simple](../_types/organization-simple.md)>
+array<[organization-simple](../_components/schemas/organization-simple.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 

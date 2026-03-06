@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
 
 
 
@@ -36,6 +36,6 @@ Response
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
-| `machine_specs` | Yes | array<[actions-hosted-runner-machine-spec](../../../../../_types/actions-hosted-runner-machine-spec.md)> |  |
+| `machine_specs` | Yes | array<[actions-hosted-runner-machine-spec](../../../../../_components/schemas/actions-hosted-runner-machine-spec.md)> |  |
 
 

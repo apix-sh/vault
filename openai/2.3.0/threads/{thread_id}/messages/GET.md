@@ -42,6 +42,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListMessagesResponse](../../../_types/ListMessagesResponse.md)
+[ListMessagesResponse](../../../_components/schemas/ListMessagesResponse.md)
 
 

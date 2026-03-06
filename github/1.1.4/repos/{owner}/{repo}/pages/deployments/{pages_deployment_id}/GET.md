@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `pages-deployment-id (unresolved)` | Unknown | [pages-deployment-id](../../../../../../_types/pages-deployment-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [pages-deployment-id](../../../../../../_components/parameters/pages-deployment-id.md) |  |
 
 
 
@@ -37,10 +37,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[pages-deployment-status](../../../../../../_types/pages-deployment-status.md)
+[pages-deployment-status](../../../../../../_components/schemas/pages-deployment-status.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

@@ -25,9 +25,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../../../_types/username.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [username](../../../../../../_components/parameters/username.md) |  |
 
 
 
@@ -43,10 +43,10 @@ _(None)_
 if user has admin permissions
 
 #### Response Schema (`application/json`)
-[repository-collaborator-permission](../../../../../../_types/repository-collaborator-permission.md)
+[repository-collaborator-permission](../../../../../../_components/schemas/repository-collaborator-permission.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

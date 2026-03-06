@@ -29,7 +29,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[SendEmailRequest](../_types/SendEmailRequest.md)
+[SendEmailRequest](../_components/schemas/SendEmailRequest.md)
 
 
 ## Responses
@@ -39,6 +39,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[SendEmailResponse](../_types/SendEmailResponse.md)
+[SendEmailResponse](../_components/schemas/SendEmailResponse.md)
 
 

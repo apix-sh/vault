@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 
 
 
@@ -88,15 +88,17 @@ Response
 | :--- | :------: | :--- | :---------- |
 
 | `Location` | No | string |  |
+
+
 #### Response Schema (`application/json`)
-[full-repository](../../../_types/full-repository.md)
+[full-repository](../../../_components/schemas/full-repository.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

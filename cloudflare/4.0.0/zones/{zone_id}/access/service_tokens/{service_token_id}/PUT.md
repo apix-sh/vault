@@ -1,0 +1,52 @@
+---
+method: "PUT"
+url: "https://api.cloudflare.com/client/v4/zones/{zone_id}/access/service_tokens/{service_token_id}"
+auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key)"
+content_type: "application/json"
+---
+
+# Update a service token
+
+Updates a configured service token.
+
+## Path Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `service_token_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+
+
+## Query Parameters
+
+_(None)_
+
+
+
+## Request Body
+
+Supported content types:
+- `application/json`
+
+### Inline Request Schema (`application/json`)
+*(No object properties found)*
+
+
+## Responses
+
+### 200
+
+Update a service token response
+
+#### Response Schema (`application/json`)
+[access_service-tokens_components-schemas-single_response](../../../../../_components/schemas/access_service-tokens_components-schemas-single_response.md)
+
+
+### 4xx
+
+Update a service token response failure
+
+#### Response Schema (`application/json`)
+[access_api-response-common-failure](../../../../../_components/schemas/access_api-response-common-failure.md)
+
+

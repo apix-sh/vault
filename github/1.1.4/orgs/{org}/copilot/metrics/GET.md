@@ -29,10 +29,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 | `since` | No | string | Show usage metrics since this date. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format (`YYYY-MM-DDTHH:MM:SSZ`). Maximum value is 100 days ago.<br/>*Serialization: style=Form* |
 | `until` | No | string | Show usage metrics until this date. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format (`YYYY-MM-DDTHH:MM:SSZ`) and should not preceed the `since` date if it is passed.<br/>*Serialization: style=Form* |
-| `page (unresolved)` | Unknown | [page](../../../../_types/page.md) |  |
+| `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 | `per_page` | No | integer | The number of days of metrics to display per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."<br/>*Serialization: style=Form* |
 
 
@@ -49,22 +49,22 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[copilot-usage-metrics-day](../../../../_types/copilot-usage-metrics-day.md)>
+array<[copilot-usage-metrics-day](../../../../_components/schemas/copilot-usage-metrics-day.md)>
 
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/usage_metrics_api_disabled
+Reference: [usage_metrics_api_disabled](../../../../_components/responses/usage_metrics_api_disabled.md)
 

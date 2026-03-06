@@ -84,31 +84,33 @@ Response
 | :--- | :------: | :--- | :---------- |
 
 | `Location` | No | string |  |
+
+
 #### Response Schema (`application/json`)
-[full-repository](../../_types/full-repository.md)
+[full-repository](../../_components/schemas/full-repository.md)
 
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../_components/responses/forbidden.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../_components/responses/bad_request.md)
 

@@ -33,7 +33,7 @@ Your input file must be formatted as a [JSONL file](/docs/api-reference/batch/re
  |
 | `endpoint` | Yes | string | The endpoint to be used for all requests in the batch. Currently `/v1/responses`, `/v1/chat/completions`, `/v1/embeddings`, and `/v1/completions` are supported. Note that `/v1/embeddings` batches are also restricted to a maximum of 50,000 embedding inputs across all requests in the batch. |
 | `completion_window` | Yes | string | The time frame within which the batch should be processed. Currently only `24h` is supported. |
-| `metadata` | No | [Metadata](../_types/Metadata.md) |  |
+| `metadata` | No | [Metadata](../_components/schemas/Metadata.md) |  |
 
 
 ## Responses
@@ -43,6 +43,6 @@ Your input file must be formatted as a [JSONL file](/docs/api-reference/batch/re
 Batch created successfully.
 
 #### Response Schema (`application/json`)
-[Batch](../_types/Batch.md)
+[Batch](../_components/schemas/Batch.md)
 
 

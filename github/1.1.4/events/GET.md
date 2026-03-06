@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `public-events-per-page (unresolved)` | Unknown | [public-events-per-page](../_types/public-events-per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../_types/page.md) |  |
+| `Reference` | N/A | [public-events-per-page](../_components/parameters/public-events-per-page.md) |  |
+| `Reference` | N/A | [page](../_components/parameters/page.md) |  |
 
 
 
@@ -35,18 +35,18 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[event](../_types/event.md)>
+array<[event](../_components/schemas/event.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../_components/responses/forbidden.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../_components/responses/service_unavailable.md)
 

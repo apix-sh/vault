@@ -21,10 +21,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../../_types/environment-name.md) |  |
-| `branch-policy-id (unresolved)` | Unknown | [branch-policy-id](../../../../../../../_types/branch-policy-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../../_components/parameters/environment-name.md) |  |
+| `Reference` | N/A | [branch-policy-id](../../../../../../../_components/parameters/branch-policy-id.md) |  |
 
 
 
@@ -40,6 +40,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[deployment-branch-policy](../../../../../../../_types/deployment-branch-policy.md)
+[deployment-branch-policy](../../../../../../../_components/schemas/deployment-branch-policy.md)
 
 

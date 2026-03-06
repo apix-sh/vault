@@ -22,9 +22,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
-| `git-ref (unresolved)` | Unknown | [git-ref](../../../../_types/git-ref.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [git-ref](../../../../_components/parameters/git-ref.md) |  |
 
 
 
@@ -40,10 +40,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[license-content](../../../../_types/license-content.md)
+[license-content](../../../../_components/schemas/license-content.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

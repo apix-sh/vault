@@ -35,6 +35,6 @@ _(None)_
 Projects listed successfully.
 
 #### Response Schema (`application/json`)
-[ProjectListResponse](../../_types/ProjectListResponse.md)
+[ProjectListResponse](../../_components/schemas/ProjectListResponse.md)
 
 

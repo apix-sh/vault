@@ -21,8 +21,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `custom-property-name (unresolved)` | Unknown | [custom-property-name](../../../../../_types/custom-property-name.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [custom-property-name](../../../../../_components/parameters/custom-property-name.md) |  |
 
 
 
@@ -35,13 +35,13 @@ _(None)_
 
 ### 204
 
-Reference: #/components/responses/no_content
+Reference: [no_content](../../../../../_components/responses/no_content.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

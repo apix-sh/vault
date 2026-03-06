@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -40,7 +40,7 @@ Supported content types:
 The branch has been successfully synced with the upstream repository
 
 #### Response Schema (`application/json`)
-[merged-upstream](../../../../_types/merged-upstream.md)
+[merged-upstream](../../../../_components/schemas/merged-upstream.md)
 
 
 ### 409

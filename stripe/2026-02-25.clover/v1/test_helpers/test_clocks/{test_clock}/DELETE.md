@@ -37,7 +37,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[deleted_test_helpers.test_clock](../../../../_types/deleted_test_helpers.test_clock.md)
+[deleted_test_helpers.test_clock](../../../../_components/schemas/deleted_test_helpers.test_clock.md)
 
 
 ### default
@@ -45,6 +45,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../_types/error.md)
+[error](../../../../_components/schemas/error.md)
 
 

@@ -36,6 +36,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListFineTuningJobEventsResponse](../../../../_types/ListFineTuningJobEventsResponse.md)
+[ListFineTuningJobEventsResponse](../../../../_components/schemas/ListFineTuningJobEventsResponse.md)
 
 

@@ -20,9 +20,9 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `package_type` | Yes | string | The type of supported package. Packages in GitHub's Gradle registry have the type `maven`. Docker images pushed to GitHub's Container registry (`ghcr.io`) have the type `container`. You can use the type `docker` to find images that were pushed to GitHub's Docker registry (`docker.pkg.github.com`), even if these have now been migrated to the Container registry.<br/>*Serialization: style=Form* |
-| `package-visibility (unresolved)` | Unknown | [package-visibility](../../_types/package-visibility.md) |  |
-| `page (unresolved)` | Unknown | [page](../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../_types/per-page.md) |  |
+| `Reference` | N/A | [package-visibility](../../_components/parameters/package-visibility.md) |  |
+| `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
 
 
 
@@ -38,10 +38,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[package](../../_types/package.md)>
+array<[package](../../_components/schemas/package.md)>
 
 
 ### 400
 
-Reference: #/components/responses/package_es_list_error
+Reference: [package_es_list_error](../../_components/responses/package_es_list_error.md)
 

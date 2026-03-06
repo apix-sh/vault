@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -34,7 +34,7 @@ _(None)_
 Response if Dependabot is enabled
 
 #### Response Schema (`application/json`)
-[check-automated-security-fixes](../../../../_types/check-automated-security-fixes.md)
+[check-automated-security-fixes](../../../../_components/schemas/check-automated-security-fixes.md)
 
 
 ### 404

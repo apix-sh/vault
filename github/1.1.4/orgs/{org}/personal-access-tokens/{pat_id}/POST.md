@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `fine-grained-personal-access-token-id (unresolved)` | Unknown | [fine-grained-personal-access-token-id](../../../../_types/fine-grained-personal-access-token-id.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [fine-grained-personal-access-token-id](../../../../_components/parameters/fine-grained-personal-access-token-id.md) |  |
 
 
 
@@ -39,21 +39,21 @@ Supported content types:
 
 ### 500
 
-Reference: #/components/responses/internal_error
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 204
 
-Reference: #/components/responses/no_content
+Reference: [no_content](../../../../_components/responses/no_content.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

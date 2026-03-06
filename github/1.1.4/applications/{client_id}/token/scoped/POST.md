@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `client-id (unresolved)` | Unknown | [client-id](../../../../_types/client-id.md) |  |
+| `Reference` | N/A | [client-id](../../../../_components/parameters/client-id.md) |  |
 
 
 
@@ -38,7 +38,7 @@ Supported content types:
 | `target_id` | No | integer | The ID of the user or organization to scope the user access token to. **Required** unless `target` is specified. |
 | `repositories` | No | array<string> | The list of repository names to scope the user access token to. `repositories` may not be specified if `repository_ids` is specified. |
 | `repository_ids` | No | array<integer> | The list of repository IDs to scope the user access token to. `repository_ids` may not be specified if `repositories` is specified. |
-| `permissions` | No | [app-permissions](../../../../_types/app-permissions.md) |  |
+| `permissions` | No | [app-permissions](../../../../_components/schemas/app-permissions.md) |  |
 
 
 ## Responses
@@ -48,22 +48,22 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[authorization](../../../../_types/authorization.md)
+[authorization](../../../../_components/schemas/authorization.md)
 
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

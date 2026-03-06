@@ -21,9 +21,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../_types/environment-name.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../_components/parameters/environment-name.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
 
 
 
@@ -42,7 +42,7 @@ List of deployment protection rules
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | No | integer | The number of enabled custom deployment protection rules for this environment |
-| `custom_deployment_protection_rules` | No | array<[deployment-protection-rule](../../../../../../_types/deployment-protection-rule.md)> |  |
+| `custom_deployment_protection_rules` | No | array<[deployment-protection-rule](../../../../../../_components/schemas/deployment-protection-rule.md)> |  |
 
 #### Example Payload
 ```json

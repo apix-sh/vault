@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `installation-id (unresolved)` | Unknown | [installation-id](../../../_types/installation-id.md) |  |
+| `Reference` | N/A | [installation-id](../../../_components/parameters/installation-id.md) |  |
 
 
 
@@ -35,10 +35,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[installation](../../../_types/installation.md)
+[installation](../../../_components/schemas/installation.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 

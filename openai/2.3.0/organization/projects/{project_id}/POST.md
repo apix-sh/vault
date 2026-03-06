@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ProjectUpdateRequest](../../../_types/ProjectUpdateRequest.md)
+[ProjectUpdateRequest](../../../_components/schemas/ProjectUpdateRequest.md)
 
 
 ## Responses
@@ -35,7 +35,7 @@ Supported content types:
 Project updated successfully.
 
 #### Response Schema (`application/json`)
-[Project](../../../_types/Project.md)
+[Project](../../../_components/schemas/Project.md)
 
 
 ### 400
@@ -43,6 +43,6 @@ Project updated successfully.
 Error response when updating the default project.
 
 #### Response Schema (`application/json`)
-[ErrorResponse](../../../_types/ErrorResponse.md)
+[ErrorResponse](../../../_components/schemas/ErrorResponse.md)
 
 

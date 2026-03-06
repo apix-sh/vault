@@ -22,8 +22,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../_components/parameters/repo.md) |  |
 
 
 
@@ -51,13 +51,13 @@ If an organization owner has configured the organization to prevent members from
 
 ### 307
 
-Reference: #/components/responses/temporary_redirect
+Reference: [temporary_redirect](../../../_components/responses/temporary_redirect.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../_components/responses/conflict.md)
 

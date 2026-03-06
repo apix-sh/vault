@@ -17,11 +17,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 | `q` | No | string | Limit results to projects of the specified type.<br/>*Serialization: style=Form* |
-| `pagination-before (unresolved)` | Unknown | [pagination-before](../../../_types/pagination-before.md) |  |
-| `pagination-after (unresolved)` | Unknown | [pagination-after](../../../_types/pagination-after.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../_types/per-page.md) |  |
+| `Reference` | N/A | [pagination-before](../../../_components/parameters/pagination-before.md) |  |
+| `Reference` | N/A | [pagination-after](../../../_components/parameters/pagination-after.md) |  |
+| `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
 
 
 
@@ -41,20 +41,22 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[projects-v2](../../../_types/projects-v2.md)>
+array<[projects-v2](../../../_components/schemas/projects-v2.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
 

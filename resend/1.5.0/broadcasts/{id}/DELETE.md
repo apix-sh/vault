@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[RemoveBroadcastResponseSuccess](../../_types/RemoveBroadcastResponseSuccess.md)
+[RemoveBroadcastResponseSuccess](../../_components/schemas/RemoveBroadcastResponseSuccess.md)
 
 

@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[GetBroadcastResponseSuccess](../../_types/GetBroadcastResponseSuccess.md)
+[GetBroadcastResponseSuccess](../../_components/schemas/GetBroadcastResponseSuccess.md)
 
 

@@ -27,7 +27,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../_types/org.md) |  |
+| `Reference` | N/A | [org](../../_components/parameters/org.md) |  |
 
 
 
@@ -115,7 +115,7 @@ You can check which security and analysis features are currently enabled by usin
 Response
 
 #### Response Schema (`application/json`)
-[organization-full](../../_types/organization-full.md)
+[organization-full](../../_components/schemas/organization-full.md)
 
 
 ### 422
@@ -128,5 +128,5 @@ Validation failed
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../_components/responses/conflict.md)
 

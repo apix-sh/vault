@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[DeleteThreadResponse](../../_types/DeleteThreadResponse.md)
+[DeleteThreadResponse](../../_components/schemas/DeleteThreadResponse.md)
 
 

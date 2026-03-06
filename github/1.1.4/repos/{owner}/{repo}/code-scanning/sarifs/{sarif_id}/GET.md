@@ -20,8 +20,8 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -37,12 +37,12 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[code-scanning-sarifs-status](../../../../../../_types/code-scanning-sarifs-status.md)
+[code-scanning-sarifs-status](../../../../../../_components/schemas/code-scanning-sarifs-status.md)
 
 
 ### 403
 
-Reference: #/components/responses/code_scanning_forbidden_read
+Reference: [code_scanning_forbidden_read](../../../../../../_components/responses/code_scanning_forbidden_read.md)
 
 ### 404
 
@@ -50,5 +50,5 @@ Not Found if the sarif id does not match any upload
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../../_components/responses/service_unavailable.md)
 

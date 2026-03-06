@@ -20,8 +20,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -37,16 +37,16 @@ _(None)_
 Returns a weekly aggregate of the number of additions and deletions pushed to a repository.
 
 #### Response Schema (`application/json`)
-array<[code-frequency-stat](../../../../../_types/code-frequency-stat.md)>
+array<[code-frequency-stat](../../../../../_components/schemas/code-frequency-stat.md)>
 
 
 ### 202
 
-Reference: #/components/responses/accepted
+Reference: [accepted](../../../../../_components/responses/accepted.md)
 
 ### 204
 
-Reference: #/components/responses/no_content
+Reference: [no_content](../../../../../_components/responses/no_content.md)
 
 ### 422
 

@@ -19,9 +19,9 @@ Gets the diff of the dependency changes between two commits of a repository, bas
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `manifest-path (unresolved)` | Unknown | [manifest-path](../../../../../../_types/manifest-path.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [manifest-path](../../../../../../_components/parameters/manifest-path.md) |  |
 
 
 
@@ -41,16 +41,18 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-[dependency-graph-diff](../../../../../../_types/dependency-graph-diff.md)
+[dependency-graph-diff](../../../../../../_components/schemas/dependency-graph-diff.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 403
 
-Reference: #/components/responses/dependency_review_forbidden
+Reference: [dependency_review_forbidden](../../../../../../_components/responses/dependency_review_forbidden.md)
 

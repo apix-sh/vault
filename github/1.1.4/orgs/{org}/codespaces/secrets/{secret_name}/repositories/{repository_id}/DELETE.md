@@ -23,8 +23,8 @@ OAuth app tokens and personal access tokens (classic) need the `admin:org` scope
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../../_types/org.md) |  |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../../../../_types/secret-name.md) |  |
+| `Reference` | N/A | [org](../../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [secret-name](../../../../../../../_components/parameters/secret-name.md) |  |
 
 
 
@@ -41,7 +41,7 @@ Response when repository was removed from the selected list
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../../../_components/responses/not_found.md)
 
 ### 409
 
@@ -49,5 +49,5 @@ Conflict when visibility type not set to selected
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../../../_components/responses/validation_failed.md)
 

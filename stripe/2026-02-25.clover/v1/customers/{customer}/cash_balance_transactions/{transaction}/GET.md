@@ -40,7 +40,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[customer_cash_balance_transaction](../../../../../_types/customer_cash_balance_transaction.md)
+[customer_cash_balance_transaction](../../../../../_components/schemas/customer_cash_balance_transaction.md)
 
 
 ### default
@@ -48,6 +48,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../../_types/error.md)
+[error](../../../../../_components/schemas/error.md)
 
 

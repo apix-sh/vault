@@ -54,7 +54,7 @@ Use `error_if_incomplete` if you want Stripe to return an HTTP 402 status code i
 Successful response.
 
 #### Response Schema (`application/json`)
-[subscription_item](../../_types/subscription_item.md)
+[subscription_item](../../_components/schemas/subscription_item.md)
 
 
 ### default
@@ -62,6 +62,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../_types/error.md)
+[error](../../_components/schemas/error.md)
 
 

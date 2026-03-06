@@ -33,6 +33,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[FineTuningJob](../../../../_types/FineTuningJob.md)
+[FineTuningJob](../../../../_components/schemas/FineTuningJob.md)
 
 

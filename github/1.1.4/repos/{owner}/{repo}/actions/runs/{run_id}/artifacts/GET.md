@@ -21,13 +21,13 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `run-id (unresolved)` | Unknown | [run-id](../../../../../../../_types/run-id.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../../_types/page.md) |  |
-| `artifact-name (unresolved)` | Unknown | [artifact-name](../../../../../../../_types/artifact-name.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../../../../../_types/direction.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [run-id](../../../../../../../_components/parameters/run-id.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [artifact-name](../../../../../../../_components/parameters/artifact-name.md) |  |
+| `Reference` | N/A | [direction](../../../../../../../_components/parameters/direction.md) |  |
 
 
 
@@ -47,11 +47,13 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
-| `artifacts` | Yes | array<[artifact](../../../../../../../_types/artifact.md)> |  |
+| `artifacts` | Yes | array<[artifact](../../../../../../../_components/schemas/artifact.md)> |  |
 
 

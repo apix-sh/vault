@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `project-number (unresolved)` | Unknown | [project-number](../../../../../_types/project-number.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [project-number](../../../../../_components/parameters/project-number.md) |  |
 
 
 
@@ -44,34 +44,34 @@ For `table` and `board` layouts, this represents the field IDs that should be vi
 Response for creating a view in an organization-owned project.
 
 #### Response Schema (`application/json`)
-[projects-v2-view](../../../../../_types/projects-v2-view.md)
+[projects-v2-view](../../../../../_components/schemas/projects-v2-view.md)
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 
 ### 503
 
 Service unavailable
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../_types/basic-error.md)
+[basic-error](../../../../../_components/schemas/basic-error.md)
 
 

@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[ProjectCreateRequest](../../_types/ProjectCreateRequest.md)
+[ProjectCreateRequest](../../_components/schemas/ProjectCreateRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 Project created successfully.
 
 #### Response Schema (`application/json`)
-[Project](../../_types/Project.md)
+[Project](../../_components/schemas/Project.md)
 
 

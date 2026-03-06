@@ -38,7 +38,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateChatCompletionRequest](../../_types/CreateChatCompletionRequest.md)
+[CreateChatCompletionRequest](../../_components/schemas/CreateChatCompletionRequest.md)
 
 
 ## Responses
@@ -48,9 +48,9 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateChatCompletionResponse](../../_types/CreateChatCompletionResponse.md)
+[CreateChatCompletionResponse](../../_components/schemas/CreateChatCompletionResponse.md)
 
 #### Response Schema (`text/event-stream`)
-[CreateChatCompletionStreamResponse](../../_types/CreateChatCompletionStreamResponse.md)
+[CreateChatCompletionStreamResponse](../../_components/schemas/CreateChatCompletionStreamResponse.md)
 
 

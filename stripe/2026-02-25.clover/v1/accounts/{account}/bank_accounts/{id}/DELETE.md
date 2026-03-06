@@ -38,7 +38,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[deleted_external_account](../../../../../_types/deleted_external_account.md)
+[deleted_external_account](../../../../../_components/schemas/deleted_external_account.md)
 
 
 ### default
@@ -46,6 +46,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../../../_types/error.md)
+[error](../../../../../_components/schemas/error.md)
 
 

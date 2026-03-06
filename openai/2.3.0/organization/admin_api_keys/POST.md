@@ -37,6 +37,6 @@ Supported content types:
 The newly created admin API key.
 
 #### Response Schema (`application/json`)
-[AdminApiKey](../../_types/AdminApiKey.md)
+[AdminApiKey](../../_components/schemas/AdminApiKey.md)
 
 

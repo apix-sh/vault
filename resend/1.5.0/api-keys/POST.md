@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateApiKeyRequest](../_types/CreateApiKeyRequest.md)
+[CreateApiKeyRequest](../_components/schemas/CreateApiKeyRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateApiKeyResponse](../_types/CreateApiKeyResponse.md)
+[CreateApiKeyResponse](../_components/schemas/CreateApiKeyResponse.md)
 
 

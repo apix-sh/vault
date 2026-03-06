@@ -20,8 +20,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../_types/org.md) |  |
-| `team-slug (unresolved)` | Unknown | [team-slug](../../../../_types/team-slug.md) |  |
+| `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [team-slug](../../../../_components/parameters/team-slug.md) |  |
 
 
 
@@ -55,7 +55,7 @@ Supported content types:
 Response when the updated information already exists
 
 #### Response Schema (`application/json`)
-[team-full](../../../../_types/team-full.md)
+[team-full](../../../../_components/schemas/team-full.md)
 
 
 ### 201
@@ -63,18 +63,18 @@ Response when the updated information already exists
 Response
 
 #### Response Schema (`application/json`)
-[team-full](../../../../_types/team-full.md)
+[team-full](../../../../_components/schemas/team-full.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 

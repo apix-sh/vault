@@ -21,8 +21,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -34,8 +34,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `reason` | Yes | [secret-scanning-push-protection-bypass-reason](../../../../../_types/secret-scanning-push-protection-bypass-reason.md) |  |
-| `placeholder_id` | Yes | [secret-scanning-push-protection-bypass-placeholder-id](../../../../../_types/secret-scanning-push-protection-bypass-placeholder-id.md) |  |
+| `reason` | Yes | [secret-scanning-push-protection-bypass-reason](../../../../../_components/schemas/secret-scanning-push-protection-bypass-reason.md) |  |
+| `placeholder_id` | Yes | [secret-scanning-push-protection-bypass-placeholder-id](../../../../../_components/schemas/secret-scanning-push-protection-bypass-placeholder-id.md) |  |
 
 
 ## Responses
@@ -45,7 +45,7 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[secret-scanning-push-protection-bypass](../../../../../_types/secret-scanning-push-protection-bypass.md)
+[secret-scanning-push-protection-bypass](../../../../../_components/schemas/secret-scanning-push-protection-bypass.md)
 
 
 ### 403
@@ -62,5 +62,5 @@ Bad request, input data missing or incorrect.
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

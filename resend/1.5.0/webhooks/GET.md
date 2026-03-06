@@ -33,6 +33,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListWebhooksResponse](../_types/ListWebhooksResponse.md)
+[ListWebhooksResponse](../_components/schemas/ListWebhooksResponse.md)
 
 

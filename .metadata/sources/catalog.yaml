@@ -11,16 +11,16 @@ apis:
     notes: Canonical OpenAPI example. Good baseline for validation.
 
   - name: openai
-    spec_url: https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml
+    spec_url: https://raw.githubusercontent.com/openai/openai-openapi/refs/heads/manual_spec/openapi.yaml
     pinned_ref: null
     tags: [ai, llm, ml, chat, embeddings]
     notes: Official OpenAI API spec from their GitHub repo.
 
   - name: anthropic
-    spec_url: https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/main/openapi.json
+    spec_url: https://storage.googleapis.com/stainless-sdk-openapi-specs/anthropic%2Fanthropic-29a6b7ba51942cd606e5bf4b533e5aac1bef42f6d4b1f7f45f756304cf676782.yml
     pinned_ref: null
     tags: [ai, llm, ml, chat]
-    notes: Anthropic Claude API. Spec extracted from their Python SDK repo.
+    notes: Anthropic Claude API. Spec extracted from their TypeScript SDK repo (https://github.com/anthropics/anthropic-sdk-typescript/blob/main/.stats.yml).
 
   - name: stripe
     spec_url: https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json

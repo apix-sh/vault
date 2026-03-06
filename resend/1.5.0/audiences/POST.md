@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateAudienceOptions](../_types/CreateAudienceOptions.md)
+[CreateAudienceOptions](../_components/schemas/CreateAudienceOptions.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateAudienceResponseSuccess](../_types/CreateAudienceResponseSuccess.md)
+[CreateAudienceResponseSuccess](../_components/schemas/CreateAudienceResponseSuccess.md)
 
 

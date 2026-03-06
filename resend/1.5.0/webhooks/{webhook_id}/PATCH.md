@@ -25,7 +25,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[UpdateWebhookRequest](../../_types/UpdateWebhookRequest.md)
+[UpdateWebhookRequest](../../_components/schemas/UpdateWebhookRequest.md)
 
 
 ## Responses
@@ -35,6 +35,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[UpdateWebhookResponse](../../_types/UpdateWebhookResponse.md)
+[UpdateWebhookResponse](../../_components/schemas/UpdateWebhookResponse.md)
 
 

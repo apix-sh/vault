@@ -46,7 +46,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[charge](../../../_types/charge.md)
+[charge](../../../_components/schemas/charge.md)
 
 
 ### default
@@ -54,6 +54,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

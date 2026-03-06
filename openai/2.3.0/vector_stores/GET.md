@@ -38,6 +38,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListVectorStoresResponse](../_types/ListVectorStoresResponse.md)
+[ListVectorStoresResponse](../_components/schemas/ListVectorStoresResponse.md)
 
 

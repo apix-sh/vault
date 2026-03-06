@@ -23,7 +23,7 @@ Supported content types:
 - `multipart/form-data`
 
 ### Inline Request Schema (`multipart/form-data`)
-[CreateImageEditRequest](../../_types/CreateImageEditRequest.md)
+[CreateImageEditRequest](../../_components/schemas/CreateImageEditRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[ImagesResponse](../../_types/ImagesResponse.md)
+[ImagesResponse](../../_components/schemas/ImagesResponse.md)
 
 

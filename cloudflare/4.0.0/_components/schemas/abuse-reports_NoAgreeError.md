@@ -1,0 +1,13 @@
+---
+type: "string"
+---
+
+# abuse-reports_NoAgreeError
+
+
+Must acknowledge that you are bound by 512(f), that you have a good faith belief about the material, and that you have the authority to act
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

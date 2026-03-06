@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `package-type (unresolved)` | Unknown | [package-type](../../../../../../_types/package-type.md) |  |
-| `package-name (unresolved)` | Unknown | [package-name](../../../../../../_types/package-name.md) |  |
-| `package-version-id (unresolved)` | Unknown | [package-version-id](../../../../../../_types/package-version-id.md) |  |
+| `Reference` | N/A | [package-type](../../../../../../_components/parameters/package-type.md) |  |
+| `Reference` | N/A | [package-name](../../../../../../_components/parameters/package-name.md) |  |
+| `Reference` | N/A | [package-version-id](../../../../../../_components/parameters/package-version-id.md) |  |
 
 
 
@@ -37,6 +37,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[package-version](../../../../../../_types/package-version.md)
+[package-version](../../../../../../_components/schemas/package-version.md)
 
 

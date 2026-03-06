@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../../_types/secret-name.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [secret-name](../../../../../_components/parameters/secret-name.md) |  |
 
 
 
@@ -40,8 +40,10 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-[codespaces-org-secret](../../../../../_types/codespaces-org-secret.md)
+[codespaces-org-secret](../../../../../_components/schemas/codespaces-org-secret.md)
 
 

@@ -33,6 +33,6 @@ _(None)_
 The chat completion was deleted successfully.
 
 #### Response Schema (`application/json`)
-[ChatCompletionDeleted](../../../_types/ChatCompletionDeleted.md)
+[ChatCompletionDeleted](../../../_components/schemas/ChatCompletionDeleted.md)
 
 

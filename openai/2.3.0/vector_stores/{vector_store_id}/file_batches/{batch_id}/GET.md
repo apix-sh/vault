@@ -32,6 +32,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[VectorStoreFileBatchObject](../../../../_types/VectorStoreFileBatchObject.md)
+[VectorStoreFileBatchObject](../../../../_components/schemas/VectorStoreFileBatchObject.md)
 
 

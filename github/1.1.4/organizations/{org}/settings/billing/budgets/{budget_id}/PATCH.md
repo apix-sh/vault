@@ -20,8 +20,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `budget (unresolved)` | Unknown | [budget](../../../../../../_types/budget.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [budget](../../../../../../_components/parameters/budget.md) |  |
 
 
 
@@ -57,33 +57,33 @@ Budget updated successfully
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../../../_components/responses/bad_request.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
 ### 404
 
 Budget not found or feature not enabled
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../../_types/basic-error.md)
+[basic-error](../../../../../../_components/schemas/basic-error.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 
 ### 500
 
 Internal server error
 
 #### Response Schema (`application/json`)
-[basic-error](../../../../../../_types/basic-error.md)
+[basic-error](../../../../../../_components/schemas/basic-error.md)
 
 

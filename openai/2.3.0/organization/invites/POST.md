@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[InviteRequest](../../_types/InviteRequest.md)
+[InviteRequest](../../_components/schemas/InviteRequest.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 User invited successfully.
 
 #### Response Schema (`application/json`)
-[Invite](../../_types/Invite.md)
+[Invite](../../_components/schemas/Invite.md)
 
 

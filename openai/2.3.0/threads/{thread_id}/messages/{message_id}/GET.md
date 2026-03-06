@@ -32,6 +32,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[MessageObject](../../../../_types/MessageObject.md)
+[MessageObject](../../../../_components/schemas/MessageObject.md)
 
 

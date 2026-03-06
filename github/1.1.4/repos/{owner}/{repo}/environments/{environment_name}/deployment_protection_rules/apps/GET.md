@@ -25,11 +25,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../../_types/environment-name.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../../../_types/per-page.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../../_components/parameters/environment-name.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [page](../../../../../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../../../../../_components/parameters/per-page.md) |  |
 
 
 
@@ -48,6 +48,6 @@ A list of custom deployment rule integrations available for this environment.
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | No | integer | The total number of custom deployment protection rule integrations available for this environment. |
-| `available_custom_deployment_protection_rule_integrations` | No | array<[custom-deployment-rule-app](../../../../../../../_types/custom-deployment-rule-app.md)> |  |
+| `available_custom_deployment_protection_rule_integrations` | No | array<[custom-deployment-rule-app](../../../../../../../_components/schemas/custom-deployment-rule-app.md)> |  |
 
 

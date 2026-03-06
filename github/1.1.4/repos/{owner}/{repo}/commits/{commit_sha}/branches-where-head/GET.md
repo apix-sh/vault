@@ -19,9 +19,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../_types/repo.md) |  |
-| `commit-sha (unresolved)` | Unknown | [commit-sha](../../../../../../_types/commit-sha.md) |  |
+| `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [commit-sha](../../../../../../_components/parameters/commit-sha.md) |  |
 
 
 
@@ -37,14 +37,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[branch-short](../../../../../../_types/branch-short.md)>
+array<[branch-short](../../../../../../_components/schemas/branch-short.md)>
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 
 ### 409
 
-Reference: #/components/responses/conflict
+Reference: [conflict](../../../../../../_components/responses/conflict.md)
 

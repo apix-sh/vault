@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `classroom-id (unresolved)` | Unknown | [classroom-id](../../../_types/classroom-id.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../_types/per-page.md) |  |
+| `Reference` | N/A | [classroom-id](../../../_components/parameters/classroom-id.md) |  |
+| `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
 
 
 
@@ -35,6 +35,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[simple-classroom-assignment](../../../_types/simple-classroom-assignment.md)>
+array<[simple-classroom-assignment](../../../_components/schemas/simple-classroom-assignment.md)>
 
 

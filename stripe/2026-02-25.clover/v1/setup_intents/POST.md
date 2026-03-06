@@ -74,7 +74,7 @@ Single-use mandates are only valid for the following payment methods: `acss_debi
 Successful response.
 
 #### Response Schema (`application/json`)
-[setup_intent](../../_types/setup_intent.md)
+[setup_intent](../../_components/schemas/setup_intent.md)
 
 
 ### default
@@ -82,6 +82,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../_types/error.md)
+[error](../../_components/schemas/error.md)
 
 

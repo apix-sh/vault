@@ -33,6 +33,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[webhook-config](../../../_types/webhook-config.md)
+[webhook-config](../../../_components/schemas/webhook-config.md)
 
 

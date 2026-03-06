@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `package-type (unresolved)` | Unknown | [package-type](../../../../_types/package-type.md) |  |
-| `package-name (unresolved)` | Unknown | [package-name](../../../../_types/package-name.md) |  |
+| `Reference` | N/A | [package-type](../../../../_components/parameters/package-type.md) |  |
+| `Reference` | N/A | [package-name](../../../../_components/parameters/package-name.md) |  |
 
 
 
@@ -36,6 +36,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[package](../../../../_types/package.md)
+[package](../../../../_components/schemas/package.md)
 
 

@@ -41,7 +41,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[ephemeral_key](../../_types/ephemeral_key.md)
+[ephemeral_key](../../_components/schemas/ephemeral_key.md)
 
 
 ### default
@@ -49,6 +49,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../_types/error.md)
+[error](../../_components/schemas/error.md)
 
 

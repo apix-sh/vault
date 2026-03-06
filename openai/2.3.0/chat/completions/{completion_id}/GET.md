@@ -33,6 +33,6 @@ _(None)_
 A chat completion
 
 #### Response Schema (`application/json`)
-[CreateChatCompletionResponse](../../../_types/CreateChatCompletionResponse.md)
+[CreateChatCompletionResponse](../../../_components/schemas/CreateChatCompletionResponse.md)
 
 

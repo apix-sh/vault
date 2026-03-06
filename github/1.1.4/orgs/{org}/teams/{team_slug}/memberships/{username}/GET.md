@@ -27,9 +27,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../_types/org.md) |  |
-| `team-slug (unresolved)` | Unknown | [team-slug](../../../../../../_types/team-slug.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../../../_types/username.md) |  |
+| `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [team-slug](../../../../../../_components/parameters/team-slug.md) |  |
+| `Reference` | N/A | [username](../../../../../../_components/parameters/username.md) |  |
 
 
 
@@ -45,7 +45,7 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[team-membership](../../../../../../_types/team-membership.md)
+[team-membership](../../../../../../_components/schemas/team-membership.md)
 
 
 ### 404

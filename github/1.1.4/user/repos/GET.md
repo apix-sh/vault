@@ -27,10 +27,10 @@ _(None)_
 | `type` | No | string | Limit results to repositories of the specified type. Will cause a `422` error if used in the same request as **visibility** or **affiliation**.<br/>*Serialization: style=Form* |
 | `sort` | No | string | The property to sort the results by.<br/>*Serialization: style=Form* |
 | `direction` | No | string | The order to sort by. Default: `asc` when using `full_name`, otherwise `desc`.<br/>*Serialization: style=Form* |
-| `per-page (unresolved)` | Unknown | [per-page](../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../_types/page.md) |  |
-| `since-repo-date (unresolved)` | Unknown | [since-repo-date](../../_types/since-repo-date.md) |  |
-| `before-repo-date (unresolved)` | Unknown | [before-repo-date](../../_types/before-repo-date.md) |  |
+| `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [since-repo-date](../../_components/parameters/since-repo-date.md) |  |
+| `Reference` | N/A | [before-repo-date](../../_components/parameters/before-repo-date.md) |  |
 
 
 
@@ -50,24 +50,26 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[repository](../../_types/repository.md)>
+array<[repository](../../_components/schemas/repository.md)>
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
 

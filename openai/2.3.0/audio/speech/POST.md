@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateSpeechRequest](../../_types/CreateSpeechRequest.md)
+[CreateSpeechRequest](../../_components/schemas/CreateSpeechRequest.md)
 
 
 ## Responses
@@ -38,6 +38,8 @@ OK
 | :--- | :------: | :--- | :---------- |
 
 | `Transfer-Encoding` | No | string | chunked |
+
+
 #### Response Schema (`application/octet-stream`)
 *(No object properties found)*
 

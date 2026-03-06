@@ -17,7 +17,7 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `effective_at` | No | object | Return only events whose `effective_at` (Unix seconds) is in this range.<br/>*Serialization: style=Form* |
 | `project_ids[]` | No | array<string> | Return only events for these projects.<br/>*Serialization: style=Form* |
-| `event_types[]` | No | array<[AuditLogEventType](../../_types/AuditLogEventType.md)> | Return only events with a `type` in one of these values. For example, `project.created`. For all options, see the documentation for the [audit log object](/docs/api-reference/audit-logs/object).<br/>*Serialization: style=Form* |
+| `event_types[]` | No | array<[AuditLogEventType](../../_components/schemas/AuditLogEventType.md)> | Return only events with a `type` in one of these values. For example, `project.created`. For all options, see the documentation for the [audit log object](/docs/api-reference/audit-logs/object).<br/>*Serialization: style=Form* |
 | `actor_ids[]` | No | array<string> | Return only events performed by these actors. Can be a user ID, a service account ID, or an api key tracking ID.<br/>*Serialization: style=Form* |
 | `actor_emails[]` | No | array<string> | Return only events performed by users with these emails.<br/>*Serialization: style=Form* |
 | `resource_ids[]` | No | array<string> | Return only events performed on these targets. For example, a project ID updated.<br/>*Serialization: style=Form* |
@@ -42,6 +42,6 @@ _(None)_
 Audit logs listed successfully.
 
 #### Response Schema (`application/json`)
-[ListAuditLogsResponse](../../_types/ListAuditLogsResponse.md)
+[ListAuditLogsResponse](../../_components/schemas/ListAuditLogsResponse.md)
 
 

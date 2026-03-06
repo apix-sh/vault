@@ -29,12 +29,12 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `filter` | No | string | Indicates which sorts of issues to return. `assigned` means issues assigned to you. `created` means issues created by you. `mentioned` means issues mentioning you. `subscribed` means issues you're subscribed to updates for. `all` or `repos` means all issues you can see, regardless of participation or creation.<br/>*Serialization: style=Form* |
 | `state` | No | string | Indicates the state of the issues to return.<br/>*Serialization: style=Form* |
-| `labels (unresolved)` | Unknown | [labels](../../_types/labels.md) |  |
+| `Reference` | N/A | [labels](../../_components/parameters/labels.md) |  |
 | `sort` | No | string | What to sort results by.<br/>*Serialization: style=Form* |
-| `direction (unresolved)` | Unknown | [direction](../../_types/direction.md) |  |
-| `since (unresolved)` | Unknown | [since](../../_types/since.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../_types/page.md) |  |
+| `Reference` | N/A | [direction](../../_components/parameters/direction.md) |  |
+| `Reference` | N/A | [since](../../_components/parameters/since.md) |  |
+| `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
 
 
 
@@ -54,16 +54,18 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[issue](../../_types/issue.md)>
+array<[issue](../../_components/schemas/issue.md)>
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../_components/responses/not_modified.md)
 

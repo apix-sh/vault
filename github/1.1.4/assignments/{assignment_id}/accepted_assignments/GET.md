@@ -17,9 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `assignment-id (unresolved)` | Unknown | [assignment-id](../../../_types/assignment-id.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../_types/per-page.md) |  |
+| `Reference` | N/A | [assignment-id](../../../_components/parameters/assignment-id.md) |  |
+| `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
 
 
 
@@ -35,6 +35,6 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[classroom-accepted-assignment](../../../_types/classroom-accepted-assignment.md)>
+array<[classroom-accepted-assignment](../../../_components/schemas/classroom-accepted-assignment.md)>
 
 

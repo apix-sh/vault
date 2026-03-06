@@ -21,10 +21,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `variables-per-page (unresolved)` | Unknown | [variables-per-page](../../../../../_types/variables-per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [variables-per-page](../../../../../_components/parameters/variables-per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -44,11 +44,13 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `total_count` | Yes | integer |  |
-| `variables` | Yes | array<[actions-variable](../../../../../_types/actions-variable.md)> |  |
+| `variables` | Yes | array<[actions-variable](../../../../../_components/schemas/actions-variable.md)> |  |
 
 

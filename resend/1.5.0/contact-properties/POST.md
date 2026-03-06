@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateContactPropertyOptions](../_types/CreateContactPropertyOptions.md)
+[CreateContactPropertyOptions](../_components/schemas/CreateContactPropertyOptions.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateContactPropertyResponseSuccess](../_types/CreateContactPropertyResponseSuccess.md)
+[CreateContactPropertyResponseSuccess](../_components/schemas/CreateContactPropertyResponseSuccess.md)
 
 

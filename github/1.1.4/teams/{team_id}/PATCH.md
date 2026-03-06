@@ -23,7 +23,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `team-id (unresolved)` | Unknown | [team-id](../../_types/team-id.md) |  |
+| `Reference` | N/A | [team-id](../../_components/parameters/team-id.md) |  |
 
 
 
@@ -57,7 +57,7 @@ Supported content types:
 Response when the updated information already exists
 
 #### Response Schema (`application/json`)
-[team-full](../../_types/team-full.md)
+[team-full](../../_components/schemas/team-full.md)
 
 
 ### 201
@@ -65,18 +65,18 @@ Response when the updated information already exists
 Response
 
 #### Response Schema (`application/json`)
-[team-full](../../_types/team-full.md)
+[team-full](../../_components/schemas/team-full.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../_components/responses/forbidden.md)
 

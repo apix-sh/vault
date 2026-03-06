@@ -37,7 +37,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[deleted_customer](../../../_types/deleted_customer.md)
+[deleted_customer](../../../_components/schemas/deleted_customer.md)
 
 
 ### default
@@ -45,6 +45,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

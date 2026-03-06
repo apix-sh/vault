@@ -19,7 +19,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `gpg-key-id (unresolved)` | Unknown | [gpg-key-id](../../../_types/gpg-key-id.md) |  |
+| `Reference` | N/A | [gpg-key-id](../../../_components/parameters/gpg-key-id.md) |  |
 
 
 
@@ -35,22 +35,22 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[gpg-key](../../../_types/gpg-key.md)
+[gpg-key](../../../_components/schemas/gpg-key.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../../../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
 

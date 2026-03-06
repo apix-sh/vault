@@ -38,6 +38,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[ListAssistantsResponse](../_types/ListAssistantsResponse.md)
+[ListAssistantsResponse](../_components/schemas/ListAssistantsResponse.md)
 
 

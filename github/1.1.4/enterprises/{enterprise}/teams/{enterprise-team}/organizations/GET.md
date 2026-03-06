@@ -17,10 +17,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../../_types/enterprise.md) |  |
-| `enterprise-team (unresolved)` | Unknown | [enterprise-team](../../../../../_types/enterprise-team.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../../../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../../../_types/page.md) |  |
+| `Reference` | N/A | [enterprise](../../../../../_components/parameters/enterprise.md) |  |
+| `Reference` | N/A | [enterprise-team](../../../../../_components/parameters/enterprise-team.md) |  |
+| `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 
 
 
@@ -36,6 +36,6 @@ _(None)_
 An array of organizations the team is assigned to
 
 #### Response Schema (`application/json`)
-array<[organization-simple](../../../../../_types/organization-simple.md)>
+array<[organization-simple](../../../../../_components/schemas/organization-simple.md)>
 
 

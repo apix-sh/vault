@@ -21,7 +21,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `enterprise (unresolved)` | Unknown | [enterprise](../../../../_types/enterprise.md) |  |
+| `Reference` | N/A | [enterprise](../../../../_components/parameters/enterprise.md) |  |
 
 
 
@@ -46,9 +46,9 @@ Supported content types:
 | `dependency_graph_autosubmit_action_options` | No | object | Feature options for Automatic dependency submission |
 | `dependabot_alerts` | No | string | The enablement status of Dependabot alerts |
 | `dependabot_security_updates` | No | string | The enablement status of Dependabot security updates |
-| `code_scanning_options` | No | [code-scanning-options](../../../../_types/code-scanning-options.md) |  |
+| `code_scanning_options` | No | [code-scanning-options](../../../../_components/schemas/code-scanning-options.md) |  |
 | `code_scanning_default_setup` | No | string | The enablement status of code scanning default setup |
-| `code_scanning_default_setup_options` | No | [code-scanning-default-setup-options](../../../../_types/code-scanning-default-setup-options.md) |  |
+| `code_scanning_default_setup_options` | No | [code-scanning-default-setup-options](../../../../_components/schemas/code-scanning-default-setup-options.md) |  |
 | `code_scanning_delegated_alert_dismissal` | No | string | The enablement status of code scanning delegated alert dismissal |
 | `secret_protection` | No | string | The enablement status of GitHub Secret Protection features. |
 | `secret_scanning` | No | string | The enablement status of secret scanning |
@@ -69,18 +69,18 @@ Supported content types:
 Successfully created code security configuration
 
 #### Response Schema (`application/json`)
-[code-security-configuration](../../../../_types/code-security-configuration.md)
+[code-security-configuration](../../../../_components/schemas/code-security-configuration.md)
 
 
 ### 400
 
-Reference: #/components/responses/bad_request
+Reference: [bad_request](../../../../_components/responses/bad_request.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

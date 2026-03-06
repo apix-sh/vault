@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateTopicOptions](../_types/CreateTopicOptions.md)
+[CreateTopicOptions](../_components/schemas/CreateTopicOptions.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateTopicResponseSuccess](../_types/CreateTopicResponseSuccess.md)
+[CreateTopicResponseSuccess](../_components/schemas/CreateTopicResponseSuccess.md)
 
 

@@ -22,7 +22,7 @@ _(None)_
 | `ghsa_id` | No | string | If specified, only advisories with this GHSA (GitHub Security Advisory) identifier will be returned.<br/>*Serialization: style=Form* |
 | `type` | No | string | If specified, only advisories of this type will be returned. By default, a request with no other parameters defined will only return reviewed advisories that are not malware.<br/>*Serialization: style=Form* |
 | `cve_id` | No | string | If specified, only advisories with this CVE (Common Vulnerabilities and Exposures) identifier will be returned.<br/>*Serialization: style=Form* |
-| `ecosystem` | No | [security-advisory-ecosystems](../_types/security-advisory-ecosystems.md) | If specified, only advisories for these ecosystems will be returned.<br/>*Serialization: style=Form* |
+| `ecosystem` | No | [security-advisory-ecosystems](../_components/schemas/security-advisory-ecosystems.md) | If specified, only advisories for these ecosystems will be returned.<br/>*Serialization: style=Form* |
 | `severity` | No | string | If specified, only advisories with these severities will be returned.<br/>*Serialization: style=Form* |
 | `cwes` | No | oneOf(2) | If specified, only advisories with these Common Weakness Enumerations (CWEs) will be returned.
 
@@ -45,9 +45,9 @@ For more information on the syntax of the date range, see "[Understanding the se
 The EPSS percentage represents the likelihood of a CVE being exploited.<br/>*Serialization: style=Form* |
 | `epss_percentile` | No | string | If specified, only return advisories that have an EPSS percentile score that matches the provided value.
 The EPSS percentile represents the relative rank of the CVE's likelihood of being exploited compared to other CVEs.<br/>*Serialization: style=Form* |
-| `pagination-before (unresolved)` | Unknown | [pagination-before](../_types/pagination-before.md) |  |
-| `pagination-after (unresolved)` | Unknown | [pagination-after](../_types/pagination-after.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../_types/direction.md) |  |
+| `Reference` | N/A | [pagination-before](../_components/parameters/pagination-before.md) |  |
+| `Reference` | N/A | [pagination-after](../_components/parameters/pagination-after.md) |  |
+| `Reference` | N/A | [direction](../_components/parameters/direction.md) |  |
 | `per_page` | No | integer | The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."<br/>*Serialization: style=Form* |
 | `sort` | No | string | The property to sort the results by.<br/>*Serialization: style=Form* |
 
@@ -65,7 +65,7 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[global-advisory](../_types/global-advisory.md)>
+array<[global-advisory](../_components/schemas/global-advisory.md)>
 
 
 ### 429
@@ -73,10 +73,10 @@ array<[global-advisory](../_types/global-advisory.md)>
 Too many requests
 
 #### Response Schema (`application/json`)
-[basic-error](../_types/basic-error.md)
+[basic-error](../_components/schemas/basic-error.md)
 
 
 ### 422
 
-Reference: #/components/responses/validation_failed_simple
+Reference: [validation_failed_simple](../_components/responses/validation_failed_simple.md)
 

@@ -15,9 +15,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../_types/repo.md) |  |
-| `invitation-id (unresolved)` | Unknown | [invitation-id](../../../../../_types/invitation-id.md) |  |
+| `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [invitation-id](../../../../../_components/parameters/invitation-id.md) |  |
 
 
 
@@ -39,6 +39,6 @@ Supported content types:
 Response
 
 #### Response Schema (`application/json`)
-[repository-invitation](../../../../../_types/repository-invitation.md)
+[repository-invitation](../../../../../_components/schemas/repository-invitation.md)
 
 

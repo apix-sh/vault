@@ -27,8 +27,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `team-id (unresolved)` | Unknown | [team-id](../../../../_types/team-id.md) |  |
-| `username (unresolved)` | Unknown | [username](../../../../_types/username.md) |  |
+| `Reference` | N/A | [team-id](../../../../_components/parameters/team-id.md) |  |
+| `Reference` | N/A | [username](../../../../_components/parameters/username.md) |  |
 
 
 
@@ -44,10 +44,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[team-membership](../../../../_types/team-membership.md)
+[team-membership](../../../../_components/schemas/team-membership.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

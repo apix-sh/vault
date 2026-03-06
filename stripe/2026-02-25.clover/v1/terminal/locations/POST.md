@@ -47,7 +47,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[terminal.location](../../../_types/terminal.location.md)
+[terminal.location](../../../_components/schemas/terminal.location.md)
 
 
 ### default
@@ -55,6 +55,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

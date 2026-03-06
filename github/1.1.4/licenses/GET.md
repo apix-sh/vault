@@ -18,8 +18,8 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `featured` | No | boolean | *Serialization: style=Form* |
-| `per-page (unresolved)` | Unknown | [per-page](../_types/per-page.md) |  |
-| `page (unresolved)` | Unknown | [page](../_types/page.md) |  |
+| `Reference` | N/A | [per-page](../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [page](../_components/parameters/page.md) |  |
 
 
 
@@ -35,10 +35,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-array<[license-simple](../_types/license-simple.md)>
+array<[license-simple](../_components/schemas/license-simple.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 

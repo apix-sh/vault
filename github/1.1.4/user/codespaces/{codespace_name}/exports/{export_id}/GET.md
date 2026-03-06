@@ -19,8 +19,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `codespace-name (unresolved)` | Unknown | [codespace-name](../../../../../_types/codespace-name.md) |  |
-| `export-id (unresolved)` | Unknown | [export-id](../../../../../_types/export-id.md) |  |
+| `Reference` | N/A | [codespace-name](../../../../../_components/parameters/codespace-name.md) |  |
+| `Reference` | N/A | [export-id](../../../../../_components/parameters/export-id.md) |  |
 
 
 
@@ -36,10 +36,10 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[codespace-export-details](../../../../../_types/codespace-export-details.md)
+[codespace-export-details](../../../../../_components/schemas/codespace-export-details.md)
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

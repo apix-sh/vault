@@ -32,6 +32,6 @@ _(None)_
 Project service account deleted successfully.
 
 #### Response Schema (`application/json`)
-[ProjectServiceAccountDeleteResponse](../../../../../_types/ProjectServiceAccountDeleteResponse.md)
+[ProjectServiceAccountDeleteResponse](../../../../../_components/schemas/ProjectServiceAccountDeleteResponse.md)
 
 

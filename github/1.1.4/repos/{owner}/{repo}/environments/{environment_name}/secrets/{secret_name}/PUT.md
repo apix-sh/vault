@@ -22,10 +22,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
-| `environment-name (unresolved)` | Unknown | [environment-name](../../../../../../../_types/environment-name.md) |  |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../../../../_types/secret-name.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
+| `Reference` | N/A | [environment-name](../../../../../../../_components/parameters/environment-name.md) |  |
+| `Reference` | N/A | [secret-name](../../../../../../../_components/parameters/secret-name.md) |  |
 
 
 
@@ -48,7 +48,7 @@ Supported content types:
 Response when creating a secret
 
 #### Response Schema (`application/json`)
-[empty-object](../../../../../../../_types/empty-object.md)
+[empty-object](../../../../../../../_components/schemas/empty-object.md)
 
 
 ### 204

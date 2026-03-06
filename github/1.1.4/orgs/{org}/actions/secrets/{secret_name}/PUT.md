@@ -22,8 +22,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../_types/org.md) |  |
-| `secret-name (unresolved)` | Unknown | [secret-name](../../../../../_types/secret-name.md) |  |
+| `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [secret-name](../../../../../_components/parameters/secret-name.md) |  |
 
 
 
@@ -48,7 +48,7 @@ Supported content types:
 Response when creating a secret
 
 #### Response Schema (`application/json`)
-[empty-object](../../../../../_types/empty-object.md)
+[empty-object](../../../../../_components/schemas/empty-object.md)
 
 
 ### 204

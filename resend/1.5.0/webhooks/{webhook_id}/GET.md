@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[GetWebhookResponse](../../_types/GetWebhookResponse.md)
+[GetWebhookResponse](../../_components/schemas/GetWebhookResponse.md)
 
 

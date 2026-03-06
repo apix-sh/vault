@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[Email](../../_types/Email.md)
+[Email](../../_components/schemas/Email.md)
 
 

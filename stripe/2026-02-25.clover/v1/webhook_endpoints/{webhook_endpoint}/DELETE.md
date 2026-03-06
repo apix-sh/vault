@@ -37,7 +37,7 @@ Supported content types:
 Successful response.
 
 #### Response Schema (`application/json`)
-[deleted_webhook_endpoint](../../../_types/deleted_webhook_endpoint.md)
+[deleted_webhook_endpoint](../../../_components/schemas/deleted_webhook_endpoint.md)
 
 
 ### default
@@ -45,6 +45,6 @@ Successful response.
 Error response.
 
 #### Response Schema (`application/json`)
-[error](../../../_types/error.md)
+[error](../../../_components/schemas/error.md)
 
 

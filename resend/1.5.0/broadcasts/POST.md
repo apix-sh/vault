@@ -23,7 +23,7 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-[CreateBroadcastOptions](../_types/CreateBroadcastOptions.md)
+[CreateBroadcastOptions](../_components/schemas/CreateBroadcastOptions.md)
 
 
 ## Responses
@@ -33,6 +33,6 @@ Supported content types:
 OK
 
 #### Response Schema (`application/json`)
-[CreateBroadcastResponseSuccess](../_types/CreateBroadcastResponseSuccess.md)
+[CreateBroadcastResponseSuccess](../_components/schemas/CreateBroadcastResponseSuccess.md)
 
 

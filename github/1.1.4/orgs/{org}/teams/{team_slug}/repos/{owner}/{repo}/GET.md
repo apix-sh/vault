@@ -26,10 +26,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../../../../../_types/org.md) |  |
-| `team-slug (unresolved)` | Unknown | [team-slug](../../../../../../../_types/team-slug.md) |  |
-| `owner (unresolved)` | Unknown | [owner](../../../../../../../_types/owner.md) |  |
-| `repo (unresolved)` | Unknown | [repo](../../../../../../../_types/repo.md) |  |
+| `Reference` | N/A | [org](../../../../../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [team-slug](../../../../../../../_components/parameters/team-slug.md) |  |
+| `Reference` | N/A | [owner](../../../../../../../_components/parameters/owner.md) |  |
+| `Reference` | N/A | [repo](../../../../../../../_components/parameters/repo.md) |  |
 
 
 
@@ -45,7 +45,7 @@ _(None)_
 Alternative response with repository permissions
 
 #### Response Schema (`application/json`)
-[team-repository](../../../../../../../_types/team-repository.md)
+[team-repository](../../../../../../../_components/schemas/team-repository.md)
 
 
 ### 204

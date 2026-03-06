@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app-slug (unresolved)` | Unknown | [app-slug](../../_types/app-slug.md) |  |
+| `Reference` | N/A | [app-slug](../../_components/parameters/app-slug.md) |  |
 
 
 
@@ -34,14 +34,14 @@ _(None)_
 Response
 
 #### Response Schema (`application/json`)
-[integration](../../_types/integration.md)
+[integration](../../_components/schemas/integration.md)
 
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../../_components/responses/forbidden.md)
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../_components/responses/not_found.md)
 

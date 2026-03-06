@@ -17,11 +17,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `all (unresolved)` | Unknown | [all](../_types/all.md) |  |
-| `participating (unresolved)` | Unknown | [participating](../_types/participating.md) |  |
-| `since (unresolved)` | Unknown | [since](../_types/since.md) |  |
-| `before (unresolved)` | Unknown | [before](../_types/before.md) |  |
-| `page (unresolved)` | Unknown | [page](../_types/page.md) |  |
+| `Reference` | N/A | [all](../_components/parameters/all.md) |  |
+| `Reference` | N/A | [participating](../_components/parameters/participating.md) |  |
+| `Reference` | N/A | [since](../_components/parameters/since.md) |  |
+| `Reference` | N/A | [before](../_components/parameters/before.md) |  |
+| `Reference` | N/A | [page](../_components/parameters/page.md) |  |
 | `per_page` | No | integer | The number of results per page (max 50). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."<br/>*Serialization: style=Form* |
 
 
@@ -42,24 +42,26 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[thread](../_types/thread.md)>
+array<[thread](../_components/schemas/thread.md)>
 
 
 ### 304
 
-Reference: #/components/responses/not_modified
+Reference: [not_modified](../_components/responses/not_modified.md)
 
 ### 403
 
-Reference: #/components/responses/forbidden
+Reference: [forbidden](../_components/responses/forbidden.md)
 
 ### 401
 
-Reference: #/components/responses/requires_authentication
+Reference: [requires_authentication](../_components/responses/requires_authentication.md)
 
 ### 422
 
-Reference: #/components/responses/validation_failed
+Reference: [validation_failed](../_components/responses/validation_failed.md)
 

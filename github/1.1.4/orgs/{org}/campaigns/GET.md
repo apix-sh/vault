@@ -21,11 +21,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `org (unresolved)` | Unknown | [org](../../../_types/org.md) |  |
-| `page (unresolved)` | Unknown | [page](../../../_types/page.md) |  |
-| `per-page (unresolved)` | Unknown | [per-page](../../../_types/per-page.md) |  |
-| `direction (unresolved)` | Unknown | [direction](../../../_types/direction.md) |  |
-| `state` | No | [campaign-state](../../../_types/campaign-state.md) | If specified, only campaigns with this state will be returned.<br/>*Serialization: style=Form* |
+| `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
+| `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
+| `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
+| `Reference` | N/A | [direction](../../../_components/parameters/direction.md) |  |
+| `state` | No | [campaign-state](../../../_components/schemas/campaign-state.md) | If specified, only campaigns with this state will be returned.<br/>*Serialization: style=Form* |
 | `sort` | No | string | The property by which to sort the results.<br/>*Serialization: style=Form* |
 
 
@@ -46,16 +46,18 @@ Response
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 
-| `Link (ref)` | Unknown | [link](../../../_types/link.md) |  |
+| `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
+
+
 #### Response Schema (`application/json`)
-array<[campaign-summary](../../../_types/campaign-summary.md)>
+array<[campaign-summary](../../../_components/schemas/campaign-summary.md)>
 
 
 ### 404
 
-Reference: #/components/responses/not_found
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 503
 
-Reference: #/components/responses/service_unavailable
+Reference: [service_unavailable](../../../_components/responses/service_unavailable.md)
 

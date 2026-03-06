@@ -18,7 +18,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `include` | No | array<[Includable](../../_types/Includable.md)> | Additional fields to include in the response. See the `include`
+| `include` | No | array<[Includable](../../_components/schemas/Includable.md)> | Additional fields to include in the response. See the `include`
 parameter for Response creation above for more information.
 <br/>*Serialization: style=Form* |
 
@@ -36,6 +36,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[Response](../../_types/Response.md)
+[Response](../../_components/schemas/Response.md)
 
 

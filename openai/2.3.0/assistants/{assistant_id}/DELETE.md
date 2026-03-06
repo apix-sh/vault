@@ -31,6 +31,6 @@ _(None)_
 OK
 
 #### Response Schema (`application/json`)
-[DeleteAssistantResponse](../../_types/DeleteAssistantResponse.md)
+[DeleteAssistantResponse](../../_components/schemas/DeleteAssistantResponse.md)
 
 
