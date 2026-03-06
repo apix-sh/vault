@@ -1,0 +1,87 @@
+---
+method: "POST"
+url: "https://api.linode.com/{apiVersion}/databases/mysql/instances/{instanceId}/patch"
+auth: "bearer | oauth2"
+content_type: "application/json"
+---
+
+# Patch a MySQL Managed Database
+
+Apply security patches and updates to the underlying operating system of the MySQL Managed Database. This function runs during regular maintenance windows, which you can configure with the [Update a managed MySQL database](https://techdocs.akamai.com/linode-api/reference/put-databases-mysql-instance) operation.
+
+- The user needs `read_write` [user grant](https://techdocs.akamai.com/linode-api/reference/get-user-grants) access to the database.
+
+- The database's status needs to be `active`.
+
+- If your database cluster is configured with a single node, downtime occurs during maintenance updates. Consider upgrading to a [high availability](https://techdocs.akamai.com/cloud-computing/docs/aiven-database-clusters#high-availability) plan to avoid any maintenance downtime.
+
+- Major upgrades are optional until the service reaches end of service, and can be done in place.
+
+- A successful request triggers a `database_upgrade` [event](https://techdocs.akamai.com/linode-api/reference/get-events).
+
+
+<<LB>>
+
+---
+
+
+- __CLI__.
+
+    ```
+    linode-cli databases mysql-patch 123
+    ```
+
+    [Learn more...](https://techdocs.akamai.com/cloud-computing/docs/getting-started-with-the-linode-cli)
+
+- __OAuth scopes__.
+
+    ```
+    databases:read_write
+    ```
+
+    [Learn more...](https://techdocs.akamai.com/linode-api/reference/get-started#oauth)
+
+## Path Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `instanceId` | Yes | integer | The ID of the Managed PostgreSQL Database.<br/>*Serialization: style=Simple* |
+
+
+## Query Parameters
+
+_(None)_
+
+
+
+## Request Body
+
+_(None)_
+
+
+## Responses
+
+### 200
+
+MySQL Managed Database instance patch request successful.
+
+#### Response Schema (`application/json`)
+*(No object properties found)*
+
+#### Example Payload
+```json
+{}
+```
+
+
+### default
+
+See [Errors](https://techdocs.akamai.com/linode-api/reference/errors) for the range of possible error response codes.
+
+#### Response Schema (`application/json`)
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `errors` | No | array<object> |  |
+
+

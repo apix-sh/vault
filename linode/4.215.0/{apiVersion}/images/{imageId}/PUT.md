@@ -1,0 +1,148 @@
+---
+method: "PUT"
+url: "https://api.linode.com/{apiVersion}/images/{imageId}"
+auth: "bearer | oauth2"
+content_type: "application/json"
+---
+
+# Update an image
+
+Updates a private image that you have permission to `read_write`.
+
+> 📘
+>
+> You can't update the `regions` with this operation. Use the [Replicate an image](https://techdocs.akamai.com/linode-api/reference/post-replicate-image) operation to modify the existing regions for your image.
+
+
+<<LB>>
+
+---
+
+
+- __CLI__.
+
+    ```
+    linode-cli images update private/12345 \
+  --label "My gold-master image" \
+  --description "The detailed description \
+    of my image."
+    ```
+
+    [Learn more...](https://techdocs.akamai.com/cloud-computing/docs/getting-started-with-the-linode-cli)
+
+- __OAuth scopes__.
+
+    ```
+    images:read_write
+    ```
+
+    [Learn more...](https://techdocs.akamai.com/linode-api/reference/get-started#oauth)
+
+## Path Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `imageId` | Yes | string | The unique identifier assigned to the image after creation.<br/>*Serialization: style=Simple* |
+
+
+## Query Parameters
+
+_(None)_
+
+
+
+## Request Body
+
+Supported content types:
+- `application/json`
+
+### Inline Request Schema (`application/json`)
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `capabilities` | No | array<string> | __Read-only__ A list of the possible capabilities of this image.
+
+- `cloud-init`. The image supports the cloud-init multi-distribution method with our [Metadata service](https://www.linode.com/docs/products/compute/compute-instances/guides/metadata/#troubleshoot-metadata-and-cloud-init). This only applies to public images.
+
+- `distributed-sites`. Whether the image can be used in distributed compute regions. Compared to a core compute region, distributed compute regions offer limited functionality, but they're globally distributed. Your image can be geographically closer to you, potentially letting you deploy it quicker. See [Regions and images](https://techdocs.akamai.com/cloud-computing/docs/images#regions-and-images) for complete details. |
+| `created` | No | string | __Read-only__ When this image was created. |
+| `created_by` | No | string | __Read-only__ The name of the user who created this image, or `linode` for public images. |
+| `deprecated` | No | boolean | __Filterable__, __Read-only__ A `true` value indicates a deprecated image. Only public images can be deprecated. |
+| `description` | No | string | A detailed description of this image. |
+| `eol` | No | string | __Read-only__ The time of the public image's planned removal from service. This is `null` for private images. |
+| `expiry` | No | string | __Read-only__ Only images created automatically from a deleted compute instance (type=automatic) expire. This is `null` for private images. |
+| `id` | No | string | __Read-only__ The unique identifier for each image. |
+| `is_public` | No | boolean | __Filterable__, __Read-only__ A `true` value if the image is a public distribution image. A `false` value indicates private, account-specific images. |
+| `is_shared` | No | any | __Filterable__, __Read-only__ A `true` value for shared private images. `none` for images shared within a group. |
+| `label` | No | string | __Filterable__ A short description of the image. |
+| `regions` | No | array<object> | __Read-only__ Details on the regions where this image is stored. See [Regions and images](https://techdocs.akamai.com/cloud-computing/docs/images#regions-and-images) for full details on support for `regions`. |
+| `size` | No | integer | __Filterable__, __Read-only__ The minimum size in MB this image needs to deploy. |
+| `status` | No | string | __Filterable__, __Read-only__ The current status of the image. Possible values are `available`, `creating`, and `pending_upload`.
+
+> 📘
+>
+> The `+order_by` and `+order` operators are not available when [filtering](https://techdocs.akamai.com/linode-api/reference/filtering-and-sorting) on this key. |
+| `tags` | No | array<string> | __Filterable__ Tags used for organizational purposes. A tag can be from 3 to 100 characters long, and an image can have a maximum of 500 total tags. |
+| `total_size` | No | integer | __Read-only__ The total size in bytes of all instances of this image, in all `regions`.
+
+> 📘
+>
+> This object is empty for existing images. It's intended for use with future functionality. |
+| `type` | No | string | __Filterable__, __Read-only__ How the image was created. Create a `manual` image at any time. An `automatic` image is created automatically from a deleted compute instance. |
+| `updated` | No | string | __Read-only__ When this image was last updated. |
+| `vendor` | No | string | __Filterable__, __Read-only__ The upstream distribution vendor. This is `null` for private images. |
+
+
+## Responses
+
+### 200
+
+The updated image.
+
+#### Response Schema (`application/json`)
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `capabilities` | Yes | array<string> | __Read-only__ A list of the possible capabilities of this image.
+
+- `cloud-init`. The image supports the cloud-init multi-distribution method with our [Metadata service](https://www.linode.com/docs/products/compute/compute-instances/guides/metadata/#troubleshoot-metadata-and-cloud-init). This only applies to public images.
+
+- `distributed-sites`. Whether the image can be used in distributed compute regions. Compared to a core compute region, distributed compute regions offer limited functionality, but they're globally distributed. Your image can be geographically closer to you, potentially letting you deploy it quicker. See [Regions and images](https://techdocs.akamai.com/cloud-computing/docs/images#regions-and-images) for complete details. |
+| `created` | Yes | string | __Read-only__ When this image was created. |
+| `created_by` | Yes | string | __Read-only__ The name of the user who created this image, or `linode` for public images. |
+| `deprecated` | Yes | boolean | __Filterable__, __Read-only__ A `true` value indicates a deprecated image. Only public images can be deprecated. |
+| `description` | Yes | string | A detailed description of this image. |
+| `eol` | Yes | string | __Read-only__ The time of the public image's planned removal from service. This is `null` for private images. |
+| `expiry` | Yes | string | __Read-only__ Only images created automatically from a deleted compute instance (type=automatic) expire. This is `null` for private images. |
+| `id` | Yes | string | __Read-only__ The unique identifier for each image. |
+| `image_sharing` | Yes | oneOf(2) | Details about image sharing. |
+| `is_public` | Yes | boolean | __Filterable__, __Read-only__ A `true` value if the image is a public distribution image. A `false` value indicates private, account-specific images. |
+| `is_shared` | Yes | any | __Filterable__, __Read-only__ A `true` value for shared private images. `none` for images shared within a group. |
+| `label` | Yes | string | __Filterable__ A short description of the image. |
+| `regions` | Yes | array<object> | __Read-only__ Details on the regions where this image is stored. See [Regions and images](https://techdocs.akamai.com/cloud-computing/docs/images#regions-and-images) for full details on support for `regions`. |
+| `size` | Yes | integer | __Filterable__, __Read-only__ The minimum size in MB this image needs to deploy. |
+| `status` | Yes | string | __Filterable__, __Read-only__ The current status of the image. Possible values are `available`, `creating`, and `pending_upload`.
+
+> 📘
+>
+> The `+order_by` and `+order` operators are not available when [filtering](https://techdocs.akamai.com/linode-api/reference/filtering-and-sorting) on this key. |
+| `tags` | Yes | array<string> | __Filterable__ Tags used for organizational purposes. A tag can be from 3 to 100 characters long, and an image can have a maximum of 500 total tags. |
+| `total_size` | Yes | integer | __Read-only__ The total size in bytes of all instances of this image, in all `regions`.
+
+> 📘
+>
+> This object is empty for existing images. It's intended for use with future functionality. |
+| `type` | Yes | string | __Filterable__, __Read-only__ How the image was created. Create a `manual` image at any time. An `automatic` image is created automatically from a deleted compute instance. Other users within share groups can access a `shared` image. |
+| `updated` | Yes | string | __Read-only__ When this image was last updated. |
+| `vendor` | Yes | string | __Filterable__, __Read-only__ The upstream distribution vendor. This is `null` for private images. |
+
+
+### default
+
+See [Errors](https://techdocs.akamai.com/linode-api/reference/errors) for the range of possible error response codes.
+
+#### Response Schema (`application/json`)
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `errors` | No | array<object> |  |
+
+
