@@ -19,7 +19,6 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Idempotency-Key` | No | string | A unique identifier for the request to ensure emails are only sent once. [Learn more](https://resend.com/docs/dashboard/emails/idempotency-keys)<br/>*Serialization: style=Simple* |
 
 
