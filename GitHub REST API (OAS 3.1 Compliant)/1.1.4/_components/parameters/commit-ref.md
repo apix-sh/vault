@@ -1,0 +1,7 @@
+# Parameter: commit-ref
+
+- **Location**: path
+- **Required**: Yes
+- **Type**: string
+
+The commit reference. Can be a commit SHA, branch name (`heads/BRANCH_NAME`), or tag name (`tags/TAG_NAME`). For more information, see "[Git References](https://git-scm.com/book/en/v2/Git-Internals-Git-References)" in the Git documentation.

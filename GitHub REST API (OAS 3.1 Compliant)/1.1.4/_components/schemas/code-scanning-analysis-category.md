@@ -1,0 +1,13 @@
+---
+type: "string"
+---
+
+# code-scanning-analysis-category
+
+
+Identifies the configuration under which the analysis was executed. Used to distinguish between multiple analyses for the same tool and commit, but performed on different languages or different parts of the code.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

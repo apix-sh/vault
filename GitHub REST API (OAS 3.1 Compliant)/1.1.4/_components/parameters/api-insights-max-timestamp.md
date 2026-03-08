@@ -1,0 +1,7 @@
+# Parameter: api-insights-max-timestamp
+
+- **Location**: query
+- **Required**: No
+- **Type**: string
+
+The maximum timestamp to query for stats. Defaults to the time 30 days ago. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`.
