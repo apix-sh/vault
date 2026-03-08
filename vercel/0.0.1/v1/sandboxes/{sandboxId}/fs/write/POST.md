@@ -27,7 +27,6 @@ Uploads and extracts files to a sandbox's filesystem. Files must be uploaded as 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `x-cwd` | No | string | The target directory where the tarball contents will be extracted. If not specified, files are extracted to the sandbox home directory.<br/>*Serialization: style=Simple* |
 
 

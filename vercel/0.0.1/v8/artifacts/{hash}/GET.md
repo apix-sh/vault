@@ -27,7 +27,6 @@ Downloads a cache artifact indentified by its `hash` specified on the request pa
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `x-artifact-client-ci` | No | string | The continuous integration or delivery environment where this artifact is downloaded.<br/>*Serialization: style=Simple* |
 | `x-artifact-client-interactive` | No | integer | 1 if the client is an interactive shell. Otherwise 0<br/>*Serialization: style=Simple* |
 

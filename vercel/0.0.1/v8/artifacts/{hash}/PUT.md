@@ -27,7 +27,6 @@ Uploads a cache artifact identified by the `hash` specified on the path. The cac
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Content-Length` | Yes | number | The artifact size in bytes<br/>*Serialization: style=Simple* |
 | `x-artifact-duration` | No | number | The time taken to generate the uploaded artifact in milliseconds.<br/>*Serialization: style=Simple* |
 | `x-artifact-client-ci` | No | string | The continuous integration or delivery environment where this artifact was generated.<br/>*Serialization: style=Simple* |

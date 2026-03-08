@@ -25,7 +25,6 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Content-Length` | No | number | The file size in bytes<br/>*Serialization: style=Simple* |
 | `x-vercel-digest` | No | string | The file SHA1 used to check the integrity<br/>*Serialization: style=Simple* |
 | `x-now-digest` | No | string | The file SHA1 used to check the integrity<br/>*Serialization: style=Simple* |
