@@ -24,7 +24,6 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `api_key` | No | string | *Serialization: style=Simple* |
 
 

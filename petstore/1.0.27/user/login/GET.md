@@ -37,7 +37,6 @@ successful operation
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `X-Rate-Limit` | No | integer | calls per hour allowed by the user |
 | `X-Expires-After` | No | string | date in UTC when token expires |
 
