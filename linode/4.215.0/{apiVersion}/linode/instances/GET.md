@@ -49,7 +49,6 @@ Returns a paginated list of Linodes you have permission to view.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `X-Filter` | No | oneOf(2) | Specifies a JSON object to filter down the results. See [Filtering and sorting](https://techdocs.akamai.com/linode-api/reference/filtering-and-sorting) for details.<br/>*Serialization: style=Simple* |
 
 

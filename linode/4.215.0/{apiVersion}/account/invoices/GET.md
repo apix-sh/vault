@@ -49,7 +49,6 @@ Returns a paginated list of invoices against your account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `X-Filter` | No | oneOf(2) | Specifies a JSON object to filter down the results. See [Filtering and sorting](https://techdocs.akamai.com/linode-api/reference/filtering-and-sorting) for details.<br/>*Serialization: style=Simple* |
 
 

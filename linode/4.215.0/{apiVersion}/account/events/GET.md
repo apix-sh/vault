@@ -49,7 +49,6 @@ Returns a collection of event objects that represent actions you've taken on you
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `X-Filter` | No | oneOf(2) | Specifies a JSON object to filter down the results. See [Filtering and sorting](https://techdocs.akamai.com/linode-api/reference/filtering-and-sorting) for details.<br/>*Serialization: style=Simple* |
 
 

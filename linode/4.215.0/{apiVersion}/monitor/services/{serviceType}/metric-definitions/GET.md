@@ -53,7 +53,6 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `X-Filter` | No | any | Specifies a JSON object to filter down the results. See [Filtering and sorting](filtering-and-sorting) for details.<br/>*Serialization: style=Simple* |
 
 
