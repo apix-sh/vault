@@ -1,0 +1,13 @@
+---
+type: "integer"
+---
+
+# intel_popularity_rank
+
+
+Global Cloudflare 100k ranking for the last 30 days, if available for the hostname. The top ranked domain is 1, the lowest ranked domain is 100,000.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

@@ -1,0 +1,3 @@
+# Response: api-shield_per_operation_setting_update_success
+
+Successfully updated

@@ -1,0 +1,13 @@
+---
+type: "string"
+---
+
+# load-balancing_expected_body
+
+
+A case-insensitive sub-string to look for in the response body. If this string is not found, the origin will be marked as unhealthy. This parameter is only valid for HTTP and HTTPS monitors.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

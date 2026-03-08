@@ -1,0 +1,13 @@
+---
+type: "string"
+---
+
+# firewall_url
+
+
+The URL pattern to match, composed of a host and a path such as `example.org/path*`. Normalization is applied before the pattern is matched. `*` wildcards are expanded to match applicable traffic. Query strings are not matched. Set the value to `*` to match all traffic to your zone.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

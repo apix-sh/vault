@@ -1,0 +1,13 @@
+---
+type: "number"
+---
+
+# firewall_schemas-priority
+
+
+The priority of the rule to control the processing order. A lower number indicates higher priority. If not provided, any rules with a configured priority will be processed before rules without a priority.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

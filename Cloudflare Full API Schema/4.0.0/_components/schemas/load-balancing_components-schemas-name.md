@@ -1,0 +1,13 @@
+---
+type: "string"
+---
+
+# load-balancing_components-schemas-name
+
+
+The DNS hostname to associate with your Load Balancer. If this hostname already exists as a DNS record in Cloudflare's DNS, the Load Balancer will take precedence and the DNS record will not be used.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

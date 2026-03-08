@@ -1,0 +1,72 @@
+---
+type: "oneOf(59)"
+---
+
+# zones_setting_value
+
+
+Variants:
+- [zones_0rtt_value](zones_0rtt_value.md)
+- [zones_advanced_ddos_value](zones_advanced_ddos_value.md)
+- [zones_cache-rules_aegis_value](zones_cache-rules_aegis_value.md)
+- [zones_always_online_value](zones_always_online_value.md)
+- [zones_always_use_https_value](zones_always_use_https_value.md)
+- [zones_automatic_https_rewrites_value](zones_automatic_https_rewrites_value.md)
+- [zones_brotli_value](zones_brotli_value.md)
+- [zones_browser_cache_ttl_value](zones_browser_cache_ttl_value.md)
+- [zones_browser_check_value](zones_browser_check_value.md)
+- [zones_cache_level_value](zones_cache_level_value.md)
+- [zones_challenge_ttl_value](zones_challenge_ttl_value.md)
+- [zones_china_network_enabled_value](zones_china_network_enabled_value.md)
+- [zones_content_converter_value](zones_content_converter_value.md)
+- [zones_ciphers_value](zones_ciphers_value.md)
+- [zones_cname_flattening_value](zones_cname_flattening_value.md)
+- [zones_development_mode_value](zones_development_mode_value.md)
+- [zones_early_hints_value](zones_early_hints_value.md)
+- [zones_edge_cache_ttl_value](zones_edge_cache_ttl_value.md)
+- [zones_email_obfuscation_value](zones_email_obfuscation_value.md)
+- [zones_h2_prioritization_value](zones_h2_prioritization_value.md)
+- [zones_hotlink_protection_value](zones_hotlink_protection_value.md)
+- [zones_http2_value](zones_http2_value.md)
+- [zones_http3_value](zones_http3_value.md)
+- [zones_image_resizing_value](zones_image_resizing_value.md)
+- [zones_ip_geolocation_value](zones_ip_geolocation_value.md)
+- [zones_ipv6_value](zones_ipv6_value.md)
+- [zones_max_upload_value](zones_max_upload_value.md)
+- [zones_min_tls_version_value](zones_min_tls_version_value.md)
+- [zones_mirage_value](zones_mirage_value.md)
+- [zones_nel_value](zones_nel_value.md)
+- [zones_opportunistic_encryption_value](zones_opportunistic_encryption_value.md)
+- [zones_opportunistic_onion_value](zones_opportunistic_onion_value.md)
+- [zones_orange_to_orange_value](zones_orange_to_orange_value.md)
+- [zones_origin_error_page_pass_thru_value](zones_origin_error_page_pass_thru_value.md)
+- [zones_cache-rules_origin_h2_max_streams_value](zones_cache-rules_origin_h2_max_streams_value.md)
+- [zones_cache-rules_origin_max_http_version_value](zones_cache-rules_origin_max_http_version_value.md)
+- [zones_polish_value](zones_polish_value.md)
+- [zones_prefetch_preload_value](zones_prefetch_preload_value.md)
+- [zones_privacy_pass_value](zones_privacy_pass_value.md)
+- [zones_proxy_read_timeout_value](zones_proxy_read_timeout_value.md)
+- [zones_pseudo_ipv4_value](zones_pseudo_ipv4_value.md)
+- [zones_redirects_for_ai_training_value](zones_redirects_for_ai_training_value.md)
+- [zones_replace_insecure_js_value](zones_replace_insecure_js_value.md)
+- [zones_response_buffering_value](zones_response_buffering_value.md)
+- [zones_rocket_loader_value](zones_rocket_loader_value.md)
+- [zones_automatic_platform_optimization](zones_automatic_platform_optimization.md)
+- [zones_security_header_value](zones_security_header_value.md)
+- [zones_security_level_value](zones_security_level_value.md)
+- [zones_server_side_exclude_value](zones_server_side_exclude_value.md)
+- [zones_sha1_support_value](zones_sha1_support_value.md)
+- [zones_sort_query_string_for_cache_value](zones_sort_query_string_for_cache_value.md)
+- [zones_ssl_value](zones_ssl_value.md)
+- [zones_tls_1_2_only_value](zones_tls_1_2_only_value.md)
+- [zones_tls_1_3_value](zones_tls_1_3_value.md)
+- [zones_tls_client_auth_value](zones_tls_client_auth_value.md)
+- [zones_true_client_ip_header_value](zones_true_client_ip_header_value.md)
+- [zones_waf_value](zones_waf_value.md)
+- [zones_webp_value](zones_webp_value.md)
+- [zones_websockets_value](zones_websockets_value.md)
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

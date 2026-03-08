@@ -1,0 +1,13 @@
+---
+type: "number"
+---
+
+# load-balancing_ttl
+
+
+Time to live (TTL) of the DNS entry for the IP address returned by this load balancer. This only applies to gray-clouded (unproxied) load balancers.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

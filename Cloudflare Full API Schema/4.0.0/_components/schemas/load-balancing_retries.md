@@ -1,0 +1,13 @@
+---
+type: "integer"
+---
+
+# load-balancing_retries
+
+
+The number of retries to attempt in case of a timeout before marking the origin as unhealthy. Retries are attempted immediately.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

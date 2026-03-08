@@ -1,0 +1,13 @@
+---
+type: "boolean"
+---
+
+# firewall_paused
+
+
+When true, indicates that the rule is currently paused.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

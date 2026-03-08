@@ -1,0 +1,13 @@
+---
+type: "array<string>"
+---
+
+# magic-transit_labels
+
+
+Field appears if there is an additional annotation printed when the probe returns. Field also appears when running a GRE+ICMP traceroute to denote which traceroute a node comes from.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

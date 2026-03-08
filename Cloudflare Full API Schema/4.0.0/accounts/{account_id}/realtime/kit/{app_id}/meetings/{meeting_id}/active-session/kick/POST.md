@@ -1,0 +1,42 @@
+---
+method: "POST"
+url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/realtime/kit/{app_id}/meetings/{meeting_id}/active-session/kick"
+auth: "bearer"
+content_type: "application/json"
+---
+
+# Kick participants from an active session
+
+Kicks one or more participants from an active session using user ID or custom participant ID.
+
+## Path Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
+
+
+## Query Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `Reference` | N/A | [realtimekit_meetingId](../../../../../../../../../_components/parameters/realtimekit_meetingId.md) |  |
+
+
+
+## Request Body
+
+[realtimekit_KickParticipantsBody](../../../../../../../../../_components/requestBodies/realtimekit_KickParticipantsBody.md)
+
+
+## Responses
+
+### 200
+
+Reference: [realtimekit_KickParticipants](../../../../../../../../../_components/responses/realtimekit_KickParticipants.md)
+
+### 404
+
+Reference: [realtimekit_ParticipantNotFound](../../../../../../../../../_components/responses/realtimekit_ParticipantNotFound.md)
+

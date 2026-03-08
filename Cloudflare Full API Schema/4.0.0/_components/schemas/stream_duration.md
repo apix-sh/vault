@@ -1,0 +1,13 @@
+---
+type: "number"
+---
+
+# stream_duration
+
+
+The duration of the video in seconds. A value of `-1` means the duration is unknown. The duration becomes available after the upload and before the video is ready.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |

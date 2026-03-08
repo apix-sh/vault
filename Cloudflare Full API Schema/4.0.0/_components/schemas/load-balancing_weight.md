@@ -1,0 +1,15 @@
+---
+type: "number"
+---
+
+# load-balancing_weight
+
+
+The weight of this origin relative to other origins in the pool. Based on the configured weight the total traffic is distributed among origins within the pool.
+- `origin_steering.policy="least_outstanding_requests"`: Use weight to scale the origin's outstanding requests.
+- `origin_steering.policy="least_connections"`: Use weight to scale the origin's open connections.
+
+## Properties
+
+| Property | Required | Type | Description |
+| :------- | :------: | :--- | :---------- |
