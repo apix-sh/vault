@@ -1,0 +1,65 @@
+---
+method: "POST"
+url: "https://api.anthropic.com/v1/messages?beta=prompt_caching"
+content_type: "application/json"
+---
+
+# Create a Message
+
+Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation.
+
+The Messages API can be used for either single queries or stateless multi-turn conversations.
+
+## Path Parameters
+
+_(None)_
+
+
+## Query Parameters
+
+_(None)_
+
+## Header Parameters
+
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `anthropic-beta` | No | any | Optional header to specify the beta version(s) you want to use.
+
+To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.<br/>*Serialization: style=Simple* |
+| `anthropic-version` | No | string | The version of the Anthropic API you want to use.
+
+Read more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning).<br/>*Serialization: style=Simple* |
+| `x-api-key` | No | string | Your unique API key for authentication. 
+
+This key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.<br/>*Serialization: style=Simple* |
+
+
+## Request Body
+
+Supported content types:
+- `application/json`
+
+### Inline Request Schema (`application/json`)
+[PromptCachingBetaCreateMessageParams](../../_components/schemas/PromptCachingBetaCreateMessageParams.md)
+
+
+## Responses
+
+### 200
+
+Message object.
+
+#### Response Schema (`application/json`)
+[PromptCachingBetaMessage](../../_components/schemas/PromptCachingBetaMessage.md)
+
+
+### 4xx
+
+Error response.
+
+See our [errors documentation](https://docs.anthropic.com/en/api/errors) for more details.
+
+#### Response Schema (`application/json`)
+[ErrorResponse](../../_components/schemas/ErrorResponse.md)
+
+
