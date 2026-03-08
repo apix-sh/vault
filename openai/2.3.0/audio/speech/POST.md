@@ -36,7 +36,6 @@ OK
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Transfer-Encoding` | No | string | chunked |
 
 
