@@ -75,7 +75,7 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `analysis_id` | Yes | integer | The ID of the analysis, as returned from the `GET /repos/{owner}/{repo}/code-scanning/analyses` operation.<br/>*Serialization: style=Simple* |
+| `analysis_id` | Yes | integer | The ID of the analysis, as returned from the `GET /repos/{owner}/{repo}/code-scanning/analyses` operation. |
 
 
 ## Query Parameters
@@ -84,7 +84,7 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
-| `confirm_delete` | No | string | Allow deletion if the specified analysis is the last in a set. If you attempt to delete the final analysis in a set without setting this parameter to `true`, you'll get a 400 response with the message: `Analysis is last of its type and deletion may result in the loss of historical alert data. Please specify confirm_delete.`<br/>*Serialization: style=Form* |
+| `confirm_delete` | No | string | Allow deletion if the specified analysis is the last in a set. If you attempt to delete the final analysis in a set without setting this parameter to `true`, you'll get a 400 response with the message: `Analysis is last of its type and deletion may result in the loss of historical alert data. Please specify confirm_delete.` |
 
 
 

@@ -37,21 +37,16 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `repositories` | Yes | array<allOf(1)> |  |
 | `repository_selection` | No | string |  |
+| `total_count` | Yes | integer |  |
 
-
-### 403
-
-Reference: [forbidden](../../_components/responses/forbidden.md)
 
 ### 304
 
@@ -60,4 +55,8 @@ Reference: [not_modified](../../_components/responses/not_modified.md)
 ### 401
 
 Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../_components/responses/forbidden.md)
 

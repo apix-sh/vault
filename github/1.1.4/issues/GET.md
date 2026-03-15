@@ -29,16 +29,16 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `filter` | No | string | Indicates which sorts of issues to return. `assigned` means issues assigned to you. `created` means issues created by you. `mentioned` means issues mentioning you. `subscribed` means issues you're subscribed to updates for. `all` or `repos` means all issues you can see, regardless of participation or creation.<br/>*Serialization: style=Form* |
-| `state` | No | string | Indicates the state of the issues to return.<br/>*Serialization: style=Form* |
+| `filter` | No | string | Indicates which sorts of issues to return. `assigned` means issues assigned to you. `created` means issues created by you. `mentioned` means issues mentioning you. `subscribed` means issues you're subscribed to updates for. `all` or `repos` means all issues you can see, regardless of participation or creation. |
+| `state` | No | string | Indicates the state of the issues to return. |
 | `Reference` | N/A | [labels](../_components/parameters/labels.md) |  |
-| `sort` | No | string | What to sort results by.<br/>*Serialization: style=Form* |
+| `sort` | No | string | What to sort results by. |
 | `Reference` | N/A | [direction](../_components/parameters/direction.md) |  |
 | `Reference` | N/A | [since](../_components/parameters/since.md) |  |
-| `collab` | No | boolean | *Serialization: style=Form* |
-| `orgs` | No | boolean | *Serialization: style=Form* |
-| `owned` | No | boolean | *Serialization: style=Form* |
-| `pulls` | No | boolean | *Serialization: style=Form* |
+| `collab` | No | boolean |  |
+| `orgs` | No | boolean |  |
+| `owned` | No | boolean |  |
+| `pulls` | No | boolean |  |
 | `Reference` | N/A | [per-page](../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../_components/parameters/page.md) |  |
 
@@ -59,17 +59,12 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 array<[issue](../_components/schemas/issue.md)>
 
-
-### 422
-
-Reference: [validation_failed](../_components/responses/validation_failed.md)
 
 ### 304
 
@@ -78,4 +73,8 @@ Reference: [not_modified](../_components/responses/not_modified.md)
 ### 404
 
 Reference: [not_found](../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../_components/responses/validation_failed.md)
 

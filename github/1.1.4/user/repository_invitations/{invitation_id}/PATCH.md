@@ -30,19 +30,19 @@ _(None)_
 
 Response
 
+### 304
+
+Reference: [not_modified](../../../_components/responses/not_modified.md)
+
 ### 403
 
 Reference: [forbidden](../../../_components/responses/forbidden.md)
-
-### 409
-
-Reference: [conflict](../../../_components/responses/conflict.md)
 
 ### 404
 
 Reference: [not_found](../../../_components/responses/not_found.md)
 
-### 304
+### 409
 
-Reference: [not_modified](../../../_components/responses/not_modified.md)
+Reference: [conflict](../../../_components/responses/conflict.md)
 

@@ -11,5 +11,5 @@ File Commit
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `content` | Yes | object |  |
 | `commit` | Yes | object |  |
+| `content` | Yes | object |  |

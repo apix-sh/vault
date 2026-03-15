@@ -23,7 +23,7 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
-| `ref` | No | string | A branch, tag or commit name used to determine which version of the CODEOWNERS file to use. Default: the repository's default branch (e.g. `main`)<br/>*Serialization: style=Form* |
+| `ref` | No | string | A branch, tag or commit name used to determine which version of the CODEOWNERS file to use. Default: the repository's default branch (e.g. `main`) |
 
 
 

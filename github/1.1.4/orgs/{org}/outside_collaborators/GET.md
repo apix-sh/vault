@@ -18,7 +18,7 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
-| `filter` | No | string | Filter the list of outside collaborators. `2fa_disabled` means that only outside collaborators without [two-factor authentication](https://github.com/blog/1614-two-factor-authentication) enabled will be returned. `2fa_insecure` means that only outside collaborators with [insecure 2FA methods](https://docs.github.com/organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization#requiring-secure-methods-of-two-factor-authentication-in-your-organization) will be returned.<br/>*Serialization: style=Form* |
+| `filter` | No | string | Filter the list of outside collaborators. `2fa_disabled` means that only outside collaborators without [two-factor authentication](https://github.com/blog/1614-two-factor-authentication) enabled will be returned. `2fa_insecure` means that only outside collaborators with [insecure 2FA methods](https://docs.github.com/organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization#requiring-secure-methods-of-two-factor-authentication-in-your-organization) will be returned. |
 | `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
 
@@ -39,7 +39,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 

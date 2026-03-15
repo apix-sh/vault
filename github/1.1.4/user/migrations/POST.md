@@ -27,14 +27,14 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `lock_repositories` | No | boolean | Lock the repositories being migrated at the start of the migration |
-| `exclude_metadata` | No | boolean | Indicates whether metadata should be excluded and only git source should be included for the migration. |
-| `exclude_git_data` | No | boolean | Indicates whether the repository git data should be excluded from the migration. |
-| `exclude_attachments` | No | boolean | Do not include attachments in the migration |
-| `exclude_releases` | No | boolean | Do not include releases in the migration |
-| `exclude_owner_projects` | No | boolean | Indicates whether projects owned by the organization or users should be excluded. |
-| `org_metadata_only` | No | boolean | Indicates whether this should only include organization metadata (repositories array should be empty and will ignore other flags). |
 | `exclude` | No | array<string> | Exclude attributes from the API response to improve performance |
+| `exclude_attachments` | No | boolean | Do not include attachments in the migration |
+| `exclude_git_data` | No | boolean | Indicates whether the repository git data should be excluded from the migration. |
+| `exclude_metadata` | No | boolean | Indicates whether metadata should be excluded and only git source should be included for the migration. |
+| `exclude_owner_projects` | No | boolean | Indicates whether projects owned by the organization or users should be excluded. |
+| `exclude_releases` | No | boolean | Do not include releases in the migration |
+| `lock_repositories` | No | boolean | Lock the repositories being migrated at the start of the migration |
+| `org_metadata_only` | No | boolean | Indicates whether this should only include organization metadata (repositories array should be empty and will ignore other flags). |
 | `repositories` | Yes | array<string> |  |
 
 
@@ -48,19 +48,19 @@ Response
 [migration](../../_components/schemas/migration.md)
 
 
-### 422
-
-Reference: [validation_failed](../../_components/responses/validation_failed.md)
-
 ### 304
 
 Reference: [not_modified](../../_components/responses/not_modified.md)
+
+### 401
+
+Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
 
 ### 403
 
 Reference: [forbidden](../../_components/responses/forbidden.md)
 
-### 401
+### 422
 
-Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 

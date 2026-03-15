@@ -23,8 +23,8 @@ _(None)_
 | `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
 | `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
-| `role` | No | string | Filter invitations by their member role.<br/>*Serialization: style=Form* |
-| `invitation_source` | No | string | Filter invitations by their invitation source.<br/>*Serialization: style=Form* |
+| `role` | No | string | Filter invitations by their member role. |
+| `invitation_source` | No | string | Filter invitations by their invitation source. |
 
 
 
@@ -43,7 +43,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 

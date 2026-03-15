@@ -11,7 +11,7 @@ An option for a single select field
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `color` | Yes | string | The color associated with the option. |
+| `description` | Yes | object | The description of the option, in raw text and HTML formats. |
 | `id` | Yes | string | The unique identifier of the option. |
 | `name` | Yes | object | The display name of the option, in raw text and HTML formats. |
-| `description` | Yes | object | The description of the option, in raw text and HTML formats. |
-| `color` | Yes | string | The color associated with the option. |

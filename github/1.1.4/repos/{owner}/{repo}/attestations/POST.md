@@ -34,8 +34,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `bundle` | Yes | object | The attestation's Sigstore Bundle.
-Refer to the [Sigstore Bundle Specification](https://github.com/sigstore/protobuf-specs/blob/main/protos/sigstore_bundle.proto) for more information. |
+| `bundle` | Yes | object | The attestation's Sigstore Bundle.<br/>Refer to the [Sigstore Bundle Specification](https://github.com/sigstore/protobuf-specs/blob/main/protos/sigstore_bundle.proto) for more information. |
 
 
 ## Responses

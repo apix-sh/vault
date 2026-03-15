@@ -33,6 +33,18 @@ _(None)_
 
 Response if this repository is starred by you
 
+### 304
+
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
+
+### 401
+
+Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
+
 ### 404
 
 Not Found if this repository is not starred by you
@@ -40,16 +52,4 @@ Not Found if this repository is not starred by you
 #### Response Schema (`application/json`)
 [basic-error](../../../../_components/schemas/basic-error.md)
 
-
-### 401
-
-Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
-
-### 304
-
-Reference: [not_modified](../../../../_components/responses/not_modified.md)
-
-### 403
-
-Reference: [forbidden](../../../../_components/responses/forbidden.md)
 

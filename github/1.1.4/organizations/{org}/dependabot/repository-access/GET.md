@@ -21,8 +21,8 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
-| `page` | No | integer | The page number of results to fetch.<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Number of results per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page number of results to fetch. |
+| `per_page` | No | integer | Number of results per page. |
 
 
 

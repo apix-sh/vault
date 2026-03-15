@@ -11,9 +11,9 @@ Protected Branch Required Status Check
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | No | string |  |
-| `enforcement_level` | No | string |  |
-| `contexts` | Yes | array<string> |  |
 | `checks` | Yes | array<object> |  |
+| `contexts` | Yes | array<string> |  |
 | `contexts_url` | No | string |  |
+| `enforcement_level` | No | string |  |
 | `strict` | No | boolean |  |
+| `url` | No | string |  |

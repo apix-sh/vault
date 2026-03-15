@@ -42,10 +42,6 @@ Response
 array<string>
 
 
-### 422
-
-Reference: [validation_failed](../../../../../../../../_components/responses/validation_failed.md)
-
 ### 403
 
 Reference: [forbidden](../../../../../../../../_components/responses/forbidden.md)
@@ -53,4 +49,8 @@ Reference: [forbidden](../../../../../../../../_components/responses/forbidden.m
 ### 404
 
 Reference: [not_found](../../../../../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../../../../_components/responses/validation_failed.md)
 

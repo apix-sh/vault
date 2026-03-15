@@ -55,10 +55,6 @@ Success
 | `message` | No | string |  |
 
 
-### 500
-
-Reference: [internal_error](../../../../_components/responses/internal_error.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
@@ -78,4 +74,8 @@ Reference: [too_large](../../../../_components/responses/too_large.md)
 ### 422
 
 Reference: [validation_failed_simple](../../../../_components/responses/validation_failed_simple.md)
+
+### 500
+
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 

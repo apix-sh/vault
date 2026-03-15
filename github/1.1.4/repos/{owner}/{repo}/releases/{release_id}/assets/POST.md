@@ -38,8 +38,8 @@ _(None)_
 | `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 | `Reference` | N/A | [release-id](../../../../../../_components/parameters/release-id.md) |  |
-| `name` | Yes | string | *Serialization: style=Form* |
-| `label` | No | string | *Serialization: style=Form* |
+| `name` | Yes | string |  |
+| `label` | No | string |  |
 
 
 

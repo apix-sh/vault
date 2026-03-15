@@ -11,10 +11,10 @@ Branch Restriction Policy
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
-| `users_url` | Yes | string |  |
-| `teams_url` | Yes | string |  |
-| `apps_url` | Yes | string |  |
-| `users` | Yes | array<object> |  |
-| `teams` | Yes | array<[team](./team.md)> |  |
 | `apps` | Yes | array<object> |  |
+| `apps_url` | Yes | string |  |
+| `teams` | Yes | array<[team](./team.md)> |  |
+| `teams_url` | Yes | string |  |
+| `url` | Yes | string |  |
+| `users` | Yes | array<object> |  |
+| `users_url` | Yes | string |  |

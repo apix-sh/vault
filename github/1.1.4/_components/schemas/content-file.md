@@ -11,17 +11,17 @@ Content File
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: file |
-| `encoding` | Yes | string |  |
-| `size` | Yes | integer |  |
-| `name` | Yes | string |  |
-| `path` | Yes | string |  |
+| `_links` | Yes | object |  |
 | `content` | Yes | string |  |
-| `sha` | Yes | string |  |
-| `url` | Yes | string |  |
+| `download_url` | Yes | string |  |
+| `encoding` | Yes | string |  |
 | `git_url` | Yes | string |  |
 | `html_url` | Yes | string |  |
-| `download_url` | Yes | string |  |
-| `_links` | Yes | object |  |
-| `target` | No | string |  |
+| `name` | Yes | string |  |
+| `path` | Yes | string |  |
+| `sha` | Yes | string |  |
+| `size` | Yes | integer |  |
 | `submodule_git_url` | No | string |  |
+| `target` | No | string |  |
+| `type` | Yes | string | Allowed values: file |
+| `url` | Yes | string |  |

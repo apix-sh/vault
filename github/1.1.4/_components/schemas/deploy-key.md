@@ -11,13 +11,13 @@ An SSH key granting access to a single repository.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `added_by` | No | string |  |
+| `created_at` | Yes | string |  |
+| `enabled` | No | boolean |  |
 | `id` | Yes | integer |  |
 | `key` | Yes | string |  |
-| `url` | Yes | string |  |
-| `title` | Yes | string |  |
-| `verified` | Yes | boolean |  |
-| `created_at` | Yes | string |  |
-| `read_only` | Yes | boolean |  |
-| `added_by` | No | string |  |
 | `last_used` | No | string |  |
-| `enabled` | No | boolean |  |
+| `read_only` | Yes | boolean |  |
+| `title` | Yes | string |  |
+| `url` | Yes | string |  |
+| `verified` | Yes | boolean |  |

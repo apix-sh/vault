@@ -28,11 +28,11 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [org](../../../_components/parameters/org.md) |  |
-| `filter` | No | string | Indicates which sorts of issues to return. `assigned` means issues assigned to you. `created` means issues created by you. `mentioned` means issues mentioning you. `subscribed` means issues you're subscribed to updates for. `all` or `repos` means all issues you can see, regardless of participation or creation.<br/>*Serialization: style=Form* |
-| `state` | No | string | Indicates the state of the issues to return.<br/>*Serialization: style=Form* |
+| `filter` | No | string | Indicates which sorts of issues to return. `assigned` means issues assigned to you. `created` means issues created by you. `mentioned` means issues mentioning you. `subscribed` means issues you're subscribed to updates for. `all` or `repos` means all issues you can see, regardless of participation or creation. |
+| `state` | No | string | Indicates the state of the issues to return. |
 | `Reference` | N/A | [labels](../../../_components/parameters/labels.md) |  |
-| `type` | No | string | Can be the name of an issue type.<br/>*Serialization: style=Form* |
-| `sort` | No | string | What to sort results by.<br/>*Serialization: style=Form* |
+| `type` | No | string | Can be the name of an issue type. |
+| `sort` | No | string | What to sort results by. |
 | `Reference` | N/A | [direction](../../../_components/parameters/direction.md) |  |
 | `Reference` | N/A | [since](../../../_components/parameters/since.md) |  |
 | `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
@@ -55,7 +55,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 

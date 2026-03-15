@@ -59,11 +59,11 @@ Response
 
 Forbidden if team synchronization is set up
 
-### 422
-
-Unprocessable Entity if you attempt to add an organization to a team
-
 ### 404
 
 Reference: [not_found](../../../../_components/responses/not_found.md)
+
+### 422
+
+Unprocessable Entity if you attempt to add an organization to a team
 

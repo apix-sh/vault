@@ -43,7 +43,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 

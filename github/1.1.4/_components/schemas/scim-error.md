@@ -11,9 +11,9 @@ Scim Error
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `message` | No | string |  |
-| `documentation_url` | No | string |  |
 | `detail` | No | string |  |
-| `status` | No | integer |  |
-| `scimType` | No | string |  |
+| `documentation_url` | No | string |  |
+| `message` | No | string |  |
 | `schemas` | No | array<string> |  |
+| `scimType` | No | string |  |
+| `status` | No | integer |  |

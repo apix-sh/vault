@@ -11,19 +11,19 @@ Topic Search Result Item
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | Yes | string |  |
-| `display_name` | Yes | string |  |
-| `short_description` | Yes | string |  |
-| `description` | Yes | string |  |
-| `created_by` | Yes | string |  |
-| `released` | Yes | string |  |
-| `created_at` | Yes | string |  |
-| `updated_at` | Yes | string |  |
-| `featured` | Yes | boolean |  |
-| `curated` | Yes | boolean |  |
-| `score` | Yes | number |  |
-| `repository_count` | No | integer |  |
-| `logo_url` | No | string |  |
-| `text_matches` | No | [search-result-text-matches](search-result-text-matches.md) |  |
-| `related` | No | array<object> |  |
 | `aliases` | No | array<object> |  |
+| `created_at` | Yes | string |  |
+| `created_by` | Yes | string |  |
+| `curated` | Yes | boolean |  |
+| `description` | Yes | string |  |
+| `display_name` | Yes | string |  |
+| `featured` | Yes | boolean |  |
+| `logo_url` | No | string |  |
+| `name` | Yes | string |  |
+| `related` | No | array<object> |  |
+| `released` | Yes | string |  |
+| `repository_count` | No | integer |  |
+| `score` | Yes | number |  |
+| `short_description` | Yes | string |  |
+| `text_matches` | No | [search-result-text-matches](search-result-text-matches.md) |  |
+| `updated_at` | Yes | string |  |

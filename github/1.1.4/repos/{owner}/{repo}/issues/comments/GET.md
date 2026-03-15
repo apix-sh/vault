@@ -29,7 +29,7 @@ _(None)_
 | `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
 | `Reference` | N/A | [sort](../../../../../_components/parameters/sort.md) |  |
-| `direction` | No | string | Either `asc` or `desc`. Ignored without the `sort` parameter.<br/>*Serialization: style=Form* |
+| `direction` | No | string | Either `asc` or `desc`. Ignored without the `sort` parameter. |
 | `Reference` | N/A | [since](../../../../../_components/parameters/since.md) |  |
 | `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
@@ -51,7 +51,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
 
 
@@ -59,11 +58,11 @@ Response
 array<[issue-comment](../../../../../_components/schemas/issue-comment.md)>
 
 
-### 422
-
-Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 

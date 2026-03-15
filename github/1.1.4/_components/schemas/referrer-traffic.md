@@ -11,6 +11,6 @@ Referrer Traffic
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `referrer` | Yes | string |  |
 | `count` | Yes | integer |  |
+| `referrer` | Yes | string |  |
 | `uniques` | Yes | integer |  |

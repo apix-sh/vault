@@ -40,7 +40,7 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | number |  |
 | `runner_groups` | Yes | array<[runner-groups-org](../../../../_components/schemas/runner-groups-org.md)> |  |
+| `total_count` | Yes | number |  |
 
 

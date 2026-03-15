@@ -33,11 +33,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `lock_reason` | No | string | The reason for locking the issue or pull request conversation. Lock will fail if you don't use one of these reasons:  
- * `off-topic`  
- * `too heated`  
- * `resolved`  
- * `spam` |
+| `lock_reason` | No | string | The reason for locking the issue or pull request conversation. Lock will fail if you don't use one of these reasons:  <br/> * `off-topic`  <br/> * `too heated`  <br/> * `resolved`  <br/> * `spam` |
 
 
 ## Responses
@@ -50,13 +46,13 @@ Response
 
 Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
-### 410
-
-Reference: [gone](../../../../../../_components/responses/gone.md)
-
 ### 404
 
 Reference: [not_found](../../../../../../_components/responses/not_found.md)
+
+### 410
+
+Reference: [gone](../../../../../../_components/responses/gone.md)
 
 ### 422
 

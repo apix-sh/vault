@@ -20,9 +20,7 @@ _(None)_
 | `Reference` | N/A | [project-number](../../../../../../_components/parameters/project-number.md) |  |
 | `Reference` | N/A | [org](../../../../../../_components/parameters/org.md) |  |
 | `Reference` | N/A | [item-id](../../../../../../_components/parameters/item-id.md) |  |
-| `fields` | No | oneOf(2) | Limit results to specific fields, by their IDs. If not specified, the title field will be returned.
-
-Example: fields[]=123&fields[]=456&fields[]=789 or fields=123,456,789<br/>*Serialization: style=Form* |
+| `fields` | No | oneOf(2) | Limit results to specific fields, by their IDs. If not specified, the title field will be returned.<br/><br/>Example: fields[]=123&fields[]=456&fields[]=789 or fields=123,456,789 |
 
 
 
@@ -41,7 +39,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../../_components/headers/link.md) |  |
 
 
@@ -53,11 +50,11 @@ Response
 
 Reference: [not_modified](../../../../../../_components/responses/not_modified.md)
 
-### 403
-
-Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 

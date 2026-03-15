@@ -26,16 +26,10 @@ _(None)_
 | `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [pagination-before](../../../../_components/parameters/pagination-before.md) |  |
 | `Reference` | N/A | [pagination-after](../../../../_components/parameters/pagination-after.md) |  |
-| `ref` | No | string | The Git reference for the activities you want to list.
-
-The `ref` for a branch can be formatted either as `refs/heads/BRANCH_NAME` or `BRANCH_NAME`, where `BRANCH_NAME` is the name of your branch.<br/>*Serialization: style=Form* |
-| `actor` | No | string | The GitHub username to use to filter by the actor who performed the activity.<br/>*Serialization: style=Form* |
-| `time_period` | No | string | The time period to filter by.
-
-For example, `day` will filter for activity that occurred in the past 24 hours, and `week` will filter for activity that occurred in the past 7 days (168 hours).<br/>*Serialization: style=Form* |
-| `activity_type` | No | string | The activity type to filter by.
-
-For example, you can choose to filter by "force_push", to see all force pushes to the repository.<br/>*Serialization: style=Form* |
+| `ref` | No | string | The Git reference for the activities you want to list.<br/><br/>The `ref` for a branch can be formatted either as `refs/heads/BRANCH_NAME` or `BRANCH_NAME`, where `BRANCH_NAME` is the name of your branch. |
+| `actor` | No | string | The GitHub username to use to filter by the actor who performed the activity. |
+| `time_period` | No | string | The time period to filter by.<br/><br/>For example, `day` will filter for activity that occurred in the past 24 hours, and `week` will filter for activity that occurred in the past 7 days (168 hours). |
+| `activity_type` | No | string | The activity type to filter by.<br/><br/>For example, you can choose to filter by "force_push", to see all force pushes to the repository. |
 
 
 
@@ -54,7 +48,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 

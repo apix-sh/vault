@@ -22,9 +22,9 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [org](../../../../../_components/parameters/org.md) |  |
-| `page` | No | integer | The page number of the results to fetch.<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | The number of results per page (max 10).<br/>*Serialization: style=Form* |
-| `scope` | No | string | Filter budgets by scope type.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page number of the results to fetch. |
+| `per_page` | No | integer | The number of results per page (max 10). |
+| `scope` | No | string | Filter budgets by scope type. |
 
 
 
@@ -39,13 +39,13 @@ _(None)_
 
 Reference: [get_all_budgets](../../../../../_components/responses/get_all_budgets.md)
 
-### 404
-
-Reference: [not_found](../../../../../_components/responses/not_found.md)
-
 ### 403
 
 Reference: [forbidden](../../../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 
 ### 500
 

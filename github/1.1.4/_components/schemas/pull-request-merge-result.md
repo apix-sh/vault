@@ -11,6 +11,6 @@ Pull Request Merge Result
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `sha` | Yes | string |  |
 | `merged` | Yes | boolean |  |
 | `message` | Yes | string |  |
+| `sha` | Yes | string |  |

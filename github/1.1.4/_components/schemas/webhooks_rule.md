@@ -23,8 +23,8 @@ The branch protection rule. Includes a `name` and all the [branch protection set
 | `id` | Yes | integer |  |
 | `ignore_approvals_from_contributors` | Yes | boolean |  |
 | `linear_history_requirement_enforcement_level` | Yes | string | Allowed values: off, non_admins, everyone |
-| `lock_branch_enforcement_level` | Yes | string | The enforcement level of the branch lock setting. `off` means the branch is not locked, `non_admins` means the branch is read-only for non_admins, and `everyone` means the branch is read-only for everyone. Allowed values: off, non_admins, everyone |
 | `lock_allows_fork_sync` | No | boolean | Whether users can pull changes from upstream when the branch is locked. Set to `true` to allow users to pull changes from upstream when the branch is locked. This setting is only applicable for forks. |
+| `lock_branch_enforcement_level` | Yes | string | The enforcement level of the branch lock setting. `off` means the branch is not locked, `non_admins` means the branch is read-only for non_admins, and `everyone` means the branch is read-only for everyone. Allowed values: off, non_admins, everyone |
 | `merge_queue_enforcement_level` | Yes | string | Allowed values: off, non_admins, everyone |
 | `name` | Yes | string |  |
 | `pull_request_reviews_enforcement_level` | Yes | string | Allowed values: off, non_admins, everyone |

@@ -29,12 +29,12 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | The name of the ruleset. |
-| `target` | No | string | The target of the ruleset |
-| `enforcement` | Yes | [repository-rule-enforcement](../../../_components/schemas/repository-rule-enforcement.md) |  |
 | `bypass_actors` | No | array<[repository-ruleset-bypass-actor](../../../_components/schemas/repository-ruleset-bypass-actor.md)> | The actors that can bypass the rules in this ruleset |
 | `conditions` | No | [org-ruleset-conditions](../../../_components/schemas/org-ruleset-conditions.md) |  |
+| `enforcement` | Yes | [repository-rule-enforcement](../../../_components/schemas/repository-rule-enforcement.md) |  |
+| `name` | Yes | string | The name of the ruleset. |
 | `rules` | No | array<[org-rules](../../../_components/schemas/org-rules.md)> | An array of rules within the ruleset. |
+| `target` | No | string | The target of the ruleset |
 
 
 ## Responses

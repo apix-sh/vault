@@ -32,7 +32,10 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `build_type` | No | string | The process in which the Page will be built. Possible values are `"legacy"` and `"workflow"`. |
+| `source` | No | object | The source branch and directory used to publish your Pages site. |
 
 
 ## Responses
@@ -45,11 +48,11 @@ Response
 [page](../../../../_components/schemas/page.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
-
 ### 409
 
 Reference: [conflict](../../../../_components/responses/conflict.md)
+
+### 422
+
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

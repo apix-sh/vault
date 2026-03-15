@@ -38,7 +38,7 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `image_versions` | Yes | array<[actions-hosted-runner-custom-image-version](../../../../../../../../_components/schemas/actions-hosted-runner-custom-image-version.md)> |  |
+| `total_count` | Yes | integer |  |
 
 

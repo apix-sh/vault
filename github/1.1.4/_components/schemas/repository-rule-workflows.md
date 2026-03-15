@@ -11,5 +11,5 @@ Require all changes made to a targeted branch to pass the specified workflows be
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: workflows |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: workflows |

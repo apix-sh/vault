@@ -11,5 +11,5 @@ Prevent commits that include files with specified file extensions from being pus
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: file_extension_restriction |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: file_extension_restriction |

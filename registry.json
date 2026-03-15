@@ -1,12 +1,48 @@
 {
   "apis": {
-    "cloudflare": {
-      "name": "cloudflare",
-      "description": "Welcome to Cloudflare's API documentation site. We are experimenting with an updated version of our API documentation - check out [developers.cloudflare.com/api-next/](https://developers.cloudflare.com/api-next/) to test out the new experience.",
+    "resend": {
+      "name": "resend",
+      "description": "Resend is the email platform for developers.",
       "versions": [
-        "4.0.0"
+        "1.5.0"
       ],
-      "tags": []
+      "tags": [
+        "API Keys",
+        "Audiences",
+        "Broadcasts",
+        "Contact Properties",
+        "Contacts",
+        "Domains",
+        "Emails",
+        "Receiving Emails",
+        "Segments",
+        "Templates",
+        "Topics",
+        "Webhooks"
+      ]
+    },
+    "openai": {
+      "name": "openai",
+      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
+      "versions": [
+        "2.3.0"
+      ],
+      "tags": [
+        "Assistants",
+        "Audio",
+        "Audit Logs",
+        "Batch",
+        "Chat",
+        "Completions",
+        "Embeddings",
+        "Evals",
+        "Files",
+        "Fine-tuning",
+        "Images",
+        "Models",
+        "Moderations",
+        "Uploads"
+      ]
     },
     "planetscale": {
       "name": "planetscale",
@@ -46,6 +82,129 @@
         "Users",
         "Webhooks",
         "Workflows"
+      ]
+    },
+    "huggingface": {
+      "name": "huggingface",
+      "description": "Deploy and manage Hugging Face models as production-ready inference endpoints on various cloud providers.",
+      "versions": [
+        "2.0.0"
+      ],
+      "tags": [
+        "Audit Logs",
+        "CIDR Lists",
+        "Custom Domains",
+        "Endpoints",
+        "Metrics",
+        "Private Services",
+        "Providers"
+      ]
+    },
+    "vercel": {
+      "name": "vercel",
+      "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+      "versions": [
+        "0.0.1"
+      ],
+      "tags": []
+    },
+    "stripe": {
+      "name": "stripe",
+      "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
+      "versions": [
+        "2026-02-25.clover"
+      ],
+      "tags": []
+    },
+    "anthropic": {
+      "name": "anthropic",
+      "description": "Anthropic API",
+      "versions": [
+        "0.0.0"
+      ],
+      "tags": []
+    },
+    "gitlab": {
+      "name": "gitlab",
+      "description": "An OpenAPI definition for the GitLab REST API.",
+      "versions": [
+        "v4"
+      ],
+      "tags": [
+        "access_requests",
+        "admin",
+        "alert_management",
+        "application",
+        "applications",
+        "avatar",
+        "badges",
+        "batched_background_migrations",
+        "branches",
+        "broadcast_messages",
+        "bulk_imports",
+        "ci_lint",
+        "ci_resource_groups",
+        "ci_variables",
+        "cluster_agents",
+        "clusters",
+        "composer_packages",
+        "conan_packages",
+        "container_registry",
+        "container_registry_event",
+        "debian_distribution",
+        "debian_packages",
+        "dependency_proxy",
+        "deploy_keys",
+        "deploy_tokens",
+        "deployments",
+        "dora_metrics",
+        "environments",
+        "error_tracking_client_keys",
+        "error_tracking_project_settings",
+        "feature_flags",
+        "feature_flags_user_lists",
+        "features",
+        "freeze_periods",
+        "generic_packages",
+        "geo",
+        "geo_nodes",
+        "go_proxy",
+        "group_export",
+        "group_import",
+        "group_packages",
+        "helm_packages",
+        "integrations",
+        "issue_links",
+        "jira_connect_subscriptions",
+        "jobs",
+        "maven_packages",
+        "merge_requests",
+        "metadata",
+        "migrations",
+        "ml_model_registry",
+        "npm_packages",
+        "nuget_packages",
+        "package_files",
+        "plan_limits",
+        "project_export",
+        "project_hooks",
+        "project_import",
+        "project_import_bitbucket",
+        "project_import_github",
+        "project_packages",
+        "projects",
+        "protected environments",
+        "pypi_packages",
+        "release_links",
+        "releases",
+        "resource_milestone_events",
+        "rpm_packages",
+        "rubygem_packages",
+        "suggestions",
+        "system_hooks",
+        "terraform_registry",
+        "terraform_state",
+        "unleash_api"
       ]
     },
     "github": {
@@ -100,45 +259,6 @@
         "security-advisories",
         "teams",
         "users"
-      ]
-    },
-    "huggingface": {
-      "name": "huggingface",
-      "description": "Deploy and manage Hugging Face models as production-ready inference endpoints on various cloud providers.",
-      "versions": [
-        "2.0.0"
-      ],
-      "tags": [
-        "Audit Logs",
-        "CIDR Lists",
-        "Custom Domains",
-        "Endpoints",
-        "Metrics",
-        "Private Services",
-        "Providers"
-      ]
-    },
-    "openai": {
-      "name": "openai",
-      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
-      "versions": [
-        "2.3.0"
-      ],
-      "tags": [
-        "Assistants",
-        "Audio",
-        "Audit Logs",
-        "Batch",
-        "Chat",
-        "Completions",
-        "Embeddings",
-        "Evals",
-        "Files",
-        "Fine-tuning",
-        "Images",
-        "Models",
-        "Moderations",
-        "Uploads"
       ]
     },
     "linode": {
@@ -246,14 +366,6 @@
         "Volumes"
       ]
     },
-    "stripe": {
-      "name": "stripe",
-      "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
-      "versions": [
-        "2026-02-25.clover"
-      ],
-      "tags": []
-    },
     "petstore": {
       "name": "petstore",
       "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
@@ -266,125 +378,13 @@
         "user"
       ]
     },
-    "vercel": {
-      "name": "vercel",
-      "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+    "cloudflare": {
+      "name": "cloudflare",
+      "description": "Welcome to Cloudflare's API documentation site. We are experimenting with an updated version of our API documentation - check out [developers.cloudflare.com/api-next/](https://developers.cloudflare.com/api-next/) to test out the new experience.",
       "versions": [
-        "0.0.1"
+        "4.0.0"
       ],
       "tags": []
-    },
-    "gitlab": {
-      "name": "gitlab",
-      "description": "An OpenAPI definition for the GitLab REST API.",
-      "versions": [
-        "v4"
-      ],
-      "tags": [
-        "access_requests",
-        "admin",
-        "alert_management",
-        "application",
-        "applications",
-        "avatar",
-        "badges",
-        "batched_background_migrations",
-        "branches",
-        "broadcast_messages",
-        "bulk_imports",
-        "ci_lint",
-        "ci_resource_groups",
-        "ci_variables",
-        "cluster_agents",
-        "clusters",
-        "composer_packages",
-        "conan_packages",
-        "container_registry",
-        "container_registry_event",
-        "debian_distribution",
-        "debian_packages",
-        "dependency_proxy",
-        "deploy_keys",
-        "deploy_tokens",
-        "deployments",
-        "dora_metrics",
-        "environments",
-        "error_tracking_client_keys",
-        "error_tracking_project_settings",
-        "feature_flags",
-        "feature_flags_user_lists",
-        "features",
-        "freeze_periods",
-        "generic_packages",
-        "geo",
-        "geo_nodes",
-        "go_proxy",
-        "group_export",
-        "group_import",
-        "group_packages",
-        "helm_packages",
-        "integrations",
-        "issue_links",
-        "jira_connect_subscriptions",
-        "jobs",
-        "maven_packages",
-        "merge_requests",
-        "metadata",
-        "migrations",
-        "ml_model_registry",
-        "npm_packages",
-        "nuget_packages",
-        "package_files",
-        "plan_limits",
-        "project_export",
-        "project_hooks",
-        "project_import",
-        "project_import_bitbucket",
-        "project_import_github",
-        "project_packages",
-        "projects",
-        "protected environments",
-        "pypi_packages",
-        "release_links",
-        "releases",
-        "resource_milestone_events",
-        "rpm_packages",
-        "rubygem_packages",
-        "suggestions",
-        "system_hooks",
-        "terraform_registry",
-        "terraform_state",
-        "unleash_api"
-      ]
-    },
-    "anthropic": {
-      "name": "anthropic",
-      "description": "Anthropic API",
-      "versions": [
-        "0.0.0"
-      ],
-      "tags": []
-    },
-    "resend": {
-      "name": "resend",
-      "description": "Resend is the email platform for developers.",
-      "versions": [
-        "1.5.0"
-      ],
-      "tags": [
-        "API Keys",
-        "Audiences",
-        "Broadcasts",
-        "Contact Properties",
-        "Contacts",
-        "Domains",
-        "Emails",
-        "Receiving Emails",
-        "Segments",
-        "Templates",
-        "Topics",
-        "Webhooks"
-      ]
     }
   }
 }

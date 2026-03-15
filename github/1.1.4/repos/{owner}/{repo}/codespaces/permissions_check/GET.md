@@ -21,8 +21,8 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
-| `ref` | Yes | string | The git reference that points to the location of the devcontainer configuration to use for the permission check. The value of `ref` will typically be a branch name (`heads/BRANCH_NAME`). For more information, see "[Git References](https://git-scm.com/book/en/v2/Git-Internals-Git-References)" in the Git documentation.<br/>*Serialization: style=Form* |
-| `devcontainer_path` | Yes | string | Path to the devcontainer.json configuration to use for the permission check.<br/>*Serialization: style=Form* |
+| `ref` | Yes | string | The git reference that points to the location of the devcontainer configuration to use for the permission check. The value of `ref` will typically be a branch name (`heads/BRANCH_NAME`). For more information, see "[Git References](https://git-scm.com/book/en/v2/Git-Internals-Git-References)" in the Git documentation. |
+| `devcontainer_path` | Yes | string | Path to the devcontainer.json configuration to use for the permission check. |
 
 
 

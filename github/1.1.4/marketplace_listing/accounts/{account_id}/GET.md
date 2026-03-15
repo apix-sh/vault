@@ -38,6 +38,10 @@ Response
 [marketplace-purchase](../../../_components/schemas/marketplace-purchase.md)
 
 
+### 401
+
+Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
+
 ### 404
 
 Not Found when the account has not purchased the listing
@@ -45,8 +49,4 @@ Not Found when the account has not purchased the listing
 #### Response Schema (`application/json`)
 [basic-error](../../../_components/schemas/basic-error.md)
 
-
-### 401
-
-Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
 

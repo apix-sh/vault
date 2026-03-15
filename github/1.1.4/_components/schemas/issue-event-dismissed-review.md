@@ -8,7 +8,7 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `state` | Yes | string |  |
-| `review_id` | Yes | integer |  |
-| `dismissal_message` | Yes | string |  |
 | `dismissal_commit_id` | No | string |  |
+| `dismissal_message` | Yes | string |  |
+| `review_id` | Yes | integer |  |
+| `state` | Yes | string |  |

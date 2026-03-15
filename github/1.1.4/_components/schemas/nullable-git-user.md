@@ -11,6 +11,6 @@ Metaproperties for Git author/committer information.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | No | string |  |
-| `email` | No | string |  |
 | `date` | No | string |  |
+| `email` | No | string |  |
+| `name` | No | string |  |

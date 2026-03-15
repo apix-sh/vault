@@ -37,7 +37,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 

@@ -16,7 +16,7 @@ The collection of attestations returned by this endpoint is filtered according t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `subject_digest` | Yes | string | Subject Digest<br/>*Serialization: style=Simple* |
+| `subject_digest` | Yes | string | Subject Digest |
 
 
 ## Query Parameters
@@ -27,9 +27,7 @@ The collection of attestations returned by this endpoint is filtered according t
 | `Reference` | N/A | [pagination-before](../../../../_components/parameters/pagination-before.md) |  |
 | `Reference` | N/A | [pagination-after](../../../../_components/parameters/pagination-after.md) |  |
 | `Reference` | N/A | [username](../../../../_components/parameters/username.md) |  |
-| `predicate_type` | No | string | Optional filter for fetching attestations with a given predicate type.
-This option accepts `provenance`, `sbom`, `release`, or freeform text
-for custom predicate types.<br/>*Serialization: style=Form* |
+| `predicate_type` | No | string | Optional filter for fetching attestations with a given predicate type.<br/>This option accepts `provenance`, `sbom`, `release`, or freeform text<br/>for custom predicate types. |
 
 
 

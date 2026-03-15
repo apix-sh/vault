@@ -11,5 +11,5 @@ Request Copilot code review for new pull requests automatically if the author ha
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: copilot_code_review |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: copilot_code_review |

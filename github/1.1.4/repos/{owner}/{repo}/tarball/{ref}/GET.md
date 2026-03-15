@@ -17,7 +17,7 @@ the `Location` header to make a second `GET` request.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ref` | Yes | string | *Serialization: style=Simple* |
+| `ref` | Yes | string |  |
 
 
 ## Query Parameters
@@ -44,7 +44,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 

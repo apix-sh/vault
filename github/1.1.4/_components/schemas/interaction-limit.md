@@ -11,5 +11,5 @@ Limit interactions to a specific type of user for a specified duration
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `limit` | Yes | [interaction-group](interaction-group.md) |  |
 | `expiry` | No | [interaction-expiry](interaction-expiry.md) |  |
+| `limit` | Yes | [interaction-group](interaction-group.md) |  |

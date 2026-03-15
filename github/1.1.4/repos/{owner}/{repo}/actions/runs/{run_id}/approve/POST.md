@@ -40,11 +40,11 @@ Response
 [empty-object](../../../../../../../_components/schemas/empty-object.md)
 
 
-### 404
-
-Reference: [not_found](../../../../../../../_components/responses/not_found.md)
-
 ### 403
 
 Reference: [forbidden](../../../../../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../../../../../_components/responses/not_found.md)
 

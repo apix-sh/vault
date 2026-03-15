@@ -11,8 +11,8 @@ Request to install an integration on a target
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `account` | Yes | anyOf(2) |  |
+| `created_at` | Yes | string |  |
 | `id` | Yes | integer | Unique identifier of the request installation. |
 | `node_id` | No | string |  |
-| `account` | Yes | anyOf(2) |  |
 | `requester` | Yes | [simple-user](simple-user.md) |  |
-| `created_at` | Yes | string |  |

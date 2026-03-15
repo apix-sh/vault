@@ -37,11 +37,11 @@ if you subscribe to the repository
 [repository-subscription](../../../../_components/schemas/repository-subscription.md)
 
 
-### 404
-
-Not Found if you don't subscribe to the repository
-
 ### 403
 
 Reference: [forbidden](../../../../_components/responses/forbidden.md)
+
+### 404
+
+Not Found if you don't subscribe to the repository
 

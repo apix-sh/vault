@@ -11,7 +11,7 @@ Timeline Commit Commented Event
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `comments` | No | array<[commit-comment](./commit-comment.md)> |  |
+| `commit_id` | No | string |  |
 | `event` | No | string |  |
 | `node_id` | No | string |  |
-| `commit_id` | No | string |  |
-| `comments` | No | array<[commit-comment](./commit-comment.md)> |  |

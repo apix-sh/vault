@@ -31,7 +31,12 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `assignees` | No | array<string> | Usernames to assign to this Dependabot Alert.<br/>Pass one or more user logins to _replace_ the set of assignees on this alert.<br/>Send an empty array (`[]`) to clear all assignees from the alert. |
+| `dismissed_comment` | No | string | An optional comment associated with dismissing the alert. |
+| `dismissed_reason` | No | string | **Required when `state` is `dismissed`.** A reason for dismissing the alert. |
+| `state` | No | string | The state of the Dependabot alert.<br/>A `dismissed_reason` must be provided when setting the state to `dismissed`. |
 
 
 ## Responses

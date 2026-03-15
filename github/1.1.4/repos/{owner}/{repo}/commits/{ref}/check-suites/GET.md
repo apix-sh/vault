@@ -25,7 +25,7 @@ _(None)_
 | `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
 | `Reference` | N/A | [commit-ref](../../../../../../_components/parameters/commit-ref.md) |  |
-| `app_id` | No | integer | Filters check suites by GitHub App `id`.<br/>*Serialization: style=Form* |
+| `app_id` | No | integer | Filters check suites by GitHub App `id`. |
 | `Reference` | N/A | [check-name](../../../../../../_components/parameters/check-name.md) |  |
 | `Reference` | N/A | [per-page](../../../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../../../../_components/parameters/page.md) |  |
@@ -47,14 +47,13 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `check_suites` | Yes | array<[check-suite](../../../../../../_components/schemas/check-suite.md)> |  |
+| `total_count` | Yes | integer |  |
 
 

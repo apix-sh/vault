@@ -12,5 +12,5 @@ A workflow referenced/reused by the initial caller workflow
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `path` | Yes | string |  |
-| `sha` | Yes | string |  |
 | `ref` | No | string |  |
+| `sha` | Yes | string |  |

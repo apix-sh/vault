@@ -29,10 +29,10 @@ _(None)_
 | `Reference` | N/A | [commit-ref](../../../../../../_components/parameters/commit-ref.md) |  |
 | `Reference` | N/A | [check-name](../../../../../../_components/parameters/check-name.md) |  |
 | `Reference` | N/A | [status](../../../../../../_components/parameters/status.md) |  |
-| `filter` | No | string | Filters check runs by their `completed_at` timestamp. `latest` returns the most recent check runs.<br/>*Serialization: style=Form* |
+| `filter` | No | string | Filters check runs by their `completed_at` timestamp. `latest` returns the most recent check runs. |
 | `Reference` | N/A | [per-page](../../../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../../../../_components/parameters/page.md) |  |
-| `app_id` | No | integer | *Serialization: style=Form* |
+| `app_id` | No | integer |  |
 
 
 
@@ -51,14 +51,13 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `check_runs` | Yes | array<[check-run](../../../../../../_components/schemas/check-run.md)> |  |
+| `total_count` | Yes | integer |  |
 
 

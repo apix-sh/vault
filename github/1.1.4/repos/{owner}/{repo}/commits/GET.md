@@ -47,12 +47,12 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
-| `sha` | No | string | SHA or branch to start listing commits from. Default: the repository’s default branch (usually `main`).<br/>*Serialization: style=Form* |
-| `path` | No | string | Only commits containing this file path will be returned.<br/>*Serialization: style=Form* |
-| `author` | No | string | GitHub username or email address to use to filter by commit author.<br/>*Serialization: style=Form* |
-| `committer` | No | string | GitHub username or email address to use to filter by commit committer.<br/>*Serialization: style=Form* |
-| `since` | No | string | Only show results that were last updated after the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned.<br/>*Serialization: style=Form* |
-| `until` | No | string | Only commits before this date will be returned. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned.<br/>*Serialization: style=Form* |
+| `sha` | No | string | SHA or branch to start listing commits from. Default: the repository’s default branch (usually `main`). |
+| `path` | No | string | Only commits containing this file path will be returned. |
+| `author` | No | string | GitHub username or email address to use to filter by commit author. |
+| `committer` | No | string | GitHub username or email address to use to filter by commit committer. |
+| `since` | No | string | Only show results that were last updated after the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned. |
+| `until` | No | string | Only commits before this date will be returned. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned. |
 | `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
@@ -73,17 +73,12 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 array<[commit](../../../../_components/schemas/commit.md)>
 
-
-### 500
-
-Reference: [internal_error](../../../../_components/responses/internal_error.md)
 
 ### 400
 
@@ -96,4 +91,8 @@ Reference: [not_found](../../../../_components/responses/not_found.md)
 ### 409
 
 Reference: [conflict](../../../../_components/responses/conflict.md)
+
+### 500
+
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 

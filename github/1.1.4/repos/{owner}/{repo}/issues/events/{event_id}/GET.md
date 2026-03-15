@@ -12,7 +12,7 @@ Gets a single event by the event id.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `event_id` | Yes | integer | *Serialization: style=Simple* |
+| `event_id` | Yes | integer |  |
 
 
 ## Query Parameters
@@ -39,6 +39,10 @@ Response
 [issue-event](../../../../../../_components/schemas/issue-event.md)
 
 
+### 403
+
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
+
 ### 404
 
 Reference: [not_found](../../../../../../_components/responses/not_found.md)
@@ -46,8 +50,4 @@ Reference: [not_found](../../../../../../_components/responses/not_found.md)
 ### 410
 
 Reference: [gone](../../../../../../_components/responses/gone.md)
-
-### 403
-
-Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 

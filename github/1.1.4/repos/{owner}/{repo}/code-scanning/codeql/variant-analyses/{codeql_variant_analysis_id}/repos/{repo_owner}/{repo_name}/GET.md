@@ -14,10 +14,10 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `repo` | Yes | string | The name of the controller repository.<br/>*Serialization: style=Simple* |
-| `codeql_variant_analysis_id` | Yes | integer | The ID of the variant analysis.<br/>*Serialization: style=Simple* |
-| `repo_owner` | Yes | string | The account owner of the variant analysis repository. The name is not case sensitive.<br/>*Serialization: style=Simple* |
-| `repo_name` | Yes | string | The name of the variant analysis repository.<br/>*Serialization: style=Simple* |
+| `repo` | Yes | string | The name of the controller repository. |
+| `codeql_variant_analysis_id` | Yes | integer | The ID of the variant analysis. |
+| `repo_owner` | Yes | string | The account owner of the variant analysis repository. The name is not case sensitive. |
+| `repo_name` | Yes | string | The name of the variant analysis repository. |
 
 
 ## Query Parameters

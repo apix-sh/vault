@@ -11,10 +11,10 @@ Thread Subscription
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `subscribed` | Yes | boolean |  |
+| `created_at` | Yes | string |  |
 | `ignored` | Yes | boolean |  |
 | `reason` | Yes | string |  |
-| `created_at` | Yes | string |  |
-| `url` | Yes | string |  |
-| `thread_url` | No | string |  |
 | `repository_url` | No | string |  |
+| `subscribed` | Yes | boolean |  |
+| `thread_url` | No | string |  |
+| `url` | Yes | string |  |

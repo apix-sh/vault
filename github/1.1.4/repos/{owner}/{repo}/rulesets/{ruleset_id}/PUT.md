@@ -12,7 +12,7 @@ Update a ruleset for a repository.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ruleset_id` | Yes | integer | The ID of the ruleset.<br/>*Serialization: style=Simple* |
+| `ruleset_id` | Yes | integer | The ID of the ruleset. |
 
 
 ## Query Parameters
@@ -32,12 +32,12 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | The name of the ruleset. |
-| `target` | No | string | The target of the ruleset |
-| `enforcement` | No | [repository-rule-enforcement](../../../../../_components/schemas/repository-rule-enforcement.md) |  |
 | `bypass_actors` | No | array<[repository-ruleset-bypass-actor](../../../../../_components/schemas/repository-ruleset-bypass-actor.md)> | The actors that can bypass the rules in this ruleset |
 | `conditions` | No | [repository-ruleset-conditions](../../../../../_components/schemas/repository-ruleset-conditions.md) |  |
+| `enforcement` | No | [repository-rule-enforcement](../../../../../_components/schemas/repository-rule-enforcement.md) |  |
+| `name` | No | string | The name of the ruleset. |
 | `rules` | No | array<[repository-rule](../../../../../_components/schemas/repository-rule.md)> | An array of rules within the ruleset. |
+| `target` | No | string | The target of the ruleset |
 
 
 ## Responses

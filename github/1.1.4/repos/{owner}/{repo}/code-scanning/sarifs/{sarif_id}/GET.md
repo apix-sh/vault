@@ -13,7 +13,7 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `sarif_id` | Yes | string | The SARIF ID obtained after uploading.<br/>*Serialization: style=Simple* |
+| `sarif_id` | Yes | string | The SARIF ID obtained after uploading. |
 
 
 ## Query Parameters

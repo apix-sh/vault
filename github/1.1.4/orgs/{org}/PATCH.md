@@ -39,73 +39,36 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `advanced_security_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.<br/><br/>Whether GitHub Advanced Security is automatically enabled for new repositories and repositories transferred to this organization.<br/><br/>To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."<br/><br/>You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
 | `billing_email` | No | string | Billing email address. This address is not publicized. |
+| `blog` | No | string |  |
 | `company` | No | string | The company name. |
-| `email` | No | string | The publicly visible email address. |
-| `twitter_username` | No | string | The Twitter username of the company. |
-| `location` | No | string | The location. |
-| `name` | No | string | The shorthand name of the company. |
+| `default_repository_permission` | No | string | Default permission level members have for organization repositories. |
+| `dependabot_alerts_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.<br/><br/>Whether Dependabot alerts are automatically enabled for new repositories and repositories transferred to this organization.<br/><br/>To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."<br/><br/>You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
+| `dependabot_security_updates_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.<br/><br/>Whether Dependabot security updates are automatically enabled for new repositories and repositories transferred to this organization.<br/><br/>To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."<br/><br/>You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
+| `dependency_graph_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.<br/><br/>Whether dependency graph is automatically enabled for new repositories and repositories transferred to this organization.<br/><br/>To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."<br/><br/>You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
+| `deploy_keys_enabled_for_repositories` | No | boolean | Controls whether or not deploy keys may be added and used for repositories in the organization. |
 | `description` | No | string | The description of the company. The maximum size is 160 characters. |
+| `email` | No | string | The publicly visible email address. |
 | `has_organization_projects` | No | boolean | Whether an organization can use organization projects. |
 | `has_repository_projects` | No | boolean | Whether repositories that belong to the organization can use repository projects. |
-| `default_repository_permission` | No | string | Default permission level members have for organization repositories. |
-| `members_can_create_repositories` | No | boolean | Whether of non-admin organization members can create repositories. **Note:** A parameter can override this parameter. See `members_allowed_repository_creation_type` in this table for details. |
+| `location` | No | string | The location. |
+| `members_allowed_repository_creation_type` | No | string | Specifies which types of repositories non-admin organization members can create. `private` is only available to repositories that are part of an organization on GitHub Enterprise Cloud. <br/>**Note:** This parameter is closing down and will be removed in the future. Its return value ignores internal repositories. Using this parameter overrides values set in `members_can_create_repositories`. See the parameter deprecation notice in the operation description for details. |
 | `members_can_create_internal_repositories` | No | boolean | Whether organization members can create internal repositories, which are visible to all enterprise members. You can only allow members to create internal repositories if your organization is associated with an enterprise account using GitHub Enterprise Cloud or GitHub Enterprise Server 2.20+. For more information, see "[Restricting repository creation in your organization](https://docs.github.com/github/setting-up-and-managing-organizations-and-teams/restricting-repository-creation-in-your-organization)" in the GitHub Help documentation. |
-| `members_can_create_private_repositories` | No | boolean | Whether organization members can create private repositories, which are visible to organization members with permission. For more information, see "[Restricting repository creation in your organization](https://docs.github.com/github/setting-up-and-managing-organizations-and-teams/restricting-repository-creation-in-your-organization)" in the GitHub Help documentation. |
-| `members_can_create_public_repositories` | No | boolean | Whether organization members can create public repositories, which are visible to anyone. For more information, see "[Restricting repository creation in your organization](https://docs.github.com/github/setting-up-and-managing-organizations-and-teams/restricting-repository-creation-in-your-organization)" in the GitHub Help documentation. |
-| `members_allowed_repository_creation_type` | No | string | Specifies which types of repositories non-admin organization members can create. `private` is only available to repositories that are part of an organization on GitHub Enterprise Cloud. 
-**Note:** This parameter is closing down and will be removed in the future. Its return value ignores internal repositories. Using this parameter overrides values set in `members_can_create_repositories`. See the parameter deprecation notice in the operation description for details. |
 | `members_can_create_pages` | No | boolean | Whether organization members can create GitHub Pages sites. Existing published sites will not be impacted. |
-| `members_can_create_public_pages` | No | boolean | Whether organization members can create public GitHub Pages sites. Existing published sites will not be impacted. |
 | `members_can_create_private_pages` | No | boolean | Whether organization members can create private GitHub Pages sites. Existing published sites will not be impacted. |
+| `members_can_create_private_repositories` | No | boolean | Whether organization members can create private repositories, which are visible to organization members with permission. For more information, see "[Restricting repository creation in your organization](https://docs.github.com/github/setting-up-and-managing-organizations-and-teams/restricting-repository-creation-in-your-organization)" in the GitHub Help documentation. |
+| `members_can_create_public_pages` | No | boolean | Whether organization members can create public GitHub Pages sites. Existing published sites will not be impacted. |
+| `members_can_create_public_repositories` | No | boolean | Whether organization members can create public repositories, which are visible to anyone. For more information, see "[Restricting repository creation in your organization](https://docs.github.com/github/setting-up-and-managing-organizations-and-teams/restricting-repository-creation-in-your-organization)" in the GitHub Help documentation. |
+| `members_can_create_repositories` | No | boolean | Whether of non-admin organization members can create repositories. **Note:** A parameter can override this parameter. See `members_allowed_repository_creation_type` in this table for details. |
 | `members_can_fork_private_repositories` | No | boolean | Whether organization members can fork private organization repositories. |
-| `web_commit_signoff_required` | No | boolean | Whether contributors to organization repositories are required to sign off on commits they make through GitHub's web interface. |
-| `blog` | No | string |  |
-| `advanced_security_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.
-
-Whether GitHub Advanced Security is automatically enabled for new repositories and repositories transferred to this organization.
-
-To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
-
-You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
-| `dependabot_alerts_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.
-
-Whether Dependabot alerts are automatically enabled for new repositories and repositories transferred to this organization.
-
-To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
-
-You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
-| `dependabot_security_updates_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.
-
-Whether Dependabot security updates are automatically enabled for new repositories and repositories transferred to this organization.
-
-To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
-
-You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
-| `dependency_graph_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.
-
-Whether dependency graph is automatically enabled for new repositories and repositories transferred to this organization.
-
-To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
-
-You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
-| `secret_scanning_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.
-
-Whether secret scanning is automatically enabled for new repositories and repositories transferred to this organization.
-
-To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
-
-You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
-| `secret_scanning_push_protection_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.
-
-Whether secret scanning push protection is automatically enabled for new repositories and repositories transferred to this organization.
-
-To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
-
-You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
-| `secret_scanning_push_protection_custom_link_enabled` | No | boolean | Whether a custom link is shown to contributors who are blocked from pushing a secret by push protection. |
+| `name` | No | string | The shorthand name of the company. |
+| `secret_scanning_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.<br/><br/>Whether secret scanning is automatically enabled for new repositories and repositories transferred to this organization.<br/><br/>To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."<br/><br/>You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
 | `secret_scanning_push_protection_custom_link` | No | string | If `secret_scanning_push_protection_custom_link_enabled` is true, the URL that will be displayed to contributors who are blocked from pushing a secret. |
-| `deploy_keys_enabled_for_repositories` | No | boolean | Controls whether or not deploy keys may be added and used for repositories in the organization. |
+| `secret_scanning_push_protection_custom_link_enabled` | No | boolean | Whether a custom link is shown to contributors who are blocked from pushing a secret by push protection. |
+| `secret_scanning_push_protection_enabled_for_new_repositories` | No | boolean | **Endpoint closing down notice.** Please use [code security configurations](https://docs.github.com/rest/code-security/configurations) instead.<br/><br/>Whether secret scanning push protection is automatically enabled for new repositories and repositories transferred to this organization.<br/><br/>To use this parameter, you must have admin permissions for the repository or be an owner or security manager for the organization that owns the repository. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."<br/><br/>You can check which security and analysis features are currently enabled by using a `GET /orgs/{org}` request. |
+| `twitter_username` | No | string | The Twitter username of the company. |
+| `web_commit_signoff_required` | No | boolean | Whether contributors to organization repositories are required to sign off on commits they make through GitHub's web interface. |
 
 
 ## Responses
@@ -118,6 +81,10 @@ Response
 [organization-full](../../_components/schemas/organization-full.md)
 
 
+### 409
+
+Reference: [conflict](../../_components/responses/conflict.md)
+
 ### 422
 
 Validation failed
@@ -125,8 +92,4 @@ Validation failed
 #### Response Schema (`application/json`)
 *(No object properties found)*
 
-
-### 409
-
-Reference: [conflict](../../_components/responses/conflict.md)
 

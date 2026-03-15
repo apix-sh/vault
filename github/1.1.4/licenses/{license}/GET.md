@@ -12,7 +12,7 @@ Gets information about a specific license. For more information, see "[Licensing
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `license` | Yes | string | *Serialization: style=Simple* |
+| `license` | Yes | string |  |
 
 
 ## Query Parameters
@@ -36,6 +36,10 @@ Response
 [license](../../_components/schemas/license.md)
 
 
+### 304
+
+Reference: [not_modified](../../_components/responses/not_modified.md)
+
 ### 403
 
 Reference: [forbidden](../../_components/responses/forbidden.md)
@@ -43,8 +47,4 @@ Reference: [forbidden](../../_components/responses/forbidden.md)
 ### 404
 
 Reference: [not_found](../../_components/responses/not_found.md)
-
-### 304
-
-Reference: [not_modified](../../_components/responses/not_modified.md)
 

@@ -32,7 +32,12 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `build_type` | No | string | The process by which the GitHub Pages site will be built. `workflow` means that the site is built by a custom GitHub Actions workflow. `legacy` means that the site is built by GitHub when changes are pushed to a specific branch. |
+| `cname` | No | string | Specify a custom domain for the repository. Sending a `null` value will remove the custom domain. For more about custom domains, see "[Using a custom domain with GitHub Pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site)." |
+| `https_enforced` | No | boolean | Specify whether HTTPS should be enforced for the repository. |
+| `source` | No | anyOf(2) |  |
 
 
 ## Responses
@@ -41,10 +46,6 @@ Supported content types:
 
 Response
 
-### 422
-
-Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
-
 ### 400
 
 Reference: [bad_request](../../../../_components/responses/bad_request.md)
@@ -52,4 +53,8 @@ Reference: [bad_request](../../../../_components/responses/bad_request.md)
 ### 409
 
 Reference: [conflict](../../../../_components/responses/conflict.md)
+
+### 422
+
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

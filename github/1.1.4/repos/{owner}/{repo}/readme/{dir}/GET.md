@@ -17,7 +17,7 @@ This endpoint supports the following custom media types. For more information, s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `dir` | Yes | string | The alternate path to look for a README file<br/>*Serialization: style=Simple* |
+| `dir` | Yes | string | The alternate path to look for a README file |
 
 
 ## Query Parameters
@@ -26,7 +26,7 @@ This endpoint supports the following custom media types. For more information, s
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
-| `ref` | No | string | The name of the commit/branch/tag. Default: the repository’s default branch.<br/>*Serialization: style=Form* |
+| `ref` | No | string | The name of the commit/branch/tag. Default: the repository’s default branch. |
 
 
 

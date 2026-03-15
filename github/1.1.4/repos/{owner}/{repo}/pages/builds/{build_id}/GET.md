@@ -14,7 +14,7 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `build_id` | Yes | integer | *Serialization: style=Simple* |
+| `build_id` | Yes | integer |  |
 
 
 ## Query Parameters

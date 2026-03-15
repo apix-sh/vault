@@ -33,13 +33,13 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `budget_amount` | No | integer | The budget amount in whole dollars. For license-based products, this represents the number of licenses. |
-| `prevent_further_usage` | No | boolean | Whether to prevent additional spending once the budget is exceeded |
 | `budget_alerting` | No | object |  |
-| `budget_scope` | No | string | The scope of the budget |
+| `budget_amount` | No | integer | The budget amount in whole dollars. For license-based products, this represents the number of licenses. |
 | `budget_entity_name` | No | string | The name of the entity to apply the budget to |
-| `budget_type` | No | string | The type of pricing for the budget |
 | `budget_product_sku` | No | string | A single product or SKU that will be covered in the budget |
+| `budget_scope` | No | string | The scope of the budget |
+| `budget_type` | No | oneOf(2) | The type of pricing for the budget |
+| `prevent_further_usage` | No | boolean | Whether to prevent additional spending once the budget is exceeded |
 
 
 ## Responses
@@ -51,8 +51,8 @@ Budget updated successfully
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `message` | No | string |  |
 | `budget` | No | object |  |
+| `message` | No | string |  |
 
 
 ### 400

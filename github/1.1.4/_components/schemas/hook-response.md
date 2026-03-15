@@ -9,5 +9,5 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `code` | Yes | integer |  |
-| `status` | Yes | string |  |
 | `message` | Yes | string |  |
+| `status` | Yes | string |  |

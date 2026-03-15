@@ -39,15 +39,14 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `key_id` | Yes | string | The identifier for the key. |
 | `key` | Yes | string | The Base64 encoded public key. |
+| `key_id` | Yes | string | The identifier for the key. |
 
 
 ### 404

@@ -41,6 +41,10 @@ Response
 [gist-simple](../../_components/schemas/gist-simple.md)
 
 
+### 304
+
+Reference: [not_modified](../../_components/responses/not_modified.md)
+
 ### 403
 
 Reference: [forbidden_gist](../../_components/responses/forbidden_gist.md)
@@ -48,8 +52,4 @@ Reference: [forbidden_gist](../../_components/responses/forbidden_gist.md)
 ### 404
 
 Reference: [not_found](../../_components/responses/not_found.md)
-
-### 304
-
-Reference: [not_modified](../../_components/responses/not_modified.md)
 

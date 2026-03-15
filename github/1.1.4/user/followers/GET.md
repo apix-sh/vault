@@ -37,7 +37,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
 
 
@@ -49,11 +48,11 @@ array<[simple-user](../../_components/schemas/simple-user.md)>
 
 Reference: [not_modified](../../_components/responses/not_modified.md)
 
-### 403
-
-Reference: [forbidden](../../_components/responses/forbidden.md)
-
 ### 401
 
 Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../_components/responses/forbidden.md)
 

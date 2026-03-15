@@ -11,16 +11,16 @@ Content Tree
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string |  |
-| `size` | Yes | integer |  |
+| `_links` | Yes | object |  |
+| `content` | No | string |  |
+| `download_url` | Yes | string |  |
+| `encoding` | No | string |  |
+| `entries` | No | array<object> |  |
+| `git_url` | Yes | string |  |
+| `html_url` | Yes | string |  |
 | `name` | Yes | string |  |
 | `path` | Yes | string |  |
 | `sha` | Yes | string |  |
-| `content` | No | string |  |
+| `size` | Yes | integer |  |
+| `type` | Yes | string |  |
 | `url` | Yes | string |  |
-| `git_url` | Yes | string |  |
-| `html_url` | Yes | string |  |
-| `download_url` | Yes | string |  |
-| `entries` | No | array<object> |  |
-| `encoding` | No | string |  |
-| `_links` | Yes | object |  |

@@ -37,7 +37,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
 
 
@@ -45,11 +44,11 @@ Response
 [dependency-graph-spdx-sbom](../../../../../_components/schemas/dependency-graph-spdx-sbom.md)
 
 
-### 404
-
-Reference: [not_found](../../../../../_components/responses/not_found.md)
-
 ### 403
 
 Reference: [forbidden](../../../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

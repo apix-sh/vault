@@ -11,5 +11,5 @@ Prevent commits that include changes in specified file and folder paths from bei
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: file_path_restriction |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: file_path_restriction |

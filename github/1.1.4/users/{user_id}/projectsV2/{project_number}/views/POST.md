@@ -30,11 +30,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | The name of the view. |
-| `layout` | Yes | string | The layout of the view. |
 | `filter` | No | string | The filter query for the view. See [Filtering projects](https://docs.github.com/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/filtering-projects) for more information. |
-| `visible_fields` | No | array<integer> | `visible_fields` is not applicable to `roadmap` layout views.
-For `table` and `board` layouts, this represents the field IDs that should be visible in the view. If not provided, the default visible fields will be used. |
+| `layout` | Yes | string | The layout of the view. |
+| `name` | Yes | string | The name of the view. |
+| `visible_fields` | No | array<integer> | `visible_fields` is not applicable to `roadmap` layout views.<br/>For `table` and `board` layouts, this represents the field IDs that should be visible in the view. If not provided, the default visible fields will be used. |
 
 
 ## Responses
@@ -51,13 +50,13 @@ Response for creating a view in a user-owned project.
 
 Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 
-### 403
-
-Reference: [forbidden](../../../../../_components/responses/forbidden.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 

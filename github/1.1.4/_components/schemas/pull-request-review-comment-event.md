@@ -9,5 +9,5 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `action` | Yes | string |  |
-| `pull_request` | Yes | [pull-request-minimal](pull-request-minimal.md) |  |
 | `comment` | Yes | object |  |
+| `pull_request` | Yes | [pull-request-minimal](pull-request-minimal.md) |  |

@@ -39,9 +39,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `active` | No | boolean | Determines if notifications are sent when the webhook is triggered. Set to `true` to send notifications. |
 | `config` | No | object | Key/value pairs to provide settings for this webhook. |
 | `events` | No | array<string> | Determines what [events](https://docs.github.com/webhooks/event-payloads) the hook is triggered for. |
-| `active` | No | boolean | Determines if notifications are sent when the webhook is triggered. Set to `true` to send notifications. |
 | `name` | No | string |  |
 
 
@@ -55,11 +55,11 @@ Response
 [org-hook](../../../../_components/schemas/org-hook.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

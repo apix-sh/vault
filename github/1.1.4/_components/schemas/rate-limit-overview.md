@@ -11,5 +11,5 @@ Rate Limit Overview
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `resources` | Yes | object |  |
 | `rate` | Yes | [rate-limit](rate-limit.md) |  |
+| `resources` | Yes | object |  |

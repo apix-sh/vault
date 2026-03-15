@@ -11,11 +11,11 @@ Key
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `key` | Yes | string |  |
-| `id` | Yes | integer |  |
-| `url` | Yes | string |  |
-| `title` | Yes | string |  |
 | `created_at` | Yes | string |  |
-| `verified` | Yes | boolean |  |
-| `read_only` | Yes | boolean |  |
+| `id` | Yes | integer |  |
+| `key` | Yes | string |  |
 | `last_used` | No | string |  |
+| `read_only` | Yes | boolean |  |
+| `title` | Yes | string |  |
+| `url` | Yes | string |  |
+| `verified` | Yes | boolean |  |

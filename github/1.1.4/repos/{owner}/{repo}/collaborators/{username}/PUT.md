@@ -75,6 +75,10 @@ Response when:
 - an organization member is added as an individual collaborator
 - an existing team member (whose team is also a repository collaborator) is added as an individual collaborator
 
+### 403
+
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
+
 ### 422
 
 Response when:
@@ -84,8 +88,4 @@ Response when:
 #### Response Schema (`application/json`)
 [validation-error](../../../../../_components/schemas/validation-error.md)
 
-
-### 403
-
-Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 

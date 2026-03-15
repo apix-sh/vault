@@ -34,9 +34,9 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `name` | Yes | string | The name of the variable. |
+| `selected_repository_ids` | No | array<integer> | An array of repository ids that can access the organization variable. You can only provide a list of repository ids when the `visibility` is set to `selected`. |
 | `value` | Yes | string | The value of the variable. |
 | `visibility` | Yes | string | The type of repositories in the organization that can access the variable. `selected` means only the repositories specified by `selected_repository_ids` can access the variable. |
-| `selected_repository_ids` | No | array<integer> | An array of repository ids that can access the organization variable. You can only provide a list of repository ids when the `visibility` is set to `selected`. |
 
 
 ## Responses

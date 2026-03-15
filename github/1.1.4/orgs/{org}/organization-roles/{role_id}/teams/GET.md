@@ -43,7 +43,6 @@ Response - List of assigned teams
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
 
 

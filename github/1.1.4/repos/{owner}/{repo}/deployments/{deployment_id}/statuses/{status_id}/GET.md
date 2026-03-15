@@ -12,7 +12,7 @@ Users with pull access can view a deployment status for a deployment:
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `status_id` | Yes | integer | *Serialization: style=Simple* |
+| `status_id` | Yes | integer |  |
 
 
 ## Query Parameters

@@ -34,7 +34,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `selected_usernames` | Yes | array<string> | The usernames of the organization members whose codespaces should not be billed to the organization. |
+| `selected_usernames` | Yes | array<string> | The usernames of the organization members and outside collaborators whose codespaces should not be billed to the organization. |
 
 
 ## Responses

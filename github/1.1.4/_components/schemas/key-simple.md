@@ -11,7 +11,7 @@ Key Simple
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `created_at` | No | string |  |
 | `id` | Yes | integer |  |
 | `key` | Yes | string |  |
-| `created_at` | No | string |  |
 | `last_used` | No | string |  |

@@ -11,16 +11,16 @@ Marketplace Listing Plan
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
 | `accounts_url` | Yes | string |  |
-| `id` | Yes | integer |  |
-| `number` | Yes | integer |  |
-| `name` | Yes | string |  |
-| `description` | Yes | string |  |
-| `monthly_price_in_cents` | Yes | integer |  |
-| `yearly_price_in_cents` | Yes | integer |  |
-| `price_model` | Yes | string | Allowed values: FREE, FLAT_RATE, PER_UNIT |
-| `has_free_trial` | Yes | boolean |  |
-| `unit_name` | Yes | string |  |
-| `state` | Yes | string |  |
 | `bullets` | Yes | array<string> |  |
+| `description` | Yes | string |  |
+| `has_free_trial` | Yes | boolean |  |
+| `id` | Yes | integer |  |
+| `monthly_price_in_cents` | Yes | integer |  |
+| `name` | Yes | string |  |
+| `number` | Yes | integer |  |
+| `price_model` | Yes | string | Allowed values: FREE, FLAT_RATE, PER_UNIT |
+| `state` | Yes | string |  |
+| `unit_name` | Yes | string |  |
+| `url` | Yes | string |  |
+| `yearly_price_in_cents` | Yes | integer |  |

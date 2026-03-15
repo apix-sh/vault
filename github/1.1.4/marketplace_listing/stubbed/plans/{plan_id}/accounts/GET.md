@@ -21,7 +21,7 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [plan-id](../../../../../_components/parameters/plan-id.md) |  |
 | `Reference` | N/A | [sort](../../../../../_components/parameters/sort.md) |  |
-| `direction` | No | string | To return the oldest accounts first, set to `asc`. Ignored without the `sort` parameter.<br/>*Serialization: style=Form* |
+| `direction` | No | string | To return the oldest accounts first, set to `asc`. Ignored without the `sort` parameter. |
 | `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 
@@ -42,7 +42,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
 
 

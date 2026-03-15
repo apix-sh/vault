@@ -13,8 +13,8 @@ Blob
 | :------- | :------: | :--- | :---------- |
 | `content` | Yes | string |  |
 | `encoding` | Yes | string |  |
-| `url` | Yes | string |  |
+| `highlighted_content` | No | string |  |
+| `node_id` | Yes | string |  |
 | `sha` | Yes | string |  |
 | `size` | Yes | integer |  |
-| `node_id` | Yes | string |  |
-| `highlighted_content` | No | string |  |
+| `url` | Yes | string |  |

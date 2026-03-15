@@ -55,11 +55,11 @@ Empty response
 
 Custom domains are not available for GitHub Pages
 
-### 422
-
-There isn't a CNAME for this page
-
 ### 404
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
+
+### 422
+
+There isn't a CNAME for this page
 

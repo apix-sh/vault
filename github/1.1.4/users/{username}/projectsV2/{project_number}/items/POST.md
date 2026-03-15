@@ -28,7 +28,13 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `id` | No | integer | The unique identifier of the issue or pull request to add to the project. |
+| `number` | No | integer | The issue or pull request number. |
+| `owner` | No | string | The repository owner login. |
+| `repo` | No | string | The repository name. |
+| `type` | Yes | string | The type of item to add to the project. Must be either Issue or PullRequest. |
 
 
 ## Responses
@@ -45,11 +51,11 @@ Response
 
 Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 
-### 403
-
-Reference: [forbidden](../../../../../_components/responses/forbidden.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 

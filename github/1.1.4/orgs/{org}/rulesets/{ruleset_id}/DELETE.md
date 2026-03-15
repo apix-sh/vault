@@ -12,7 +12,7 @@ Delete a ruleset for an organization.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ruleset_id` | Yes | integer | The ID of the ruleset.<br/>*Serialization: style=Simple* |
+| `ruleset_id` | Yes | integer | The ID of the ruleset. |
 
 
 ## Query Parameters

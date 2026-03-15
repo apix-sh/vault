@@ -39,7 +39,7 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | number |  |
 | `repositories` | Yes | array<[repository](../../../../../_components/schemas/repository.md)> |  |
+| `total_count` | Yes | number |  |
 
 

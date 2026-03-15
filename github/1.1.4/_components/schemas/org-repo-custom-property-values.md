@@ -11,7 +11,7 @@ List of custom property values for a repository
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `properties` | Yes | array<[custom-property-value](./custom-property-value.md)> | List of custom property names and associated values |
+| `repository_full_name` | Yes | string |  |
 | `repository_id` | Yes | integer |  |
 | `repository_name` | Yes | string |  |
-| `repository_full_name` | Yes | string |  |
-| `properties` | Yes | array<[custom-property-value](./custom-property-value.md)> | List of custom property names and associated values |

@@ -21,7 +21,7 @@ You must provide values for both `name` and `email`, whether you choose to use `
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `path` | Yes | string | path parameter<br/>*Serialization: style=Simple* |
+| `path` | Yes | string | path parameter |
 
 
 ## Query Parameters
@@ -41,11 +41,11 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `message` | Yes | string | The commit message. |
-| `sha` | Yes | string | The blob SHA of the file being deleted. |
+| `author` | No | object | object containing information about the author. |
 | `branch` | No | string | The branch name. Default: the repository’s default branch |
 | `committer` | No | object | object containing information about the committer. |
-| `author` | No | object | object containing information about the author. |
+| `message` | Yes | string | The commit message. |
+| `sha` | Yes | string | The blob SHA of the file being deleted. |
 
 
 ## Responses
@@ -58,10 +58,6 @@ Response
 [file-commit](../../../../../_components/schemas/file-commit.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
@@ -69,6 +65,10 @@ Reference: [not_found](../../../../../_components/responses/not_found.md)
 ### 409
 
 Reference: [conflict](../../../../../_components/responses/conflict.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 
 ### 503
 

@@ -39,8 +39,8 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | No | integer |  |
 | `repositories` | No | array<[repository](../../../../../../_components/schemas/repository.md)> |  |
+| `total_count` | No | integer |  |
 
 
 ### 403

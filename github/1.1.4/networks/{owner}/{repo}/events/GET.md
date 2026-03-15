@@ -40,19 +40,19 @@ Response
 array<[event](../../../../_components/schemas/event.md)>
 
 
-### 404
+### 301
 
-Reference: [not_found](../../../../_components/responses/not_found.md)
-
-### 403
-
-Reference: [forbidden](../../../../_components/responses/forbidden.md)
+Reference: [moved_permanently](../../../../_components/responses/moved_permanently.md)
 
 ### 304
 
 Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
-### 301
+### 403
 
-Reference: [moved_permanently](../../../../_components/responses/moved_permanently.md)
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

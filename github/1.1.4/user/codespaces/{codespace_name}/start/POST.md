@@ -42,10 +42,6 @@ Response
 
 Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
-### 500
-
-Reference: [internal_error](../../../../_components/responses/internal_error.md)
-
 ### 400
 
 Reference: [bad_request](../../../../_components/responses/bad_request.md)
@@ -73,4 +69,8 @@ Reference: [not_found](../../../../_components/responses/not_found.md)
 ### 409
 
 Reference: [conflict](../../../../_components/responses/conflict.md)
+
+### 500
+
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 

@@ -38,10 +38,10 @@ _(None)_
 | `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 | `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [pr-alias](../../../../../_components/parameters/pr-alias.md) |  |
-| `ref` | No | [code-scanning-ref](../../../../../_components/schemas/code-scanning-ref.md) | The Git reference for the analyses you want to list. The `ref` for a branch can be formatted either as `refs/heads/<branch name>` or simply `<branch name>`. To reference a pull request use `refs/pull/<number>/merge`.<br/>*Serialization: style=Form* |
-| `sarif_id` | No | [code-scanning-analysis-sarif-id](../../../../../_components/schemas/code-scanning-analysis-sarif-id.md) | Filter analyses belonging to the same SARIF upload.<br/>*Serialization: style=Form* |
+| `ref` | No | [code-scanning-ref](../../../../../_components/schemas/code-scanning-ref.md) | The Git reference for the analyses you want to list. The `ref` for a branch can be formatted either as `refs/heads/<branch name>` or simply `<branch name>`. To reference a pull request use `refs/pull/<number>/merge`. |
+| `sarif_id` | No | [code-scanning-analysis-sarif-id](../../../../../_components/schemas/code-scanning-analysis-sarif-id.md) | Filter analyses belonging to the same SARIF upload. |
 | `Reference` | N/A | [direction](../../../../../_components/parameters/direction.md) |  |
-| `sort` | No | string | The property by which to sort the results.<br/>*Serialization: style=Form* |
+| `sort` | No | string | The property by which to sort the results. |
 
 
 

@@ -8,10 +8,10 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
-| `id` | Yes | integer |  |
-| `type` | Yes | string |  |
-| `node_id` | No | string |  |
-| `login` | Yes | string |  |
 | `email` | No | string |  |
+| `id` | Yes | integer |  |
+| `login` | Yes | string |  |
+| `node_id` | No | string |  |
 | `organization_billing_email` | No | string |  |
+| `type` | Yes | string |  |
+| `url` | Yes | string |  |

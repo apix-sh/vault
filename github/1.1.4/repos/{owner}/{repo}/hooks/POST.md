@@ -31,10 +31,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | Use `web` to create a webhook. Default: `web`. This parameter only accepts the value `web`. |
+| `active` | No | boolean | Determines if notifications are sent when the webhook is triggered. Set to `true` to send notifications. |
 | `config` | No | object | Key/value pairs to provide settings for this webhook. |
 | `events` | No | array<string> | Determines what [events](https://docs.github.com/webhooks/event-payloads) the hook is triggered for. |
-| `active` | No | boolean | Determines if notifications are sent when the webhook is triggered. Set to `true` to send notifications. |
+| `name` | No | string | Use `web` to create a webhook. Default: `web`. This parameter only accepts the value `web`. |
 
 
 ## Responses
@@ -47,13 +47,16 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 
 #### Response Schema (`application/json`)
 [hook](../../../../_components/schemas/hook.md)
 
+
+### 403
+
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 
@@ -62,8 +65,4 @@ Reference: [not_found](../../../../_components/responses/not_found.md)
 ### 422
 
 Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
-
-### 403
-
-Reference: [forbidden](../../../../_components/responses/forbidden.md)
 

@@ -11,5 +11,5 @@ Parameters to be used for the committer_email_pattern rule
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: committer_email_pattern |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: committer_email_pattern |

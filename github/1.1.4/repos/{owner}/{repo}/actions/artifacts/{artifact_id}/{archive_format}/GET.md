@@ -15,7 +15,7 @@ OAuth tokens and personal access tokens (classic) need the `repo` scope to use t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `archive_format` | Yes | string | *Serialization: style=Simple* |
+| `archive_format` | Yes | string |  |
 
 
 ## Query Parameters
@@ -43,7 +43,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location (ref)` | Unknown | [location](../../../../../../../_components/headers/location.md) |  |
 
 

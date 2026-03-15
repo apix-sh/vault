@@ -18,7 +18,7 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [username](../../../_components/parameters/username.md) |  |
-| `q` | No | string | Limit results to projects of the specified type.<br/>*Serialization: style=Form* |
+| `q` | No | string | Limit results to projects of the specified type. |
 | `Reference` | N/A | [pagination-before](../../../_components/parameters/pagination-before.md) |  |
 | `Reference` | N/A | [pagination-after](../../../_components/parameters/pagination-after.md) |  |
 | `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
@@ -40,7 +40,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 
@@ -52,11 +51,11 @@ array<[projects-v2](../../../_components/schemas/projects-v2.md)>
 
 Reference: [not_modified](../../../_components/responses/not_modified.md)
 
-### 403
-
-Reference: [forbidden](../../../_components/responses/forbidden.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 

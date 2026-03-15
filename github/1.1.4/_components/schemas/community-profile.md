@@ -11,9 +11,9 @@ Community Profile
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `health_percentage` | Yes | integer |  |
+| `content_reports_enabled` | No | boolean |  |
 | `description` | Yes | string |  |
 | `documentation` | Yes | string |  |
 | `files` | Yes | object |  |
+| `health_percentage` | Yes | integer |  |
 | `updated_at` | Yes | string |  |
-| `content_reports_enabled` | No | boolean |  |

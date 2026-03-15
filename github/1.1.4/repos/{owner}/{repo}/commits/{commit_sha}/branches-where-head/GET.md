@@ -40,11 +40,11 @@ Response
 array<[branch-short](../../../../../../_components/schemas/branch-short.md)>
 
 
-### 422
-
-Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
-
 ### 409
 
 Reference: [conflict](../../../../../../_components/responses/conflict.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 

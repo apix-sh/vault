@@ -30,8 +30,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `subscribed` | No | boolean | Determines if notifications should be received from this repository. |
 | `ignored` | No | boolean | Determines if all notifications should be blocked from this repository. |
+| `subscribed` | No | boolean | Determines if notifications should be received from this repository. |
 
 
 ## Responses

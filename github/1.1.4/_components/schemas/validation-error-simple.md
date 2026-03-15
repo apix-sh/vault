@@ -11,6 +11,6 @@ Validation Error Simple
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `message` | Yes | string |  |
 | `documentation_url` | Yes | string |  |
 | `errors` | No | array<string> |  |
+| `message` | Yes | string |  |

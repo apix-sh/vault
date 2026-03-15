@@ -43,14 +43,13 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `secrets` | Yes | array<[organization-actions-secret](../../../../_components/schemas/organization-actions-secret.md)> |  |
+| `total_count` | Yes | integer |  |
 
 

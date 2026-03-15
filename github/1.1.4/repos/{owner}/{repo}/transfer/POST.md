@@ -30,8 +30,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `new_owner` | Yes | string | The username or organization name the repository will be transferred to. |
 | `new_name` | No | string | The new name to be given to the repository. |
+| `new_owner` | Yes | string | The username or organization name the repository will be transferred to. |
 | `team_ids` | No | array<integer> | ID of the team or teams to add to the repository. Teams can only be added to organization-owned repositories. |
 
 

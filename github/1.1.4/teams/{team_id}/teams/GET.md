@@ -39,7 +39,6 @@ if child teams exist
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 
@@ -47,13 +46,13 @@ if child teams exist
 array<[team](../../../_components/schemas/team.md)>
 
 
-### 404
-
-Reference: [not_found](../../../_components/responses/not_found.md)
-
 ### 403
 
 Reference: [forbidden](../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 422
 

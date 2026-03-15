@@ -11,5 +11,5 @@ Choose which tools must provide code scanning results before the reference is up
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: code_scanning |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: code_scanning |

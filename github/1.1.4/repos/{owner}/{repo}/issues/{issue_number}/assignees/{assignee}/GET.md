@@ -16,7 +16,7 @@ Otherwise a `404` status code is returned.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `assignee` | Yes | string | *Serialization: style=Simple* |
+| `assignee` | Yes | string |  |
 
 
 ## Query Parameters

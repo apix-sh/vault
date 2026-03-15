@@ -40,22 +40,6 @@ _(None)_
 
 ## Responses
 
-### 500
-
-Reference: [internal_error](../../../_components/responses/internal_error.md)
-
-### 422
-
-Reference: [validation_failed](../../../_components/responses/validation_failed.md)
-
-### 404
-
-Reference: [not_found](../../../_components/responses/not_found.md)
-
-### 403
-
-Reference: [forbidden](../../../_components/responses/forbidden.md)
-
 ### 200
 
 Response
@@ -64,11 +48,26 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 array<[organization-programmatic-access-grant](../../../_components/schemas/organization-programmatic-access-grant.md)>
 
+
+### 403
+
+Reference: [forbidden](../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
+
+### 500
+
+Reference: [internal_error](../../../_components/responses/internal_error.md)
 

@@ -26,7 +26,7 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
 | `Reference` | N/A | [migration-id](../../../../_components/parameters/migration-id.md) |  |
-| `exclude` | No | array<string> | Exclude attributes from the API response to improve performance<br/>*Serialization: style=Form* |
+| `exclude` | No | array<string> | Exclude attributes from the API response to improve performance |
 
 
 

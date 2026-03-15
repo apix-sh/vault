@@ -11,12 +11,12 @@ Label Search Result Item
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | Yes | integer |  |
-| `node_id` | Yes | string |  |
-| `url` | Yes | string |  |
-| `name` | Yes | string |  |
 | `color` | Yes | string |  |
 | `default` | Yes | boolean |  |
 | `description` | Yes | string |  |
+| `id` | Yes | integer |  |
+| `name` | Yes | string |  |
+| `node_id` | Yes | string |  |
 | `score` | Yes | number |  |
 | `text_matches` | No | [search-result-text-matches](search-result-text-matches.md) |  |
+| `url` | Yes | string |  |

@@ -44,7 +44,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 
@@ -52,11 +51,11 @@ Response
 [git-ref](../../../../../_components/schemas/git-ref.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
-
 ### 409
 
 Reference: [conflict](../../../../../_components/responses/conflict.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 

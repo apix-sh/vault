@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `state` | No | string | Indicates the state of the memberships to return. If not specified, the API returns both active and pending memberships.<br/>*Serialization: style=Form* |
+| `state` | No | string | Indicates the state of the memberships to return. If not specified, the API returns both active and pending memberships. |
 | `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
 
@@ -38,7 +38,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 
@@ -50,13 +49,13 @@ array<[org-membership](../../../_components/schemas/org-membership.md)>
 
 Reference: [not_modified](../../../_components/responses/not_modified.md)
 
-### 403
-
-Reference: [forbidden](../../../_components/responses/forbidden.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 422
 

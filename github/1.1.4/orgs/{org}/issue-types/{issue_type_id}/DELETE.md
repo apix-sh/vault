@@ -38,11 +38,11 @@ _(None)_
 
 Response
 
-### 422
-
-Reference: [validation_failed_simple](../../../../_components/responses/validation_failed_simple.md)
-
 ### 404
 
 Reference: [not_found](../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed_simple](../../../../_components/responses/validation_failed_simple.md)
 

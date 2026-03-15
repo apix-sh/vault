@@ -47,10 +47,6 @@ The user's GitHub Copilot seat details, including usage.
 [copilot-seat-details](../../../../../_components/schemas/copilot-seat-details.md)
 
 
-### 500
-
-Reference: [internal_error](../../../../../_components/responses/internal_error.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
@@ -66,4 +62,8 @@ Reference: [not_found](../../../../../_components/responses/not_found.md)
 ### 422
 
 Copilot Business or Enterprise is not enabled for this organization or the user has a pending organization invitation.
+
+### 500
+
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 

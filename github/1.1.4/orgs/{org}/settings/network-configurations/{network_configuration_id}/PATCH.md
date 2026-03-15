@@ -32,8 +32,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | Name of the network configuration. Must be between 1 and 100 characters and may only contain upper and lowercase letters a-z, numbers 0-9, '.', '-', and '_'. |
 | `compute_service` | No | string | The hosted compute service to use for the network configuration. |
+| `name` | No | string | Name of the network configuration. Must be between 1 and 100 characters and may only contain upper and lowercase letters a-z, numbers 0-9, '.', '-', and '_'. |
 | `network_settings_ids` | No | array<string> | A list of identifiers of the network settings resources to use for the network configuration. Exactly one resource identifier must be specified in the list. |
 
 

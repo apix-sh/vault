@@ -48,6 +48,10 @@ Forbidden if the check run is not rerequestable or doesn't belong to the authent
 [basic-error](../../../../../../_components/schemas/basic-error.md)
 
 
+### 404
+
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
+
 ### 422
 
 Validation error if the check run is not rerequestable
@@ -55,8 +59,4 @@ Validation error if the check run is not rerequestable
 #### Response Schema (`application/json`)
 [basic-error](../../../../../../_components/schemas/basic-error.md)
 
-
-### 404
-
-Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

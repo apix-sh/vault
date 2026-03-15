@@ -41,25 +41,17 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | The name of the artifact. |
-| `digest` | Yes | string | The hex encoded digest of the artifact. |
-| `version` | No | string | The artifact version. |
-| `status` | Yes | string | The status of the artifact. Can be either deployed or decommissioned. |
-| `logical_environment` | Yes | string | The stage of the deployment. |
-| `physical_environment` | No | string | The physical region of the deployment. |
 | `cluster` | No | string | The deployment cluster. |
-| `deployment_name` | Yes | string | The unique identifier for the deployment represented by the new record. To accommodate differing
-containers and namespaces within a cluster, the following format is recommended:
-{namespaceName}-{deploymentName}-{containerName}.
- |
-| `tags` | No | object | The tags associated with the deployment. |
+| `deployment_name` | Yes | string | The unique identifier for the deployment represented by the new record. To accommodate differing<br/>containers and namespaces within a cluster, the following format is recommended:<br/>{namespaceName}-{deploymentName}-{containerName}.<br/> |
+| `digest` | Yes | string | The hex encoded digest of the artifact. |
+| `github_repository` | No | string | The name of the GitHub repository associated with the artifact. This should be used<br/>when there are no provenance attestations available for the artifact. The repository<br/>must belong to the organization specified in the path parameter.<br/><br/>If a provenance attestation is available for the artifact, the API will use<br/>the repository information from the attestation instead of this parameter. |
+| `logical_environment` | Yes | string | The stage of the deployment. |
+| `name` | Yes | string | The name of the artifact. |
+| `physical_environment` | No | string | The physical region of the deployment. |
 | `runtime_risks` | No | array<string> | A list of runtime risks associated with the deployment. |
-| `github_repository` | No | string | The name of the GitHub repository associated with the artifact. This should be used
-when there are no provenance attestations available for the artifact. The repository
-must belong to the organization specified in the path parameter.
-
-If a provenance attestation is available for the artifact, the API will use
-the repository information from the attestation instead of this parameter. |
+| `status` | Yes | string | The status of the artifact. Can be either deployed or decommissioned. |
+| `tags` | No | object | The tags associated with the deployment. |
+| `version` | No | string | The artifact version. |
 
 
 ## Responses
@@ -71,7 +63,7 @@ Artifact deployment record stored successfully.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | No | integer | The number of deployment records created |
 | `deployment_records` | No | array<[artifact-deployment-record](../../../../../_components/schemas/artifact-deployment-record.md)> |  |
+| `total_count` | No | integer | The number of deployment records created |
 
 

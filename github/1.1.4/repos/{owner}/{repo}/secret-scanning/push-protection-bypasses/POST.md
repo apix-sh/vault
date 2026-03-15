@@ -34,8 +34,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `reason` | Yes | [secret-scanning-push-protection-bypass-reason](../../../../../_components/schemas/secret-scanning-push-protection-bypass-reason.md) |  |
 | `placeholder_id` | Yes | [secret-scanning-push-protection-bypass-placeholder-id](../../../../../_components/schemas/secret-scanning-push-protection-bypass-placeholder-id.md) |  |
+| `reason` | Yes | [secret-scanning-push-protection-bypass-reason](../../../../../_components/schemas/secret-scanning-push-protection-bypass-reason.md) |  |
 
 
 ## Responses

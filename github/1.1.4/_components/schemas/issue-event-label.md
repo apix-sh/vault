@@ -11,5 +11,5 @@ Issue Event Label
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | Yes | string |  |
 | `color` | Yes | string |  |
+| `name` | Yes | string |  |

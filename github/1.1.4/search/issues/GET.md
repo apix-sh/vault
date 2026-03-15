@@ -29,8 +29,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `q` | Yes | string | The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). See "[Searching issues and pull requests](https://docs.github.com/search-github/searching-on-github/searching-issues-and-pull-requests)" for a detailed list of qualifiers.<br/>*Serialization: style=Form* |
-| `sort` | No | string | Sorts the results of your query by the number of `comments`, `reactions`, `reactions-+1`, `reactions--1`, `reactions-smile`, `reactions-thinking_face`, `reactions-heart`, `reactions-tada`, or `interactions`. You can also sort results by how recently the items were `created` or `updated`, Default: [best match](https://docs.github.com/rest/search/search#ranking-search-results)<br/>*Serialization: style=Form* |
+| `q` | Yes | string | The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). See "[Searching issues and pull requests](https://docs.github.com/search-github/searching-on-github/searching-issues-and-pull-requests)" for a detailed list of qualifiers. |
+| `sort` | No | string | Sorts the results of your query by the number of `comments`, `reactions`, `reactions-+1`, `reactions--1`, `reactions-smile`, `reactions-thinking_face`, `reactions-heart`, `reactions-tada`, or `interactions`. You can also sort results by how recently the items were `created` or `updated`, Default: [best match](https://docs.github.com/rest/search/search#ranking-search-results) |
 | `Reference` | N/A | [order](../../_components/parameters/order.md) |  |
 | `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
@@ -52,18 +52,10 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `incomplete_results` | Yes | boolean |  |
 | `items` | Yes | array<[issue-search-result-item](../../_components/schemas/issue-search-result-item.md)> |  |
+| `total_count` | Yes | integer |  |
 
-
-### 503
-
-Reference: [service_unavailable](../../_components/responses/service_unavailable.md)
-
-### 422
-
-Reference: [validation_failed](../../_components/responses/validation_failed.md)
 
 ### 304
 
@@ -72,4 +64,12 @@ Reference: [not_modified](../../_components/responses/not_modified.md)
 ### 403
 
 Reference: [forbidden](../../_components/responses/forbidden.md)
+
+### 422
+
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
+
+### 503
+
+Reference: [service_unavailable](../../_components/responses/service_unavailable.md)
 

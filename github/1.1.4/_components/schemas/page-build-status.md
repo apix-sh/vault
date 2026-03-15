@@ -11,5 +11,5 @@ Page Build Status
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
 | `status` | Yes | string |  |
+| `url` | Yes | string |  |

@@ -29,12 +29,10 @@ _(None)_
 | `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 | `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [direction](../../../../_components/parameters/direction.md) |  |
-| `state` | No | [code-scanning-alert-state-query](../../../../_components/schemas/code-scanning-alert-state-query.md) | If specified, only code scanning alerts with this state will be returned.<br/>*Serialization: style=Form* |
-| `sort` | No | string | The property by which to sort the results.<br/>*Serialization: style=Form* |
-| `severity` | No | [code-scanning-alert-severity](../../../../_components/schemas/code-scanning-alert-severity.md) | If specified, only code scanning alerts with this severity will be returned.<br/>*Serialization: style=Form* |
-| `assignees` | No | string | Filter alerts by assignees. Provide a comma-separated list of user handles (e.g., `octocat` or `octocat,hubot`).
-Use `*` to list alerts with at least one assignee or `none` to list alerts with no assignees.
-<br/>*Serialization: style=Form* |
+| `state` | No | [code-scanning-alert-state-query](../../../../_components/schemas/code-scanning-alert-state-query.md) | If specified, only code scanning alerts with this state will be returned. |
+| `sort` | No | string | The property by which to sort the results. |
+| `severity` | No | [code-scanning-alert-severity](../../../../_components/schemas/code-scanning-alert-severity.md) | If specified, only code scanning alerts with this severity will be returned. |
+| `assignees` | No | string | Filter alerts by assignees. Provide a comma-separated list of user handles (e.g., `octocat` or `octocat,hubot`).<br/>Use `*` to list alerts with at least one assignee or `none` to list alerts with no assignees.<br/> |
 
 
 
@@ -53,7 +51,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 

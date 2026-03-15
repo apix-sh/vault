@@ -35,19 +35,12 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | The name of the team. |
 | `description` | No | string | The description of the team. |
-| `privacy` | No | string | The level of privacy this team should have. Editing teams without specifying this parameter leaves `privacy` intact. The options are:  
-**For a non-nested team:**  
- * `secret` - only visible to organization owners and members of this team.  
- * `closed` - visible to all members of this organization.  
-**For a parent or child team:**  
- * `closed` - visible to all members of this organization. |
-| `notification_setting` | No | string | The notification setting the team has chosen. Editing teams without specifying this parameter leaves `notification_setting` intact. The options are: 
- * `notifications_enabled` - team members receive notifications when the team is @mentioned.  
- * `notifications_disabled` - no one receives notifications. |
-| `permission` | No | string | **Closing down notice**. The permission that new repositories will be added to the team with when none is specified. |
+| `name` | Yes | string | The name of the team. |
+| `notification_setting` | No | string | The notification setting the team has chosen. Editing teams without specifying this parameter leaves `notification_setting` intact. The options are: <br/> * `notifications_enabled` - team members receive notifications when the team is @mentioned.  <br/> * `notifications_disabled` - no one receives notifications. |
 | `parent_team_id` | No | integer | The ID of a team to set as the parent team. |
+| `permission` | No | string | **Closing down notice**. The permission that new repositories will be added to the team with when none is specified. |
+| `privacy` | No | string | The level of privacy this team should have. Editing teams without specifying this parameter leaves `privacy` intact. The options are:  <br/>**For a non-nested team:**  <br/> * `secret` - only visible to organization owners and members of this team.  <br/> * `closed` - visible to all members of this organization.  <br/>**For a parent or child team:**  <br/> * `closed` - visible to all members of this organization. |
 
 
 ## Responses
@@ -68,6 +61,10 @@ Response
 [team-full](../../_components/schemas/team-full.md)
 
 
+### 403
+
+Reference: [forbidden](../../_components/responses/forbidden.md)
+
 ### 404
 
 Reference: [not_found](../../_components/responses/not_found.md)
@@ -75,8 +72,4 @@ Reference: [not_found](../../_components/responses/not_found.md)
 ### 422
 
 Reference: [validation_failed](../../_components/responses/validation_failed.md)
-
-### 403
-
-Reference: [forbidden](../../_components/responses/forbidden.md)
 

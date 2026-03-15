@@ -11,11 +11,11 @@ Event
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | Yes | string |  |
-| `type` | Yes | string |  |
 | `actor` | Yes | [actor](actor.md) |  |
-| `repo` | Yes | object |  |
+| `created_at` | Yes | string |  |
+| `id` | Yes | string |  |
 | `org` | No | [actor](actor.md) |  |
 | `payload` | Yes | oneOf(16) |  |
 | `public` | Yes | boolean |  |
-| `created_at` | Yes | string |  |
+| `repo` | Yes | object |  |
+| `type` | Yes | string |  |

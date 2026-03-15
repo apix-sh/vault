@@ -42,13 +42,16 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 
 #### Response Schema (`application/json`)
 [short-blob](../../../../../_components/schemas/short-blob.md)
 
+
+### 403
+
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
@@ -57,10 +60,6 @@ Reference: [not_found](../../../../../_components/responses/not_found.md)
 ### 409
 
 Reference: [conflict](../../../../../_components/responses/conflict.md)
-
-### 403
-
-Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 422
 

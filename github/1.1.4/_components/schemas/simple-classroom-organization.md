@@ -11,9 +11,9 @@ A GitHub organization.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `avatar_url` | Yes | string |  |
+| `html_url` | Yes | string |  |
 | `id` | Yes | integer |  |
 | `login` | Yes | string |  |
-| `node_id` | Yes | string |  |
-| `html_url` | Yes | string |  |
 | `name` | Yes | string |  |
-| `avatar_url` | Yes | string |  |
+| `node_id` | Yes | string |  |

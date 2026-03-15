@@ -19,8 +19,8 @@ The [comment](https://docs.github.com/rest/issues/comments#get-an-issue-comment)
 | `issue_url` | Yes | string |  |
 | `node_id` | Yes | string |  |
 | `performed_via_github_app` | Yes | [integration](integration.md) |  |
+| `pin` | No | [nullable-pinned-issue-comment](nullable-pinned-issue-comment.md) |  |
 | `reactions` | Yes | object |  |
 | `updated_at` | Yes | string |  |
 | `url` | Yes | string | URL for the issue comment |
 | `user` | Yes | object |  |
-| `pin` | No | [nullable-pinned-issue-comment](nullable-pinned-issue-comment.md) |  |

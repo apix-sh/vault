@@ -11,6 +11,6 @@ Branch Short
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | Yes | string |  |
 | `commit` | Yes | object |  |
+| `name` | Yes | string |  |
 | `protected` | Yes | boolean |  |

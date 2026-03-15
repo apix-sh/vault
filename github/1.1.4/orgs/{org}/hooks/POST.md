@@ -34,10 +34,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | Must be passed as "web". |
+| `active` | No | boolean | Determines if notifications are sent when the webhook is triggered. Set to `true` to send notifications. |
 | `config` | Yes | object | Key/value pairs to provide settings for this webhook. |
 | `events` | No | array<string> | Determines what [events](https://docs.github.com/webhooks/event-payloads) the hook is triggered for. Set to `["*"]` to receive all possible events. |
-| `active` | No | boolean | Determines if notifications are sent when the webhook is triggered. Set to `true` to send notifications. |
+| `name` | Yes | string | Must be passed as "web". |
 
 
 ## Responses
@@ -50,7 +50,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 
@@ -58,11 +57,11 @@ Response
 [org-hook](../../../_components/schemas/org-hook.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

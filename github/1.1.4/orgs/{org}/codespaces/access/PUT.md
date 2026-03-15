@@ -30,8 +30,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `visibility` | Yes | string | Which users can access codespaces in the organization. `disabled` means that no users can access codespaces in the organization. |
 | `selected_usernames` | No | array<string> | The usernames of the organization members who should have access to codespaces in the organization. Required when `visibility` is `selected_members`. The provided list of usernames will replace any existing value. |
+| `visibility` | Yes | string | Which users can access codespaces in the organization. `disabled` means that no users can access codespaces in the organization. |
 
 
 ## Responses

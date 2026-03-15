@@ -11,6 +11,6 @@ Interaction limit settings.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `expires_at` | Yes | string |  |
 | `limit` | Yes | [interaction-group](interaction-group.md) |  |
 | `origin` | Yes | string |  |
-| `expires_at` | Yes | string |  |

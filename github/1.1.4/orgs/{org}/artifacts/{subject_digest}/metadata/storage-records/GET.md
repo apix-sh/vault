@@ -14,7 +14,7 @@ The collection of storage records returned by this endpoint is filtered accordin
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `subject_digest` | Yes | string | The parameter should be set to the attestation's subject's SHA256 digest, in the form `sha256:HEX_DIGEST`.<br/>*Serialization: style=Simple* |
+| `subject_digest` | Yes | string | The parameter should be set to the attestation's subject's SHA256 digest, in the form `sha256:HEX_DIGEST`. |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | No | integer | The number of storage records for this digest and organization |
 | `storage_records` | No | array<object> |  |
+| `total_count` | No | integer | The number of storage records for this digest and organization |
 
 

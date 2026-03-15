@@ -42,7 +42,6 @@ if child teams exist
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
 
 

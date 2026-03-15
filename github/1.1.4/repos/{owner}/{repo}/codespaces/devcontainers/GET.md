@@ -41,13 +41,9 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `devcontainers` | Yes | array<object> |  |
+| `total_count` | Yes | integer |  |
 
-
-### 500
-
-Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 
 ### 400
 
@@ -64,4 +60,8 @@ Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 ### 404
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
+
+### 500
+
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 

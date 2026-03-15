@@ -62,7 +62,7 @@ These are the possible values for `reason` in the `verification` object:
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `basehead` | Yes | string | The base branch and head branch to compare. This parameter expects the format `BASE...HEAD`. Both must be branch names in `repo`. To compare with a branch that exists in a different repository in the same network as `repo`, the `basehead` parameter expects the format `USERNAME:BASE...USERNAME:HEAD`.<br/>*Serialization: style=Simple* |
+| `basehead` | Yes | string | The base branch and head branch to compare. This parameter expects the format `BASE...HEAD`. Both must be branch names in `repo`. To compare with a branch that exists in a different repository in the same network as `repo`, the `basehead` parameter expects the format `USERNAME:BASE...USERNAME:HEAD`. |
 
 
 ## Query Parameters

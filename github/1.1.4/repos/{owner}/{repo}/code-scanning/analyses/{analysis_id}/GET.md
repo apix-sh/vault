@@ -28,7 +28,7 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `analysis_id` | Yes | integer | The ID of the analysis, as returned from the `GET /repos/{owner}/{repo}/code-scanning/analyses` operation.<br/>*Serialization: style=Simple* |
+| `analysis_id` | Yes | integer | The ID of the analysis, as returned from the `GET /repos/{owner}/{repo}/code-scanning/analyses` operation. |
 
 
 ## Query Parameters

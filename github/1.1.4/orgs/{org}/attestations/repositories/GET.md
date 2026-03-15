@@ -22,9 +22,7 @@ _(None)_
 | `Reference` | N/A | [pagination-before](../../../../_components/parameters/pagination-before.md) |  |
 | `Reference` | N/A | [pagination-after](../../../../_components/parameters/pagination-after.md) |  |
 | `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
-| `predicate_type` | No | string | Optional filter for fetching attestations with a given predicate type.
-This option accepts `provenance`, `sbom`, `release`, or freeform text
-for custom predicate types.<br/>*Serialization: style=Form* |
+| `predicate_type` | No | string | Optional filter for fetching attestations with a given predicate type.<br/>This option accepts `provenance`, `sbom`, `release`, or freeform text<br/>for custom predicate types. |
 
 
 

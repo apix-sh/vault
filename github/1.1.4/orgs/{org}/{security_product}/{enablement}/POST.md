@@ -36,7 +36,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `query_suite` | No | string | CodeQL query suite to be used. If you specify the `query_suite` parameter, the default setup will be configured with this query suite only on all repositories that didn't have default setup already configured. It will not change the query suite on repositories that already have default setup configured.<br/>If you don't specify any `query_suite` in your request, the preferred query suite of the organization will be applied. |
 
 
 ## Responses

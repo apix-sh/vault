@@ -35,16 +35,12 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `ref` | Yes | string | The git reference for the workflow. The reference can be a branch or tag name. |
 | `inputs` | No | object | Input keys and values configured in the workflow file. The maximum number of properties is 25. Any default properties configured in the workflow file will be used when `inputs` are omitted. |
+| `ref` | Yes | string | The git reference for the workflow. The reference can be a branch or tag name. |
 | `return_run_details` | No | boolean | Whether the response should include the workflow run ID and URLs. |
 
 
 ## Responses
-
-### 204
-
-Empty response when `return_run_details` parameter is `false`.
 
 ### 200
 
@@ -53,4 +49,8 @@ Response including the workflow run ID and URLs when `return_run_details` parame
 #### Response Schema (`application/json`)
 [workflow-dispatch-response](../../../../../../../_components/schemas/workflow-dispatch-response.md)
 
+
+### 204
+
+Empty response when `return_run_details` parameter is `false`.
 

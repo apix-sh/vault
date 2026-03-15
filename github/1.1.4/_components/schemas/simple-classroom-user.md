@@ -11,7 +11,7 @@ A GitHub user simplified for Classroom.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | Yes | integer |  |
-| `login` | Yes | string |  |
 | `avatar_url` | Yes | string |  |
 | `html_url` | Yes | string |  |
+| `id` | Yes | integer |  |
+| `login` | Yes | string |  |

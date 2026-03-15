@@ -33,8 +33,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `machine` | No | string | A valid machine to transition this codespace to. |
 | `display_name` | No | string | Display name for this codespace |
+| `machine` | No | string | A valid machine to transition this codespace to. |
 | `recent_folders` | No | array<string> | Recently opened folders inside the codespace. It is currently used by the clients to determine the folder path to load the codespace in. |
 
 

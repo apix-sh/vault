@@ -12,7 +12,7 @@ Delete an artifact attestation by subject digest.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `subject_digest` | Yes | string | Subject Digest<br/>*Serialization: style=Simple* |
+| `subject_digest` | Yes | string | Subject Digest |
 
 
 ## Query Parameters

@@ -46,15 +46,14 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `jobs` | Yes | array<[job](../../../../../../../../../_components/schemas/job.md)> |  |
+| `total_count` | Yes | integer |  |
 
 
 ### 404

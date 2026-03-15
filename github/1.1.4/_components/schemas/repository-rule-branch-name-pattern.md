@@ -11,5 +11,5 @@ Parameters to be used for the branch_name_pattern rule
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: branch_name_pattern |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: branch_name_pattern |

@@ -27,9 +27,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `text` | Yes | string | The Markdown text to render in HTML. |
-| `mode` | No | string | The rendering mode. |
 | `context` | No | string | The repository context to use when creating references in `gfm` mode.  For example, setting `context` to `octo-org/octo-repo` will change the text `#42` into an HTML link to issue 42 in the `octo-org/octo-repo` repository. |
+| `mode` | No | string | The rendering mode. |
+| `text` | Yes | string | The Markdown text to render in HTML. |
 
 
 ## Responses
@@ -42,9 +42,8 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `Content-Type (ref)` | Unknown | [content-type](../_components/headers/content-type.md) |  |
 | `Content-Length` | No | string |  |
+| `Content-Type (ref)` | Unknown | [content-type](../_components/headers/content-type.md) |  |
 | `X-CommonMarker-Version (ref)` | Unknown | [x-common-marker-version](../_components/headers/x-common-marker-version.md) |  |
 
 

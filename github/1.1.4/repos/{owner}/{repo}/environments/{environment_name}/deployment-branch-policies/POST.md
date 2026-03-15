@@ -44,11 +44,11 @@ Response
 [deployment-branch-policy](../../../../../../_components/schemas/deployment-branch-policy.md)
 
 
-### 404
-
-Not Found or `deployment_branch_policy.custom_branch_policies` property for the environment is set to false
-
 ### 303
 
 Response if the same branch name pattern already exists
+
+### 404
+
+Not Found or `deployment_branch_policy.custom_branch_policies` property for the environment is set to false
 

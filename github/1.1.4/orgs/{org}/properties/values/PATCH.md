@@ -38,8 +38,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `repository_names` | Yes | array<string> | The names of repositories that the custom property values will be applied to. |
 | `properties` | Yes | array<[custom-property-value](../../../../_components/schemas/custom-property-value.md)> | List of custom property names and associated values to apply to the repositories. |
+| `repository_names` | Yes | array<string> | The names of repositories that the custom property values will be applied to. |
 
 
 ## Responses

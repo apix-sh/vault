@@ -11,7 +11,7 @@ Code of Conduct Simple
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
+| `html_url` | Yes | string |  |
 | `key` | Yes | string |  |
 | `name` | Yes | string |  |
-| `html_url` | Yes | string |  |
+| `url` | Yes | string |  |

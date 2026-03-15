@@ -77,15 +77,15 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `ref` | Yes | string | The ref to deploy. This can be a branch, tag, or SHA. |
-| `task` | No | string | Specifies a task to execute (e.g., `deploy` or `deploy:migrations`). |
 | `auto_merge` | No | boolean | Attempts to automatically merge the default branch into the requested ref, if it's behind the default branch. |
-| `required_contexts` | No | array<string> | The [status](https://docs.github.com/rest/commits/statuses) contexts to verify against commit status checks. If you omit this parameter, GitHub verifies all unique contexts before creating a deployment. To bypass checking entirely, pass an empty array. Defaults to all unique contexts. |
-| `payload` | No | oneOf(2) |  |
-| `environment` | No | string | Name for the target deployment environment (e.g., `production`, `staging`, `qa`). |
 | `description` | No | string | Short description of the deployment. |
-| `transient_environment` | No | boolean | Specifies if the given environment is specific to the deployment and will no longer exist at some point in the future. Default: `false` |
+| `environment` | No | string | Name for the target deployment environment (e.g., `production`, `staging`, `qa`). |
+| `payload` | No | oneOf(2) |  |
 | `production_environment` | No | boolean | Specifies if the given environment is one that end-users directly interact with. Default: `true` when `environment` is `production` and `false` otherwise. |
+| `ref` | Yes | string | The ref to deploy. This can be a branch, tag, or SHA. |
+| `required_contexts` | No | array<string> | The [status](https://docs.github.com/rest/commits/statuses) contexts to verify against commit status checks. If you omit this parameter, GitHub verifies all unique contexts before creating a deployment. To bypass checking entirely, pass an empty array. Defaults to all unique contexts. |
+| `task` | No | string | Specifies a task to execute (e.g., `deploy` or `deploy:migrations`). |
+| `transient_environment` | No | boolean | Specifies if the given environment is specific to the deployment and will no longer exist at some point in the future. Default: `false` |
 
 
 ## Responses

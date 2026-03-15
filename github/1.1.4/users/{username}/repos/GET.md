@@ -18,9 +18,9 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [username](../../../_components/parameters/username.md) |  |
-| `type` | No | string | Limit results to repositories of the specified type.<br/>*Serialization: style=Form* |
-| `sort` | No | string | The property to sort the results by.<br/>*Serialization: style=Form* |
-| `direction` | No | string | The order to sort by. Default: `asc` when using `full_name`, otherwise `desc`.<br/>*Serialization: style=Form* |
+| `type` | No | string | Limit results to repositories of the specified type. |
+| `sort` | No | string | The property to sort the results by. |
+| `direction` | No | string | The order to sort by. Default: `asc` when using `full_name`, otherwise `desc`. |
 | `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
 
@@ -41,7 +41,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 

@@ -22,8 +22,8 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [username](../../../_components/parameters/username.md) |  |
-| `subject_type` | No | string | Identifies which additional information you'd like to receive about the person's hovercard. Can be `organization`, `repository`, `issue`, `pull_request`. **Required** when using `subject_id`.<br/>*Serialization: style=Form* |
-| `subject_id` | No | string | Uses the ID for the `subject_type` you specified. **Required** when using `subject_type`.<br/>*Serialization: style=Form* |
+| `subject_type` | No | string | Identifies which additional information you'd like to receive about the person's hovercard. Can be `organization`, `repository`, `issue`, `pull_request`. **Required** when using `subject_id`. |
+| `subject_id` | No | string | Uses the ID for the `subject_type` you specified. **Required** when using `subject_type`. |
 
 
 

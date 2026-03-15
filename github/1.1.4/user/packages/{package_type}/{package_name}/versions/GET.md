@@ -23,7 +23,7 @@ _(None)_
 | `Reference` | N/A | [package-name](../../../../../_components/parameters/package-name.md) |  |
 | `Reference` | N/A | [page](../../../../../_components/parameters/page.md) |  |
 | `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
-| `state` | No | string | The state of the package, either active or deleted.<br/>*Serialization: style=Form* |
+| `state` | No | string | The state of the package, either active or deleted. |
 
 
 
@@ -42,15 +42,15 @@ Response
 array<[package-version](../../../../../_components/schemas/package-version.md)>
 
 
-### 404
+### 401
 
-Reference: [not_found](../../../../../_components/responses/not_found.md)
+Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
 
 ### 403
 
 Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
-### 401
+### 404
 
-Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
+Reference: [not_found](../../../../../_components/responses/not_found.md)
 

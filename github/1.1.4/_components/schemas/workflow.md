@@ -11,14 +11,14 @@ A GitHub Actions workflow
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `badge_url` | Yes | string |  |
+| `created_at` | Yes | string |  |
+| `deleted_at` | No | string |  |
+| `html_url` | Yes | string |  |
 | `id` | Yes | integer |  |
-| `node_id` | Yes | string |  |
 | `name` | Yes | string |  |
+| `node_id` | Yes | string |  |
 | `path` | Yes | string |  |
 | `state` | Yes | string | Allowed values: active, deleted, disabled_fork, disabled_inactivity, disabled_manually |
-| `created_at` | Yes | string |  |
 | `updated_at` | Yes | string |  |
 | `url` | Yes | string |  |
-| `html_url` | Yes | string |  |
-| `badge_url` | Yes | string |  |
-| `deleted_at` | No | string |  |

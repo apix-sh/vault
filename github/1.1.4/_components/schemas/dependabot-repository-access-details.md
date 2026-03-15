@@ -11,5 +11,5 @@ Information about repositories that Dependabot is able to access in an organizat
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `default_level` | No | string | The default repository access level for Dependabot updates. Allowed values: public, internal |
 | `accessible_repositories` | No | array<[nullable-simple-repository](./nullable-simple-repository.md)> |  |
+| `default_level` | No | string | The default repository access level for Dependabot updates. Allowed values: public, internal |

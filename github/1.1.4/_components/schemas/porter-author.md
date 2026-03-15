@@ -11,10 +11,10 @@ Porter Author
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `email` | Yes | string |  |
 | `id` | Yes | integer |  |
+| `import_url` | Yes | string |  |
+| `name` | Yes | string |  |
 | `remote_id` | Yes | string |  |
 | `remote_name` | Yes | string |  |
-| `email` | Yes | string |  |
-| `name` | Yes | string |  |
 | `url` | Yes | string |  |
-| `import_url` | Yes | string |  |

@@ -8,8 +8,8 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `timePeriod` | Yes | object |  |
-| `user` | Yes | string | The unique identifier of the user. |
-| `product` | No | string | The product for the usage report. |
 | `model` | No | string | The model for the usage report. |
+| `product` | No | string | The product for the usage report. |
+| `timePeriod` | Yes | object |  |
 | `usageItems` | Yes | array<object> |  |
+| `user` | Yes | string | The unique identifier of the user. |

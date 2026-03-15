@@ -31,9 +31,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `custom_pattern_settings` | No | array<object> | Pattern settings for custom patterns. |
 | `pattern_config_version` | No | [secret-scanning-row-version](../../../../_components/schemas/secret-scanning-row-version.md) |  |
 | `provider_pattern_settings` | No | array<object> | Pattern settings for provider patterns. |
-| `custom_pattern_settings` | No | array<object> | Pattern settings for custom patterns. |
 
 
 ## Responses

@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `featured` | No | boolean | *Serialization: style=Form* |
+| `featured` | No | boolean |  |
 | `Reference` | N/A | [per-page](../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../_components/parameters/page.md) |  |
 

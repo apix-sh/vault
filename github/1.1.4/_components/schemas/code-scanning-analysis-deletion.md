@@ -11,5 +11,5 @@ Successful deletion of a code scanning analysis
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `next_analysis_url` | Yes | string | Next deletable analysis in chain, without last analysis deletion confirmation |
 | `confirm_delete_url` | Yes | string | Next deletable analysis in chain, with last analysis deletion confirmation |
+| `next_analysis_url` | Yes | string | Next deletable analysis in chain, without last analysis deletion confirmation |

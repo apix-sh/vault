@@ -34,11 +34,11 @@ _(None)_
 
 Response
 
-### 422
-
-Validation failed, an attempt was made to delete the default branch, or the endpoint has been spammed.
-
 ### 409
 
 Reference: [conflict](../../../../../../_components/responses/conflict.md)
+
+### 422
+
+Validation failed, an attempt was made to delete the default branch, or the endpoint has been spammed.
 

@@ -11,9 +11,9 @@ The public key used for setting Codespaces secrets.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `key_id` | Yes | string | The identifier for the key. |
-| `key` | Yes | string | The Base64 encoded public key. |
-| `id` | No | integer |  |
-| `url` | No | string |  |
-| `title` | No | string |  |
 | `created_at` | No | string |  |
+| `id` | No | integer |  |
+| `key` | Yes | string | The Base64 encoded public key. |
+| `key_id` | Yes | string | The identifier for the key. |
+| `title` | No | string |  |
+| `url` | No | string |  |

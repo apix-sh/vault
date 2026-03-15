@@ -16,7 +16,7 @@ The authenticated user making the request must have read access to the repositor
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `subject_digest` | Yes | string | The parameter should be set to the attestation's subject's SHA256 digest, in the form `sha256:HEX_DIGEST`.<br/>*Serialization: style=Simple* |
+| `subject_digest` | Yes | string | The parameter should be set to the attestation's subject's SHA256 digest, in the form `sha256:HEX_DIGEST`. |
 
 
 ## Query Parameters
@@ -28,9 +28,7 @@ The authenticated user making the request must have read access to the repositor
 | `Reference` | N/A | [per-page](../../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [pagination-before](../../../../../_components/parameters/pagination-before.md) |  |
 | `Reference` | N/A | [pagination-after](../../../../../_components/parameters/pagination-after.md) |  |
-| `predicate_type` | No | string | Optional filter for fetching attestations with a given predicate type.
-This option accepts `provenance`, `sbom`, `release`, or freeform text
-for custom predicate types.<br/>*Serialization: style=Form* |
+| `predicate_type` | No | string | Optional filter for fetching attestations with a given predicate type.<br/>This option accepts `provenance`, `sbom`, `release`, or freeform text<br/>for custom predicate types. |
 
 
 

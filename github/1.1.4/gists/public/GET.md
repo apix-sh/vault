@@ -40,17 +40,12 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 array<[base-gist](../../_components/schemas/base-gist.md)>
 
-
-### 422
-
-Reference: [validation_failed](../../_components/responses/validation_failed.md)
 
 ### 304
 
@@ -59,4 +54,8 @@ Reference: [not_modified](../../_components/responses/not_modified.md)
 ### 403
 
 Reference: [forbidden](../../_components/responses/forbidden.md)
+
+### 422
+
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 

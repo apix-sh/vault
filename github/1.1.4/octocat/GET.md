@@ -17,7 +17,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `s` | No | string | The words to show in Octocat's speech bubble<br/>*Serialization: style=Form* |
+| `s` | No | string | The words to show in Octocat's speech bubble |
 
 
 

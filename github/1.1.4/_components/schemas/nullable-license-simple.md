@@ -11,9 +11,9 @@ License Simple
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `html_url` | No | string |  |
 | `key` | Yes | string |  |
 | `name` | Yes | string |  |
-| `url` | Yes | string |  |
-| `spdx_id` | Yes | string |  |
 | `node_id` | Yes | string |  |
-| `html_url` | No | string |  |
+| `spdx_id` | Yes | string |  |
+| `url` | Yes | string |  |

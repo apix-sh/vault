@@ -11,10 +11,10 @@ An export of a codespace. Also, latest export details for a codespace can be fet
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `state` | No | string | State of the latest export |
-| `completed_at` | No | string | Completion time of the last export operation |
 | `branch` | No | string | Name of the exported branch |
-| `sha` | No | string | Git commit SHA of the exported branch |
-| `id` | No | string | Id for the export details |
+| `completed_at` | No | string | Completion time of the last export operation |
 | `export_url` | No | string | Url for fetching export details |
 | `html_url` | No | string | Web url for the exported branch |
+| `id` | No | string | Id for the export details |
+| `sha` | No | string | Git commit SHA of the exported branch |
+| `state` | No | string | State of the latest export |

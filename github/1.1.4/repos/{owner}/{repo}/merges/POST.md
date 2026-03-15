@@ -29,8 +29,8 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `base` | Yes | string | The name of the base branch that the head will be merged into. |
-| `head` | Yes | string | The head to merge. This can be a branch name or a commit SHA1. |
 | `commit_message` | No | string | Commit message to use for the merge commit. If omitted, a default message will be used. |
+| `head` | Yes | string | The head to merge. This can be a branch name or a commit SHA1. |
 
 
 ## Responses
@@ -47,6 +47,10 @@ Successful Response (The resulting merge commit)
 
 Response when already merged
 
+### 403
+
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
+
 ### 404
 
 Not Found when the base or head does not exist
@@ -54,10 +58,6 @@ Not Found when the base or head does not exist
 ### 409
 
 Conflict when there is a merge conflict
-
-### 403
-
-Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 422
 

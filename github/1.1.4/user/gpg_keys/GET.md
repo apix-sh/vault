@@ -39,7 +39,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
 
 
@@ -51,15 +50,15 @@ array<[gpg-key](../../_components/schemas/gpg-key.md)>
 
 Reference: [not_modified](../../_components/responses/not_modified.md)
 
-### 404
+### 401
 
-Reference: [not_found](../../_components/responses/not_found.md)
+Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
 
 ### 403
 
 Reference: [forbidden](../../_components/responses/forbidden.md)
 
-### 401
+### 404
 
-Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
+Reference: [not_found](../../_components/responses/not_found.md)
 

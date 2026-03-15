@@ -36,8 +36,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `event_type` | Yes | string | A custom webhook event name. Must be 100 characters or fewer. |
 | `client_payload` | No | object | JSON payload with extra information about the webhook event that your action or workflow may use. The maximum number of top-level properties is 10. The total size of the JSON payload must be less than 64KB. |
+| `event_type` | Yes | string | A custom webhook event name. Must be 100 characters or fewer. |
 
 
 ## Responses

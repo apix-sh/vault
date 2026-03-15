@@ -43,7 +43,7 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer | The number of deployment branch policies for the environment. |
 | `branch_policies` | Yes | array<[deployment-branch-policy](../../../../../../_components/schemas/deployment-branch-policy.md)> |  |
+| `total_count` | Yes | integer | The number of deployment branch policies for the environment. |
 
 

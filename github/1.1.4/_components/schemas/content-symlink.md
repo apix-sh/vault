@@ -11,14 +11,14 @@ An object describing a symlink
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: symlink |
-| `target` | Yes | string |  |
-| `size` | Yes | integer |  |
+| `_links` | Yes | object |  |
+| `download_url` | Yes | string |  |
+| `git_url` | Yes | string |  |
+| `html_url` | Yes | string |  |
 | `name` | Yes | string |  |
 | `path` | Yes | string |  |
 | `sha` | Yes | string |  |
+| `size` | Yes | integer |  |
+| `target` | Yes | string |  |
+| `type` | Yes | string | Allowed values: symlink |
 | `url` | Yes | string |  |
-| `git_url` | Yes | string |  |
-| `html_url` | Yes | string |  |
-| `download_url` | Yes | string |  |
-| `_links` | Yes | object |  |

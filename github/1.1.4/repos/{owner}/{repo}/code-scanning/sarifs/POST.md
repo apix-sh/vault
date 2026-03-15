@@ -63,15 +63,13 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `checkout_uri` | No | string | The base directory used in the analysis, as it appears in the SARIF file.<br/>This property is used to convert file paths from absolute to relative, so that alerts can be mapped to their correct location in the repository. |
 | `commit_sha` | Yes | [code-scanning-analysis-commit-sha](../../../../../_components/schemas/code-scanning-analysis-commit-sha.md) |  |
 | `ref` | Yes | [code-scanning-ref-full](../../../../../_components/schemas/code-scanning-ref-full.md) |  |
 | `sarif` | Yes | [code-scanning-analysis-sarif-file](../../../../../_components/schemas/code-scanning-analysis-sarif-file.md) |  |
-| `checkout_uri` | No | string | The base directory used in the analysis, as it appears in the SARIF file.
-This property is used to convert file paths from absolute to relative, so that alerts can be mapped to their correct location in the repository. |
 | `started_at` | No | string | The time that the analysis run began. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. |
 | `tool_name` | No | string | The name of the tool used to generate the code scanning analysis. If this parameter is not used, the tool name defaults to "API". If the uploaded SARIF contains a tool GUID, this will be available for filtering using the `tool_guid` parameter of operations such as `GET /repos/{owner}/{repo}/code-scanning/alerts`. |
-| `validate` | No | boolean | Whether the SARIF file will be validated according to the code scanning specifications.
-This parameter is intended to help integrators ensure that the uploaded SARIF files are correctly rendered by code scanning. |
+| `validate` | No | boolean | Whether the SARIF file will be validated according to the code scanning specifications.<br/>This parameter is intended to help integrators ensure that the uploaded SARIF files are correctly rendered by code scanning. |
 
 
 ## Responses

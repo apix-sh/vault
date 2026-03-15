@@ -53,11 +53,11 @@ Response after successfully creating a secret
 
 Response after successfully updating a secret
 
-### 422
-
-Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

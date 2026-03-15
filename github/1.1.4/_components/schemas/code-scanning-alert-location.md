@@ -11,8 +11,8 @@ Describe a region within a file for the alert.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `path` | No | string |  |
-| `start_line` | No | integer |  |
-| `end_line` | No | integer |  |
-| `start_column` | No | integer |  |
 | `end_column` | No | integer |  |
+| `end_line` | No | integer |  |
+| `path` | No | string |  |
+| `start_column` | No | integer |  |
+| `start_line` | No | integer |  |

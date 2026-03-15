@@ -24,6 +24,8 @@ The [issue](https://docs.github.com/rest/issues/issues#get-an-issue) itself.
 | `events_url` | Yes | string |  |
 | `html_url` | Yes | string |  |
 | `id` | Yes | integer |  |
+| `issue_dependencies_summary` | No | [issue-dependencies-summary](issue-dependencies-summary.md) |  |
+| `issue_field_values` | No | array<[issue-field-value](./issue-field-value.md)> |  |
 | `labels` | No | array<object> |  |
 | `labels_url` | Yes | string |  |
 | `locked` | No | boolean |  |
@@ -31,15 +33,13 @@ The [issue](https://docs.github.com/rest/issues/issues#get-an-issue) itself.
 | `node_id` | Yes | string |  |
 | `number` | Yes | integer |  |
 | `performed_via_github_app` | No | object | GitHub apps are a new way to extend GitHub. They can be installed directly on organizations and user accounts and granted access to specific repositories. They come with granular permissions and built-in webhooks. GitHub apps are first class actors within GitHub. |
+| `pinned_comment` | No | [nullable-issue-comment](nullable-issue-comment.md) |  |
 | `pull_request` | No | object |  |
 | `reactions` | Yes | object |  |
 | `repository_url` | Yes | string |  |
-| `pinned_comment` | No | [nullable-issue-comment](nullable-issue-comment.md) |  |
-| `sub_issues_summary` | No | [sub-issues-summary](sub-issues-summary.md) |  |
-| `issue_dependencies_summary` | No | [issue-dependencies-summary](issue-dependencies-summary.md) |  |
-| `issue_field_values` | No | array<[issue-field-value](./issue-field-value.md)> |  |
 | `state` | No | string | State of the issue; either 'open' or 'closed' Allowed values: open, closed |
 | `state_reason` | No | string |  |
+| `sub_issues_summary` | No | [sub-issues-summary](sub-issues-summary.md) |  |
 | `timeline_url` | No | string |  |
 | `title` | Yes | string | Title of the issue |
 | `type` | No | [issue-type](issue-type.md) |  |

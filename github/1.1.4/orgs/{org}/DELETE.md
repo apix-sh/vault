@@ -38,11 +38,11 @@ _(None)_
 
 Reference: [accepted](../../_components/responses/accepted.md)
 
-### 404
-
-Reference: [not_found](../../_components/responses/not_found.md)
-
 ### 403
 
 Reference: [forbidden](../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../_components/responses/not_found.md)
 

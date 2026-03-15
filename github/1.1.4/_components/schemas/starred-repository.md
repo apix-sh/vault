@@ -11,5 +11,5 @@ Starred Repository
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `starred_at` | Yes | string |  |
 | `repo` | Yes | [repository](repository.md) |  |
+| `starred_at` | Yes | string |  |

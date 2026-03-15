@@ -32,10 +32,6 @@ _(None)_
 
 Response
 
-### 404
-
-Reference: [not_found](../../../_components/responses/not_found.md)
-
 ### 304
 
 Reference: [not_modified](../../../_components/responses/not_modified.md)
@@ -43,4 +39,8 @@ Reference: [not_modified](../../../_components/responses/not_modified.md)
 ### 403
 
 Reference: [forbidden](../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../_components/responses/not_found.md)
 

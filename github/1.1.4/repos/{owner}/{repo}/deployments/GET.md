@@ -19,10 +19,10 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
-| `sha` | No | string | The SHA recorded at creation time.<br/>*Serialization: style=Form* |
-| `ref` | No | string | The name of the ref. This can be a branch, tag, or SHA.<br/>*Serialization: style=Form* |
-| `task` | No | string | The name of the task for the deployment (e.g., `deploy` or `deploy:migrations`).<br/>*Serialization: style=Form* |
-| `environment` | No | string | The name of the environment that was deployed to (e.g., `staging` or `production`).<br/>*Serialization: style=Form* |
+| `sha` | No | string | The SHA recorded at creation time. |
+| `ref` | No | string | The name of the ref. This can be a branch, tag, or SHA. |
+| `task` | No | string | The name of the task for the deployment (e.g., `deploy` or `deploy:migrations`). |
+| `environment` | No | string | The name of the environment that was deployed to (e.g., `staging` or `production`). |
 | `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
@@ -43,7 +43,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 

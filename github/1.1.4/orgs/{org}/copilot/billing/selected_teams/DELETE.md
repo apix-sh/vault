@@ -55,10 +55,6 @@ OK
 | `seats_cancelled` | Yes | integer |  |
 
 
-### 500
-
-Reference: [internal_error](../../../../../_components/responses/internal_error.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../../../_components/responses/requires_authentication.md)
@@ -74,4 +70,8 @@ Reference: [not_found](../../../../../_components/responses/not_found.md)
 ### 422
 
 Copilot Business or Enterprise is not enabled for this organization, billing has not been set up for this organization, a public code suggestions policy has not been set for this organization, or the organization's Copilot access setting is set to enable Copilot for all users or is unconfigured.
+
+### 500
+
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 

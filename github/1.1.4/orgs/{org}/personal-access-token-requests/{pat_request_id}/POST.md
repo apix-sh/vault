@@ -14,7 +14,7 @@ Only GitHub Apps can use this endpoint.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pat_request_id` | Yes | integer | Unique identifier of the request for access via fine-grained personal access token.<br/>*Serialization: style=Simple* |
+| `pat_request_id` | Yes | integer | Unique identifier of the request for access via fine-grained personal access token. |
 
 
 ## Query Parameters
@@ -39,23 +39,23 @@ Supported content types:
 
 ## Responses
 
-### 500
+### 204
 
-Reference: [internal_error](../../../../_components/responses/internal_error.md)
-
-### 422
-
-Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
-
-### 404
-
-Reference: [not_found](../../../../_components/responses/not_found.md)
+Reference: [no_content](../../../../_components/responses/no_content.md)
 
 ### 403
 
 Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
-### 204
+### 404
 
-Reference: [no_content](../../../../_components/responses/no_content.md)
+Reference: [not_found](../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
+
+### 500
+
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 

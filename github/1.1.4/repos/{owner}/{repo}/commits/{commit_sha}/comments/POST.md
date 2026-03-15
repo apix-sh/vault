@@ -41,9 +41,9 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `body` | Yes | string | The contents of the comment. |
+| `line` | No | integer | **Closing down notice**. Use **position** parameter instead. Line number in the file to comment on. |
 | `path` | No | string | Relative path of the file to comment on. |
 | `position` | No | integer | Line index in the diff to comment on. |
-| `line` | No | integer | **Closing down notice**. Use **position** parameter instead. Line number in the file to comment on. |
 
 
 ## Responses
@@ -56,7 +56,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 

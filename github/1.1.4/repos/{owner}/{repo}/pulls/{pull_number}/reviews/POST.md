@@ -47,10 +47,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `commit_id` | No | string | The SHA of the commit that needs a review. Not using the latest commit SHA may render your review comment outdated if a subsequent commit modifies the line you specify as the `position`. Defaults to the most recent commit in the pull request when you do not specify a value. |
 | `body` | No | string | **Required** when using `REQUEST_CHANGES` or `COMMENT` for the `event` parameter. The body text of the pull request review. |
-| `event` | No | string | The review action you want to perform. The review actions include: `APPROVE`, `REQUEST_CHANGES`, or `COMMENT`. By leaving this blank, you set the review action state to `PENDING`, which means you will need to [submit the pull request review](https://docs.github.com/rest/pulls/reviews#submit-a-review-for-a-pull-request) when you are ready. |
 | `comments` | No | array<object> | Use the following table to specify the location, destination, and contents of the draft review comment. |
+| `commit_id` | No | string | The SHA of the commit that needs a review. Not using the latest commit SHA may render your review comment outdated if a subsequent commit modifies the line you specify as the `position`. Defaults to the most recent commit in the pull request when you do not specify a value. |
+| `event` | No | string | The review action you want to perform. The review actions include: `APPROVE`, `REQUEST_CHANGES`, or `COMMENT`. By leaving this blank, you set the review action state to `PENDING`, which means you will need to [submit the pull request review](https://docs.github.com/rest/pulls/reviews#submit-a-review-for-a-pull-request) when you are ready. |
 
 
 ## Responses
@@ -63,11 +63,11 @@ Response
 [pull-request-review](../../../../../../_components/schemas/pull-request-review.md)
 
 
-### 422
-
-Reference: [validation_failed_simple](../../../../../../_components/responses/validation_failed_simple.md)
-
 ### 403
 
 Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
+
+### 422
+
+Reference: [validation_failed_simple](../../../../../../_components/responses/validation_failed_simple.md)
 

@@ -12,7 +12,7 @@ Delete an artifact attestation by unique ID that is associated with a repository
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `attestation_id` | Yes | integer | Attestation ID<br/>*Serialization: style=Simple* |
+| `attestation_id` | Yes | integer | Attestation ID |
 
 
 ## Query Parameters

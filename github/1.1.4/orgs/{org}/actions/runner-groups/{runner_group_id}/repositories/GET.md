@@ -40,7 +40,7 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | number |  |
 | `repositories` | Yes | array<[minimal-repository](../../../../../../_components/schemas/minimal-repository.md)> |  |
+| `total_count` | Yes | number |  |
 
 

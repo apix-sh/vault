@@ -35,8 +35,8 @@ Supported content types:
 | `artifact_id` | No | number | The ID of an artifact that contains the .zip or .tar of static assets to deploy. The artifact belongs to the repository. Either `artifact_id` or `artifact_url` are required. |
 | `artifact_url` | No | string | The URL of an artifact that contains the .zip or .tar of static assets to deploy. The artifact belongs to the repository. Either `artifact_id` or `artifact_url` are required. |
 | `environment` | No | string | The target environment for this GitHub Pages deployment. |
-| `pages_build_version` | Yes | string | A unique string that represents the version of the build for this deployment. |
 | `oidc_token` | Yes | string | The OIDC token issued by GitHub Actions certifying the origin of the deployment. |
+| `pages_build_version` | Yes | string | A unique string that represents the version of the build for this deployment. |
 
 
 ## Responses
@@ -53,11 +53,11 @@ Response
 
 Reference: [bad_request](../../../../../_components/responses/bad_request.md)
 
-### 422
-
-Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 

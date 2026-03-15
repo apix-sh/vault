@@ -53,6 +53,10 @@ Response
 [pull-request-review](../../../../../../../../_components/schemas/pull-request-review.md)
 
 
+### 403
+
+Reference: [forbidden](../../../../../../../../_components/responses/forbidden.md)
+
 ### 404
 
 Reference: [not_found](../../../../../../../../_components/responses/not_found.md)
@@ -60,8 +64,4 @@ Reference: [not_found](../../../../../../../../_components/responses/not_found.m
 ### 422
 
 Reference: [validation_failed_simple](../../../../../../../../_components/responses/validation_failed_simple.md)
-
-### 403
-
-Reference: [forbidden](../../../../../../../../_components/responses/forbidden.md)
 

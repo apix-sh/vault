@@ -11,7 +11,7 @@ Basic Error
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `message` | No | string |  |
 | `documentation_url` | No | string |  |
-| `url` | No | string |  |
+| `message` | No | string |  |
 | `status` | No | string |  |
+| `url` | No | string |  |

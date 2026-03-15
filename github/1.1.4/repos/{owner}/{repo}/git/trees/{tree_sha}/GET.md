@@ -17,7 +17,7 @@ If `truncated` is `true` in the response then the number of items in the `tree` 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tree_sha` | Yes | string | The SHA1 value or ref (branch or tag) name of the tree.<br/>*Serialization: style=Simple* |
+| `tree_sha` | Yes | string | The SHA1 value or ref (branch or tag) name of the tree. |
 
 
 ## Query Parameters
@@ -26,7 +26,7 @@ If `truncated` is `true` in the response then the number of items in the `tree` 
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../../_components/parameters/repo.md) |  |
-| `recursive` | No | string | Setting this parameter to any value returns the objects or subtrees referenced by the tree specified in `:tree_sha`. For example, setting `recursive` to any of the following will enable returning objects or subtrees: `0`, `1`, `"true"`, and `"false"`. Omit this parameter to prevent recursively returning objects or subtrees.<br/>*Serialization: style=Form* |
+| `recursive` | No | string | Setting this parameter to any value returns the objects or subtrees referenced by the tree specified in `:tree_sha`. For example, setting `recursive` to any of the following will enable returning objects or subtrees: `0`, `1`, `"true"`, and `"false"`. Omit this parameter to prevent recursively returning objects or subtrees. |
 
 
 
@@ -45,10 +45,6 @@ Response
 [git-tree](../../../../../../_components/schemas/git-tree.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../../../../_components/responses/not_found.md)
@@ -56,4 +52,8 @@ Reference: [not_found](../../../../../../_components/responses/not_found.md)
 ### 409
 
 Reference: [conflict](../../../../../../_components/responses/conflict.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 

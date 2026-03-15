@@ -8,14 +8,14 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `avatar_url` | Yes | string |  |
+| `context` | Yes | string |  |
+| `created_at` | Yes | string |  |
 | `description` | Yes | string |  |
 | `id` | Yes | integer |  |
 | `node_id` | Yes | string |  |
-| `state` | Yes | string |  |
-| `context` | Yes | string |  |
-| `target_url` | Yes | string |  |
 | `required` | No | boolean |  |
-| `avatar_url` | Yes | string |  |
-| `url` | Yes | string |  |
-| `created_at` | Yes | string |  |
+| `state` | Yes | string |  |
+| `target_url` | Yes | string |  |
 | `updated_at` | Yes | string |  |
+| `url` | Yes | string |  |

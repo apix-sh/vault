@@ -11,6 +11,6 @@ Set repository secrets for GitHub Codespaces.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | Yes | string | The name of the secret. |
 | `created_at` | Yes | string |  |
+| `name` | Yes | string | The name of the secret. |
 | `updated_at` | Yes | string |  |

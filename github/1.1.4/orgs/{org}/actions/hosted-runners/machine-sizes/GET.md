@@ -35,7 +35,7 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `machine_specs` | Yes | array<[actions-hosted-runner-machine-spec](../../../../../_components/schemas/actions-hosted-runner-machine-spec.md)> |  |
+| `total_count` | Yes | integer |  |
 
 

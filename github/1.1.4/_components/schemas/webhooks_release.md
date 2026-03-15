@@ -16,7 +16,6 @@ The [release](https://docs.github.com/rest/releases/releases/#get-a-release) obj
 | `author` | Yes | object |  |
 | `body` | Yes | string |  |
 | `created_at` | Yes | string |  |
-| `updated_at` | Yes | string |  |
 | `discussion_url` | No | string |  |
 | `draft` | Yes | boolean | Whether the release is a draft or published |
 | `html_url` | Yes | string |  |
@@ -30,6 +29,7 @@ The [release](https://docs.github.com/rest/releases/releases/#get-a-release) obj
 | `tag_name` | Yes | string | The name of the tag. |
 | `tarball_url` | Yes | string |  |
 | `target_commitish` | Yes | string | Specifies the commitish value that determines where the Git tag is created from. |
+| `updated_at` | Yes | string |  |
 | `upload_url` | Yes | string |  |
 | `url` | Yes | string |  |
 | `zipball_url` | Yes | string |  |

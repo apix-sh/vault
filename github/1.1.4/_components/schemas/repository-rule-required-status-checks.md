@@ -11,5 +11,5 @@ Choose which status checks must pass before the ref is updated. When enabled, co
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: required_status_checks |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: required_status_checks |

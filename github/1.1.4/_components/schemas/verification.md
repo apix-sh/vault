@@ -8,8 +8,8 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `verified` | Yes | boolean |  |
-| `reason` | Yes | string |  |
 | `payload` | Yes | string |  |
+| `reason` | Yes | string |  |
 | `signature` | Yes | string |  |
+| `verified` | Yes | boolean |  |
 | `verified_at` | Yes | string |  |

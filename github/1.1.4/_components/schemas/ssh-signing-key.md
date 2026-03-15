@@ -11,7 +11,7 @@ A public SSH key used to sign Git commits
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `key` | Yes | string |  |
-| `id` | Yes | integer |  |
-| `title` | Yes | string |  |
 | `created_at` | Yes | string |  |
+| `id` | Yes | integer |  |
+| `key` | Yes | string |  |
+| `title` | Yes | string |  |

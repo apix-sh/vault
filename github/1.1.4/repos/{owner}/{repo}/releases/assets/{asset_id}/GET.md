@@ -44,11 +44,11 @@ Response
 [release-asset](../../../../../../_components/schemas/release-asset.md)
 
 
-### 404
-
-Reference: [not_found](../../../../../../_components/responses/not_found.md)
-
 ### 302
 
 Reference: [found](../../../../../../_components/responses/found.md)
+
+### 404
+
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

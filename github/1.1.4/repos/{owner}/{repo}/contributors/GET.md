@@ -21,7 +21,7 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
-| `anon` | No | string | Set to `1` or `true` to include anonymous contributors in results.<br/>*Serialization: style=Form* |
+| `anon` | No | string | Set to `1` or `true` to include anonymous contributors in results. |
 | `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
@@ -42,7 +42,6 @@ If repository contains content
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 

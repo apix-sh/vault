@@ -38,7 +38,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
 
 
@@ -46,13 +45,13 @@ Response
 array<[base-gist](../../_components/schemas/base-gist.md)>
 
 
-### 401
-
-Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
-
 ### 304
 
 Reference: [not_modified](../../_components/responses/not_modified.md)
+
+### 401
+
+Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
 
 ### 403
 

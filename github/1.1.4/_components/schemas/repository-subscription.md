@@ -11,9 +11,9 @@ Repository invitations let you manage who you collaborate with.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `subscribed` | Yes | boolean | Determines if notifications should be received from this repository. |
+| `created_at` | Yes | string |  |
 | `ignored` | Yes | boolean | Determines if all notifications should be blocked from this repository. |
 | `reason` | Yes | string |  |
-| `created_at` | Yes | string |  |
-| `url` | Yes | string |  |
 | `repository_url` | Yes | string |  |
+| `subscribed` | Yes | boolean | Determines if notifications should be received from this repository. |
+| `url` | Yes | string |  |

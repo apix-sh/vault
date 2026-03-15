@@ -17,7 +17,7 @@ OAuth tokens and personal access tokens (classic) need the `admin:org` scope to 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `repository_id` | Yes | integer | *Serialization: style=Simple* |
+| `repository_id` | Yes | integer |  |
 
 
 ## Query Parameters

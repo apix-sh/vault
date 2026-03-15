@@ -13,6 +13,7 @@ The [`deploy key`](https://docs.github.com/rest/deploy-keys/deploy-keys#get-a-de
 | :------- | :------: | :--- | :---------- |
 | `added_by` | No | string |  |
 | `created_at` | Yes | string |  |
+| `enabled` | No | boolean |  |
 | `id` | Yes | integer |  |
 | `key` | Yes | string |  |
 | `last_used` | No | string |  |
@@ -20,4 +21,3 @@ The [`deploy key`](https://docs.github.com/rest/deploy-keys/deploy-keys#get-a-de
 | `title` | Yes | string |  |
 | `url` | Yes | string |  |
 | `verified` | Yes | boolean |  |
-| `enabled` | No | boolean |  |

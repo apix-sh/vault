@@ -40,7 +40,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link` | No | string |  |
 
 

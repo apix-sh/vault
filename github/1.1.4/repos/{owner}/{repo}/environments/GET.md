@@ -42,7 +42,7 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | No | integer | The number of environments in this repository |
 | `environments` | No | array<[environment](../../../../_components/schemas/environment.md)> |  |
+| `total_count` | No | integer | The number of environments in this repository |
 
 

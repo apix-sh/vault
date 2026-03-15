@@ -15,7 +15,7 @@ making the API request has write access to the ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ruleset_id` | Yes | integer | The ID of the ruleset.<br/>*Serialization: style=Simple* |
+| `ruleset_id` | Yes | integer | The ID of the ruleset. |
 
 
 ## Query Parameters
@@ -24,7 +24,7 @@ making the API request has write access to the ruleset.
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
-| `includes_parents` | No | boolean | Include rulesets configured at higher levels that apply to this repository<br/>*Serialization: style=Form* |
+| `includes_parents` | No | boolean | Include rulesets configured at higher levels that apply to this repository |
 
 
 

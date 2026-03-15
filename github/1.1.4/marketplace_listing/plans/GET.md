@@ -39,7 +39,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../_components/headers/link.md) |  |
 
 
@@ -47,11 +46,11 @@ Response
 array<[marketplace-listing-plan](../../_components/schemas/marketplace-listing-plan.md)>
 
 
-### 404
-
-Reference: [not_found](../../_components/responses/not_found.md)
-
 ### 401
 
 Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
+
+### 404
+
+Reference: [not_found](../../_components/responses/not_found.md)
 

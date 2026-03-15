@@ -42,8 +42,8 @@ Response - list of organization roles
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | No | integer | The total number of organization roles available to the organization. |
 | `roles` | No | array<[organization-role](../../../_components/schemas/organization-role.md)> | The list of organization roles available to the organization. |
+| `total_count` | No | integer | The total number of organization roles available to the organization. |
 
 
 ### 404

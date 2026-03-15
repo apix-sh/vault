@@ -40,7 +40,7 @@ Unprocessable Entity if user is a member of the organization
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `message` | No | string |  |
 | `documentation_url` | No | string |  |
+| `message` | No | string |  |
 
 

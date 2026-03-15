@@ -31,9 +31,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `sub_issue_id` | Yes | integer | The id of the sub-issue to reprioritize |
 | `after_id` | No | integer | The id of the sub-issue to be prioritized after (either positional argument after OR before should be specified). |
 | `before_id` | No | integer | The id of the sub-issue to be prioritized before (either positional argument after OR before should be specified). |
+| `sub_issue_id` | Yes | integer | The id of the sub-issue to reprioritize |
 
 
 ## Responses

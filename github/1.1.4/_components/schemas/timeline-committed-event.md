@@ -11,14 +11,14 @@ Timeline Committed Event
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `event` | No | string |  |
-| `sha` | Yes | string | SHA for the commit |
-| `node_id` | Yes | string |  |
-| `url` | Yes | string |  |
 | `author` | Yes | object | Identifying information for the git-user |
 | `committer` | Yes | object | Identifying information for the git-user |
-| `message` | Yes | string | Message describing the purpose of the commit |
-| `tree` | Yes | object |  |
-| `parents` | Yes | array<object> |  |
-| `verification` | Yes | object |  |
+| `event` | No | string |  |
 | `html_url` | Yes | string |  |
+| `message` | Yes | string | Message describing the purpose of the commit |
+| `node_id` | Yes | string |  |
+| `parents` | Yes | array<object> |  |
+| `sha` | Yes | string | SHA for the commit |
+| `tree` | Yes | object |  |
+| `url` | Yes | string |  |
+| `verification` | Yes | object |  |

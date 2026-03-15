@@ -33,19 +33,19 @@ _(None)_
 
 Response
 
-### 404
+### 304
 
-Reference: [not_found](../../../../_components/responses/not_found.md)
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
 ### 401
 
 Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
 
-### 304
-
-Reference: [not_modified](../../../../_components/responses/not_modified.md)
-
 ### 403
 
 Reference: [forbidden](../../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

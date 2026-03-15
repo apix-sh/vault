@@ -46,11 +46,11 @@ Response
 [pull-request-review](../../../../../../../_components/schemas/pull-request-review.md)
 
 
-### 422
-
-Reference: [validation_failed_simple](../../../../../../../_components/responses/validation_failed_simple.md)
-
 ### 404
 
 Reference: [not_found](../../../../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed_simple](../../../../../../../_components/responses/validation_failed_simple.md)
 

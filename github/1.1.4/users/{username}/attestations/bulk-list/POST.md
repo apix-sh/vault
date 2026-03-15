@@ -36,10 +36,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `predicate_type` | No | string | Optional filter for fetching attestations with a given predicate type.<br/>This option accepts `provenance`, `sbom`, `release`, or freeform text<br/>for custom predicate types. |
 | `subject_digests` | Yes | array<string> | List of subject digests to fetch attestations for. |
-| `predicate_type` | No | string | Optional filter for fetching attestations with a given predicate type.
-This option accepts `provenance`, `sbom`, `release`, or freeform text
-for custom predicate types. |
 
 
 ## Responses

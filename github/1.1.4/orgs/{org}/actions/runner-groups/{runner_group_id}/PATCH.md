@@ -32,12 +32,12 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | Name of the runner group. |
-| `visibility` | No | string | Visibility of a runner group. You can select all repositories, select individual repositories, or all private repositories. |
 | `allows_public_repositories` | No | boolean | Whether the runner group can be used by `public` repositories. |
+| `name` | Yes | string | Name of the runner group. |
+| `network_configuration_id` | No | string | The identifier of a hosted compute network configuration. |
 | `restricted_to_workflows` | No | boolean | If `true`, the runner group will be restricted to running only the workflows specified in the `selected_workflows` array. |
 | `selected_workflows` | No | array<string> | List of workflows the runner group should be allowed to run. This setting will be ignored unless `restricted_to_workflows` is set to `true`. |
-| `network_configuration_id` | No | string | The identifier of a hosted compute network configuration. |
+| `visibility` | No | string | Visibility of a runner group. You can select all repositories, select individual repositories, or all private repositories. |
 
 
 ## Responses

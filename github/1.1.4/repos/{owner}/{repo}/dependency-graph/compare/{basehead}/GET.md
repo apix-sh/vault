@@ -12,7 +12,7 @@ Gets the diff of the dependency changes between two commits of a repository, bas
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `basehead` | Yes | string | The base and head Git revisions to compare. The Git revisions will be resolved to commit SHAs. Named revisions will be resolved to their corresponding HEAD commits, and an appropriate merge base will be determined. This parameter expects the format `{base}...{head}`.<br/>*Serialization: style=Simple* |
+| `basehead` | Yes | string | The base and head Git revisions to compare. The Git revisions will be resolved to commit SHAs. Named revisions will be resolved to their corresponding HEAD commits, and an appropriate merge base will be determined. This parameter expects the format `{base}...{head}`. |
 
 
 ## Query Parameters
@@ -40,7 +40,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../../_components/headers/link.md) |  |
 
 
@@ -48,11 +47,11 @@ Response
 [dependency-graph-diff](../../../../../../_components/schemas/dependency-graph-diff.md)
 
 
-### 404
-
-Reference: [not_found](../../../../../../_components/responses/not_found.md)
-
 ### 403
 
 Reference: [dependency_review_forbidden](../../../../../../_components/responses/dependency_review_forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

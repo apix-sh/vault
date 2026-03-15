@@ -14,7 +14,7 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `codeql_variant_analysis_id` | Yes | integer | The unique identifier of the variant analysis.<br/>*Serialization: style=Simple* |
+| `codeql_variant_analysis_id` | Yes | integer | The unique identifier of the variant analysis. |
 
 
 ## Query Parameters

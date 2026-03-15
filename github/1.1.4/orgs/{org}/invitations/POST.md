@@ -32,13 +32,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `invitee_id` | No | integer | **Required unless you provide `email`**. GitHub user ID for the person you are inviting. |
 | `email` | No | string | **Required unless you provide `invitee_id`**. Email address of the person you are inviting, which can be an existing GitHub user. |
-| `role` | No | string | The role for the new member. 
- * `admin` - Organization owners with full administrative rights to the organization and complete access to all repositories and teams.  
- * `direct_member` - Non-owner organization members with ability to see other members and join teams by invitation.  
- * `billing_manager` - Non-owner organization members with ability to manage the billing settings of your organization. 
- * `reinstate` - The previous role assigned to the invitee before they were removed from your organization. Can be one of the roles listed above. Only works if the invitee was previously part of your organization. |
+| `invitee_id` | No | integer | **Required unless you provide `email`**. GitHub user ID for the person you are inviting. |
+| `role` | No | string | The role for the new member. <br/> * `admin` - Organization owners with full administrative rights to the organization and complete access to all repositories and teams.  <br/> * `direct_member` - Non-owner organization members with ability to see other members and join teams by invitation.  <br/> * `billing_manager` - Non-owner organization members with ability to manage the billing settings of your organization. <br/> * `reinstate` - The previous role assigned to the invitee before they were removed from your organization. Can be one of the roles listed above. Only works if the invitee was previously part of your organization. |
 | `team_ids` | No | array<integer> | Specify IDs for the teams you want to invite new members to. |
 
 
@@ -52,11 +48,11 @@ Response
 [organization-invitation](../../../_components/schemas/organization-invitation.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

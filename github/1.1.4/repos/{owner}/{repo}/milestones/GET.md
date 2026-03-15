@@ -19,9 +19,9 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
-| `state` | No | string | The state of the milestone. Either `open`, `closed`, or `all`.<br/>*Serialization: style=Form* |
-| `sort` | No | string | What to sort results by. Either `due_on` or `completeness`.<br/>*Serialization: style=Form* |
-| `direction` | No | string | The direction of the sort. Either `asc` or `desc`.<br/>*Serialization: style=Form* |
+| `state` | No | string | The state of the milestone. Either `open`, `closed`, or `all`. |
+| `sort` | No | string | What to sort results by. Either `due_on` or `completeness`. |
+| `direction` | No | string | The direction of the sort. Either `asc` or `desc`. |
 | `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
 
@@ -42,7 +42,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 

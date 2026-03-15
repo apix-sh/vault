@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `total` | Yes | integer |  |
 | `completed` | Yes | integer |  |
 | `percent_completed` | Yes | integer |  |
+| `total` | Yes | integer |  |

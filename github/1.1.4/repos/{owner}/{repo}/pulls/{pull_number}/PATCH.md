@@ -40,11 +40,11 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `title` | No | string | The title of the pull request. |
-| `body` | No | string | The contents of the pull request. |
-| `state` | No | string | State of this Pull Request. Either `open` or `closed`. |
 | `base` | No | string | The name of the branch you want your changes pulled into. This should be an existing branch on the current repository. You cannot update the base branch on a pull request to point to another repository. |
+| `body` | No | string | The contents of the pull request. |
 | `maintainer_can_modify` | No | boolean | Indicates whether [maintainers can modify](https://docs.github.com/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork/) the pull request. |
+| `state` | No | string | State of this Pull Request. Either `open` or `closed`. |
+| `title` | No | string | The title of the pull request. |
 
 
 ## Responses
@@ -57,11 +57,11 @@ Response
 [pull-request](../../../../../_components/schemas/pull-request.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
-
 ### 403
 
 Reference: [forbidden](../../../../../_components/responses/forbidden.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 

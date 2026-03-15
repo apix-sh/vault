@@ -16,7 +16,7 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `campaign_number` | Yes | integer | The campaign number.<br/>*Serialization: style=Simple* |
+| `campaign_number` | Yes | integer | The campaign number. |
 
 
 ## Query Parameters

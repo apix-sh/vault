@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `count` | Yes | integer |  |
 | `timestamp` | Yes | string |  |
 | `uniques` | Yes | integer |  |
-| `count` | Yes | integer |  |

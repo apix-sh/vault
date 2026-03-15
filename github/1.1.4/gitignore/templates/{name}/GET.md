@@ -16,7 +16,7 @@ This endpoint supports the following custom media types. For more information, s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | Yes | string | *Serialization: style=Simple* |
+| `name` | Yes | string |  |
 
 
 ## Query Parameters

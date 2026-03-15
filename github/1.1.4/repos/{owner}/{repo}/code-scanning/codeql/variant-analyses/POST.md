@@ -35,7 +35,13 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `language` | Yes | [code-scanning-variant-analysis-language](../../../../../../_components/schemas/code-scanning-variant-analysis-language.md) |  |
+| `query_pack` | Yes | string | A Base64-encoded tarball containing a CodeQL query and all its dependencies |
+| `repositories` | No | array<string> | List of repository names (in the form `owner/repo-name`) to run the query against. Precisely one property from `repositories`, `repository_lists` and `repository_owners` is required. |
+| `repository_lists` | No | array<string> | List of repository lists to run the query against. Precisely one property from `repositories`, `repository_lists` and `repository_owners` is required. |
+| `repository_owners` | No | array<string> | List of organization or user names whose repositories the query should be run against. Precisely one property from `repositories`, `repository_lists` and `repository_owners` is required. |
 
 
 ## Responses

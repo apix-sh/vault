@@ -40,7 +40,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link` | No | string |  |
 
 
@@ -48,11 +47,11 @@ Response
 array<[minimal-repository](../_components/schemas/minimal-repository.md)>
 
 
-### 422
-
-Reference: [validation_failed](../_components/responses/validation_failed.md)
-
 ### 304
 
 Reference: [not_modified](../_components/responses/not_modified.md)
+
+### 422
+
+Reference: [validation_failed](../_components/responses/validation_failed.md)
 

@@ -12,7 +12,7 @@ Use this endpoint to complete the handshake necessary when implementing the [Git
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `code` | Yes | string | *Serialization: style=Simple* |
+| `code` | Yes | string |  |
 
 
 ## Query Parameters

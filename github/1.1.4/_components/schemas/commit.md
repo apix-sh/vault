@@ -11,14 +11,14 @@ Commit
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
-| `sha` | Yes | string |  |
-| `node_id` | Yes | string |  |
-| `html_url` | Yes | string |  |
+| `author` | Yes | oneOf(2) |  |
 | `comments_url` | Yes | string |  |
 | `commit` | Yes | object |  |
-| `author` | Yes | oneOf(2) |  |
 | `committer` | Yes | oneOf(2) |  |
-| `parents` | Yes | array<object> |  |
-| `stats` | No | object |  |
 | `files` | No | array<[diff-entry](./diff-entry.md)> |  |
+| `html_url` | Yes | string |  |
+| `node_id` | Yes | string |  |
+| `parents` | Yes | array<object> |  |
+| `sha` | Yes | string |  |
+| `stats` | No | object |  |
+| `url` | Yes | string |  |

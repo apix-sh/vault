@@ -11,14 +11,14 @@ Org Hook
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | Yes | integer |  |
-| `url` | Yes | string |  |
-| `ping_url` | Yes | string |  |
-| `deliveries_url` | No | string |  |
-| `name` | Yes | string |  |
-| `events` | Yes | array<string> |  |
 | `active` | Yes | boolean |  |
 | `config` | Yes | object |  |
-| `updated_at` | Yes | string |  |
 | `created_at` | Yes | string |  |
+| `deliveries_url` | No | string |  |
+| `events` | Yes | array<string> |  |
+| `id` | Yes | integer |  |
+| `name` | Yes | string |  |
+| `ping_url` | Yes | string |  |
 | `type` | Yes | string |  |
+| `updated_at` | Yes | string |  |
+| `url` | Yes | string |  |

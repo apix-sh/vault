@@ -11,7 +11,7 @@ Porter Large File
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `ref_name` | Yes | string |  |
-| `path` | Yes | string |  |
 | `oid` | Yes | string |  |
+| `path` | Yes | string |  |
+| `ref_name` | Yes | string |  |
 | `size` | Yes | integer |  |

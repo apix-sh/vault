@@ -41,14 +41,13 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `repository_cache_usages` | Yes | array<[actions-cache-usage-by-repository](../../../../../_components/schemas/actions-cache-usage-by-repository.md)> |  |
+| `total_count` | Yes | integer |  |
 
 

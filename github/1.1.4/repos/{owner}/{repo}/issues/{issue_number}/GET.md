@@ -57,6 +57,10 @@ Response
 
 Reference: [moved_permanently](../../../../../_components/responses/moved_permanently.md)
 
+### 304
+
+Reference: [not_modified](../../../../../_components/responses/not_modified.md)
+
 ### 404
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
@@ -64,8 +68,4 @@ Reference: [not_found](../../../../../_components/responses/not_found.md)
 ### 410
 
 Reference: [gone](../../../../../_components/responses/gone.md)
-
-### 304
-
-Reference: [not_modified](../../../../../_components/responses/not_modified.md)
 

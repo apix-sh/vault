@@ -36,7 +36,7 @@ Successful response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | No | integer | The number of deployment records for this digest and organization |
 | `deployment_records` | No | array<[artifact-deployment-record](../../../../../../_components/schemas/artifact-deployment-record.md)> |  |
+| `total_count` | No | integer | The number of deployment records for this digest and organization |
 
 

@@ -42,8 +42,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `message` | Yes | string | The message for the pull request review dismissal |
 | `event` | No | string |  |
+| `message` | Yes | string | The message for the pull request review dismissal |
 
 
 ## Responses

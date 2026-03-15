@@ -11,8 +11,8 @@ Code Of Conduct
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `body` | No | string |  |
+| `html_url` | Yes | string |  |
 | `key` | Yes | string |  |
 | `name` | Yes | string |  |
 | `url` | Yes | string |  |
-| `body` | No | string |  |
-| `html_url` | Yes | string |  |

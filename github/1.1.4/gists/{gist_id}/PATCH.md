@@ -39,11 +39,7 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `description` | No | string | The description of the gist. |
-| `files` | No | object | The gist files to be updated, renamed, or deleted. Each `key` must match the current filename
-(including extension) of the targeted gist file. For example: `hello.py`.
-
-To delete a file, set the whole file to null. For example: `hello.py : null`. The file will also be
-deleted if the specified object does not contain at least one of `content` or `filename`. |
+| `files` | No | object | The gist files to be updated, renamed, or deleted. Each `key` must match the current filename<br/>(including extension) of the targeted gist file. For example: `hello.py`.<br/><br/>To delete a file, set the whole file to null. For example: `hello.py : null`. The file will also be<br/>deleted if the specified object does not contain at least one of `content` or `filename`. |
 
 
 ## Responses
@@ -56,11 +52,11 @@ Response
 [gist-simple](../../_components/schemas/gist-simple.md)
 
 
-### 422
-
-Reference: [validation_failed](../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 

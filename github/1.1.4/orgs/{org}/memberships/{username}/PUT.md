@@ -38,9 +38,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `role` | No | string | The role to give the user in the organization. Can be one of:  
- * `admin` - The user will become an owner of the organization.  
- * `member` - The user will become a non-owner member of the organization. |
+| `role` | No | string | The role to give the user in the organization. Can be one of:  <br/> * `admin` - The user will become an owner of the organization.  <br/> * `member` - The user will become a non-owner member of the organization. |
 
 
 ## Responses
@@ -53,11 +51,11 @@ Response
 [org-membership](../../../../_components/schemas/org-membership.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
-
 ### 403
 
 Reference: [forbidden](../../../../_components/responses/forbidden.md)
+
+### 422
+
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

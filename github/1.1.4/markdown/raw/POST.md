@@ -42,7 +42,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `X-CommonMarker-Version (ref)` | Unknown | [x-common-marker-version](../../_components/headers/x-common-marker-version.md) |  |
 
 

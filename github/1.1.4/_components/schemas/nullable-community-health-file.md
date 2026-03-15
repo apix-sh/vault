@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
 | `html_url` | Yes | string |  |
+| `url` | Yes | string |  |

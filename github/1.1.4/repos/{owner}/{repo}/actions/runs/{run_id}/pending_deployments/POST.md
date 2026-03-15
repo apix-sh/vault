@@ -35,9 +35,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `comment` | Yes | string | A comment to accompany the deployment review |
 | `environment_ids` | Yes | array<integer> | The list of environment ids to approve or reject |
 | `state` | Yes | string | Whether to approve or reject deployment to the specified environments. |
-| `comment` | Yes | string | A comment to accompany the deployment review |
 
 
 ## Responses

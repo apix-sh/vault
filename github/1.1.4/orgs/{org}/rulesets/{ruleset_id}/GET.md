@@ -15,7 +15,7 @@ making the API request has write access to the ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ruleset_id` | Yes | integer | The ID of the ruleset.<br/>*Serialization: style=Simple* |
+| `ruleset_id` | Yes | integer | The ID of the ruleset. |
 
 
 ## Query Parameters

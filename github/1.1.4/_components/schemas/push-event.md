@@ -8,8 +8,8 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `repository_id` | Yes | integer |  |
+| `before` | Yes | string |  |
+| `head` | Yes | string |  |
 | `push_id` | Yes | integer |  |
 | `ref` | Yes | string |  |
-| `head` | Yes | string |  |
-| `before` | Yes | string |  |
+| `repository_id` | Yes | integer |  |

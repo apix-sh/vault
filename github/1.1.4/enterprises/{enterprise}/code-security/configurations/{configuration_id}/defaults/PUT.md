@@ -48,8 +48,8 @@ Default successfully changed.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `default_for_new_repos` | No | string | Specifies which types of repository this security configuration is applied to by default. |
 | `configuration` | No | [code-security-configuration](../../../../../../_components/schemas/code-security-configuration.md) |  |
+| `default_for_new_repos` | No | string | Specifies which types of repository this security configuration is applied to by default. |
 
 
 ### 403

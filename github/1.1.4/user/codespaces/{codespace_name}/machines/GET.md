@@ -37,17 +37,13 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `machines` | Yes | array<[codespace-machine](../../../../_components/schemas/codespace-machine.md)> |  |
+| `total_count` | Yes | integer |  |
 
 
 ### 304
 
 Reference: [not_modified](../../../../_components/responses/not_modified.md)
-
-### 500
-
-Reference: [internal_error](../../../../_components/responses/internal_error.md)
 
 ### 401
 
@@ -60,4 +56,8 @@ Reference: [forbidden](../../../../_components/responses/forbidden.md)
 ### 404
 
 Reference: [not_found](../../../../_components/responses/not_found.md)
+
+### 500
+
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 

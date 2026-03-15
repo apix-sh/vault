@@ -22,7 +22,7 @@ This endpoint supports the following custom media types. For more information, s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `issue_id` | Yes | integer | The id of the blocking issue to remove as a dependency<br/>*Serialization: style=Simple* |
+| `issue_id` | Yes | integer | The id of the blocking issue to remove as a dependency |
 
 
 ## Query Parameters

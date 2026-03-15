@@ -11,7 +11,7 @@ Content Traffic
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `count` | Yes | integer |  |
 | `path` | Yes | string |  |
 | `title` | Yes | string |  |
-| `count` | Yes | integer |  |
 | `uniques` | Yes | integer |  |

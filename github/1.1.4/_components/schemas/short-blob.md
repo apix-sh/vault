@@ -11,5 +11,5 @@ Short Blob
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
 | `sha` | Yes | string |  |
+| `url` | Yes | string |  |

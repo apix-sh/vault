@@ -11,5 +11,5 @@ Require all commits be made to a non-target branch and submitted via a pull requ
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: pull_request |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: pull_request |

@@ -11,14 +11,14 @@ Diff Entry
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `sha` | Yes | string |  |
-| `filename` | Yes | string |  |
-| `status` | Yes | string | Allowed values: added, removed, modified, renamed, copied, changed, unchanged |
 | `additions` | Yes | integer |  |
-| `deletions` | Yes | integer |  |
-| `changes` | Yes | integer |  |
 | `blob_url` | Yes | string |  |
-| `raw_url` | Yes | string |  |
+| `changes` | Yes | integer |  |
 | `contents_url` | Yes | string |  |
+| `deletions` | Yes | integer |  |
+| `filename` | Yes | string |  |
 | `patch` | No | string |  |
 | `previous_filename` | No | string |  |
+| `raw_url` | Yes | string |  |
+| `sha` | Yes | string |  |
+| `status` | Yes | string | Allowed values: added, removed, modified, renamed, copied, changed, unchanged |

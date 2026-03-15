@@ -34,11 +34,11 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `access_token` | Yes | string | The access token used to authenticate to the GitHub API. |
-| `target` | No | string | The name of the user or organization to scope the user access token to. **Required** unless `target_id` is specified. |
-| `target_id` | No | integer | The ID of the user or organization to scope the user access token to. **Required** unless `target` is specified. |
+| `permissions` | No | [app-permissions](../../../../_components/schemas/app-permissions.md) |  |
 | `repositories` | No | array<string> | The list of repository names to scope the user access token to. `repositories` may not be specified if `repository_ids` is specified. |
 | `repository_ids` | No | array<integer> | The list of repository IDs to scope the user access token to. `repository_ids` may not be specified if `repositories` is specified. |
-| `permissions` | No | [app-permissions](../../../../_components/schemas/app-permissions.md) |  |
+| `target` | No | string | The name of the user or organization to scope the user access token to. **Required** unless `target_id` is specified. |
+| `target_id` | No | integer | The ID of the user or organization to scope the user access token to. **Required** unless `target` is specified. |
 
 
 ## Responses

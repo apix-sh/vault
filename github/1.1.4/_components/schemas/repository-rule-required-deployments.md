@@ -11,5 +11,5 @@ Choose which environments must be successfully deployed to before refs can be pu
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: required_deployments |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: required_deployments |

@@ -21,8 +21,8 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
-| `ref` | No | string | The branch or commit to check for a default devcontainer path. If not specified, the default branch will be checked.<br/>*Serialization: style=Form* |
-| `client_ip` | No | string | An alternative IP for default location auto-detection, such as when proxying a request.<br/>*Serialization: style=Form* |
+| `ref` | No | string | The branch or commit to check for a default devcontainer path. If not specified, the default branch will be checked. |
+| `client_ip` | No | string | An alternative IP for default location auto-detection, such as when proxying a request. |
 
 
 

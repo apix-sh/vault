@@ -36,9 +36,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `q` | Yes | string | The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). See "[Searching code](https://docs.github.com/search-github/searching-on-github/searching-code)" for a detailed list of qualifiers.<br/>*Serialization: style=Form* |
-| `sort` | No | string | **This field is closing down.** Sorts the results of your query. Can only be `indexed`, which indicates how recently a file has been indexed by the GitHub search infrastructure. Default: [best match](https://docs.github.com/rest/search/search#ranking-search-results)<br/>*Serialization: style=Form* |
-| `order` | No | string | **This field is closing down.** Determines whether the first search result returned is the highest number of matches (`desc`) or lowest number of matches (`asc`). This parameter is ignored unless you provide `sort`. <br/>*Serialization: style=Form* |
+| `q` | Yes | string | The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). See "[Searching code](https://docs.github.com/search-github/searching-on-github/searching-code)" for a detailed list of qualifiers. |
+| `sort` | No | string | **This field is closing down.** Sorts the results of your query. Can only be `indexed`, which indicates how recently a file has been indexed by the GitHub search infrastructure. Default: [best match](https://docs.github.com/rest/search/search#ranking-search-results) |
+| `order` | No | string | **This field is closing down.** Determines whether the first search result returned is the highest number of matches (`desc`) or lowest number of matches (`asc`). This parameter is ignored unless you provide `sort`.  |
 | `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
 
@@ -58,24 +58,24 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `incomplete_results` | Yes | boolean |  |
 | `items` | Yes | array<[code-search-result-item](../../_components/schemas/code-search-result-item.md)> |  |
+| `total_count` | Yes | integer |  |
 
 
 ### 304
 
 Reference: [not_modified](../../_components/responses/not_modified.md)
 
-### 503
+### 403
 
-Reference: [service_unavailable](../../_components/responses/service_unavailable.md)
+Reference: [forbidden](../../_components/responses/forbidden.md)
 
 ### 422
 
 Reference: [validation_failed](../../_components/responses/validation_failed.md)
 
-### 403
+### 503
 
-Reference: [forbidden](../../_components/responses/forbidden.md)
+Reference: [service_unavailable](../../_components/responses/service_unavailable.md)
 

@@ -41,7 +41,6 @@ Response if requester is not an organization member
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 

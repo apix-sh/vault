@@ -17,7 +17,7 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `path` | Yes | string | path parameter<br/>*Serialization: style=Simple* |
+| `path` | Yes | string | path parameter |
 
 
 ## Query Parameters
@@ -37,12 +37,12 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `message` | Yes | string | The commit message. |
-| `content` | Yes | string | The new file content, using Base64 encoding. |
-| `sha` | No | string | **Required if you are updating a file**. The blob SHA of the file being replaced. |
+| `author` | No | object | The author of the file. Default: The `committer` or the authenticated user if you omit `committer`. |
 | `branch` | No | string | The branch name. Default: the repository’s default branch. |
 | `committer` | No | object | The person that committed the file. Default: the authenticated user. |
-| `author` | No | object | The author of the file. Default: The `committer` or the authenticated user if you omit `committer`. |
+| `content` | Yes | string | The new file content, using Base64 encoding. |
+| `message` | Yes | string | The commit message. |
+| `sha` | No | string | **Required if you are updating a file**. The blob SHA of the file being replaced. |
 
 
 ## Responses
@@ -67,10 +67,6 @@ Response
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
 
-### 422
-
-Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
-
 ### 409
 
 Conflict
@@ -78,4 +74,8 @@ Conflict
 #### Response Schema (`application/json`)
 *(No object properties found)*
 
+
+### 422
+
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 

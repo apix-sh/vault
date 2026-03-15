@@ -35,9 +35,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `permissions` | No | [app-permissions](../../../../_components/schemas/app-permissions.md) |  |
 | `repositories` | No | array<string> | List of repository names that the token should have access to |
 | `repository_ids` | No | array<integer> | List of repository IDs that the token should have access to |
-| `permissions` | No | [app-permissions](../../../../_components/schemas/app-permissions.md) |  |
 
 
 ## Responses
@@ -50,13 +50,13 @@ Response
 [installation-token](../../../../_components/schemas/installation-token.md)
 
 
-### 403
-
-Reference: [forbidden](../../../../_components/responses/forbidden.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
 ### 404
 

@@ -31,24 +31,14 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | The name of the team. |
 | `description` | No | string | The description of the team. |
 | `maintainers` | No | array<string> | List GitHub usernames for organization members who will become team maintainers. |
-| `repo_names` | No | array<string> | The full name (e.g., "organization-name/repository-name") of repositories to add the team to. |
-| `privacy` | No | string | The level of privacy this team should have. The options are:  
-**For a non-nested team:**  
- * `secret` - only visible to organization owners and members of this team.  
- * `closed` - visible to all members of this organization.  
-Default: `secret`  
-**For a parent or child team:**  
- * `closed` - visible to all members of this organization.  
-Default for child team: `closed` |
-| `notification_setting` | No | string | The notification setting the team has chosen. The options are:  
- * `notifications_enabled` - team members receive notifications when the team is @mentioned.  
- * `notifications_disabled` - no one receives notifications.  
-Default: `notifications_enabled` |
-| `permission` | No | string | **Closing down notice**. The permission that new repositories will be added to the team with when none is specified. |
+| `name` | Yes | string | The name of the team. |
+| `notification_setting` | No | string | The notification setting the team has chosen. The options are:  <br/> * `notifications_enabled` - team members receive notifications when the team is @mentioned.  <br/> * `notifications_disabled` - no one receives notifications.  <br/>Default: `notifications_enabled` |
 | `parent_team_id` | No | integer | The ID of a team to set as the parent team. |
+| `permission` | No | string | **Closing down notice**. The permission that new repositories will be added to the team with when none is specified. |
+| `privacy` | No | string | The level of privacy this team should have. The options are:  <br/>**For a non-nested team:**  <br/> * `secret` - only visible to organization owners and members of this team.  <br/> * `closed` - visible to all members of this organization.  <br/>Default: `secret`  <br/>**For a parent or child team:**  <br/> * `closed` - visible to all members of this organization.  <br/>Default for child team: `closed` |
+| `repo_names` | No | array<string> | The full name (e.g., "organization-name/repository-name") of repositories to add the team to. |
 
 
 ## Responses
@@ -61,11 +51,11 @@ Response
 [team-full](../../../_components/schemas/team-full.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../_components/responses/validation_failed.md)
-
 ### 403
 
 Reference: [forbidden](../../../_components/responses/forbidden.md)
+
+### 422
+
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

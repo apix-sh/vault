@@ -11,7 +11,7 @@ Repository rule violation was detected
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `message` | No | string |  |
 | `documentation_url` | No | string |  |
-| `status` | No | string |  |
+| `message` | No | string |  |
 | `metadata` | No | object |  |
+| `status` | No | string |  |

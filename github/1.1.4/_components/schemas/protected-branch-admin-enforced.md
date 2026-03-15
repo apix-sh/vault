@@ -11,5 +11,5 @@ Protected Branch Admin Enforced
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
 | `enabled` | Yes | boolean |  |
+| `url` | Yes | string |  |

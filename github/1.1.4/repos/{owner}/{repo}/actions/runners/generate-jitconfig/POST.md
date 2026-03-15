@@ -34,9 +34,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `labels` | Yes | array<string> | The names of the custom labels to add to the runner. **Minimum items**: 1. **Maximum items**: 100. |
 | `name` | Yes | string | The name of the new runner. |
 | `runner_group_id` | Yes | integer | The ID of the runner group to register the runner to. |
-| `labels` | Yes | array<string> | The names of the custom labels to add to the runner. **Minimum items**: 1. **Maximum items**: 100. |
 | `work_folder` | No | string | The working directory to be used for job execution, relative to the runner install directory. |
 
 
@@ -50,11 +50,11 @@ Reference: [actions_runner_jitconfig](../../../../../../_components/responses/ac
 
 Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
-### 422
-
-Reference: [validation_failed_simple](../../../../../../_components/responses/validation_failed_simple.md)
-
 ### 409
 
 Reference: [conflict](../../../../../../_components/responses/conflict.md)
+
+### 422
+
+Reference: [validation_failed_simple](../../../../../../_components/responses/validation_failed_simple.md)
 

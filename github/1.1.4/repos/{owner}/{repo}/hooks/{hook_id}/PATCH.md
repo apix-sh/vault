@@ -31,11 +31,11 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `active` | No | boolean | Determines if notifications are sent when the webhook is triggered. Set to `true` to send notifications. |
+| `add_events` | No | array<string> | Determines a list of events to be added to the list of events that the Hook triggers for. |
 | `config` | No | [webhook-config](../../../../../_components/schemas/webhook-config.md) |  |
 | `events` | No | array<string> | Determines what [events](https://docs.github.com/webhooks/event-payloads) the hook is triggered for. This replaces the entire array of events. |
-| `add_events` | No | array<string> | Determines a list of events to be added to the list of events that the Hook triggers for. |
 | `remove_events` | No | array<string> | Determines a list of events to be removed from the list of events that the Hook triggers for. |
-| `active` | No | boolean | Determines if notifications are sent when the webhook is triggered. Set to `true` to send notifications. |
 
 
 ## Responses
@@ -48,11 +48,11 @@ Response
 [hook](../../../../../_components/schemas/hook.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 

@@ -30,7 +30,13 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `assignees` | No | [code-scanning-alert-assignees](../../../../../../_components/schemas/code-scanning-alert-assignees.md) |  |
+| `create_request` | No | [code-scanning-alert-create-request](../../../../../../_components/schemas/code-scanning-alert-create-request.md) |  |
+| `dismissed_comment` | No | [code-scanning-alert-dismissed-comment](../../../../../../_components/schemas/code-scanning-alert-dismissed-comment.md) |  |
+| `dismissed_reason` | No | [code-scanning-alert-dismissed-reason](../../../../../../_components/schemas/code-scanning-alert-dismissed-reason.md) |  |
+| `state` | No | [code-scanning-alert-set-state](../../../../../../_components/schemas/code-scanning-alert-set-state.md) |  |
 
 
 ## Responses

@@ -44,9 +44,9 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | integer | ID of the created snapshot. |
 | `created_at` | Yes | string | The time at which the snapshot was created. |
-| `result` | Yes | string | Either "SUCCESS", "ACCEPTED", or "INVALID". "SUCCESS" indicates that the snapshot was successfully created and the repository's dependencies were updated. "ACCEPTED" indicates that the snapshot was successfully created, but the repository's dependencies were not updated. "INVALID" indicates that the snapshot was malformed. |
+| `id` | Yes | integer | ID of the created snapshot. |
 | `message` | Yes | string | A message providing further details about the result, such as why the dependencies were not updated. |
+| `result` | Yes | string | Either "SUCCESS", "ACCEPTED", or "INVALID". "SUCCESS" indicates that the snapshot was successfully created and the repository's dependencies were updated. "ACCEPTED" indicates that the snapshot was successfully created, but the repository's dependencies were not updated. "INVALID" indicates that the snapshot was malformed. |
 
 

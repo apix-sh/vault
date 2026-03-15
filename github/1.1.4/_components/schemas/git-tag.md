@@ -11,11 +11,11 @@ Metadata for a Git tag
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `node_id` | Yes | string |  |
-| `tag` | Yes | string | Name of the tag |
-| `sha` | Yes | string |  |
-| `url` | Yes | string | URL for the tag |
 | `message` | Yes | string | Message describing the purpose of the tag |
-| `tagger` | Yes | object |  |
+| `node_id` | Yes | string |  |
 | `object` | Yes | object |  |
+| `sha` | Yes | string |  |
+| `tag` | Yes | string | Name of the tag |
+| `tagger` | Yes | object |  |
+| `url` | Yes | string | URL for the tag |
 | `verification` | No | [verification](verification.md) |  |

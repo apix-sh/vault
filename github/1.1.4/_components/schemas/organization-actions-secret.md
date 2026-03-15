@@ -11,8 +11,8 @@ Secrets for GitHub Actions for an organization.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | Yes | string | The name of the secret. |
 | `created_at` | Yes | string |  |
+| `name` | Yes | string | The name of the secret. |
+| `selected_repositories_url` | No | string |  |
 | `updated_at` | Yes | string |  |
 | `visibility` | Yes | string | Visibility of a secret Allowed values: all, private, selected |
-| `selected_repositories_url` | No | string |  |

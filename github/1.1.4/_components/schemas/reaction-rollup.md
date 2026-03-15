@@ -8,13 +8,13 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
-| `total_count` | Yes | integer |  |
 | `+1` | Yes | integer |  |
 | `-1` | Yes | integer |  |
-| `laugh` | Yes | integer |  |
 | `confused` | Yes | integer |  |
+| `eyes` | Yes | integer |  |
 | `heart` | Yes | integer |  |
 | `hooray` | Yes | integer |  |
-| `eyes` | Yes | integer |  |
+| `laugh` | Yes | integer |  |
 | `rocket` | Yes | integer |  |
+| `total_count` | Yes | integer |  |
+| `url` | Yes | string |  |

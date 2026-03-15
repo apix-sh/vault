@@ -33,10 +33,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `url` | No | [webhook-config-url](../../../../../../_components/schemas/webhook-config-url.md) |  |
 | `content_type` | No | [webhook-config-content-type](../../../../../../_components/schemas/webhook-config-content-type.md) |  |
-| `secret` | No | [webhook-config-secret](../../../../../../_components/schemas/webhook-config-secret.md) |  |
 | `insecure_ssl` | No | [webhook-config-insecure-ssl](../../../../../../_components/schemas/webhook-config-insecure-ssl.md) |  |
+| `secret` | No | [webhook-config-secret](../../../../../../_components/schemas/webhook-config-secret.md) |  |
+| `url` | No | [webhook-config-url](../../../../../../_components/schemas/webhook-config-url.md) |  |
 
 
 ## Responses

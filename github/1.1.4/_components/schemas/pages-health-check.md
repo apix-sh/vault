@@ -11,5 +11,5 @@ Pages Health Check Status
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `domain` | No | object |  |
 | `alt_domain` | No | object |  |
+| `domain` | No | object |  |

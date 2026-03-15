@@ -38,10 +38,6 @@ Reference: [accepted](../../../_components/responses/accepted.md)
 
 Reference: [not_modified](../../../_components/responses/not_modified.md)
 
-### 500
-
-Reference: [internal_error](../../../_components/responses/internal_error.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
@@ -53,4 +49,8 @@ Reference: [forbidden](../../../_components/responses/forbidden.md)
 ### 404
 
 Reference: [not_found](../../../_components/responses/not_found.md)
+
+### 500
+
+Reference: [internal_error](../../../_components/responses/internal_error.md)
 

@@ -12,15 +12,15 @@ organization, or when the event occurs from activity in a repository owned by an
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `login` | Yes | string |  |
-| `id` | Yes | integer |  |
-| `node_id` | Yes | string |  |
-| `url` | Yes | string |  |
-| `repos_url` | Yes | string |  |
-| `events_url` | Yes | string |  |
-| `hooks_url` | Yes | string |  |
-| `issues_url` | Yes | string |  |
-| `members_url` | Yes | string |  |
-| `public_members_url` | Yes | string |  |
 | `avatar_url` | Yes | string |  |
 | `description` | Yes | string |  |
+| `events_url` | Yes | string |  |
+| `hooks_url` | Yes | string |  |
+| `id` | Yes | integer |  |
+| `issues_url` | Yes | string |  |
+| `login` | Yes | string |  |
+| `members_url` | Yes | string |  |
+| `node_id` | Yes | string |  |
+| `public_members_url` | Yes | string |  |
+| `repos_url` | Yes | string |  |
+| `url` | Yes | string |  |

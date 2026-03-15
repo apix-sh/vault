@@ -11,8 +11,8 @@ Timeline Cross Referenced Event
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `event` | Yes | string |  |
 | `actor` | No | [simple-user](simple-user.md) |  |
 | `created_at` | Yes | string |  |
-| `updated_at` | Yes | string |  |
+| `event` | Yes | string |  |
 | `source` | Yes | object |  |
+| `updated_at` | Yes | string |  |

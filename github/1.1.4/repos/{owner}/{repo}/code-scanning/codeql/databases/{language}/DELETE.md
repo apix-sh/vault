@@ -14,7 +14,7 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `language` | Yes | string | The language of the CodeQL database.<br/>*Serialization: style=Simple* |
+| `language` | Yes | string | The language of the CodeQL database. |
 
 
 ## Query Parameters

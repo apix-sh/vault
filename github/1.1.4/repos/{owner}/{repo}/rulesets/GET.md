@@ -21,7 +21,7 @@ _(None)_
 | `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
 | `Reference` | N/A | [per-page](../../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../../../_components/parameters/page.md) |  |
-| `includes_parents` | No | boolean | Include rulesets configured at higher levels that apply to this repository<br/>*Serialization: style=Form* |
+| `includes_parents` | No | boolean | Include rulesets configured at higher levels that apply to this repository |
 | `Reference` | N/A | [ruleset-targets](../../../../_components/parameters/ruleset-targets.md) |  |
 
 

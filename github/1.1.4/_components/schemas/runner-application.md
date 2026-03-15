@@ -11,9 +11,9 @@ Runner Application
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `os` | Yes | string |  |
 | `architecture` | Yes | string |  |
 | `download_url` | Yes | string |  |
 | `filename` | Yes | string |  |
-| `temp_download_token` | No | string | A short lived bearer token used to download the runner, if needed. |
+| `os` | Yes | string |  |
 | `sha256_checksum` | No | string |  |
+| `temp_download_token` | No | string | A short lived bearer token used to download the runner, if needed. |

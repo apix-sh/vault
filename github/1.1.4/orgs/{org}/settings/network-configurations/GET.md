@@ -40,14 +40,13 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `network_configurations` | Yes | array<[network-configuration](../../../../_components/schemas/network-configuration.md)> |  |
+| `total_count` | Yes | integer |  |
 
 

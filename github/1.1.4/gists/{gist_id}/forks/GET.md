@@ -36,17 +36,12 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 array<[gist-simple](../../../_components/schemas/gist-simple.md)>
 
-
-### 404
-
-Reference: [not_found](../../../_components/responses/not_found.md)
 
 ### 304
 
@@ -55,4 +50,8 @@ Reference: [not_modified](../../../_components/responses/not_modified.md)
 ### 403
 
 Reference: [forbidden](../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../_components/responses/not_found.md)
 

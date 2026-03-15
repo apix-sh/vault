@@ -29,8 +29,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `title` | No | string | A descriptive name for the new key. |
 | `key` | Yes | string | The public SSH key to add to your GitHub account. |
+| `title` | No | string | A descriptive name for the new key. |
 
 
 ## Responses
@@ -43,23 +43,23 @@ Response
 [key](../../_components/schemas/key.md)
 
 
-### 422
-
-Reference: [validation_failed](../../_components/responses/validation_failed.md)
-
 ### 304
 
 Reference: [not_modified](../../_components/responses/not_modified.md)
 
-### 404
+### 401
 
-Reference: [not_found](../../_components/responses/not_found.md)
+Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
 
 ### 403
 
 Reference: [forbidden](../../_components/responses/forbidden.md)
 
-### 401
+### 404
 
-Reference: [requires_authentication](../../_components/responses/requires_authentication.md)
+Reference: [not_found](../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../_components/responses/validation_failed.md)
 

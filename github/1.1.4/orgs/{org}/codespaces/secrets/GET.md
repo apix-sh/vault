@@ -41,14 +41,13 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `secrets` | Yes | array<[codespaces-org-secret](../../../../_components/schemas/codespaces-org-secret.md)> |  |
+| `total_count` | Yes | integer |  |
 
 

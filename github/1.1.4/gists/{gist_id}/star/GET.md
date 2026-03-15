@@ -30,14 +30,6 @@ _(None)_
 
 Response if gist is starred
 
-### 404
-
-Not Found if gist is not starred
-
-#### Response Schema (`application/json`)
-*(No object properties found)*
-
-
 ### 304
 
 Reference: [not_modified](../../../_components/responses/not_modified.md)
@@ -45,4 +37,12 @@ Reference: [not_modified](../../../_components/responses/not_modified.md)
 ### 403
 
 Reference: [forbidden](../../../_components/responses/forbidden.md)
+
+### 404
+
+Not Found if gist is not starred
+
+#### Response Schema (`application/json`)
+*(No object properties found)*
+
 

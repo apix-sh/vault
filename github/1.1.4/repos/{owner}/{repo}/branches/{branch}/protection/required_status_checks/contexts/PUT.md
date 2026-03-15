@@ -42,11 +42,11 @@ Response
 array<string>
 
 
-### 422
-
-Reference: [validation_failed](../../../../../../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../../../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../../../../_components/responses/validation_failed.md)
 

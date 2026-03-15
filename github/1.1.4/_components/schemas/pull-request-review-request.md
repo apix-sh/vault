@@ -11,5 +11,5 @@ Pull Request Review Request
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `users` | Yes | array<[simple-user](./simple-user.md)> |  |
 | `teams` | Yes | array<[team](./team.md)> |  |
+| `users` | Yes | array<[simple-user](./simple-user.md)> |  |

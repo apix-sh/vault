@@ -12,7 +12,7 @@ Returns information about the specified GitHub code of conduct.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key` | Yes | string | *Serialization: style=Simple* |
+| `key` | Yes | string |  |
 
 
 ## Query Parameters
@@ -36,11 +36,11 @@ Response
 [code-of-conduct](../../_components/schemas/code-of-conduct.md)
 
 
-### 404
-
-Reference: [not_found](../../_components/responses/not_found.md)
-
 ### 304
 
 Reference: [not_modified](../../_components/responses/not_modified.md)
+
+### 404
+
+Reference: [not_found](../../_components/responses/not_found.md)
 

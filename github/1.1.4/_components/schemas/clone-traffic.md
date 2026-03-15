@@ -11,6 +11,6 @@ Clone Traffic
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `clones` | Yes | array<[traffic](./traffic.md)> |  |
 | `count` | Yes | integer |  |
 | `uniques` | Yes | integer |  |
-| `clones` | Yes | array<[traffic](./traffic.md)> |  |

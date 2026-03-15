@@ -11,8 +11,8 @@ Status Check Policy
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
-| `strict` | Yes | boolean |  |
-| `contexts` | Yes | array<string> |  |
 | `checks` | Yes | array<object> |  |
+| `contexts` | Yes | array<string> |  |
 | `contexts_url` | Yes | string |  |
+| `strict` | Yes | boolean |  |
+| `url` | Yes | string |  |

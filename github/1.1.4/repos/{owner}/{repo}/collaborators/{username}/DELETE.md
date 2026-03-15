@@ -55,11 +55,11 @@ _(None)_
 
 No Content when collaborator was removed from the repository.
 
-### 422
-
-Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
-
 ### 403
 
 Reference: [forbidden](../../../../../_components/responses/forbidden.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 

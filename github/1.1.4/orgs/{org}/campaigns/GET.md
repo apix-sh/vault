@@ -25,8 +25,8 @@ _(None)_
 | `Reference` | N/A | [page](../../../_components/parameters/page.md) |  |
 | `Reference` | N/A | [per-page](../../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [direction](../../../_components/parameters/direction.md) |  |
-| `state` | No | [campaign-state](../../../_components/schemas/campaign-state.md) | If specified, only campaigns with this state will be returned.<br/>*Serialization: style=Form* |
-| `sort` | No | string | The property by which to sort the results.<br/>*Serialization: style=Form* |
+| `state` | No | [campaign-state](../../../_components/schemas/campaign-state.md) | If specified, only campaigns with this state will be returned. |
+| `sort` | No | string | The property by which to sort the results. |
 
 
 
@@ -45,7 +45,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../_components/headers/link.md) |  |
 
 

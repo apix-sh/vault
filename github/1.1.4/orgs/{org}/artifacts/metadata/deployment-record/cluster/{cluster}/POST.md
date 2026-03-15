@@ -15,7 +15,7 @@ If no existing records match, new records will be created.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `cluster` | Yes | string | The cluster name.<br/>*Serialization: style=Simple* |
+| `cluster` | Yes | string | The cluster name. |
 
 
 ## Query Parameters
@@ -34,9 +34,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `deployments` | Yes | array<object> | The list of deployments to record. |
 | `logical_environment` | Yes | string | The stage of the deployment. |
 | `physical_environment` | No | string | The physical region of the deployment. |
-| `deployments` | Yes | array<object> | The list of deployments to record. |
 
 
 ## Responses
@@ -49,7 +49,7 @@ Deployment records created or updated successfully.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | No | integer | The number of deployment records created |
 | `deployment_records` | No | array<[artifact-deployment-record](../../../../../../../_components/schemas/artifact-deployment-record.md)> |  |
+| `total_count` | No | integer | The number of deployment records created |
 
 

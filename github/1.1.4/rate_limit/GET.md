@@ -50,7 +50,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `X-RateLimit-Limit (ref)` | Unknown | [x-rate-limit-limit](../_components/headers/x-rate-limit-limit.md) |  |
 | `X-RateLimit-Remaining (ref)` | Unknown | [x-rate-limit-remaining](../_components/headers/x-rate-limit-remaining.md) |  |
 | `X-RateLimit-Reset (ref)` | Unknown | [x-rate-limit-reset](../_components/headers/x-rate-limit-reset.md) |  |

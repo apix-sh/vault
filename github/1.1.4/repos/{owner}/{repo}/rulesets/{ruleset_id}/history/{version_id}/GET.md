@@ -12,8 +12,8 @@ Get a version of a repository ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ruleset_id` | Yes | integer | The ID of the ruleset.<br/>*Serialization: style=Simple* |
-| `version_id` | Yes | integer | The ID of the version<br/>*Serialization: style=Simple* |
+| `ruleset_id` | Yes | integer | The ID of the ruleset. |
+| `version_id` | Yes | integer | The ID of the version |
 
 
 ## Query Parameters

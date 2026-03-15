@@ -11,5 +11,5 @@ Prevent commits with individual files that exceed the specified limit from being
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: max_file_size |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: max_file_size |

@@ -42,8 +42,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `sub_issue_id` | Yes | integer | The id of the sub-issue to add. The sub-issue must belong to the same repository owner as the parent issue |
 | `replace_parent` | No | boolean | Option that, when true, instructs the operation to replace the sub-issues current parent issue |
+| `sub_issue_id` | Yes | integer | The id of the sub-issue to add. The sub-issue must belong to the same repository owner as the parent issue |
 
 
 ## Responses
@@ -56,7 +56,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 
@@ -68,6 +67,10 @@ Response
 
 Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
 
+### 404
+
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
+
 ### 410
 
 Reference: [gone](../../../../../../_components/responses/gone.md)
@@ -75,8 +78,4 @@ Reference: [gone](../../../../../../_components/responses/gone.md)
 ### 422
 
 Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
-
-### 404
-
-Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

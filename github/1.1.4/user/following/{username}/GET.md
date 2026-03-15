@@ -30,6 +30,18 @@ _(None)_
 
 if the person is followed by the authenticated user
 
+### 304
+
+Reference: [not_modified](../../../_components/responses/not_modified.md)
+
+### 401
+
+Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../_components/responses/forbidden.md)
+
 ### 404
 
 if the person is not followed by the authenticated user
@@ -37,16 +49,4 @@ if the person is not followed by the authenticated user
 #### Response Schema (`application/json`)
 [basic-error](../../../_components/schemas/basic-error.md)
 
-
-### 304
-
-Reference: [not_modified](../../../_components/responses/not_modified.md)
-
-### 403
-
-Reference: [forbidden](../../../_components/responses/forbidden.md)
-
-### 401
-
-Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
 

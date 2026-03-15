@@ -33,9 +33,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `strict` | No | boolean | Require branches to be up to date before merging. |
-| `contexts` | No | array<string> | **Closing down notice**: The list of status checks to require in order to merge into this branch. If any of these checks have recently been set by a particular GitHub App, they will be required to come from that app in future for the branch to merge. Use `checks` instead of `contexts` for more fine-grained control. |
 | `checks` | No | array<object> | The list of status checks to require in order to merge into this branch. |
+| `contexts` | No | array<string> | **Closing down notice**: The list of status checks to require in order to merge into this branch. If any of these checks have recently been set by a particular GitHub App, they will be required to come from that app in future for the branch to merge. Use `checks` instead of `contexts` for more fine-grained control. |
+| `strict` | No | boolean | Require branches to be up to date before merging. |
 
 
 ## Responses

@@ -11,5 +11,5 @@ Merges must be performed via a merge queue.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: merge_queue |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: merge_queue |

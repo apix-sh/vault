@@ -39,10 +39,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `wait_timer` | No | [wait-timer](../../../../../_components/schemas/wait-timer.md) |  |
+| `deployment_branch_policy` | No | [deployment-branch-policy-settings](../../../../../_components/schemas/deployment-branch-policy-settings.md) |  |
 | `prevent_self_review` | No | [prevent-self-review](../../../../../_components/schemas/prevent-self-review.md) |  |
 | `reviewers` | No | array<object> | The people or teams that may review jobs that reference the environment. You can list up to six users or teams as reviewers. The reviewers must have at least read access to the repository. Only one of the required reviewers needs to approve the job for it to proceed. |
-| `deployment_branch_policy` | No | [deployment-branch-policy-settings](../../../../../_components/schemas/deployment-branch-policy-settings.md) |  |
+| `wait_timer` | No | [wait-timer](../../../../../_components/schemas/wait-timer.md) |  |
 
 
 ## Responses

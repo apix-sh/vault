@@ -40,13 +40,13 @@ Reference: [budget](../../../../../../_components/responses/budget.md)
 
 Reference: [bad_request](../../../../../../_components/responses/bad_request.md)
 
-### 404
-
-Reference: [not_found](../../../../../../_components/responses/not_found.md)
-
 ### 403
 
 Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
 
 ### 500
 

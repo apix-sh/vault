@@ -24,7 +24,7 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../_components/parameters/repo.md) |  |
-| `ref` | No | string | The name of the commit/branch/tag. Default: the repository’s default branch.<br/>*Serialization: style=Form* |
+| `ref` | No | string | The name of the commit/branch/tag. Default: the repository’s default branch. |
 
 
 

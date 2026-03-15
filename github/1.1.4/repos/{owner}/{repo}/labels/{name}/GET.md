@@ -12,7 +12,7 @@ Gets a label using the given name.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | Yes | string | *Serialization: style=Simple* |
+| `name` | Yes | string |  |
 
 
 ## Query Parameters

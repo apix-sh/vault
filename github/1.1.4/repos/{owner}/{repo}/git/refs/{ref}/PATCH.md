@@ -31,8 +31,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `sha` | Yes | string | The SHA1 value to set this reference to |
 | `force` | No | boolean | Indicates whether to force the update or to make sure the update is a fast-forward update. Leaving this out or setting it to `false` will make sure you're not overwriting work. |
+| `sha` | Yes | string | The SHA1 value to set this reference to |
 
 
 ## Responses
@@ -45,11 +45,11 @@ Response
 [git-ref](../../../../../../_components/schemas/git-ref.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
-
 ### 409
 
 Reference: [conflict](../../../../../../_components/responses/conflict.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
 

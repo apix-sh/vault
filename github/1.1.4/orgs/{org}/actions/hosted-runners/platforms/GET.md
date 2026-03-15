@@ -35,7 +35,7 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `platforms` | Yes | array<string> |  |
+| `total_count` | Yes | integer |  |
 
 

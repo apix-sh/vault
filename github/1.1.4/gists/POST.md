@@ -45,7 +45,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 
@@ -53,19 +52,19 @@ Response
 [gist-simple](../_components/schemas/gist-simple.md)
 
 
-### 422
-
-Reference: [validation_failed](../_components/responses/validation_failed.md)
-
 ### 304
 
 Reference: [not_modified](../_components/responses/not_modified.md)
+
+### 403
+
+Reference: [forbidden](../_components/responses/forbidden.md)
 
 ### 404
 
 Reference: [not_found](../_components/responses/not_found.md)
 
-### 403
+### 422
 
-Reference: [forbidden](../_components/responses/forbidden.md)
+Reference: [validation_failed](../_components/responses/validation_failed.md)
 

@@ -36,9 +36,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `organization` | No | string | Optional parameter to specify the organization name if forking into an organization. |
-| `name` | No | string | When forking from an existing repository, a new name for the fork. |
 | `default_branch_only` | No | boolean | When forking from an existing repository, fork with only the default branch. |
+| `name` | No | string | When forking from an existing repository, a new name for the fork. |
+| `organization` | No | string | Optional parameter to specify the organization name if forking into an organization. |
 
 
 ## Responses
@@ -55,10 +55,6 @@ Response
 
 Reference: [bad_request](../../../../_components/responses/bad_request.md)
 
-### 422
-
-Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
-
 ### 403
 
 Reference: [forbidden](../../../../_components/responses/forbidden.md)
@@ -66,4 +62,8 @@ Reference: [forbidden](../../../../_components/responses/forbidden.md)
 ### 404
 
 Reference: [not_found](../../../../_components/responses/not_found.md)
+
+### 422
+
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
 

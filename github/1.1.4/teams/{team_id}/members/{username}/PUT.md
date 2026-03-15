@@ -44,6 +44,10 @@ _(None)_
 
 Response
 
+### 403
+
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
+
 ### 404
 
 Not Found if team synchronization is set up
@@ -51,8 +55,4 @@ Not Found if team synchronization is set up
 ### 422
 
 Unprocessable Entity if you attempt to add an organization to a team or you attempt to add a user to a team when they are not a member of at least one other team in the same organization
-
-### 403
-
-Reference: [forbidden](../../../../_components/responses/forbidden.md)
 

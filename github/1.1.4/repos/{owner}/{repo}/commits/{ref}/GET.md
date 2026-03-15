@@ -79,13 +79,17 @@ Response
 [commit](../../../../../_components/schemas/commit.md)
 
 
-### 422
-
-Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
-
 ### 404
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
+
+### 409
+
+Reference: [conflict](../../../../../_components/responses/conflict.md)
+
+### 422
+
+Reference: [validation_failed](../../../../../_components/responses/validation_failed.md)
 
 ### 500
 
@@ -94,8 +98,4 @@ Reference: [internal_error](../../../../../_components/responses/internal_error.
 ### 503
 
 Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
-
-### 409
-
-Reference: [conflict](../../../../../_components/responses/conflict.md)
 

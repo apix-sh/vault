@@ -34,7 +34,16 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `code_scanning_alerts` | No | array<object> | The code scanning alerts to include in this campaign |
+| `contact_link` | No | string | The contact link of the campaign. Must be a URI. |
+| `description` | Yes | string | A description for the campaign |
+| `ends_at` | Yes | string | The end date and time of the campaign. The date must be in the future. |
+| `generate_issues` | No | boolean | If true, will automatically generate issues for the campaign. The default is false. |
+| `managers` | No | array<string> | The logins of the users to set as the campaign managers. At this time, only a single manager can be supplied. |
+| `name` | Yes | string | The name of the campaign |
+| `team_managers` | No | array<string> | The slugs of the teams to set as the campaign managers. |
 
 
 ## Responses

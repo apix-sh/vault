@@ -33,16 +33,16 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `location` | No | string | The requested location for a new codespace. Best efforts are made to respect this upon creation. Assigned by IP if not provided. |
-| `geo` | No | string | The geographic area for this codespace. If not specified, the value is assigned by IP. This property replaces `location`, which is closing down. |
 | `client_ip` | No | string | IP for location auto-detection when proxying a request |
-| `machine` | No | string | Machine type to use for this codespace |
 | `devcontainer_path` | No | string | Path to devcontainer.json config to use for this codespace |
-| `multi_repo_permissions_opt_out` | No | boolean | Whether to authorize requested permissions from devcontainer.json |
-| `working_directory` | No | string | Working directory for this codespace |
-| `idle_timeout_minutes` | No | integer | Time in minutes before codespace stops from inactivity |
 | `display_name` | No | string | Display name for this codespace |
+| `geo` | No | string | The geographic area for this codespace. If not specified, the value is assigned by IP. This property replaces `location`, which is closing down. |
+| `idle_timeout_minutes` | No | integer | Time in minutes before codespace stops from inactivity |
+| `location` | No | string | The requested location for a new codespace. Best efforts are made to respect this upon creation. Assigned by IP if not provided. |
+| `machine` | No | string | Machine type to use for this codespace |
+| `multi_repo_permissions_opt_out` | No | boolean | Whether to authorize requested permissions from devcontainer.json |
 | `retention_period_minutes` | No | integer | Duration in minutes after codespace has gone idle in which it will be deleted. Must be integer minutes between 0 and 43200 (30 days). |
+| `working_directory` | No | string | Working directory for this codespace |
 
 
 ## Responses

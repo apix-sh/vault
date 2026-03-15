@@ -31,8 +31,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | The file name of the asset. |
 | `label` | No | string | An alternate short description of the asset. Used in place of the filename. |
+| `name` | No | string | The file name of the asset. |
 | `state` | No | string |  |
 
 

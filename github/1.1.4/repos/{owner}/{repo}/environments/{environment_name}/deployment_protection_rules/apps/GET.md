@@ -47,7 +47,7 @@ A list of custom deployment rule integrations available for this environment.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | No | integer | The total number of custom deployment protection rule integrations available for this environment. |
 | `available_custom_deployment_protection_rule_integrations` | No | array<[custom-deployment-rule-app](../../../../../../../_components/schemas/custom-deployment-rule-app.md)> |  |
+| `total_count` | No | integer | The total number of custom deployment protection rule integrations available for this environment. |
 
 

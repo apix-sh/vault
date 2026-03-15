@@ -41,6 +41,10 @@ Response
 [full-repository](../../../_components/schemas/full-repository.md)
 
 
+### 301
+
+Reference: [moved_permanently](../../../_components/responses/moved_permanently.md)
+
 ### 403
 
 Reference: [forbidden](../../../_components/responses/forbidden.md)
@@ -48,8 +52,4 @@ Reference: [forbidden](../../../_components/responses/forbidden.md)
 ### 404
 
 Reference: [not_found](../../../_components/responses/not_found.md)
-
-### 301
-
-Reference: [moved_permanently](../../../_components/responses/moved_permanently.md)
 

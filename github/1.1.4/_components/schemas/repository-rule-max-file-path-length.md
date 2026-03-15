@@ -11,5 +11,5 @@ Prevent commits that include file paths that exceed the specified character limi
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: max_file_path_length |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: max_file_path_length |

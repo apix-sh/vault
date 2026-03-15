@@ -32,6 +32,18 @@ _(None)_
 
 If the user is blocked
 
+### 304
+
+Reference: [not_modified](../../../_components/responses/not_modified.md)
+
+### 401
+
+Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../_components/responses/forbidden.md)
+
 ### 404
 
 If the user is not blocked
@@ -39,16 +51,4 @@ If the user is not blocked
 #### Response Schema (`application/json`)
 [basic-error](../../../_components/schemas/basic-error.md)
 
-
-### 304
-
-Reference: [not_modified](../../../_components/responses/not_modified.md)
-
-### 403
-
-Reference: [forbidden](../../../_components/responses/forbidden.md)
-
-### 401
-
-Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
 

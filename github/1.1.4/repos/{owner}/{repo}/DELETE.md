@@ -38,6 +38,10 @@ _(None)_
 
 Response
 
+### 307
+
+Reference: [temporary_redirect](../../../_components/responses/temporary_redirect.md)
+
 ### 403
 
 If an organization owner has configured the organization to prevent members from deleting organization-owned repositories, a member will get this response:
@@ -45,13 +49,9 @@ If an organization owner has configured the organization to prevent members from
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `message` | No | string |  |
 | `documentation_url` | No | string |  |
+| `message` | No | string |  |
 
-
-### 307
-
-Reference: [temporary_redirect](../../../_components/responses/temporary_redirect.md)
 
 ### 404
 

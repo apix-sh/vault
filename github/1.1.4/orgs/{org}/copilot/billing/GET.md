@@ -45,10 +45,6 @@ OK
 [copilot-organization-details](../../../../_components/schemas/copilot-organization-details.md)
 
 
-### 500
-
-Reference: [internal_error](../../../../_components/responses/internal_error.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
@@ -64,4 +60,8 @@ Reference: [not_found](../../../../_components/responses/not_found.md)
 ### 422
 
 There is a problem with your account's associated payment method.
+
+### 500
+
+Reference: [internal_error](../../../../_components/responses/internal_error.md)
 

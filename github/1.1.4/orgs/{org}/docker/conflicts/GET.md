@@ -38,11 +38,11 @@ Response
 array<[package](../../../../_components/schemas/package.md)>
 
 
-### 403
-
-Reference: [forbidden](../../../../_components/responses/forbidden.md)
-
 ### 401
 
 Reference: [requires_authentication](../../../../_components/responses/requires_authentication.md)
+
+### 403
+
+Reference: [forbidden](../../../../_components/responses/forbidden.md)
 

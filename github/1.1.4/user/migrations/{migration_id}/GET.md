@@ -25,7 +25,7 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [migration-id](../../../_components/parameters/migration-id.md) |  |
-| `exclude` | No | array<string> | *Serialization: style=Form* |
+| `exclude` | No | array<string> |  |
 
 
 
@@ -44,19 +44,19 @@ Response
 [migration](../../../_components/schemas/migration.md)
 
 
-### 404
-
-Reference: [not_found](../../../_components/responses/not_found.md)
-
 ### 304
 
 Reference: [not_modified](../../../_components/responses/not_modified.md)
+
+### 401
+
+Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
 
 ### 403
 
 Reference: [forbidden](../../../_components/responses/forbidden.md)
 
-### 401
+### 404
 
-Reference: [requires_authentication](../../../_components/responses/requires_authentication.md)
+Reference: [not_found](../../../_components/responses/not_found.md)
 

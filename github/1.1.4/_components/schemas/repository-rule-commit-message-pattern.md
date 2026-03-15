@@ -11,5 +11,5 @@ Parameters to be used for the commit_message_pattern rule
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: commit_message_pattern |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: commit_message_pattern |

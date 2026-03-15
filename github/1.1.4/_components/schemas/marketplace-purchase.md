@@ -11,11 +11,11 @@ Marketplace Purchase
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
-| `type` | Yes | string |  |
+| `email` | No | string |  |
 | `id` | Yes | integer |  |
 | `login` | Yes | string |  |
-| `organization_billing_email` | No | string |  |
-| `email` | No | string |  |
 | `marketplace_pending_change` | No | object |  |
 | `marketplace_purchase` | Yes | object |  |
+| `organization_billing_email` | No | string |  |
+| `type` | Yes | string |  |
+| `url` | Yes | string |  |

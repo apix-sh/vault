@@ -11,5 +11,5 @@ Only allow users with bypass permission to update matching refs.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: update |
 | `parameters` | No | object |  |
+| `type` | Yes | string | Allowed values: update |

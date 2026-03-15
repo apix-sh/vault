@@ -25,9 +25,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `repository_id` | Yes | integer | The id of the repository.<br/>*Serialization: style=Form* |
-| `q` | Yes | string | The search keywords. This endpoint does not accept qualifiers in the query. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query).<br/>*Serialization: style=Form* |
-| `sort` | No | string | Sorts the results of your query by when the label was `created` or `updated`. Default: [best match](https://docs.github.com/rest/search/search#ranking-search-results)<br/>*Serialization: style=Form* |
+| `repository_id` | Yes | integer | The id of the repository. |
+| `q` | Yes | string | The search keywords. This endpoint does not accept qualifiers in the query. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). |
+| `sort` | No | string | Sorts the results of your query by when the label was `created` or `updated`. Default: [best match](https://docs.github.com/rest/search/search#ranking-search-results) |
 | `Reference` | N/A | [order](../../_components/parameters/order.md) |  |
 | `Reference` | N/A | [per-page](../../_components/parameters/per-page.md) |  |
 | `Reference` | N/A | [page](../../_components/parameters/page.md) |  |
@@ -48,22 +48,22 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `incomplete_results` | Yes | boolean |  |
 | `items` | Yes | array<[label-search-result-item](../../_components/schemas/label-search-result-item.md)> |  |
+| `total_count` | Yes | integer |  |
 
 
 ### 304
 
 Reference: [not_modified](../../_components/responses/not_modified.md)
 
-### 404
-
-Reference: [not_found](../../_components/responses/not_found.md)
-
 ### 403
 
 Reference: [forbidden](../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../_components/responses/not_found.md)
 
 ### 422
 

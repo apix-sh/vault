@@ -11,8 +11,8 @@ Reactions to conversations provide a way to help people express their feelings m
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `content` | Yes | string | The reaction to use Allowed values: +1, -1, laugh, confused, heart, hooray, rocket, eyes |
+| `created_at` | Yes | string |  |
 | `id` | Yes | integer |  |
 | `node_id` | Yes | string |  |
 | `user` | Yes | [nullable-simple-user](nullable-simple-user.md) |  |
-| `content` | Yes | string | The reaction to use Allowed values: +1, -1, laugh, confused, heart, hooray, rocket, eyes |
-| `created_at` | Yes | string |  |

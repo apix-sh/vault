@@ -11,16 +11,16 @@ Code Search Result Item
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | Yes | string |  |
-| `path` | Yes | string |  |
-| `sha` | Yes | string |  |
-| `url` | Yes | string |  |
+| `file_size` | No | integer |  |
 | `git_url` | Yes | string |  |
 | `html_url` | Yes | string |  |
-| `repository` | Yes | [minimal-repository](minimal-repository.md) |  |
-| `score` | Yes | number |  |
-| `file_size` | No | integer |  |
 | `language` | No | string |  |
 | `last_modified_at` | No | string |  |
 | `line_numbers` | No | array<string> |  |
+| `name` | Yes | string |  |
+| `path` | Yes | string |  |
+| `repository` | Yes | [minimal-repository](minimal-repository.md) |  |
+| `score` | Yes | number |  |
+| `sha` | Yes | string |  |
 | `text_matches` | No | [search-result-text-matches](search-result-text-matches.md) |  |
+| `url` | Yes | string |  |

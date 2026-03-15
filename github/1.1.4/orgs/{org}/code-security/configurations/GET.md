@@ -22,8 +22,8 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [org](../../../../_components/parameters/org.md) |  |
-| `target_type` | No | string | The target type of the code security configuration<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."<br/>*Serialization: style=Form* |
+| `target_type` | No | string | The target type of the code security configuration |
+| `per_page` | No | integer | The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)." |
 | `Reference` | N/A | [pagination-before](../../../../_components/parameters/pagination-before.md) |  |
 | `Reference` | N/A | [pagination-after](../../../../_components/parameters/pagination-after.md) |  |
 

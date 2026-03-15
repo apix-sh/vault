@@ -40,12 +40,12 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `title` | Yes | oneOf(2) | The title of the issue. |
-| `body` | No | string | The contents of the issue. |
 | `assignee` | No | string | Login for the user that this issue should be assigned to. _NOTE: Only users with push access can set the assignee for new issues. The assignee is silently dropped otherwise. **This field is closing down.**_ |
-| `milestone` | No | oneOf(2) |  |
-| `labels` | No | array<oneOf(2)> | Labels to associate with this issue. _NOTE: Only users with push access can set labels for new issues. Labels are silently dropped otherwise._ |
 | `assignees` | No | array<string> | Logins for Users to assign to this issue. _NOTE: Only users with push access can set assignees for new issues. Assignees are silently dropped otherwise._ |
+| `body` | No | string | The contents of the issue. |
+| `labels` | No | array<oneOf(2)> | Labels to associate with this issue. _NOTE: Only users with push access can set labels for new issues. Labels are silently dropped otherwise._ |
+| `milestone` | No | oneOf(2) |  |
+| `title` | Yes | oneOf(2) | The title of the issue. |
 | `type` | No | string | The name of the issue type to associate with this issue. _NOTE: Only users with push access can set the type for new issues. The type is silently dropped otherwise._ |
 
 
@@ -59,7 +59,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 
@@ -75,14 +74,6 @@ Reference: [bad_request](../../../../_components/responses/bad_request.md)
 
 Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
-### 422
-
-Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
-
-### 503
-
-Reference: [service_unavailable](../../../../_components/responses/service_unavailable.md)
-
 ### 404
 
 Reference: [not_found](../../../../_components/responses/not_found.md)
@@ -90,4 +81,12 @@ Reference: [not_found](../../../../_components/responses/not_found.md)
 ### 410
 
 Reference: [gone](../../../../_components/responses/gone.md)
+
+### 422
+
+Reference: [validation_failed](../../../../_components/responses/validation_failed.md)
+
+### 503
+
+Reference: [service_unavailable](../../../../_components/responses/service_unavailable.md)
 

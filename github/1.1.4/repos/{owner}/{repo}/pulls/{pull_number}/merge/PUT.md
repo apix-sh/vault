@@ -32,10 +32,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `commit_title` | No | string | Title for the automatic commit message. |
 | `commit_message` | No | string | Extra detail to append to automatic commit message. |
-| `sha` | No | string | SHA that pull request head must match to allow merge. |
+| `commit_title` | No | string | Title for the automatic commit message. |
 | `merge_method` | No | string | The merge method to use. |
+| `sha` | No | string | SHA that pull request head must match to allow merge. |
 
 
 ## Responses
@@ -48,6 +48,14 @@ if merge was successful
 [pull-request-merge-result](../../../../../../_components/schemas/pull-request-merge-result.md)
 
 
+### 403
+
+Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
+
+### 404
+
+Reference: [not_found](../../../../../../_components/responses/not_found.md)
+
 ### 405
 
 Method Not Allowed if merge cannot be performed
@@ -55,8 +63,8 @@ Method Not Allowed if merge cannot be performed
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `message` | No | string |  |
 | `documentation_url` | No | string |  |
+| `message` | No | string |  |
 
 
 ### 409
@@ -66,19 +74,11 @@ Conflict if sha was provided and pull request head did not match
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `message` | No | string |  |
 | `documentation_url` | No | string |  |
+| `message` | No | string |  |
 
 
 ### 422
 
 Reference: [validation_failed](../../../../../../_components/responses/validation_failed.md)
-
-### 403
-
-Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
-
-### 404
-
-Reference: [not_found](../../../../../../_components/responses/not_found.md)
 

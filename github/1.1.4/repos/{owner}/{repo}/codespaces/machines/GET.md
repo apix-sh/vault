@@ -21,9 +21,9 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [owner](../../../../../_components/parameters/owner.md) |  |
 | `Reference` | N/A | [repo](../../../../../_components/parameters/repo.md) |  |
-| `location` | No | string | The location to check for available machines. Assigned by IP if not provided.<br/>*Serialization: style=Form* |
-| `client_ip` | No | string | IP for location auto-detection when proxying a request<br/>*Serialization: style=Form* |
-| `ref` | No | string | The branch or commit to check for prebuild availability and devcontainer restrictions.<br/>*Serialization: style=Form* |
+| `location` | No | string | The location to check for available machines. Assigned by IP if not provided. |
+| `client_ip` | No | string | IP for location auto-detection when proxying a request |
+| `ref` | No | string | The branch or commit to check for prebuild availability and devcontainer restrictions. |
 
 
 
@@ -41,17 +41,13 @@ Response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
 | `machines` | Yes | array<[codespace-machine](../../../../../_components/schemas/codespace-machine.md)> |  |
+| `total_count` | Yes | integer |  |
 
 
 ### 304
 
 Reference: [not_modified](../../../../../_components/responses/not_modified.md)
-
-### 500
-
-Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 
 ### 401
 
@@ -64,4 +60,8 @@ Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 ### 404
 
 Reference: [not_found](../../../../../_components/responses/not_found.md)
+
+### 500
+
+Reference: [internal_error](../../../../../_components/responses/internal_error.md)
 

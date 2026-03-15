@@ -11,9 +11,9 @@ Issue Event Project Card
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `url` | Yes | string |  |
-| `id` | Yes | integer |  |
-| `project_url` | Yes | string |  |
-| `project_id` | Yes | integer |  |
 | `column_name` | Yes | string |  |
+| `id` | Yes | integer |  |
 | `previous_column_name` | No | string |  |
+| `project_id` | Yes | integer |  |
+| `project_url` | Yes | string |  |
+| `url` | Yes | string |  |

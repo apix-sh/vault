@@ -42,27 +42,26 @@ The access the user has to each repository is included in the hash under the `pe
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Link (ref)` | Unknown | [link](../../../../_components/headers/link.md) |  |
 
 
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | Yes | integer |  |
-| `repository_selection` | No | string |  |
 | `repositories` | Yes | array<allOf(1)> |  |
+| `repository_selection` | No | string |  |
+| `total_count` | Yes | integer |  |
 
 
-### 404
+### 304
 
-Reference: [not_found](../../../../_components/responses/not_found.md)
+Reference: [not_modified](../../../../_components/responses/not_modified.md)
 
 ### 403
 
 Reference: [forbidden](../../../../_components/responses/forbidden.md)
 
-### 304
+### 404
 
-Reference: [not_modified](../../../../_components/responses/not_modified.md)
+Reference: [not_found](../../../../_components/responses/not_found.md)
 

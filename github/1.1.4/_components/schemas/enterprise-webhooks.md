@@ -13,13 +13,13 @@ see "[About enterprise accounts](https://docs.github.com/admin/overview/about-en
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `avatar_url` | Yes | string |  |
+| `created_at` | Yes | string |  |
 | `description` | No | string | A short description of the enterprise. |
 | `html_url` | Yes | string |  |
-| `website_url` | No | string | The enterprise's website URL. |
 | `id` | Yes | integer | Unique identifier of the enterprise |
-| `node_id` | Yes | string |  |
 | `name` | Yes | string | The name of the enterprise. |
+| `node_id` | Yes | string |  |
 | `slug` | Yes | string | The slug url identifier for the enterprise. |
-| `created_at` | Yes | string |  |
 | `updated_at` | Yes | string |  |
-| `avatar_url` | Yes | string |  |
+| `website_url` | No | string | The enterprise's website URL. |

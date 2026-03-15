@@ -10,7 +10,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `target_user` | Yes | string | *Serialization: style=Simple* |
+| `target_user` | Yes | string |  |
 
 
 ## Query Parameters

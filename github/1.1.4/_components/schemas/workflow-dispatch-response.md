@@ -11,6 +11,6 @@ Response containing the workflow run ID and URLs.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `workflow_run_id` | Yes | [workflow-run-id](workflow-run-id.md) |  |
-| `run_url` | Yes | string | The URL to the workflow run. |
 | `html_url` | Yes | string |  |
+| `run_url` | Yes | string | The URL to the workflow run. |
+| `workflow_run_id` | Yes | [workflow-run-id](workflow-run-id.md) |  |

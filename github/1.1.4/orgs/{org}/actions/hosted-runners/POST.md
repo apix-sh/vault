@@ -30,13 +30,13 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | Name of the runner. Must be between 1 and 64 characters and may only contain upper and lowercase letters a-z, numbers 0-9, '.', '-', and '_'. |
-| `image` | Yes | object | The image of runner. To list all available images, use `GET /actions/hosted-runners/images/github-owned` or `GET /actions/hosted-runners/images/partner`. |
-| `size` | Yes | string | The machine size of the runner. To list available sizes, use `GET actions/hosted-runners/machine-sizes` |
-| `runner_group_id` | Yes | integer | The existing runner group to add this runner to. |
-| `maximum_runners` | No | integer | The maximum amount of runners to scale up to. Runners will not auto-scale above this number. Use this setting to limit your cost. |
 | `enable_static_ip` | No | boolean | Whether this runner should be created with a static public IP. Note limit on account. To list limits on account, use `GET actions/hosted-runners/limits` |
+| `image` | Yes | object | The image of runner. To list all available images, use `GET /actions/hosted-runners/images/github-owned` or `GET /actions/hosted-runners/images/partner`. |
 | `image_gen` | No | boolean | Whether this runner should be used to generate custom images. |
+| `maximum_runners` | No | integer | The maximum amount of runners to scale up to. Runners will not auto-scale above this number. Use this setting to limit your cost. |
+| `name` | Yes | string | Name of the runner. Must be between 1 and 64 characters and may only contain upper and lowercase letters a-z, numbers 0-9, '.', '-', and '_'. |
+| `runner_group_id` | Yes | integer | The existing runner group to add this runner to. |
+| `size` | Yes | string | The machine size of the runner. To list available sizes, use `GET actions/hosted-runners/machine-sizes` |
 
 
 ## Responses

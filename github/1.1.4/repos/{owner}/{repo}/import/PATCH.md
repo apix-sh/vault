@@ -38,10 +38,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `vcs_username` | No | string | The username to provide to the originating repository. |
-| `vcs_password` | No | string | The password to provide to the originating repository. |
-| `vcs` | No | string | The type of version control system you are migrating from. |
 | `tfvc_project` | No | string | For a tfvc import, the name of the project that is being imported. |
+| `vcs` | No | string | The type of version control system you are migrating from. |
+| `vcs_password` | No | string | The password to provide to the originating repository. |
+| `vcs_username` | No | string | The username to provide to the originating repository. |
 
 
 ## Responses

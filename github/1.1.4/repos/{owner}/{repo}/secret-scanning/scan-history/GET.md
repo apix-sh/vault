@@ -34,14 +34,6 @@ _(None)_
 
 ## Responses
 
-### 404
-
-Repository does not have GitHub Advanced Security or secret scanning enabled
-
-### 503
-
-Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
-
 ### 200
 
 Response
@@ -49,4 +41,12 @@ Response
 #### Response Schema (`application/json`)
 [secret-scanning-scan-history](../../../../../_components/schemas/secret-scanning-scan-history.md)
 
+
+### 404
+
+Repository does not have GitHub Advanced Security or secret scanning enabled
+
+### 503
+
+Reference: [service_unavailable](../../../../../_components/responses/service_unavailable.md)
 

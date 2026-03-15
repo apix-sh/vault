@@ -17,7 +17,7 @@ This endpoint supports the following custom media types. For more information, s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `sha` | Yes | string | *Serialization: style=Simple* |
+| `sha` | Yes | string |  |
 
 
 ## Query Parameters
@@ -43,15 +43,15 @@ Response
 [gist-simple](../../../_components/schemas/gist-simple.md)
 
 
-### 422
+### 403
 
-Reference: [validation_failed](../../../_components/responses/validation_failed.md)
+Reference: [forbidden](../../../_components/responses/forbidden.md)
 
 ### 404
 
 Reference: [not_found](../../../_components/responses/not_found.md)
 
-### 403
+### 422
 
-Reference: [forbidden](../../../_components/responses/forbidden.md)
+Reference: [validation_failed](../../../_components/responses/validation_failed.md)
 

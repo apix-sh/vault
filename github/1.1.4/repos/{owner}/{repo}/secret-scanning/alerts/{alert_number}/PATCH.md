@@ -35,7 +35,12 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `assignee` | No | [secret-scanning-alert-assignee](../../../../../../_components/schemas/secret-scanning-alert-assignee.md) |  |
+| `resolution` | No | [secret-scanning-alert-resolution](../../../../../../_components/schemas/secret-scanning-alert-resolution.md) |  |
+| `resolution_comment` | No | [secret-scanning-alert-resolution-comment](../../../../../../_components/schemas/secret-scanning-alert-resolution-comment.md) |  |
+| `state` | No | [secret-scanning-alert-state](../../../../../../_components/schemas/secret-scanning-alert-state.md) |  |
 
 
 ## Responses

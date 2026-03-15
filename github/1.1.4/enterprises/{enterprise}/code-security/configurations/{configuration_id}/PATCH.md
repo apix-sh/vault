@@ -34,33 +34,29 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | The name of the code security configuration. Must be unique across the enterprise. |
-| `description` | No | string | A description of the code security configuration |
-| `advanced_security` | No | string | The enablement status of GitHub Advanced Security features. `enabled` will enable both Code Security and Secret Protection features.
-
-> [!WARNING]
-> `code_security` and `secret_protection` are deprecated values for this field. Prefer the individual `code_security` and `secret_protection` fields to set the status of these features.
- |
+| `advanced_security` | No | string | The enablement status of GitHub Advanced Security features. `enabled` will enable both Code Security and Secret Protection features.<br/><br/>> [!WARNING]<br/>> `code_security` and `secret_protection` are deprecated values for this field. Prefer the individual `code_security` and `secret_protection` fields to set the status of these features.<br/> |
+| `code_scanning_default_setup` | No | string | The enablement status of code scanning default setup |
+| `code_scanning_default_setup_options` | No | [code-scanning-default-setup-options](../../../../../_components/schemas/code-scanning-default-setup-options.md) |  |
+| `code_scanning_delegated_alert_dismissal` | No | string | The enablement status of code scanning delegated alert dismissal |
+| `code_scanning_options` | No | [code-scanning-options](../../../../../_components/schemas/code-scanning-options.md) |  |
 | `code_security` | No | string | The enablement status of GitHub Code Security features. |
+| `dependabot_alerts` | No | string | The enablement status of Dependabot alerts |
+| `dependabot_security_updates` | No | string | The enablement status of Dependabot security updates |
 | `dependency_graph` | No | string | The enablement status of Dependency Graph |
 | `dependency_graph_autosubmit_action` | No | string | The enablement status of Automatic dependency submission |
 | `dependency_graph_autosubmit_action_options` | No | object | Feature options for Automatic dependency submission |
-| `dependabot_alerts` | No | string | The enablement status of Dependabot alerts |
-| `dependabot_security_updates` | No | string | The enablement status of Dependabot security updates |
-| `code_scanning_default_setup` | No | string | The enablement status of code scanning default setup |
-| `code_scanning_default_setup_options` | No | [code-scanning-default-setup-options](../../../../../_components/schemas/code-scanning-default-setup-options.md) |  |
-| `code_scanning_options` | No | [code-scanning-options](../../../../../_components/schemas/code-scanning-options.md) |  |
-| `code_scanning_delegated_alert_dismissal` | No | string | The enablement status of code scanning delegated alert dismissal |
+| `description` | No | string | A description of the code security configuration |
+| `enforcement` | No | string | The enforcement status for a security configuration |
+| `name` | No | string | The name of the code security configuration. Must be unique across the enterprise. |
+| `private_vulnerability_reporting` | No | string | The enablement status of private vulnerability reporting |
 | `secret_protection` | No | string | The enablement status of GitHub Secret Protection features. |
 | `secret_scanning` | No | string | The enablement status of secret scanning |
-| `secret_scanning_push_protection` | No | string | The enablement status of secret scanning push protection |
-| `secret_scanning_validity_checks` | No | string | The enablement status of secret scanning validity checks |
-| `secret_scanning_non_provider_patterns` | No | string | The enablement status of secret scanning non-provider patterns |
-| `secret_scanning_generic_secrets` | No | string | The enablement status of Copilot secret scanning |
 | `secret_scanning_delegated_alert_dismissal` | No | string | The enablement status of secret scanning delegated alert dismissal |
 | `secret_scanning_extended_metadata` | No | string | The enablement status of secret scanning extended metadata |
-| `private_vulnerability_reporting` | No | string | The enablement status of private vulnerability reporting |
-| `enforcement` | No | string | The enforcement status for a security configuration |
+| `secret_scanning_generic_secrets` | No | string | The enablement status of Copilot secret scanning |
+| `secret_scanning_non_provider_patterns` | No | string | The enablement status of secret scanning non-provider patterns |
+| `secret_scanning_push_protection` | No | string | The enablement status of secret scanning push protection |
+| `secret_scanning_validity_checks` | No | string | The enablement status of secret scanning validity checks |
 
 
 ## Responses

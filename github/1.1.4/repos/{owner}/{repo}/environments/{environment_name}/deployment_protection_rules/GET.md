@@ -41,8 +41,8 @@ List of deployment protection rules
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `total_count` | No | integer | The number of enabled custom deployment protection rules for this environment |
 | `custom_deployment_protection_rules` | No | array<[deployment-protection-rule](../../../../../../_components/schemas/deployment-protection-rule.md)> |  |
+| `total_count` | No | integer | The number of enabled custom deployment protection rules for this environment |
 
 #### Example Payload
 ```json

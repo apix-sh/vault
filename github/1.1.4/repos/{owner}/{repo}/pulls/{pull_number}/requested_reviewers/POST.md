@@ -30,7 +30,10 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `reviewers` | No | array<string> | An array of user `login`s that will be requested. |
+| `team_reviewers` | No | array<string> | An array of team `slug`s that will be requested. |
 
 
 ## Responses
@@ -43,11 +46,11 @@ Response
 [pull-request-simple](../../../../../../_components/schemas/pull-request-simple.md)
 
 
-### 422
-
-Unprocessable Entity if user is not a collaborator
-
 ### 403
 
 Reference: [forbidden](../../../../../../_components/responses/forbidden.md)
+
+### 422
+
+Unprocessable Entity if user is not a collaborator
 

@@ -14,8 +14,8 @@ OAuth app tokens and personal access tokens (classic) need the `public_repo` or 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `template_owner` | Yes | string | The account owner of the template repository. The name is not case sensitive.<br/>*Serialization: style=Simple* |
-| `template_repo` | Yes | string | The name of the template repository without the `.git` extension. The name is not case sensitive.<br/>*Serialization: style=Simple* |
+| `template_owner` | Yes | string | The account owner of the template repository. The name is not case sensitive. |
+| `template_repo` | Yes | string | The name of the template repository without the `.git` extension. The name is not case sensitive. |
 
 
 ## Query Parameters
@@ -32,10 +32,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `owner` | No | string | The organization or person who will own the new repository. To create a new repository in an organization, the authenticated user must be a member of the specified organization. |
-| `name` | Yes | string | The name of the new repository. |
 | `description` | No | string | A short description of the new repository. |
 | `include_all_branches` | No | boolean | Set to `true` to include the directory structure and files from all branches in the template repository, and not just the default branch. Default: `false`. |
+| `name` | Yes | string | The name of the new repository. |
+| `owner` | No | string | The organization or person who will own the new repository. To create a new repository in an organization, the authenticated user must be a member of the specified organization. |
 | `private` | No | boolean | Either `true` to create a new private repository or `false` to create a new public one. |
 
 
@@ -49,7 +49,6 @@ Response
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Location` | No | string |  |
 
 

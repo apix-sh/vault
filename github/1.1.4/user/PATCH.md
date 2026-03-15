@@ -27,14 +27,14 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | The new name of the user. |
-| `email` | No | string | The publicly visible email address of the user. |
-| `blog` | No | string | The new blog URL of the user. |
-| `twitter_username` | No | string | The new Twitter username of the user. |
-| `company` | No | string | The new company of the user. |
-| `location` | No | string | The new location of the user. |
-| `hireable` | No | boolean | The new hiring availability of the user. |
 | `bio` | No | string | The new short biography of the user. |
+| `blog` | No | string | The new blog URL of the user. |
+| `company` | No | string | The new company of the user. |
+| `email` | No | string | The publicly visible email address of the user. |
+| `hireable` | No | boolean | The new hiring availability of the user. |
+| `location` | No | string | The new location of the user. |
+| `name` | No | string | The new name of the user. |
+| `twitter_username` | No | string | The new Twitter username of the user. |
 
 
 ## Responses
@@ -51,17 +51,17 @@ Response
 
 Reference: [not_modified](../_components/responses/not_modified.md)
 
-### 404
+### 401
 
-Reference: [not_found](../_components/responses/not_found.md)
+Reference: [requires_authentication](../_components/responses/requires_authentication.md)
 
 ### 403
 
 Reference: [forbidden](../_components/responses/forbidden.md)
 
-### 401
+### 404
 
-Reference: [requires_authentication](../_components/responses/requires_authentication.md)
+Reference: [not_found](../_components/responses/not_found.md)
 
 ### 422
 

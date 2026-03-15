@@ -8,8 +8,8 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `base` | Yes | object |  |
+| `head` | Yes | object |  |
 | `id` | Yes | integer |  |
 | `number` | Yes | integer |  |
 | `url` | Yes | string |  |
-| `head` | Yes | object |  |
-| `base` | Yes | object |  |

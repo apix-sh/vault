@@ -35,13 +35,13 @@ _(None)_
 
 Response
 
-### 403
-
-Reference: [forbidden](../../../../../_components/responses/forbidden.md)
-
 ### 304
 
 Reference: [not_modified](../../../../../_components/responses/not_modified.md)
+
+### 403
+
+Reference: [forbidden](../../../../../_components/responses/forbidden.md)
 
 ### 404
 
