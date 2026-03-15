@@ -1,13 +1,5 @@
 {
   "apis": {
-    "stripe": {
-      "name": "stripe",
-      "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
-      "versions": [
-        "2026-02-25.clover"
-      ],
-      "tags": []
-    },
     "anthropic": {
       "name": "anthropic",
       "description": "Anthropic API",
@@ -16,102 +8,21 @@
       ],
       "tags": []
     },
-    "openai": {
-      "name": "openai",
-      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
+    "huggingface": {
+      "name": "huggingface",
+      "description": "Deploy and manage Hugging Face models as production-ready inference endpoints on various cloud providers.",
       "versions": [
-        "2.3.0"
+        "2.0.0"
       ],
       "tags": [
-        "Assistants",
-        "Audio",
         "Audit Logs",
-        "Batch",
-        "Chat",
-        "Completions",
-        "Embeddings",
-        "Evals",
-        "Files",
-        "Fine-tuning",
-        "Images",
-        "Models",
-        "Moderations",
-        "Uploads"
+        "CIDR Lists",
+        "Custom Domains",
+        "Endpoints",
+        "Metrics",
+        "Private Services",
+        "Providers"
       ]
-    },
-    "github": {
-      "name": "github",
-      "description": "GitHub's v3 REST API.",
-      "versions": [
-        "1.1.4"
-      ],
-      "tags": [
-        "actions",
-        "activity",
-        "apps",
-        "billing",
-        "campaigns",
-        "checks",
-        "classroom",
-        "code-scanning",
-        "code-security",
-        "codes-of-conduct",
-        "codespaces",
-        "copilot",
-        "credentials",
-        "dependabot",
-        "dependency-graph",
-        "desktop",
-        "emojis",
-        "enterprise-team-memberships",
-        "enterprise-team-organizations",
-        "enterprise-teams",
-        "gists",
-        "git",
-        "gitignore",
-        "hosted-compute",
-        "interactions",
-        "issues",
-        "licenses",
-        "markdown",
-        "merge-queue",
-        "meta",
-        "migrations",
-        "oidc",
-        "orgs",
-        "packages",
-        "private-registries",
-        "projects",
-        "pulls",
-        "rate-limit",
-        "reactions",
-        "repos",
-        "search",
-        "secret-scanning",
-        "security-advisories",
-        "teams",
-        "users"
-      ]
-    },
-    "petstore": {
-      "name": "petstore",
-      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
-      "versions": [
-        "1.0.27"
-      ],
-      "tags": [
-        "pet",
-        "store",
-        "user"
-      ]
-    },
-    "cloudflare": {
-      "name": "cloudflare",
-      "description": "Welcome to Cloudflare's API documentation site. We are experimenting with an updated version of our API documentation - check out [developers.cloudflare.com/api-next/](https://developers.cloudflare.com/api-next/) to test out the new experience.",
-      "versions": [
-        "4.0.0"
-      ],
-      "tags": []
     },
     "linode": {
       "name": "linode",
@@ -218,6 +129,188 @@
         "Volumes"
       ]
     },
+    "discord": {
+      "name": "discord",
+      "description": "Preview of the Discord v10 HTTP API specification. See https://discord.com/developers/docs for more details.",
+      "versions": [
+        "10"
+      ],
+      "tags": []
+    },
+    "planetscale": {
+      "name": "planetscale",
+      "description": "<p>PlanetScale API</p>",
+      "versions": [
+        "v1"
+      ],
+      "tags": [
+        "Backups",
+        "Bouncer resizes",
+        "Bouncers",
+        "Branch changes",
+        "Branch config changes",
+        "Branch log signatures",
+        "Cluster extensions",
+        "Cluster parameters",
+        "Database Postgres IP restrictions",
+        "Database branch keyspaces",
+        "Database branch passwords",
+        "Databases",
+        "Deploy requests",
+        "Invoices",
+        "Keyspace VSchemas",
+        "Keyspace config changes",
+        "OAuth applications",
+        "OAuth tokens",
+        "Organization members",
+        "Organization teams",
+        "Organizations",
+        "Query Insights reports",
+        "Roles",
+        "Schema recommendations",
+        "Service tokens",
+        "Shard config changes",
+        "Team members",
+        "Traffic budgets",
+        "Users",
+        "Webhooks",
+        "Workflows"
+      ]
+    },
+    "vercel": {
+      "name": "vercel",
+      "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+      "versions": [
+        "0.0.1"
+      ],
+      "tags": []
+    },
+    "petstore": {
+      "name": "petstore",
+      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
+      "versions": [
+        "1.0.27"
+      ],
+      "tags": [
+        "pet",
+        "store",
+        "user"
+      ]
+    },
+    "openai": {
+      "name": "openai",
+      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
+      "versions": [
+        "2.3.0"
+      ],
+      "tags": [
+        "Assistants",
+        "Audio",
+        "Audit Logs",
+        "Batch",
+        "Chat",
+        "Completions",
+        "Embeddings",
+        "Evals",
+        "Files",
+        "Fine-tuning",
+        "Images",
+        "Models",
+        "Moderations",
+        "Uploads"
+      ]
+    },
+    "stripe": {
+      "name": "stripe",
+      "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
+      "versions": [
+        "2026-02-25.clover"
+      ],
+      "tags": []
+    },
+    "resend": {
+      "name": "resend",
+      "description": "Resend is the email platform for developers.",
+      "versions": [
+        "1.5.0"
+      ],
+      "tags": [
+        "API Keys",
+        "Audiences",
+        "Broadcasts",
+        "Contact Properties",
+        "Contacts",
+        "Domains",
+        "Emails",
+        "Receiving Emails",
+        "Segments",
+        "Templates",
+        "Topics",
+        "Webhooks"
+      ]
+    },
+    "cloudflare": {
+      "name": "cloudflare",
+      "description": "Welcome to Cloudflare's API documentation site. We are experimenting with an updated version of our API documentation - check out [developers.cloudflare.com/api-next/](https://developers.cloudflare.com/api-next/) to test out the new experience.",
+      "versions": [
+        "4.0.0"
+      ],
+      "tags": []
+    },
+    "github": {
+      "name": "github",
+      "description": "GitHub's v3 REST API.",
+      "versions": [
+        "1.1.4"
+      ],
+      "tags": [
+        "actions",
+        "activity",
+        "apps",
+        "billing",
+        "campaigns",
+        "checks",
+        "classroom",
+        "code-scanning",
+        "code-security",
+        "codes-of-conduct",
+        "codespaces",
+        "copilot",
+        "credentials",
+        "dependabot",
+        "dependency-graph",
+        "desktop",
+        "emojis",
+        "enterprise-team-memberships",
+        "enterprise-team-organizations",
+        "enterprise-teams",
+        "gists",
+        "git",
+        "gitignore",
+        "hosted-compute",
+        "interactions",
+        "issues",
+        "licenses",
+        "markdown",
+        "merge-queue",
+        "meta",
+        "migrations",
+        "oidc",
+        "orgs",
+        "packages",
+        "private-registries",
+        "projects",
+        "pulls",
+        "rate-limit",
+        "reactions",
+        "repos",
+        "search",
+        "secret-scanning",
+        "security-advisories",
+        "teams",
+        "users"
+      ]
+    },
     "gitlab": {
       "name": "gitlab",
       "description": "An OpenAPI definition for the GitLab REST API.",
@@ -300,91 +393,6 @@
         "terraform_state",
         "unleash_api"
       ]
-    },
-    "planetscale": {
-      "name": "planetscale",
-      "description": "<p>PlanetScale API</p>",
-      "versions": [
-        "v1"
-      ],
-      "tags": [
-        "Backups",
-        "Bouncer resizes",
-        "Bouncers",
-        "Branch changes",
-        "Branch config changes",
-        "Branch log signatures",
-        "Cluster extensions",
-        "Cluster parameters",
-        "Database Postgres IP restrictions",
-        "Database branch keyspaces",
-        "Database branch passwords",
-        "Databases",
-        "Deploy requests",
-        "Invoices",
-        "Keyspace VSchemas",
-        "Keyspace config changes",
-        "OAuth applications",
-        "OAuth tokens",
-        "Organization members",
-        "Organization teams",
-        "Organizations",
-        "Query Insights reports",
-        "Roles",
-        "Schema recommendations",
-        "Service tokens",
-        "Shard config changes",
-        "Team members",
-        "Traffic budgets",
-        "Users",
-        "Webhooks",
-        "Workflows"
-      ]
-    },
-    "huggingface": {
-      "name": "huggingface",
-      "description": "Deploy and manage Hugging Face models as production-ready inference endpoints on various cloud providers.",
-      "versions": [
-        "2.0.0"
-      ],
-      "tags": [
-        "Audit Logs",
-        "CIDR Lists",
-        "Custom Domains",
-        "Endpoints",
-        "Metrics",
-        "Private Services",
-        "Providers"
-      ]
-    },
-    "resend": {
-      "name": "resend",
-      "description": "Resend is the email platform for developers.",
-      "versions": [
-        "1.5.0"
-      ],
-      "tags": [
-        "API Keys",
-        "Audiences",
-        "Broadcasts",
-        "Contact Properties",
-        "Contacts",
-        "Domains",
-        "Emails",
-        "Receiving Emails",
-        "Segments",
-        "Templates",
-        "Topics",
-        "Webhooks"
-      ]
-    },
-    "vercel": {
-      "name": "vercel",
-      "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
-      "versions": [
-        "0.0.1"
-      ],
-      "tags": []
     }
   }
 }
