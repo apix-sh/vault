@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/projects/{id}/alert_management_alerts/{alert_iid}/metric_images"
+auth: "none"
 content_type: "multipart/form-data"
 ---
 
@@ -12,7 +13,7 @@ Upload a metric image for an alert
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `alert_iid` | Yes | integer | The IID of the Alert<br/>*Serialization: style=Simple* |
+| `alert_iid` | Yes | integer | The IID of the Alert |
 
 
 ## Query Parameters
@@ -29,7 +30,11 @@ Supported content types:
 - `multipart/form-data`
 
 ### Inline Request Schema (`multipart/form-data`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `file` | Yes | string | The image file to be uploaded |
+| `url` | No | string | The url to view more metric info |
+| `url_text` | No | string | A description of the image or URL |
 
 
 ## Responses

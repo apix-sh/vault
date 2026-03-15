@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/admin/ci/variables/{key}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Get the details of a specific instance-level variable
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key` | Yes | string | The key of a variable<br/>*Serialization: style=Simple* |
+| `key` | Yes | string | The key of a variable |
 
 
 ## Query Parameters

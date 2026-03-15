@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/broadcast_messages"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -25,7 +26,17 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `broadcast_type` | No | string | Broadcast type. Defaults to banner |
+| `color` | No | string | Background color |
+| `dismissable` | No | boolean | Is dismissable |
+| `ends_at` | No | string | Ending time |
+| `font` | No | string | Foreground color |
+| `message` | Yes | string | Message to display |
+| `starts_at` | No | string | Starting time |
+| `target_access_levels` | No | array<integer> | Target user roles |
+| `target_path` | No | string | Target path |
 
 
 ## Responses

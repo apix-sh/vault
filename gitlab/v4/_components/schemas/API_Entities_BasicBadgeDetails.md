@@ -11,8 +11,8 @@ API_Entities_BasicBadgeDetails model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | No | string |  |
-| `link_url` | No | string |  |
 | `image_url` | No | string |  |
-| `rendered_link_url` | No | string |  |
+| `link_url` | No | string |  |
+| `name` | No | string |  |
 | `rendered_image_url` | No | string |  |
+| `rendered_link_url` | No | string |  |

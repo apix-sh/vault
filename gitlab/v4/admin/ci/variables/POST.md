@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/admin/ci/variables"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -25,7 +26,14 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `key` | Yes | string | The key of the variable. Max 255 characters |
+| `masked` | No | boolean | Whether the variable is masked |
+| `protected` | No | boolean | Whether the variable is protected |
+| `raw` | No | boolean | Whether the variable will be expanded |
+| `value` | Yes | string | The value of a variable |
+| `variable_type` | No | string | The type of a variable. Available types are: env_var (default) and file |
 
 
 ## Responses

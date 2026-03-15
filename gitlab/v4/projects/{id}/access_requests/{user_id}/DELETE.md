@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://www.gitlab.com/api/v4/projects/{id}/access_requests/{user_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ This feature was introduced in GitLab 8.11.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `user_id` | Yes | integer | The user ID of the access requester<br/>*Serialization: style=Simple* |
+| `user_id` | Yes | integer | The user ID of the access requester |
 
 
 ## Query Parameters

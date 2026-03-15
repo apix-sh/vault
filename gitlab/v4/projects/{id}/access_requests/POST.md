@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/projects/{id}/access_requests"
+auth: "none"
 content_type: "application/json"
 ---
 

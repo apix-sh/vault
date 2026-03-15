@@ -1,6 +1,7 @@
 ---
 method: "PUT"
 url: "https://www.gitlab.com/api/v4/projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}"
+auth: "none"
 content_type: "multipart/form-data"
 ---
 
@@ -12,8 +13,8 @@ Update a metric image for an alert
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `alert_iid` | Yes | integer | The IID of the Alert<br/>*Serialization: style=Simple* |
-| `metric_image_id` | Yes | integer | The ID of metric image<br/>*Serialization: style=Simple* |
+| `alert_iid` | Yes | integer | The IID of the Alert |
+| `metric_image_id` | Yes | integer | The ID of metric image |
 
 
 ## Query Parameters
@@ -30,7 +31,10 @@ Supported content types:
 - `multipart/form-data`
 
 ### Inline Request Schema (`multipart/form-data`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `url` | No | string | The url to view more metric info |
+| `url_text` | No | string | A description of the image or URL |
 
 
 ## Responses

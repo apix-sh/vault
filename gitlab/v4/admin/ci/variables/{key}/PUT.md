@@ -1,6 +1,7 @@
 ---
 method: "PUT"
 url: "https://www.gitlab.com/api/v4/admin/ci/variables/{key}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Update an instance-level variable
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key` | Yes | string | The key of a variable<br/>*Serialization: style=Simple* |
+| `key` | Yes | string | The key of a variable |
 
 
 ## Query Parameters
@@ -27,7 +28,13 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `masked` | No | boolean | Whether the variable is masked |
+| `protected` | No | boolean | Whether the variable is protected |
+| `raw` | No | boolean | Whether the variable will be expanded |
+| `value` | No | string | The value of a variable |
+| `variable_type` | No | string | The type of a variable. Available types are: env_var (default) and file |
 
 
 ## Responses

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/admin/ci/variables"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -17,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | Current page number<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Number of items per page<br/>*Serialization: style=Form* |
+| `page` | No | integer | Current page number |
+| `per_page` | No | integer | Number of items per page |
 
 
 

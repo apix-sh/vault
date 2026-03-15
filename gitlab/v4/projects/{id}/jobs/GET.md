@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/projects/{id}/jobs"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -16,7 +17,7 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [ProjectIdOrPath](../../../_components/parameters/ProjectIdOrPath.md) |  |
-| `scope` | No | array<string> | Return all jobs with the specified statuses<br/>*Serialization: style=Form* |
+| `scope` | No | array<string> | Return all jobs with the specified statuses |
 
 
 

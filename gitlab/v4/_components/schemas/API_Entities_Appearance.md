@@ -11,19 +11,19 @@ API_Entities_Appearance model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `title` | No | string |  |
 | `description` | No | string |  |
-| `pwa_name` | No | string |  |
-| `pwa_short_name` | No | string |  |
-| `pwa_description` | No | string |  |
-| `logo` | No | string |  |
-| `pwa_icon` | No | string |  |
-| `header_logo` | No | string |  |
+| `email_header_and_footer_enabled` | No | string |  |
 | `favicon` | No | string |  |
-| `new_project_guidelines` | No | string |  |
-| `profile_image_guidelines` | No | string |  |
-| `header_message` | No | string |  |
 | `footer_message` | No | string |  |
+| `header_logo` | No | string |  |
+| `header_message` | No | string |  |
+| `logo` | No | string |  |
 | `message_background_color` | No | string |  |
 | `message_font_color` | No | string |  |
-| `email_header_and_footer_enabled` | No | string |  |
+| `new_project_guidelines` | No | string |  |
+| `profile_image_guidelines` | No | string |  |
+| `pwa_description` | No | string |  |
+| `pwa_icon` | No | string |  |
+| `pwa_name` | No | string |  |
+| `pwa_short_name` | No | string |  |
+| `title` | No | string |  |

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/projects/{id}/badges"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -18,9 +19,9 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [ProjectIdOrPath](../../../_components/parameters/ProjectIdOrPath.md) |  |
-| `page` | No | integer | Current page number<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Number of items per page<br/>*Serialization: style=Form* |
-| `name` | No | string | Name for the badge<br/>*Serialization: style=Form* |
+| `page` | No | integer | Current page number |
+| `per_page` | No | integer | Number of items per page |
+| `name` | No | string | Name for the badge |
 
 
 

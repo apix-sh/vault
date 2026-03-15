@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/projects/{id}/repository/branches/{branch}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Get a single repository branch
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `branch` | Yes | integer | *Serialization: style=Simple* |
+| `branch` | Yes | integer |  |
 
 
 ## Query Parameters

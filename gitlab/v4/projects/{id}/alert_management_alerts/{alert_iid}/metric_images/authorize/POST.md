@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/projects/{id}/alert_management_alerts/{alert_iid}/metric_images/authorize"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Workhorse authorize metric image file upload
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `alert_iid` | Yes | integer | The IID of the Alert<br/>*Serialization: style=Simple* |
+| `alert_iid` | Yes | integer | The IID of the Alert |
 
 
 ## Query Parameters

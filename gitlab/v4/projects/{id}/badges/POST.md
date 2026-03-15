@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/projects/{id}/badges"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -27,7 +28,11 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `image_url` | Yes | string | URL of the badge image |
+| `link_url` | Yes | string | URL of the badge link |
+| `name` | No | string | Name for the badge |
 
 
 ## Responses

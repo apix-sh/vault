@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/groups/{id}/badges/render"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,15 +13,15 @@ This feature was introduced in GitLab 10.6.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The ID or URL-encoded path of the group owned by the authenticated user.<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The ID or URL-encoded path of the group owned by the authenticated user. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `link_url` | Yes | string | URL of the badge link<br/>*Serialization: style=Form* |
-| `image_url` | Yes | string | URL of the badge image<br/>*Serialization: style=Form* |
+| `link_url` | Yes | string | URL of the badge link |
+| `image_url` | Yes | string | URL of the badge image |
 
 
 

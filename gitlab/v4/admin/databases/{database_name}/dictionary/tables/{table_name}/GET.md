@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/admin/databases/{database_name}/dictionary/tables/{table_name}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,8 +13,8 @@ Retrieve dictionary details
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `database_name` | Yes | string | The database name<br/>*Serialization: style=Simple* |
-| `table_name` | Yes | string | The table name<br/>*Serialization: style=Simple* |
+| `database_name` | Yes | string | The database name |
+| `table_name` | Yes | string | The table name |
 
 
 ## Query Parameters

@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://www.gitlab.com/api/v4/projects/{id}/repository/merged_branches"
+auth: "none"
 content_type: "application/json"
 ---
 

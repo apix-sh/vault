@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/projects/{id}/jobs/{job_id}/play"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `job_id` | Yes | integer | The ID of the manual job to run<br/>*Serialization: style=Simple* |
+| `job_id` | Yes | integer | The ID of the manual job to run |
 
 
 ## Query Parameters
@@ -18,7 +19,7 @@ content_type: "application/json"
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [ProjectIdOrPath](../../../../../_components/parameters/ProjectIdOrPath.md) |  |
-| `job_variables_attributes` | No | array<string> | An array containing the custom variables available to the job<br/>*Serialization: style=Form* |
+| `job_variables_attributes` | No | array<string> | An array containing the custom variables available to the job |
 
 
 

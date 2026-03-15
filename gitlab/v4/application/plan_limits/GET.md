@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/application/plan_limits"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -17,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `plan_name` | No | string | Name of the plan to get the limits from. Default: default.<br/>*Serialization: style=Form* |
+| `plan_name` | No | string | Name of the plan to get the limits from. Default: default. |
 
 
 

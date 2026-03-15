@@ -8,12 +8,12 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `avatar_path` | No | string |  |
+| `avatar_url` | No | string |  |
+| `custom_attributes` | No | array<[API_Entities_CustomAttribute](./API_Entities_CustomAttribute.md)> |  |
+| `email` | No | string |  |
 | `id` | No | integer |  |
-| `username` | No | string |  |
 | `name` | No | string |  |
 | `state` | No | string |  |
-| `avatar_url` | No | string |  |
-| `avatar_path` | No | string |  |
-| `custom_attributes` | No | array<[API_Entities_CustomAttribute](./API_Entities_CustomAttribute.md)> |  |
+| `username` | No | string |  |
 | `web_url` | No | string |  |
-| `email` | No | string |  |

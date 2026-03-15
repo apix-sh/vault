@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/groups/{id}/access_requests"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,15 +13,15 @@ This feature was introduced in GitLab 8.11.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The ID or URL-encoded path of the group owned by the authenticated user<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The ID or URL-encoded path of the group owned by the authenticated user |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | Current page number<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Number of items per page<br/>*Serialization: style=Form* |
+| `page` | No | integer | Current page number |
+| `per_page` | No | integer | Number of items per page |
 
 
 

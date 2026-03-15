@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/projects/{id}/repository/branches"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -18,12 +19,12 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [ProjectIdOrPath](../../../../_components/parameters/ProjectIdOrPath.md) |  |
-| `page` | No | integer | Current page number<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Number of items per page<br/>*Serialization: style=Form* |
-| `search` | No | string | Return list of branches matching the search criteria<br/>*Serialization: style=Form* |
-| `regex` | No | string | Return list of branches matching the regex<br/>*Serialization: style=Form* |
-| `sort` | No | string | Return list of branches sorted by the given field<br/>*Serialization: style=Form* |
-| `page_token` | No | string | Name of branch to start the pagination from<br/>*Serialization: style=Form* |
+| `page` | No | integer | Current page number |
+| `per_page` | No | integer | Number of items per page |
+| `search` | No | string | Return list of branches matching the search criteria |
+| `regex` | No | string | Return list of branches matching the regex |
+| `sort` | No | string | Return list of branches sorted by the given field |
+| `page_token` | No | string | Name of branch to start the pagination from |
 
 
 

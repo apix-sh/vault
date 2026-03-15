@@ -9,9 +9,9 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `cluster_id` | No | string |  |
-| `status_name` | No | string |  |
+| `endpoint` | No | string |  |
 | `gcp_project_id` | No | string |  |
-| `zone` | No | string |  |
 | `machine_type` | No | string |  |
 | `num_nodes` | No | string |  |
-| `endpoint` | No | string |  |
+| `status_name` | No | string |  |
+| `zone` | No | string |  |

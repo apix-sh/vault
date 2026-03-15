@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/projects/{id}/badges/render"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -18,8 +19,8 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [ProjectIdOrPath](../../../../_components/parameters/ProjectIdOrPath.md) |  |
-| `link_url` | Yes | string | URL of the badge link<br/>*Serialization: style=Form* |
-| `image_url` | Yes | string | URL of the badge image<br/>*Serialization: style=Form* |
+| `link_url` | Yes | string | URL of the badge link |
+| `image_url` | Yes | string | URL of the badge image |
 
 
 

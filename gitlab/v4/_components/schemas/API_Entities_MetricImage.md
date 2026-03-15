@@ -11,9 +11,9 @@ API_Entities_MetricImage model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | integer |  |
 | `created_at` | No | string |  |
-| `filename` | No | string |  |
 | `file_path` | No | string |  |
+| `filename` | No | string |  |
+| `id` | No | integer |  |
 | `url` | No | string |  |
 | `url_text` | No | string |  |

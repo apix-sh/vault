@@ -21,85 +21,6 @@
         "Webhooks"
       ]
     },
-    "openai": {
-      "name": "openai",
-      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
-      "versions": [
-        "2.3.0"
-      ],
-      "tags": [
-        "Assistants",
-        "Audio",
-        "Audit Logs",
-        "Batch",
-        "Chat",
-        "Completions",
-        "Embeddings",
-        "Evals",
-        "Files",
-        "Fine-tuning",
-        "Images",
-        "Models",
-        "Moderations",
-        "Uploads"
-      ]
-    },
-    "planetscale": {
-      "name": "planetscale",
-      "description": "<p>PlanetScale API</p>",
-      "versions": [
-        "v1"
-      ],
-      "tags": [
-        "Backups",
-        "Bouncer resizes",
-        "Bouncers",
-        "Branch changes",
-        "Branch config changes",
-        "Branch log signatures",
-        "Cluster extensions",
-        "Cluster parameters",
-        "Database Postgres IP restrictions",
-        "Database branch keyspaces",
-        "Database branch passwords",
-        "Databases",
-        "Deploy requests",
-        "Invoices",
-        "Keyspace VSchemas",
-        "Keyspace config changes",
-        "OAuth applications",
-        "OAuth tokens",
-        "Organization members",
-        "Organization teams",
-        "Organizations",
-        "Query Insights reports",
-        "Roles",
-        "Schema recommendations",
-        "Service tokens",
-        "Shard config changes",
-        "Team members",
-        "Traffic budgets",
-        "Users",
-        "Webhooks",
-        "Workflows"
-      ]
-    },
-    "huggingface": {
-      "name": "huggingface",
-      "description": "Deploy and manage Hugging Face models as production-ready inference endpoints on various cloud providers.",
-      "versions": [
-        "2.0.0"
-      ],
-      "tags": [
-        "Audit Logs",
-        "CIDR Lists",
-        "Custom Domains",
-        "Endpoints",
-        "Metrics",
-        "Private Services",
-        "Providers"
-      ]
-    },
     "vercel": {
       "name": "vercel",
       "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
@@ -108,11 +29,11 @@
       ],
       "tags": []
     },
-    "stripe": {
-      "name": "stripe",
-      "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
+    "cloudflare": {
+      "name": "cloudflare",
+      "description": "Welcome to Cloudflare's API documentation site. We are experimenting with an updated version of our API documentation - check out [developers.cloudflare.com/api-next/](https://developers.cloudflare.com/api-next/) to test out the new experience.",
       "versions": [
-        "2026-02-25.clover"
+        "4.0.0"
       ],
       "tags": []
     },
@@ -123,6 +44,72 @@
         "0.0.0"
       ],
       "tags": []
+    },
+    "petstore": {
+      "name": "petstore",
+      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
+      "versions": [
+        "1.0.27"
+      ],
+      "tags": [
+        "pet",
+        "store",
+        "user"
+      ]
+    },
+    "github": {
+      "name": "github",
+      "description": "GitHub's v3 REST API.",
+      "versions": [
+        "1.1.4"
+      ],
+      "tags": [
+        "actions",
+        "activity",
+        "apps",
+        "billing",
+        "campaigns",
+        "checks",
+        "classroom",
+        "code-scanning",
+        "code-security",
+        "codes-of-conduct",
+        "codespaces",
+        "copilot",
+        "credentials",
+        "dependabot",
+        "dependency-graph",
+        "desktop",
+        "emojis",
+        "enterprise-team-memberships",
+        "enterprise-team-organizations",
+        "enterprise-teams",
+        "gists",
+        "git",
+        "gitignore",
+        "hosted-compute",
+        "interactions",
+        "issues",
+        "licenses",
+        "markdown",
+        "merge-queue",
+        "meta",
+        "migrations",
+        "oidc",
+        "orgs",
+        "packages",
+        "private-registries",
+        "projects",
+        "pulls",
+        "rate-limit",
+        "reactions",
+        "repos",
+        "search",
+        "secret-scanning",
+        "security-advisories",
+        "teams",
+        "users"
+      ]
     },
     "gitlab": {
       "name": "gitlab",
@@ -207,58 +194,44 @@
         "unleash_api"
       ]
     },
-    "github": {
-      "name": "github",
-      "description": "GitHub's v3 REST API.",
+    "planetscale": {
+      "name": "planetscale",
+      "description": "<p>PlanetScale API</p>",
       "versions": [
-        "1.1.4"
+        "v1"
       ],
       "tags": [
-        "actions",
-        "activity",
-        "apps",
-        "billing",
-        "campaigns",
-        "checks",
-        "classroom",
-        "code-scanning",
-        "code-security",
-        "codes-of-conduct",
-        "codespaces",
-        "copilot",
-        "credentials",
-        "dependabot",
-        "dependency-graph",
-        "desktop",
-        "emojis",
-        "enterprise-team-memberships",
-        "enterprise-team-organizations",
-        "enterprise-teams",
-        "gists",
-        "git",
-        "gitignore",
-        "hosted-compute",
-        "interactions",
-        "issues",
-        "licenses",
-        "markdown",
-        "merge-queue",
-        "meta",
-        "migrations",
-        "oidc",
-        "orgs",
-        "packages",
-        "private-registries",
-        "projects",
-        "pulls",
-        "rate-limit",
-        "reactions",
-        "repos",
-        "search",
-        "secret-scanning",
-        "security-advisories",
-        "teams",
-        "users"
+        "Backups",
+        "Bouncer resizes",
+        "Bouncers",
+        "Branch changes",
+        "Branch config changes",
+        "Branch log signatures",
+        "Cluster extensions",
+        "Cluster parameters",
+        "Database Postgres IP restrictions",
+        "Database branch keyspaces",
+        "Database branch passwords",
+        "Databases",
+        "Deploy requests",
+        "Invoices",
+        "Keyspace VSchemas",
+        "Keyspace config changes",
+        "OAuth applications",
+        "OAuth tokens",
+        "Organization members",
+        "Organization teams",
+        "Organizations",
+        "Query Insights reports",
+        "Roles",
+        "Schema recommendations",
+        "Service tokens",
+        "Shard config changes",
+        "Team members",
+        "Traffic budgets",
+        "Users",
+        "Webhooks",
+        "Workflows"
       ]
     },
     "linode": {
@@ -366,23 +339,50 @@
         "Volumes"
       ]
     },
-    "petstore": {
-      "name": "petstore",
-      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
+    "huggingface": {
+      "name": "huggingface",
+      "description": "Deploy and manage Hugging Face models as production-ready inference endpoints on various cloud providers.",
       "versions": [
-        "1.0.27"
+        "2.0.0"
       ],
       "tags": [
-        "pet",
-        "store",
-        "user"
+        "Audit Logs",
+        "CIDR Lists",
+        "Custom Domains",
+        "Endpoints",
+        "Metrics",
+        "Private Services",
+        "Providers"
       ]
     },
-    "cloudflare": {
-      "name": "cloudflare",
-      "description": "Welcome to Cloudflare's API documentation site. We are experimenting with an updated version of our API documentation - check out [developers.cloudflare.com/api-next/](https://developers.cloudflare.com/api-next/) to test out the new experience.",
+    "openai": {
+      "name": "openai",
+      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
       "versions": [
-        "4.0.0"
+        "2.3.0"
+      ],
+      "tags": [
+        "Assistants",
+        "Audio",
+        "Audit Logs",
+        "Batch",
+        "Chat",
+        "Completions",
+        "Embeddings",
+        "Evals",
+        "Files",
+        "Fine-tuning",
+        "Images",
+        "Models",
+        "Moderations",
+        "Uploads"
+      ]
+    },
+    "stripe": {
+      "name": "stripe",
+      "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
+      "versions": [
+        "2026-02-25.clover"
       ],
       "tags": []
     }

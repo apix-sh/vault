@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/admin/migrations/{timestamp}/mark"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Mark the migration as successfully executed
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `timestamp` | Yes | integer | The migration version timestamp<br/>*Serialization: style=Simple* |
+| `timestamp` | Yes | integer | The migration version timestamp |
 
 
 ## Query Parameters
@@ -27,7 +28,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `database` | No | string | The name of the database |
 
 
 ## Responses

@@ -11,5 +11,5 @@ API_Entities_Dictionary_Table model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `table_name` | No | string |  |
 | `feature_categories` | No | array<string> |  |
+| `table_name` | No | string |  |

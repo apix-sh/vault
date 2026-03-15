@@ -11,9 +11,9 @@ API_Entities_BatchedBackgroundMigration model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `created_at` | No | string |  |
 | `id` | No | string |  |
 | `job_class_name` | No | string |  |
-| `table_name` | No | string |  |
-| `status` | No | string |  |
 | `progress` | No | number |  |
-| `created_at` | No | string |  |
+| `status` | No | string |  |
+| `table_name` | No | string |  |

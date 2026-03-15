@@ -1,6 +1,7 @@
 ---
 method: "PUT"
 url: "https://www.gitlab.com/api/v4/projects/{id}/repository/branches/{branch}/unprotect"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Unprotect a single branch
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `branch` | Yes | string | The name of the branch<br/>*Serialization: style=Simple* |
+| `branch` | Yes | string | The name of the branch |
 
 
 ## Query Parameters

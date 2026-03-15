@@ -11,11 +11,11 @@ API_Entities_PlanLimit model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `ci_pipeline_size` | No | integer |  |
 | `ci_active_jobs` | No | integer |  |
-| `ci_project_subscriptions` | No | integer |  |
-| `ci_pipeline_schedules` | No | integer |  |
 | `ci_needs_size_limit` | No | integer |  |
+| `ci_pipeline_schedules` | No | integer |  |
+| `ci_pipeline_size` | No | integer |  |
+| `ci_project_subscriptions` | No | integer |  |
 | `ci_registered_group_runners` | No | integer |  |
 | `ci_registered_project_runners` | No | integer |  |
 | `conan_max_file_size` | No | integer |  |
@@ -29,5 +29,5 @@ API_Entities_PlanLimit model
 | `nuget_max_file_size` | No | integer |  |
 | `pipeline_hierarchy_size` | No | integer |  |
 | `pypi_max_file_size` | No | integer |  |
-| `terraform_module_max_file_size` | No | integer |  |
 | `storage_size_limit` | No | integer |  |
+| `terraform_module_max_file_size` | No | integer |  |

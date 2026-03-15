@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/metadata"
+auth: "none"
 content_type: "application/json"
 ---
 

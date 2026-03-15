@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/admin/batched_background_migrations"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -17,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `database` | No | string | The name of the database, the default `main`<br/>*Serialization: style=Form* |
+| `database` | No | string | The name of the database, the default `main` |
 
 
 

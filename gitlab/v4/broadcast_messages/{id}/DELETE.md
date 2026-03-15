@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://www.gitlab.com/api/v4/broadcast_messages/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ This feature was introduced in GitLab 8.12.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | integer | Broadcast message ID<br/>*Serialization: style=Simple* |
+| `id` | Yes | integer | Broadcast message ID |
 
 
 ## Query Parameters

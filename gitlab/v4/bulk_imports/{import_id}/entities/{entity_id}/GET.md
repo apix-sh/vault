@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/bulk_imports/{import_id}/entities/{entity_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,8 +13,8 @@ This feature was introduced in GitLab 14.1.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `import_id` | Yes | integer | The ID of user's GitLab Migration<br/>*Serialization: style=Simple* |
-| `entity_id` | Yes | integer | The ID of GitLab Migration entity<br/>*Serialization: style=Simple* |
+| `import_id` | Yes | integer | The ID of user's GitLab Migration |
+| `entity_id` | Yes | integer | The ID of GitLab Migration entity |
 
 
 ## Query Parameters

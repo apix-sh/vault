@@ -11,13 +11,13 @@ API_Entities_AccessRequester model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | integer |  |
-| `username` | No | string |  |
-| `name` | No | string |  |
-| `state` | No | string |  |
-| `avatar_url` | No | string |  |
 | `avatar_path` | No | string |  |
+| `avatar_url` | No | string |  |
 | `custom_attributes` | No | array<[API_Entities_CustomAttribute](./API_Entities_CustomAttribute.md)> |  |
-| `web_url` | No | string |  |
 | `email` | No | string |  |
+| `id` | No | integer |  |
+| `name` | No | string |  |
 | `requested_at` | No | string |  |
+| `state` | No | string |  |
+| `username` | No | string |  |
+| `web_url` | No | string |  |

@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://www.gitlab.com/api/v4/applications/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Delete a specific application
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | integer | The ID of the application (not the application_id)<br/>*Serialization: style=Simple* |
+| `id` | Yes | integer | The ID of the application (not the application_id) |
 
 
 ## Query Parameters

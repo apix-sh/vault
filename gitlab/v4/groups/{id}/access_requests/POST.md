@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/groups/{id}/access_requests"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ This feature was introduced in GitLab 8.11.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The ID or URL-encoded path of the group owned by the authenticated user<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The ID or URL-encoded path of the group owned by the authenticated user |
 
 
 ## Query Parameters

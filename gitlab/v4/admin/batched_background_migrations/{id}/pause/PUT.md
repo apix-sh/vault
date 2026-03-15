@@ -1,6 +1,7 @@
 ---
 method: "PUT"
 url: "https://www.gitlab.com/api/v4/admin/batched_background_migrations/{id}/pause"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Pause a batched background migration
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | integer | The batched background migration id<br/>*Serialization: style=Simple* |
+| `id` | Yes | integer | The batched background migration id |
 
 
 ## Query Parameters
@@ -27,7 +28,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `database` | No | string | The name of the database |
 
 
 ## Responses

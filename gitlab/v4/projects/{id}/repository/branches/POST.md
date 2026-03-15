@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://www.gitlab.com/api/v4/projects/{id}/repository/branches"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -18,8 +19,8 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [ProjectIdOrPath](../../../../_components/parameters/ProjectIdOrPath.md) |  |
-| `branch` | Yes | string | The name of the branch<br/>*Serialization: style=Form* |
-| `ref` | Yes | string | Create branch from commit sha or existing branch<br/>*Serialization: style=Form* |
+| `branch` | Yes | string | The name of the branch |
+| `ref` | Yes | string | Create branch from commit sha or existing branch |
 
 
 

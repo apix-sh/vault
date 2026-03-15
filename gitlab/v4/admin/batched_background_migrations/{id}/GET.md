@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/admin/batched_background_migrations/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,14 +13,14 @@ Retrieve a batched background migration
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | integer | The batched background migration id<br/>*Serialization: style=Simple* |
+| `id` | Yes | integer | The batched background migration id |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `database` | No | string | The name of the database<br/>*Serialization: style=Form* |
+| `database` | No | string | The name of the database |
 
 
 

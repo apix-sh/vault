@@ -11,12 +11,12 @@ API_Entities_Branch model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | No | string |  |
-| `commit` | No | [API_Entities_Commit](API_Entities_Commit.md) |  |
-| `merged` | No | boolean |  |
-| `protected` | No | boolean |  |
-| `developers_can_push` | No | boolean |  |
-| `developers_can_merge` | No | boolean |  |
 | `can_push` | No | boolean |  |
+| `commit` | No | [API_Entities_Commit](API_Entities_Commit.md) |  |
 | `default` | No | boolean |  |
+| `developers_can_merge` | No | boolean |  |
+| `developers_can_push` | No | boolean |  |
+| `merged` | No | boolean |  |
+| `name` | No | string |  |
+| `protected` | No | boolean |  |
 | `web_url` | No | string |  |

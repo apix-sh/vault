@@ -11,8 +11,8 @@ API_Entities_BulkImport model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | integer |  |
-| `status` | No | string | Allowed values: created, started, finished, timeout, failed |
-| `source_type` | No | string |  |
 | `created_at` | No | string |  |
+| `id` | No | integer |  |
+| `source_type` | No | string |  |
+| `status` | No | string | Allowed values: created, started, finished, timeout, failed |
 | `updated_at` | No | string |  |

@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://www.gitlab.com/api/v4/projects/{id}/alert_management_alerts/{alert_iid}/metric_images/{metric_image_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,8 +13,8 @@ Remove a metric image for an alert
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `alert_iid` | Yes | integer | The IID of the Alert<br/>*Serialization: style=Simple* |
-| `metric_image_id` | Yes | integer | The ID of metric image<br/>*Serialization: style=Simple* |
+| `alert_iid` | Yes | integer | The IID of the Alert |
+| `metric_image_id` | Yes | integer | The ID of metric image |
 
 
 ## Query Parameters

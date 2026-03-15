@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/projects/{id}/jobs/{job_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `job_id` | Yes | integer | The ID of the job<br/>*Serialization: style=Simple* |
+| `job_id` | Yes | integer | The ID of the job |
 
 
 ## Query Parameters

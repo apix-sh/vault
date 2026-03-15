@@ -8,10 +8,10 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | integer |  |
+| `created_at` | No | string |  |
 | `description` | No | string |  |
+| `id` | No | integer |  |
 | `name` | No | string |  |
 | `name_with_namespace` | No | string |  |
 | `path` | No | string |  |
 | `path_with_namespace` | No | string |  |
-| `created_at` | No | string |  |

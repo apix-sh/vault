@@ -11,7 +11,7 @@ API_Entities_Metadata model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `version` | No | string |  |
-| `revision` | No | string |  |
-| `kas` | No | object |  |
 | `enterprise` | No | boolean |  |
+| `kas` | No | object |  |
+| `revision` | No | string |  |
+| `version` | No | string |  |

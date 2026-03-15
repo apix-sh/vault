@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://www.gitlab.com/api/v4/avatar"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -17,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `email` | Yes | string | Public email address of the user<br/>*Serialization: style=Form* |
-| `size` | No | integer | Single pixel dimension for Gravatar images<br/>*Serialization: style=Form* |
+| `email` | Yes | string | Public email address of the user |
+| `size` | No | integer | Single pixel dimension for Gravatar images |
 
 
 

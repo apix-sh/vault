@@ -1,6 +1,7 @@
 ---
 method: "PUT"
 url: "https://www.gitlab.com/api/v4/groups/{id}/badges/{badge_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,8 +13,8 @@ This feature was introduced in GitLab 10.6.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The ID or URL-encoded path of the group owned by the authenticated user.<br/>*Serialization: style=Simple* |
-| `badge_id` | Yes | integer | *Serialization: style=Simple* |
+| `id` | Yes | string | The ID or URL-encoded path of the group owned by the authenticated user. |
+| `badge_id` | Yes | integer |  |
 
 
 ## Query Parameters
@@ -28,7 +29,11 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `image_url` | No | string | URL of the badge image |
+| `link_url` | No | string | URL of the badge link |
+| `name` | No | string | Name for the badge |
 
 
 ## Responses

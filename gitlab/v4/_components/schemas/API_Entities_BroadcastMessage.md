@@ -11,14 +11,14 @@ API_Entities_BroadcastMessage model
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `active` | No | string |  |
+| `broadcast_type` | No | string |  |
+| `color` | No | string |  |
+| `dismissable` | No | string |  |
+| `ends_at` | No | string |  |
+| `font` | No | string |  |
 | `id` | No | string |  |
 | `message` | No | string |  |
 | `starts_at` | No | string |  |
-| `ends_at` | No | string |  |
-| `color` | No | string |  |
-| `font` | No | string |  |
 | `target_access_levels` | No | string |  |
 | `target_path` | No | string |  |
-| `broadcast_type` | No | string |  |
-| `dismissable` | No | string |  |
-| `active` | No | string |  |
