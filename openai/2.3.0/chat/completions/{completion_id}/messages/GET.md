@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/chat/completions/{completion_id}/messages"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -13,16 +14,16 @@ returned.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `completion_id` | Yes | string | The ID of the chat completion to retrieve messages from.<br/>*Serialization: style=Simple* |
+| `completion_id` | Yes | string | The ID of the chat completion to retrieve messages from. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `after` | No | string | Identifier for the last message from the previous pagination request.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Number of messages to retrieve.<br/>*Serialization: style=Form* |
-| `order` | No | string | Sort order for messages by timestamp. Use `asc` for ascending order or `desc` for descending order. Defaults to `asc`.<br/>*Serialization: style=Form* |
+| `after` | No | string | Identifier for the last message from the previous pagination request. |
+| `limit` | No | integer | Number of messages to retrieve. |
+| `order` | No | string | Sort order for messages by timestamp. Use `asc` for ascending order or `desc` for descending order. Defaults to `asc`. |
 
 
 

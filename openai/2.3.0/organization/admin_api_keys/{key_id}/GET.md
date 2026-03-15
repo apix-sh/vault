@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/organization/admin_api_keys/{key_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Get details for a specific organization API key by its ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key_id` | Yes | string | *Serialization: style=Simple* |
+| `key_id` | Yes | string |  |
 
 
 ## Query Parameters

@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `object` | Yes | string | Allowed values: organization.project.service_account.deleted |
-| `id` | Yes | string |  |
 | `deleted` | Yes | boolean |  |
+| `id` | Yes | string |  |
+| `object` | Yes | string | Allowed values: organization.project.service_account.deleted |

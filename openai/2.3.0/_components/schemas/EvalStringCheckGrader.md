@@ -12,8 +12,8 @@ A StringCheckGrader object that performs a string comparison between input and r
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The object type, which is always `string_check`. Allowed values: string_check |
-| `name` | Yes | string | The name of the grader. |
 | `input` | Yes | string | The input text. This may include template strings. |
-| `reference` | Yes | string | The reference text. This may include template strings. |
+| `name` | Yes | string | The name of the grader. |
 | `operation` | Yes | string | The string check operation to perform. One of `eq`, `ne`, `like`, or `ilike`. Allowed values: eq, ne, like, ilike |
+| `reference` | Yes | string | The reference text. This may include template strings. |
+| `type` | Yes | string | The object type, which is always `string_check`. Allowed values: string_check |

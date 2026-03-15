@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | No | string | An optional name for the certificate |
 | `content` | Yes | string | The certificate content in PEM format |
+| `name` | No | string | An optional name for the certificate |

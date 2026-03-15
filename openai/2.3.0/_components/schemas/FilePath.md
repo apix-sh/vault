@@ -12,9 +12,6 @@ A path to a file.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the file path. Always `file_path`.
- Allowed values: file_path |
-| `file_id` | Yes | string | The ID of the file.
- |
-| `index` | Yes | integer | The index of the file in the list of files.
- |
+| `file_id` | Yes | string | The ID of the file.<br/> |
+| `index` | Yes | integer | The index of the file in the list of files.<br/> |
+| `type` | Yes | string | The type of the file path. Always `file_path`.<br/> Allowed values: file_path |

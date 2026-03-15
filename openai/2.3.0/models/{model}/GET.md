@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/models/{model}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `model` | Yes | string | The ID of the model to use for this request<br/>*Serialization: style=Simple* |
+| `model` | Yes | string | The ID of the model to use for this request |
 
 
 ## Query Parameters

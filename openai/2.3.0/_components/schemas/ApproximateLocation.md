@@ -8,8 +8,8 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of location approximation. Always `approximate`. Allowed values: approximate |
+| `city` | No | anyOf(2) |  |
 | `country` | No | anyOf(2) |  |
 | `region` | No | anyOf(2) |  |
-| `city` | No | anyOf(2) |  |
 | `timezone` | No | anyOf(2) |  |
+| `type` | Yes | string | The type of location approximation. Always `approximate`. Allowed values: approximate |

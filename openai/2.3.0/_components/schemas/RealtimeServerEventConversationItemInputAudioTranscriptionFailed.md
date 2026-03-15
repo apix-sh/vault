@@ -14,10 +14,8 @@ request for a user message failed. These events are separate from other
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be
-`conversation.item.input_audio_transcription.failed`.
- Allowed values: conversation.item.input_audio_transcription.failed |
-| `item_id` | Yes | string | The ID of the user message item. |
 | `content_index` | Yes | integer | The index of the content part containing the audio. |
 | `error` | Yes | object | Details of the transcription error. |
+| `event_id` | Yes | string | The unique ID of the server event. |
+| `item_id` | Yes | string | The ID of the user message item. |
+| `type` | Yes | string | The event type, must be<br/>`conversation.item.input_audio_transcription.failed`.<br/> Allowed values: conversation.item.input_audio_transcription.failed |

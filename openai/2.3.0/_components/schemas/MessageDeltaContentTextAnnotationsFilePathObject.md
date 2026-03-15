@@ -11,9 +11,9 @@ A URL for the file that's generated when the assistant used the `code_interprete
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `index` | Yes | integer | The index of the annotation in the text content part. |
-| `type` | Yes | string | Always `file_path`. Allowed values: file_path |
-| `text` | No | string | The text in the message content that needs to be replaced. |
-| `file_path` | No | object |  |
-| `start_index` | No | integer |  |
 | `end_index` | No | integer |  |
+| `file_path` | No | object |  |
+| `index` | Yes | integer | The index of the annotation in the text content part. |
+| `start_index` | No | integer |  |
+| `text` | No | string | The text in the message content that needs to be replaced. |
+| `type` | Yes | string | Always `file_path`. Allowed values: file_path |

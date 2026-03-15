@@ -15,5 +15,5 @@ replace the previous `system` messages.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `content` | Yes | oneOf(2) | The contents of the developer message. |
-| `role` | Yes | string | The role of the messages author, in this case `developer`. Allowed values: developer |
 | `name` | No | string | An optional name for the participant. Provides the model information to differentiate between participants of the same role. |
+| `role` | Yes | string | The role of the messages author, in this case `developer`. Allowed values: developer |

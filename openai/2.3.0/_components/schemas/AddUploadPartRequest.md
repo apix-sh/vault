@@ -8,5 +8,4 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `data` | Yes | string | The chunk of bytes for this Part.
- |
+| `data` | Yes | string | The chunk of bytes for this Part.<br/> |

@@ -11,8 +11,6 @@ Emitted when the code interpreter is actively interpreting the code snippet.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the event. Always `response.code_interpreter_call.interpreting`.
- Allowed values: response.code_interpreter_call.interpreting |
-| `output_index` | Yes | integer | The index of the output item that the code interpreter call is in progress.
- |
 | `code_interpreter_call` | Yes | [CodeInterpreterToolCall](CodeInterpreterToolCall.md) |  |
+| `output_index` | Yes | integer | The index of the output item that the code interpreter call is in progress.<br/> |
+| `type` | Yes | string | The type of the event. Always `response.code_interpreter_call.interpreting`.<br/> Allowed values: response.code_interpreter_call.interpreting |

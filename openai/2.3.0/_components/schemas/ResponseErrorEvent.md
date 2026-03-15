@@ -11,11 +11,7 @@ Emitted when an error occurs.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the event. Always `error`.
- Allowed values: error |
-| `code` | Yes | string | The error code.
- |
-| `message` | Yes | string | The error message.
- |
-| `param` | Yes | string | The error parameter.
- |
+| `code` | Yes | string | The error code.<br/> |
+| `message` | Yes | string | The error message.<br/> |
+| `param` | Yes | string | The error parameter.<br/> |
+| `type` | Yes | string | The type of the event. Always `error`.<br/> Allowed values: error |

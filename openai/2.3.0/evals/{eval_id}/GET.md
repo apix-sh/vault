@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/evals/{eval_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,7 +12,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `eval_id` | Yes | string | The ID of the evaluation to retrieve.<br/>*Serialization: style=Simple* |
+| `eval_id` | Yes | string | The ID of the evaluation to retrieve. |
 
 
 ## Query Parameters

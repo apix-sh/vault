@@ -14,11 +14,9 @@ type: "object"
 | `name` | No | string | Name of the broadcast. |
 | `preview_text` | No | string | The preview text of the email. |
 | `reply_to` | No | array<string> | The email addresses to which replies should be sent. |
-| `scheduled_at` | No | string | Schedule time to send the broadcast. Can only be used if `send` is true.
- |
+| `scheduled_at` | No | string | Schedule time to send the broadcast. Can only be used if `send` is true.<br/> |
 | `segment_id` | Yes | string | Unique identifier of the segment this broadcast will be sent to. |
-| `send` | No | boolean | Whether to send the broadcast immediately or keep it as a draft.
- |
+| `send` | No | boolean | Whether to send the broadcast immediately or keep it as a draft.<br/> |
 | `subject` | Yes | string | The subject line of the email. |
 | `text` | No | string | The plain text version of the message. |
 | `topic_id` | No | string | The topic ID that the broadcast will be scoped to. |

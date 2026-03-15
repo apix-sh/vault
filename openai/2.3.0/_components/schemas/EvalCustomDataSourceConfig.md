@@ -15,7 +15,5 @@ The response schema defines the shape of the data that will be:
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `schema` | Yes | object | The json schema for the run data source items.<br/>Learn how to build JSON schemas [here](https://json-schema.org/).<br/> |
 | `type` | Yes | string | The type of data source. Always `custom`. Allowed values: custom |
-| `schema` | Yes | object | The json schema for the run data source items.
-Learn how to build JSON schemas [here](https://json-schema.org/).
- |

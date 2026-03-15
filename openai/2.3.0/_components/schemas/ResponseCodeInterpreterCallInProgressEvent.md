@@ -11,8 +11,6 @@ Emitted when a code interpreter call is in progress.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the event. Always `response.code_interpreter_call.in_progress`.
- Allowed values: response.code_interpreter_call.in_progress |
-| `output_index` | Yes | integer | The index of the output item that the code interpreter call is in progress.
- |
 | `code_interpreter_call` | Yes | [CodeInterpreterToolCall](CodeInterpreterToolCall.md) |  |
+| `output_index` | Yes | integer | The index of the output item that the code interpreter call is in progress.<br/> |
+| `type` | Yes | string | The type of the event. Always `response.code_interpreter_call.in_progress`.<br/> Allowed values: response.code_interpreter_call.in_progress |

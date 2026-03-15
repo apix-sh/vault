@@ -11,6 +11,5 @@ Emitted when the model response is complete.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the event. Always `response.completed`.
- Allowed values: response.completed |
 | `response` | Yes | [Response](Response.md) |  |
+| `type` | Yes | string | The type of the event. Always `response.completed`.<br/> Allowed values: response.completed |

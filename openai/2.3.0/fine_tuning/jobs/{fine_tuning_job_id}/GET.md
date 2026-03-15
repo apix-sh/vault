@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/fine_tuning/jobs/{fine_tuning_job_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -13,8 +14,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `fine_tuning_job_id` | Yes | string | The ID of the fine-tuning job.
-<br/>*Serialization: style=Simple* |
+| `fine_tuning_job_id` | Yes | string | The ID of the fine-tuning job.<br/> |
 
 
 ## Query Parameters

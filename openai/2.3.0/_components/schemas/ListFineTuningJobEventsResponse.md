@@ -9,5 +9,5 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `data` | Yes | array<[FineTuningJobEvent](./FineTuningJobEvent.md)> |  |
-| `object` | Yes | string | Allowed values: list |
 | `has_more` | Yes | boolean |  |
+| `object` | Yes | string | Allowed values: list |

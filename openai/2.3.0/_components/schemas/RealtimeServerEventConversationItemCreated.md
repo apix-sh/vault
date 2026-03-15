@@ -21,8 +21,6 @@ Returned when a conversation item is created. There are several scenarios that p
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be `conversation.item.created`. Allowed values: conversation.item.created |
-| `previous_item_id` | Yes | string | The ID of the preceding item in the Conversation context, allows the 
-client to understand the order of the conversation.
- |
 | `item` | Yes | [RealtimeConversationItem](RealtimeConversationItem.md) |  |
+| `previous_item_id` | Yes | string | The ID of the preceding item in the Conversation context, allows the <br/>client to understand the order of the conversation.<br/> |
+| `type` | Yes | string | The event type, must be `conversation.item.created`. Allowed values: conversation.item.created |

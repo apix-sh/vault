@@ -15,7 +15,5 @@ cancel.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | No | string | Optional client-generated ID used to identify this event. |
+| `response_id` | No | string | A specific response ID to cancel - if not provided, will cancel an <br/>in-progress response in the default conversation.<br/> |
 | `type` | Yes | string | The event type, must be `response.cancel`. Allowed values: response.cancel |
-| `response_id` | No | string | A specific response ID to cancel - if not provided, will cancel an 
-in-progress response in the default conversation.
- |

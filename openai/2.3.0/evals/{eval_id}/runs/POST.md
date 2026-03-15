@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/evals/{eval_id}/runs"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,7 +12,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `eval_id` | Yes | string | The ID of the evaluation to create a run for.<br/>*Serialization: style=Simple* |
+| `eval_id` | Yes | string | The ID of the evaluation to create a run for. |
 
 
 ## Query Parameters

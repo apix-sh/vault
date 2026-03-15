@@ -21,8 +21,6 @@ not send a confirmation response to this event.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `audio` | Yes | string | Base64-encoded audio bytes. This must be in the format specified by the <br/>`input_audio_format` field in the session configuration.<br/> |
 | `event_id` | No | string | Optional client-generated ID used to identify this event. |
 | `type` | Yes | string | The event type, must be `input_audio_buffer.append`. Allowed values: input_audio_buffer.append |
-| `audio` | Yes | string | Base64-encoded audio bytes. This must be in the format specified by the 
-`input_audio_format` field in the session configuration.
- |

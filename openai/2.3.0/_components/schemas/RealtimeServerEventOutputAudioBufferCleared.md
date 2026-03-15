@@ -17,5 +17,5 @@ cut off the current audio response.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be `output_audio_buffer.cleared`. Allowed values: output_audio_buffer.cleared |
 | `response_id` | Yes | string | The unique ID of the response that produced the audio. |
+| `type` | Yes | string | The event type, must be `output_audio_buffer.cleared`. Allowed values: output_audio_buffer.cleared |

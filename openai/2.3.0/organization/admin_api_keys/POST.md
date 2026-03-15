@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/organization/admin_api_keys"
+auth: "none"
 content_type: "application/json"
 ---
 

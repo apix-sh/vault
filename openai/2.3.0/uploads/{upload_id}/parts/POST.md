@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/uploads/{upload_id}/parts"
+auth: "none"
 content_type: "multipart/form-data"
 ---
 
@@ -15,8 +16,7 @@ It is possible to add multiple Parts in parallel. You can decide the intended or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `upload_id` | Yes | string | The ID of the Upload.
-<br/>*Serialization: style=Simple* |
+| `upload_id` | Yes | string | The ID of the Upload.<br/> |
 
 
 ## Query Parameters

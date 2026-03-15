@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/uploads/{upload_id}/cancel"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,8 +12,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `upload_id` | Yes | string | The ID of the Upload.
-<br/>*Serialization: style=Simple* |
+| `upload_id` | Yes | string | The ID of the Upload.<br/> |
 
 
 ## Query Parameters

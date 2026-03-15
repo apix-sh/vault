@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/vector_stores/{vector_store_id}/files"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `vector_store_id` | Yes | string | The ID of the vector store for which to create a File.
-<br/>*Serialization: style=Simple* |
+| `vector_store_id` | Yes | string | The ID of the vector store for which to create a File.<br/> |
 
 
 ## Query Parameters

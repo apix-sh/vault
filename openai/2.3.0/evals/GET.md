@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/evals"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -16,12 +17,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `after` | No | string | Identifier for the last eval from the previous pagination request.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Number of evals to retrieve.<br/>*Serialization: style=Form* |
-| `order` | No | string | Sort order for evals by timestamp. Use `asc` for ascending order or `desc` for descending order.<br/>*Serialization: style=Form* |
-| `order_by` | No | string | Evals can be ordered by creation time or last updated time. Use
-`created_at` for creation time or `updated_at` for last updated time.
-<br/>*Serialization: style=Form* |
+| `after` | No | string | Identifier for the last eval from the previous pagination request. |
+| `limit` | No | integer | Number of evals to retrieve. |
+| `order` | No | string | Sort order for evals by timestamp. Use `asc` for ascending order or `desc` for descending order. |
+| `order_by` | No | string | Evals can be ordered by creation time or last updated time. Use<br/>`created_at` for creation time or `updated_at` for last updated time.<br/> |
 
 
 

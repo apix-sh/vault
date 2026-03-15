@@ -12,6 +12,5 @@ An event that is emitted when a response finishes as incomplete.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the event. Always `response.incomplete`.
- Allowed values: response.incomplete |
 | `response` | Yes | [Response](Response.md) |  |
+| `type` | Yes | string | The type of the event. Always `response.incomplete`.<br/> Allowed values: response.incomplete |

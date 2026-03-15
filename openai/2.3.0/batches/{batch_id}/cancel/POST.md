@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/batches/{batch_id}/cancel"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `batch_id` | Yes | string | The ID of the batch to cancel.<br/>*Serialization: style=Simple* |
+| `batch_id` | Yes | string | The ID of the batch to cancel. |
 
 
 ## Query Parameters

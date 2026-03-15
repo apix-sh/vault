@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.openai.com/v1/models/{model}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `model` | Yes | string | The model to delete<br/>*Serialization: style=Simple* |
+| `model` | Yes | string | The model to delete |
 
 
 ## Query Parameters

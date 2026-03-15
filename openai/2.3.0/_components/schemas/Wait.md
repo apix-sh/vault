@@ -12,6 +12,4 @@ A wait action.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Specifies the event type. For a wait action, this property is 
-always set to `wait`.
- Allowed values: wait |
+| `type` | Yes | string | Specifies the event type. For a wait action, this property is <br/>always set to `wait`.<br/> Allowed values: wait |

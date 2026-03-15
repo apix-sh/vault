@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/organization/admin_api_keys"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -17,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `after` | No | string | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `limit` | No | integer | *Serialization: style=Form* |
+| `after` | No | string |  |
+| `order` | No | string |  |
+| `limit` | No | integer |  |
 
 
 

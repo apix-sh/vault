@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/threads/{thread_id}/runs/{run_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `thread_id` | Yes | string | The ID of the [thread](/docs/api-reference/threads) that was run.<br/>*Serialization: style=Simple* |
-| `run_id` | Yes | string | The ID of the run to modify.<br/>*Serialization: style=Simple* |
+| `thread_id` | Yes | string | The ID of the [thread](/docs/api-reference/threads) that was run. |
+| `run_id` | Yes | string | The ID of the run to modify. |
 
 
 ## Query Parameters

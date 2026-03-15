@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/threads/{thread_id}/messages"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `thread_id` | Yes | string | The ID of the [thread](/docs/api-reference/threads) to create a message for.<br/>*Serialization: style=Simple* |
+| `thread_id` | Yes | string | The ID of the [thread](/docs/api-reference/threads) to create a message for. |
 
 
 ## Query Parameters

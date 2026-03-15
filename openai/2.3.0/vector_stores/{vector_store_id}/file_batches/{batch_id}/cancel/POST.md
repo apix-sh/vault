@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/vector_stores/{vector_store_id}/file_batches/{batch_id}/cancel"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `vector_store_id` | Yes | string | The ID of the vector store that the file batch belongs to.<br/>*Serialization: style=Simple* |
-| `batch_id` | Yes | string | The ID of the file batch to cancel.<br/>*Serialization: style=Simple* |
+| `vector_store_id` | Yes | string | The ID of the vector store that the file batch belongs to. |
+| `batch_id` | Yes | string | The ID of the file batch to cancel. |
 
 
 ## Query Parameters

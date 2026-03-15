@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.openai.com/v1/organization/projects/{project_id}/users/{user_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `project_id` | Yes | string | The ID of the project.<br/>*Serialization: style=Simple* |
-| `user_id` | Yes | string | The ID of the user.<br/>*Serialization: style=Simple* |
+| `project_id` | Yes | string | The ID of the project. |
+| `user_id` | Yes | string | The ID of the user. |
 
 
 ## Query Parameters

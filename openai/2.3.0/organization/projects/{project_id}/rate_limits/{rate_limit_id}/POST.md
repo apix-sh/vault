@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/organization/projects/{project_id}/rate_limits/{rate_limit_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `project_id` | Yes | string | The ID of the project.<br/>*Serialization: style=Simple* |
-| `rate_limit_id` | Yes | string | The ID of the rate limit.<br/>*Serialization: style=Simple* |
+| `project_id` | Yes | string | The ID of the project. |
+| `rate_limit_id` | Yes | string | The ID of the rate limit. |
 
 
 ## Query Parameters

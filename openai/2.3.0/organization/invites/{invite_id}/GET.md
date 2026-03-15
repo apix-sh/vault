@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/organization/invites/{invite_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `invite_id` | Yes | string | The ID of the invite to retrieve.<br/>*Serialization: style=Simple* |
+| `invite_id` | Yes | string | The ID of the invite to retrieve. |
 
 
 ## Query Parameters

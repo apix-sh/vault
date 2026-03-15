@@ -11,6 +11,6 @@ A pending safety check for the computer call.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | Yes | string | The ID of the pending safety check. |
 | `code` | No | anyOf(2) |  |
+| `id` | Yes | string | The ID of the pending safety check. |
 | `message` | No | anyOf(2) |  |

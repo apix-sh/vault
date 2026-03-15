@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/chat/completions"
+auth: "none"
 content_type: "application/json"
 ---
 

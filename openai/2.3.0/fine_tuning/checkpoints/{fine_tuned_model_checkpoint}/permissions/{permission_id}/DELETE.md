@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.openai.com/v1/fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions/{permission_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -13,10 +14,8 @@ Organization owners can use this endpoint to delete a permission for a fine-tune
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `fine_tuned_model_checkpoint` | Yes | string | The ID of the fine-tuned model checkpoint to delete a permission for.
-<br/>*Serialization: style=Simple* |
-| `permission_id` | Yes | string | The ID of the fine-tuned model checkpoint permission to delete.
-<br/>*Serialization: style=Simple* |
+| `fine_tuned_model_checkpoint` | Yes | string | The ID of the fine-tuned model checkpoint to delete a permission for.<br/> |
+| `permission_id` | Yes | string | The ID of the fine-tuned model checkpoint permission to delete.<br/> |
 
 
 ## Query Parameters

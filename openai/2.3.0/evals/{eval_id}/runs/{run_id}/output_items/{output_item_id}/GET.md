@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/evals/{eval_id}/runs/{run_id}/output_items/{output_item_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,9 +12,9 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `eval_id` | Yes | string | The ID of the evaluation to retrieve runs for.<br/>*Serialization: style=Simple* |
-| `run_id` | Yes | string | The ID of the run to retrieve.<br/>*Serialization: style=Simple* |
-| `output_item_id` | Yes | string | The ID of the output item to retrieve.<br/>*Serialization: style=Simple* |
+| `eval_id` | Yes | string | The ID of the evaluation to retrieve runs for. |
+| `run_id` | Yes | string | The ID of the run to retrieve. |
+| `output_item_id` | Yes | string | The ID of the output item to retrieve. |
 
 
 ## Query Parameters

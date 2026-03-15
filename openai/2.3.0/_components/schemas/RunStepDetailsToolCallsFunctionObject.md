@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `function` | Yes | object | The definition of the function that was called. |
 | `id` | Yes | string | The ID of the tool call object. |
 | `type` | Yes | string | The type of tool call. This is always going to be `function` for this type of tool call. Allowed values: function |
-| `function` | Yes | object | The definition of the function that was called. |

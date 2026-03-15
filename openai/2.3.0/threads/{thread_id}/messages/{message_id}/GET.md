@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/threads/{thread_id}/messages/{message_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `thread_id` | Yes | string | The ID of the [thread](/docs/api-reference/threads) to which this message belongs.<br/>*Serialization: style=Simple* |
-| `message_id` | Yes | string | The ID of the message to retrieve.<br/>*Serialization: style=Simple* |
+| `thread_id` | Yes | string | The ID of the [thread](/docs/api-reference/threads) to which this message belongs. |
+| `message_id` | Yes | string | The ID of the message to retrieve. |
 
 
 ## Query Parameters

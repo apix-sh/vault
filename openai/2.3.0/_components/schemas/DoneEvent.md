@@ -11,5 +11,5 @@ Occurs when a stream ends.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `event` | Yes | string | Allowed values: done |
 | `data` | Yes | string | Allowed values: [DONE] |
+| `event` | Yes | string | Allowed values: done |

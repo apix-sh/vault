@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -13,8 +14,7 @@ This enables organization owners to share fine-tuned models with other projects 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `fine_tuned_model_checkpoint` | Yes | string | The ID of the fine-tuned model checkpoint to create a permission for.
-<br/>*Serialization: style=Simple* |
+| `fine_tuned_model_checkpoint` | Yes | string | The ID of the fine-tuned model checkpoint to create a permission for.<br/> |
 
 
 ## Query Parameters

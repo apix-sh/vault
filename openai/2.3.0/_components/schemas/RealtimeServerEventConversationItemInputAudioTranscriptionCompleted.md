@@ -21,11 +21,9 @@ the model's interpretation, and should be treated as a rough guide.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be
-`conversation.item.input_audio_transcription.completed`.
- Allowed values: conversation.item.input_audio_transcription.completed |
-| `item_id` | Yes | string | The ID of the user message item containing the audio. |
 | `content_index` | Yes | integer | The index of the content part containing the audio. |
-| `transcript` | Yes | string | The transcribed text. |
+| `event_id` | Yes | string | The unique ID of the server event. |
+| `item_id` | Yes | string | The ID of the user message item containing the audio. |
 | `logprobs` | No | array<[LogProbProperties](./LogProbProperties.md)> | The log probabilities of the transcription. |
+| `transcript` | Yes | string | The transcribed text. |
+| `type` | Yes | string | The event type, must be<br/>`conversation.item.input_audio_transcription.completed`.<br/> Allowed values: conversation.item.input_audio_transcription.completed |

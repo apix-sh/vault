@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/images/variations"
+auth: "none"
 content_type: "multipart/form-data"
 ---
 

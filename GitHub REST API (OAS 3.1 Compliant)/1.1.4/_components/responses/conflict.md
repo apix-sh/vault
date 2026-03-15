@@ -1,3 +1,0 @@
-# Response: conflict
-
-Conflict

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/evals/{eval_id}/runs"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,17 +12,17 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `eval_id` | Yes | string | The ID of the evaluation to retrieve runs for.<br/>*Serialization: style=Simple* |
+| `eval_id` | Yes | string | The ID of the evaluation to retrieve runs for. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `after` | No | string | Identifier for the last run from the previous pagination request.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Number of runs to retrieve.<br/>*Serialization: style=Form* |
-| `order` | No | string | Sort order for runs by timestamp. Use `asc` for ascending order or `desc` for descending order. Defaults to `asc`.<br/>*Serialization: style=Form* |
-| `status` | No | string | Filter runs by status. One of `queued` | `in_progress` | `failed` | `completed` | `canceled`.<br/>*Serialization: style=Form* |
+| `after` | No | string | Identifier for the last run from the previous pagination request. |
+| `limit` | No | integer | Number of runs to retrieve. |
+| `order` | No | string | Sort order for runs by timestamp. Use `asc` for ascending order or `desc` for descending order. Defaults to `asc`. |
+| `status` | No | string | Filter runs by status. One of `queued` \| `in_progress` \| `failed` \| `completed` \| `canceled`. |
 
 
 

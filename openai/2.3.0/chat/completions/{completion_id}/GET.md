@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/chat/completions/{completion_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ with the `store` parameter set to `true` will be returned.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `completion_id` | Yes | string | The ID of the chat completion to retrieve.<br/>*Serialization: style=Simple* |
+| `completion_id` | Yes | string | The ID of the chat completion to retrieve. |
 
 
 ## Query Parameters

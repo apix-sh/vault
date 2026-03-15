@@ -15,5 +15,5 @@ the default Session configuration.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be `session.created`. Allowed values: session.created |
 | `session` | Yes | [RealtimeSession](RealtimeSession.md) |  |
+| `type` | Yes | string | The event type, must be `session.created`. Allowed values: session.created |

@@ -11,5 +11,5 @@ A refusal from the model.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the refusal. Always `refusal`. Allowed values: refusal |
 | `refusal` | Yes | string | The refusal explanationfrom the model. |
+| `type` | Yes | string | The type of the refusal. Always `refusal`. Allowed values: refusal |

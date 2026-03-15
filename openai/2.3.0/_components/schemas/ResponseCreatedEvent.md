@@ -12,6 +12,5 @@ An event that is emitted when a response is created.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the event. Always `response.created`.
- Allowed values: response.created |
 | `response` | Yes | [Response](Response.md) |  |
+| `type` | Yes | string | The type of the event. Always `response.created`.<br/> Allowed values: response.created |

@@ -16,5 +16,5 @@ server will respond with an error.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | No | string | Optional client-generated ID used to identify this event. |
-| `type` | Yes | string | The event type, must be `conversation.item.delete`. Allowed values: conversation.item.delete |
 | `item_id` | Yes | string | The ID of the item to delete. |
+| `type` | Yes | string | The event type, must be `conversation.item.delete`. Allowed values: conversation.item.delete |

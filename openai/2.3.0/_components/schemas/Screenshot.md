@@ -12,6 +12,4 @@ A screenshot action.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Specifies the event type. For a screenshot action, this property is 
-always set to `screenshot`.
- Allowed values: screenshot |
+| `type` | Yes | string | Specifies the event type. For a screenshot action, this property is <br/>always set to `screenshot`.<br/> Allowed values: screenshot |

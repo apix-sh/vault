@@ -8,9 +8,9 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `object` | Yes | string | Allowed values: organization.project.service_account |
+| `api_key` | Yes | [ProjectServiceAccountApiKey](ProjectServiceAccountApiKey.md) |  |
+| `created_at` | Yes | integer |  |
 | `id` | Yes | string |  |
 | `name` | Yes | string |  |
+| `object` | Yes | string | Allowed values: organization.project.service_account |
 | `role` | Yes | string | Service accounts can only have one role of type `member` Allowed values: member |
-| `created_at` | Yes | integer |  |
-| `api_key` | Yes | [ProjectServiceAccountApiKey](ProjectServiceAccountApiKey.md) |  |

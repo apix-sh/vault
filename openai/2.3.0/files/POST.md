@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/files"
+auth: "none"
 content_type: "multipart/form-data"
 ---
 

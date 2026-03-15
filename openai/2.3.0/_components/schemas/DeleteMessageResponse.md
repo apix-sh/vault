@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | Yes | string |  |
 | `deleted` | Yes | boolean |  |
+| `id` | Yes | string |  |
 | `object` | Yes | string | Allowed values: thread.message.deleted |

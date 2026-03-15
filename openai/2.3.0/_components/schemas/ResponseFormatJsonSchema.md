@@ -13,6 +13,5 @@ Learn more about [Structured Outputs](/docs/guides/structured-outputs).
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `json_schema` | Yes | object | Structured Outputs configuration options, including a JSON Schema.<br/> |
 | `type` | Yes | string | The type of response format being defined. Always `json_schema`. Allowed values: json_schema |
-| `json_schema` | Yes | object | Structured Outputs configuration options, including a JSON Schema.
- |

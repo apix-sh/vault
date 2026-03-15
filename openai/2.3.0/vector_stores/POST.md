@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/vector_stores"
+auth: "none"
 content_type: "application/json"
 ---
 

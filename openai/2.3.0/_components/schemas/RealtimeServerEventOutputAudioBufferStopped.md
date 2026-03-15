@@ -16,5 +16,5 @@ data has been sent to the client (`response.done`).
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be `output_audio_buffer.stopped`. Allowed values: output_audio_buffer.stopped |
 | `response_id` | Yes | string | The unique ID of the response that produced the audio. |
+| `type` | Yes | string | The event type, must be `output_audio_buffer.stopped`. Allowed values: output_audio_buffer.stopped |

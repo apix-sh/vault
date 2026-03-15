@@ -12,15 +12,5 @@ A drag action.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Specifies the event type. For a drag action, this property is 
-always set to `drag`.
- Allowed values: drag |
-| `path` | Yes | array<[Coordinate](./Coordinate.md)> | An array of coordinates representing the path of the drag action. Coordinates will appear as an array
-of objects, eg
-```
-[
-  { x: 100, y: 200 },
-  { x: 200, y: 300 }
-]
-```
- |
+| `path` | Yes | array<[Coordinate](./Coordinate.md)> | An array of coordinates representing the path of the drag action. Coordinates will appear as an array<br/>of objects, eg<br/>```<br/>[<br/>  { x: 100, y: 200 },<br/>  { x: 200, y: 300 }<br/>]<br/>```<br/> |
+| `type` | Yes | string | Specifies the event type. For a drag action, this property is <br/>always set to `drag`.<br/> Allowed values: drag |

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/fine_tuning/jobs/{fine_tuning_job_id}/checkpoints"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,16 +12,15 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `fine_tuning_job_id` | Yes | string | The ID of the fine-tuning job to get checkpoints for.
-<br/>*Serialization: style=Simple* |
+| `fine_tuning_job_id` | Yes | string | The ID of the fine-tuning job to get checkpoints for.<br/> |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `after` | No | string | Identifier for the last checkpoint ID from the previous pagination request.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Number of checkpoints to retrieve.<br/>*Serialization: style=Form* |
+| `after` | No | string | Identifier for the last checkpoint ID from the previous pagination request. |
+| `limit` | No | integer | Number of checkpoints to retrieve. |
 
 
 

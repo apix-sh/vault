@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/fine_tuning/jobs"
+auth: "none"
 content_type: "application/json"
 ---
 

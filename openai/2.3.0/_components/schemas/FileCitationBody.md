@@ -11,6 +11,6 @@ A citation to a file.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the file citation. Always `file_citation`. Allowed values: file_citation |
 | `file_id` | Yes | string | The ID of the file. |
 | `index` | Yes | integer | The index of the file in the list of files. |
+| `type` | Yes | string | The type of the file citation. Always `file_citation`. Allowed values: file_citation |

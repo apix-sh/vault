@@ -11,6 +11,5 @@ Emitted when the response is in progress.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the event. Always `response.in_progress`.
- Allowed values: response.in_progress |
 | `response` | Yes | [Response](Response.md) |  |
+| `type` | Yes | string | The type of the event. Always `response.in_progress`.<br/> Allowed values: response.in_progress |

@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Always `static`. Allowed values: static |
 | `static` | Yes | [StaticChunkingStrategy](StaticChunkingStrategy.md) |  |
+| `type` | Yes | string | Always `static`. Allowed values: static |

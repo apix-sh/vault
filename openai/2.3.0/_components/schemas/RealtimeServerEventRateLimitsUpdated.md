@@ -16,5 +16,5 @@ adjusted accordingly once the Response is completed.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be `rate_limits.updated`. Allowed values: rate_limits.updated |
 | `rate_limits` | Yes | array<object> | List of rate limit information. |
+| `type` | Yes | string | The event type, must be `rate_limits.updated`. Allowed values: rate_limits.updated |

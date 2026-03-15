@@ -8,8 +8,8 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `object` | No | string |  |
 | `data` | No | array<[AdminApiKey](./AdminApiKey.md)> |  |
-| `has_more` | No | boolean |  |
 | `first_id` | No | string |  |
+| `has_more` | No | boolean |  |
 | `last_id` | No | string |  |
+| `object` | No | string |  |

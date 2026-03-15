@@ -11,5 +11,5 @@ Occurs when an [error](/docs/guides/error-codes#api-errors) occurs. This can hap
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `event` | Yes | string | Allowed values: error |
 | `data` | Yes | [Error](Error.md) |  |
+| `event` | Yes | string | Allowed values: error |

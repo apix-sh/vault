@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/organization/projects/{project_id}/certificates/activate"
+auth: "none"
 content_type: "application/json"
 ---
 

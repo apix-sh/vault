@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -13,18 +14,17 @@ Organization owners can use this endpoint to view all permissions for a fine-tun
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `fine_tuned_model_checkpoint` | Yes | string | The ID of the fine-tuned model checkpoint to get permissions for.
-<br/>*Serialization: style=Simple* |
+| `fine_tuned_model_checkpoint` | Yes | string | The ID of the fine-tuned model checkpoint to get permissions for.<br/> |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `project_id` | No | string | The ID of the project to get permissions for.<br/>*Serialization: style=Form* |
-| `after` | No | string | Identifier for the last permission ID from the previous pagination request.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Number of permissions to retrieve.<br/>*Serialization: style=Form* |
-| `order` | No | string | The order in which to retrieve permissions.<br/>*Serialization: style=Form* |
+| `project_id` | No | string | The ID of the project to get permissions for. |
+| `after` | No | string | Identifier for the last permission ID from the previous pagination request. |
+| `limit` | No | integer | Number of permissions to retrieve. |
+| `order` | No | string | The order in which to retrieve permissions. |
 
 
 

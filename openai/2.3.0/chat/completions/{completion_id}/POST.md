@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/chat/completions/{completion_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -13,7 +14,7 @@ the only supported modification is to update the `metadata` field.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `completion_id` | Yes | string | The ID of the chat completion to update.<br/>*Serialization: style=Simple* |
+| `completion_id` | Yes | string | The ID of the chat completion to update. |
 
 
 ## Query Parameters

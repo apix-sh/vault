@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.openai.com/v1/threads/{thread_id}/messages/{message_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `thread_id` | Yes | string | The ID of the thread to which this message belongs.<br/>*Serialization: style=Simple* |
-| `message_id` | Yes | string | The ID of the message to delete.<br/>*Serialization: style=Simple* |
+| `thread_id` | Yes | string | The ID of the thread to which this message belongs. |
+| `message_id` | Yes | string | The ID of the message to delete. |
 
 
 ## Query Parameters

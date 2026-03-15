@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/vector_stores/{vector_store_id}/files/{file_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `vector_store_id` | Yes | string | The ID of the vector store the file belongs to.<br/>*Serialization: style=Simple* |
-| `file_id` | Yes | string | The ID of the file to update attributes.<br/>*Serialization: style=Simple* |
+| `vector_store_id` | Yes | string | The ID of the vector store the file belongs to. |
+| `file_id` | Yes | string | The ID of the file to update attributes. |
 
 
 ## Query Parameters

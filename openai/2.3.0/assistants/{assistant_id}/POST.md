@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/assistants/{assistant_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `assistant_id` | Yes | string | The ID of the assistant to modify.<br/>*Serialization: style=Simple* |
+| `assistant_id` | Yes | string | The ID of the assistant to modify. |
 
 
 ## Query Parameters

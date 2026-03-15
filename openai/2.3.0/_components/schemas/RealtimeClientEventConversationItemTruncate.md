@@ -22,13 +22,8 @@ event.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `event_id` | No | string | Optional client-generated ID used to identify this event. |
-| `type` | Yes | string | The event type, must be `conversation.item.truncate`. Allowed values: conversation.item.truncate |
-| `item_id` | Yes | string | The ID of the assistant message item to truncate. Only assistant message 
-items can be truncated.
- |
+| `audio_end_ms` | Yes | integer | Inclusive duration up to which audio is truncated, in milliseconds. If <br/>the audio_end_ms is greater than the actual audio duration, the server <br/>will respond with an error.<br/> |
 | `content_index` | Yes | integer | The index of the content part to truncate. Set this to 0. |
-| `audio_end_ms` | Yes | integer | Inclusive duration up to which audio is truncated, in milliseconds. If 
-the audio_end_ms is greater than the actual audio duration, the server 
-will respond with an error.
- |
+| `event_id` | No | string | Optional client-generated ID used to identify this event. |
+| `item_id` | Yes | string | The ID of the assistant message item to truncate. Only assistant message <br/>items can be truncated.<br/> |
+| `type` | Yes | string | The event type, must be `conversation.item.truncate`. Allowed values: conversation.item.truncate |

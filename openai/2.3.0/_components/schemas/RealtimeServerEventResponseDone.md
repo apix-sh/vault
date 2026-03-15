@@ -15,5 +15,5 @@ include all output Items in the Response but will omit the raw audio data.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be `response.done`. Allowed values: response.done |
 | `response` | Yes | [RealtimeResponse](RealtimeResponse.md) |  |
+| `type` | Yes | string | The event type, must be `response.done`. Allowed values: response.done |

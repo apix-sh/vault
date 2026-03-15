@@ -22,5 +22,5 @@ Only the fields that are present are updated. To clear a field like
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | No | string | Optional client-generated ID used to identify this event. |
-| `type` | Yes | string | The event type, must be `session.update`. Allowed values: session.update |
 | `session` | Yes | [RealtimeSessionCreateRequest](RealtimeSessionCreateRequest.md) |  |
+| `type` | Yes | string | The event type, must be `session.update`. Allowed values: session.update |

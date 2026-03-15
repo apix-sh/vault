@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.openai.com/v1/evals/{eval_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,7 +12,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `eval_id` | Yes | string | The ID of the evaluation to delete.<br/>*Serialization: style=Simple* |
+| `eval_id` | Yes | string | The ID of the evaluation to delete. |
 
 
 ## Query Parameters
@@ -34,9 +35,9 @@ Successfully deleted the evaluation.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `object` | Yes | string |  |
 | `deleted` | Yes | boolean |  |
 | `eval_id` | Yes | string |  |
+| `object` | Yes | string |  |
 
 
 ### 404

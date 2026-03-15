@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/fine_tuning/jobs/{fine_tuning_job_id}/cancel"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,8 +12,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `fine_tuning_job_id` | Yes | string | The ID of the fine-tuning job to cancel.
-<br/>*Serialization: style=Simple* |
+| `fine_tuning_job_id` | Yes | string | The ID of the fine-tuning job to cancel.<br/> |
 
 
 ## Query Parameters

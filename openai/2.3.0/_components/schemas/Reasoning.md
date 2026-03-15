@@ -16,13 +16,5 @@ Configuration options for
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `effort` | No | [ReasoningEffort](ReasoningEffort.md) |  |
-| `summary` | No | string | A summary of the reasoning performed by the model. This can be
-useful for debugging and understanding the model's reasoning process.
-One of `auto`, `concise`, or `detailed`.
- Allowed values: auto, concise, detailed |
-| `generate_summary` | No | string | **Deprecated:** use `summary` instead.
-
-A summary of the reasoning performed by the model. This can be
-useful for debugging and understanding the model's reasoning process.
-One of `auto`, `concise`, or `detailed`.
- Allowed values: auto, concise, detailed |
+| `generate_summary` | No | string | **Deprecated:** use `summary` instead.<br/><br/>A summary of the reasoning performed by the model. This can be<br/>useful for debugging and understanding the model's reasoning process.<br/>One of `auto`, `concise`, or `detailed`.<br/> Allowed values: auto, concise, detailed |
+| `summary` | No | string | A summary of the reasoning performed by the model. This can be<br/>useful for debugging and understanding the model's reasoning process.<br/>One of `auto`, `concise`, or `detailed`.<br/> Allowed values: auto, concise, detailed |

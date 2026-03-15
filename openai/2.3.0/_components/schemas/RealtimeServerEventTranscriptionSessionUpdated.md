@@ -14,5 +14,5 @@ there is an error.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be `transcription_session.updated`. Allowed values: transcription_session.updated |
 | `session` | Yes | [RealtimeTranscriptionSessionCreateResponse](RealtimeTranscriptionSessionCreateResponse.md) |  |
+| `type` | Yes | string | The event type, must be `transcription_session.updated`. Allowed values: transcription_session.updated |

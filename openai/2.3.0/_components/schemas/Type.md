@@ -12,8 +12,5 @@ An action to type in text.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Specifies the event type. For a type action, this property is 
-always set to `type`.
- Allowed values: type |
-| `text` | Yes | string | The text to type.
- |
+| `text` | Yes | string | The text to type.<br/> |
+| `type` | Yes | string | Specifies the event type. For a type action, this property is <br/>always set to `type`.<br/> Allowed values: type |

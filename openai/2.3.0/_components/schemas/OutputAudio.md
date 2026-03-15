@@ -12,9 +12,6 @@ An audio output from the model.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the output audio. Always `output_audio`.
- Allowed values: output_audio |
-| `data` | Yes | string | Base64-encoded audio data from the model.
- |
-| `transcript` | Yes | string | The transcript of the audio data from the model.
- |
+| `data` | Yes | string | Base64-encoded audio data from the model.<br/> |
+| `transcript` | Yes | string | The transcript of the audio data from the model.<br/> |
+| `type` | Yes | string | The type of the output audio. Always `output_audio`.<br/> Allowed values: output_audio |

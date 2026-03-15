@@ -16,5 +16,5 @@ server will respond with an error.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | No | string | Optional client-generated ID used to identify this event. |
-| `type` | Yes | string | The event type, must be `conversation.item.retrieve`. Allowed values: conversation.item.retrieve |
 | `item_id` | Yes | string | The ID of the item to retrieve. |
+| `type` | Yes | string | The event type, must be `conversation.item.retrieve`. Allowed values: conversation.item.retrieve |

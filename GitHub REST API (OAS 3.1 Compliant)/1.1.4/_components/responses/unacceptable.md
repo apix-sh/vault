@@ -1,3 +1,0 @@
-# Response: unacceptable
-
-Unacceptable

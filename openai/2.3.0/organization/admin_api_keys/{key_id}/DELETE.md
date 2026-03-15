@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.openai.com/v1/organization/admin_api_keys/{key_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Delete the specified admin API key.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key_id` | Yes | string | *Serialization: style=Simple* |
+| `key_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -35,8 +36,8 @@ Confirmation that the API key was deleted.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `deleted` | No | boolean |  |
 | `id` | No | string |  |
 | `object` | No | string |  |
-| `deleted` | No | boolean |  |
 
 

@@ -9,88 +9,26 @@ type: "allOf(3)"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `metadata` | No | [Metadata](Metadata.md) |  |
-| `temperature` | No | number | What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic.
-We generally recommend altering this or `top_p` but not both.
- |
-| `top_p` | No | number | An alternative to sampling with temperature, called nucleus sampling,
-where the model considers the results of the tokens with top_p probability
-mass. So 0.1 means only the tokens comprising the top 10% probability mass
-are considered.
-
-We generally recommend altering this or `temperature` but not both.
- |
-| `user` | No | string | A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices#end-user-ids).
- |
 | `service_tier` | No | [ServiceTier](ServiceTier.md) |  |
-| `previous_response_id` | No | string | The unique ID of the previous response to the model. Use this to
-create multi-turn conversations. Learn more about 
-[conversation state](/docs/guides/conversation-state).
- |
+| `temperature` | No | number | What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic.<br/>We generally recommend altering this or `top_p` but not both.<br/> |
+| `top_p` | No | number | An alternative to sampling with temperature, called nucleus sampling,<br/>where the model considers the results of the tokens with top_p probability<br/>mass. So 0.1 means only the tokens comprising the top 10% probability mass<br/>are considered.<br/><br/>We generally recommend altering this or `temperature` but not both.<br/> |
+| `user` | No | string | A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse. [Learn more](/docs/guides/safety-best-practices#end-user-ids).<br/> |
+| `instructions` | No | string | Inserts a system (or developer) message as the first item in the model's context.<br/><br/>When using along with `previous_response_id`, the instructions from a previous<br/>response will not be carried over to the next response. This makes it simple<br/>to swap out system (or developer) messages in new responses.<br/> |
+| `max_output_tokens` | No | integer | An upper bound for the number of tokens that can be generated for a response, including visible output tokens and [reasoning tokens](/docs/guides/reasoning).<br/> |
 | `model` | No | [ModelIdsResponses](ModelIdsResponses.md) |  |
+| `previous_response_id` | No | string | The unique ID of the previous response to the model. Use this to<br/>create multi-turn conversations. Learn more about <br/>[conversation state](/docs/guides/conversation-state).<br/> |
 | `reasoning` | No | [Reasoning](Reasoning.md) |  |
-| `max_output_tokens` | No | integer | An upper bound for the number of tokens that can be generated for a response, including visible output tokens and [reasoning tokens](/docs/guides/reasoning).
- |
-| `instructions` | No | string | Inserts a system (or developer) message as the first item in the model's context.
-
-When using along with `previous_response_id`, the instructions from a previous
-response will not be carried over to the next response. This makes it simple
-to swap out system (or developer) messages in new responses.
- |
-| `text` | No | object | Configuration options for a text response from the model. Can be plain
-text or structured JSON data. Learn more:
-- [Text inputs and outputs](/docs/guides/text)
-- [Structured Outputs](/docs/guides/structured-outputs)
- |
-| `tools` | No | array<[Tool](./Tool.md)> | An array of tools the model may call while generating a response. You 
-can specify which tool to use by setting the `tool_choice` parameter.
-
-The two categories of tools you can provide the model are:
-
-- **Built-in tools**: Tools that are provided by OpenAI that extend the
-  model's capabilities, like [web search](/docs/guides/tools-web-search)
-  or [file search](/docs/guides/tools-file-search). Learn more about
-  [built-in tools](/docs/guides/tools).
-- **Function calls (custom tools)**: Functions that are defined by you,
-  enabling the model to call your own code. Learn more about
-  [function calling](/docs/guides/function-calling).
- |
-| `tool_choice` | No | oneOf(3) | How the model should select which tool (or tools) to use when generating
-a response. See the `tools` parameter to see how to specify which tools
-the model can call.
- |
-| `truncation` | No | string | The truncation strategy to use for the model response.
-- `auto`: If the context of this response and previous ones exceeds
-  the model's context window size, the model will truncate the 
-  response to fit the context window by dropping input items in the
-  middle of the conversation. 
-- `disabled` (default): If a model response will exceed the context window 
-  size for a model, the request will fail with a 400 error.
- Allowed values: auto, disabled |
-| `id` | Yes | string | Unique identifier for this Response.
- |
-| `object` | Yes | string | The object type of this resource - always set to `response`.
- Allowed values: response |
-| `status` | No | string | The status of the response generation. One of `completed`, `failed`, 
-`in_progress`, or `incomplete`.
- Allowed values: completed, failed, in_progress, incomplete |
-| `created_at` | Yes | number | Unix timestamp (in seconds) of when this Response was created.
- |
+| `text` | No | object | Configuration options for a text response from the model. Can be plain<br/>text or structured JSON data. Learn more:<br/>- [Text inputs and outputs](/docs/guides/text)<br/>- [Structured Outputs](/docs/guides/structured-outputs)<br/> |
+| `tool_choice` | No | oneOf(3) | How the model should select which tool (or tools) to use when generating<br/>a response. See the `tools` parameter to see how to specify which tools<br/>the model can call.<br/> |
+| `tools` | No | array<[Tool](./Tool.md)> | An array of tools the model may call while generating a response. You <br/>can specify which tool to use by setting the `tool_choice` parameter.<br/><br/>The two categories of tools you can provide the model are:<br/><br/>- **Built-in tools**: Tools that are provided by OpenAI that extend the<br/>  model's capabilities, like [web search](/docs/guides/tools-web-search)<br/>  or [file search](/docs/guides/tools-file-search). Learn more about<br/>  [built-in tools](/docs/guides/tools).<br/>- **Function calls (custom tools)**: Functions that are defined by you,<br/>  enabling the model to call your own code. Learn more about<br/>  [function calling](/docs/guides/function-calling).<br/> |
+| `truncation` | No | string | The truncation strategy to use for the model response.<br/>- `auto`: If the context of this response and previous ones exceeds<br/>  the model's context window size, the model will truncate the <br/>  response to fit the context window by dropping input items in the<br/>  middle of the conversation. <br/>- `disabled` (default): If a model response will exceed the context window <br/>  size for a model, the request will fail with a 400 error.<br/> Allowed values: auto, disabled |
+| `created_at` | Yes | number | Unix timestamp (in seconds) of when this Response was created.<br/> |
 | `error` | Yes | [ResponseError](ResponseError.md) |  |
-| `incomplete_details` | Yes | object | Details about why the response is incomplete.
- |
-| `output` | Yes | array<[OutputItem](./OutputItem.md)> | An array of content items generated by the model.
-
-- The length and order of items in the `output` array is dependent
-  on the model's response.
-- Rather than accessing the first item in the `output` array and 
-  assuming it's an `assistant` message with the content generated by
-  the model, you might consider using the `output_text` property where
-  supported in SDKs.
- |
-| `output_text` | No | string | SDK-only convenience property that contains the aggregated text output 
-from all `output_text` items in the `output` array, if any are present. 
-Supported in the Python and JavaScript SDKs.
- |
+| `id` | Yes | string | Unique identifier for this Response.<br/> |
+| `incomplete_details` | Yes | object | Details about why the response is incomplete.<br/> |
+| `object` | Yes | string | The object type of this resource - always set to `response`.<br/> Allowed values: response |
+| `output` | Yes | array<[OutputItem](./OutputItem.md)> | An array of content items generated by the model.<br/><br/>- The length and order of items in the `output` array is dependent<br/>  on the model's response.<br/>- Rather than accessing the first item in the `output` array and <br/>  assuming it's an `assistant` message with the content generated by<br/>  the model, you might consider using the `output_text` property where<br/>  supported in SDKs.<br/> |
+| `output_text` | No | string | SDK-only convenience property that contains the aggregated text output <br/>from all `output_text` items in the `output` array, if any are present. <br/>Supported in the Python and JavaScript SDKs.<br/> |
+| `parallel_tool_calls` | Yes | boolean | Whether to allow the model to run tool calls in parallel.<br/> |
+| `status` | No | string | The status of the response generation. One of `completed`, `failed`, <br/>`in_progress`, or `incomplete`.<br/> Allowed values: completed, failed, in_progress, incomplete |
 | `usage` | No | [ResponseUsage](ResponseUsage.md) |  |
-| `parallel_tool_calls` | Yes | boolean | Whether to allow the model to run tool calls in parallel.
- |

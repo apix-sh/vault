@@ -11,7 +11,5 @@ Emitted when there is a partial transcript of audio.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the event. Always `response.audio.transcript.delta`.
- Allowed values: response.audio.transcript.delta |
-| `delta` | Yes | string | The partial transcript of the audio response.
- |
+| `delta` | Yes | string | The partial transcript of the audio response.<br/> |
+| `type` | Yes | string | The type of the event. Always `response.audio.transcript.delta`.<br/> Allowed values: response.audio.transcript.delta |

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/models"
+auth: "none"
 content_type: "application/json"
 ---
 

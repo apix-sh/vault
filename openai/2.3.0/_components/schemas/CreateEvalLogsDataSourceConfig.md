@@ -13,5 +13,5 @@ This is usually metadata like `usecase=chatbot` or `prompt-version=v2`, etc.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of data source. Always `logs`. Allowed values: logs |
 | `metadata` | No | object | Metadata filters for the logs data source. |
+| `type` | Yes | string | The type of data source. Always `logs`. Allowed values: logs |

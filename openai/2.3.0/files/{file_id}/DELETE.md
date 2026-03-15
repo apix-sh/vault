@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.openai.com/v1/files/{file_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `file_id` | Yes | string | The ID of the file to use for this request.<br/>*Serialization: style=Simple* |
+| `file_id` | Yes | string | The ID of the file to use for this request. |
 
 
 ## Query Parameters

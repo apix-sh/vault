@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.openai.com/v1/chat/completions/{completion_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ created with the `store` parameter set to `true` can be deleted.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `completion_id` | Yes | string | The ID of the chat completion to delete.<br/>*Serialization: style=Simple* |
+| `completion_id` | Yes | string | The ID of the chat completion to delete. |
 
 
 ## Query Parameters

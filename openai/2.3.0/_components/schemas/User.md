@@ -11,9 +11,9 @@ Represents an individual `user` within an organization.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `object` | Yes | string | The object type, which is always `organization.user` Allowed values: organization.user |
+| `added_at` | Yes | integer | The Unix timestamp (in seconds) of when the user was added. |
+| `email` | Yes | string | The email address of the user |
 | `id` | Yes | string | The identifier, which can be referenced in API endpoints |
 | `name` | Yes | string | The name of the user |
-| `email` | Yes | string | The email address of the user |
+| `object` | Yes | string | The object type, which is always `organization.user` Allowed values: organization.user |
 | `role` | Yes | string | `owner` or `reader` Allowed values: owner, reader |
-| `added_at` | Yes | integer | The Unix timestamp (in seconds) of when the user was added. |

@@ -15,5 +15,5 @@ server's understanding of the conversation history with the client's view.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be `conversation.item.deleted`. Allowed values: conversation.item.deleted |
 | `item_id` | Yes | string | The ID of the item that was deleted. |
+| `type` | Yes | string | The event type, must be `conversation.item.deleted`. Allowed values: conversation.item.deleted |

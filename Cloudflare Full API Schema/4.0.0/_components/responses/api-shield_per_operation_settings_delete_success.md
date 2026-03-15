@@ -1,3 +1,0 @@
-# Response: api-shield_per_operation_settings_delete_success
-
-Successfully deleted

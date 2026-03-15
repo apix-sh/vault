@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `name` | No | string | The name of the run. |
+| `data_source` | Yes | oneOf(3) | Details about the run's data source. |
 | `metadata` | No | [Metadata](Metadata.md) |  |
-| `data_source` | Yes | any | Details about the run's data source. |
+| `name` | No | string | The name of the run. |

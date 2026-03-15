@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/vector_stores/{vector_store_id}/search"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `vector_store_id` | Yes | string | The ID of the vector store to search.<br/>*Serialization: style=Simple* |
+| `vector_store_id` | Yes | string | The ID of the vector store to search. |
 
 
 ## Query Parameters

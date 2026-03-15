@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/organization/certificates/{certificate_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -13,14 +14,14 @@ You can get a certificate regardless of whether it is active or not.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `cert_id` | Yes | string | Unique ID of the certificate to retrieve.<br/>*Serialization: style=Simple* |
+| `cert_id` | Yes | string | Unique ID of the certificate to retrieve. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `include` | No | array<string> | A list of additional fields to include in the response. Currently the only supported value is `content` to fetch the PEM content of the certificate.<br/>*Serialization: style=Form* |
+| `include` | No | array<string> | A list of additional fields to include in the response. Currently the only supported value is `content` to fetch the PEM content of the certificate. |
 
 
 

@@ -12,13 +12,10 @@ Represents a completion response from the API. Note: both the streamed and non-s
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | Yes | string | A unique identifier for the completion. |
 | `choices` | Yes | array<object> | The list of completion choices the model generated for the input prompt. |
 | `created` | Yes | integer | The Unix timestamp (in seconds) of when the completion was created. |
+| `id` | Yes | string | A unique identifier for the completion. |
 | `model` | Yes | string | The model used for completion. |
-| `system_fingerprint` | No | string | This fingerprint represents the backend configuration that the model runs with.
-
-Can be used in conjunction with the `seed` request parameter to understand when backend changes have been made that might impact determinism.
- |
 | `object` | Yes | string | The object type, which is always "text_completion" Allowed values: text_completion |
+| `system_fingerprint` | No | string | This fingerprint represents the backend configuration that the model runs with.<br/><br/>Can be used in conjunction with the `seed` request parameter to understand when backend changes have been made that might impact determinism.<br/> |
 | `usage` | No | [CompletionUsage](CompletionUsage.md) |  |

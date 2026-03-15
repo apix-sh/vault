@@ -14,6 +14,6 @@ recommend to implementors to monitor and log error messages by default.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `error` | Yes | object | Details of the error. |
 | `event_id` | Yes | string | The unique ID of the server event. |
 | `type` | Yes | string | The event type, must be `error`. Allowed values: error |
-| `error` | Yes | object | Details of the error. |

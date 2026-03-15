@@ -17,10 +17,10 @@ Like:
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `object` | Yes | string | The object type. Allowed values: eval |
-| `id` | Yes | string | Unique identifier for the evaluation. |
-| `name` | Yes | string | The name of the evaluation. |
-| `data_source_config` | Yes | any | Configuration of data sources used in runs of the evaluation. |
-| `testing_criteria` | Yes | array<oneOf(5)> | A list of testing criteria. |
 | `created_at` | Yes | integer | The Unix timestamp (in seconds) for when the eval was created. |
+| `data_source_config` | Yes | oneOf(2) | Configuration of data sources used in runs of the evaluation. |
+| `id` | Yes | string | Unique identifier for the evaluation. |
 | `metadata` | Yes | [Metadata](Metadata.md) |  |
+| `name` | Yes | string | The name of the evaluation. |
+| `object` | Yes | string | The object type. Allowed values: eval |
+| `testing_criteria` | Yes | array<oneOf(5)> | A list of testing criteria. |

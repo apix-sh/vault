@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/organization/projects/{project_id}/service_accounts/{service_account_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `project_id` | Yes | string | The ID of the project.<br/>*Serialization: style=Simple* |
-| `service_account_id` | Yes | string | The ID of the service account.<br/>*Serialization: style=Simple* |
+| `project_id` | Yes | string | The ID of the project. |
+| `service_account_id` | Yes | string | The ID of the service account. |
 
 
 ## Query Parameters

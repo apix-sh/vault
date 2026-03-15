@@ -11,38 +11,13 @@ The item to add to the conversation.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | string | For an item of type (`message` | `function_call` | `function_call_output`)
-this field allows the client to assign the unique ID of the item. It is
-not required because the server will generate one if not provided.
-
-For an item of type `item_reference`, this field is required and is a
-reference to any item that has previously existed in the conversation.
- |
-| `type` | No | string | The type of the item (`message`, `function_call`, `function_call_output`, `item_reference`).
- Allowed values: message, function_call, function_call_output |
-| `object` | No | string | Identifier for the API object being returned - always `realtime.item`.
- Allowed values: realtime.item |
-| `status` | No | string | The status of the item (`completed`, `incomplete`). These have no effect 
-on the conversation, but are accepted for consistency with the 
-`conversation.item.created` event.
- Allowed values: completed, incomplete |
-| `role` | No | string | The role of the message sender (`user`, `assistant`, `system`), only 
-applicable for `message` items.
- Allowed values: user, assistant, system |
-| `content` | No | array<object> | The content of the message, applicable for `message` items. 
-- Message items of role `system` support only `input_text` content
-- Message items of role `user` support `input_text` and `input_audio` 
-  content
-- Message items of role `assistant` support `text` content.
- |
-| `call_id` | No | string | The ID of the function call (for `function_call` and 
-`function_call_output` items). If passed on a `function_call_output` 
-item, the server will check that a `function_call` item with the same 
-ID exists in the conversation history.
- |
-| `name` | No | string | The name of the function being called (for `function_call` items).
- |
-| `arguments` | No | string | The arguments of the function call (for `function_call` items).
- |
-| `output` | No | string | The output of the function call (for `function_call_output` items).
- |
+| `arguments` | No | string | The arguments of the function call (for `function_call` items).<br/> |
+| `call_id` | No | string | The ID of the function call (for `function_call` and <br/>`function_call_output` items). If passed on a `function_call_output` <br/>item, the server will check that a `function_call` item with the same <br/>ID exists in the conversation history.<br/> |
+| `content` | No | array<object> | The content of the message, applicable for `message` items. <br/>- Message items of role `system` support only `input_text` content<br/>- Message items of role `user` support `input_text` and `input_audio` <br/>  content<br/>- Message items of role `assistant` support `text` content.<br/> |
+| `id` | No | string | For an item of type (`message` \| `function_call` \| `function_call_output`)<br/>this field allows the client to assign the unique ID of the item. It is<br/>not required because the server will generate one if not provided.<br/><br/>For an item of type `item_reference`, this field is required and is a<br/>reference to any item that has previously existed in the conversation.<br/> |
+| `name` | No | string | The name of the function being called (for `function_call` items).<br/> |
+| `object` | No | string | Identifier for the API object being returned - always `realtime.item`.<br/> Allowed values: realtime.item |
+| `output` | No | string | The output of the function call (for `function_call_output` items).<br/> |
+| `role` | No | string | The role of the message sender (`user`, `assistant`, `system`), only <br/>applicable for `message` items.<br/> Allowed values: user, assistant, system |
+| `status` | No | string | The status of the item (`completed`, `incomplete`). These have no effect <br/>on the conversation, but are accepted for consistency with the <br/>`conversation.item.created` event.<br/> Allowed values: completed, incomplete |
+| `type` | No | string | The type of the item (`message`, `function_call`, `function_call_output`, `item_reference`).<br/> Allowed values: message, function_call, function_call_output |

@@ -13,5 +13,4 @@ An error object returned when the model fails to generate a Response.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `code` | Yes | [ResponseErrorCode](ResponseErrorCode.md) |  |
-| `message` | Yes | string | A human-readable description of the error.
- |
+| `message` | Yes | string | A human-readable description of the error.<br/> |

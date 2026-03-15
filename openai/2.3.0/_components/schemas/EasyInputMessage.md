@@ -16,11 +16,6 @@ interactions.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `role` | Yes | string | The role of the message input. One of `user`, `assistant`, `system`, or
-`developer`.
- Allowed values: user, assistant, system, developer |
-| `content` | Yes | oneOf(2) | Text, image, or audio input to the model, used to generate a response.
-Can also contain previous assistant responses.
- |
-| `type` | No | string | The type of the message input. Always `message`.
- Allowed values: message |
+| `content` | Yes | oneOf(2) | Text, image, or audio input to the model, used to generate a response.<br/>Can also contain previous assistant responses.<br/> |
+| `role` | Yes | string | The role of the message input. One of `user`, `assistant`, `system`, or<br/>`developer`.<br/> Allowed values: user, assistant, system, developer |
+| `type` | No | string | The type of the message input. Always `message`.<br/> Allowed values: message |

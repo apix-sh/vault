@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/responses/{response_id}/input_items"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,27 +11,18 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `response_id` | Yes | string | The ID of the response to retrieve input items for.<br/>*Serialization: style=Simple* |
+| `response_id` | Yes | string | The ID of the response to retrieve input items for. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | A limit on the number of objects to be returned. Limit can range between
-1 and 100, and the default is 20.
-<br/>*Serialization: style=Form* |
-| `order` | No | string | The order to return the input items in. Default is `asc`.
-- `asc`: Return the input items in ascending order.
-- `desc`: Return the input items in descending order.
-<br/>*Serialization: style=Form* |
-| `after` | No | string | An item ID to list items after, used in pagination.
-<br/>*Serialization: style=Form* |
-| `before` | No | string | An item ID to list items before, used in pagination.
-<br/>*Serialization: style=Form* |
-| `include` | No | array<[Includable](../../../_components/schemas/Includable.md)> | Additional fields to include in the response. See the `include`
-parameter for Response creation above for more information.
-<br/>*Serialization: style=Form* |
+| `limit` | No | integer | A limit on the number of objects to be returned. Limit can range between<br/>1 and 100, and the default is 20.<br/> |
+| `order` | No | string | The order to return the input items in. Default is `asc`.<br/>- `asc`: Return the input items in ascending order.<br/>- `desc`: Return the input items in descending order.<br/> |
+| `after` | No | string | An item ID to list items after, used in pagination.<br/> |
+| `before` | No | string | An item ID to list items before, used in pagination.<br/> |
+| `include` | No | array<[Includable](../../../_components/schemas/Includable.md)> | Additional fields to include in the response. See the `include`<br/>parameter for Response creation above for more information.<br/> |
 
 
 

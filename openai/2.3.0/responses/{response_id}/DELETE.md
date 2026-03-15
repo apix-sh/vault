@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.openai.com/v1/responses/{response_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,7 +12,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `response_id` | Yes | string | The ID of the response to delete.<br/>*Serialization: style=Simple* |
+| `response_id` | Yes | string | The ID of the response to delete. |
 
 
 ## Query Parameters

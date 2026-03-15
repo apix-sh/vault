@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/threads/{thread_id}/runs/{run_id}/submit_tool_outputs"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,8 +12,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `thread_id` | Yes | string | The ID of the [thread](/docs/api-reference/threads) to which this run belongs.<br/>*Serialization: style=Simple* |
-| `run_id` | Yes | string | The ID of the run that requires the tool output submission.<br/>*Serialization: style=Simple* |
+| `thread_id` | Yes | string | The ID of the [thread](/docs/api-reference/threads) to which this run belongs. |
+| `run_id` | Yes | string | The ID of the run that requires the tool output submission. |
 
 
 ## Query Parameters

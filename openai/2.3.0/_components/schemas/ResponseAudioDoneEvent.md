@@ -11,5 +11,4 @@ Emitted when the audio response is complete.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of the event. Always `response.audio.done`.
- Allowed values: response.audio.done |
+| `type` | Yes | string | The type of the event. Always `response.audio.done`.<br/> Allowed values: response.audio.done |

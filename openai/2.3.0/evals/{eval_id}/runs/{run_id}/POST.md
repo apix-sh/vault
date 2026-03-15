@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/evals/{eval_id}/runs/{run_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,8 +12,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `eval_id` | Yes | string | The ID of the evaluation whose run you want to cancel.<br/>*Serialization: style=Simple* |
-| `run_id` | Yes | string | The ID of the run to cancel.<br/>*Serialization: style=Simple* |
+| `eval_id` | Yes | string | The ID of the evaluation whose run you want to cancel. |
+| `run_id` | Yes | string | The ID of the run to cancel. |
 
 
 ## Query Parameters

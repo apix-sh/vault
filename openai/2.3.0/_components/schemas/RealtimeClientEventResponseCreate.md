@@ -27,5 +27,5 @@ configuration for this Response only.
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `event_id` | No | string | Optional client-generated ID used to identify this event. |
-| `type` | Yes | string | The event type, must be `response.create`. Allowed values: response.create |
 | `response` | No | [RealtimeResponseCreateParams](RealtimeResponseCreateParams.md) |  |
+| `type` | Yes | string | The event type, must be `response.create`. Allowed values: response.create |

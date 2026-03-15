@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | The type of tool being defined: `function` Allowed values: function |
 | `function` | Yes | [FunctionObject](FunctionObject.md) |  |
+| `type` | Yes | string | The type of tool being defined: `function` Allowed values: function |

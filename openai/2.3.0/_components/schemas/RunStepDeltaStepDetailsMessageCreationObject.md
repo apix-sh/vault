@@ -11,5 +11,5 @@ Details of the message creation by the run step.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Always `message_creation`. Allowed values: message_creation |
 | `message_creation` | No | object |  |
+| `type` | Yes | string | Always `message_creation`. Allowed values: message_creation |

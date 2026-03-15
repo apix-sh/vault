@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.openai.com/v1/fine_tuning/jobs"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -16,10 +17,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `after` | No | string | Identifier for the last job from the previous pagination request.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Number of fine-tuning jobs to retrieve.<br/>*Serialization: style=Form* |
-| `metadata` | No | object | Optional metadata filter. To filter, use the syntax `metadata[k]=v`. Alternatively, set `metadata=null` to indicate no metadata.
-<br/>*Serialization: style=DeepObject, explode=true* |
+| `after` | No | string | Identifier for the last job from the previous pagination request. |
+| `limit` | No | integer | Number of fine-tuning jobs to retrieve. |
+| `metadata` | No | object | Optional metadata filter. To filter, use the syntax `metadata[k]=v`. Alternatively, set `metadata=null` to indicate no metadata.<br/><br/>*Serialization: style=DeepObject, explode=true* |
 
 
 

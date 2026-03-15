@@ -17,9 +17,8 @@ to ensure there is no text in the context that hasn't been heard by the user.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `event_id` | Yes | string | The unique ID of the server event. |
-| `type` | Yes | string | The event type, must be `conversation.item.truncated`. Allowed values: conversation.item.truncated |
-| `item_id` | Yes | string | The ID of the assistant message item that was truncated. |
+| `audio_end_ms` | Yes | integer | The duration up to which the audio was truncated, in milliseconds.<br/> |
 | `content_index` | Yes | integer | The index of the content part that was truncated. |
-| `audio_end_ms` | Yes | integer | The duration up to which the audio was truncated, in milliseconds.
- |
+| `event_id` | Yes | string | The unique ID of the server event. |
+| `item_id` | Yes | string | The ID of the assistant message item that was truncated. |
+| `type` | Yes | string | The event type, must be `conversation.item.truncated`. Allowed values: conversation.item.truncated |

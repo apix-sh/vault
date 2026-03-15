@@ -8,7 +8,7 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `object` | Yes | string | Allowed values: bucket |
-| `start_time` | Yes | integer |  |
 | `end_time` | Yes | integer |  |
+| `object` | Yes | string | Allowed values: bucket |
 | `result` | Yes | array<oneOf(9)> |  |
+| `start_time` | Yes | integer |  |

@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.openai.com/v1/evals/{eval_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -11,7 +12,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `eval_id` | Yes | string | The ID of the evaluation to update.<br/>*Serialization: style=Simple* |
+| `eval_id` | Yes | string | The ID of the evaluation to update. |
 
 
 ## Query Parameters
@@ -28,8 +29,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | Rename the evaluation. |
 | `metadata` | No | [Metadata](../../_components/schemas/Metadata.md) |  |
+| `name` | No | string | Rename the evaluation. |
 
 
 ## Responses
