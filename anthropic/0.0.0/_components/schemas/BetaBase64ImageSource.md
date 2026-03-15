@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: base64 |
-| `media_type` | Yes | string | Allowed values: image/jpeg, image/png, image/gif, image/webp |
 | `data` | Yes | string |  |
+| `media_type` | Yes | string | Allowed values: image/jpeg, image/png, image/gif, image/webp |
+| `type` | Yes | string | Allowed values: base64 |

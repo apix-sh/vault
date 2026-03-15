@@ -23,15 +23,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `anthropic-beta` | No | any | Optional header to specify the beta version(s) you want to use.
-
-To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.<br/>*Serialization: style=Simple* |
-| `anthropic-version` | No | string | The version of the Anthropic API you want to use.
-
-Read more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning).<br/>*Serialization: style=Simple* |
-| `x-api-key` | No | string | Your unique API key for authentication. 
-
-This key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.<br/>*Serialization: style=Simple* |
+| `anthropic-beta` | No | string | Optional header to specify the beta version(s) you want to use.<br/><br/>To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta. |
+| `anthropic-version` | No | string | The version of the Anthropic API you want to use.<br/><br/>Read more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning). |
+| `x-api-key` | No | string | Your unique API key for authentication. <br/><br/>This key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace. |
 
 
 ## Request Body
@@ -53,7 +47,7 @@ Successful Response
 [BetaMessageBatch](../../../_components/schemas/BetaMessageBatch.md)
 
 
-### 4xx
+### 4XX
 
 Error response.
 

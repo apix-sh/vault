@@ -1,39 +1,10 @@
 {
   "apis": {
-    "resend": {
-      "name": "resend",
-      "description": "Resend is the email platform for developers.",
+    "stripe": {
+      "name": "stripe",
+      "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
       "versions": [
-        "1.5.0"
-      ],
-      "tags": [
-        "API Keys",
-        "Audiences",
-        "Broadcasts",
-        "Contact Properties",
-        "Contacts",
-        "Domains",
-        "Emails",
-        "Receiving Emails",
-        "Segments",
-        "Templates",
-        "Topics",
-        "Webhooks"
-      ]
-    },
-    "vercel": {
-      "name": "vercel",
-      "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
-      "versions": [
-        "0.0.1"
-      ],
-      "tags": []
-    },
-    "cloudflare": {
-      "name": "cloudflare",
-      "description": "Welcome to Cloudflare's API documentation site. We are experimenting with an updated version of our API documentation - check out [developers.cloudflare.com/api-next/](https://developers.cloudflare.com/api-next/) to test out the new experience.",
-      "versions": [
-        "4.0.0"
+        "2026-02-25.clover"
       ],
       "tags": []
     },
@@ -45,16 +16,27 @@
       ],
       "tags": []
     },
-    "petstore": {
-      "name": "petstore",
-      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
+    "openai": {
+      "name": "openai",
+      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
       "versions": [
-        "1.0.27"
+        "2.3.0"
       ],
       "tags": [
-        "pet",
-        "store",
-        "user"
+        "Assistants",
+        "Audio",
+        "Audit Logs",
+        "Batch",
+        "Chat",
+        "Completions",
+        "Embeddings",
+        "Evals",
+        "Files",
+        "Fine-tuning",
+        "Images",
+        "Models",
+        "Moderations",
+        "Uploads"
       ]
     },
     "github": {
@@ -109,6 +91,131 @@
         "security-advisories",
         "teams",
         "users"
+      ]
+    },
+    "petstore": {
+      "name": "petstore",
+      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about",
+      "versions": [
+        "1.0.27"
+      ],
+      "tags": [
+        "pet",
+        "store",
+        "user"
+      ]
+    },
+    "cloudflare": {
+      "name": "cloudflare",
+      "description": "Welcome to Cloudflare's API documentation site. We are experimenting with an updated version of our API documentation - check out [developers.cloudflare.com/api-next/](https://developers.cloudflare.com/api-next/) to test out the new experience.",
+      "versions": [
+        "4.0.0"
+      ],
+      "tags": []
+    },
+    "linode": {
+      "name": "linode",
+      "description": "Add a Cloud Computing instance so you can build, release, and scale applications faster with virtual machines.",
+      "versions": [
+        "4.215.0"
+      ],
+      "tags": [
+        "Access keys",
+        "Account",
+        "Account agreements",
+        "Account availability",
+        "Account settings",
+        "Account transfer",
+        "Advanced parameters",
+        "Alerts",
+        "Attachments",
+        "Backups",
+        "Beta programs",
+        "Buckets",
+        "Child accounts",
+        "Cluster dashboard",
+        "Clusters",
+        "Configuration profile interfaces",
+        "Configuration profiles",
+        "Control Plane ACL",
+        "Credentials",
+        "Databases",
+        "Disks",
+        "Domains",
+        "Endpoints",
+        "Engines",
+        "Entity transfers",
+        "Events",
+        "Firewalls",
+        "Grants",
+        "IP addresses",
+        "Images",
+        "Invoices",
+        "Kernels",
+        "Kubeconfigs",
+        "LKE API Endpoints",
+        "LKE service tokens",
+        "LKE types",
+        "LKE versions",
+        "Linode Kubernetes Engine (LKE)",
+        "Linode StackScripts",
+        "Linode instances",
+        "Linode interfaces",
+        "Linode types",
+        "Logins",
+        "Logs",
+        "Longview",
+        "Longview clients",
+        "Longview plans",
+        "Longview subscriptions",
+        "Longview types",
+        "Maintenance",
+        "Maintenances",
+        "Managed",
+        "Managed Linode settings",
+        "Managed SSH keys",
+        "Managed contacts",
+        "Managed credentials",
+        "Managed issues",
+        "Managed service monitors",
+        "Managed statistics",
+        "Metrics",
+        "Network transfer prices",
+        "Networking",
+        "Node pools",
+        "NodeBalancers",
+        "Nodes",
+        "Notifications",
+        "OAuth apps",
+        "OAuth clients",
+        "OAuth preferences",
+        "Object Storage",
+        "Payment methods",
+        "Payments",
+        "Personal access tokens",
+        "Phone number",
+        "Placement groups",
+        "Profile",
+        "Promo credits",
+        "Regions",
+        "Replies",
+        "SSH keys",
+        "SSL certificates",
+        "Security questions",
+        "Service transfers",
+        "StackScripts",
+        "Statistics",
+        "Support",
+        "Support tickets",
+        "TLS/SSL certificates",
+        "Tags",
+        "Trusted devices",
+        "Two-factor authentication",
+        "Types",
+        "Users",
+        "VPCs",
+        "Volume types",
+        "Volumes"
       ]
     },
     "gitlab": {
@@ -234,111 +341,6 @@
         "Workflows"
       ]
     },
-    "linode": {
-      "name": "linode",
-      "description": "Add a Cloud Computing instance so you can build, release, and scale applications faster with virtual machines.",
-      "versions": [
-        "4.215.0"
-      ],
-      "tags": [
-        "Access keys",
-        "Account",
-        "Account agreements",
-        "Account availability",
-        "Account settings",
-        "Account transfer",
-        "Advanced parameters",
-        "Alerts",
-        "Attachments",
-        "Backups",
-        "Beta programs",
-        "Buckets",
-        "Child accounts",
-        "Cluster dashboard",
-        "Clusters",
-        "Configuration profile interfaces",
-        "Configuration profiles",
-        "Control Plane ACL",
-        "Credentials",
-        "Databases",
-        "Disks",
-        "Domains",
-        "Endpoints",
-        "Engines",
-        "Entity transfers",
-        "Events",
-        "Firewalls",
-        "Grants",
-        "IP addresses",
-        "Images",
-        "Invoices",
-        "Kernels",
-        "Kubeconfigs",
-        "LKE API Endpoints",
-        "LKE service tokens",
-        "LKE types",
-        "LKE versions",
-        "Linode Kubernetes Engine (LKE)",
-        "Linode StackScripts",
-        "Linode instances",
-        "Linode interfaces",
-        "Linode types",
-        "Logins",
-        "Logs",
-        "Longview",
-        "Longview clients",
-        "Longview plans",
-        "Longview subscriptions",
-        "Longview types",
-        "Maintenance",
-        "Maintenances",
-        "Managed",
-        "Managed Linode settings",
-        "Managed SSH keys",
-        "Managed contacts",
-        "Managed credentials",
-        "Managed issues",
-        "Managed service monitors",
-        "Managed statistics",
-        "Metrics",
-        "Network transfer prices",
-        "Networking",
-        "Node pools",
-        "NodeBalancers",
-        "Nodes",
-        "Notifications",
-        "OAuth apps",
-        "OAuth clients",
-        "OAuth preferences",
-        "Object Storage",
-        "Payment methods",
-        "Payments",
-        "Personal access tokens",
-        "Phone number",
-        "Placement groups",
-        "Profile",
-        "Promo credits",
-        "Regions",
-        "Replies",
-        "SSH keys",
-        "SSL certificates",
-        "Security questions",
-        "Service transfers",
-        "StackScripts",
-        "Statistics",
-        "Support",
-        "Support tickets",
-        "TLS/SSL certificates",
-        "Tags",
-        "Trusted devices",
-        "Two-factor authentication",
-        "Types",
-        "Users",
-        "VPCs",
-        "Volume types",
-        "Volumes"
-      ]
-    },
     "huggingface": {
       "name": "huggingface",
       "description": "Deploy and manage Hugging Face models as production-ready inference endpoints on various cloud providers.",
@@ -355,34 +357,32 @@
         "Providers"
       ]
     },
-    "openai": {
-      "name": "openai",
-      "description": "The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.",
+    "resend": {
+      "name": "resend",
+      "description": "Resend is the email platform for developers.",
       "versions": [
-        "2.3.0"
+        "1.5.0"
       ],
       "tags": [
-        "Assistants",
-        "Audio",
-        "Audit Logs",
-        "Batch",
-        "Chat",
-        "Completions",
-        "Embeddings",
-        "Evals",
-        "Files",
-        "Fine-tuning",
-        "Images",
-        "Models",
-        "Moderations",
-        "Uploads"
+        "API Keys",
+        "Audiences",
+        "Broadcasts",
+        "Contact Properties",
+        "Contacts",
+        "Domains",
+        "Emails",
+        "Receiving Emails",
+        "Segments",
+        "Templates",
+        "Topics",
+        "Webhooks"
       ]
     },
-    "stripe": {
-      "name": "stripe",
-      "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
+    "vercel": {
+      "name": "vercel",
+      "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
       "versions": [
-        "2026-02-25.clover"
+        "0.0.1"
       ],
       "tags": []
     }

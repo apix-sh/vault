@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: overloaded_error |
 | `message` | Yes | string |  |
+| `type` | Yes | string | Allowed values: overloaded_error |

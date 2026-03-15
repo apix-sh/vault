@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: message_start |
 | `message` | Yes | [PromptCachingBetaMessage](PromptCachingBetaMessage.md) |  |
+| `type` | Yes | string | Allowed values: message_start |

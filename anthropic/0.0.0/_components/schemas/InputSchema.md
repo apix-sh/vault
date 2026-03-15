@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: object |
 | `properties` | No | anyOf(2) |  |
+| `type` | Yes | string | Allowed values: object |

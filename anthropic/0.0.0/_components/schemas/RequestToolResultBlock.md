@@ -8,7 +8,7 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: tool_result |
-| `tool_use_id` | Yes | string |  |
-| `is_error` | No | boolean |  |
 | `content` | No | anyOf(2) |  |
+| `is_error` | No | boolean |  |
+| `tool_use_id` | Yes | string |  |
+| `type` | Yes | string | Allowed values: tool_result |

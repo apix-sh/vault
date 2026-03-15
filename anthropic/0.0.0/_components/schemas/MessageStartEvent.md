@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: message_start |
 | `message` | Yes | [Message](Message.md) |  |
+| `type` | Yes | string | Allowed values: message_start |

@@ -23,12 +23,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `anthropic-version` | No | string | The version of the Anthropic API you want to use.
-
-Read more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning).<br/>*Serialization: style=Simple* |
-| `x-api-key` | No | string | Your unique API key for authentication. 
-
-This key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.<br/>*Serialization: style=Simple* |
+| `anthropic-version` | No | string | The version of the Anthropic API you want to use.<br/><br/>Read more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning). |
+| `x-api-key` | No | string | Your unique API key for authentication. <br/><br/>This key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace. |
 
 
 ## Request Body
@@ -50,7 +46,7 @@ Message object.
 [Message](../../_components/schemas/Message.md)
 
 
-### 4xx
+### 4XX
 
 Error response.
 

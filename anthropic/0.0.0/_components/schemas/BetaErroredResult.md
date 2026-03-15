@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `type` | Yes | string | Allowed values: errored |
 | `error` | Yes | [BetaErrorResponse](BetaErrorResponse.md) |  |
+| `type` | Yes | string | Allowed values: errored |

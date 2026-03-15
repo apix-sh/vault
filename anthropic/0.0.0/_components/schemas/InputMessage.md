@@ -8,5 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `role` | Yes | string | Allowed values: user, assistant |
 | `content` | Yes | anyOf(2) |  |
+| `role` | Yes | string | Allowed values: user, assistant |

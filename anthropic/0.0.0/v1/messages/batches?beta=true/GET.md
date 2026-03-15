@@ -17,25 +17,17 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `before_id` | No | string | ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately before this object.<br/>*Serialization: style=Form* |
-| `after_id` | No | string | ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately after this object.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Number of items to return per page.
-
-Defaults to `20`. Ranges from `1` to `100`.<br/>*Serialization: style=Form* |
+| `before_id` | No | string | ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately before this object. |
+| `after_id` | No | string | ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately after this object. |
+| `limit` | No | integer | Number of items to return per page.<br/><br/>Defaults to `20`. Ranges from `1` to `100`. |
 
 ## Header Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `anthropic-beta` | No | any | Optional header to specify the beta version(s) you want to use.
-
-To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta.<br/>*Serialization: style=Simple* |
-| `anthropic-version` | No | string | The version of the Anthropic API you want to use.
-
-Read more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning).<br/>*Serialization: style=Simple* |
-| `x-api-key` | No | string | Your unique API key for authentication. 
-
-This key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.<br/>*Serialization: style=Simple* |
+| `anthropic-beta` | No | string | Optional header to specify the beta version(s) you want to use.<br/><br/>To use multiple betas, use a comma separated list like `beta1,beta2` or specify the header multiple times for each beta. |
+| `anthropic-version` | No | string | The version of the Anthropic API you want to use.<br/><br/>Read more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning). |
+| `x-api-key` | No | string | Your unique API key for authentication. <br/><br/>This key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace. |
 
 
 ## Request Body
@@ -53,7 +45,7 @@ Successful Response
 [BetaListResponse_MessageBatch_](../../../_components/schemas/BetaListResponse_MessageBatch_.md)
 
 
-### 4xx
+### 4XX
 
 Error response.
 
