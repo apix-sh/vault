@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/throttler"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,8 +25,8 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization that the throttled deploy requests belong to<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the database that the throttled deploy requests belong to<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization that the throttled deploy requests belong to |
+| `database` | Yes | string | The name of the database that the throttled deploy requests belong to |
 
 
 ## Query Parameters
@@ -48,9 +49,9 @@ Database throttler configurations
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `keyspaces` | Yes | array<string> | Keyspaces that are eligible for throttler configuration in the configurable resource (database or deploy request) |
 | `configurable` | Yes | object |  |
 | `configurations` | Yes | array<object> |  |
+| `keyspaces` | Yes | array<string> | Keyspaces that are eligible for throttler configuration in the configurable resource (database or deploy request) |
 
 
 ### 401

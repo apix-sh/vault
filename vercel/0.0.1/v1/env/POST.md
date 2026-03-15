@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -29,7 +29,12 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `evs` | Yes | array<object> |  |
+| `projectId` | No | array<string> | Associate a Shared Environment Variable to projects. |
+| `target` | No | array<any> | The target environment of the Shared Environment Variable |
+| `type` | No | string | The type of environment variable |
 
 
 ## Responses

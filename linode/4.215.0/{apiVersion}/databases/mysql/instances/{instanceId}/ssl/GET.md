@@ -35,8 +35,8 @@ Display the SSL CA certificate for an accessible MySQL Managed Database. The dat
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `instanceId` | Yes | integer | The ID of the Managed MySQL Database.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `instanceId` | Yes | integer | The ID of the Managed MySQL Database. |
 
 
 ## Query Parameters
@@ -60,13 +60,6 @@ Returns the SSL CA certificate of a single MySQL Managed Database.
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `ca_certificate` | No | string | The base64-encoded SSL CA certificate for the Managed Database instance. |
-
-#### Example Payload
-```json
-{
-  "ca_certificate": "LS0tLS1CRUdJ...=="
-}
-```
 
 
 ### default

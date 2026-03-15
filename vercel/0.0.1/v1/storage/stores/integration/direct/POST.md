@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -31,16 +31,16 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | Human-readable name for the storage resource |
-| `integrationConfigurationId` | Yes | string | ID of your integration configuration. Get this from GET /v1/integrations/configurations |
-| `integrationProductIdOrSlug` | Yes | any | ID or slug of the integration product. Get available products from GET /v1/integrations/configuration/{id}/products |
-| `metadata` | No | object | Optional key-value pairs for resource metadata |
-| `externalId` | No | string | Optional external identifier for tracking purposes |
-| `protocolSettings` | No | object | Protocol-specific configuration settings |
-| `source` | No | string | Source of the store creation request |
 | `billingPlanId` | No | string | ID of the billing plan for paid resources. Get available plans from GET /integrations/integration/{id}/products/{productId}/plans. If not provided, automatically discovers free billing plans. |
+| `externalId` | No | string | Optional external identifier for tracking purposes |
+| `integrationConfigurationId` | Yes | string | ID of your integration configuration. Get this from GET /v1/integrations/configurations |
+| `integrationProductIdOrSlug` | Yes | oneOf(2) | ID or slug of the integration product. Get available products from GET /v1/integrations/configuration/{id}/products |
+| `metadata` | No | object | Optional key-value pairs for resource metadata |
+| `name` | Yes | string | Human-readable name for the storage resource |
 | `paymentMethodId` | No | string | Payment method ID for paid resources. Optional - uses default payment method if not provided. |
 | `prepaymentAmountCents` | No | number | Amount in cents for prepayment billing plans. Required only for prepayment plans with variable amounts. |
+| `protocolSettings` | No | object | Protocol-specific configuration settings |
+| `source` | No | string | Source of the store creation request |
 
 
 ## Responses

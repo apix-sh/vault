@@ -13,19 +13,19 @@ Retrieves an Alias for the given host name or alias ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrAlias` | Yes | string | The alias or alias ID to be retrieved<br/>*Serialization: style=Simple* |
+| `idOrAlias` | Yes | string | The alias or alias ID to be retrieved |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `from` | No | number | Get the alias only if it was created after the provided timestamp<br/>*Serialization: style=Form* |
-| `projectId` | No | string | Get the alias only if it is assigned to the provided project ID<br/>*Serialization: style=Form* |
-| `since` | No | number | Get the alias only if it was created after this JavaScript timestamp<br/>*Serialization: style=Form* |
-| `until` | No | number | Get the alias only if it was created before this JavaScript timestamp<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `from` | No | number | Get the alias only if it was created after the provided timestamp |
+| `projectId` | No | string | Get the alias only if it is assigned to the provided project ID |
+| `since` | No | number | Get the alias only if it was created after this JavaScript timestamp |
+| `until` | No | number | Get the alias only if it was created before this JavaScript timestamp |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -50,13 +50,13 @@ The alias information
 | `deletedAt` | No | number | The date when the alias was deleted in milliseconds since the UNIX epoch |
 | `deployment` | No | object | A map with the deployment ID, URL and metadata |
 | `deploymentId` | Yes | string | The deployment ID |
+| `microfrontends` | No | object | The microfrontends for the alias including the routing configuration |
 | `projectId` | Yes | string | The unique identifier of the project |
+| `protectionBypass` | No | object | The protection bypass for the alias |
 | `redirect` | No | string | Target destination domain for redirect when the alias is a redirect |
 | `redirectStatusCode` | No | number | Status code to be used on redirect |
 | `uid` | Yes | string | The unique identifier of the alias |
 | `updatedAt` | No | number | The date when the alias was updated in milliseconds since the UNIX epoch |
-| `protectionBypass` | No | object | The protection bypass for the alias |
-| `microfrontends` | No | object | The microfrontends for the alias including the routing configuration |
 
 
 ### 400

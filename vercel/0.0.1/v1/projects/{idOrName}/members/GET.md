@@ -13,19 +13,19 @@ Lists all members of a project.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The ID or name of the Project.<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The ID or name of the Project. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limit how many project members should be returned<br/>*Serialization: style=Form* |
-| `since` | No | integer | Timestamp in milliseconds to only include members added since then.<br/>*Serialization: style=Form* |
-| `until` | No | integer | Timestamp in milliseconds to only include members added until then.<br/>*Serialization: style=Form* |
-| `search` | No | string | Search project members by their name, username, and email.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limit how many project members should be returned |
+| `since` | No | integer | Timestamp in milliseconds to only include members added since then. |
+| `until` | No | integer | Timestamp in milliseconds to only include members added until then. |
+| `search` | No | string | Search project members by their name, username, and email. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

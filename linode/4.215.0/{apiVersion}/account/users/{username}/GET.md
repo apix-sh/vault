@@ -39,8 +39,8 @@ Returns information about a single user on your account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `username` | Yes | string | The username to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `username` | Yes | string | The username to look up. |
 
 
 ## Query Parameters
@@ -62,13 +62,6 @@ The requested User object.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "ref": "../examples/get-user-200.json"
-}
-```
 
 
 ### default

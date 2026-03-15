@@ -13,15 +13,15 @@ Get price data for a specific domain
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | Yes | [DomainName](../../../../../_components/schemas/DomainName.md) | *Serialization: style=Simple* |
+| `domain` | Yes | [DomainName](../../../../../_components/schemas/DomainName.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `years` | No | string | The number of years to get the price for. If not provided, the minimum number of years for the TLD will be used.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | *Serialization: style=Form* |
+| `years` | No | string | The number of years to get the price for. If not provided, the minimum number of years for the TLD will be used. |
+| `teamId` | No | string |  |
 
 
 
@@ -39,10 +39,10 @@ Success
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `years` | Yes | number |  |
 | `purchasePrice` | Yes | anyOf(2) |  |
 | `renewalPrice` | Yes | anyOf(2) |  |
 | `transferPrice` | Yes | anyOf(2) |  |
+| `years` | Yes | number |  |
 
 
 ### 400

@@ -41,8 +41,8 @@ Remove a MySQL Managed Database from your account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `instanceId` | Yes | integer | The ID of the Managed PostgreSQL Database.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `instanceId` | Yes | integer | The ID of the Managed PostgreSQL Database. |
 
 
 ## Query Parameters
@@ -64,11 +64,6 @@ MySQL Managed Database successfully deleted.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{}
-```
 
 
 ### default

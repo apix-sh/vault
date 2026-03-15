@@ -37,8 +37,8 @@ If the Linode is using Linode interfaces, where `interface_generation` is set as
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | ID of the linode to reboot.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | ID of the linode to reboot. |
 
 
 ## Query Parameters

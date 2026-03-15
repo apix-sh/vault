@@ -13,16 +13,16 @@ Create one or more environment variables for a project by passing its `key`, `va
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The unique project identifier or the project name<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The unique project identifier or the project name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `upsert` | No | string | Allow override of environment variable if it already exists<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `upsert` | No | string | Allow override of environment variable if it already exists |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

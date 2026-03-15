@@ -18,10 +18,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `from` | Yes | string | Inclusive start of the date range as an ISO 8601 date-time string in UTC.<br/>*Serialization: style=Form* |
-| `to` | Yes | string | Exclusive end of the date range as an ISO 8601 date-time string in UTC.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `from` | Yes | string | Inclusive start of the date range as an ISO 8601 date-time string in UTC. |
+| `to` | Yes | string | Exclusive end of the date range as an ISO 8601 date-time string in UTC. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -40,21 +40,21 @@ _(None)_
 | `BilledCost` | Yes | number | Charge amount serving as the basis for invoicing |
 | `BillingCurrency` | Yes | string | Currency used for billing (ISO 4217) |
 | `ChargeCategory` | Yes | string | Classification of the charge |
-| `ChargePeriodStart` | Yes | string | Inclusive start of the charge period (ISO 8601 UTC) |
 | `ChargePeriodEnd` | Yes | string | Exclusive end of the charge period (ISO 8601 UTC) - Required in v1.3 |
+| `ChargePeriodStart` | Yes | string | Inclusive start of the charge period (ISO 8601 UTC) |
 | `ConsumedQuantity` | Yes | number | Volume of resource consumed |
 | `ConsumedUnit` | Yes | string | Unit of measurement for consumed quantity |
 | `EffectiveCost` | Yes | number | Amortized cost representation including discounts, pre-commitment credit purchase amount, etc. |
-| `RegionId` | No | string | Provider-assigned region identifier |
-| `RegionName` | No | string | Display name for the region |
-| `ServiceName` | Yes | string | Display name for the service/product |
-| `ServiceCategory` | No | string | High-level category of the service |
-| `ServiceProviderName` | Yes | string | Entity making the resource/service available for purchase (v1.3) |
-| `Tags` | Yes | object | Charge metadata including the Vercel ProjectId and ProjectName information |
 | `PricingCategory` | Yes | string | Pricing model used for the charge. |
 | `PricingCurrency` | Yes | string |  |
 | `PricingQuantity` | Yes | number |  |
 | `PricingUnit` | Yes | string |  |
+| `RegionId` | No | string | Provider-assigned region identifier |
+| `RegionName` | No | string | Display name for the region |
+| `ServiceCategory` | No | string | High-level category of the service |
+| `ServiceName` | Yes | string | Display name for the service/product |
+| `ServiceProviderName` | Yes | string | Entity making the resource/service available for purchase (v1.3) |
+| `Tags` | Yes | object | Charge metadata including the Vercel ProjectId and ProjectName information |
 
 
 ### 400

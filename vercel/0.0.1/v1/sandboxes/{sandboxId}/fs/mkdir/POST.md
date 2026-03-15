@@ -13,15 +13,15 @@ Creates a new directory in a sandbox's filesystem. By default, parent directorie
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `sandboxId` | Yes | string | The unique identifier of the sandbox to create the directory in.<br/>*Serialization: style=Simple* |
+| `sandboxId` | Yes | string | The unique identifier of the sandbox to create the directory in. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

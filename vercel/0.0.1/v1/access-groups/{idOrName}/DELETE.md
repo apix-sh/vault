@@ -13,15 +13,15 @@ Allows to delete an access group
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | *Serialization: style=Simple* |
+| `idOrName` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

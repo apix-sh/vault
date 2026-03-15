@@ -43,9 +43,9 @@ __Beta__ Delete a specific alert definition on your account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
-| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`.<br/>*Serialization: style=Simple* |
-| `alertId` | Yes | integer | The unique identifier assigned to the alert definition. Run the [List alert definitions](https://techdocs.akamai.com/linode-api/reference/get-alert-definitions) operation and store the `id` for the applicable alert definition.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
+| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`. |
+| `alertId` | Yes | integer | The unique identifier assigned to the alert definition. Run the [List alert definitions](https://techdocs.akamai.com/linode-api/reference/get-alert-definitions) operation and store the `id` for the applicable alert definition. |
 
 
 ## Query Parameters

@@ -13,15 +13,15 @@ Retrieves a list of all commands that have been executed in a sandbox, including
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `sandboxId` | Yes | string | The unique identifier of the sandbox to list commands for.<br/>*Serialization: style=Simple* |
+| `sandboxId` | Yes | string | The unique identifier of the sandbox to list commands for. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

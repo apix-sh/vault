@@ -18,11 +18,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | No | string | *Serialization: style=Form* |
-| `projectIdOrName` | No | string | *Serialization: style=Form* |
-| `includeMetadata` | No | boolean | *Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `projectId` | No | string |  |
+| `projectIdOrName` | No | string |  |
+| `includeMetadata` | No | boolean |  |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

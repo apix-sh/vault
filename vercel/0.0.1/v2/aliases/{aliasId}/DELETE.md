@@ -13,15 +13,15 @@ Delete an Alias with the specified ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `aliasId` | Yes | oneOf(1) | The ID or alias that will be removed<br/>*Serialization: style=Simple* |
+| `aliasId` | Yes | oneOf(1) | The ID or alias that will be removed |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

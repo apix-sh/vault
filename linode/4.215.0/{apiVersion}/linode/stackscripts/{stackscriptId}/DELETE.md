@@ -35,8 +35,8 @@ Deletes a private StackScript you have permission to `read_write`. You cannot de
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `stackscriptId` | Yes | string | The ID of the StackScript to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `stackscriptId` | Yes | string | The ID of the StackScript to look up. |
 
 
 ## Query Parameters

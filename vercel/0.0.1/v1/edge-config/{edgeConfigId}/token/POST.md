@@ -13,15 +13,15 @@ Adds a token to an existing Edge Config.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `edgeConfigId` | Yes | string | *Serialization: style=Simple* |
+| `edgeConfigId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -43,8 +43,8 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `token` | Yes | string |  |
 | `id` | Yes | string |  |
+| `token` | Yes | string |  |
 
 
 ### 400

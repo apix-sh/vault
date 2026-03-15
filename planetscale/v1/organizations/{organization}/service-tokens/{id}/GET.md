@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/service-tokens/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -19,8 +20,8 @@ A service token   must have at least one of the following access   in order to u
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | The ID of the service token<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization |
+| `id` | Yes | string | The ID of the service token |
 
 
 ## Query Parameters
@@ -43,21 +44,21 @@ Returns the service token
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | The ID of the service token |
-| `name` | Yes | string | The name of the service token |
-| `display_name` | Yes | string | The display name of the service token |
-| `token` | Yes | string | The plaintext token. Available only after create. |
-| `plain_text_refresh_token` | Yes | string | The plaintext refresh token. Available only after create. |
+| `actor_display_name` | Yes | string | The name of the actor on whose behalf the service token was created |
+| `actor_id` | Yes | string | The ID of the actor on whose behalf the service token was created |
+| `actor_type` | Yes | string | The type of the actor on whose behalf the service token was created |
 | `avatar_url` | Yes | string | The image source for the avatar of the service token |
 | `created_at` | Yes | string | When the service token was created |
-| `updated_at` | Yes | string | When the service token was last updated |
+| `display_name` | Yes | string | The display name of the service token |
 | `expires_at` | Yes | string | When the service token will expire |
+| `id` | Yes | string | The ID of the service token |
 | `last_used_at` | Yes | string | When the service token was last used |
-| `actor_id` | Yes | string | The ID of the actor on whose behalf the service token was created |
-| `actor_display_name` | Yes | string | The name of the actor on whose behalf the service token was created |
-| `actor_type` | Yes | string | The type of the actor on whose behalf the service token was created |
-| `service_token_accesses` | Yes | array<object> |  |
+| `name` | Yes | string | The name of the service token |
 | `oauth_accesses_by_resource` | Yes | object |  |
+| `plain_text_refresh_token` | Yes | string | The plaintext refresh token. Available only after create. |
+| `service_token_accesses` | Yes | array<object> |  |
+| `token` | Yes | string | The plaintext token. Available only after create. |
+| `updated_at` | Yes | string | When the service token was last updated |
 
 
 ### 401

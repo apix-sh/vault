@@ -11,9 +11,9 @@ The EdgeConfig.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `key` | Yes | string |  |
-| `value` | Yes | [EdgeConfigItemValue](EdgeConfigItemValue.md) |  |
+| `createdAt` | Yes | number |  |
 | `description` | No | string |  |
 | `edgeConfigId` | Yes | string |  |
-| `createdAt` | Yes | number |  |
+| `key` | Yes | string |  |
 | `updatedAt` | Yes | number |  |
+| `value` | Yes | [EdgeConfigItemValue](EdgeConfigItemValue.md) |  |

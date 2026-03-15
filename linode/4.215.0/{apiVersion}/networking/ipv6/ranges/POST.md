@@ -50,7 +50,7 @@ linodes:read_write
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -67,21 +67,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `linode_id` | No | integer | The ID of the Linode to assign this range to. The SLAAC address for the provided Linode is used as the range's `route_target`.
-
-- __Required__ if `route_target` is omitted from the request.
-
-- Mutually exclusive with `route_target`. Submitting values for both properties in a request results in an error. |
+| `linode_id` | No | integer | The ID of the Linode to assign this range to. The SLAAC address for the provided Linode is used as the range's `route_target`.<br/><br/>- __Required__ if `route_target` is omitted from the request.<br/><br/>- Mutually exclusive with `route_target`. Submitting values for both properties in a request results in an error. |
 | `prefix_length` | Yes | integer | The prefix length of the IPv6 range. |
-| `route_target` | No | string | The IPv6 SLAAC address to assign this range to.
-
-- __Required__ if `linode_id` is omitted from the request.
-
-- Mutually exclusive with `linode_id`. Submitting values for both properties in a request results in an error.
-
-> 📘
->
-> You need to omit the `/128` prefix length of the SLAAC address when using this property. |
+| `route_target` | No | string | The IPv6 SLAAC address to assign this range to.<br/><br/>- __Required__ if `linode_id` is omitted from the request.<br/><br/>- Mutually exclusive with `linode_id`. Submitting values for both properties in a request results in an error.<br/><br/>> 📘<br/>><br/>> You need to omit the `/128` prefix length of the SLAAC address when using this property. |
 
 
 ## Responses

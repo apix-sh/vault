@@ -13,15 +13,15 @@ Creates a new alias for the deployment with the given deployment ID. The authent
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | oneOf(1) | The ID of the deployment the aliases should be listed for<br/>*Serialization: style=Simple* |
+| `id` | Yes | oneOf(1) | The ID of the deployment the aliases should be listed for |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -46,10 +46,10 @@ The alias was successfully assigned to the deployment
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `uid` | Yes | string | The unique identifier of the alias |
 | `alias` | Yes | string | The assigned alias name |
 | `created` | Yes | string | The date when the alias was created |
 | `oldDeploymentId` | No | string | The unique identifier of the previously aliased deployment, only received when the alias was used before |
+| `uid` | Yes | string | The unique identifier of the alias |
 
 
 ### 400

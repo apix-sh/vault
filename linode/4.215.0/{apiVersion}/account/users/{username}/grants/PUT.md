@@ -43,8 +43,8 @@ In a [parent and child account](https://www.linode.com/docs/guides/parent-child-
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `username` | Yes | string | The username to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `username` | Yes | string | The username to look up. |
 
 
 ## Query Parameters

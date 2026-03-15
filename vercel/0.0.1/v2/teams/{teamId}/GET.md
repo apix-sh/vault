@@ -13,14 +13,14 @@ Get information for the Team specified by the `teamId` parameter.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | Yes | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Simple* |
+| `teamId` | Yes | string | The Team identifier to perform the request on behalf of. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `slug` | No | string | *Serialization: style=Form* |
+| `slug` | No | string |  |
 
 
 

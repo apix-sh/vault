@@ -41,8 +41,8 @@ Creates a snapshot backup of a Linode.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | The ID of the Linode the backups belong to.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | The ID of the Linode the backups belong to. |
 
 
 ## Query Parameters
@@ -71,9 +71,7 @@ Snapshot request successful.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `available` | No | boolean | __Read-only__ Whether this Backup is available for restoration.
-
-Backups undergoing maintenance are not available for restoration. |
+| `available` | No | boolean | __Read-only__ Whether this Backup is available for restoration.<br/><br/>Backups undergoing maintenance are not available for restoration. |
 | `configs` | No | array<string> | __Read-only__ A list of the labels of the Configuration profiles that are part of the Backup. |
 | `created` | No | string | __Read-only__ The date the Backup was taken. |
 | `disks` | No | array<object> | __Read-only__ A list of the disks that are part of the Backup. |

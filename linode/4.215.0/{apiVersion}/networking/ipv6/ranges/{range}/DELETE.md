@@ -39,12 +39,8 @@ Removes this IPv6 range from your account and disconnects the range from any ass
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `range` | Yes | string | The IPv6 range to access. Corresponds to the `range` property of objects returned from the [List IPv6 ranges](https://techdocs.akamai.com/linode-api/reference/get-ipv6-ranges) operation.
-
-> 📘
->
-> You need to omit the prefix length of the IPv6 range.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `range` | Yes | string | The IPv6 range to access. Corresponds to the `range` property of objects returned from the [List IPv6 ranges](https://techdocs.akamai.com/linode-api/reference/get-ipv6-ranges) operation.<br/><br/>> 📘<br/>><br/>> You need to omit the prefix length of the IPv6 range. |
 
 
 ## Query Parameters

@@ -35,8 +35,8 @@ Returns usage data for a specific `objQuotaId`. This includes the maximum number
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `objQuotaId` | Yes | string | The unique string that identifies the specific Object Storage-related quota to look up. This follows the pattern, `obj-<quota_type>-<s3_endpoint>`, for example, `obj-buckets-eu-central-1.linodeobjects.com`.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `objQuotaId` | Yes | string | The unique string that identifies the specific Object Storage-related quota to look up. This follows the pattern, `obj-<quota_type>-<s3_endpoint>`, for example, `obj-buckets-eu-central-1.linodeobjects.com`. |
 
 
 ## Query Parameters
@@ -61,14 +61,6 @@ Usage data for the specified `objQuotaId`.
 | :--- | :---: | :--- | :--- |
 | `quota_limit` | No | integer | The availability limit for a specific Object Storage resource (`objQuotaId`) for a single endpoint. |
 | `usage` | No | integer | The quantity of the Object Storage resource currently in use on an endpoint. Displayed as `null` if no resources are in use. |
-
-#### Example Payload
-```json
-{
-  "quota_limit": 100,
-  "usage": 10
-}
-```
 
 
 ### default

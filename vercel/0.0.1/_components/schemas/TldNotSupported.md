@@ -11,6 +11,6 @@ The TLD is not currently supported.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `status` | Yes | number |  |
 | `code` | Yes | string | Allowed values: tld_not_supported |
 | `message` | Yes | string |  |
+| `status` | Yes | number |  |

@@ -13,18 +13,18 @@ Update an existing feature flag. This endpoint supports partial updates, allowin
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectIdOrName` | Yes | string | The project id or name<br/>*Serialization: style=Simple* |
-| `flagIdOrSlug` | Yes | string | The flag id or name<br/>*Serialization: style=Simple* |
+| `projectIdOrName` | Yes | string | The project id or name |
+| `flagIdOrSlug` | Yes | string | The flag id or name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ifMatch` | No | string | Etag to match, can be used interchangeably with the `if-match` header<br/>*Serialization: style=Form* |
-| `withMetadata` | No | boolean | Whether to include metadata in the response<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `ifMatch` | No | string | Etag to match, can be used interchangeably with the `if-match` header |
+| `withMetadata` | No | boolean | Whether to include metadata in the response |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -37,12 +37,12 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `createdBy` | No | string | The user who created this patch |
-| `message` | No | string | Additional message for this version |
-| `variants` | No | array<object> | The variants of the flag |
-| `environments` | No | object | The configuration for the flag in different environments |
-| `seed` | No | number | A random seed to prevent split points in different flags from having the same targets |
 | `description` | No | string | A description of the flag |
+| `environments` | No | object | The configuration for the flag in different environments |
+| `message` | No | string | Additional message for this version |
+| `seed` | No | number | A random seed to prevent split points in different flags from having the same targets |
 | `state` | No | string |  |
+| `variants` | No | array<object> | The variants of the flag |
 
 
 ## Responses

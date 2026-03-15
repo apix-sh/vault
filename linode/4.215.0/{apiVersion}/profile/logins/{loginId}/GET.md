@@ -35,8 +35,8 @@ Returns a login object displaying information about a successful account login f
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `loginId` | Yes | integer | The ID of the login object to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `loginId` | Yes | integer | The ID of the login object to access. |
 
 
 ## Query Parameters

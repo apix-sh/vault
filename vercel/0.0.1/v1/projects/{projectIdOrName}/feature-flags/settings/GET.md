@@ -13,15 +13,15 @@ Retrieve feature flag settings for a project.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectIdOrName` | Yes | string | The project id or name<br/>*Serialization: style=Simple* |
+| `projectIdOrName` | Yes | string | The project id or name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -37,16 +37,16 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `typeName` | Yes | string |  |
-| `projectId` | Yes | string |  |
-| `ownerId` | No | string |  |
-| `enabled` | Yes | boolean |  |
-| `environments` | Yes | array<string> |  |
 | `connections` | No | array<object> |  |
-| `entities` | Yes | array<object> |  |
 | `createdAt` | No | number |  |
-| `updatedAt` | No | number |  |
+| `enabled` | Yes | boolean |  |
+| `entities` | Yes | array<object> |  |
+| `environments` | Yes | array<string> |  |
 | `metadata` | Yes | object |  |
+| `ownerId` | No | string |  |
+| `projectId` | Yes | string |  |
+| `typeName` | Yes | string |  |
+| `updatedAt` | No | number |  |
 
 
 ### 400

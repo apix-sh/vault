@@ -39,7 +39,7 @@ __Beta__ Returns all available dashboards.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
 
 
 ## Query Parameters
@@ -61,47 +61,6 @@ Returns a paginated list of dashboards.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "created": "2024-10-10T05:01:58",
-      "id": 1,
-      "label": "Resource Usage",
-      "service_type": "dbaas",
-      "type": "standard",
-      "updated": "2024-10-10T05:01:58",
-      "widgets": [
-        {
-          "aggregate_function": "sum",
-          "chart_type": "area",
-          "color": "default",
-          "label": "CPU Usage",
-          "metric": "cpu_usage",
-          "size": 12,
-          "unit": "%",
-          "y_label": "cpu_usage"
-        },
-        {
-          "aggregate_function": "sum",
-          "chart_type": "area",
-          "color": "default",
-          "label": "Disk I/O Write",
-          "metric": "write_iops",
-          "size": 6,
-          "unit": "IOPS",
-          "y_label": "write_iops"
-        }
-      ]
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

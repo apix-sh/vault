@@ -11,6 +11,6 @@ The domain was not found in our system.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `status` | Yes | number |  |
 | `code` | Yes | string | Allowed values: domain_not_found |
 | `message` | Yes | string |  |
+| `status` | Yes | number |  |

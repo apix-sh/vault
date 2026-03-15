@@ -13,16 +13,16 @@ Attempts to verify a project domain with `verified = false` by checking the corr
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The unique project identifier or the project name<br/>*Serialization: style=Simple* |
-| `domain` | Yes | string | The domain name you want to verify<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The unique project identifier or the project name |
+| `domain` | Yes | string | The domain name you want to verify |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -41,15 +41,15 @@ Domain is already verified
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string |  |
 | `apexName` | Yes | string |  |
+| `createdAt` | No | number |  |
+| `customEnvironmentId` | No | string |  |
+| `gitBranch` | No | string |  |
+| `name` | Yes | string |  |
 | `projectId` | Yes | string |  |
 | `redirect` | No | string |  |
 | `redirectStatusCode` | No | number |  |
-| `gitBranch` | No | string |  |
-| `customEnvironmentId` | No | string |  |
 | `updatedAt` | No | number |  |
-| `createdAt` | No | number |  |
 | `verified` | Yes | boolean | `true` if the domain is verified for use with the project. If `false` it will not be used as an alias on this project until the challenge in `verification` is completed. |
 
 

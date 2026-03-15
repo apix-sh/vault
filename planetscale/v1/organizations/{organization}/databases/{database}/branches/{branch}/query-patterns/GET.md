@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/branches/{branch}/query-patterns"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -25,14 +26,18 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization the branch belongs to<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the database the branch belongs to<br/>*Serialization: style=Simple* |
-| `branch` | Yes | string | The name of the branch<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization the branch belongs to |
+| `database` | Yes | string | The name of the database the branch belongs to |
+| `branch` | Yes | string | The name of the branch |
 
 
 ## Query Parameters
 
-_(None)_
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `starting_after` | No | string | If provided, returns results after the specified cursor |
+| `ending_before` | No | string | If provided, returns results before the specified cursor |
+| `limit` | No | integer | If provided, specifies the number of returned results (max 100) |
 
 
 
@@ -50,11 +55,11 @@ Returns the generated query patterns reports
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `cursor_end` | Yes | string | The ID of the last object in the current results |
+| `cursor_start` | Yes | string | The ID of the first object in the current results |
+| `data` | Yes | array<object> |  |
 | `has_next` | Yes | boolean | Whether there is a next page of results |
 | `has_prev` | Yes | boolean | Whether there is a previous page of results |
-| `cursor_start` | Yes | string | The ID of the first object in the current results |
-| `cursor_end` | Yes | string | The ID of the last object in the current results |
-| `data` | Yes | array<object> |  |
 
 
 ### 401

@@ -13,17 +13,17 @@ Delete a specific environment variable for a given project by passing the enviro
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The unique project identifier or the project name<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | The unique environment variable identifier<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The unique project identifier or the project name |
+| `id` | Yes | string | The unique environment variable identifier |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `customEnvironmentId` | No | string | The unique custom environment identifier within the project<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `customEnvironmentId` | No | string | The unique custom environment identifier within the project |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

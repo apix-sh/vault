@@ -37,9 +37,9 @@ __Deleting a Disk is a destructive action and cannot be undone.__
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | ID of the Linode to look up.<br/>*Serialization: style=Simple* |
-| `diskId` | Yes | integer | ID of the Disk to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | ID of the Linode to look up. |
+| `diskId` | Yes | integer | ID of the Disk to look up. |
 
 
 ## Query Parameters

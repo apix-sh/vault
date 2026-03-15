@@ -39,9 +39,9 @@ Removes a Firewall Device, which removes a Firewall from the service it was assi
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `firewallId` | Yes | integer | ID of the Firewall to access.<br/>*Serialization: style=Simple* |
-| `deviceId` | Yes | integer | ID of the Firewall Device to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `firewallId` | Yes | integer | ID of the Firewall to access. |
+| `deviceId` | Yes | integer | ID of the Firewall Device to access. |
 
 
 ## Query Parameters

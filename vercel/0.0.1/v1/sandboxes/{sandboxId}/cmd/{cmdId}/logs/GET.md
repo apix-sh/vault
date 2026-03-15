@@ -13,16 +13,16 @@ Streams the output of a command in real-time using newline-delimited JSON (ND-JS
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `sandboxId` | Yes | string | The unique identifier of the sandbox containing the command.<br/>*Serialization: style=Simple* |
-| `cmdId` | Yes | string | The unique identifier of the command to stream logs for.<br/>*Serialization: style=Simple* |
+| `sandboxId` | Yes | string | The unique identifier of the sandbox containing the command. |
+| `cmdId` | Yes | string | The unique identifier of the command to stream logs for. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

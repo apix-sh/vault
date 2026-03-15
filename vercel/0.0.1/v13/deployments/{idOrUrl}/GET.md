@@ -13,16 +13,16 @@ Retrieves information for a deployment either by supplying its ID (`id` property
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrUrl` | Yes | string | The unique identifier or hostname of the deployment.<br/>*Serialization: style=Simple* |
+| `idOrUrl` | Yes | string | The unique identifier or hostname of the deployment. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `withGitRepoInfo` | No | string | Whether to add in gitRepo information.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `withGitRepoInfo` | No | string | Whether to add in gitRepo information. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

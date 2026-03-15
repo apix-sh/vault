@@ -13,15 +13,15 @@ Creates a custom environment for the current project. Cannot be named 'Productio
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The unique project identifier or the project name<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The unique project identifier or the project name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,10 +33,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `slug` | No | string | The slug of the custom environment to create. |
-| `description` | No | string | Description of the custom environment. This is optional. |
 | `branchMatcher` | No | object | How we want to determine a matching branch. This is optional. |
 | `copyEnvVarsFrom` | No | string | Where to copy environment variables from. This is optional. |
+| `description` | No | string | Description of the custom environment. This is optional. |
+| `slug` | No | string | The slug of the custom environment to create. |
 
 
 ## Responses
@@ -46,14 +46,14 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `branchMatcher` | No | object | Configuration for matching git branches to this environment |
+| `createdAt` | Yes | number | Timestamp when the environment was created |
+| `currentDeploymentAliases` | No | array<string> | List of aliases for the current deployment |
+| `description` | No | string | Optional description of the environment's purpose |
+| `domains` | No | array<object> | List of domains associated with this environment |
 | `id` | Yes | string | Unique identifier for the custom environment (format: env_*) |
 | `slug` | Yes | string | URL-friendly name of the environment |
 | `type` | Yes | string | The type of environment (production, preview, or development) |
-| `description` | No | string | Optional description of the environment's purpose |
-| `branchMatcher` | No | object | Configuration for matching git branches to this environment |
-| `domains` | No | array<object> | List of domains associated with this environment |
-| `currentDeploymentAliases` | No | array<string> | List of aliases for the current deployment |
-| `createdAt` | Yes | number | Timestamp when the environment was created |
 | `updatedAt` | Yes | number | Timestamp when the environment was last updated |
 
 

@@ -26,16 +26,16 @@ Display the details of a single Managed Databases node type. The type and number
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `typeId` | Yes | string | The ID of the Managed Database type.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `typeId` | Yes | string | The ID of the Managed Database type. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -53,49 +53,13 @@ Returns a single Managed Databases type.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `class` | No | string | The Linode class category. This can be [dedicated](https://techdocs.akamai.com/cloud-computing/docs/dedicated-cpu-compute-instances), [shared](https://techdocs.akamai.com/cloud-computing/docs/shared-cpu-compute-instances), or [premium](https://techdocs.akamai.com/cloud-computing/docs/premium-compute-instances).
-
-> 📘
->
-> Premium plan Linodes are available in limited regions. |
+| `class` | No | string | The Linode class category. This can be [dedicated](https://techdocs.akamai.com/cloud-computing/docs/dedicated-cpu-compute-instances), [shared](https://techdocs.akamai.com/cloud-computing/docs/shared-cpu-compute-instances), or [premium](https://techdocs.akamai.com/cloud-computing/docs/premium-compute-instances).<br/><br/>> 📘<br/>><br/>> Premium plan Linodes are available in limited regions. |
 | `disk` | No | integer | The amount of disk space set aside for Databases of this plan type. The value is represented in megabytes. |
 | `engines` | No | object | Information for the supported third-party databases that can be used with Managed Databases. |
 | `id` | No | string | __Read-only__ The ID representing the Managed Database node plan type. |
 | `label` | No | string | __Read-only__ A human-readable string that describes each plan type. For display purposes only. |
 | `memory` | No | integer | The amount of RAM allocated to Database created of this plan type. The value is represented in megabytes. |
 | `vcpus` | No | integer | The number of CPUs allocated to databases of this plan type. |
-
-#### Example Payload
-```json
-{
-  "class": "dedicated",
-  "disk": 25600,
-  "engines": {
-    "mysql": [
-      {
-        "price": {
-          "hourly": 0.03,
-          "monthly": 20
-        },
-        "quantity": 1
-      }
-    ],
-    "postgresql": [
-      {
-        "price": {
-          "hourly": 0.03,
-          "monthly": 20
-        },
-        "quantity": 1
-      }
-    ]
-  },
-  "id": "g6-dedicated-1",
-  "label": "DBaaS - Dedicated 80GB",
-  "memory": 1024,
-  "vcpus": 1
-}
-```
 
 
 ### default

@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -32,14 +32,14 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `deliveryFormat` | Yes | any | The delivery log format |
-| `url` | Yes | string | The log drain url |
-| `headers` | No | object | Headers to be sent together with the request |
-| `projectIds` | No | array<string> |  |
-| `sources` | Yes | array<string> |  |
 | `environments` | No | array<string> |  |
-| `secret` | No | string | Custom secret of log drain |
-| `samplingRate` | No | number | The sampling rate for this log drain. It should be a percentage rate between 0 and 100. With max 2 decimal points |
+| `headers` | No | object | Headers to be sent together with the request |
 | `name` | No | string | The custom name of this log drain. |
+| `projectIds` | No | array<string> |  |
+| `samplingRate` | No | number | The sampling rate for this log drain. It should be a percentage rate between 0 and 100. With max 2 decimal points |
+| `secret` | No | string | Custom secret of log drain |
+| `sources` | Yes | array<string> |  |
+| `url` | Yes | string | The log drain url |
 
 
 ## Responses

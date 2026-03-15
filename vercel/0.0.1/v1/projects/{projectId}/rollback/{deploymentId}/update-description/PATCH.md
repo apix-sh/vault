@@ -1,7 +1,6 @@
 ---
 method: "PATCH"
 url: "https://api.vercel.com/v1/projects/{projectId}/rollback/{deploymentId}/update-description"
-auth: "none"
 content_type: "application/json"
 ---
 
@@ -13,8 +12,8 @@ Updates the reason for a rollback, without changing the rollback status itself.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Simple* |
-| `deploymentId` | Yes | string | *Serialization: style=Simple* |
+| `projectId` | Yes | string |  |
+| `deploymentId` | Yes | string |  |
 
 
 ## Query Parameters

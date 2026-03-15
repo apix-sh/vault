@@ -41,8 +41,8 @@ __Beta__ Returns metrics for a specific service type.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
-| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
+| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`. |
 
 
 ## Query Parameters
@@ -53,7 +53,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `X-Filter` | No | any | Specifies a JSON object to filter down the results. See [Filtering and sorting](filtering-and-sorting) for details.<br/>*Serialization: style=Simple* |
+| `X-Filter` | No | anyOf(4) | Specifies a JSON object to filter down the results. See [Filtering and sorting](filtering-and-sorting) for details. |
 
 
 ## Request Body
@@ -74,65 +74,6 @@ Returns a paginated list of metric information.
 | `page` | Yes | integer | The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | Yes | integer | The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | Yes | integer | The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "available_aggregate_functions": [
-        "max",
-        "avg",
-        "min",
-        "sum"
-      ],
-      "dimensions": [
-        {
-          "dimension_label": "node_type",
-          "label": "Node Type",
-          "values": [
-            "primary",
-            "secondary"
-          ]
-        }
-      ],
-      "is_alertable": true,
-      "label": "CPU Usage",
-      "metric": "cpu_usage",
-      "metric_type": "gauge",
-      "scrape_interval": "60s",
-      "unit": "percent"
-    },
-    {
-      "available_aggregate_functions": [
-        "max",
-        "avg",
-        "min",
-        "sum"
-      ],
-      "dimensions": [
-        {
-          "dimension_label": "node_type",
-          "label": "Node Type",
-          "values": [
-            "primary",
-            "secondary"
-          ]
-        }
-      ],
-      "is_alertable": true,
-      "label": "Disk I/O Read",
-      "metric": "read_iops",
-      "metric_type": "gauge",
-      "scrape_interval": "60s",
-      "unit": "iops"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 2
-}
-```
 
 
 ### default

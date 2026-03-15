@@ -1,6 +1,7 @@
 ---
 method: "PATCH"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/webhooks/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,9 +25,9 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the database<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | The ID of the webhook<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization |
+| `database` | Yes | string | The name of the database |
+| `id` | Yes | string | The ID of the webhook |
 
 
 ## Query Parameters
@@ -43,9 +44,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `url` | No | string | The URL the webhook will send events to |
 | `enabled` | No | boolean | Whether the webhook should be enabled |
 | `events` | No | array<string> | The events this webhook should subscribe to |
+| `url` | No | string | The URL the webhook will send events to |
 
 
 ## Responses
@@ -57,16 +58,16 @@ Returns the updated webhook
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | The ID of the webhook |
-| `url` | Yes | string | The URL the webhook will send events to |
-| `secret` | Yes | string | The secret used to sign the webhook payloads |
+| `created_at` | Yes | string | When the webhook was created |
 | `enabled` | Yes | boolean | Whether the webhook is enabled |
+| `events` | Yes | array<string> | The events this webhook subscribes to |
+| `id` | Yes | string | The ID of the webhook |
+| `last_sent_at` | Yes | string | When the last event was sent |
 | `last_sent_result` | Yes | string | The last result sent by the webhook |
 | `last_sent_success` | Yes | boolean | Whether the last sent was successful |
-| `last_sent_at` | Yes | string | When the last event was sent |
-| `created_at` | Yes | string | When the webhook was created |
+| `secret` | Yes | string | The secret used to sign the webhook payloads |
 | `updated_at` | Yes | string | When the webhook was updated |
-| `events` | Yes | array<string> | The events this webhook subscribes to |
+| `url` | Yes | string | The URL the webhook will send events to |
 
 
 ### 401

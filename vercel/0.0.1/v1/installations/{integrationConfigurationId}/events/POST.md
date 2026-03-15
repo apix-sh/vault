@@ -13,7 +13,7 @@ Partner notifies Vercel of any changes made to an Installation or a Resource. Ve
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
 
 
 ## Query Parameters

@@ -13,15 +13,15 @@ Generate a routing rule configuration from a natural language description. Retur
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Simple* |
+| `projectId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,8 +33,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `prompt` | Yes | string |  |
 | `currentRoute` | No | object |  |
+| `prompt` | Yes | string |  |
 
 
 ## Responses
@@ -44,8 +44,8 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `route` | No | object |  |
 | `error` | No | string |  |
+| `route` | No | object |  |
 
 
 ### 400

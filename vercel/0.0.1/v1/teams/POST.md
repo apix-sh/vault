@@ -28,9 +28,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `slug` | Yes | string | The desired slug for the Team |
-| `name` | No | string | The desired name for the Team. It will be generated from the provided slug if nothing is provided |
 | `attribution` | No | object | Attribution information for the session or current page |
+| `name` | No | string | The desired name for the Team. It will be generated from the provided slug if nothing is provided |
+| `slug` | Yes | string | The desired slug for the Team |
 
 
 ## Responses

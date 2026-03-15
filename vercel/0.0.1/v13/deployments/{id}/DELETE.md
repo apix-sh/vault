@@ -13,16 +13,16 @@ This API allows you to delete a deployment, either by supplying its `id` in the 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The ID of the deployment to be deleted<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The ID of the deployment to be deleted |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `url` | No | string | A Deployment or Alias URL. In case it is passed, the ID will be ignored<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `url` | No | string | A Deployment or Alias URL. In case it is passed, the ID will be ignored |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -40,8 +40,8 @@ The deployment was successfully deleted
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `uid` | Yes | string | The removed deployment ID. |
 | `state` | Yes | string | A constant with the final state of the deployment. |
+| `uid` | Yes | string | The removed deployment ID. |
 
 
 ### 400

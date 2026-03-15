@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/branches/{branch}/roles/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -25,10 +26,10 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`.<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`.<br/>*Serialization: style=Simple* |
-| `branch` | Yes | string | Branch name from `list_branches`. Example: `main`.<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | The ID of the role<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`. |
+| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`. |
+| `branch` | Yes | string | Branch name from `list_branches`. Example: `main`. |
+| `id` | Yes | string | The ID of the role |
 
 
 ## Query Parameters
@@ -51,28 +52,28 @@ Returns a role
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | The ID of the role |
-| `name` | Yes | string | The name of the role |
 | `access_host_url` | Yes | string | The database connection string |
-| `private_access_host_url` | Yes | string | The database connection string for private connections |
-| `private_connection_service_name` | Yes | string | The service name to set up private connectivity |
-| `username` | Yes | string | The database user name |
-| `password` | Yes | string | The plain text password, available only after create |
-| `database_name` | Yes | string | The database name |
+| `actor` | Yes | object |  |
+| `branch` | Yes | object |  |
 | `created_at` | Yes | string | When the role was created |
-| `updated_at` | Yes | string | When the role was updated |
+| `database_name` | Yes | string | The database name |
+| `default` | Yes | boolean | Whether the role is the default postgres user |
 | `deleted_at` | Yes | string | When the role was deleted |
-| `expires_at` | Yes | string | When the role expires |
-| `dropped_at` | Yes | string | When the role was dropped |
 | `disabled_at` | Yes | string | When the role was disabled |
 | `drop_failed` | Yes | string | Error message available when dropping the role fails |
+| `dropped_at` | Yes | string | When the role was dropped |
 | `expired` | Yes | boolean | True if the credentials are expired |
-| `default` | Yes | boolean | Whether the role is the default postgres user |
-| `ttl` | Yes | integer | Number of seconds before the credentials expire |
+| `expires_at` | Yes | string | When the role expires |
+| `id` | Yes | string | The ID of the role |
 | `inherited_roles` | Yes | array<string> | Database roles these credentials inherit |
-| `branch` | Yes | object |  |
-| `actor` | Yes | object |  |
+| `name` | Yes | string | The name of the role |
+| `password` | Yes | string | The plain text password, available only after create |
+| `private_access_host_url` | Yes | string | The database connection string for private connections |
+| `private_connection_service_name` | Yes | string | The service name to set up private connectivity |
 | `query_safety_settings` | Yes | object |  |
+| `ttl` | Yes | integer | Number of seconds before the credentials expire |
+| `updated_at` | Yes | string | When the role was updated |
+| `username` | Yes | string | The database user name |
 
 
 ### 401

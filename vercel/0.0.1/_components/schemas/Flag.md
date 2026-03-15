@@ -8,19 +8,19 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `description` | No | string |  |
-| `variants` | Yes | array<object> |  |
-| `id` | Yes | string |  |
-| `environments` | Yes | object |  |
-| `kind` | Yes | string | Allowed values: string, number, boolean |
-| `revision` | Yes | number |  |
-| `seed` | Yes | number |  |
-| `state` | Yes | string | Allowed values: active, archived |
-| `slug` | Yes | string |  |
 | `createdAt` | Yes | number |  |
-| `updatedAt` | Yes | number |  |
 | `createdBy` | Yes | string |  |
+| `description` | No | string |  |
+| `environments` | Yes | object |  |
+| `id` | Yes | string |  |
+| `kind` | Yes | string | Allowed values: string, number, boolean |
+| `metadata` | No | object |  |
 | `ownerId` | Yes | string |  |
 | `projectId` | Yes | string |  |
+| `revision` | Yes | number |  |
+| `seed` | Yes | number |  |
+| `slug` | Yes | string |  |
+| `state` | Yes | string | Allowed values: active, archived |
 | `typeName` | Yes | string | Allowed values: flag |
-| `metadata` | No | object |  |
+| `updatedAt` | Yes | number |  |
+| `variants` | Yes | array<object> |  |

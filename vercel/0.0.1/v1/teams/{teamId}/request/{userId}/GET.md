@@ -13,8 +13,8 @@ Check the status of a join request. It'll respond with a 404 if the request has 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `userId` | Yes | string | *Serialization: style=Simple* |
-| `teamId` | Yes | string | *Serialization: style=Simple* |
+| `userId` | Yes | string |  |
+| `teamId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -37,14 +37,14 @@ Successfully
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `teamSlug` | Yes | string | The slug of the team. |
-| `teamName` | Yes | string | The name of the team. |
-| `confirmed` | Yes | boolean | Current status of the membership. Will be `true` if confirmed, if pending it'll be `false`. |
-| `joinedFrom` | Yes | object | A map that describes the origin from where the user joined. |
 | `accessRequestedAt` | Yes | number | Timestamp in milliseconds when the user requested access to the team. |
+| `bitbucket` | Yes | object | Map of the connected Bitbucket account. |
+| `confirmed` | Yes | boolean | Current status of the membership. Will be `true` if confirmed, if pending it'll be `false`. |
 | `github` | Yes | object | Map of the connected GitHub account. |
 | `gitlab` | Yes | object | Map of the connected GitLab account. |
-| `bitbucket` | Yes | object | Map of the connected Bitbucket account. |
+| `joinedFrom` | Yes | object | A map that describes the origin from where the user joined. |
+| `teamName` | Yes | string | The name of the team. |
+| `teamSlug` | Yes | string | The slug of the team. |
 
 
 ### 400

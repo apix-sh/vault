@@ -13,14 +13,14 @@ Some TLDs require additional contact information. Use this endpoint to get the s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | Yes | [DomainName](../../../../../../_components/schemas/DomainName.md) | *Serialization: style=Simple* |
+| `domain` | Yes | [DomainName](../../../../../../_components/schemas/DomainName.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | *Serialization: style=Form* |
+| `teamId` | No | string |  |
 
 
 

@@ -18,23 +18,23 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `from` | No | string | Query only projects updated after the given timestamp or continuation token.<br/>*Serialization: style=Form* |
-| `gitForkProtection` | No | string | Specifies whether PRs from Git forks should require a team member's authorization before it can be deployed<br/>*Serialization: style=Form* |
-| `limit` | No | string | Limit the number of projects returned<br/>*Serialization: style=Form* |
-| `search` | No | string | Search projects by the name field<br/>*Serialization: style=Form* |
-| `repo` | No | string | Filter results by repo. Also used for project count<br/>*Serialization: style=Form* |
-| `repoId` | No | string | Filter results by Repository ID.<br/>*Serialization: style=Form* |
-| `repoUrl` | No | string | Filter results by Repository URL.<br/>*Serialization: style=Form* |
-| `excludeRepos` | No | string | Filter results by excluding those projects that belong to a repo<br/>*Serialization: style=Form* |
-| `edgeConfigId` | No | string | Filter results by connected Edge Config ID<br/>*Serialization: style=Form* |
-| `edgeConfigTokenId` | No | string | Filter results by connected Edge Config Token ID<br/>*Serialization: style=Form* |
-| `deprecated` | No | boolean | *Serialization: style=Form* |
-| `elasticConcurrencyEnabled` | No | string | Filter results by projects with elastic concurrency enabled<br/>*Serialization: style=Form* |
-| `staticIpsEnabled` | No | string | Filter results by projects with Static IPs enabled<br/>*Serialization: style=Form* |
-| `buildMachineTypes` | No | string | Filter results by build machine types. Accepts comma-separated values. Use \"default\" for projects without a build machine type set.<br/>*Serialization: style=Form* |
-| `buildQueueConfiguration` | No | string | Filter results by build queue configuration. SKIP_NAMESPACE_QUEUE includes projects without a configuration set.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `from` | No | string | Query only projects updated after the given timestamp or continuation token. |
+| `gitForkProtection` | No | string | Specifies whether PRs from Git forks should require a team member's authorization before it can be deployed |
+| `limit` | No | string | Limit the number of projects returned |
+| `search` | No | string | Search projects by the name field |
+| `repo` | No | string | Filter results by repo. Also used for project count |
+| `repoId` | No | string | Filter results by Repository ID. |
+| `repoUrl` | No | string | Filter results by Repository URL. |
+| `excludeRepos` | No | string | Filter results by excluding those projects that belong to a repo |
+| `edgeConfigId` | No | string | Filter results by connected Edge Config ID |
+| `edgeConfigTokenId` | No | string | Filter results by connected Edge Config Token ID |
+| `deprecated` | No | boolean |  |
+| `elasticConcurrencyEnabled` | No | string | Filter results by projects with elastic concurrency enabled |
+| `staticIpsEnabled` | No | string | Filter results by projects with Static IPs enabled |
+| `buildMachineTypes` | No | string | Filter results by build machine types. Accepts comma-separated values. Use \"default\" for projects without a build machine type set. |
+| `buildQueueConfiguration` | No | string | Filter results by build queue configuration. SKIP_NAMESPACE_QUEUE includes projects without a configuration set. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

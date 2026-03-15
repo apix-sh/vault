@@ -13,15 +13,15 @@ Advance a rollout to the next stage. This is only needed when rolling releases i
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | Project ID or project name (URL-encoded)<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | Project ID or project name (URL-encoded) |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,8 +33,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `nextStageIndex` | Yes | number | The index of the stage to transition to |
 | `canaryDeploymentId` | Yes | string | The id of the canary deployment to approve for the next stage |
+| `nextStageIndex` | Yes | number | The index of the stage to transition to |
 
 
 ## Responses

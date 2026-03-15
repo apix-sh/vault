@@ -35,16 +35,16 @@ Returns a paginated list of VPC configurations for the NodeBalancer.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `nodeBalancerId` | Yes | integer | The ID of the NodeBalancer.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `nodeBalancerId` | Yes | integer | The ID of the NodeBalancer. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -66,33 +66,6 @@ A paginated list of NodeBalancer VPC configurations.
 | `page` | No | integer | __Read-only__ The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | No | integer | __Read-only__ The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | No | integer | __Read-only__ The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "id": 6,
-      "ipv4_range": "10.0.0.12/30",
-      "ipv6_range": null,
-      "nodebalancer_id": 8,
-      "subnet_id": 1,
-      "vpc_id": 1
-    },
-    {
-      "id": 7,
-      "ipv4_range": "10.0.1.8/30",
-      "ipv6_range": null,
-      "nodebalancer_id": 8,
-      "subnet_id": 7,
-      "vpc_id": 1
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 2
-}
-```
 
 
 ### default

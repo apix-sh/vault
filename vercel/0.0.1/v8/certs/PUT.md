@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -32,8 +32,8 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `ca` | Yes | string | The certificate authority |
-| `key` | Yes | string | The certificate key |
 | `cert` | Yes | string | The certificate |
+| `key` | Yes | string | The certificate key |
 | `skipValidation` | No | boolean | Skip validation of the certificate |
 
 
@@ -44,11 +44,11 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string |  |
-| `createdAt` | Yes | number |  |
-| `expiresAt` | Yes | number |  |
 | `autoRenew` | Yes | boolean |  |
 | `cns` | Yes | array<string> |  |
+| `createdAt` | Yes | number |  |
+| `expiresAt` | Yes | number |  |
+| `id` | Yes | string |  |
 
 
 ### 400

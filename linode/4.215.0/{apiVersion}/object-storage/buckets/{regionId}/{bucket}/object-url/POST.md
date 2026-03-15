@@ -31,13 +31,9 @@ Creates a pre-signed URL to access a single object in a bucket. Use it to share,
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `regionId` | Yes | string | Identifies a region where this bucket lives.
-
-> 📘
->
-> You can use a `clusterId` in place of `regionId` in requests for buckets that you created using the legacy version of the API. Run [List clusters](https://techdocs.akamai.com/linode-api/reference/get-object-storage-clusters) to see each cluster `id`.<br/>*Serialization: style=Simple* |
-| `bucket` | Yes | string | The bucket name.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `regionId` | Yes | string | Identifies a region where this bucket lives.<br/><br/>> 📘<br/>><br/>> You can use a `clusterId` in place of `regionId` in requests for buckets that you created using the legacy version of the API. Run [List clusters](https://techdocs.akamai.com/linode-api/reference/get-object-storage-clusters) to see each cluster `id`. |
+| `bucket` | Yes | string | The bucket name. |
 
 
 ## Query Parameters

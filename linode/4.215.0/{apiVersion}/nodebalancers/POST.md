@@ -42,7 +42,7 @@ When using the Linode CLI to create a NodeBalancer, first create a NodeBalancer 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -60,11 +60,8 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `client_conn_throttle` | No | integer | Throttle TCP connections per second for TCP, HTTP, and HTTPS configurations.  Set to `0` (zero) to disable throttling. |
-| `configs` | No | array<any> | The port configs to create for this NodeBalancer. Each config needs a unique port and at least one node. |
-| `firewall_id` | No | integer | The ID of the Firewall to assign to the NodeBalancer.
-
-- A NodeBalancer can have only one Firewall assigned to it.
-- Firewalls control inbound network traffic to NodeBalancers. |
+| `configs` | No | array<oneOf(4)> | The port configs to create for this NodeBalancer. Each config needs a unique port and at least one node. |
+| `firewall_id` | No | integer | The ID of the Firewall to assign to the NodeBalancer.<br/><br/>- A NodeBalancer can have only one Firewall assigned to it.<br/>- Firewalls control inbound network traffic to NodeBalancers. |
 | `label` | No | string | __Filterable__ This NodeBalancer's label. These must be unique on your Account. |
 | `region` | Yes | string | The ID of the Region to create this NodeBalancer in. |
 | `tags` | No | array<string> | An array of Tags applied to this object. Tags are for organizational purposes only. |

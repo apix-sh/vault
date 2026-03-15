@@ -35,8 +35,8 @@ Linodes created with now-deprecated Types are entitled to a free upgrade to the 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | ID of the Linode to mutate.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | ID of the Linode to mutate. |
 
 
 ## Query Parameters

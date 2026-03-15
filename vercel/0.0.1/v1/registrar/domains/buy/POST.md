@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | *Serialization: style=Form* |
+| `teamId` | No | string |  |
 
 
 
@@ -30,8 +30,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `domains` | Yes | array<object> |  |
 | `contactInformation` | Yes | object | The contact information for the domain. Some TLDs require additional contact information. Use the [Get contact info schema](https://vercel.com/docs/rest-api/reference/endpoints/domains-registrar/get-contact-info-schema) endpoint to retrieve the required fields. |
+| `domains` | Yes | array<object> |  |
 
 
 ## Responses
@@ -43,8 +43,8 @@ Success
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `orderId` | Yes | [OrderId](../../../../_components/schemas/OrderId.md) |  |
 | `_links` | Yes | object |  |
+| `orderId` | Yes | [OrderId](../../../../_components/schemas/OrderId.md) |  |
 
 
 ### 400

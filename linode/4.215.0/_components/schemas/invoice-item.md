@@ -15,9 +15,7 @@ An InvoiceItem object.
 | `from` | No | string | __Read-only__ The date the Invoice Item started, based on month. |
 | `label` | No | string | __Read-only__ The Invoice Item's display label. |
 | `quantity` | No | integer | __Read-only__ The quantity of this Item for the specified Invoice. |
-| `region` | No | string | __Read-only__ The ID of the applicable Region associated with this Invoice Item.
-
-`null` if there is no applicable Region. |
+| `region` | No | string | __Read-only__ The ID of the applicable Region associated with this Invoice Item.<br/><br/>`null` if there is no applicable Region. |
 | `tax` | No | number | __Read-only__ The amount of tax levied on this Item in US Dollars. |
 | `to` | No | string | __Read-only__ The date the Invoice Item ended, based on month. |
 | `total` | No | number | __Read-only__ The price of this Item after taxes in US Dollars. |

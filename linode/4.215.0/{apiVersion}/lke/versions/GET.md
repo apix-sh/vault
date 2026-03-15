@@ -35,7 +35,7 @@ List LKE Kubernetes versions available for deployment to a standard-tier Kuberne
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -62,26 +62,6 @@ Returns a list of LKE Kubernetes versions available for deployment to a standard
 | `page` | No | integer | __Read-only__ The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | No | integer | __Read-only__ The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | No | integer | __Read-only__ The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "id": "1.33"
-    },
-    {
-      "id": "1.32"
-    },
-    {
-      "id": "1.31"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 3
-}
-```
 
 
 ### default

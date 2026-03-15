@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/members/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -23,8 +24,8 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | The ID of the user<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization |
+| `id` | Yes | string | The ID of the user |
 
 
 ## Query Parameters
@@ -47,11 +48,11 @@ Returns the membership of the user in the organization
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | The ID of the membership |
-| `user` | Yes | object |  |
-| `role` | Yes | string | The role of the user in the organization |
 | `created_at` | Yes | string | When the membership was created |
+| `id` | Yes | string | The ID of the membership |
+| `role` | Yes | string | The role of the user in the organization |
 | `updated_at` | Yes | string | When the membership was last updated |
+| `user` | Yes | object |  |
 
 
 ### 401

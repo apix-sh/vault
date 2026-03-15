@@ -13,15 +13,15 @@ Retrieves a Configurable Log Drain. This endpoint must be called with a team Acc
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | *Serialization: style=Simple* |
+| `id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -37,13 +37,13 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `createdFrom` | Yes | string |  |
 | `clientId` | No | string |  |
 | `configurationId` | No | string |  |
-| `projectsMetadata` | No | array<object> |  |
-| `integrationIcon` | No | string |  |
+| `createdFrom` | Yes | string |  |
 | `integrationConfigurationUri` | No | string |  |
+| `integrationIcon` | No | string |  |
 | `integrationWebsite` | No | string |  |
+| `projectsMetadata` | No | array<object> |  |
 
 
 ### 400

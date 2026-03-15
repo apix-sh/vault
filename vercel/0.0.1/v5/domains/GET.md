@@ -18,11 +18,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | number | Maximum number of domains to list from a request.<br/>*Serialization: style=Form* |
-| `since` | No | number | Get domains created after this JavaScript timestamp.<br/>*Serialization: style=Form* |
-| `until` | No | number | Get domains created before this JavaScript timestamp.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `limit` | No | number | Maximum number of domains to list from a request. |
+| `since` | No | number | Get domains created after this JavaScript timestamp. |
+| `until` | No | number | Get domains created before this JavaScript timestamp. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

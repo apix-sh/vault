@@ -13,16 +13,16 @@ Return a detailed response for a single check.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectIdOrName` | Yes | string | *Serialization: style=Simple* |
-| `checkId` | Yes | string | The ID of the resource that will be updated.<br/>*Serialization: style=Simple* |
+| `projectIdOrName` | Yes | string |  |
+| `checkId` | Yes | string | The ID of the resource that will be updated. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -38,21 +38,21 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `blocks` | Yes | string |  |
+| `createdAt` | Yes | number |  |
+| `deletedAt` | No | number |  |
 | `id` | Yes | string |  |
+| `isRerequestable` | Yes | boolean |  |
 | `name` | Yes | string |  |
 | `ownerId` | Yes | string |  |
 | `projectId` | Yes | string |  |
-| `isRerequestable` | Yes | boolean |  |
 | `requires` | Yes | string |  |
 | `source` | Yes | oneOf(3) |  |
-| `blocks` | Yes | string |  |
-| `targets` | Yes | array<string> |  |
-| `sourceKind` | Yes | string |  |
 | `sourceIntegrationConfigurationId` | No | string |  |
+| `sourceKind` | Yes | string |  |
+| `targets` | Yes | array<string> |  |
 | `timeout` | Yes | number |  |
-| `createdAt` | Yes | number |  |
 | `updatedAt` | Yes | number |  |
-| `deletedAt` | No | number |  |
 
 
 ### 400

@@ -13,7 +13,7 @@ Sends the prepayment balances. The partner should do this at least once a day an
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -30,8 +30,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `timestamp` | Yes | string | Server time of your integration, used to determine the most recent data for race conditions & updates. Only the latest usage data for a given day, week, and month will be kept. |
 | `balances` | Yes | array<object> |  |
+| `timestamp` | Yes | string | Server time of your integration, used to determine the most recent data for race conditions & updates. Only the latest usage data for a given day, week, and month will be kept. |
 
 
 ## Responses

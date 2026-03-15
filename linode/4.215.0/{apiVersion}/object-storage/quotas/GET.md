@@ -39,7 +39,7 @@ Returns the active Object Storage-related quotas applied to your account. For ex
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -61,26 +61,6 @@ A paginated list of Object Storage-related quotas applied to your account.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "description": "Current number of buckets per account, per endpoint",
-      "endpoint_type": "E1",
-      "quota_id": "obj-buckets-eu-central-1.linodeobjects.com",
-      "quota_limit": 50,
-      "quota_name": "Number of Buckets",
-      "resource_metric": "bucket",
-      "s3_endpoint": "us-sea-9.linodeobjects.com"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

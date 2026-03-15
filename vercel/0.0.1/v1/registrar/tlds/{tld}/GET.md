@@ -13,14 +13,14 @@ Get the metadata for a specific TLD.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tld` | Yes | string | *Serialization: style=Simple* |
+| `tld` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | *Serialization: style=Form* |
+| `teamId` | No | string |  |
 
 
 

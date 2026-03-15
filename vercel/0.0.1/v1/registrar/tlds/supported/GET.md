@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | *Serialization: style=Form* |
+| `teamId` | No | string |  |
 
 
 

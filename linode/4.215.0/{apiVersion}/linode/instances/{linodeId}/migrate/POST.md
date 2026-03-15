@@ -55,8 +55,8 @@ To initiate a cross DC migration, you must pass a `region` parameter to the requ
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | ID of the Linode to migrate.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | ID of the Linode to migrate. |
 
 
 ## Query Parameters
@@ -73,19 +73,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `placement_group` | No | object | Include this to assign this Linode to an existing [placement group](https://www.linode.com/docs/products/compute/compute-instances/guides/placement-groups/) in the data center you're migrating to. These constraints apply:
-
-- If the target Linode is in a placement group, it will be removed from it when migrating.
-- The target placement group needs to be in the same `region` you're migrating to.
-- The placement group needs to have capacity. Run the [Get a region](https://techdocs.akamai.com/linode-api/reference/get-region) operation and note either the `maximum_linodes_per_pg` (strict) or `maximum_linodes_per_flexible_pg` (flexible), based on your selected `placement_group_policy`. These represent the Linode limit per placement group, for each `placement_group_policy` type. You can then run the [Get a placement group](https://techdocs.akamai.com/linode-api/reference/get-placement-group) operation to review the Linodes in that group. |
+| `placement_group` | No | object | Include this to assign this Linode to an existing [placement group](https://www.linode.com/docs/products/compute/compute-instances/guides/placement-groups/) in the data center you're migrating to. These constraints apply:<br/><br/>- If the target Linode is in a placement group, it will be removed from it when migrating.<br/>- The target placement group needs to be in the same `region` you're migrating to.<br/>- The placement group needs to have capacity. Run the [Get a region](https://techdocs.akamai.com/linode-api/reference/get-region) operation and note either the `maximum_linodes_per_pg` (strict) or `maximum_linodes_per_flexible_pg` (flexible), based on your selected `placement_group_policy`. These represent the Linode limit per placement group, for each `placement_group_policy` type. You can then run the [Get a placement group](https://techdocs.akamai.com/linode-api/reference/get-placement-group) operation to review the Linodes in that group. |
 | `region` | No | string | The region to which the Linode will be migrated. Must be a valid region slug. A list of regions can be viewed by running the [List regions](https://techdocs.akamai.com/linode-api/reference/get-regions) operation. A cross data center migration will cancel a pending migration that has not yet been initiated. A cross data center migration will initiate a `linode_migrate_datacenter_create` event. |
-| `type` | No | string | Type of migration used in moving to a new host or Linode type.
-
-`warm`: the Linode will not power down until the migration is complete.
-Warm migrations are not available for DC migrations.
-
-`cold`: the Linode will be powered down and migrated. When the migration
-is complete, the Linode will be powered on. |
+| `type` | No | string | Type of migration used in moving to a new host or Linode type.<br/><br/>`warm`: the Linode will not power down until the migration is complete.<br/>Warm migrations are not available for DC migrations.<br/><br/>`cold`: the Linode will be powered down and migrated. When the migration<br/>is complete, the Linode will be powered on. |
 | `upgrade` | No | boolean | When initiating a cross DC migration, setting this value to `true` will also ensure that the Linode is upgraded to the latest generation of hardware that corresponds to your Linode's Type, if any free upgrades are available for it. If no free upgrades are available, and this value is set to `true`, then the endpoint will return a 400 error code and the migration will not be performed. If the data center set in the `region` field does not allow upgrades, then the endpoint will return a 400 error code and the migration will not be performed. |
 
 

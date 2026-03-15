@@ -13,7 +13,7 @@ Get all resources for a given installation ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
 
 
 ## Query Parameters

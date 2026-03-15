@@ -13,7 +13,7 @@ Join a team with a provided invite code or team ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | Yes | string | *Serialization: style=Simple* |
+| `teamId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -42,10 +42,10 @@ Successfully joined a team.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `teamId` | Yes | string | The ID of the team the user joined. |
-| `slug` | Yes | string | The slug of the team the user joined. |
-| `name` | Yes | string | The name of the team the user joined. |
 | `from` | Yes | string | The origin of how the user joined. |
+| `name` | Yes | string | The name of the team the user joined. |
+| `slug` | Yes | string | The slug of the team the user joined. |
+| `teamId` | Yes | string | The ID of the team the user joined. |
 
 
 ### 400

@@ -13,16 +13,16 @@ Retrieve a custom environment for the project. Must not be named 'Production' or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The unique project identifier or the project name<br/>*Serialization: style=Simple* |
-| `environmentSlugOrId` | Yes | string | The unique custom environment identifier within the project<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The unique project identifier or the project name |
+| `environmentSlugOrId` | Yes | string | The unique custom environment identifier within the project |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -38,14 +38,14 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `branchMatcher` | No | object | Configuration for matching git branches to this environment |
+| `createdAt` | Yes | number | Timestamp when the environment was created |
+| `currentDeploymentAliases` | No | array<string> | List of aliases for the current deployment |
+| `description` | No | string | Optional description of the environment's purpose |
+| `domains` | No | array<object> | List of domains associated with this environment |
 | `id` | Yes | string | Unique identifier for the custom environment (format: env_*) |
 | `slug` | Yes | string | URL-friendly name of the environment |
 | `type` | Yes | string | The type of environment (production, preview, or development) |
-| `description` | No | string | Optional description of the environment's purpose |
-| `branchMatcher` | No | object | Configuration for matching git branches to this environment |
-| `domains` | No | array<object> | List of domains associated with this environment |
-| `currentDeploymentAliases` | No | array<string> | List of aliases for the current deployment |
-| `createdAt` | Yes | number | Timestamp when the environment was created |
 | `updatedAt` | Yes | number | Timestamp when the environment was last updated |
 
 

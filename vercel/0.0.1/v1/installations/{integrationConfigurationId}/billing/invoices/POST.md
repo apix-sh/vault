@@ -13,7 +13,7 @@ This endpoint allows the partner to submit an invoice to Vercel. The invoice is 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -30,13 +30,13 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `discounts` | No | array<object> |  |
 | `externalId` | No | string |  |
+| `final` | No | boolean | Set this to `true` if this is the final invoice for the installation. Can only be set when the installation is pending deletion. |
 | `invoiceDate` | Yes | string | Invoice date. Must be within the period's start and end. |
+| `items` | Yes | array<object> |  |
 | `memo` | No | string | Additional memo for the invoice. |
 | `period` | Yes | object | Subscription period for this billing cycle. |
-| `items` | Yes | array<object> |  |
-| `discounts` | No | array<object> |  |
-| `final` | No | boolean | Set this to `true` if this is the final invoice for the installation. |
 | `test` | No | object | Test mode |
 
 

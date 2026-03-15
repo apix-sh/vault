@@ -8,9 +8,9 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | Yes | string | The ID of the team membership |
-| `user` | Yes | object |  |
 | `actor` | Yes | object |  |
 | `created_at` | Yes | string | When the membership was created |
-| `updated_at` | Yes | string | When the membership was last updated |
+| `id` | Yes | string | The ID of the team membership |
 | `passwords` | Yes | array<object> |  |
+| `updated_at` | Yes | string | When the membership was last updated |
+| `user` | Yes | object |  |

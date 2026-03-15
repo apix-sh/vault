@@ -11,6 +11,6 @@ The number of domains in the order is too high.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `status` | Yes | number |  |
 | `code` | Yes | string | Allowed values: too_many_domains |
 | `message` | Yes | string |  |
+| `status` | Yes | number |  |

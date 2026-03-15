@@ -26,7 +26,7 @@ Returns availability data for all regions.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -48,22 +48,6 @@ Returns a Region Availability object.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "available": true,
-      "plan": "gpu-rtx6000-1.1",
-      "region": "us-east"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

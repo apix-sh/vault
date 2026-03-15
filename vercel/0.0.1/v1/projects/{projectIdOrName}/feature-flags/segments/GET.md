@@ -13,16 +13,16 @@ List all feature flag segments for a project.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectIdOrName` | Yes | string | The project id or name<br/>*Serialization: style=Simple* |
+| `projectIdOrName` | Yes | string | The project id or name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `withMetadata` | No | boolean | Whether to include metadata<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `withMetadata` | No | boolean | Whether to include metadata |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

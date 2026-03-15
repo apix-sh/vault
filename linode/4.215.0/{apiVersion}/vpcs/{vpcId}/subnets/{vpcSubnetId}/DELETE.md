@@ -41,9 +41,9 @@ The user accessing this operation must have `read_write` grants to the VPC. A su
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `vpcId` | Yes | integer | The `id` of the VPC.<br/>*Serialization: style=Simple* |
-| `vpcSubnetId` | Yes | integer | The `id` of the VPC Subnet.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `vpcId` | Yes | integer | The `id` of the VPC. |
+| `vpcSubnetId` | Yes | integer | The `id` of the VPC Subnet. |
 
 
 ## Query Parameters

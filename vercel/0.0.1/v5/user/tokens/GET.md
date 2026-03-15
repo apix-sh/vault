@@ -32,8 +32,8 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `tokens` | Yes | array<[AuthToken](../../../_components/schemas/AuthToken.md)> |  |
 | `pagination` | Yes | [Pagination](../../../_components/schemas/Pagination.md) |  |
+| `tokens` | Yes | array<[AuthToken](../../../_components/schemas/AuthToken.md)> |  |
 
 
 ### 400

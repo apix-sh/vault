@@ -13,9 +13,9 @@ Delete an existing experimentation item
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `resourceId` | Yes | string | *Serialization: style=Simple* |
-| `itemId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
+| `resourceId` | Yes | string |  |
+| `itemId` | Yes | string |  |
 
 
 ## Query Parameters

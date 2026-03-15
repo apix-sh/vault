@@ -13,16 +13,16 @@ Returns a stream of logs for a given deployment.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Simple* |
-| `deploymentId` | Yes | string | *Serialization: style=Simple* |
+| `projectId` | Yes | string |  |
+| `deploymentId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -38,16 +38,16 @@ _(None)_
 #### Response Schema (`application/stream+json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `domain` | Yes | string |  |
 | `level` | Yes | string |  |
 | `message` | Yes | string |  |
-| `rowId` | Yes | string |  |
-| `source` | Yes | string |  |
-| `timestampInMs` | Yes | number |  |
-| `domain` | Yes | string |  |
 | `messageTruncated` | Yes | boolean |  |
 | `requestMethod` | Yes | string |  |
 | `requestPath` | Yes | string |  |
 | `responseStatusCode` | Yes | number |  |
+| `rowId` | Yes | string |  |
+| `source` | Yes | string |  |
+| `timestampInMs` | Yes | number |  |
 
 
 ### 400

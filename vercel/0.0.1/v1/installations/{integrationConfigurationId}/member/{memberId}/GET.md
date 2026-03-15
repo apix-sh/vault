@@ -13,8 +13,8 @@ Returns the member role and other information for a given member ID ("user_id" c
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `memberId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
+| `memberId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -35,9 +35,9 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `globalUserId` | No | string |  |
 | `id` | Yes | string |  |
 | `role` | Yes | string | "The `ADMIN` role, by default, is provided to users capable of installing integrations, while the `USER` role can be granted to Vercel users with the Vercel `Billing` or Vercel `Viewer` role, which are considered to be Read-Only roles." |
-| `globalUserId` | No | string |  |
 | `userEmail` | No | string |  |
 
 

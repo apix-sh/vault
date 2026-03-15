@@ -13,15 +13,15 @@ List all of the checks created for a deployment.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deploymentId` | Yes | string | The deployment to get all checks for<br/>*Serialization: style=Simple* |
+| `deploymentId` | Yes | string | The deployment to get all checks for |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

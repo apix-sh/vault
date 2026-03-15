@@ -31,13 +31,9 @@ Returns a single Object Storage bucket.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `regionId` | Yes | string | Identifies a region where this bucket lives.
-
-> 📘
->
-> You can use a `clusterId` in place of `regionId` in requests for buckets that you created using the legacy version of the API. Run [List clusters](https://techdocs.akamai.com/linode-api/reference/get-object-storage-clusters) to see each cluster `id`.<br/>*Serialization: style=Simple* |
-| `bucket` | Yes | string | The bucket name.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `regionId` | Yes | string | Identifies a region where this bucket lives.<br/><br/>> 📘<br/>><br/>> You can use a `clusterId` in place of `regionId` in requests for buckets that you created using the legacy version of the API. Run [List clusters](https://techdocs.akamai.com/linode-api/reference/get-object-storage-clusters) to see each cluster `id`. |
+| `bucket` | Yes | string | The bucket name. |
 
 
 ## Query Parameters
@@ -60,13 +56,7 @@ The requested bucket.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `cluster` | No | string | __Deprecated__ The legacy `clusterId` equivalent for the `regionId` where this bucket lives. The API maintains this for backward compatibility.
-
-> 📘
->
-> - This value and the `regionId` are interchangeable when used in requests. Best practice is to use the `regionId`.
->
-> - This value is empty for newer regions that don't have a legacy `clusterId`. |
+| `cluster` | No | string | __Deprecated__ The legacy `clusterId` equivalent for the `regionId` where this bucket lives. The API maintains this for backward compatibility.<br/><br/>> 📘<br/>><br/>> - This value and the `regionId` are interchangeable when used in requests. Best practice is to use the `regionId`.<br/>><br/>> - This value is empty for newer regions that don't have a legacy `clusterId`. |
 | `created` | No | string | When this bucket was created. |
 | `endpoint_type` | No | string | The type of `s3_endpoint` available to the active `user` in this `region`. See [Endpoint types](https://techdocs.akamai.com/cloud-computing/docs/object-storage#endpoint-types) for more information. |
 | `hostname` | No | string | The hostname where this bucket can be accessed. This hostname can be accessed through a browser if the bucket is made public. |

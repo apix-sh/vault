@@ -18,13 +18,13 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `query` | No | string | *Serialization: style=Form* |
-| `namespaceId` | No | oneOf(2) | *Serialization: style=Form* |
-| `provider` | No | any | *Serialization: style=Form* |
-| `installationId` | No | string | *Serialization: style=Form* |
-| `host` | No | string | The custom Git host if using a custom Git provider, like GitHub Enterprise Server<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `query` | No | string |  |
+| `namespaceId` | No | oneOf(2) |  |
+| `provider` | No | any |  |
+| `installationId` | No | string |  |
+| `host` | No | string | The custom Git host if using a custom Git provider, like GitHub Enterprise Server |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

@@ -13,14 +13,14 @@ Get information about a domain order by its ID
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `orderId` | Yes | [OrderId](../../../../_components/schemas/OrderId.md) | *Serialization: style=Simple* |
+| `orderId` | Yes | [OrderId](../../../../_components/schemas/OrderId.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | *Serialization: style=Form* |
+| `teamId` | No | string |  |
 
 
 
@@ -38,10 +38,10 @@ Success
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `orderId` | Yes | [OrderId](../../../../_components/schemas/OrderId.md) |  |
 | `domains` | Yes | array<anyOf(3)> |  |
-| `status` | Yes | string |  |
 | `error` | No | anyOf(2) |  |
+| `orderId` | Yes | [OrderId](../../../../_components/schemas/OrderId.md) |  |
+| `status` | Yes | string |  |
 
 
 ### 400

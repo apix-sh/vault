@@ -13,15 +13,15 @@ Allows to delete a Secure Compute network.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `networkId` | Yes | string | The ID of the network to delete<br/>*Serialization: style=Simple* |
+| `networkId` | Yes | string | The ID of the network to delete |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

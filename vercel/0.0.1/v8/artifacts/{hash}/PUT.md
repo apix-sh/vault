@@ -13,25 +13,25 @@ Uploads a cache artifact identified by the `hash` specified on the path. The cac
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `hash` | Yes | string | The artifact hash<br/>*Serialization: style=Simple* |
+| `hash` | Yes | string | The artifact hash |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 ## Header Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `Content-Length` | Yes | number | The artifact size in bytes<br/>*Serialization: style=Simple* |
-| `x-artifact-duration` | No | number | The time taken to generate the uploaded artifact in milliseconds.<br/>*Serialization: style=Simple* |
-| `x-artifact-client-ci` | No | string | The continuous integration or delivery environment where this artifact was generated.<br/>*Serialization: style=Simple* |
-| `x-artifact-client-interactive` | No | integer | 1 if the client is an interactive shell. Otherwise 0<br/>*Serialization: style=Simple* |
-| `x-artifact-tag` | No | string | The base64 encoded tag for this artifact. The value is sent back to clients when the artifact is downloaded as the header `x-artifact-tag`<br/>*Serialization: style=Simple* |
+| `Content-Length` | Yes | number | The artifact size in bytes |
+| `x-artifact-duration` | No | number | The time taken to generate the uploaded artifact in milliseconds. |
+| `x-artifact-client-ci` | No | string | The continuous integration or delivery environment where this artifact was generated. |
+| `x-artifact-client-interactive` | No | integer | 1 if the client is an interactive shell. Otherwise 0 |
+| `x-artifact-tag` | No | string | The base64 encoded tag for this artifact. The value is sent back to clients when the artifact is downloaded as the header `x-artifact-tag` |
 
 
 ## Request Body

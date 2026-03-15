@@ -51,8 +51,8 @@ Creates a firewall device, which assigns a firewall to a service (referred to as
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `firewallId` | Yes | integer | ID of the Firewall to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `firewallId` | Yes | integer | ID of the Firewall to access. |
 
 
 ## Query Parameters

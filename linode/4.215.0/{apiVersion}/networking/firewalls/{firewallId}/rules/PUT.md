@@ -41,8 +41,8 @@ Updates the inbound and outbound Rules for a Firewall.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `firewallId` | Yes | integer | ID of the Firewall to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `firewallId` | Yes | integer | ID of the Firewall to access. |
 
 
 ## Query Parameters
@@ -57,7 +57,10 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `inbound` | No | any |  |
+| `outbound` | No | any |  |
 
 
 ## Responses

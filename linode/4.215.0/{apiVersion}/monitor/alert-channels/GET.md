@@ -41,7 +41,7 @@ __Beta__ Returns all of the monitoring alert channels available to your user.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
 
 
 ## Query Parameters
@@ -68,48 +68,6 @@ Returns a paginated list of alerts channels.
 | `page` | No | integer | __Read-only__ The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | No | integer | __Read-only__ The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | No | integer | __Read-only__ The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "alerts": [
-        {
-          "id": 10000,
-          "label": "High Memory Usage Plan Dedicated",
-          "type": "alerts-definitions",
-          "url": "/monitor/alerts-definitions/10000"
-        },
-        {
-          "id": 10001,
-          "label": "High Memory Usage Plan Shared",
-          "type": "alerts-definitions",
-          "url": "/monitor/alerts-definitions/10001"
-        }
-      ],
-      "channel_type": "email",
-      "content": {
-        "email": {
-          "email_addresses": [
-            "Users-with-read-write-access-to-resources"
-          ]
-        }
-      },
-      "created": "2025-03-20T01:41:09",
-      "created_by": "system",
-      "id": 10000,
-      "label": "Read-Write Channel",
-      "type": "system",
-      "updated": "2025-03-20T01:41:09",
-      "updated_by": "system"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

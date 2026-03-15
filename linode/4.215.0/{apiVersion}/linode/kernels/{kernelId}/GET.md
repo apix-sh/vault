@@ -26,8 +26,8 @@ Returns information about a single Kernel.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `kernelId` | Yes | string | ID of the Kernel to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `kernelId` | Yes | string | ID of the Kernel to look up. |
 
 
 ## Query Parameters

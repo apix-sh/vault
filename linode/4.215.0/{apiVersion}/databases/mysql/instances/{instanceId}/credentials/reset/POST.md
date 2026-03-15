@@ -41,8 +41,8 @@ Reset the root password for a MySQL Managed Database. A new root password is ran
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `instanceId` | Yes | integer | The ID of the Managed MySQL Database.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `instanceId` | Yes | integer | The ID of the Managed MySQL Database. |
 
 
 ## Query Parameters
@@ -64,11 +64,6 @@ MySQL Managed Database instance credentials successfully reset.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{}
-```
 
 
 ### default

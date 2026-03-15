@@ -13,15 +13,15 @@ Check that a cache artifact with the given `hash` exists. This request returns r
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `hash` | Yes | string | The artifact hash<br/>*Serialization: style=Simple* |
+| `hash` | Yes | string | The artifact hash |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

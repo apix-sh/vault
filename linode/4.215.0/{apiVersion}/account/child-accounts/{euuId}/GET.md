@@ -39,8 +39,8 @@ View a specific child account. See [Parent and Child Accounts for Akamai Partner
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `euuId` | Yes | string | The child account to look up. You can run the [List child accounts](https://techdocs.akamai.com/linode-api/reference/get-child-accounts) operation to find the applicable account and store its `euuid` as your `euuId`.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `euuId` | Yes | string | The child account to look up. You can run the [List child accounts](https://techdocs.akamai.com/linode-api/reference/get-child-accounts) operation to find the applicable account and store its `euuid` as your `euuId`. |
 
 
 ## Query Parameters
@@ -79,16 +79,9 @@ Returns the specified child-level account.
 | `first_name` | No | string | __Filterable__ The first name of the owner of this child account. It can't include any of these characters: `<` `>` `(` `)` `"` `=`. |
 | `last_name` | No | string | __Filterable__ The last name of the owner of this child account. It can't include any of these characters: `<` `>` `(` `)` `"` `=`. |
 | `phone` | No | string | __Filterable__ The phone number for the owner of this child account. |
-| `state` | No | string | __Filterable__ The state or province for the billing address (`address_1` and `address_2, if applicable`). If in the United States (US) or Canada (CA), this is the two-letter ISO 3166 State or Province code.
-
-> 📘
->
-> If this is a US military address, use state abbreviations (AA, AE, AP). |
+| `state` | No | string | __Filterable__ The state or province for the billing address (`address_1` and `address_2, if applicable`). If in the United States (US) or Canada (CA), this is the two-letter ISO 3166 State or Province code.<br/><br/>> 📘<br/>><br/>> If this is a US military address, use state abbreviations (AA, AE, AP). |
 | `tax_id` | No | string | The tax identification number for this child account. Use this for tax calculations in some countries. If you live in a country that doesn't collect taxes, ensure this is an empty string (`""`). |
-| `zip` | No | string | __Filterable__ The zip code of this Account's billing address. The following restrictions apply:
-
-- Can only contain ASCII letters, numbers, and hyphens (`-`).
-- Can't contain more than 9 letter or number characters. |
+| `zip` | No | string | __Filterable__ The zip code of this Account's billing address. The following restrictions apply:<br/><br/>- Can only contain ASCII letters, numbers, and hyphens (`-`).<br/>- Can't contain more than 9 letter or number characters. |
 
 
 ### default

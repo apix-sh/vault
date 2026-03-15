@@ -26,15 +26,15 @@ Display all available Managed Databases engine types and versions. Use an engine
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -51,22 +51,6 @@ Returns a paginated list of all available Managed Databases engines and versions
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "engine": "mysql",
-      "id": "mysql/8.0.26",
-      "version": "8.0.26"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

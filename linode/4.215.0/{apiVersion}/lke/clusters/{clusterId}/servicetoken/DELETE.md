@@ -39,8 +39,8 @@ Delete and regenerate the service account token for a Cluster.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `clusterId` | Yes | integer | ID of the target Kubernetes cluster.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `clusterId` | Yes | integer | ID of the target Kubernetes cluster. |
 
 
 ## Query Parameters

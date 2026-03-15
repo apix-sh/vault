@@ -13,15 +13,15 @@ Executes a shell command inside a running sandbox. The command runs asynchronous
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `sandboxId` | Yes | string | The unique identifier of the sandbox in which to execute the command.<br/>*Serialization: style=Simple* |
+| `sandboxId` | Yes | string | The unique identifier of the sandbox in which to execute the command. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,8 +33,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `command` | Yes | string | The executable or shell command to run. This is the program name without arguments. |
 | `args` | No | array<string> | Arguments to pass to the command. Each argument should be a separate array element. |
+| `command` | Yes | string | The executable or shell command to run. This is the program name without arguments. |
 | `cwd` | No | string | The working directory in which to execute the command. Defaults to the sandbox home directory if not specified. |
 | `env` | No | object | Additional environment variables to set for this command. These are merged with the sandbox environment. |
 | `sudo` | No | boolean | Execute the command with root (superuser) privileges. |

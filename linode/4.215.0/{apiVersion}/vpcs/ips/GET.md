@@ -39,15 +39,15 @@ Returns a paginated list of all VPC IP addresses and address ranges on your acco
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -64,32 +64,6 @@ A paginated list of VPC interface IP addresses.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "active": true,
-      "address": "172.30.254.145",
-      "address_range": null,
-      "config_id": 4567,
-      "gateway": "172.23.210.1",
-      "interface_id": 2435,
-      "linode_id": 123,
-      "nat_1_1": "192.0.2.1",
-      "prefix": 24,
-      "region": "us-east",
-      "subnet_id": 101,
-      "subnet_mask": "192.0.2.3",
-      "vpc_id": 7654
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

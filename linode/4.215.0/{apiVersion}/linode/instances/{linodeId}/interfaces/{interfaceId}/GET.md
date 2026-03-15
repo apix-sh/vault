@@ -35,9 +35,9 @@ __Beta__ Returns an interface assigned to a specific Linode. This operation requ
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | The `id` of the Linode.<br/>*Serialization: style=Simple* |
-| `interfaceId` | Yes | integer | The `id` of the Linode interface.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | The `id` of the Linode. |
+| `interfaceId` | Yes | integer | The `id` of the Linode interface. |
 
 
 ## Query Parameters

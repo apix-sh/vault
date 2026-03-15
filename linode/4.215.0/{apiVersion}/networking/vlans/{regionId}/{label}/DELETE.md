@@ -48,9 +48,9 @@ A successful request triggers a `vlan_delete` event.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `label` | Yes | string | The label of the VLAN to be deleted.<br/>*Serialization: style=Simple* |
-| `regionId` | Yes | string | The VLAN's region.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `label` | Yes | string | The label of the VLAN to be deleted. |
+| `regionId` | Yes | string | The VLAN's region. |
 
 
 ## Query Parameters

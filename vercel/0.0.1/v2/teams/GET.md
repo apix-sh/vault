@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | number | Maximum number of Teams which may be returned.<br/>*Serialization: style=Form* |
-| `since` | No | number | Timestamp (in milliseconds) to only include Teams created since then.<br/>*Serialization: style=Form* |
-| `until` | No | number | Timestamp (in milliseconds) to only include Teams created until then.<br/>*Serialization: style=Form* |
+| `limit` | No | number | Maximum number of Teams which may be returned. |
+| `since` | No | number | Timestamp (in milliseconds) to only include Teams created since then. |
+| `until` | No | number | Timestamp (in milliseconds) to only include Teams created until then. |
 
 
 
@@ -38,8 +38,8 @@ A paginated list of teams.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `teams` | Yes | array<oneOf(2)> |  |
 | `pagination` | Yes | [Pagination](../../_components/schemas/Pagination.md) |  |
+| `teams` | Yes | array<oneOf(2)> |  |
 
 
 ### 400

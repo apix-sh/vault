@@ -46,9 +46,9 @@ Creates and appends a single interface to the end of the `interfaces` array for 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | The `id` of the Linode.<br/>*Serialization: style=Simple* |
-| `configId` | Yes | integer | The `id` of the Configuration Profile.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | The `id` of the Linode. |
+| `configId` | Yes | integer | The `id` of the Configuration Profile. |
 
 
 ## Query Parameters
@@ -77,103 +77,13 @@ Configuration profile interface successfully added.
 | :--- | :---: | :--- | :--- |
 | `active` | No | boolean | __Read-only__ Returns `true` if the interface is in use, meaning that the Linode has been booted using the configuration profile to which the interface belongs. |
 | `id` | No | integer | __Read-only__ The unique ID representing this interface. |
-| `ip_ranges` | No | array<string> | IPv4 CIDR VPC subnet ranges that are routed to this interface.
-
-When included in a request:
-
-- A range can't include any addresses that are assigned to an active Linode or another VPC subnet.
-
-- When updating, you need to include any existing ranges to maintain them. If a range is left out, it will be removed.
-
-- Submit this as an empty array removes all existing values.
-
-- Omit this object to leave existing values as is.
-
-<<LB>>
-
-> 📘
->
-> This is only supported for interfaces with a `purpose` of `vpc`. |
-| `ipam_address` | No | string | This interface's private IP address in classless inter-domain routing (CIDR) notation.
-
-For interfaces with a `purpose` of `public`:
-
-- If you include this in a request, set it to an empty string (`""`) or `null`.
-
-- Returned as `null` in a response.
-
-For interfaces with a `purpose` of `vlan`:
-
-- To avoid conflicting addresses, make sure this value is unique for each `vlan` interface.
-
-- This should be unique among devices attached to the VLAN to avoid conflict.
-
-- If Network Helper is enabled, the Linode's interface will be automatically configured to use this address after the Linode is rebooted. If Network Helper is disabled, enable the address using [manual static IP configuration](https://www.linode.com/docs/guides/manual-network-configuration/).
-
-For interfaces with a `purpose` of `vpc`:
-
-- If you include this in a request, set it to an empty string (`""`) or `null`.
-
-- Returned as `null` in a response. |
+| `ip_ranges` | No | array<string> | IPv4 CIDR VPC subnet ranges that are routed to this interface.<br/><br/>When included in a request:<br/><br/>- A range can't include any addresses that are assigned to an active Linode or another VPC subnet.<br/><br/>- When updating, you need to include any existing ranges to maintain them. If a range is left out, it will be removed.<br/><br/>- Submit this as an empty array removes all existing values.<br/><br/>- Omit this object to leave existing values as is.<br/><br/><<LB>><br/><br/>> 📘<br/>><br/>> This is only supported for interfaces with a `purpose` of `vpc`. |
+| `ipam_address` | No | string | This interface's private IP address in classless inter-domain routing (CIDR) notation.<br/><br/>For interfaces with a `purpose` of `public`:<br/><br/>- If you include this in a request, set it to an empty string (`""`) or `null`.<br/><br/>- Returned as `null` in a response.<br/><br/>For interfaces with a `purpose` of `vlan`:<br/><br/>- To avoid conflicting addresses, make sure this value is unique for each `vlan` interface.<br/><br/>- This should be unique among devices attached to the VLAN to avoid conflict.<br/><br/>- If Network Helper is enabled, the Linode's interface will be automatically configured to use this address after the Linode is rebooted. If Network Helper is disabled, enable the address using [manual static IP configuration](https://www.linode.com/docs/guides/manual-network-configuration/).<br/><br/>For interfaces with a `purpose` of `vpc`:<br/><br/>- If you include this in a request, set it to an empty string (`""`) or `null`.<br/><br/>- Returned as `null` in a response. |
 | `ipv4` | No | object | IPv4 addresses configured for this interface. This only applies to interfaces with a `purpose` of `vpc`. Returned as `null` if no `vpc` interface is assigned. |
-| `label` | No | string | __Filterable__ The name of this interface.
-
-For interfaces with a `purpose` of `vlan`:
-
-- Required.
-
-- This needs to be unique among a Linode's interfaces. A Linode can't be attached to the same VLAN multiple times.
-
-- This can only contain ASCII letters, numbers, and dashes (`-`). You can't use two consecutive dashes (`--`).
-
-- If the VLAN label is new, a VLAN is created. Up to 10 VLANs can be created in each data center `region`. To view your active VLANs, run the [List VLANs](https://techdocs.akamai.com/linode-api/reference/get-vlans) operation.
-
-For interfaces with a `purpose` of `public`:
-
-- If you include this in a request, set it to an empty string (`""`) or `null`.
-
-- Returned as `null` in a response.
-
-For interfaces with a `purpose` of `vpc`:
-
-- If you include this in a request, set it to an empty string (`""`) or `null`.
-
-- Returned as `null` in a response. |
-| `primary` | No | boolean | The default route to the Linode. Each Linode can have one interface set as its `primary`. If you haven't specifically set a `primary`, the first non-`vlan` type interface is automatically treated as the primary.
-
-> 📘
->
-> This needs to be set to `false` for any interface that uses `vlan` as its `purpose`. |
-| `purpose` | Yes | string | The type of interface. This can be `public`, `vlan`, or `vpc`.
-
-For interfaces with a `purpose` of `public`:
-
-- You can only define one `public` interface per Linode.
-
-- The Linode's default public IPv4 address is assigned to the `public` interface.
-
-- A Linode needs a `public` interface in the first or `eth0` position to be reachable via the public internet, after it boots. If no `public` interface is configured, you can only access the Linode through [LISH](https://www.linode.com/docs/products/compute/compute-instances/guides/lish/), or through another Linode that's connected to the same VLAN or VPC.
-
-For interfaces with a `purpose` of `vlan`:
-
-- Configuring this `purpose` of interface attaches a Linode to the VLAN with the specified `label`.
-
-- If an `ipam_address` is configured, the Linode uses this address.
-
-For interfaces with a `purpose` of `vpc`:
-
-- Configuring this `purpose` of interface attaches a Linode to an existing VPC subnet with the specified `subnet_id`.
-
-- When the interface is activated, the Linode is configured to use an IP address from the range in the assigned VPC subnet. See `ipv4.vpc` for more information. |
-| `subnet_id` | No | integer | The `id` of the VPC subnet for this interface. Use this value in a request to assign a Linode to a VPC subnet.
-
-- Required for `vpc` type interfaces.
-
-- Returned as `null` for non-`vpc` type interfaces.
-
-- Once you've assigned a VPC subnet to an interface, you can't update it.
-
-- You need to reboot a Linode using the interface's configuration profile to assign the Linode to a VPC subnet. |
+| `label` | No | string | __Filterable__ The name of this interface.<br/><br/>For interfaces with a `purpose` of `vlan`:<br/><br/>- Required.<br/><br/>- This needs to be unique among a Linode's interfaces. A Linode can't be attached to the same VLAN multiple times.<br/><br/>- This can only contain ASCII letters, numbers, and dashes (`-`). You can't use two consecutive dashes (`--`).<br/><br/>- If the VLAN label is new, a VLAN is created. Up to 10 VLANs can be created in each data center `region`. To view your active VLANs, run the [List VLANs](https://techdocs.akamai.com/linode-api/reference/get-vlans) operation.<br/><br/>For interfaces with a `purpose` of `public`:<br/><br/>- If you include this in a request, set it to an empty string (`""`) or `null`.<br/><br/>- Returned as `null` in a response.<br/><br/>For interfaces with a `purpose` of `vpc`:<br/><br/>- If you include this in a request, set it to an empty string (`""`) or `null`.<br/><br/>- Returned as `null` in a response. |
+| `primary` | No | boolean | The default route to the Linode. Each Linode can have one interface set as its `primary`. If you haven't specifically set a `primary`, the first non-`vlan` type interface is automatically treated as the primary.<br/><br/>> 📘<br/>><br/>> This needs to be set to `false` for any interface that uses `vlan` as its `purpose`. |
+| `purpose` | Yes | string | The type of interface. This can be `public`, `vlan`, or `vpc`.<br/><br/>For interfaces with a `purpose` of `public`:<br/><br/>- You can only define one `public` interface per Linode.<br/><br/>- The Linode's default public IPv4 address is assigned to the `public` interface.<br/><br/>- A Linode needs a `public` interface in the first or `eth0` position to be reachable via the public internet, after it boots. If no `public` interface is configured, you can only access the Linode through [LISH](https://www.linode.com/docs/products/compute/compute-instances/guides/lish/), or through another Linode that's connected to the same VLAN or VPC.<br/><br/>For interfaces with a `purpose` of `vlan`:<br/><br/>- Configuring this `purpose` of interface attaches a Linode to the VLAN with the specified `label`.<br/><br/>- If an `ipam_address` is configured, the Linode uses this address.<br/><br/>For interfaces with a `purpose` of `vpc`:<br/><br/>- Configuring this `purpose` of interface attaches a Linode to an existing VPC subnet with the specified `subnet_id`.<br/><br/>- When the interface is activated, the Linode is configured to use an IP address from the range in the assigned VPC subnet. See `ipv4.vpc` for more information. |
+| `subnet_id` | No | integer | The `id` of the VPC subnet for this interface. Use this value in a request to assign a Linode to a VPC subnet.<br/><br/>- Required for `vpc` type interfaces.<br/><br/>- Returned as `null` for non-`vpc` type interfaces.<br/><br/>- Once you've assigned a VPC subnet to an interface, you can't update it.<br/><br/>- You need to reboot a Linode using the interface's configuration profile to assign the Linode to a VPC subnet. |
 | `vpc_id` | No | integer | __Read-only__ The `id` of the VPC configured for this interface. Returned as `null` for non-`vpc` type interfaces. |
 
 

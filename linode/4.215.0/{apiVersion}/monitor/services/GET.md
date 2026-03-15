@@ -39,7 +39,7 @@ __Beta__ Returns a paginated list of all current supported service types.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
 
 
 ## Query Parameters
@@ -66,21 +66,6 @@ Returns a paginated list of metric definitions.
 | `page` | Yes | integer | The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | Yes | integer | The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | Yes | integer | The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "label": "Databases",
-      "service_type": "dbaas"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

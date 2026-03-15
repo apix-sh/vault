@@ -27,8 +27,8 @@ Adds a file attachment to an open support ticket on your account. Use an attachm
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `ticketId` | Yes | integer | The ID of the support ticket.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `ticketId` | Yes | integer | The ID of the support ticket. |
 
 
 ## Query Parameters
@@ -43,7 +43,9 @@ Supported content types:
 - `multipart/form-data`
 
 ### Inline Request Schema (`multipart/form-data`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `file` | Yes | string | The local, absolute path to the file you want to attach to your support ticket. |
 
 
 ## Responses

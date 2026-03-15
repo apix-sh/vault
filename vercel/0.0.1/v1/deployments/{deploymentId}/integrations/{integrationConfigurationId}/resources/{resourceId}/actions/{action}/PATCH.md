@@ -13,10 +13,10 @@ Updates the deployment integration action for the specified integration installa
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deploymentId` | Yes | string | *Serialization: style=Simple* |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `resourceId` | Yes | string | *Serialization: style=Simple* |
-| `action` | Yes | string | *Serialization: style=Simple* |
+| `deploymentId` | Yes | string |  |
+| `integrationConfigurationId` | Yes | string |  |
+| `resourceId` | Yes | string |  |
+| `action` | Yes | string |  |
 
 
 ## Query Parameters
@@ -33,10 +33,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `outcomes` | No | array<oneOf(1)> |  |
 | `status` | No | string |  |
 | `statusText` | No | string |  |
 | `statusUrl` | No | string |  |
-| `outcomes` | No | array<oneOf(1)> |  |
 
 
 ## Responses

@@ -39,8 +39,8 @@ Lists all owned share groups where a given private image is currently shared. Ru
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `imageId` | Yes | string | Slug identifier assigned to the private image upon creation. This identifier includes a slash (`/`), which must be URL-encoded in requests to prevent breaking the URL structure.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `imageId` | Yes | string | Slug identifier assigned to the private image upon creation. This identifier includes a slash (`/`), which must be URL-encoded in requests to prevent breaking the URL structure. |
 
 
 ## Query Parameters

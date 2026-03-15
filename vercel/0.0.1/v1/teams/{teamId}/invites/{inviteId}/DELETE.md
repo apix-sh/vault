@@ -13,8 +13,8 @@ Delete an active Team invite code.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `inviteId` | Yes | string | The Team invite code ID.<br/>*Serialization: style=Simple* |
-| `teamId` | Yes | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Simple* |
+| `inviteId` | Yes | string | The Team invite code ID. |
+| `teamId` | Yes | string | The Team identifier to perform the request on behalf of. |
 
 
 ## Query Parameters

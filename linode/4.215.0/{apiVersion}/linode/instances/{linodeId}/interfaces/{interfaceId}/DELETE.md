@@ -35,9 +35,9 @@ __Beta__ Deletes a Linode interface on a specific Linode. To access this operati
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | The `id` of the Linode.<br/>*Serialization: style=Simple* |
-| `interfaceId` | Yes | integer | The `id` of the Linode interface.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | The `id` of the Linode. |
+| `interfaceId` | Yes | integer | The `id` of the Linode interface. |
 
 
 ## Query Parameters
@@ -59,42 +59,6 @@ A Linode interface is successfully deleted.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "created": "2024-01-01T00:01:01",
-  "default_route": {
-    "ipv4": true
-  },
-  "id": 1234,
-  "mac_address": "22:00:AB:CD:EF:01",
-  "public": null,
-  "updated": "2024-01-01T00:01:01",
-  "version": 1,
-  "vlan": null,
-  "vpc": {
-    "ipv4": {
-      "addresses": [
-        {
-          "address": "192.168.22.3",
-          "primary": true
-        }
-      ],
-      "ranges": [
-        {
-          "range": "192.168.22.16/28"
-        },
-        {
-          "range": "192.168.22.32/28"
-        }
-      ]
-    },
-    "subnet_id": 1234,
-    "vpc_id": 1234
-  }
-}
-```
 
 
 ### default

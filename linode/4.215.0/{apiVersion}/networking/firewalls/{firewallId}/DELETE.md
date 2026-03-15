@@ -41,8 +41,8 @@ Delete a firewall. This also removes all of the firewall's rules from any servic
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `firewallId` | Yes | integer | ID of the Firewall to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `firewallId` | Yes | integer | ID of the Firewall to access. |
 
 
 ## Query Parameters

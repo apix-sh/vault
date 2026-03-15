@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -31,28 +31,28 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `enablePreviewFeedback` | No | boolean | Opt-in to preview toolbar on the project level |
-| `enableProductionFeedback` | No | boolean | Opt-in to production toolbar on the project level |
-| `previewDeploymentsDisabled` | No | boolean | Specifies whether preview deployments are disabled for this project. |
-| `previewDeploymentSuffix` | No | string | Custom domain suffix for preview deployments. Takes precedence over team-level suffix. Must be a domain owned by the team. |
 | `buildCommand` | No | string | The build command for this project. When `null` is used this value will be automatically detected |
 | `commandForIgnoringBuildStep` | No | string |  |
 | `devCommand` | No | string | The dev command for this project. When `null` is used this value will be automatically detected |
+| `enableAffectedProjectsDeployments` | No | boolean | Opt-in to skip deployments when there are no changes to the root directory and its dependencies |
+| `enablePreviewFeedback` | No | boolean | Opt-in to preview toolbar on the project level |
+| `enableProductionFeedback` | No | boolean | Opt-in to production toolbar on the project level |
 | `environmentVariables` | No | array<object> | Collection of ENV Variables the Project will use |
 | `framework` | No | any | The framework that is being used for this project. When `null` is used no framework is selected |
 | `gitRepository` | No | object | The Git Repository that will be connected to the project. When this is defined, any pushes to the specified connected Git Repository will be automatically deployed |
 | `installCommand` | No | string | The install command for this project. When `null` is used this value will be automatically detected |
 | `name` | Yes | string | The desired name for the project |
-| `skipGitConnectDuringLink` | No | boolean | Opts-out of the message prompting a CLI user to connect a Git repository in `vercel link`. |
-| `ssoProtection` | No | object | The Vercel Auth setting for the project (historically named \"SSO Protection\") |
+| `oidcTokenConfig` | No | object | OpenID Connect JSON Web Token generation configuration. |
 | `outputDirectory` | No | string | The output directory of the project. When `null` is used this value will be automatically detected |
+| `previewDeploymentSuffix` | No | string | Custom domain suffix for preview deployments. Takes precedence over team-level suffix. Must be a domain owned by the team. |
+| `previewDeploymentsDisabled` | No | boolean | Specifies whether preview deployments are disabled for this project. |
 | `publicSource` | No | boolean | Specifies whether the source code and logs of the deployments for this project should be public or not |
+| `resourceConfig` | No | object | Specifies resource override configuration for the project |
 | `rootDirectory` | No | string | The name of a directory or relative path to the source code of your project. When `null` is used it will default to the project root |
 | `serverlessFunctionRegion` | No | string | The region to deploy Serverless Functions in this project |
 | `serverlessFunctionZeroConfigFailover` | No | oneOf(1) | Specifies whether Zero Config Failover is enabled for this project. |
-| `oidcTokenConfig` | No | object | OpenID Connect JSON Web Token generation configuration. |
-| `enableAffectedProjectsDeployments` | No | boolean | Opt-in to skip deployments when there are no changes to the root directory and its dependencies |
-| `resourceConfig` | No | object | Specifies resource override configuration for the project |
+| `skipGitConnectDuringLink` | No | boolean | Opts-out of the message prompting a CLI user to connect a Git repository in `vercel link`. |
+| `ssoProtection` | No | object | The Vercel Auth setting for the project (historically named \"SSO Protection\") |
 
 
 ## Responses
@@ -64,90 +64,91 @@ The project was successfuly created
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `abuse` | No | object |  |
 | `accountId` | Yes | string |  |
 | `analytics` | No | object |  |
 | `appliedCve55182Migration` | No | boolean |  |
-| `speedInsights` | No | object |  |
-| `autoExposeSystemEnvs` | No | boolean |  |
 | `autoAssignCustomDomains` | No | boolean |  |
 | `autoAssignCustomDomainsUpdatedBy` | No | string |  |
+| `autoExposeSystemEnvs` | No | boolean |  |
 | `buildCommand` | No | string |  |
 | `commandForIgnoringBuildStep` | No | string |  |
-| `connectConfigurations` | No | array<object> |  |
-| `connectConfigurationId` | No | string |  |
+| `concurrencyBucketName` | No | string |  |
 | `connectBuildsEnabled` | No | boolean |  |
-| `passiveConnectConfigurationId` | No | string |  |
+| `connectConfigurationId` | No | string |  |
+| `connectConfigurations` | No | array<object> |  |
 | `createdAt` | No | number |  |
-| `customerSupportCodeVisibility` | No | boolean |  |
 | `crons` | No | object |  |
+| `customEnvironments` | No | array<object> |  |
+| `customerSupportCodeVisibility` | No | boolean |  |
 | `dataCache` | No | object |  |
+| `defaultResourceConfig` | Yes | object |  |
 | `deploymentExpiration` | Yes | object | Retention policies for deployments. These are enforced at the project level, but we also maintain an instance of this at the team level as a default policy that gets applied to new projects. |
 | `devCommand` | No | string |  |
 | `directoryListing` | Yes | boolean |  |
-| `installCommand` | No | string |  |
+| `dismissedToasts` | No | array<object> |  |
+| `enableAffectedProjectsDeployments` | No | boolean |  |
+| `enablePreviewFeedback` | No | boolean |  |
+| `enableProductionFeedback` | No | boolean |  |
 | `env` | No | array<object> |  |
-| `customEnvironments` | No | array<object> |  |
+| `features` | No | object |  |
 | `framework` | No | string |  |
+| `gitComments` | No | object |  |
 | `gitForkProtection` | No | boolean |  |
 | `gitLFS` | No | boolean |  |
+| `gitProviderOptions` | No | object |  |
+| `hasActiveBranches` | No | boolean |  |
+| `hasDeployments` | No | boolean |  |
 | `id` | Yes | string |  |
+| `installCommand` | No | string |  |
+| `internalRoutes` | No | array<oneOf(2)> |  |
 | `ipBuckets` | No | array<object> |  |
+| `jobs` | No | object |  |
+| `lastAliasRequest` | No | object |  |
+| `lastRollbackTarget` | No | object |  |
 | `latestDeployments` | No | array<object> |  |
 | `link` | No | oneOf(5) |  |
+| `live` | No | boolean |  |
 | `microfrontends` | No | oneOf(3) |  |
 | `name` | Yes | string |  |
 | `nodeVersion` | Yes | string |  |
+| `oidcTokenConfig` | No | object |  |
 | `optionsAllowlist` | No | object |  |
 | `outputDirectory` | No | string |  |
+| `passiveConnectConfigurationId` | No | string |  |
 | `passwordProtection` | No | object |  |
+| `paused` | No | boolean |  |
+| `permissions` | No | object |  |
 | `productionDeploymentsFastLane` | No | boolean |  |
+| `protectedSourcemaps` | No | boolean |  |
+| `protectionBypass` | No | object |  |
 | `publicSource` | No | boolean |  |
 | `resourceConfig` | Yes | object |  |
 | `rollbackDescription` | No | object | Description of why a project was rolled back, and by whom. Note that lastAliasRequest contains the from/to details of the rollback. |
 | `rollingRelease` | No | object | Project-level rolling release configuration that defines how deployments should be gradually rolled out |
-| `defaultResourceConfig` | Yes | object |  |
 | `rootDirectory` | No | string |  |
+| `scheduledTierChange` | No | object |  |
+| `security` | No | object |  |
 | `serverlessFunctionZeroConfigFailover` | No | boolean |  |
+| `skewProtectionAllowedDomains` | No | array<string> |  |
 | `skewProtectionBoundaryAt` | No | number |  |
 | `skewProtectionMaxAge` | No | number |  |
-| `skewProtectionAllowedDomains` | No | array<string> |  |
 | `skipGitConnectDuringLink` | No | boolean |  |
-| `staticIps` | No | object |  |
 | `sourceFilesOutsideRootDirectory` | No | boolean |  |
-| `enableAffectedProjectsDeployments` | No | boolean |  |
+| `speedInsights` | No | object |  |
 | `ssoProtection` | No | object |  |
+| `staticIps` | No | object |  |
 | `targets` | No | object |  |
+| `tier` | No | string |  |
 | `transferCompletedAt` | No | number |  |
 | `transferStartedAt` | No | number |  |
 | `transferToAccountId` | No | string |  |
 | `transferredFromAccountId` | No | string |  |
-| `updatedAt` | No | number |  |
-| `live` | No | boolean |  |
-| `enablePreviewFeedback` | No | boolean |  |
-| `enableProductionFeedback` | No | boolean |  |
-| `permissions` | No | object |  |
-| `lastRollbackTarget` | No | object |  |
-| `lastAliasRequest` | No | object |  |
-| `protectionBypass` | No | object |  |
-| `hasActiveBranches` | No | boolean |  |
 | `trustedIps` | No | oneOf(2) |  |
-| `gitComments` | No | object |  |
-| `gitProviderOptions` | No | object |  |
-| `paused` | No | boolean |  |
-| `concurrencyBucketName` | No | string |  |
-| `webAnalytics` | No | object |  |
-| `security` | No | object |  |
-| `oidcTokenConfig` | No | object |  |
-| `tier` | No | string |  |
-| `scheduledTierChange` | No | object |  |
+| `updatedAt` | No | number |  |
 | `usageStatus` | No | object |  |
-| `features` | No | object |  |
 | `v0` | No | boolean |  |
-| `abuse` | No | object |  |
-| `internalRoutes` | No | array<oneOf(2)> |  |
-| `hasDeployments` | No | boolean |  |
-| `dismissedToasts` | No | array<object> |  |
-| `protectedSourcemaps` | No | boolean |  |
+| `webAnalytics` | No | object |  |
 
 
 ### 400

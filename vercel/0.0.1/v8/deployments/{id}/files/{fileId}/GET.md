@@ -13,17 +13,17 @@ Allows to retrieve the content of a file by supplying the file identifier and th
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The unique deployment identifier<br/>*Serialization: style=Simple* |
-| `fileId` | Yes | string | The unique file identifier<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The unique deployment identifier |
+| `fileId` | Yes | string | The unique file identifier |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `path` | No | string | Path to the file to fetch (only for Git deployments)<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `path` | No | string | Path to the file to fetch (only for Git deployments) |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

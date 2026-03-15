@@ -13,17 +13,17 @@ Retrieves the current status and details of a command executed in a sandbox. Use
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `sandboxId` | Yes | string | The unique identifier of the sandbox containing the command.<br/>*Serialization: style=Simple* |
-| `cmdId` | Yes | string | The unique identifier of the command to retrieve.<br/>*Serialization: style=Simple* |
+| `sandboxId` | Yes | string | The unique identifier of the sandbox containing the command. |
+| `cmdId` | Yes | string | The unique identifier of the command to retrieve. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `wait` | No | string | If set to \"true\", the request will block until the command finishes execution. Useful for synchronously waiting for command completion.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `wait` | No | string | If set to \"true\", the request will block until the command finishes execution. Useful for synchronously waiting for command completion. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

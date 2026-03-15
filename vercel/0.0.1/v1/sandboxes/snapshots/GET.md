@@ -18,12 +18,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `project` | No | string | The unique identifier or name of the project to list snapshots for.<br/>*Serialization: style=Form* |
-| `limit` | No | number | Maximum number of snapshots to return in the response. Used for pagination.<br/>*Serialization: style=Form* |
-| `since` | No | number | Filter snapshots created after this timestamp. Specified as Unix time in milliseconds.<br/>*Serialization: style=Form* |
-| `until` | No | number | Filter snapshots created before this timestamp. Specified as Unix time in milliseconds.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `project` | No | string | The unique identifier or name of the project to list snapshots for. |
+| `limit` | No | number | Maximum number of snapshots to return in the response. Used for pagination. |
+| `since` | No | number | Filter snapshots created after this timestamp. Specified as Unix time in milliseconds. |
+| `until` | No | number | Filter snapshots created before this timestamp. Specified as Unix time in milliseconds. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -37,7 +37,10 @@ _(None)_
 ### 200
 
 #### Response Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `pagination` | Yes | object |  |
+| `snapshots` | Yes | array<[Snapshot](../../../_components/schemas/Snapshot.md)> |  |
 
 
 ### 400

@@ -35,8 +35,8 @@ Returns a single SSH Key object identified by `id` that you have access to view.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `sshKeyId` | Yes | integer | The ID of the SSHKey.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `sshKeyId` | Yes | integer | The ID of the SSHKey. |
 
 
 ## Query Parameters
@@ -62,15 +62,7 @@ An SSH Key object.
 | `created` | No | string | __Read-only__ The date this key was added. |
 | `id` | No | integer | __Read-only__ The unique identifier of an SSH Key object. |
 | `label` | No | string | A label for the SSH Key. |
-| `ssh_key` | No | string | The public SSH Key, which is used to authenticate to the root user of the Linodes you deploy.
-
-Accepted formats:
-
-- ssh-dss
-- ssh-rsa
-- ecdsa-sha2-nistp
-- ssh-ed25519
-- sk-ecdsa-sha2-nistp256 (Akamai-specific) |
+| `ssh_key` | No | string | The public SSH Key, which is used to authenticate to the root user of the Linodes you deploy.<br/><br/>Accepted formats:<br/><br/>- ssh-dss<br/>- ssh-rsa<br/>- ecdsa-sha2-nistp<br/>- ssh-ed25519<br/>- sk-ecdsa-sha2-nistp256 (Akamai-specific) |
 
 
 ### default

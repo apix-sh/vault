@@ -13,19 +13,19 @@ Get the routing rules for a project. Supports searching by name/ID/pattern, filt
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Simple* |
+| `projectId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `versionId` | No | string | *Serialization: style=Form* |
-| `q` | No | string | *Serialization: style=Form* |
-| `filter` | No | string | *Serialization: style=Form* |
-| `diff` | No | oneOf(2) | *Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `versionId` | No | string |  |
+| `q` | No | string |  |
+| `filter` | No | string |  |
+| `diff` | No | oneOf(2) |  |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

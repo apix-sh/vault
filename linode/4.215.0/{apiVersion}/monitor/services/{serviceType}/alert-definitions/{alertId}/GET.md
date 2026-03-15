@@ -39,9 +39,9 @@ __Beta__ Returns a specific alert definition.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
-| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`.<br/>*Serialization: style=Simple* |
-| `alertId` | Yes | integer | The unique identifier assigned to the alert definition. Run the [List alert definitions](https://techdocs.akamai.com/linode-api/reference/get-alert-definitions) operation and store the `id` for the applicable alert definition.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
+| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`. |
+| `alertId` | Yes | integer | The unique identifier assigned to the alert definition. Run the [List alert definitions](https://techdocs.akamai.com/linode-api/reference/get-alert-definitions) operation and store the `id` for the applicable alert definition. |
 
 
 ## Query Parameters
@@ -69,11 +69,7 @@ Returns the specified alert definition.
 | `created` | No | string | When the alert definition was created. |
 | `created_by` | No | string | For a `user` alert definition, this is the user on your account that [created](https://techdocs.akamai.com/linode-api/reference/post-alert-definition-for-service-type) it. For a `system` alert definition, this is returned as `system`. |
 | `description` | No | string | An additional description for the alert definition. |
-| `entity_ids` | No | array<string> | The `id` for each individual entity from a `service_type`. Get this value by running the list operation for the appropriate entity. For example, if your entity is one of your PostgreSQL databases, run the [List PostgreSQL Managed Databases](https://techdocs.akamai.com/linode-api/reference/get-databases-postgre-sql-instances) operation and store the `id` for the appropriate database from the response.
-
-> 📘
->
-> The format `type` for an `entity_id` may vary, based on the Akamai Cloud `service_type`. For example, the `dbaas` service returns an integer value for an `id`, that you'd use for the `entity_id`. Other services may return a string for their `id`. With the Alerts operations, all of these formats are recognized as an `entity_id`, when you include them as a `string`. |
+| `entity_ids` | No | array<string> | The `id` for each individual entity from a `service_type`. Get this value by running the list operation for the appropriate entity. For example, if your entity is one of your PostgreSQL databases, run the [List PostgreSQL Managed Databases](https://techdocs.akamai.com/linode-api/reference/get-databases-postgre-sql-instances) operation and store the `id` for the appropriate database from the response.<br/><br/>> 📘<br/>><br/>> The format `type` for an `entity_id` may vary, based on the Akamai Cloud `service_type`. For example, the `dbaas` service returns an integer value for an `id`, that you'd use for the `entity_id`. Other services may return a string for their `id`. With the Alerts operations, all of these formats are recognized as an `entity_id`, when you include them as a `string`. |
 | `has_more_resources` | No | boolean | Whether there are additional `entity_ids` associated with the alert for which the user doesn't have at least `read-only` access. |
 | `id` | No | integer | __Filterable__ The unique identifier for the alert definition. |
 | `label` | No | string | __Filterable__ The name of the alert definition. This is used for display purposes in Akamai Cloud Manager. |
@@ -85,68 +81,6 @@ Returns the specified alert definition.
 | `type` | No | string | __Filterable__ The type of alert. This can be either `user` for an alert specific to the current user, or `system` for one that applies to all users on your account. |
 | `updated` | No | string | When the alert definition was last updated. This is the same as `created` if the alert definition hasn't been updated. |
 | `updated_by` | No | string | For a `user` alert definition, this is the user on your account that last [updated](https://techdocs.akamai.com/linode-api/reference/put-alert-definition) it. For a `system` alert definition, this is returned as `system`. If it hasn't been updated, this value is the same as `created_by`. |
-
-#### Example Payload
-```json
-{
-  "alert_channels": [
-    {
-      "id": 10000,
-      "label": "Read-Write Channel",
-      "type": "alert-channels",
-      "url": "/monitor/alert-channels/10000"
-    }
-  ],
-  "class": "dedicated",
-  "created": "2025-03-20T01:42:11",
-  "created_by": "system",
-  "description": "Alert triggers when dedicated plan nodes consistently reach critical memory usage, risking application performance degradation.",
-  "entity_ids": [
-    "126905",
-    "126906",
-    "137435",
-    "141496",
-    "190003",
-    "257625",
-    "257626"
-  ],
-  "has_more_resources": false,
-  "id": 10000,
-  "label": "High Memory Usage Plan Dedicated",
-  "rule_criteria": {
-    "rules": [
-      {
-        "aggregate_function": "avg",
-        "dimension_filters": [
-          {
-            "dimension_label": "node_type",
-            "label": "Node Type",
-            "operator": "eq",
-            "value": "primary"
-          }
-        ],
-        "label": "Memory Usage",
-        "metric": "memory_usage",
-        "operator": "gt",
-        "threshold": 95,
-        "unit": "percent"
-      }
-    ]
-  },
-  "service_type": "dbaas",
-  "severity": 2,
-  "status": "enabled",
-  "trigger_conditions": {
-    "criteria_condition": "ALL",
-    "evaluation_period_seconds": 300,
-    "polling_interval_seconds": 300,
-    "trigger_occurrences": 3
-  },
-  "type": "system",
-  "updated": "2025-03-20T01:42:11",
-  "updated_by": "system"
-}
-```
 
 
 ### default

@@ -41,8 +41,8 @@ __Beta__ Returns details for a specific service type.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
-| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
+| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`. |
 
 
 ## Query Parameters
@@ -69,21 +69,6 @@ Returns a paginated list of metric definitions.
 | `page` | Yes | integer | The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | Yes | integer | The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | Yes | integer | The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "label": "Databases",
-      "service_type": "dbaas"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

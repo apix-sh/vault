@@ -35,8 +35,8 @@ Returns a single active trusted device for your user.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `deviceId` | Yes | integer | The ID of the TrustedDevice.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `deviceId` | Yes | integer | The ID of the TrustedDevice. |
 
 
 ## Query Parameters

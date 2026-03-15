@@ -36,16 +36,16 @@ Replace the current list of assigned firewalls with a new list, or provide an em
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `nodeBalancerId` | Yes | integer | The ID of the NodeBalancer.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `nodeBalancerId` | Yes | integer | The ID of the NodeBalancer. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -68,68 +68,6 @@ Returns a paginated list of Firewalls assigned to this NodeBalancer.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "created": "2018-01-01T00:01:01",
-      "id": 123,
-      "label": "firewall123",
-      "rules": {
-        "inbound": [
-          {
-            "action": "ACCEPT",
-            "addresses": {
-              "ipv4": [
-                "192.0.2.0/24",
-                "192.0.2.167/24"
-              ],
-              "ipv6": [
-                "2001:DB8::/128"
-              ]
-            },
-            "description": "An example firewall rule description.",
-            "label": "firewallrule123",
-            "ports": "22-24, 80, 443",
-            "protocol": "TCP"
-          }
-        ],
-        "inbound_policy": "DROP",
-        "outbound": [
-          {
-            "action": "ACCEPT",
-            "addresses": {
-              "ipv4": [
-                "192.0.2.0/24",
-                "192.0.2.1/24"
-              ],
-              "ipv6": [
-                "2001:DB8::/128"
-              ]
-            },
-            "description": "An example firewall rule description.",
-            "label": "firewallrule123",
-            "ports": "22-24, 80, 443",
-            "protocol": "TCP"
-          }
-        ],
-        "outbound_policy": "DROP"
-      },
-      "status": "enabled",
-      "tags": [
-        "example tag",
-        "another example"
-      ],
-      "updated": "2018-01-02T00:01:01"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

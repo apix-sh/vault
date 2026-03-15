@@ -13,8 +13,8 @@ This endpoint updates the secrets of a resource. If a resource has projects conn
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `resourceId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
+| `resourceId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -31,8 +31,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `secrets` | Yes | array<object> |  |
 | `partial` | No | boolean | If true, will only overwrite the provided secrets instead of replacing all secrets. |
+| `secrets` | Yes | array<object> |  |
 
 
 ## Responses

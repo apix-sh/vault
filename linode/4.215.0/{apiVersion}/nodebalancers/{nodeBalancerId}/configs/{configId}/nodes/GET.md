@@ -35,17 +35,17 @@ Returns a paginated list of NodeBalancer nodes associated with this Config. Thes
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `nodeBalancerId` | Yes | integer | The ID of the NodeBalancer.<br/>*Serialization: style=Simple* |
-| `configId` | Yes | integer | The ID of the NodeBalancer config to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `nodeBalancerId` | Yes | integer | The ID of the NodeBalancer. |
+| `configId` | Yes | integer | The ID of the NodeBalancer config to access. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -67,39 +67,6 @@ A paginated list of NodeBalancer nodes.
 | `page` | No | integer | __Read-only__ The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | No | integer | __Read-only__ The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | No | integer | __Read-only__ The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "address": "10.0.0.10:80",
-      "config_id": 34,
-      "id": 56,
-      "label": "vpc-node",
-      "mode": "accept",
-      "nodebalancer_id": 12,
-      "status": "Unknown",
-      "vpc_config_id": 8,
-      "weight": 50
-    },
-    {
-      "address": "192.168.128.2:80",
-      "config_id": 34,
-      "id": 57,
-      "label": "non-vpc-node",
-      "mode": "accept",
-      "nodebalancer_id": 12,
-      "status": "Unknown",
-      "vpc_config_id": null,
-      "weight": 50
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 2
-}
-```
 
 
 ### default

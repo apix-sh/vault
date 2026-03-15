@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/deploy-requests/{number}/skip-revert"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,9 +25,9 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the deploy request's organization<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the deploy request's database<br/>*Serialization: style=Simple* |
-| `number` | Yes | integer | The number of the deploy request<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the deploy request's organization |
+| `database` | Yes | string | The name of the deploy request's database |
+| `number` | Yes | integer | The number of the deploy request |
 
 
 ## Query Parameters
@@ -49,30 +50,30 @@ Returns the deploy request whose deploy revert was skipped
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | The ID of the deploy request |
-| `number` | Yes | integer | The number of the deploy request |
 | `actor` | Yes | object |  |
-| `closed_by` | Yes | object |  |
-| `branch` | Yes | string | The name of the branch the deploy request was created from |
-| `branch_id` | Yes | string | The ID of the branch the deploy request was created from |
-| `branch_deleted` | Yes | boolean | Whether or not the deploy request branch was deleted |
-| `branch_deleted_by` | Yes | object |  |
-| `branch_deleted_at` | Yes | string | When the deploy request branch was deleted |
-| `into_branch` | Yes | string | The name of the branch the deploy request will be merged into |
-| `into_branch_sharded` | Yes | boolean | Whether or not the branch the deploy request will be merged into is sharded |
-| `into_branch_shard_count` | Yes | integer | The number of shards the branch the deploy request will be merged into has |
 | `approved` | Yes | boolean | Whether or not the deploy request is approved |
-| `state` | Yes | string | Whether the deploy request is open or closed |
-| `deployment_state` | Yes | string | The deployment state of the deploy request |
-| `deployment` | Yes | object |  |
-| `num_comments` | Yes | integer | The number of comments on the deploy request |
-| `html_url` | Yes | string | The PlanetScale app address for the deploy request |
-| `notes` | Yes | string | Notes on the deploy request |
-| `html_body` | Yes | string | The HTML body of the deploy request |
-| `created_at` | Yes | string | When the deploy request was created |
-| `updated_at` | Yes | string | When the deploy request was last updated |
+| `branch` | Yes | string | The name of the branch the deploy request was created from |
+| `branch_deleted` | Yes | boolean | Whether or not the deploy request branch was deleted |
+| `branch_deleted_at` | Yes | string | When the deploy request branch was deleted |
+| `branch_deleted_by` | Yes | object |  |
+| `branch_id` | Yes | string | The ID of the branch the deploy request was created from |
 | `closed_at` | Yes | string | When the deploy request was closed |
+| `closed_by` | Yes | object |  |
+| `created_at` | Yes | string | When the deploy request was created |
 | `deployed_at` | Yes | string | When the deploy request was deployed |
+| `deployment` | Yes | object |  |
+| `deployment_state` | Yes | string | The deployment state of the deploy request |
+| `html_body` | Yes | string | The HTML body of the deploy request |
+| `html_url` | Yes | string | The PlanetScale app address for the deploy request |
+| `id` | Yes | string | The ID of the deploy request |
+| `into_branch` | Yes | string | The name of the branch the deploy request will be merged into |
+| `into_branch_shard_count` | Yes | integer | The number of shards the branch the deploy request will be merged into has |
+| `into_branch_sharded` | Yes | boolean | Whether or not the branch the deploy request will be merged into is sharded |
+| `notes` | Yes | string | Notes on the deploy request |
+| `num_comments` | Yes | integer | The number of comments on the deploy request |
+| `number` | Yes | integer | The number of the deploy request |
+| `state` | Yes | string | Whether the deploy request is open or closed |
+| `updated_at` | Yes | string | When the deploy request was last updated |
 
 
 ### 401

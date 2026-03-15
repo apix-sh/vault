@@ -13,15 +13,15 @@ Creates a new check for a project.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectIdOrName` | Yes | string | *Serialization: style=Simple* |
+| `projectIdOrName` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,12 +33,12 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string |  |
-| `isRerequestable` | No | boolean |  |
-| `requires` | Yes | string |  |
-| `targets` | No | array<string> |  |
 | `blocks` | No | string |  |
-| `source` | No | any |  |
+| `isRerequestable` | No | boolean |  |
+| `name` | Yes | string |  |
+| `requires` | Yes | string |  |
+| `source` | No | oneOf(3) |  |
+| `targets` | No | array<string> |  |
 | `timeout` | No | number |  |
 
 
@@ -49,21 +49,21 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `blocks` | Yes | string |  |
+| `createdAt` | Yes | number |  |
+| `deletedAt` | No | number |  |
 | `id` | Yes | string |  |
+| `isRerequestable` | Yes | boolean |  |
 | `name` | Yes | string |  |
 | `ownerId` | Yes | string |  |
 | `projectId` | Yes | string |  |
-| `isRerequestable` | Yes | boolean |  |
 | `requires` | Yes | string |  |
 | `source` | Yes | oneOf(3) |  |
-| `blocks` | Yes | string |  |
-| `targets` | Yes | array<string> |  |
-| `sourceKind` | Yes | string |  |
 | `sourceIntegrationConfigurationId` | No | string |  |
+| `sourceKind` | Yes | string |  |
+| `targets` | Yes | array<string> |  |
 | `timeout` | Yes | number |  |
-| `createdAt` | Yes | number |  |
 | `updatedAt` | Yes | number |  |
-| `deletedAt` | No | number |  |
 
 
 ### 400

@@ -37,9 +37,9 @@ __Any local storage on deleted Linodes (such as `hostPath` and `emptyDir` volume
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `clusterId` | Yes | integer | ID of the Kubernetes cluster this Node Pool is attached to.<br/>*Serialization: style=Simple* |
-| `poolId` | Yes | integer | ID of the Node Pool to be recycled.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `clusterId` | Yes | integer | ID of the Kubernetes cluster this Node Pool is attached to. |
+| `poolId` | Yes | integer | ID of the Node Pool to be recycled. |
 
 
 ## Query Parameters

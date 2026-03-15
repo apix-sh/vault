@@ -52,8 +52,8 @@ In a [parent and child account](https://www.linode.com/docs/guides/parent-child-
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `username` | Yes | string | The username to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `username` | Yes | string | The username to look up. |
 
 
 ## Query Parameters
@@ -74,13 +74,7 @@ Supported content types:
 | `last_login` | No | object | __Read-only__ Details on this user's last login attempt. Returned as `null` if this user hasn't attempted a login since it was created. You can run the [List user logins](https://techdocs.akamai.com/linode-api/reference/get-account-logins) operation for additional login information. |
 | `password_created` | No | string | __Read-only__ When this user's current password was created. You initially create a password during the account sign-up process, and you can update it using the [Reset Password](https://login.linode.com/forgot/password) webpage. Returned as `null` if this user doesn't have a password set. |
 | `restricted` | No | boolean | If `true`, this user needs specific access granted to perform actions or access entities on your account. Run [List a user's grants](https://techdocs.akamai.com/linode-api/reference/get-user-grants) for details on how to configure grants for a restricted user. |
-| `ssh_keys` | No | array<string> | __Read-only__ A list of the labels for SSH keys added by this user. Users can add keys with the [Add an SSH key](https://techdocs.akamai.com/linode-api/reference/post-add-ssh-key) operation. These keys are deployed when this user is included in the `authorized_users` field of the following requests:
-
-- [Create a Linode](https://techdocs.akamai.com/linode-api/reference/post-linode-instance)
-
-- [Rebuild a Linode](https://techdocs.akamai.com/linode-api/reference/post-rebuild-linode-instance)
-
-- [Create a disk](https://techdocs.akamai.com/linode-api/reference/post-add-linode-disk) |
+| `ssh_keys` | No | array<string> | __Read-only__ A list of the labels for SSH keys added by this user. Users can add keys with the [Add an SSH key](https://techdocs.akamai.com/linode-api/reference/post-add-ssh-key) operation. These keys are deployed when this user is included in the `authorized_users` field of the following requests:<br/><br/>- [Create a Linode](https://techdocs.akamai.com/linode-api/reference/post-linode-instance)<br/><br/>- [Rebuild a Linode](https://techdocs.akamai.com/linode-api/reference/post-rebuild-linode-instance)<br/><br/>- [Create a disk](https://techdocs.akamai.com/linode-api/reference/post-add-linode-disk) |
 | `tfa_enabled` | No | boolean | __Read-only__ Whether this user has Two Factor Authentication (TFA) enabled. Run the [Create a two factor secret](https://techdocs.akamai.com/linode-api/reference/post-tfa-enable) operation to enable TFA. |
 | `username` | No | string | __Filterable__ The name of this user. This user needs to use this value to log in. It may also display alongside actions this user performs, including events or public StackScripts. |
 | `verified_phone_number` | No | string | __Read-only__ The [verified](https://techdocs.akamai.com/linode-api/reference/post-profile-phone-number-verify) phone number for this user profile. Returned as `null` if the user doesn't have a verified phone number. |
@@ -94,27 +88,6 @@ User updated successfully.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "email": "jkowalski@linode.com",
-  "last_login": {
-    "login_datetime": "2018-01-01T01:01:01",
-    "status": "successful"
-  },
-  "password_created": "2018-01-01T01:01:01",
-  "restricted": true,
-  "ssh_keys": [
-    "home-pc",
-    "laptop"
-  ],
-  "tfa_enabled": true,
-  "user_type": "parent",
-  "username": "adevi",
-  "verified_phone_number": "+5555555555"
-}
-```
 
 
 ### default

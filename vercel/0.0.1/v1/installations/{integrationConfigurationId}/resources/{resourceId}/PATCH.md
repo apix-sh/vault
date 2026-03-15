@@ -13,8 +13,8 @@ This endpoint updates an existing resource in the installation. All parameters a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `resourceId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
+| `resourceId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -31,14 +31,14 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `ownership` | No | string |  |
-| `name` | No | string |  |
-| `status` | No | string |  |
-| `metadata` | No | object |  |
 | `billingPlan` | No | object |  |
-| `notification` | No | oneOf(2) |  |
 | `extras` | No | object |  |
+| `metadata` | No | object |  |
+| `name` | No | string |  |
+| `notification` | No | oneOf(2) |  |
+| `ownership` | No | string |  |
 | `secrets` | No | oneOf(2) |  |
+| `status` | No | string |  |
 
 
 ## Responses

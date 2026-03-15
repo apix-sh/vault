@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/branches/{branch}/passwords/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -25,10 +26,10 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization the password belongs to<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the database the password belongs to<br/>*Serialization: style=Simple* |
-| `branch` | Yes | string | The name of the branch the password belongs to<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | The ID of the password<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization the password belongs to |
+| `database` | Yes | string | The name of the database the password belongs to |
+| `branch` | Yes | string | The name of the branch the password belongs to |
+| `id` | Yes | string | The ID of the password |
 
 
 ## Query Parameters

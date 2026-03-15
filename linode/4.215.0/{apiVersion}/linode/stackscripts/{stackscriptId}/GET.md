@@ -35,8 +35,8 @@ Returns all of the information about a specified StackScript, including the cont
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `stackscriptId` | Yes | string | The ID of the StackScript to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `stackscriptId` | Yes | string | The ID of the StackScript to look up. |
 
 
 ## Query Parameters
@@ -64,9 +64,7 @@ A single StackScript.
 | `deployments_total` | No | integer | __Filterable__, __Read-only__ The total number of times this StackScript has been deployed. |
 | `description` | No | string | __Filterable__ A description for the StackScript. |
 | `id` | No | integer | __Read-only__ The unique ID of this StackScript. |
-| `images` | No | array<string> | An array of Image IDs. These are the Images that can be deployed with this StackScript.
-
-`any/all` indicates that all available Images, including private Images, are accepted. |
+| `images` | No | array<string> | An array of Image IDs. These are the Images that can be deployed with this StackScript.<br/><br/>`any/all` indicates that all available Images, including private Images, are accepted. |
 | `is_public` | No | boolean | __Filterable__ This determines whether other users can use your StackScript. __Once a StackScript is made public, it cannot be made private.__ |
 | `label` | No | string | __Filterable__ The StackScript's label is for display purposes only. |
 | `mine` | No | boolean | __Filterable__, __Read-only__ Returns `true` if this StackScript is owned by the account of the user making the request, and the user making the request is unrestricted or has access to this StackScript. |

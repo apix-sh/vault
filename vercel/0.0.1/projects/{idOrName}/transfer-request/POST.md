@@ -13,15 +13,15 @@ Initiates a project transfer request from one team to another. <br/> Returns a `
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The ID or name of the project to transfer.<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The ID or name of the project to transfer. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,8 +33,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `callbackUrl` | No | string | The URL to send a webhook to when the transfer is accepted. |
 | `callbackSecret` | No | string | The secret to use to sign the webhook payload with HMAC-SHA256. |
+| `callbackUrl` | No | string | The URL to send a webhook to when the transfer is accepted. |
 
 
 ## Responses

@@ -13,17 +13,17 @@ List projects of an access group
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The ID or name of the Access Group.<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The ID or name of the Access Group. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limit how many access group projects should be returned.<br/>*Serialization: style=Form* |
-| `next` | No | string | Continuation cursor to retrieve the next page of results.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limit how many access group projects should be returned. |
+| `next` | No | string | Continuation cursor to retrieve the next page of results. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -39,8 +39,8 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `projects` | Yes | array<object> |  |
 | `pagination` | Yes | object |  |
+| `projects` | Yes | array<object> |  |
 
 
 ### 400

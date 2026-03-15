@@ -13,17 +13,17 @@ Update an existing feature flag segment.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectIdOrName` | Yes | string | The project id or name<br/>*Serialization: style=Simple* |
-| `segmentIdOrSlug` | Yes | string | The segment slug<br/>*Serialization: style=Simple* |
+| `projectIdOrName` | Yes | string | The project id or name |
+| `segmentIdOrSlug` | Yes | string | The segment slug |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `withMetadata` | No | boolean | Whether to include metadata<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `withMetadata` | No | boolean | Whether to include metadata |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -35,11 +35,11 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `operations` | No | array<object> |  |
-| `label` | No | string |  |
-| `description` | No | string |  |
 | `data` | No | object | The data of the segment |
+| `description` | No | string |  |
 | `hint` | No | string |  |
+| `label` | No | string |  |
+| `operations` | No | array<object> |  |
 
 
 ## Responses

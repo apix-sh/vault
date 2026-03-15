@@ -45,8 +45,8 @@ __Beta__ Returns a token that authenticates requests for the entities within a s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
-| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
+| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`. |
 
 
 ## Query Parameters
@@ -63,20 +63,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `entity_ids` | Yes | array<integer> | The `id` for each individual entity from a `service_type`. Get this value by running the list operation for the appropriate entity. For example, if your entity is one of your PostgreSQL databases, run the [List PostgreSQL Managed Databases](https://techdocs.akamai.com/linode-api/reference/get-databases-postgre-sql-instances) operation and store the `id` for the appropriate database from the response.
-
-> 📘
->
-> - This field is required and supports up to 100 total entries.
->
-> - You need read access permission to all of the entities you include in the token. Run the [List a user's grants](https://techdocs.akamai.com/linode-api/reference/get-user-grants) operation to see the permission level for each entity in your account. |
-
-#### Example Payload
-```json
-{
-  "ref": "../examples/post-aclp-token-request-200.json"
-}
-```
+| `entity_ids` | Yes | array<integer> | The `id` for each individual entity from a `service_type`. Get this value by running the list operation for the appropriate entity. For example, if your entity is one of your PostgreSQL databases, run the [List PostgreSQL Managed Databases](https://techdocs.akamai.com/linode-api/reference/get-databases-postgre-sql-instances) operation and store the `id` for the appropriate database from the response.<br/><br/>> 📘<br/>><br/>> - This field is required and supports up to 100 total entries.<br/>><br/>> - You need read access permission to all of the entities you include in the token. Run the [List a user's grants](https://techdocs.akamai.com/linode-api/reference/get-user-grants) operation to see the permission level for each entity in your account. |
 
 
 ## Responses
@@ -89,13 +76,6 @@ The response provides the token.
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `token` | Yes | string | A string representing the authentication token. This token is required for subsequent requests. |
-
-#### Example Payload
-```json
-{
-  "token": "abcdef1234567890"
-}
-```
 
 
 ### default

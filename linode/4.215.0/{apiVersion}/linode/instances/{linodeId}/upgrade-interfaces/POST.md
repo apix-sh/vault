@@ -58,8 +58,8 @@ Requirements:
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | The `id` of the Linode.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | The `id` of the Linode. |
 
 
 ## Query Parameters
@@ -76,13 +76,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `config_id` | No | integer | The Linode's `config_id`. Only one `config_id` can be specified:
-- If there are no legacy configuration interfaces or configurations defined in the config_id, a public interface is created using the Linode's automatically assigned public IPv4 address.
-- If a config_id is not provided and the Linode has only one configuration, the upgrade automatically uses that config_id.
-- If the Linode has multiple configurations and a config_id is not specified, an error is returned. |
-| `dry_run` | No | boolean | Before you upgrade interfaces, you can preview the new Linode interface by performing a `dry_run`:
-- Either omit `dry_run` or set it to `true` to simulate the upgrade process. The response data shows what the Linode interface will look like after the upgrade, but without committing any changes. Since the interface doesn't exist yet, the interface `id` value is 0.
-- If `dry_run` is set to `false`, the Linode undergoes the actual upgrade, but note you need to first shut down the Linode. |
+| `config_id` | No | integer | The Linode's `config_id`. Only one `config_id` can be specified:<br/>- If there are no legacy configuration interfaces or configurations defined in the config_id, a public interface is created using the Linode's automatically assigned public IPv4 address.<br/>- If a config_id is not provided and the Linode has only one configuration, the upgrade automatically uses that config_id.<br/>- If the Linode has multiple configurations and a config_id is not specified, an error is returned. |
+| `dry_run` | No | boolean | Before you upgrade interfaces, you can preview the new Linode interface by performing a `dry_run`:<br/>- Either omit `dry_run` or set it to `true` to simulate the upgrade process. The response data shows what the Linode interface will look like after the upgrade, but without committing any changes. Since the interface doesn't exist yet, the interface `id` value is 0.<br/>- If `dry_run` is set to `false`, the Linode undergoes the actual upgrade, but note you need to first shut down the Linode. |
 
 
 ## Responses
@@ -96,7 +91,7 @@ Upgrade or `dry_run` upgrade completed.
 | :--- | :---: | :--- | :--- |
 | `config_id` | No | integer | The Linode's `config_id` that was upgraded. |
 | `dry_run` | No | boolean | Indicates if this was a `dry_run` upgrade that didn't commit any changes and didn't generate a unique interface ID. If `dry_run` is `false`, the upgrade completed. |
-| `interfaces` | No | array<any> |  |
+| `interfaces` | No | array<oneOf(3)> |  |
 
 
 ### default

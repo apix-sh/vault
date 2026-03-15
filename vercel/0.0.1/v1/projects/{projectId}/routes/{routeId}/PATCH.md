@@ -13,16 +13,16 @@ Replace a routing rule identified by its ID, or restore it from the current prod
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Simple* |
-| `routeId` | Yes | string | *Serialization: style=Simple* |
+| `projectId` | Yes | string |  |
+| `routeId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -34,8 +34,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `route` | No | object | The full route object to replace the existing route with |
 | `restore` | No | boolean | If true, restores the staged route to the value in the production version. |
+| `route` | No | object | The full route object to replace the existing route with |
 
 
 ## Responses

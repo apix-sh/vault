@@ -35,16 +35,16 @@ Returns a paginated list of IP addresses for a single VPC.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `vpcId` | Yes | integer | The `id` of the VPC.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `vpcId` | Yes | integer | The `id` of the VPC. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -61,32 +61,6 @@ The IP addresses for the requested VPC.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "active": true,
-      "address": "198.51.100.42",
-      "address_range": null,
-      "config_id": 4567,
-      "gateway": "192.0.2.1",
-      "interface_id": 2435,
-      "linode_id": 123,
-      "nat_1_1": "192.0.2.110",
-      "prefix": 24,
-      "region": "us-east",
-      "subnet_id": 101,
-      "subnet_mask": "192.0.2.1",
-      "vpc_id": 7654
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

@@ -40,7 +40,7 @@ Creates a Personal Access Token for your User. The raw token will be returned in
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -59,13 +59,7 @@ Supported content types:
 | :--- | :---: | :--- | :--- |
 | `expiry` | No | string | When this token should be valid until.  If omitted, the new token will be valid until it is manually revoked. |
 | `label` | No | string | __Filterable__ This token's label.  This is for display purposes only, but can be used to more easily track what you're using each token for. |
-| `scopes` | No | string | The access [scopes](https://techdocs.akamai.com/linode-api/reference/get-started#oauth-reference) to grant to the created token. These cannot be changed after creation, and may not exceed the scopes of the acting token.
-
-If omitted or entered with a wildcard character (`*`), the new token will have the same scopes as the acting token.
-
-Multiple scopes are separated by a space character (` `).
-
-For example, `linodes:read_write account:read_only`. |
+| `scopes` | No | string | The access [scopes](https://techdocs.akamai.com/linode-api/reference/get-started#oauth-reference) to grant to the created token. These cannot be changed after creation, and may not exceed the scopes of the acting token.<br/><br/>If omitted or entered with a wildcard character (`*`), the new token will have the same scopes as the acting token.<br/><br/>Multiple scopes are separated by a space character (` `).<br/><br/>For example, `linodes:read_write account:read_only`. |
 
 
 ## Responses

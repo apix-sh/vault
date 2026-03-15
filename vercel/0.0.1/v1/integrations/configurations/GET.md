@@ -18,11 +18,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `view` | Yes | string | *Serialization: style=Form* |
-| `installationType` | No | string | *Serialization: style=Form* |
-| `integrationIdOrSlug` | No | string | ID of the integration<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `view` | Yes | string |  |
+| `installationType` | No | string |  |
+| `integrationIdOrSlug` | No | string | ID of the integration |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

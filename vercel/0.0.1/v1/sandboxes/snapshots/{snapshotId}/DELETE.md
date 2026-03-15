@@ -13,15 +13,15 @@ Permanently deletes a snapshot and frees its associated storage. This action can
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `snapshotId` | Yes | string | The unique identifier of the snapshot to delete.<br/>*Serialization: style=Simple* |
+| `snapshotId` | Yes | string | The unique identifier of the snapshot to delete. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

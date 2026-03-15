@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `projectId` | Yes | string |  |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -30,7 +30,14 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `allSources` | No | boolean |  |
+| `domain` | No | string |  |
+| `note` | No | string |  |
+| `projectScope` | No | boolean | If the specified bypass will apply to all domains for a project. |
+| `sourceIp` | No | string |  |
+| `ttl` | No | number | Time to live in milliseconds |
 
 
 ## Responses

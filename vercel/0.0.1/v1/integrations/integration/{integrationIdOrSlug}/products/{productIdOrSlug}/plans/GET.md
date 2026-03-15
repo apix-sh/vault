@@ -13,19 +13,19 @@ Get a list of billing plans for an integration and product.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationIdOrSlug` | Yes | string | *Serialization: style=Simple* |
-| `productIdOrSlug` | Yes | string | *Serialization: style=Simple* |
+| `integrationIdOrSlug` | Yes | string |  |
+| `productIdOrSlug` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | No | string | *Serialization: style=Form* |
-| `metadata` | No | string | *Serialization: style=Form* |
-| `source` | No | string | *Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `integrationConfigurationId` | No | string |  |
+| `metadata` | No | string |  |
+| `source` | No | string |  |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

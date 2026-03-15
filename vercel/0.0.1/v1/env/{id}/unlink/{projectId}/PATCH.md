@@ -13,16 +13,16 @@ Disconnects a shared environment variable for a given project
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The unique ID for the Shared Environment Variable to unlink from the project.<br/>*Serialization: style=Simple* |
-| `projectId` | Yes | string | *Serialization: style=Simple* |
+| `id` | Yes | string | The unique ID for the Shared Environment Variable to unlink from the project. |
+| `projectId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

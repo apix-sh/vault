@@ -35,8 +35,8 @@ Closes a support ticket you have access to modify.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `ticketId` | Yes | integer | The ID of the support ticket.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `ticketId` | Yes | integer | The ID of the support ticket. |
 
 
 ## Query Parameters

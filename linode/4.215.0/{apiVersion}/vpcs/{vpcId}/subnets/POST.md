@@ -47,8 +47,8 @@ Once a VPC Subnet is created, it can be attached to a Linode by assigning the Su
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `vpcId` | Yes | integer | The `id` of the VPC.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `vpcId` | Yes | integer | The `id` of the VPC. |
 
 
 ## Query Parameters
@@ -65,16 +65,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `ipv4` | Yes | string | IPv4 range in CIDR canonical form.
-
-- The range must belong to a private address space as defined in [RFC1918](https://datatracker.ietf.org/doc/html/rfc1918).
-- Allowed prefix lengths: 1-29.
-- The range must not overlap with 192.168.128.0/17.
-- The range must not overlap with other Subnets on the same VPC. |
-| `label` | Yes | string | __Filterable__ The VPC Subnet's label, for display purposes only.
-
-- Must be unique among the VPC's Subnets.
-- Can only contain ASCII letters, numbers, and hyphens (`-`). You can't use two consecutive hyphens (`--`). |
+| `ipv4` | Yes | string | IPv4 range in CIDR canonical form.<br/><br/>- The range must belong to a private address space as defined in [RFC1918](https://datatracker.ietf.org/doc/html/rfc1918).<br/>- Allowed prefix lengths: 1-29.<br/>- The range must not overlap with 192.168.128.0/17.<br/>- The range must not overlap with other Subnets on the same VPC. |
+| `label` | Yes | string | __Filterable__ The VPC Subnet's label, for display purposes only.<br/><br/>- Must be unique among the VPC's Subnets.<br/>- Can only contain ASCII letters, numbers, and hyphens (`-`). You can't use two consecutive hyphens (`--`). |
 
 
 ## Responses
@@ -88,19 +80,9 @@ The new VPC Subnet.
 | :--- | :---: | :--- | :--- |
 | `created` | No | string | __Filterable__, __Read-only__ The date-time of VPC Subnet creation. |
 | `id` | No | integer | __Filterable__, __Read-only__ The unique ID of the VPC Subnet. |
-| `ipv4` | No | string | IPv4 range in CIDR canonical form.
-
-- The range must belong to a private address space as defined in [RFC1918](https://datatracker.ietf.org/doc/html/rfc1918).
-- Allowed prefix lengths: 1-29.
-- The range must not overlap with 192.168.128.0/17.
-- The range must not overlap with other Subnets on the same VPC. |
-| `label` | No | string | __Filterable__ The VPC Subnet's label, for display purposes only.
-
-- Must be unique among the VPC's Subnets.
-- Can only contain ASCII letters, numbers, and hyphens (`-`). You can't use two consecutive hyphens (`--`). |
-| `linodes` | No | array<object> | __Read-only__ An array of Linode IDs assigned to the VPC Subnet.
-
-A Linode is assigned to a VPC Subnet if it has a Configuration Profile with a `vpc` purpose interface with the subnet's `subnet_id`. Even if the Configuration Profile is not active, meaning the Linode does not have access to the Subnet, the Linode still appears in this array. |
+| `ipv4` | No | string | IPv4 range in CIDR canonical form.<br/><br/>- The range must belong to a private address space as defined in [RFC1918](https://datatracker.ietf.org/doc/html/rfc1918).<br/>- Allowed prefix lengths: 1-29.<br/>- The range must not overlap with 192.168.128.0/17.<br/>- The range must not overlap with other Subnets on the same VPC. |
+| `label` | No | string | __Filterable__ The VPC Subnet's label, for display purposes only.<br/><br/>- Must be unique among the VPC's Subnets.<br/>- Can only contain ASCII letters, numbers, and hyphens (`-`). You can't use two consecutive hyphens (`--`). |
+| `linodes` | No | array<object> | __Read-only__ An array of Linode IDs assigned to the VPC Subnet.<br/><br/>A Linode is assigned to a VPC Subnet if it has a Configuration Profile with a `vpc` purpose interface with the subnet's `subnet_id`. Even if the Configuration Profile is not active, meaning the Linode does not have access to the Subnet, the Linode still appears in this array. |
 | `updated` | No | string | __Filterable__, __Read-only__ The date-time of the most recent VPC Subnet update. |
 
 

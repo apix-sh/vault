@@ -13,15 +13,15 @@ Create a new feature flag segment.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectIdOrName` | Yes | string | The project id or name<br/>*Serialization: style=Simple* |
+| `projectIdOrName` | Yes | string | The project id or name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,12 +33,12 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `slug` | Yes | string |  |
 | `createdBy` | No | string | The entity who created the segment |
-| `label` | Yes | string |  |
-| `description` | No | string |  |
 | `data` | Yes | object | The data of the segment |
+| `description` | No | string |  |
 | `hint` | Yes | string |  |
+| `label` | Yes | string |  |
+| `slug` | Yes | string |  |
 
 
 ## Responses
@@ -48,19 +48,19 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `description` | No | string |  |
+| `createdAt` | Yes | number |  |
 | `createdBy` | No | string |  |
-| `usedByFlags` | No | array<string> |  |
-| `usedBySegments` | No | array<string> |  |
+| `data` | Yes | object |  |
+| `description` | No | string |  |
+| `hint` | Yes | string |  |
 | `id` | Yes | string |  |
 | `label` | Yes | string |  |
-| `slug` | Yes | string |  |
-| `createdAt` | Yes | number |  |
-| `updatedAt` | Yes | number |  |
 | `projectId` | Yes | string |  |
+| `slug` | Yes | string |  |
 | `typeName` | Yes | string |  |
-| `data` | Yes | object |  |
-| `hint` | Yes | string |  |
+| `updatedAt` | Yes | number |  |
+| `usedByFlags` | No | array<string> |  |
+| `usedBySegments` | No | array<string> |  |
 
 
 ### 400

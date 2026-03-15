@@ -35,8 +35,8 @@ Deletes a Domain from Linode's DNS Manager. The Domain will be removed from Lino
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `domainId` | Yes | integer | The ID of the Domain to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `domainId` | Yes | integer | The ID of the Domain to access. |
 
 
 ## Query Parameters

@@ -29,8 +29,8 @@ Only unrestricted Users can access this operation.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `betaId` | Yes | string | The ID of the Beta Program.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `betaId` | Yes | string | The ID of the Beta Program. |
 
 
 ## Query Parameters
@@ -54,9 +54,7 @@ Returns a paginated list of all available Beta Program objects.
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `description` | No | string | __Read-only__ Additional details regarding the Beta Program. |
-| `ended` | No | string | __Filterable__, __Read-only__ The date-time that the Beta Program ended.
-
-`null` indicates that the Beta Program is ongoing. |
+| `ended` | No | string | __Filterable__, __Read-only__ The date-time that the Beta Program ended.<br/><br/>`null` indicates that the Beta Program is ongoing. |
 | `greenlight_only` | No | boolean | __Filterable__, __Read-only__ Whether the Beta Program requires [Green Light](https://www.linode.com/green-light/) participation for enrollment. |
 | `id` | No | string | The unique identifier of the Beta Program. |
 | `label` | No | string | __Filterable__, __Read-only__ The name of the Beta Program. |

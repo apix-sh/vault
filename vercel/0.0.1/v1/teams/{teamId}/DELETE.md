@@ -13,15 +13,15 @@ Delete a team under your account. You need to send a `DELETE` request with the d
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | Yes | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Simple* |
+| `teamId` | Yes | string | The Team identifier to perform the request on behalf of. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `newDefaultTeamId` | No | string | Id of the team to be set as the new default team<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `newDefaultTeamId` | No | string | Id of the team to be set as the new default team |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

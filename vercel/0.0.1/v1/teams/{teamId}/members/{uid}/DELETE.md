@@ -13,15 +13,15 @@ Remove a Team Member from the Team, or dismiss a user that requested access, or 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `uid` | Yes | string | The user ID of the member.<br/>*Serialization: style=Simple* |
-| `teamId` | Yes | string | *Serialization: style=Simple* |
+| `uid` | Yes | string | The user ID of the member. |
+| `teamId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `newDefaultTeamId` | No | string | The ID of the team to set as the new default team for the Northstar user.<br/>*Serialization: style=Form* |
+| `newDefaultTeamId` | No | string | The ID of the team to set as the new default team for the Northstar user. |
 
 
 

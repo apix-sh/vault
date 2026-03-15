@@ -13,8 +13,8 @@ This endpoint imports (upserts) a resource to Vercel's installation. This may be
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `resourceId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
+| `resourceId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -31,15 +31,15 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `billingPlan` | No | object |  |
+| `extras` | No | object |  |
+| `metadata` | No | object |  |
+| `name` | Yes | string |  |
+| `notification` | No | object |  |
 | `ownership` | No | string |  |
 | `productId` | Yes | string |  |
-| `name` | Yes | string |  |
-| `status` | Yes | string |  |
-| `metadata` | No | object |  |
-| `billingPlan` | No | object |  |
-| `notification` | No | object |  |
-| `extras` | No | object |  |
 | `secrets` | No | array<object> |  |
+| `status` | Yes | string |  |
 
 
 ## Responses

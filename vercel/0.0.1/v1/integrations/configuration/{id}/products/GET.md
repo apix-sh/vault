@@ -13,15 +13,15 @@ Returns products available for an integration configuration. Each product includ
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | ID of the integration configuration<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | ID of the integration configuration |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -39,9 +39,9 @@ List of products available for this integration configuration
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `products` | Yes | array<object> |  |
-| `integration` | Yes | object |  |
 | `configuration` | Yes | object |  |
+| `integration` | Yes | object |  |
+| `products` | Yes | array<object> |  |
 
 
 ### 400

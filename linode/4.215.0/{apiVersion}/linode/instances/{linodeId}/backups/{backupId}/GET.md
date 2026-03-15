@@ -35,9 +35,9 @@ Returns information about a Backup.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | The ID of the Linode the Backup belongs to.<br/>*Serialization: style=Simple* |
-| `backupId` | Yes | integer | The ID of the Backup to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | The ID of the Linode the Backup belongs to. |
+| `backupId` | Yes | integer | The ID of the Backup to look up. |
 
 
 ## Query Parameters
@@ -60,9 +60,7 @@ A single Backup.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `available` | No | boolean | __Read-only__ Whether this Backup is available for restoration.
-
-Backups undergoing maintenance are not available for restoration. |
+| `available` | No | boolean | __Read-only__ Whether this Backup is available for restoration.<br/><br/>Backups undergoing maintenance are not available for restoration. |
 | `configs` | No | array<string> | __Read-only__ A list of the labels of the Configuration profiles that are part of the Backup. |
 | `created` | No | string | __Read-only__ The date the Backup was taken. |
 | `disks` | No | array<object> | __Read-only__ A list of the disks that are part of the Backup. |

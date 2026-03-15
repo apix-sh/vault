@@ -13,9 +13,9 @@ Patch an existing experimentation item
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `resourceId` | Yes | string | *Serialization: style=Simple* |
-| `itemId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
+| `resourceId` | Yes | string |  |
+| `itemId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -32,13 +32,13 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `slug` | Yes | string |  |
-| `origin` | Yes | string |  |
-| `name` | No | string |  |
 | `category` | No | string |  |
+| `createdAt` | No | number |  |
 | `description` | No | string |  |
 | `isArchived` | No | boolean |  |
-| `createdAt` | No | number |  |
+| `name` | No | string |  |
+| `origin` | Yes | string |  |
+| `slug` | Yes | string |  |
 | `updatedAt` | No | number |  |
 
 

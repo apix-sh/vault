@@ -13,9 +13,9 @@ This endpoint is deprecated and replaced with the endpoint [Update Resource Secr
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `integrationProductIdOrSlug` | Yes | string | *Serialization: style=Simple* |
-| `resourceId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
+| `integrationProductIdOrSlug` | Yes | string |  |
+| `resourceId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -32,8 +32,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `secrets` | Yes | array<object> |  |
 | `partial` | No | boolean | If true, will only update the provided secrets |
+| `secrets` | Yes | array<object> |  |
 
 
 ## Responses

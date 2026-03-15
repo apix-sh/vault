@@ -45,15 +45,15 @@ A user can access all or part of an account based on their access status and gra
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -75,34 +75,6 @@ A paginated list of users.
 | `page` | No | integer | __Read-only__ The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | No | integer | __Read-only__ The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | No | integer | __Read-only__ The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "email": "jperez@linode.com",
-      "last_login": {
-        "login_datetime": "2018-01-01T01:01:01",
-        "status": "successful"
-      },
-      "password_created": "2018-01-01T01:01:01",
-      "restricted": true,
-      "ssh_keys": [
-        "home-pc",
-        "laptop"
-      ],
-      "tfa_enabled": true,
-      "user_type": "parent",
-      "username": "jsmith",
-      "verified_phone_number": "+5555555555"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

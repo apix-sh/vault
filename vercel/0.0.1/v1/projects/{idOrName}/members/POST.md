@@ -13,15 +13,15 @@ Adds a new member to the project.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The ID or name of the Project.<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The ID or name of the Project. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -31,7 +31,12 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `email` | No | string | The email of the team member that should be added to this project. |
+| `role` | Yes | string | The project role of the member that will be added. |
+| `uid` | No | string | The ID of the team member that should be added to this project. |
+| `username` | No | string | The username of the team member that should be added to this project. |
 
 
 ## Responses

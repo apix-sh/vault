@@ -13,14 +13,14 @@ Buy a domain
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | Yes | [DomainName](../../../../../_components/schemas/DomainName.md) | *Serialization: style=Simple* |
+| `domain` | Yes | [DomainName](../../../../../_components/schemas/DomainName.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | *Serialization: style=Form* |
+| `teamId` | No | string |  |
 
 
 
@@ -33,10 +33,10 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `autoRenew` | Yes | boolean | Whether the domain should be auto-renewed before it expires. This can be configured later through the Vercel Dashboard or the [Update auto-renew for a domain](https://vercel.com/docs/rest-api/reference/endpoints/domains-registrar/update-auto-renew-for-a-domain) endpoint. |
-| `years` | Yes | number | The number of years to purchase the domain for. |
-| `expectedPrice` | Yes | number |  |
 | `contactInformation` | Yes | object | The contact information for the domain. Some TLDs require additional contact information. Use the [Get contact info schema](https://vercel.com/docs/rest-api/reference/endpoints/domains-registrar/get-contact-info-schema) endpoint to retrieve the required fields. |
+| `expectedPrice` | Yes | number |  |
 | `languageCode` | No | string | The language code for the domain. For punycode domains, this must be provided. The list of supported language codes for a TLD can be retrieved from the [Get TLD](https://vercel.com/docs/rest-api/reference/endpoints/domains-registrar/get-tld) endpoint. |
+| `years` | Yes | number | The number of years to purchase the domain for. |
 
 
 ## Responses
@@ -48,8 +48,8 @@ Success
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `orderId` | Yes | [OrderId](../../../../../_components/schemas/OrderId.md) |  |
 | `_links` | Yes | object |  |
+| `orderId` | Yes | [OrderId](../../../../../_components/schemas/OrderId.md) |  |
 
 
 ### 400

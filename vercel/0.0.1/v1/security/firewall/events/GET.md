@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "https://api.vercel.com/v1/security/firewall/events"
-auth: "none"
 content_type: "application/json"
 ---
 
@@ -18,10 +17,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Form* |
-| `startTimestamp` | No | number | *Serialization: style=Form* |
-| `endTimestamp` | No | number | *Serialization: style=Form* |
-| `hosts` | No | string | *Serialization: style=Form* |
+| `projectId` | Yes | string |  |
+| `startTimestamp` | No | number |  |
+| `endTimestamp` | No | number |  |
+| `hosts` | No | string |  |
 
 
 

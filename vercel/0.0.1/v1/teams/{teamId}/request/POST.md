@@ -13,7 +13,7 @@ Request access to a team as a member. An owner has to approve the request. Only 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | Yes | string | *Serialization: style=Simple* |
+| `teamId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -42,14 +42,14 @@ Successfuly requested access to the team.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `teamSlug` | Yes | string |  |
-| `teamName` | Yes | string |  |
-| `confirmed` | No | boolean |  |
-| `joinedFrom` | No | object |  |
 | `accessRequestedAt` | No | number |  |
+| `bitbucket` | Yes | object |  |
+| `confirmed` | No | boolean |  |
 | `github` | Yes | object |  |
 | `gitlab` | Yes | object |  |
-| `bitbucket` | Yes | object |  |
+| `joinedFrom` | No | object |  |
+| `teamName` | Yes | string |  |
+| `teamSlug` | Yes | string |  |
 
 
 ### 400

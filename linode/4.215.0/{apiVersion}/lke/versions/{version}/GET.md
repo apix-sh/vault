@@ -35,8 +35,8 @@ View an LKE Kubernetes version available for deployment to a standard tier Kuber
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `version` | Yes | string | The LKE version to view.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `version` | Yes | string | The LKE version to view. |
 
 
 ## Query Parameters
@@ -60,13 +60,6 @@ Returns an LKE Kubernetes version object available for deployment to a standard 
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `id` | Yes | string | __Read-only__ A Kubernetes version number available for deployment to a Kubernetes cluster in the format of &lt;major&gt;.&lt;minor&gt;, and the latest supported patch version. |
-
-#### Example Payload
-```json
-{
-  "id": "1.33"
-}
-```
 
 
 ### default

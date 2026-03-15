@@ -11,6 +11,6 @@ Duplicate domains were provided.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `status` | Yes | number |  |
 | `code` | Yes | string | Allowed values: duplicate_domains |
 | `message` | Yes | string |  |
+| `status` | Yes | number |  |

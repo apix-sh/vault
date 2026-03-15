@@ -13,18 +13,18 @@ Retrieves a list of DNS records created for a domain name. By default it returns
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | Yes | string | *Serialization: style=Simple* |
+| `domain` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | string | Maximum number of records to list from a request.<br/>*Serialization: style=Form* |
-| `since` | No | string | Get records created after this JavaScript timestamp.<br/>*Serialization: style=Form* |
-| `until` | No | string | Get records created before this JavaScript timestamp.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `limit` | No | string | Maximum number of records to list from a request. |
+| `since` | No | string | Get records created after this JavaScript timestamp. |
+| `until` | No | string | Get records created before this JavaScript timestamp. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

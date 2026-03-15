@@ -13,8 +13,8 @@ When the user enabled Edge Config syncing, then this endpoint can be used by the
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `resourceId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
+| `resourceId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -43,10 +43,10 @@ The Edge Config was updated
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `items` | Yes | object |  |
-| `updatedAt` | Yes | number |  |
 | `digest` | Yes | string |  |
+| `items` | Yes | object |  |
 | `purpose` | No | string |  |
+| `updatedAt` | Yes | number |  |
 
 
 ### 400

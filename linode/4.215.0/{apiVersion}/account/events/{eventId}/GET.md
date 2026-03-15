@@ -35,8 +35,8 @@ Returns a single event object.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `eventId` | Yes | integer | The ID of the Event.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `eventId` | Yes | integer | The ID of the Event. |
 
 
 ## Query Parameters
@@ -73,35 +73,6 @@ An Event object.
 | `status` | No | string | __Read-only__ The current status of this event. |
 | `time_remaining` | No | string | __Read-only__ The estimated time remaining until the event completes. This is only returned for some in-progress migration events. Otherwise, `percent_complete` indicates how long until completion. |
 | `username` | No | string | __Read-only__ The name of the user whose action caused the event. |
-
-#### Example Payload
-```json
-{
-  "action": "ticket_create",
-  "created": "2018-01-01T00:01:01",
-  "duration": 300.56,
-  "entity": {
-    "id": 11111,
-    "label": "Problem booting my Linode",
-    "type": "ticket",
-    "url": "/v4/support/tickets/11111"
-  },
-  "id": 123,
-  "message": "None",
-  "percent_complete": null,
-  "rate": null,
-  "secondary_entity": {
-    "id": "linode/debian9",
-    "label": "linode1234",
-    "type": "linode",
-    "url": "/v4/linode/instances/1234"
-  },
-  "seen": true,
-  "status": "failed",
-  "time_remaining": null,
-  "username": "hgildong"
-}
-```
 
 
 ### default

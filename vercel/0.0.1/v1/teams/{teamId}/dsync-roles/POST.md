@@ -13,14 +13,14 @@ Update the Directory Sync role mappings for a Team. This endpoint allows updatin
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | Yes | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Simple* |
+| `teamId` | Yes | string | The Team identifier to perform the request on behalf of. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

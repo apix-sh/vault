@@ -39,7 +39,7 @@ Creates a single-use membership token for users who want to join a share group w
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -74,12 +74,7 @@ Token generated successfully.
 | `label` | Yes | string | The token's descriptive name. |
 | `sharegroup_label` | Yes | string | __Read-only__ The share group's descriptive name. |
 | `sharegroup_uuid` | Yes | string | __Read-only__ The share group's unique identifier. |
-| `status` | Yes | string | __Read-only__ The membership token's status:
-
-- `pending`: The token has been created but is not yet active.
-- `active`: The token is currently active and usable.
-- `revoked`: The token has been deleted and is no longer valid.
-- `expired`: The token has passed its validity period and is no longer usable. |
+| `status` | Yes | string | __Read-only__ The membership token's status:<br/><br/>- `pending`: The token has been created but is not yet active.<br/>- `active`: The token is currently active and usable.<br/>- `revoked`: The token has been deleted and is no longer valid.<br/>- `expired`: The token has passed its validity period and is no longer usable. |
 | `token` | Yes | string | __Read-only__ The single-use JWT membership token encoded as a string. It consists of three parts: header, payload, and signature. Shared image groups owners can use it to [Add members to a share group](https://techdocs.akamai.com/linode-api/reference/post-sharegroup-members). |
 | `token_uuid` | Yes | string | __Read-only__ The membership token's unique identifier. |
 | `updated` | Yes | string | __Read-only__ When the token was last updated. |

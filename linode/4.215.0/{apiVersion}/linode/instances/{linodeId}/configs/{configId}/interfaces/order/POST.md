@@ -38,9 +38,9 @@ Reorders the existing Interfaces of a Configuration Profile.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | The `id` of the Linode.<br/>*Serialization: style=Simple* |
-| `configId` | Yes | integer | The `id` of the Configuration Profile.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | The `id` of the Linode. |
+| `configId` | Yes | integer | The `id` of the Configuration Profile. |
 
 
 ## Query Parameters
@@ -57,17 +57,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `ids` | Yes | array<integer> | An ordered array of existing Configuration Profile Interface `id`s.
-
-- All current Interface `id`s must be present in the array.
-- If the Configuration Profile contains Interfaces and is active on the Linode, the Linode must first be shut down prior to running this operation.
-- Reordering takes effect after rebooting the Linode with this Configuration Profile.
-
-The position in the array determines which of the Linode's network Interfaces is configured:
-
-- First [0]:  eth0
-- Second [1]: eth1
-- Third [2]:  eth2 |
+| `ids` | Yes | array<integer> | An ordered array of existing Configuration Profile Interface `id`s.<br/><br/>- All current Interface `id`s must be present in the array.<br/>- If the Configuration Profile contains Interfaces and is active on the Linode, the Linode must first be shut down prior to running this operation.<br/>- Reordering takes effect after rebooting the Linode with this Configuration Profile.<br/><br/>The position in the array determines which of the Linode's network Interfaces is configured:<br/><br/>- First [0]:  eth0<br/>- Second [1]: eth1<br/>- Third [2]:  eth2 |
 
 
 ## Responses

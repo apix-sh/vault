@@ -13,8 +13,8 @@ This endpoint allows the partner to request a refund for an invoice to Vercel. T
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
-| `invoiceId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
+| `invoiceId` | Yes | string |  |
 
 
 ## Query Parameters

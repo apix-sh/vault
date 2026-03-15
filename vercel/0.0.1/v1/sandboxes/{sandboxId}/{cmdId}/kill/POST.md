@@ -13,16 +13,16 @@ Sends a signal to terminate a running command in a sandbox. The signal can be us
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `cmdId` | Yes | string | The unique identifier of the command to terminate.<br/>*Serialization: style=Simple* |
-| `sandboxId` | Yes | string | The unique identifier of the sandbox containing the command.<br/>*Serialization: style=Simple* |
+| `cmdId` | Yes | string | The unique identifier of the command to terminate. |
+| `sandboxId` | Yes | string | The unique identifier of the sandbox containing the command. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

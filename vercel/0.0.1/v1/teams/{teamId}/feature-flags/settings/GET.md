@@ -13,16 +13,16 @@ Retrieve feature flag settings for projects in a team.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | Yes | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Simple* |
+| `teamId` | Yes | string | The Team identifier to perform the request on behalf of. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Maximum number of settings to return.<br/>*Serialization: style=Form* |
-| `cursor` | No | string | Pagination cursor to continue from.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Maximum number of settings to return. |
+| `cursor` | No | string | Pagination cursor to continue from. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

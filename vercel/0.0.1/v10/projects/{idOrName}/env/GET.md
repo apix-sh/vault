@@ -13,20 +13,20 @@ Retrieve the environment variables for a given project by passing either the pro
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The unique project identifier or the project name<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The unique project identifier or the project name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `gitBranch` | No | string | If defined, the git branch of the environment variable to filter the results (must have target=preview)<br/>*Serialization: style=Form* |
-| `decrypt` | No | string | If true, the environment variable value will be decrypted<br/>*Serialization: style=Form* |
-| `source` | No | string | The source that is calling the endpoint.<br/>*Serialization: style=Form* |
-| `customEnvironmentId` | No | string | The unique custom environment identifier within the project<br/>*Serialization: style=Form* |
-| `customEnvironmentSlug` | No | string | The custom environment slug (name) within the project<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `gitBranch` | No | string | If defined, the git branch of the environment variable to filter the results (must have target=preview) |
+| `decrypt` | No | string | If true, the environment variable value will be decrypted |
+| `source` | No | string | The source that is calling the endpoint. |
+| `customEnvironmentId` | No | string | The unique custom environment identifier within the project |
+| `customEnvironmentSlug` | No | string | The custom environment slug (name) within the project |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

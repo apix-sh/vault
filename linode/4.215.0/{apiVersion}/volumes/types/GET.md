@@ -26,7 +26,7 @@ Returns Block Storage volume types and prices, including any region-specific rat
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -53,33 +53,6 @@ A collection of volume types.
 | `page` | No | integer | __Read-only__ The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | No | integer | __Read-only__ The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | No | integer | __Read-only__ The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "id": "volume",
-      "label": "Storage Volume",
-      "price": {
-        "hourly": 0.0015,
-        "monthly": 0.1
-      },
-      "region_prices": [
-        {
-          "hourly": 0.00018,
-          "id": "us-iad",
-          "monthly": 0.12
-        }
-      ],
-      "transfer": 0
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

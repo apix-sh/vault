@@ -13,8 +13,8 @@ Get a resource by its partner ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | The ID of the integration configuration (installation) the resource belongs to<br/>*Serialization: style=Simple* |
-| `resourceId` | Yes | string | The ID provided by the 3rd party provider for the given resource<br/>*Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string | The ID of the integration configuration (installation) the resource belongs to |
+| `resourceId` | Yes | string | The ID provided by the 3rd party provider for the given resource |
 
 
 ## Query Parameters
@@ -35,15 +35,15 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `billingPlanId` | No | string | The ID of the billing plan the resource is subscribed to, if applicable |
 | `id` | Yes | string | The ID provided by the 3rd party provider for the given resource |
 | `internalId` | Yes | string | The ID assigned by Vercel for the given resource |
+| `metadata` | No | object | The configured metadata for the resource as defined by its product's Metadata Schema |
 | `name` | Yes | string | The name of the resource as it is recorded in Vercel |
-| `status` | No | string | The current status of the resource |
+| `notification` | No | object | The notification, if set, displayed to the user when viewing the resource in Vercel |
 | `productId` | Yes | string | The ID of the product the resource is derived from |
 | `protocolSettings` | No | object | Any settings provided for the resource to support its product's protocols |
-| `notification` | No | object | The notification, if set, displayed to the user when viewing the resource in Vercel |
-| `billingPlanId` | No | string | The ID of the billing plan the resource is subscribed to, if applicable |
-| `metadata` | No | object | The configured metadata for the resource as defined by its product's Metadata Schema |
+| `status` | No | string | The current status of the resource |
 
 
 ### 400

@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.planetscale.com/v1/organizations/{organization}/members/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -23,8 +24,8 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | The ID of the user<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization |
+| `id` | Yes | string | The ID of the user |
 
 
 ## Query Parameters

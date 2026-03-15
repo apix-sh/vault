@@ -43,8 +43,8 @@ You can also resize a Linode when using the [Rebuild a Linode](https://techdocs.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | ID of the Linode to resize.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | ID of the Linode to resize. |
 
 
 ## Query Parameters
@@ -62,13 +62,7 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `allow_auto_disk_resize` | No | boolean | Automatically resize disks when resizing a Linode. When resizing down to a smaller plan your Linode's data must fit within the smaller disk size. |
-| `migration_type` | No | string | Type of migration used in moving to a new host or Linode type.
-
-`warm`: the Linode will not power down until the migration is complete.
-Warm migrations are not available for DC migrations.
-
-`cold`: the Linode will be powered down and migrated. When the migration
-is complete, the Linode will be powered on. |
+| `migration_type` | No | string | Type of migration used in moving to a new host or Linode type.<br/><br/>`warm`: the Linode will not power down until the migration is complete.<br/>Warm migrations are not available for DC migrations.<br/><br/>`cold`: the Linode will be powered down and migrated. When the migration<br/>is complete, the Linode will be powered on. |
 | `type` | Yes | string | The ID representing the Linode Type. |
 
 

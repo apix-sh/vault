@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/invoices/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -23,8 +24,8 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`.<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | Invoice public ID from `list_invoices`. Example: `aabb12123434`.<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`. |
+| `id` | Yes | string | Invoice public ID from `list_invoices`. Example: `aabb12123434`. |
 
 
 ## Query Parameters
@@ -47,12 +48,12 @@ Returns an invoice
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | The ID of the invoice |
-| `total` | Yes | number | The total amount of the invoice |
-| `billing_period_start` | Yes | string | Start of the billing period |
 | `billing_period_end` | Yes | string | End of the billing period |
-| `paid` | Yes | boolean | Whether the invoice has been paid |
+| `billing_period_start` | Yes | string | Start of the billing period |
+| `id` | Yes | string | The ID of the invoice |
 | `overdue` | Yes | boolean | Whether the invoice is past due and unpaid |
+| `paid` | Yes | boolean | Whether the invoice has been paid |
+| `total` | Yes | number | The total amount of the invoice |
 
 
 ### 401

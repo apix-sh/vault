@@ -35,8 +35,8 @@ Display the root username and password for an accessible PostgreSQL Managed Data
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `instanceId` | Yes | integer | The ID of the Managed PostgreSQL Database.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `instanceId` | Yes | integer | The ID of the Managed PostgreSQL Database. |
 
 
 ## Query Parameters
@@ -61,14 +61,6 @@ PostgreSQL Managed Database root username and password.
 | :--- | :---: | :--- | :--- |
 | `password` | No | string | __Read-only__ The randomly generated root password for the Managed Database instance. |
 | `username` | No | string | __Read-only__ The root username for the Managed Database instance. |
-
-#### Example Payload
-```json
-{
-  "password": "s3cur3P@ssw0rd",
-  "username": "jperez"
-}
-```
 
 
 ### default

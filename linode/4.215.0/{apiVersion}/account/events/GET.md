@@ -35,21 +35,21 @@ Returns a collection of event objects that represent actions you've taken on you
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 ## Header Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `X-Filter` | No | oneOf(2) | Specifies a JSON object to filter down the results. See [Filtering and sorting](https://techdocs.akamai.com/linode-api/reference/filtering-and-sorting) for details.<br/>*Serialization: style=Simple* |
+| `X-Filter` | No | oneOf(2) | Specifies a JSON object to filter down the results. See [Filtering and sorting](https://techdocs.akamai.com/linode-api/reference/filtering-and-sorting) for details. |
 
 
 ## Request Body
@@ -70,42 +70,6 @@ Returns a paginated list of Event objects from the last 90 days.
 | `page` | No | integer | The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | No | integer | The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | No | integer | The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "action": "ticket_create",
-      "created": "2018-01-01T00:01:01",
-      "duration": 300.56,
-      "entity": {
-        "id": 11111,
-        "label": "Problem booting my Linode",
-        "type": "ticket",
-        "url": "/v4/support/tickets/11111"
-      },
-      "id": 123,
-      "message": "None",
-      "percent_complete": null,
-      "rate": null,
-      "secondary_entity": {
-        "id": "linode/debian9",
-        "label": "linode1234",
-        "type": "linode",
-        "url": "/v4/linode/instances/1234"
-      },
-      "seen": true,
-      "status": "failed",
-      "time_remaining": null,
-      "username": "adevi"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

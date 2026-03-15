@@ -48,8 +48,8 @@ Updates a Linode that you have permission to `read_write`. Only unrestricted use
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | ID of the Linode to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | ID of the Linode to look up. |
 
 
 ## Query Parameters
@@ -78,27 +78,15 @@ Supported content types:
 | `id` | No | integer | __Filterable__, __Read-only__ This Linode's ID which must be provided for all operations impacting this Linode. |
 | `image` | No | allOf(1) |  |
 | `interface_generation` | No | string | __Filterable__, __Read-only__ Indicates if the Linode is configured to use Linode interfaces (`linode`) or legacy configuration profile interfaces (`legacy_config`). |
-| `ipv4` | No | any | __Filterable__, __Read-only__ This Linode's IPv4 Addresses. Each Linode is assigned a single public IPv4 address upon creation, and may get a single private IPv4 address if needed. You may need to [Open a support ticket](https://techdocs.akamai.com/linode-api/reference/post-ticket) to get additional IPv4 addresses.
-
-IPv4 addresses may be reassigned between your Linodes, or shared with other Linodes. See the [networking](https://techdocs.akamai.com/linode-api/reference/post-firewalls) operations for details. |
+| `ipv4` | No | array<string> | __Filterable__, __Read-only__ This Linode's IPv4 Addresses. Each Linode is assigned a single public IPv4 address upon creation, and may get a single private IPv4 address if needed. You may need to [Open a support ticket](https://techdocs.akamai.com/linode-api/reference/post-ticket) to get additional IPv4 addresses.<br/><br/>IPv4 addresses may be reassigned between your Linodes, or shared with other Linodes. See the [networking](https://techdocs.akamai.com/linode-api/reference/post-firewalls) operations for details. |
 | `ipv6` | No | string | __Read-only__ This Linode's IPv6 SLAAC address. This address is specific to a Linode, and may not be shared. If the Linode has not been assigned an IPv6 address, the return value will be `null`. |
-| `label` | No | string | __Filterable__ Provides a name for the Linode. If not provided, the API generates one for it.
-
-Linode labels have the following constraints:
-
-- It needs to begin and end with an alphanumeric character.
-- It can only consist of alphanumeric characters, hyphens (`-`), underscores (`_`) or periods (`.`).
-- Cannot have two hyphens (`--`), underscores (`__`) or periods (`..`) in a row. |
+| `label` | No | string | __Filterable__ Provides a name for the Linode. If not provided, the API generates one for it.<br/><br/>Linode labels have the following constraints:<br/><br/>- It needs to begin and end with an alphanumeric character.<br/>- It can only consist of alphanumeric characters, hyphens (`-`), underscores (`_`) or periods (`.`).<br/>- Cannot have two hyphens (`--`), underscores (`__`) or periods (`..`) in a row. |
 | `lke_cluster_id` | No | integer | __Read-only__ The ID of the Kubernetes cluster if the Linode is part of cluster. |
 | `maintenance_policy` | No | string | __Beta__ The maintenance policy configured by the user for this Linode. Review [maintenance policy](https://techdocs.akamai.com/cloud-computing/docs/host-maintenance-policy) documentation for more details. |
 | `placement_group` | No | object | __Read-only__ Details on the [placement group](https://www.linode.com/docs/products/compute/compute-instances/guides/placement-groups/) that this Linode belongs to. Empty if the Linode isn't in a placement group. |
 | `region` | No | string | __Filterable__, __Read-only__ The [region](https://techdocs.akamai.com/linode-api/reference/get-regions) where the Linode deployed. A Linode's region can only be changed by initiating a [cross data center migration](https://techdocs.akamai.com/linode-api/reference/post-migrate-linode-instance). |
 | `specs` | No | object | __Read-only__ Information about the resources available to this Linode. |
-| `status` | No | string | __Read-only__ A brief description of this Linode's current state. This field may change without direct action from you. For example, when a compute instance goes into maintenance mode, its status is `stopped`. Status is generally self-explanatory, based on its name.
-
-- `busy` indicates you've assigned the compute instance to a [placement group](https://techdocs.akamai.com/cloud-computing/docs/work-with-placement-groups), but the compute instance is currently booting. Once the boot completes, the API completes the assignment and updates the compute instance's `status` accordingly.
-- `provisioning` indicates that the API is applying operating system or Marketplace applications on the compute instance.
-- `billing_suspension` indicates that payment is past due on the compute instance, so we've suspended its use. |
+| `status` | No | string | __Read-only__ A brief description of this Linode's current state. This field may change without direct action from you. For example, when a compute instance goes into maintenance mode, its status is `stopped`. Status is generally self-explanatory, based on its name.<br/><br/>- `busy` indicates you've assigned the compute instance to a [placement group](https://techdocs.akamai.com/cloud-computing/docs/work-with-placement-groups), but the compute instance is currently booting. Once the boot completes, the API completes the assignment and updates the compute instance's `status` accordingly.<br/>- `provisioning` indicates that the API is applying operating system or Marketplace applications on the compute instance.<br/>- `billing_suspension` indicates that payment is past due on the compute instance, so we've suspended its use. |
 | `tags` | No | array<string> | __Filterable__ Tags to help you organize your content. |
 | `type` | No | string | __Read-only__ This is the [Linode type](https://techdocs.akamai.com/linode-api/reference/get-linode-types) that this Linode was deployed with. To change a Linode's type, use [Resize a Linode](https://techdocs.akamai.com/linode-api/reference/post-resize-linode-instance). |
 | `updated` | No | string | __Read-only__ When this Linode was last updated. |
@@ -126,27 +114,15 @@ The updated Linode.
 | `id` | No | integer | __Filterable__, __Read-only__ This Linode's ID which must be provided for all operations impacting this Linode. |
 | `image` | No | allOf(1) |  |
 | `interface_generation` | No | string | __Filterable__, __Read-only__ Indicates if the Linode is configured to use Linode interfaces (`linode`) or legacy configuration profile interfaces (`legacy_config`). |
-| `ipv4` | No | any | __Filterable__, __Read-only__ This Linode's IPv4 Addresses. Each Linode is assigned a single public IPv4 address upon creation, and may get a single private IPv4 address if needed. You may need to [Open a support ticket](https://techdocs.akamai.com/linode-api/reference/post-ticket) to get additional IPv4 addresses.
-
-IPv4 addresses may be reassigned between your Linodes, or shared with other Linodes. See the [networking](https://techdocs.akamai.com/linode-api/reference/post-firewalls) operations for details. |
+| `ipv4` | No | array<string> | __Filterable__, __Read-only__ This Linode's IPv4 Addresses. Each Linode is assigned a single public IPv4 address upon creation, and may get a single private IPv4 address if needed. You may need to [Open a support ticket](https://techdocs.akamai.com/linode-api/reference/post-ticket) to get additional IPv4 addresses.<br/><br/>IPv4 addresses may be reassigned between your Linodes, or shared with other Linodes. See the [networking](https://techdocs.akamai.com/linode-api/reference/post-firewalls) operations for details. |
 | `ipv6` | No | string | __Read-only__ This Linode's IPv6 SLAAC address. This address is specific to a Linode, and may not be shared. If the Linode has not been assigned an IPv6 address, the return value will be `null`. |
-| `label` | No | string | __Filterable__ Provides a name for the Linode. If not provided, the API generates one for it.
-
-Linode labels have the following constraints:
-
-- It needs to begin and end with an alphanumeric character.
-- It can only consist of alphanumeric characters, hyphens (`-`), underscores (`_`) or periods (`.`).
-- Cannot have two hyphens (`--`), underscores (`__`) or periods (`..`) in a row. |
+| `label` | No | string | __Filterable__ Provides a name for the Linode. If not provided, the API generates one for it.<br/><br/>Linode labels have the following constraints:<br/><br/>- It needs to begin and end with an alphanumeric character.<br/>- It can only consist of alphanumeric characters, hyphens (`-`), underscores (`_`) or periods (`.`).<br/>- Cannot have two hyphens (`--`), underscores (`__`) or periods (`..`) in a row. |
 | `lke_cluster_id` | No | integer | __Read-only__ The ID of the Kubernetes cluster if the Linode is part of cluster. |
 | `maintenance_policy` | No | string | __Beta__ The maintenance policy configured by the user for this Linode. Review [maintenance policy](https://techdocs.akamai.com/cloud-computing/docs/host-maintenance-policy) documentation for more details. |
 | `placement_group` | No | object | __Read-only__ Details on the [placement group](https://www.linode.com/docs/products/compute/compute-instances/guides/placement-groups/) that this Linode belongs to. Empty if the Linode isn't in a placement group. |
 | `region` | No | string | __Filterable__, __Read-only__ The [region](https://techdocs.akamai.com/linode-api/reference/get-regions) where the Linode deployed. A Linode's region can only be changed by initiating a [cross data center migration](https://techdocs.akamai.com/linode-api/reference/post-migrate-linode-instance). |
 | `specs` | No | object | __Read-only__ Information about the resources available to this Linode. |
-| `status` | No | string | __Read-only__ A brief description of this Linode's current state. This field may change without direct action from you. For example, when a compute instance goes into maintenance mode, its status is `stopped`. Status is generally self-explanatory, based on its name.
-
-- `busy` indicates you've assigned the compute instance to a [placement group](https://techdocs.akamai.com/cloud-computing/docs/work-with-placement-groups), but the compute instance is currently booting. Once the boot completes, the API completes the assignment and updates the compute instance's `status` accordingly.
-- `provisioning` indicates that the API is applying operating system or Marketplace applications on the compute instance.
-- `billing_suspension` indicates that payment is past due on the compute instance, so we've suspended its use. |
+| `status` | No | string | __Read-only__ A brief description of this Linode's current state. This field may change without direct action from you. For example, when a compute instance goes into maintenance mode, its status is `stopped`. Status is generally self-explanatory, based on its name.<br/><br/>- `busy` indicates you've assigned the compute instance to a [placement group](https://techdocs.akamai.com/cloud-computing/docs/work-with-placement-groups), but the compute instance is currently booting. Once the boot completes, the API completes the assignment and updates the compute instance's `status` accordingly.<br/>- `provisioning` indicates that the API is applying operating system or Marketplace applications on the compute instance.<br/>- `billing_suspension` indicates that payment is past due on the compute instance, so we've suspended its use. |
 | `tags` | No | array<string> | __Filterable__ Tags to help you organize your content. |
 | `type` | No | string | __Read-only__ This is the [Linode type](https://techdocs.akamai.com/linode-api/reference/get-linode-types) that this Linode was deployed with. To change a Linode's type, use [Resize a Linode](https://techdocs.akamai.com/linode-api/reference/post-resize-linode-instance). |
 | `updated` | No | string | __Read-only__ When this Linode was last updated. |

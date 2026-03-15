@@ -13,15 +13,15 @@ Allows to update an access group metadata
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | *Serialization: style=Simple* |
+| `idOrName` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,10 +33,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | The name of the access group |
-| `projects` | No | array<object> |  |
 | `membersToAdd` | No | array<string> | List of members to add to the access group. |
 | `membersToRemove` | No | array<string> | List of members to remove from the access group. |
+| `name` | No | string | The name of the access group |
+| `projects` | No | array<object> |  |
 
 
 ## Responses
@@ -46,16 +46,16 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `entitlements` | Yes | array<string> |  |
-| `name` | Yes | string | The name of this access group. |
-| `createdAt` | Yes | string | Timestamp in milliseconds when the access group was created. |
-| `teamId` | Yes | string | ID of the team that this access group belongs to. |
-| `updatedAt` | Yes | string | Timestamp in milliseconds when the access group was last updated. |
 | `accessGroupId` | Yes | string | ID of the access group. |
+| `createdAt` | Yes | string | Timestamp in milliseconds when the access group was created. |
+| `entitlements` | Yes | array<string> |  |
 | `membersCount` | Yes | number | Number of members in the access group. |
+| `name` | Yes | string | The name of this access group. |
 | `projectsCount` | Yes | number | Number of projects in the access group. |
-| `teamRoles` | No | array<string> | Roles that the team has in the access group. |
+| `teamId` | Yes | string | ID of the team that this access group belongs to. |
 | `teamPermissions` | No | array<string> | Permissions that the team has in the access group. |
+| `teamRoles` | No | array<string> | Roles that the team has in the access group. |
+| `updatedAt` | Yes | string | Timestamp in milliseconds when the access group was last updated. |
 
 
 ### 400

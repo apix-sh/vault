@@ -13,20 +13,20 @@ Lists flag versions for a given flag.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectIdOrName` | Yes | string | *Serialization: style=Simple* |
-| `flagIdOrSlug` | Yes | string | *Serialization: style=Simple* |
+| `projectIdOrName` | Yes | string |  |
+| `flagIdOrSlug` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | number | *Serialization: style=Form* |
-| `cursor` | No | string | Pagination cursor<br/>*Serialization: style=Form* |
-| `environment` | No | string | Environment to filter by<br/>*Serialization: style=Form* |
-| `withMetadata` | No | boolean | Whether to include metadata<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `limit` | No | number |  |
+| `cursor` | No | string | Pagination cursor |
+| `environment` | No | string | Environment to filter by |
+| `withMetadata` | No | boolean | Whether to include metadata |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -42,8 +42,8 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `versions` | Yes | array<object> |  |
 | `pagination` | Yes | object |  |
+| `versions` | Yes | array<object> |  |
 
 
 ### 304

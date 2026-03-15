@@ -33,8 +33,8 @@ Resume a suspended MySQL Managed Database from your account. This resumes billin
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4` URL.<br/>*Serialization: style=Simple* |
-| `instanceId` | Yes | integer | The ID of the Managed PostgreSQL Database.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4` URL. |
+| `instanceId` | Yes | integer | The ID of the Managed PostgreSQL Database. |
 
 
 ## Query Parameters
@@ -56,11 +56,6 @@ MySQL Manged Database successfully resumed.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{}
-```
 
 
 ### default

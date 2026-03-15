@@ -35,8 +35,8 @@ View the details of the specified Payment Method.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `paymentMethodId` | Yes | integer | The ID of the Payment Method to look up.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `paymentMethodId` | Yes | integer | The ID of the Payment Method to look up. |
 
 
 ## Query Parameters

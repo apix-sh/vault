@@ -35,15 +35,15 @@ Returns a paginated list of the Block Storage volumes that you have permission t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -65,36 +65,6 @@ The Block Storage volumes on your account are returned.
 | `page` | No | integer | __Read-only__ The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | No | integer | __Read-only__ The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | No | integer | __Read-only__ The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "created": "2025-01-01T00:01:01",
-      "encryption": "enabled",
-      "filesystem_path": "/dev/disk/by-id/scsi-0Linode_Volume_my-volume",
-      "hardware_type": "nvme",
-      "id": 12345,
-      "io_ready": true,
-      "label": "Video-file-storage",
-      "linode_id": 12346,
-      "linode_label": "linode123",
-      "region": "us-iad",
-      "size": 30,
-      "status": "active",
-      "tags": [
-        "blk-stg-volume-1",
-        "videos-storage"
-      ],
-      "updated": "2025-01-01T00:01:01"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

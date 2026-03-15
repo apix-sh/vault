@@ -39,8 +39,8 @@ Acknowledge an event by marking it as seen.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `eventId` | Yes | integer | The ID of the Event to designate as seen.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `eventId` | Yes | integer | The ID of the Event to designate as seen. |
 
 
 ## Query Parameters

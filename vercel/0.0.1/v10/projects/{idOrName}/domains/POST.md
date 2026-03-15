@@ -13,15 +13,15 @@ Add a domain to the project by passing its domain name and by specifying the pro
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The unique project identifier or the project name<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The unique project identifier or the project name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,9 +33,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | The project domain name |
-| `gitBranch` | No | string | Git branch to link the project domain |
 | `customEnvironmentId` | No | string | The unique custom environment identifier within the project |
+| `gitBranch` | No | string | Git branch to link the project domain |
+| `name` | Yes | string | The project domain name |
 | `redirect` | No | string | Target destination domain for redirect |
 | `redirectStatusCode` | No | integer | Status code for domain redirect |
 
@@ -49,17 +49,17 @@ The domain was successfully added to the project
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string |  |
 | `apexName` | Yes | string |  |
+| `createdAt` | No | number |  |
+| `customEnvironmentId` | No | string |  |
+| `gitBranch` | No | string |  |
+| `name` | Yes | string |  |
 | `projectId` | Yes | string |  |
 | `redirect` | No | string |  |
 | `redirectStatusCode` | No | number |  |
-| `gitBranch` | No | string |  |
-| `customEnvironmentId` | No | string |  |
 | `updatedAt` | No | number |  |
-| `createdAt` | No | number |  |
-| `verified` | Yes | boolean | `true` if the domain is verified for use with the project. If `false` it will not be used as an alias on this project until the challenge in `verification` is completed. |
 | `verification` | No | array<object> | A list of verification challenges, one of which must be completed to verify the domain for use on the project. After the challenge is complete `POST /projects/:idOrName/domains/:domain/verify` to verify the domain. Possible challenges: - If `verification.type = TXT` the `verification.domain` will be checked for a TXT record matching `verification.value`. |
+| `verified` | Yes | boolean | `true` if the domain is verified for use with the project. If `false` it will not be used as an alias on this project until the challenge in `verification` is completed. |
 
 
 ### 400

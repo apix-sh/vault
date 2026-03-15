@@ -44,13 +44,9 @@ To replace an expired certificate, [delete your current certificates](https://te
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `regionId` | Yes | string | Identifies a region where this bucket lives.
-
-> 📘
->
-> You can use a `clusterId` in place of `regionId` in requests for buckets that you created using the legacy version of the API. Run [List clusters](https://techdocs.akamai.com/linode-api/reference/get-object-storage-clusters) to see each cluster `id`.<br/>*Serialization: style=Simple* |
-| `bucket` | Yes | string | The bucket name.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `regionId` | Yes | string | Identifies a region where this bucket lives.<br/><br/>> 📘<br/>><br/>> You can use a `clusterId` in place of `regionId` in requests for buckets that you created using the legacy version of the API. Run [List clusters](https://techdocs.akamai.com/linode-api/reference/get-object-storage-clusters) to see each cluster `id`. |
+| `bucket` | Yes | string | The bucket name. |
 
 
 ## Query Parameters
@@ -67,12 +63,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `certificate` | Yes | string | Your Base64 encoded and PEM formatted SSL certificate.
-
-Line breaks must be represented as `\n` in the string for requests (but not when using the Linode CLI) |
-| `private_key` | Yes | string | The private key associated with this TLS/SSL certificate.
-
-Line breaks must be represented as `\n` in the string for requests (but not when using the Linode CLI) |
+| `certificate` | Yes | string | Your Base64 encoded and PEM formatted SSL certificate.<br/><br/>Line breaks must be represented as `\n` in the string for requests (but not when using the Linode CLI) |
+| `private_key` | Yes | string | The private key associated with this TLS/SSL certificate.<br/><br/>Line breaks must be represented as `\n` in the string for requests (but not when using the Linode CLI) |
 
 
 ## Responses

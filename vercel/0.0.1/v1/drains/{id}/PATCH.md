@@ -13,15 +13,15 @@ Update the configuration of an existing drain.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | *Serialization: style=Simple* |
+| `id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,16 +33,16 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string |  |
-| `projects` | No | string |  |
-| `projectIds` | No | array<string> |  |
+| `delivery` | No | oneOf(2) |  |
 | `filter` | No | oneOf(2) |  |
-| `schemas` | No | object |  |
-| `delivery` | No | any |  |
+| `name` | No | string |  |
+| `projectIds` | No | array<string> |  |
+| `projects` | No | string |  |
 | `sampling` | No | array<object> |  |
-| `transforms` | No | array<object> |  |
+| `schemas` | No | object |  |
+| `source` | No | oneOf(2) |  |
 | `status` | No | string |  |
-| `source` | No | any |  |
+| `transforms` | No | array<object> |  |
 
 
 ## Responses

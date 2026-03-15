@@ -13,22 +13,22 @@ Downloads a cache artifact indentified by its `hash` specified on the request pa
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `hash` | Yes | string | The artifact hash<br/>*Serialization: style=Simple* |
+| `hash` | Yes | string | The artifact hash |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 ## Header Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `x-artifact-client-ci` | No | string | The continuous integration or delivery environment where this artifact is downloaded.<br/>*Serialization: style=Simple* |
-| `x-artifact-client-interactive` | No | integer | 1 if the client is an interactive shell. Otherwise 0<br/>*Serialization: style=Simple* |
+| `x-artifact-client-ci` | No | string | The continuous integration or delivery environment where this artifact is downloaded. |
+| `x-artifact-client-interactive` | No | integer | 1 if the client is an interactive shell. Otherwise 0 |
 
 
 ## Request Body

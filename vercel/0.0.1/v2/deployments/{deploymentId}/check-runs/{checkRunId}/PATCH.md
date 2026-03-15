@@ -13,16 +13,16 @@ Update an existing check run for a deployment.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deploymentId` | Yes | string | *Serialization: style=Simple* |
-| `checkRunId` | Yes | string | *Serialization: style=Simple* |
+| `deploymentId` | Yes | string |  |
+| `checkRunId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -34,13 +34,13 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `externalId` | No | string |  |
-| `externalUrl` | No | string |  |
-| `status` | No | string |  |
-| `output` | No | object |  |
 | `completedAt` | No | number |  |
 | `conclusion` | No | string |  |
 | `conclusionText` | No | string |  |
+| `externalId` | No | string |  |
+| `externalUrl` | No | string |  |
+| `output` | No | object |  |
+| `status` | No | string |  |
 
 
 ## Responses
@@ -50,26 +50,26 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string |  |
-| `name` | Yes | string |  |
-| `checkId` | Yes | string |  |
-| `ownerId` | Yes | string |  |
-| `deploymentId` | Yes | string |  |
-| `projectId` | No | string |  |
-| `source` | Yes | oneOf(3) |  |
-| `requires` | No | string |  |
 | `blocks` | No | string |  |
-| `targets` | No | array<string> |  |
-| `status` | Yes | string |  |
+| `checkId` | Yes | string |  |
+| `completedAt` | No | number |  |
 | `conclusion` | No | string |  |
 | `conclusionText` | No | string |  |
+| `createdAt` | Yes | number |  |
+| `deploymentId` | Yes | string |  |
 | `externalId` | No | string |  |
 | `externalUrl` | No | string |  |
+| `id` | Yes | string |  |
+| `name` | Yes | string |  |
 | `output` | No | object |  |
+| `ownerId` | Yes | string |  |
+| `projectId` | No | string |  |
+| `requires` | No | string |  |
+| `source` | Yes | oneOf(3) |  |
+| `status` | Yes | string |  |
+| `targets` | No | array<string> |  |
 | `timeout` | Yes | number |  |
-| `createdAt` | Yes | number |  |
 | `updatedAt` | Yes | number |  |
-| `completedAt` | No | number |  |
 
 
 ### 400

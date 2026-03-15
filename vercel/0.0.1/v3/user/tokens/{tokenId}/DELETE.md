@@ -13,7 +13,7 @@ Invalidate an authentication token, such that it will no longer be valid for fut
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tokenId` | Yes | string | The identifier of the token to invalidate. The special value \"current\" may be supplied, which invalidates the token that the HTTP request was authenticated with.<br/>*Serialization: style=Simple* |
+| `tokenId` | Yes | string | The identifier of the token to invalidate. The special value \"current\" may be supplied, which invalidates the token that the HTTP request was authenticated with. |
 
 
 ## Query Parameters

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/deploy-requests/{number}/reviews"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,14 +25,17 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization the deploy request belongs to<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the database the deploy request belongs to<br/>*Serialization: style=Simple* |
-| `number` | Yes | integer | The number of the deploy request<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization the deploy request belongs to |
+| `database` | Yes | string | The name of the database the deploy request belongs to |
+| `number` | Yes | integer | The number of the deploy request |
 
 
 ## Query Parameters
 
-_(None)_
+| Name | Required | Type | Description |
+| :--- | :------: | :--- | :---------- |
+| `page` | No | integer | If provided, specifies the page offset of returned results |
+| `per_page` | No | integer | If provided, specifies the number of returned results |
 
 
 
@@ -50,11 +54,11 @@ Returns an array of deploy request reviews
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `current_page` | Yes | integer | The current page number |
+| `data` | Yes | array<object> |  |
 | `next_page` | Yes | integer | The next page number |
 | `next_page_url` | Yes | string | The next page of results |
 | `prev_page` | Yes | integer | The previous page number |
 | `prev_page_url` | Yes | string | The previous page of results |
-| `data` | Yes | array<object> |  |
 
 
 ### 401

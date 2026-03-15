@@ -13,17 +13,17 @@ Rerequest a selected check that has failed.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deploymentId` | Yes | string | The deployment to rerun the check for.<br/>*Serialization: style=Simple* |
-| `checkId` | Yes | string | The check to rerun<br/>*Serialization: style=Simple* |
+| `deploymentId` | Yes | string | The deployment to rerun the check for. |
+| `checkId` | Yes | string | The check to rerun |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `autoUpdate` | No | boolean | Mark the check as running<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `autoUpdate` | No | boolean | Mark the check as running |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

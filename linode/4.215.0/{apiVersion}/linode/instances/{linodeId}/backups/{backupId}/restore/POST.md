@@ -53,9 +53,9 @@ To learn more about block device assignments and viewing your disks' UUIDs, see 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | The ID of the Linode that the Backup belongs to.<br/>*Serialization: style=Simple* |
-| `backupId` | Yes | integer | The ID of the Backup to restore.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | The ID of the Linode that the Backup belongs to. |
+| `backupId` | Yes | integer | The ID of the Backup to restore. |
 
 
 ## Query Parameters
@@ -73,9 +73,7 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `linode_id` | Yes | integer | The ID of the Linode to restore a Backup to. |
-| `overwrite` | No | boolean | If `true`, deletes all Disks and Configs on the target Linode before restoring.
-
-If `false`, and the Disk image size is larger than the available space on the Linode, an error message indicating insufficient space is returned. |
+| `overwrite` | No | boolean | If `true`, deletes all Disks and Configs on the target Linode before restoring.<br/><br/>If `false`, and the Disk image size is larger than the available space on the Linode, an error message indicating insufficient space is returned. |
 
 
 ## Responses

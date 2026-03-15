@@ -38,7 +38,7 @@ linodes:read_write
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -55,12 +55,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `ips` | Yes | array<string> | A list of secondary Linode IPs to share with the primary Linode.
-
-- Can include both IPv4 addresses and IPv6 ranges (omit /56 and /64 prefix lengths)
-- Can include both private and public IPv4 addresses.
-- You must have access to all of these addresses and they must be in the same Region as the primary Linode.
-- Enter an empty array to remove all shared IP addresses. |
+| `ips` | Yes | array<string> | A list of secondary Linode IPs to share with the primary Linode.<br/><br/>- Can include both IPv4 addresses and IPv6 ranges (omit /56 and /64 prefix lengths)<br/>- Can include both private and public IPv4 addresses.<br/>- You must have access to all of these addresses and they must be in the same Region as the primary Linode.<br/>- Enter an empty array to remove all shared IP addresses. |
 | `linode_id` | Yes | integer | The ID of the primary Linode that the addresses will be shared with. |
 
 

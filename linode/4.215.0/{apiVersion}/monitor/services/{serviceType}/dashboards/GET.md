@@ -39,8 +39,8 @@ __Beta__ Returns all available dashboards for a given service type.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
-| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
+| `serviceType` | Yes | string | The Akamai Cloud Computing service being monitored. To see your currently supported services, run the [List supported service types](https://techdocs.akamai.com/linode-api/reference/get-monitor-services) operation and store the appropriate `service_type`. |
 
 
 ## Query Parameters
@@ -67,47 +67,6 @@ Returns a paginated list of dashboards.
 | `page` | Yes | integer | __Read-only__ The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | Yes | integer | __Read-only__ The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | Yes | integer | __Read-only__ The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "created": "2024-10-10T05:01:58",
-      "id": 1,
-      "label": "Resource Usage",
-      "service_type": "dbaas",
-      "type": "standard",
-      "updated": "2024-10-10T05:01:58",
-      "widgets": [
-        {
-          "aggregate_function": "sum",
-          "chart_type": "area",
-          "color": "default",
-          "label": "CPU Usage",
-          "metric": "cpu_usage",
-          "size": 12,
-          "unit": "%",
-          "y_label": "cpu_usage"
-        },
-        {
-          "aggregate_function": "sum",
-          "chart_type": "area",
-          "color": "default",
-          "label": "Memory Usage",
-          "metric": "memory_usage",
-          "size": 6,
-          "unit": "%",
-          "y_label": "memory_usage"
-        }
-      ]
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

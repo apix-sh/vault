@@ -40,8 +40,8 @@ This operation can only be accessed by the unrestricted users of the account tha
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `token` | Yes | string | The UUID of the Service Transfer.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `token` | Yes | string | The UUID of the Service Transfer. |
 
 
 ## Query Parameters

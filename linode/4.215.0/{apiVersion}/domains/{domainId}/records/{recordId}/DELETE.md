@@ -35,9 +35,9 @@ Deletes a Record on this Domain.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `domainId` | Yes | integer | The ID of the Domain whose Record you are accessing.<br/>*Serialization: style=Simple* |
-| `recordId` | Yes | integer | The ID of the Record you are accessing.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `domainId` | Yes | integer | The ID of the Domain whose Record you are accessing. |
+| `recordId` | Yes | integer | The ID of the Record you are accessing. |
 
 
 ## Query Parameters

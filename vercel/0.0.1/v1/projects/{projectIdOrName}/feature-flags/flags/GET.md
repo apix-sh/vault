@@ -13,20 +13,20 @@ Retrieve feature flags for a project. The list can be filtered by state and supp
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectIdOrName` | Yes | string | The project id or name<br/>*Serialization: style=Simple* |
+| `projectIdOrName` | Yes | string | The project id or name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `state` | No | string | The state of the flags to retrieve. Defaults to `active`.<br/>*Serialization: style=Form* |
-| `withMetadata` | No | boolean | Whether to include metadata in the response<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Maximum number of flags to return. When not set, all flags are returned.<br/>*Serialization: style=Form* |
-| `cursor` | No | string | Pagination cursor to continue from.<br/>*Serialization: style=Form* |
-| `search` | No | string | Search flags by their slug or description. Case-insensitive.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `state` | No | string | The state of the flags to retrieve. Defaults to `active`. |
+| `withMetadata` | No | boolean | Whether to include metadata in the response |
+| `limit` | No | integer | Maximum number of flags to return. When not set, all flags are returned. |
+| `cursor` | No | string | Pagination cursor to continue from. |
+| `search` | No | string | Search flags by their slug or description. Case-insensitive. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

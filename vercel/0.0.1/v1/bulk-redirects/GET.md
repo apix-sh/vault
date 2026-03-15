@@ -18,16 +18,16 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Form* |
-| `versionId` | No | string | *Serialization: style=Form* |
-| `q` | No | string | *Serialization: style=Form* |
-| `diff` | No | oneOf(2) | *Serialization: style=Form* |
-| `page` | No | integer | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `sort_by` | No | string | *Serialization: style=Form* |
-| `sort_order` | No | string | *Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `projectId` | Yes | string |  |
+| `versionId` | No | string |  |
+| `q` | No | string |  |
+| `diff` | No | oneOf(2) |  |
+| `page` | No | integer |  |
+| `per_page` | No | integer |  |
+| `sort_by` | No | string |  |
+| `sort_order` | No | string |  |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

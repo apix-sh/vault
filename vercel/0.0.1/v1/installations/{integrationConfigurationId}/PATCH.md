@@ -13,7 +13,7 @@ This endpoint updates an integration installation.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -30,10 +30,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `status` | No | string |  |
-| `externalId` | No | string |  |
 | `billingPlan` | No | object |  |
+| `externalId` | No | string |  |
 | `notification` | No | oneOf(2) | A notification to display to your customer. Send `null` to clear the current notification. |
+| `status` | No | string |  |
 
 
 ## Responses

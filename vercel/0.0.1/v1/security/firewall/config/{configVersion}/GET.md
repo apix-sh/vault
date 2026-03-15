@@ -13,16 +13,16 @@ Retrieve the specified firewall configuration for a project. The deployed config
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `configVersion` | Yes | string | The deployed configVersion for the firewall configuration<br/>*Serialization: style=Simple* |
+| `configVersion` | Yes | string | The deployed configVersion for the firewall configuration |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `projectId` | Yes | string |  |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -40,18 +40,19 @@ If the firewall configuration includes a [custom managed ruleset](https://vercel
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `botIdEnabled` | No | boolean |  |
+| `changes` | Yes | array<object> |  |
+| `crs` | Yes | object | Custom Ruleset |
+| `firewallEnabled` | Yes | boolean |  |
+| `id` | Yes | string |  |
+| `ips` | Yes | array<object> |  |
+| `logHeaders` | No | oneOf(2) |  |
+| `managedRules` | No | object |  |
 | `ownerId` | Yes | string |  |
 | `projectKey` | Yes | string |  |
-| `id` | Yes | string |  |
-| `version` | Yes | number |  |
-| `updatedAt` | Yes | string |  |
-| `firewallEnabled` | Yes | boolean |  |
-| `crs` | Yes | object | Custom Ruleset |
 | `rules` | Yes | array<oneOf(2)> |  |
-| `ips` | Yes | array<object> |  |
-| `changes` | Yes | array<object> |  |
-| `managedRules` | No | object |  |
-| `botIdEnabled` | No | boolean |  |
+| `updatedAt` | Yes | string |  |
+| `version` | Yes | number |  |
 
 
 ### 400

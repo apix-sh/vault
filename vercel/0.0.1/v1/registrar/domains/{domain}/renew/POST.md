@@ -13,14 +13,14 @@ Renew a domain
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | Yes | [DomainName](../../../../../_components/schemas/DomainName.md) | *Serialization: style=Simple* |
+| `domain` | Yes | [DomainName](../../../../../_components/schemas/DomainName.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | *Serialization: style=Form* |
+| `teamId` | No | string |  |
 
 
 
@@ -32,9 +32,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `years` | Yes | number | The number of years to renew the domain for. |
-| `expectedPrice` | Yes | number |  |
 | `contactInformation` | No | object |  |
+| `expectedPrice` | Yes | number |  |
+| `years` | Yes | number | The number of years to renew the domain for. |
 
 
 ## Responses
@@ -46,8 +46,8 @@ Success
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `orderId` | Yes | [OrderId](../../../../../_components/schemas/OrderId.md) |  |
 | `_links` | Yes | object |  |
+| `orderId` | Yes | [OrderId](../../../../../_components/schemas/OrderId.md) |  |
 
 
 ### 400

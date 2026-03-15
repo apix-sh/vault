@@ -35,9 +35,9 @@ View an LKE Kubernetes version available for deployment to a Kubernetes cluster 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta.<br/>*Serialization: style=Simple* |
-| `tier` | Yes | string | __Enum__ The LKE tier to use.<br/>*Serialization: style=Simple* |
-| `version` | Yes | string | The LKE version to view.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call the `v4beta` URL for operations still only in beta. |
+| `tier` | Yes | string | __Enum__ The LKE tier to use. |
+| `version` | Yes | string | The LKE version to view. |
 
 
 ## Query Parameters

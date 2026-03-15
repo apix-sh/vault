@@ -35,7 +35,7 @@ Returns a paginated list of Object Storage access keys for authentication.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -62,39 +62,6 @@ A paginated list of Object Storage Keys.
 | `page` | No | integer | __Read-only__ The current [page](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `pages` | No | integer | __Read-only__ The total number of [pages](https://techdocs.akamai.com/linode-api/reference/pagination). |
 | `results` | No | integer | __Read-only__ The total number of results. |
-
-#### Example Payload
-```json
-{
-  "data": [
-    {
-      "access_key": "ABCDEFGHI1JKL2MNOP34",
-      "bucket_access": [
-        {
-          "bucket_name": "example-bucket",
-          "cluster": "us-west-1",
-          "permissions": "read_only",
-          "region": "us-west"
-        }
-      ],
-      "id": 123,
-      "label": "my-key",
-      "limited": true,
-      "regions": [
-        {
-          "endpoint_type": "E1",
-          "id": "us-west",
-          "s3_endpoint": "us-west-00.linodeobjects.com"
-        }
-      ],
-      "secret_key": "[REDACTED]"
-    }
-  ],
-  "page": 1,
-  "pages": 1,
-  "results": 1
-}
-```
 
 
 ### default

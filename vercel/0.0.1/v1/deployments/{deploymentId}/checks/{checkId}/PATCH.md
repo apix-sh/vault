@@ -13,16 +13,16 @@ Update an existing check. This endpoint must be called with an OAuth2 or it will
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deploymentId` | Yes | string | The deployment to update the check for.<br/>*Serialization: style=Simple* |
-| `checkId` | Yes | string | The check being updated<br/>*Serialization: style=Simple* |
+| `deploymentId` | Yes | string | The deployment to update the check for. |
+| `checkId` | Yes | string | The check being updated |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -34,13 +34,13 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | The name of the check being created |
-| `path` | No | string | Path of the page that is being checked |
-| `status` | No | any | The current status of the check |
 | `conclusion` | No | any | The result of the check being run |
 | `detailsUrl` | No | string | A URL a user may visit to see more information about the check |
-| `output` | No | object | The results of the check Run |
 | `externalId` | No | string | An identifier that can be used as an external reference |
+| `name` | No | string | The name of the check being created |
+| `output` | No | object | The results of the check Run |
+| `path` | No | string | Path of the page that is being checked |
+| `status` | No | any | The current status of the check |
 
 
 ## Responses
@@ -50,22 +50,22 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string |  |
-| `name` | Yes | string |  |
-| `createdAt` | Yes | number |  |
-| `updatedAt` | Yes | number |  |
-| `deploymentId` | Yes | string |  |
-| `status` | Yes | string |  |
-| `conclusion` | No | string |  |
-| `externalId` | No | string |  |
-| `output` | No | object |  |
-| `completedAt` | No | number |  |
-| `path` | No | string |  |
 | `blocking` | Yes | boolean |  |
+| `completedAt` | No | number |  |
+| `conclusion` | No | string |  |
+| `createdAt` | Yes | number |  |
+| `deploymentId` | Yes | string |  |
 | `detailsUrl` | No | string |  |
+| `externalId` | No | string |  |
+| `id` | Yes | string |  |
 | `integrationId` | Yes | string |  |
-| `startedAt` | No | number |  |
+| `name` | Yes | string |  |
+| `output` | No | object |  |
+| `path` | No | string |  |
 | `rerequestable` | No | boolean |  |
+| `startedAt` | No | number |  |
+| `status` | Yes | string |  |
+| `updatedAt` | Yes | number |  |
 
 
 ### 400

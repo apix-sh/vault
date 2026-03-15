@@ -40,8 +40,8 @@ This operation can only be accessed by the unrestricted users of an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `contactId` | Yes | integer | The ID of the contact to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `contactId` | Yes | integer | The ID of the contact to access. |
 
 
 ## Query Parameters

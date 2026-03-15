@@ -35,7 +35,7 @@ Returns the contact and billing information related to your account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -75,23 +75,9 @@ Returns a single account object.
 | `first_name` | No | string | The first name of the person assigned to this account. This value can't include the characters, `<` `>` `(` `)` `"` `=`. |
 | `last_name` | No | string | The last name of the person assigned to this account. This value can't include the characters, `<` `>` `(` `)` `"` `=`. |
 | `phone` | No | string | The phone number assigned to this account. |
-| `state` | No | string | The state or province for the `address` set for your account, if applicable.
-
-- If the `address` is in the United States (US) or Canada (CA), this is the two-letter ISO 3166 code for the state or province.
-
-- If it's a US military `address`, this is the abbreviation for that territory. This includes `AA` for Armed Forces Americas (excluding Canada), `AE` for Armed Forces Africa, Europe, Middle East, and Canada, or `AP` for Armed Forces Pacific.
-
-- If outside the US or CA, this is the province associated with the account's `address`. |
-| `tax_id` | No | string | The tax identification number (TIN) assigned to this account, used for tax calculations. A TIN is set by the national authorities in your `country`, based on your `address_1`, and it may be named differently between countries. Set to an empty string (`""`) if a TIN doesn't apply or for countries that don't collect tax.
-
-> 📘
->
-> This value is externally validated. If the validation is successful, a `tax_id_valid` [event](https://techdocs.akamai.com/linode-api/reference/get-events) is triggered. If unsuccessful, a `tax_id_invalid` event is triggered and an error response is issued for an operation that included it. |
-| `zip` | No | string | The zip code for this account's `address`.
-
-- It can only contain ASCII letters, numbers, and dashes (`-`).
-
-- It can't contain more than nine letter or number characters. |
+| `state` | No | string | The state or province for the `address` set for your account, if applicable.<br/><br/>- If the `address` is in the United States (US) or Canada (CA), this is the two-letter ISO 3166 code for the state or province.<br/><br/>- If it's a US military `address`, this is the abbreviation for that territory. This includes `AA` for Armed Forces Americas (excluding Canada), `AE` for Armed Forces Africa, Europe, Middle East, and Canada, or `AP` for Armed Forces Pacific.<br/><br/>- If outside the US or CA, this is the province associated with the account's `address`. |
+| `tax_id` | No | string | The tax identification number (TIN) assigned to this account, used for tax calculations. A TIN is set by the national authorities in your `country`, based on your `address_1`, and it may be named differently between countries. Set to an empty string (`""`) if a TIN doesn't apply or for countries that don't collect tax.<br/><br/>> 📘<br/>><br/>> This value is externally validated. If the validation is successful, a `tax_id_valid` [event](https://techdocs.akamai.com/linode-api/reference/get-events) is triggered. If unsuccessful, a `tax_id_invalid` event is triggered and an error response is issued for an operation that included it. |
+| `zip` | No | string | The zip code for this account's `address`.<br/><br/>- It can only contain ASCII letters, numbers, and dashes (`-`).<br/><br/>- It can't contain more than nine letter or number characters. |
 
 
 ### default

@@ -18,17 +18,17 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 ## Header Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `Content-Length` | No | number | The file size in bytes<br/>*Serialization: style=Simple* |
-| `x-vercel-digest` | No | string | The file SHA1 used to check the integrity<br/>*Serialization: style=Simple* |
-| `x-now-digest` | No | string | The file SHA1 used to check the integrity<br/>*Serialization: style=Simple* |
-| `x-now-size` | No | number | The file size as an alternative to `Content-Length`<br/>*Serialization: style=Simple* |
+| `Content-Length` | No | number | The file size in bytes |
+| `x-vercel-digest` | No | string | The file SHA1 used to check the integrity |
+| `x-now-digest` | No | string | The file SHA1 used to check the integrity |
+| `x-now-size` | No | number | The file size as an alternative to `Content-Length` |
 
 
 ## Request Body

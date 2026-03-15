@@ -50,7 +50,7 @@ linode-cli image-upload \
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -70,11 +70,7 @@ Supported content types:
 | `cloud_init` | No | boolean | Whether the uploaded Image supports cloud-init. |
 | `description` | No | string | Description for the uploaded image. |
 | `label` | Yes | string | Label for the uploaded image. |
-| `region` | Yes | string | The region to upload to. Once uploaded, the image can be used in any region.
-
-> 📘
->
-> Only core regions that support our [Object Storage](https://techdocs.akamai.com/cloud-computing/reference/how-to-choose-a-data-center#product-availability) service can store an uploaded image. |
+| `region` | Yes | string | The region to upload to. Once uploaded, the image can be used in any region.<br/><br/>> 📘<br/>><br/>> Only core regions that support our [Object Storage](https://techdocs.akamai.com/cloud-computing/reference/how-to-choose-a-data-center#product-availability) service can store an uploaded image. |
 | `tags` | No | array<string> | Tags you can use to organize images. A tag can be from 3 to 100 characters long, and an image can have a maximum of 500 total tags. |
 
 

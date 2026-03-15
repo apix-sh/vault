@@ -36,9 +36,9 @@ Returns configuration information for a single port of this NodeBalancer.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `nodeBalancerId` | Yes | integer | The ID of the NodeBalancer.<br/>*Serialization: style=Simple* |
-| `configId` | Yes | integer | The ID of the Config to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `nodeBalancerId` | Yes | integer | The ID of the NodeBalancer. |
+| `configId` | Yes | integer | The ID of the Config to access. |
 
 
 ## Query Parameters

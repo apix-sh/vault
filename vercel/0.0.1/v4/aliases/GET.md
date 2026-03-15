@@ -18,15 +18,15 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | No | any | Get only aliases of the given domain name<br/>*Serialization: style=Form* |
-| `from` | No | number | Get only aliases created after the provided timestamp<br/>*Serialization: style=Form* |
-| `limit` | No | number | Maximum number of aliases to list from a request<br/>*Serialization: style=Form* |
-| `projectId` | No | string | Filter aliases from the given `projectId`<br/>*Serialization: style=Form* |
-| `since` | No | number | Get aliases created after this JavaScript timestamp<br/>*Serialization: style=Form* |
-| `until` | No | number | Get aliases created before this JavaScript timestamp<br/>*Serialization: style=Form* |
-| `rollbackDeploymentId` | No | string | Get aliases that would be rolled back for the given deployment<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `domain` | No | oneOf(2) | Get only aliases of the given domain name |
+| `from` | No | number | Get only aliases created after the provided timestamp |
+| `limit` | No | number | Maximum number of aliases to list from a request |
+| `projectId` | No | string | Filter aliases from the given `projectId` |
+| `since` | No | number | Get aliases created after this JavaScript timestamp |
+| `until` | No | number | Get aliases created before this JavaScript timestamp |
+| `rollbackDeploymentId` | No | string | Get aliases that would be rolled back for the given deployment |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

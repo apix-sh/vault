@@ -13,16 +13,16 @@ Update a project domain's configuration, including the name, git branch and redi
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | string | The unique project identifier or the project name<br/>*Serialization: style=Simple* |
-| `domain` | Yes | string | The project domain name<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | string | The unique project identifier or the project name |
+| `domain` | Yes | string | The project domain name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -48,17 +48,17 @@ The domain was updated successfuly
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string |  |
 | `apexName` | Yes | string |  |
+| `createdAt` | No | number |  |
+| `customEnvironmentId` | No | string |  |
+| `gitBranch` | No | string |  |
+| `name` | Yes | string |  |
 | `projectId` | Yes | string |  |
 | `redirect` | No | string |  |
 | `redirectStatusCode` | No | number |  |
-| `gitBranch` | No | string |  |
-| `customEnvironmentId` | No | string |  |
 | `updatedAt` | No | number |  |
-| `createdAt` | No | number |  |
-| `verified` | Yes | boolean | `true` if the domain is verified for use with the project. If `false` it will not be used as an alias on this project until the challenge in `verification` is completed. |
 | `verification` | No | array<object> | A list of verification challenges, one of which must be completed to verify the domain for use on the project. After the challenge is complete `POST /projects/:idOrName/domains/:domain/verify` to verify the domain. Possible challenges: - If `verification.type = TXT` the `verification.domain` will be checked for a TXT record matching `verification.value`. |
+| `verified` | Yes | boolean | `true` if the domain is verified for use with the project. If `false` it will not be used as an alias on this project until the challenge in `verification` is completed. |
 
 
 ### 400

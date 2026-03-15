@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -31,8 +31,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string |  |
 | `expiresAt` | No | number |  |
+| `name` | Yes | string |  |
 | `projectId` | No | string | The ID of the project to scope this token to |
 
 
@@ -45,8 +45,8 @@ Successful response.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `token` | Yes | [AuthToken](../../../_components/schemas/AuthToken.md) |  |
 | `bearerToken` | Yes | string | The authentication token's actual value. This token is only provided in this response, and can never be retrieved again in the future. Be sure to save it somewhere safe! |
+| `token` | Yes | [AuthToken](../../../_components/schemas/AuthToken.md) |  |
 
 
 ### 400

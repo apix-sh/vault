@@ -13,15 +13,15 @@ Updates an Edge Config.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `edgeConfigId` | Yes | string | *Serialization: style=Simple* |
+| `edgeConfigId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -43,20 +43,20 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `transfer` | No | object | Keeps track of the current state of the Edge Config while it gets transferred. |
-| `id` | Yes | string |  |
 | `createdAt` | Yes | number |  |
 | `createdBy` | No | string | The ID of the user who created the Edge Config, optional because it is not always set. |
-| `ownerId` | Yes | string |  |
-| `slug` | Yes | string | Name for the Edge Config Names are not unique. Must start with an alphabetic character and can contain only alphanumeric characters and underscores). |
-| `updatedAt` | Yes | number |  |
-| `digest` | Yes | string |  |
-| `purpose` | No | oneOf(2) |  |
 | `deletedAt` | No | number |  |
-| `schema` | No | object |  |
-| `syncedToDynamoAt` | No | number | Timestamp of when the Edge Config was synced to DynamoDB initially. It is only set when syncing the entire Edge Config, not when updating. |
-| `sizeInBytes` | Yes | number |  |
+| `digest` | Yes | string |  |
+| `id` | Yes | string |  |
 | `itemCount` | Yes | number |  |
+| `ownerId` | Yes | string |  |
+| `purpose` | No | oneOf(2) |  |
+| `schema` | No | object |  |
+| `sizeInBytes` | Yes | number |  |
+| `slug` | Yes | string | Name for the Edge Config Names are not unique. Must start with an alphabetic character and can contain only alphanumeric characters and underscores). |
+| `syncedToDynamoAt` | No | number | Timestamp of when the Edge Config was synced to DynamoDB initially. It is only set when syncing the entire Edge Config, not when updating. |
+| `transfer` | No | object | Keeps track of the current state of the Edge Config while it gets transferred. |
+| `updatedAt` | Yes | number |  |
 
 
 ### 400

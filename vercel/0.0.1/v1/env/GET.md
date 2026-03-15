@@ -18,15 +18,15 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `search` | No | string | *Serialization: style=Form* |
-| `projectId` | No | string | Filter SharedEnvVariables that belong to a project<br/>*Serialization: style=Form* |
-| `ids` | No | string | Filter SharedEnvVariables based on comma separated ids<br/>*Serialization: style=Form* |
-| `exclude_ids` | No | string | Filter SharedEnvVariables based on comma separated ids<br/>*Serialization: style=Form* |
-| `exclude-ids` | No | string | Filter SharedEnvVariables based on comma separated ids<br/>*Serialization: style=Form* |
-| `exclude_projectId` | No | string | Filter SharedEnvVariables that belong to a project<br/>*Serialization: style=Form* |
-| `exclude-projectId` | No | string | Filter SharedEnvVariables that belong to a project<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `search` | No | string |  |
+| `projectId` | No | string | Filter SharedEnvVariables that belong to a project |
+| `ids` | No | string | Filter SharedEnvVariables based on comma separated ids |
+| `exclude_ids` | No | string | Filter SharedEnvVariables based on comma separated ids |
+| `exclude-ids` | No | string | Filter SharedEnvVariables based on comma separated ids |
+| `exclude_projectId` | No | string | Filter SharedEnvVariables that belong to a project |
+| `exclude-projectId` | No | string | Filter SharedEnvVariables that belong to a project |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

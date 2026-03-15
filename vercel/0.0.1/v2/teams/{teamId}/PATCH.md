@@ -13,14 +13,14 @@ Update the information of a Team specified by the `teamId` parameter. The reques
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | Yes | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Simple* |
+| `teamId` | Yes | string | The Team identifier to perform the request on behalf of. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,24 +33,24 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `avatar` | No | string | The hash value of an uploaded image. |
-| `description` | No | string | A short text that describes the team. |
-| `emailDomain` | No | string |  |
-| `name` | No | string | The name of the team. |
-| `previewDeploymentSuffix` | No | string | Suffix that will be used for all preview deployments. |
-| `regenerateInviteCode` | No | boolean | Create a new invite code and replace the current one. |
-| `saml` | No | object |  |
-| `slug` | No | string | A new slug for the team. |
-| `enablePreviewFeedback` | No | string | Enable preview toolbar: one of on, off or default. |
-| `enableProductionFeedback` | No | string | Enable production toolbar: one of on, off or default. |
-| `sensitiveEnvironmentVariablePolicy` | No | string | Sensitive environment variable policy: one of on, off or default. |
-| `remoteCaching` | No | object | Whether or not remote caching is enabled for the team |
-| `hideIpAddresses` | No | boolean | Display or hide IP addresses in Monitoring queries. |
-| `hideIpAddressesInLogDrains` | No | boolean | Display or hide IP addresses in Log Drains. |
 | `defaultDeploymentProtection` | No | object | Default deployment protection settings for new projects. |
 | `defaultExpirationSettings` | No | object |  |
-| `strictDeploymentProtectionSettings` | No | object | When enabled, deployment protection settings require stricter permissions (owner-only). |
+| `description` | No | string | A short text that describes the team. |
+| `emailDomain` | No | string |  |
+| `enablePreviewFeedback` | No | string | Enable preview toolbar: one of on, off or default. |
+| `enableProductionFeedback` | No | string | Enable production toolbar: one of on, off or default. |
+| `hideIpAddresses` | No | boolean | Display or hide IP addresses in Monitoring queries. |
+| `hideIpAddressesInLogDrains` | No | boolean | Display or hide IP addresses in Log Drains. |
+| `name` | No | string | The name of the team. |
 | `nsnbConfig` | No | anyOf(2) |  |
+| `previewDeploymentSuffix` | No | string | Suffix that will be used for all preview deployments. |
+| `regenerateInviteCode` | No | boolean | Create a new invite code and replace the current one. |
+| `remoteCaching` | No | object | Whether or not remote caching is enabled for the team |
 | `resourceConfig` | No | object | Resource configuration for the team. |
+| `saml` | No | object |  |
+| `sensitiveEnvironmentVariablePolicy` | No | string | Sensitive environment variable policy: one of on, off or default. |
+| `slug` | No | string | A new slug for the team. |
+| `strictDeploymentProtectionSettings` | No | object | When enabled, deployment protection settings require stricter permissions (owner-only). |
 
 
 ## Responses

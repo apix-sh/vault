@@ -50,7 +50,7 @@ Once a VPC is created, it can be attached to a Linode by assigning a VPC Subnet 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -80,10 +80,7 @@ The new VPC.
 | `created` | No | string | __Filterable__, __Read-only__ The date-time of VPC creation. |
 | `description` | No | string | A written description to help distinguish the VPC. |
 | `id` | No | integer | __Filterable__, __Read-only__ The unique ID of the VPC. |
-| `label` | No | string | __Filterable__ The VPC's label, for display purposes only.
-
-- Needs to be unique among the Account's VPCs.
-- Can only contain ASCII letters, numbers, and hyphens (`-`). You can't use two consecutive hyphens (`--`). |
+| `label` | No | string | __Filterable__ The VPC's label, for display purposes only.<br/><br/>- Needs to be unique among the Account's VPCs.<br/>- Can only contain ASCII letters, numbers, and hyphens (`-`). You can't use two consecutive hyphens (`--`). |
 | `region` | No | string | __Filterable__ The Region for the VPC. |
 | `subnets` | No | array<object> | A list of subnets associated with the VPC. |
 | `updated` | No | string | __Filterable__, __Read-only__ The date-time of the most recent VPC update. |

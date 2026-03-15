@@ -39,9 +39,9 @@ Deleting a Node will reduce the size of the Node Pool it belongs to.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `clusterId` | Yes | integer | ID of the Kubernetes cluster containing the Node.<br/>*Serialization: style=Simple* |
-| `nodeId` | Yes | string | The ID of the Node to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `clusterId` | Yes | integer | ID of the Kubernetes cluster containing the Node. |
+| `nodeId` | Yes | string | The ID of the Node to access. |
 
 
 ## Query Parameters

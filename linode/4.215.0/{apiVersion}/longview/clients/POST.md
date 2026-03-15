@@ -36,7 +36,7 @@ Creates a Longview Client.  This Client will not begin monitoring the status of 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -53,15 +53,11 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `api_key` | No | string | __Read-only__ The API key for this Client, used when configuring the Longview Client application on your Linode.
-
-Returns as `[REDACTED]` if you do not have read-write access to this client. |
+| `api_key` | No | string | __Read-only__ The API key for this Client, used when configuring the Longview Client application on your Linode.<br/><br/>Returns as `[REDACTED]` if you do not have read-write access to this client. |
 | `apps` | No | object | __Read-only__ The apps this Client is monitoring on your Linode. This is configured when you install the Longview Client application, and is present here for information purposes only. |
 | `created` | No | string | __Read-only__ When this Longview Client was created. |
 | `id` | No | integer | __Read-only__ This Client's unique ID. |
-| `install_code` | No | string | __Read-only__ The install code for this Client, used when configuring the Longview Client application on your Linode.
-
-Returns as `[REDACTED]` if you do not have read-write access to this client. |
+| `install_code` | No | string | __Read-only__ The install code for this Client, used when configuring the Longview Client application on your Linode.<br/><br/>Returns as `[REDACTED]` if you do not have read-write access to this client. |
 | `label` | No | string | __Filterable__ This Client's unique label. This is for display purposes only. |
 | `updated` | No | string | __Read-only__ When this Longview Client was last updated. |
 
@@ -75,15 +71,11 @@ Longview Client created successfully.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `api_key` | No | string | __Read-only__ The API key for this Client, used when configuring the Longview Client application on your Linode.
-
-Returns as `[REDACTED]` if you do not have read-write access to this client. |
+| `api_key` | No | string | __Read-only__ The API key for this Client, used when configuring the Longview Client application on your Linode.<br/><br/>Returns as `[REDACTED]` if you do not have read-write access to this client. |
 | `apps` | No | object | __Read-only__ The apps this Client is monitoring on your Linode. This is configured when you install the Longview Client application, and is present here for information purposes only. |
 | `created` | No | string | __Read-only__ When this Longview Client was created. |
 | `id` | No | integer | __Read-only__ This Client's unique ID. |
-| `install_code` | No | string | __Read-only__ The install code for this Client, used when configuring the Longview Client application on your Linode.
-
-Returns as `[REDACTED]` if you do not have read-write access to this client. |
+| `install_code` | No | string | __Read-only__ The install code for this Client, used when configuring the Longview Client application on your Linode.<br/><br/>Returns as `[REDACTED]` if you do not have read-write access to this client. |
 | `label` | No | string | __Filterable__ This Client's unique label. This is for display purposes only. |
 | `updated` | No | string | __Read-only__ When this Longview Client was last updated. |
 

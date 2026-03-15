@@ -1,6 +1,7 @@
 ---
 method: "PATCH"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/throttler"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,8 +25,8 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization that the throttled deploy requests belong to<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the database that the throttled deploy requests belong to<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization that the throttled deploy requests belong to |
+| `database` | Yes | string | The name of the database that the throttled deploy requests belong to |
 
 
 ## Query Parameters
@@ -42,8 +43,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `ratio` | No | integer | A throttler ratio between 0 and 95 that will apply to all keyspaces in the database. 0 effectively disables throttler, while 95 drastically slows down deploy request migrations |
 | `configurations` | No | array<string> | If specifying throttler ratios per keyspace, an array of { "keyspace_name": "mykeyspace", "ratio": 10 }, one for each eligible keyspace |
+| `ratio` | No | integer | A throttler ratio between 0 and 95 that will apply to all keyspaces in the database. 0 effectively disables throttler, while 95 drastically slows down deploy request migrations |
 
 
 ## Responses
@@ -55,9 +56,9 @@ Database throttler configurations
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `keyspaces` | Yes | array<string> | Keyspaces that are eligible for throttler configuration in the configurable resource (database or deploy request) |
 | `configurable` | Yes | object |  |
 | `configurations` | Yes | array<object> |  |
+| `keyspaces` | Yes | array<string> | Keyspaces that are eligible for throttler configuration in the configurable resource (database or deploy request) |
 
 
 ### 401

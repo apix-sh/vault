@@ -8,15 +8,15 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `hashKey` | Yes | string |  |
-| `projectId` | Yes | string |  |
-| `type` | Yes | string | Allowed values: server, mobile, client |
-| `environment` | Yes | string |  |
-| `createdBy` | Yes | string |  |
-| `createdAt` | Yes | number |  |
-| `updatedAt` | Yes | number |  |
-| `label` | No | string |  |
-| `deletedAt` | No | number |  |
-| `keyValue` | No | string | Cleartext value of the SDK key |
-| `tokenValue` | No | string | Cleartext value of the Edge Config token |
 | `connectionString` | No | string | Connection string for the SDK |
+| `createdAt` | Yes | number |  |
+| `createdBy` | Yes | string |  |
+| `deletedAt` | No | number |  |
+| `environment` | Yes | string |  |
+| `hashKey` | Yes | string |  |
+| `keyValue` | No | string | Cleartext value of the SDK key |
+| `label` | No | string |  |
+| `projectId` | Yes | string |  |
+| `tokenValue` | No | string | Cleartext value of the Edge Config token |
+| `type` | Yes | string | Allowed values: server, mobile, client |
+| `updatedAt` | Yes | number |  |

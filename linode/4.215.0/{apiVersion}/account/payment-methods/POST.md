@@ -57,7 +57,7 @@ In a [parent and child account](https://www.linode.com/docs/guides/parent-child-
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -76,10 +76,7 @@ Supported content types:
 | :--- | :---: | :--- | :--- |
 | `data` | Yes | object | An object representing the credit card information you have on file with Linode to make Payments against your Account. |
 | `is_default` | Yes | boolean | Whether this Payment Method is the default method for automatically processing service charges. |
-| `type` | Yes | string | The type of Payment Method.
-
-Alternative Payment Methods including Google Pay and PayPal can be added using the Cloud Manager. See the [Manage Payment Methods](https://www.linode.com/docs/products/platform/billing/guides/payment-methods/) guide
-for details and instructions. |
+| `type` | Yes | string | The type of Payment Method.<br/><br/>Alternative Payment Methods including Google Pay and PayPal can be added using the Cloud Manager. See the [Manage Payment Methods](https://www.linode.com/docs/products/platform/billing/guides/payment-methods/) guide<br/>for details and instructions. |
 
 
 ## Responses

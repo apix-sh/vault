@@ -29,7 +29,7 @@ Adds a credit card Payment Method to your account and sets it as the default met
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -48,15 +48,8 @@ Supported content types:
 | :--- | :---: | :--- | :--- |
 | `card_number` | Yes | string | Your credit card number. No spaces or hyphens (`-`) allowed. |
 | `cvv` | Yes | string | CVV (Card Verification Value) of the credit card, typically found on the back of the card. |
-| `expiry_month` | Yes | integer | A value from 1-12 representing the expiration month of your credit card.
-
-  - 1 = January
-  - 2 = February
-  - 3 = March
-  - Etc. |
-| `expiry_year` | Yes | any | A four-digit integer representing the expiration year of your credit card.
-
-The combination of `expiry_month` and `expiry_year` must result in a month/year combination of the current month or in the future. An expiration date set in the past is invalid. |
+| `expiry_month` | Yes | integer | A value from 1-12 representing the expiration month of your credit card.<br/><br/>  - 1 = January<br/>  - 2 = February<br/>  - 3 = March<br/>  - Etc. |
+| `expiry_year` | Yes | integer | A four-digit integer representing the expiration year of your credit card.<br/><br/>The combination of `expiry_month` and `expiry_year` must result in a month/year combination of the current month or in the future. An expiration date set in the past is invalid. |
 
 
 ## Responses

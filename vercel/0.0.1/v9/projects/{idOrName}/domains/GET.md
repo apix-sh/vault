@@ -13,26 +13,26 @@ Retrieve the domains associated with a given project by passing either the proje
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrName` | Yes | oneOf(1) | The unique project identifier or the project name<br/>*Serialization: style=Simple* |
+| `idOrName` | Yes | oneOf(1) | The unique project identifier or the project name |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `production` | No | any | Filters only production domains when set to `true`.<br/>*Serialization: style=Form* |
-| `target` | No | string | Filters on the target of the domain. Can be either \"production\", \"preview\"<br/>*Serialization: style=Form* |
-| `customEnvironmentId` | No | string | The unique custom environment identifier within the project<br/>*Serialization: style=Form* |
-| `gitBranch` | No | string | Filters domains based on specific branch.<br/>*Serialization: style=Form* |
-| `redirects` | No | any | Excludes redirect project domains when \"false\". Includes redirect project domains when \"true\" (default).<br/>*Serialization: style=Form* |
-| `redirect` | No | string | Filters domains based on their redirect target.<br/>*Serialization: style=Form* |
-| `verified` | No | any | Filters domains based on their verification status.<br/>*Serialization: style=Form* |
-| `limit` | No | number | Maximum number of domains to list from a request (max 100).<br/>*Serialization: style=Form* |
-| `since` | No | number | Get domains created after this JavaScript timestamp.<br/>*Serialization: style=Form* |
-| `until` | No | number | Get domains created before this JavaScript timestamp.<br/>*Serialization: style=Form* |
-| `order` | No | any | Domains sort order by createdAt<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `production` | No | any | Filters only production domains when set to `true`. |
+| `target` | No | string | Filters on the target of the domain. Can be either \"production\", \"preview\" |
+| `customEnvironmentId` | No | string | The unique custom environment identifier within the project |
+| `gitBranch` | No | string | Filters domains based on specific branch. |
+| `redirects` | No | any | Excludes redirect project domains when \"false\". Includes redirect project domains when \"true\" (default). |
+| `redirect` | No | string | Filters domains based on their redirect target. |
+| `verified` | No | any | Filters domains based on their verification status. |
+| `limit` | No | number | Maximum number of domains to list from a request (max 100). |
+| `since` | No | number | Get domains created after this JavaScript timestamp. |
+| `until` | No | number | Get domains created before this JavaScript timestamp. |
+| `order` | No | any | Domains sort order by createdAt |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

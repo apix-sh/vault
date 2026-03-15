@@ -18,12 +18,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `includeHostedZones` | No | boolean | Whether to include Hosted Zones in the response<br/>*Serialization: style=Form* |
-| `includePeeringConnections` | No | boolean | Whether to include VPC Peering connections in the response<br/>*Serialization: style=Form* |
-| `includeProjects` | No | boolean | Whether to include projects in the response<br/>*Serialization: style=Form* |
-| `search` | No | string | The query to use as a filter for returned networks<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `includeHostedZones` | No | boolean | Whether to include Hosted Zones in the response |
+| `includePeeringConnections` | No | boolean | Whether to include VPC Peering connections in the response |
+| `includeProjects` | No | boolean | Whether to include projects in the response |
+| `search` | No | string | The query to use as a filter for returned networks |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

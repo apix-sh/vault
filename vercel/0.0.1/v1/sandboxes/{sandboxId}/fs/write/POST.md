@@ -13,21 +13,21 @@ Uploads and extracts files to a sandbox's filesystem. Files must be uploaded as 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `sandboxId` | Yes | string | The unique identifier of the sandbox to write files to.<br/>*Serialization: style=Simple* |
+| `sandboxId` | Yes | string | The unique identifier of the sandbox to write files to. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 ## Header Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `x-cwd` | No | string | The target directory where the tarball contents will be extracted. If not specified, files are extracted to the sandbox home directory.<br/>*Serialization: style=Simple* |
+| `x-cwd` | No | string | The target directory where the tarball contents will be extracted. If not specified, files are extracted to the sandbox home directory. |
 
 
 ## Request Body

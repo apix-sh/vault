@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/branches/{branch}/bouncers"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,9 +25,9 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`.<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`.<br/>*Serialization: style=Simple* |
-| `branch` | Yes | string | Branch name from `list_branches`. Example: `main`.<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`. |
+| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`. |
+| `branch` | Yes | string | Branch name from `list_branches`. Example: `main`. |
 
 
 ## Query Parameters
@@ -43,10 +44,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | No | string | The bouncer name |
-| `target` | No | string | The type of server the bouncer targets |
 | `bouncer_size` | No | string | The size SKU for the bouncer |
+| `name` | No | string | The bouncer name |
 | `replicas_per_cell` | No | integer | The number of replica servers per cell |
+| `target` | No | string | The type of server the bouncer targets |
 
 
 ## Responses
@@ -58,17 +59,17 @@ Returns the new bouncer
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | The ID of the bouncer |
-| `name` | Yes | string | The name of the bouncer |
-| `sku` | Yes | object |  |
-| `target` | Yes | string | The instance type the bouncer targets |
-| `replicas_per_cell` | Yes | integer | The count of replicas in each cell |
-| `created_at` | Yes | string | When the bouncer was created |
-| `updated_at` | Yes | string | When the bouncer was updated |
-| `deleted_at` | Yes | string | When the bouncer was deleted |
 | `actor` | Yes | object |  |
 | `branch` | Yes | object |  |
+| `created_at` | Yes | string | When the bouncer was created |
+| `deleted_at` | Yes | string | When the bouncer was deleted |
+| `id` | Yes | string | The ID of the bouncer |
+| `name` | Yes | string | The name of the bouncer |
 | `parameters` | Yes | array<object> |  |
+| `replicas_per_cell` | Yes | integer | The count of replicas in each cell |
+| `sku` | Yes | object |  |
+| `target` | Yes | string | The instance type the bouncer targets |
+| `updated_at` | Yes | string | When the bouncer was updated |
 
 
 ### 401

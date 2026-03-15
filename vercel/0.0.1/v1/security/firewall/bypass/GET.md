@@ -18,14 +18,14 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Form* |
-| `limit` | No | number | *Serialization: style=Form* |
-| `sourceIp` | No | string | Filter by source IP<br/>*Serialization: style=Form* |
-| `domain` | No | string | Filter by domain<br/>*Serialization: style=Form* |
-| `projectScope` | No | boolean | Filter by project scoped rules<br/>*Serialization: style=Form* |
-| `offset` | No | string | Used for pagination. Retrieves results after the provided id<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `projectId` | Yes | string |  |
+| `limit` | No | number |  |
+| `sourceIp` | No | string | Filter by source IP |
+| `domain` | No | string | Filter by domain |
+| `projectScope` | No | boolean | Filter by project scoped rules |
+| `offset` | No | string | Used for pagination. Retrieves results after the provided id |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -41,8 +41,8 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `result` | Yes | array<object> |  |
 | `pagination` | No | object |  |
+| `result` | Yes | array<object> |  |
 
 
 ### 400

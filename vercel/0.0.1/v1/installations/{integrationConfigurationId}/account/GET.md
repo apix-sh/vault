@@ -13,7 +13,7 @@ Fetches the best account or user’s contact info
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -34,9 +34,9 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `contact` | Yes | object | The best contact for the integration, which can change as team members and their roles change. |
 | `name` | No | string | The name of the team the installation is tied to. |
 | `url` | Yes | string | A URL linking to the installation in the Vercel Dashboard. |
-| `contact` | Yes | object | The best contact for the integration, which can change as team members and their roles change. |
 
 
 ### 400

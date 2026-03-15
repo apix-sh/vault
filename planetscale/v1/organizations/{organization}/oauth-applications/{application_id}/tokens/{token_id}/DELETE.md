@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.planetscale.com/v1/organizations/{organization}/oauth-applications/{application_id}/tokens/{token_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -19,9 +20,9 @@ A service token   must have at least one of the following access   in order to u
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization the OAuth application belongs to<br/>*Serialization: style=Simple* |
-| `application_id` | Yes | string | The ID of the OAuth application<br/>*Serialization: style=Simple* |
-| `token_id` | Yes | string | The ID of the OAuth application token<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization the OAuth application belongs to |
+| `application_id` | Yes | string | The ID of the OAuth application |
+| `token_id` | Yes | string | The ID of the OAuth application token |
 
 
 ## Query Parameters

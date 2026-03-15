@@ -18,14 +18,14 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | No | string | Filter access groups by project.<br/>*Serialization: style=Form* |
-| `search` | No | string | Search for access groups by name.<br/>*Serialization: style=Form* |
-| `membersLimit` | No | integer | Number of members to include in the response.<br/>*Serialization: style=Form* |
-| `projectsLimit` | No | integer | Number of projects to include in the response.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Limit how many access group should be returned.<br/>*Serialization: style=Form* |
-| `next` | No | string | Continuation cursor to retrieve the next page of results.<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `projectId` | No | string | Filter access groups by project. |
+| `search` | No | string | Search for access groups by name. |
+| `membersLimit` | No | integer | Number of members to include in the response. |
+| `projectsLimit` | No | integer | Number of projects to include in the response. |
+| `limit` | No | integer | Limit how many access group should be returned. |
+| `next` | No | string | Continuation cursor to retrieve the next page of results. |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

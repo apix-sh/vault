@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/deploy-requests/{number}/reviews"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,9 +25,9 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization the deploy request belongs to<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the database the deploy request belongs to<br/>*Serialization: style=Simple* |
-| `number` | Yes | integer | The number of the deploy request<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization the deploy request belongs to |
+| `database` | Yes | string | The name of the database the deploy request belongs to |
+| `number` | Yes | integer | The number of the deploy request |
 
 
 ## Query Parameters
@@ -43,8 +44,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `state` | No | string | Whether the review is a comment or approval. Service tokens must have corresponding access (either `approve_deploy_request` or `review_deploy_request`) |
 | `body` | No | string | Deploy request review comments |
+| `state` | No | string | Whether the review is a comment or approval. Service tokens must have corresponding access (either `approve_deploy_request` or `review_deploy_request`) |
 
 
 ## Responses
@@ -56,13 +57,13 @@ Returns the created deploy request review
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | The ID of the review |
-| `body` | Yes | string | The text body of the review |
-| `html_body` | Yes | string | The HTML body of the review |
-| `state` | Yes | string | Whether the review is a comment or approval |
-| `created_at` | Yes | string | When the review was created |
-| `updated_at` | Yes | string | When the review was last updated |
 | `actor` | Yes | object |  |
+| `body` | Yes | string | The text body of the review |
+| `created_at` | Yes | string | When the review was created |
+| `html_body` | Yes | string | The HTML body of the review |
+| `id` | Yes | string | The ID of the review |
+| `state` | Yes | string | Whether the review is a comment or approval |
+| `updated_at` | Yes | string | When the review was last updated |
 
 
 ### 401

@@ -35,8 +35,8 @@ Returns a single Personal Access Token.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `tokenId` | Yes | integer | The ID of the token to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `tokenId` | Yes | integer | The ID of the token to access. |
 
 
 ## Query Parameters

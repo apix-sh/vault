@@ -13,15 +13,15 @@ Accept a project transfer request initated by another team. <br/> The `code` is 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `code` | Yes | string | The code of the project transfer request.<br/>*Serialization: style=Simple* |
+| `code` | Yes | string | The code of the project transfer request. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,9 +33,9 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `acceptedPolicies` | No | object |  |
 | `newProjectName` | No | string | The desired name for the project |
 | `paidFeatures` | No | object |  |
-| `acceptedPolicies` | No | object |  |
 
 
 ## Responses

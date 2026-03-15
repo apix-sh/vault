@@ -35,8 +35,8 @@ __Beta__ This operation returns all interfaces assigned to a specific Linode. Th
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `linodeId` | Yes | integer | The `id` of the Linode.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `linodeId` | Yes | integer | The `id` of the Linode. |
 
 
 ## Query Parameters
@@ -59,7 +59,7 @@ A list of all the interfaces available for a Linode.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `interfaces` | Yes | array<any> | Any of the following interface types: VPC, public, or VLAN. |
+| `interfaces` | Yes | array<anyOf(3)> | Any of the following interface types: VPC, public, or VLAN. |
 
 
 ### default

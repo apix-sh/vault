@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/branches/{branch}/query-patterns"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -25,9 +26,9 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization the branch belongs to<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the database the branch belongs to<br/>*Serialization: style=Simple* |
-| `branch` | Yes | string | The name of the branch<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization the branch belongs to |
+| `database` | Yes | string | The name of the database the branch belongs to |
+| `branch` | Yes | string | The name of the branch |
 
 
 ## Query Parameters
@@ -50,13 +51,13 @@ The created query patterns download
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
+| `actor` | Yes | object |  |
+| `created_at` | Yes | string | When the download was created |
+| `download_url` | Yes | string | The URL to download the query patterns file |
+| `finished_at` | Yes | string | When the download was finished |
 | `id` | Yes | string | The ID of the query patterns download |
 | `state` | Yes | string | The state of the download |
-| `created_at` | Yes | string | When the download was created |
-| `finished_at` | Yes | string | When the download was finished |
 | `url` | Yes | string | The URL to access the query patterns download |
-| `download_url` | Yes | string | The URL to download the query patterns file |
-| `actor` | Yes | object |  |
 
 
 ### 401

@@ -40,8 +40,8 @@ Response indicating that the User deletion process has been initiated, and a con
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | Unique identifier of the User who has initiated deletion. |
 | `email` | Yes | string | Email address of the User who has initiated deletion. |
+| `id` | Yes | string | Unique identifier of the User who has initiated deletion. |
 | `message` | Yes | string | User deletion progress status. |
 
 

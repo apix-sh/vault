@@ -36,8 +36,8 @@ Updates the label of a Managed Credential. This operation does not update the us
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `credentialId` | Yes | integer | The ID of the Credential to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `credentialId` | Yes | integer | The ID of the Credential to access. |
 
 
 ## Query Parameters

@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `status` | Yes | number |  |
 | `code` | Yes | string | Allowed values: not_authorized_for_scope |
 | `message` | Yes | string |  |
+| `status` | Yes | number |  |

@@ -13,14 +13,14 @@ Transfer a domain in from another registrar
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | Yes | [DomainName](../../../../../_components/schemas/DomainName.md) | *Serialization: style=Simple* |
+| `domain` | Yes | [DomainName](../../../../../_components/schemas/DomainName.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | *Serialization: style=Form* |
+| `teamId` | No | string |  |
 
 
 
@@ -34,9 +34,9 @@ Supported content types:
 | :--- | :---: | :--- | :--- |
 | `authCode` | Yes | string | The auth code for the domain. You must obtain this code from the losing registrar. |
 | `autoRenew` | Yes | boolean | Whether the domain should be auto-renewed before it expires. This can be configured later through the Vercel Dashboard or the [Update auto-renew for a domain](https://vercel.com/docs/rest-api/reference/endpoints/domains-registrar/update-auto-renew-for-a-domain) endpoint. |
-| `years` | Yes | number | The number of years to renew the domain for once it is transferred in. This must be a valid number of transfer years for the TLD. |
-| `expectedPrice` | Yes | number |  |
 | `contactInformation` | Yes | object |  |
+| `expectedPrice` | Yes | number |  |
+| `years` | Yes | number | The number of years to renew the domain for once it is transferred in. This must be a valid number of transfer years for the TLD. |
 
 
 ## Responses
@@ -48,8 +48,8 @@ Success
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `orderId` | Yes | [OrderId](../../../../../_components/schemas/OrderId.md) |  |
 | `_links` | Yes | object |  |
+| `orderId` | Yes | [OrderId](../../../../../_components/schemas/OrderId.md) |  |
 
 
 ### 400

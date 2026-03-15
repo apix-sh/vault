@@ -38,7 +38,7 @@ Open a support ticket. A ticket can only target a single, specific entity. For e
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -63,17 +63,9 @@ Supported content types:
 | `linode_id` | No | integer | The ID of the Linode entity for the ticket. Run the [List Linodes](https://techdocs.akamai.com/linode-api/reference/get-linode-instances) operation and store the `id` for the target Linode. |
 | `lkecluster_id` | No | integer | The ID of the Linode Kubernetes Engine (LKE) cluster entity for the ticket. Run the [List Kubernetes clusters](https://techdocs.akamai.com/linode-api/reference/get-lke-clusters) operation and store the `id` for the target LKE cluster. |
 | `longviewclient_id` | No | integer | The ID of the Longview client entity for the ticket. Run the [List Longview clients](https://techdocs.akamai.com/linode-api/reference/get-longview-clients) operation and store the `id` for the target client. |
-| `managed_issue` | No | boolean | Whether this ticket is related to a [managed service](https://www.linode.com/products/managed/). If `true`, the following constraints apply:
-
-- You can't provide an entity, such as a `linode_id` or `bucket` with this request.
-
-- Your account needs a managed service [enabled](https://techdocs.akamai.com/linode-api/reference/post-enable-managed-service). |
+| `managed_issue` | No | boolean | Whether this ticket is related to a [managed service](https://www.linode.com/products/managed/). If `true`, the following constraints apply:<br/><br/>- You can't provide an entity, such as a `linode_id` or `bucket` with this request.<br/><br/>- Your account needs a managed service [enabled](https://techdocs.akamai.com/linode-api/reference/post-enable-managed-service). |
 | `nodebalancer_id` | No | integer | The ID of the NodeBalancer entity for the ticket. Run the [List NodeBalancers](https://techdocs.akamai.com/linode-api/reference/get-node-balancers) operation and store the `id` for the target NodeBalancer. |
-| `region` | No | string | The ID of the [region](https://techdocs.akamai.com/linode-api/reference/get-regions) where this ticket's target entity resides. This only applies to tickets for a `vlan` or an Object Storage  `bucket`.
-
-> 📘
->
-> Set this to the `clusterId` for a legacy Object Storage `bucket`. |
+| `region` | No | string | The ID of the [region](https://techdocs.akamai.com/linode-api/reference/get-regions) where this ticket's target entity resides. This only applies to tickets for a `vlan` or an Object Storage  `bucket`.<br/><br/>> 📘<br/>><br/>> Set this to the `clusterId` for a legacy Object Storage `bucket`. |
 | `severity` | No | integer | The severity of the issue. A value of `1` indicates a major issue, `2` indicates a moderate priority issue, and `3` is a low priority issue. Your account may not have access to set this value. Talk to your Akamai account team for more details. |
 | `summary` | Yes | string | The summary or title for this support ticket. |
 | `vlan` | No | string | The label of the VLAN entity for the ticket. Run the [List VLANs](https://techdocs.akamai.com/linode-api/reference/get-vlans) operation and store the `id` for the target VLAN. You also need to provide the specific `region` where the VLAN is located. |

@@ -39,9 +39,9 @@ Updates the details of an image shared within a share group. Run this operation 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `sharegroupId` | Yes | integer | The share group's unique identifier assigned after creating it. Not to be confused with the group's `uuid`.<br/>*Serialization: style=Simple* |
-| `imageId` | Yes | string | Slug identifier assigned to the shared image upon sharing.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `sharegroupId` | Yes | integer | The share group's unique identifier assigned after creating it. Not to be confused with the group's `uuid`. |
+| `imageId` | Yes | string | Slug identifier assigned to the shared image upon sharing. |
 
 
 ## Query Parameters
@@ -81,7 +81,7 @@ The shared image's updated details.
 | `id` | Yes | string | __Read-only__ The shared image’s unique slug identifier. |
 | `image_sharing` | Yes | object | __Read-only__ The image's sharing details, including the share group and source image data.  |
 | `is_public` | Yes | boolean | __Read-only__ A `true` value if the image is a public distribution image. A `false` value indicates private, account-specific images. |
-| `is_shared` | Yes | any | __Read-only__ A `true` value for shared private images. `none` for images shared within a group. |
+| `is_shared` | Yes | string | __Read-only__ A `true` value for shared private images. `none` for images shared within a group. |
 | `label` | Yes | string | The shared image's name. |
 | `regions` | Yes | array<object> | __Read-only__ Details on the regions where this image is stored. See [Regions and images](https://techdocs.akamai.com/cloud-computing/docs/images#regions-and-images) for full details on support for `regions`. |
 | `size` | Yes | integer | __Read-only__ The minimum size in MB this image needs to deploy. |

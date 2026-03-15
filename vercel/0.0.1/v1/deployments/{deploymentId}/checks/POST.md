@@ -13,15 +13,15 @@ Creates a new check. This endpoint must be called with an OAuth2 or it will prod
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deploymentId` | Yes | string | The deployment to create the check for.<br/>*Serialization: style=Simple* |
+| `deploymentId` | Yes | string | The deployment to create the check for. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -33,11 +33,11 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `name` | Yes | string | The name of the check being created |
-| `path` | No | string | Path of the page that is being checked |
 | `blocking` | Yes | boolean | Whether the check should block a deployment from succeeding |
 | `detailsUrl` | No | string | URL to display for further details |
 | `externalId` | No | string | An identifier that can be used as an external reference |
+| `name` | Yes | string | The name of the check being created |
+| `path` | No | string | Path of the page that is being checked |
 | `rerequestable` | No | boolean | Whether a user should be able to request for the check to be rerun if it fails |
 
 
@@ -48,22 +48,22 @@ Supported content types:
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string |  |
-| `name` | Yes | string |  |
-| `createdAt` | Yes | number |  |
-| `updatedAt` | Yes | number |  |
-| `deploymentId` | Yes | string |  |
-| `status` | Yes | string |  |
-| `conclusion` | No | string |  |
-| `externalId` | No | string |  |
-| `output` | No | object |  |
-| `completedAt` | No | number |  |
-| `path` | No | string |  |
 | `blocking` | Yes | boolean |  |
+| `completedAt` | No | number |  |
+| `conclusion` | No | string |  |
+| `createdAt` | Yes | number |  |
+| `deploymentId` | Yes | string |  |
 | `detailsUrl` | No | string |  |
+| `externalId` | No | string |  |
+| `id` | Yes | string |  |
 | `integrationId` | Yes | string |  |
-| `startedAt` | No | number |  |
+| `name` | Yes | string |  |
+| `output` | No | object |  |
+| `path` | No | string |  |
 | `rerequestable` | No | boolean |  |
+| `startedAt` | No | number |  |
+| `status` | Yes | string |  |
+| `updatedAt` | Yes | number |  |
 
 
 ### 400

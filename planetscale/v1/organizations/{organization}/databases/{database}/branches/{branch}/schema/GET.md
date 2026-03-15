@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/branches/{branch}/schema"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -25,17 +26,17 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | The name of the organization the branch belongs to<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | The name of the database the branch belongs to<br/>*Serialization: style=Simple* |
-| `branch` | Yes | string | The name of the branch<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | The name of the organization the branch belongs to |
+| `database` | Yes | string | The name of the database the branch belongs to |
+| `branch` | Yes | string | The name of the branch |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `keyspace` | No | string | Return the schema for a single Vitess keyspace<br/>*Serialization: style=Form* |
-| `namespace` | No | string | Return the schema for a PostgreSQL catalog namespace in `<database>.<schema>` format (e.g. public.schema1)<br/>*Serialization: style=Form* |
+| `keyspace` | No | string | Return the schema for a single Vitess keyspace |
+| `namespace` | No | string | Return the schema for a PostgreSQL catalog namespace in `<database>.<schema>` format (e.g. public.schema1) |
 
 
 

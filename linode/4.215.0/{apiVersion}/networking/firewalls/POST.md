@@ -60,7 +60,7 @@ Creates a Firewall to filter network traffic.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -75,7 +75,10 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `devices` | No | object | Devices to create for this firewall. When a device is created, the firewall is assigned to its associated service. Currently, devices can be created for Linodes using legacy configuration profiles, Linode interfaces, and NodeBalancers. Firewall devices can't be created for individual legacy configuration profile interfaces.<br/><br/>Additional devices can be assigned after Firewall creation by using the [Create a firewall device](https://techdocs.akamai.com/linode-api/reference/post-firewall-device) operation. |
+| `rules` | Yes | any |  |
 
 
 ## Responses
@@ -90,25 +93,9 @@ Returns information about the created Firewall.
 | `created` | No | string | __Filterable__, __Read-only__ When this Firewall was created. |
 | `entities` | No | array<object> | __Read-only__ The Linodes, NodeBalancers, and Linode interfaces this firewall is assigned to. |
 | `id` | No | integer | __Filterable__, __Read-only__ The Firewall's unique ID. |
-| `label` | No | string | __Filterable__ The Firewall's label, for display purposes only.
-
-Firewall labels have the following constraints:
-
-  - Must begin and end with an alphanumeric character.
-  - May only consist of alphanumeric characters, hyphens (`-`), underscores (`_`) or periods (`.`).
-  - Cannot have two hyphens (`--`), underscores (`__`) or periods (`..`) in a row.
-  - Must be between 3 and 32 characters.
-  - Must be unique. |
-| `rules` | No | object | The inbound and outbound access rules to apply to the Firewall.
-
-A Firewall may have up to 25 rules across its inbound and outbound rulesets.
-
-Multiple rules are applied in order. If two rules conflict, the first rule takes precedence. For example, if the first rule accepts inbound traffic from an address, and the second rule drops inbound traffic the same address, the first rule applies and inbound traffic from that address is accepted. |
-| `status` | No | string | __Read-only__ The status of this Firewall.
-
-  - When a Firewall is first created its status is `enabled`.
-  - Run the [Update a firewall](https://techdocs.akamai.com/linode-api/reference/put-firewall) operation to set a Firewall's status to `enabled` or `disabled`.
-  - Run the [Delete a firewall](https://techdocs.akamai.com/linode-api/reference/delete-firewall) operation to delete a Firewall. |
+| `label` | No | string | __Filterable__ The Firewall's label, for display purposes only.<br/><br/>Firewall labels have the following constraints:<br/><br/>  - Must begin and end with an alphanumeric character.<br/>  - May only consist of alphanumeric characters, hyphens (`-`), underscores (`_`) or periods (`.`).<br/>  - Cannot have two hyphens (`--`), underscores (`__`) or periods (`..`) in a row.<br/>  - Must be between 3 and 32 characters.<br/>  - Must be unique. |
+| `rules` | No | object | The inbound and outbound access rules to apply to the Firewall.<br/><br/>A Firewall may have up to 25 rules across its inbound and outbound rulesets.<br/><br/>Multiple rules are applied in order. If two rules conflict, the first rule takes precedence. For example, if the first rule accepts inbound traffic from an address, and the second rule drops inbound traffic the same address, the first rule applies and inbound traffic from that address is accepted. |
+| `status` | No | string | __Read-only__ The status of this Firewall.<br/><br/>  - When a Firewall is first created its status is `enabled`.<br/>  - Run the [Update a firewall](https://techdocs.akamai.com/linode-api/reference/put-firewall) operation to set a Firewall's status to `enabled` or `disabled`.<br/>  - Run the [Delete a firewall](https://techdocs.akamai.com/linode-api/reference/delete-firewall) operation to delete a Firewall. |
 | `tags` | No | array<string> | __Filterable__ An array of tags applied to this object. Tags are for organizational purposes only. |
 | `updated` | No | string | __Filterable__, __Read-only__ When this Firewall was last updated. |
 

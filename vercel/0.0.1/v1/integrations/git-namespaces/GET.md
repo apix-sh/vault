@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `host` | No | string | The custom Git host if using a custom Git provider, like GitHub Enterprise Server<br/>*Serialization: style=Form* |
-| `provider` | No | any | *Serialization: style=Form* |
+| `host` | No | string | The custom Git host if using a custom Git provider, like GitHub Enterprise Server |
+| `provider` | No | any |  |
 
 
 

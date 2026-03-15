@@ -39,8 +39,8 @@ This _does not_ uninstall the Longview Client application for your Linode - you 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `clientId` | Yes | integer | The Longview Client ID to access.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `clientId` | Yes | integer | The Longview Client ID to access. |
 
 
 ## Query Parameters

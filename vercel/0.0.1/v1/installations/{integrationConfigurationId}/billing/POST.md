@@ -13,7 +13,7 @@ Sends the billing and usage data. The partner should do this at least once a day
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integrationConfigurationId` | Yes | string | *Serialization: style=Simple* |
+| `integrationConfigurationId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -30,10 +30,10 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `timestamp` | Yes | string | Server time of your integration, used to determine the most recent data for race conditions & updates. Only the latest usage data for a given day, week, and month will be kept. |
+| `billing` | Yes | oneOf(2) | Billing data (interim invoicing data). |
 | `eod` | Yes | string | End of Day, the UTC datetime for when the end of the billing/usage day is in UTC time. This tells us which day the usage data is for, and also allows for your \"end of day\" to be different from UTC 00:00:00. eod must be within the period dates, and cannot be older than 24h earlier from our server's current time. |
 | `period` | Yes | object | Period for the billing cycle. The period end date cannot be older than 24 hours earlier than our current server's time. |
-| `billing` | Yes | oneOf(2) | Billing data (interim invoicing data). |
+| `timestamp` | Yes | string | Server time of your integration, used to determine the most recent data for race conditions & updates. Only the latest usage data for a given day, week, and month will be kept. |
 | `usage` | Yes | array<object> |  |
 
 

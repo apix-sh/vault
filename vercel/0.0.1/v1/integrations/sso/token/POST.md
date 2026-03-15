@@ -1,7 +1,6 @@
 ---
 method: "POST"
 url: "https://api.vercel.com/v1/integrations/sso/token"
-auth: "none"
 content_type: "application/json"
 ---
 

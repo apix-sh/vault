@@ -13,24 +13,24 @@ Get the build logs of a deployment by deployment ID and build ID. It can work as
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `idOrUrl` | Yes | string | The unique identifier or hostname of the deployment.<br/>*Serialization: style=Simple* |
+| `idOrUrl` | Yes | string | The unique identifier or hostname of the deployment. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `direction` | No | string | Order of the returned events based on the timestamp.<br/>*Serialization: style=Form* |
-| `follow` | No | number | When enabled, this endpoint will return live events as they happen.<br/>*Serialization: style=Form* |
-| `limit` | No | number | Maximum number of events to return. Provide `-1` to return all available logs.<br/>*Serialization: style=Form* |
-| `name` | No | string | Deployment build ID.<br/>*Serialization: style=Form* |
-| `since` | No | number | Timestamp for when build logs should be pulled from.<br/>*Serialization: style=Form* |
-| `until` | No | number | Timestamp for when the build logs should be pulled up until.<br/>*Serialization: style=Form* |
-| `statusCode` | No | oneOf(2) | HTTP status code range to filter events by.<br/>*Serialization: style=Form* |
-| `delimiter` | No | number | *Serialization: style=Form* |
-| `builds` | No | number | *Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `direction` | No | string | Order of the returned events based on the timestamp. |
+| `follow` | No | number | When enabled, this endpoint will return live events as they happen. |
+| `limit` | No | number | Maximum number of events to return. Provide `-1` to return all available logs. |
+| `name` | No | string | Deployment build ID. |
+| `since` | No | number | Timestamp for when build logs should be pulled from. |
+| `until` | No | number | Timestamp for when the build logs should be pulled up until. |
+| `statusCode` | No | oneOf(2) | HTTP status code range to filter events by. |
+| `delimiter` | No | number |  |
+| `builds` | No | number |  |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

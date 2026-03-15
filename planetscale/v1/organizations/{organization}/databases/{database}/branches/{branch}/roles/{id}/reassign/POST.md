@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/branches/{branch}/roles/{id}/reassign"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -25,10 +26,10 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`.<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`.<br/>*Serialization: style=Simple* |
-| `branch` | Yes | string | Branch name from `list_branches`. Example: `main`.<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | The ID of the role<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`. |
+| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`. |
+| `branch` | Yes | string | Branch name from `list_branches`. Example: `main`. |
+| `id` | Yes | string | The ID of the role |
 
 
 ## Query Parameters

@@ -51,7 +51,7 @@ An unlimited access key grants full access to all of your buckets in each region
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
 
 
 ## Query Parameters
@@ -84,11 +84,7 @@ The new Object Storage access key. *This is the only time* the `secret_key` is r
 | `label` | No | string | The label given to this key. For display purposes only. |
 | `limited` | No | boolean | __Read-only__ Whether this Object Storage key limits access to specific buckets and permissions. Returns `false` if this key grants full access. Specific limitations are set in `bucket_access`. |
 | `regions` | No | array<object> | Identifies each region where you can use the Object Storage key. |
-| `secret_key` | No | string | __Read-only__ This Object Storage key's secret key. Used as a password to validate this key when making requests to an S3 API, such as the Amazon S3 API or Ceph Object Gateway S3 API.
-
-> 🚧
->
-> The `secret_key` is only revealed in the response for this operation. Make sure to store it for later use. |
+| `secret_key` | No | string | __Read-only__ This Object Storage key's secret key. Used as a password to validate this key when making requests to an S3 API, such as the Amazon S3 API or Ceph Object Gateway S3 API.<br/><br/>> 🚧<br/>><br/>> The `secret_key` is only revealed in the response for this operation. Make sure to store it for later use. |
 
 
 ### default

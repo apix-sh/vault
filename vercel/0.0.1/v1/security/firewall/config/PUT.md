@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `projectId` | Yes | string |  |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -32,12 +32,13 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `firewallEnabled` | Yes | boolean |  |
-| `managedRules` | No | object |  |
-| `crs` | No | object | Custom Ruleset |
-| `rules` | No | array<object> |  |
-| `ips` | No | array<object> |  |
 | `botIdEnabled` | No | boolean |  |
+| `crs` | No | object | Custom Ruleset |
+| `firewallEnabled` | Yes | boolean |  |
+| `ips` | No | array<object> |  |
+| `logHeaders` | No | oneOf(2) |  |
+| `managedRules` | No | object |  |
+| `rules` | No | array<object> |  |
 
 
 ## Responses

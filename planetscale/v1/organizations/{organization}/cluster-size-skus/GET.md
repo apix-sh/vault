@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/cluster-size-skus"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,16 +25,16 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`.<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `engine` | No | string | The database engine to filter by. Defaults to 'mysql'.<br/>*Serialization: style=Form* |
-| `rates` | No | boolean | Whether to include pricing rates in the response. Defaults to false.<br/>*Serialization: style=Form* |
-| `region` | No | string | The region slug to get rates for. If not specified, uses the organization's default region.<br/>*Serialization: style=Form* |
+| `engine` | No | string | The database engine to filter by. Defaults to 'mysql'. |
+| `rates` | No | boolean | Whether to include pricing rates in the response. Defaults to false. |
+| `region` | No | string | The region slug to get rates for. If not specified, uses the organization's default region. |
 
 
 

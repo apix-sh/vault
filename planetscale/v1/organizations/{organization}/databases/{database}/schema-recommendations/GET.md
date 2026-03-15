@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/schema-recommendations"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,15 +25,17 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`.<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`.<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`. |
+| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `state` | No | string | Filter by recommendation state<br/>*Serialization: style=Form* |
+| `state` | No | string | Filter by recommendation state |
+| `page` | No | integer | If provided, specifies the page offset of returned results |
+| `per_page` | No | integer | If provided, specifies the number of returned results |
 
 
 
@@ -51,11 +54,11 @@ Returns schema recommendations
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `current_page` | Yes | integer | The current page number |
+| `data` | Yes | array<object> |  |
 | `next_page` | Yes | integer | The next page number |
 | `next_page_url` | Yes | string | The next page of results |
 | `prev_page` | Yes | integer | The previous page number |
 | `prev_page_url` | Yes | string | The previous page of results |
-| `data` | Yes | array<object> |  |
 
 
 ### 401

@@ -35,8 +35,8 @@ Returns information about a single IP Address on your Account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `address` | Yes | string | The address to operate on.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `address` | Yes | string | The address to operate on. |
 
 
 ## Query Parameters
@@ -69,11 +69,7 @@ The requested IP Address.
 | `region` | No | string | __Read-only__ The Region this IP address resides in. |
 | `subnet_mask` | No | string | __Read-only__ The mask that separates host bits from network bits for this address. |
 | `type` | No | string | __Read-only__ The type of address this is. |
-| `vpc_nat_1_1` | No | object | IPv4 address configured as a 1:1 NAT for this Interface. If no address is configured as a 1:1 NAT, `null` is returned.
-
-> 📘
->
-> Only allowed for `vpc` type interfaces. |
+| `vpc_nat_1_1` | No | object | IPv4 address configured as a 1:1 NAT for this Interface. If no address is configured as a 1:1 NAT, `null` is returned.<br/><br/>> 📘<br/>><br/>> Only allowed for `vpc` type interfaces. |
 
 
 ### default

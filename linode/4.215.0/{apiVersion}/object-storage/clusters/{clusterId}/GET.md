@@ -30,12 +30,8 @@ __Deprecated__ Returns a single Object Storage cluster.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `clusterId` | Yes | string | Identifies a cluster where this bucket lives. For backward compatibility with Object Storage in this API.
-
-> 📘
->
-> You can use the applicable `regionId`, for example `us-west`, in place of the `clusterId`, for example, `us-west-1`. Run [List regions](https://techdocs.akamai.com/linode-api/reference/get-regions) to see all regions.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `clusterId` | Yes | string | Identifies a cluster where this bucket lives. For backward compatibility with Object Storage in this API.<br/><br/>> 📘<br/>><br/>> You can use the applicable `regionId`, for example `us-west`, in place of the `clusterId`, for example, `us-west-1`. Run [List regions](https://techdocs.akamai.com/linode-api/reference/get-regions) to see all regions. |
 
 
 ## Query Parameters

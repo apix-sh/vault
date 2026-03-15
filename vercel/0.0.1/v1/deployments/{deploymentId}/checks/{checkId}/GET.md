@@ -13,16 +13,16 @@ Return a detailed response for a single check.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deploymentId` | Yes | string | The deployment to get the check for.<br/>*Serialization: style=Simple* |
-| `checkId` | Yes | string | The check to fetch<br/>*Serialization: style=Simple* |
+| `deploymentId` | Yes | string | The deployment to get the check for. |
+| `checkId` | Yes | string | The check to fetch |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 
@@ -38,22 +38,22 @@ _(None)_
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string |  |
-| `name` | Yes | string |  |
-| `createdAt` | Yes | number |  |
-| `updatedAt` | Yes | number |  |
-| `deploymentId` | Yes | string |  |
-| `status` | Yes | string |  |
-| `conclusion` | No | string |  |
-| `externalId` | No | string |  |
-| `output` | No | object |  |
-| `completedAt` | No | number |  |
-| `path` | No | string |  |
 | `blocking` | Yes | boolean |  |
+| `completedAt` | No | number |  |
+| `conclusion` | No | string |  |
+| `createdAt` | Yes | number |  |
+| `deploymentId` | Yes | string |  |
 | `detailsUrl` | No | string |  |
+| `externalId` | No | string |  |
+| `id` | Yes | string |  |
 | `integrationId` | Yes | string |  |
-| `startedAt` | No | number |  |
+| `name` | Yes | string |  |
+| `output` | No | object |  |
+| `path` | No | string |  |
 | `rerequestable` | No | boolean |  |
+| `startedAt` | No | number |  |
+| `status` | Yes | string |  |
+| `updatedAt` | Yes | number |  |
 
 
 ### 400

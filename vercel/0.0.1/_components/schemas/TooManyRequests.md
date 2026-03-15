@@ -8,8 +8,8 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `status` | Yes | number |  |
 | `code` | Yes | string | Allowed values: too_many_requests |
+| `limit` | Yes | object |  |
 | `message` | Yes | string |  |
 | `retryAfter` | Yes | object |  |
-| `limit` | Yes | object |  |
+| `status` | Yes | number |  |

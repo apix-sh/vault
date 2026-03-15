@@ -13,18 +13,18 @@ Returns backups of an Edge Config.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `edgeConfigId` | Yes | string | *Serialization: style=Simple* |
+| `edgeConfigId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `next` | No | string | *Serialization: style=Form* |
-| `limit` | No | number | *Serialization: style=Form* |
-| `metadata` | No | string | *Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `next` | No | string |  |
+| `limit` | No | number |  |
+| `metadata` | No | string |  |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

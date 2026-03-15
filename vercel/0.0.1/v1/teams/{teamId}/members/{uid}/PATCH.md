@@ -13,8 +13,8 @@ Update the membership of a Team Member on the Team specified by `teamId`, such a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `uid` | Yes | string | The ID of the member.<br/>*Serialization: style=Simple* |
-| `teamId` | Yes | string | *Serialization: style=Simple* |
+| `uid` | Yes | string | The ID of the member. |
+| `teamId` | Yes | string |  |
 
 
 ## Query Parameters
@@ -32,9 +32,9 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `confirmed` | No | boolean | Accept a user who requested access to the team. |
-| `role` | No | string | The role in the team of the member. |
-| `projects` | No | array<object> |  |
 | `joinedFrom` | No | object |  |
+| `projects` | No | array<object> |  |
+| `role` | No | string | The role in the team of the member. |
 
 
 ## Responses

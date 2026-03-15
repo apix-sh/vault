@@ -1,6 +1,7 @@
 ---
 method: "PATCH"
 url: "https://api.planetscale.com/v1/organizations/{organization}/databases/{database}/branches/{branch}/bouncers/{bouncer}/resizes"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -24,10 +25,10 @@ A service token or OAuth token must have at least one of the following access or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`.<br/>*Serialization: style=Simple* |
-| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`.<br/>*Serialization: style=Simple* |
-| `branch` | Yes | string | Branch name from `list_branches`. Example: `main`.<br/>*Serialization: style=Simple* |
-| `bouncer` | Yes | string | The name of the bouncer<br/>*Serialization: style=Simple* |
+| `organization` | Yes | string | Organization name slug from `list_organizations`. Example: `acme`. |
+| `database` | Yes | string | Database name slug from `list_databases`. Example: `app-db`. |
+| `branch` | Yes | string | Branch name from `list_branches`. Example: `main`. |
+| `bouncer` | Yes | string | The name of the bouncer |
 
 
 ## Query Parameters
@@ -45,8 +46,8 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `bouncer_size` | No | string | The bouncer size SKU name (e.g., 'PGB_5', 'PGB_10', 'PGB_20', 'PGB_40', 'PGB_80', 'PGB_160'). Defaults to 'PGB_5'. |
-| `replicas_per_cell` | No | integer | The number of PgBouncers per availability zone. Defaults to 1. |
 | `parameters` | No | object | Bouncer configuration parameters nested by namespace (e.g., {"pgbouncer": {"default_pool_size": "100"}}). Use the 'List cluster parameters' endpoint to retrieve available parameters. Only parameters with namespace 'pgbouncer' can be updated. |
+| `replicas_per_cell` | No | integer | The number of PgBouncers per availability zone. Defaults to 1. |
 
 
 ## Responses
@@ -58,20 +59,20 @@ Returns bouncer resize request
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `id` | Yes | string | The ID of the bouncer resize |
-| `state` | Yes | string | The state of the bouncer resize |
-| `replicas_per_cell` | Yes | integer | The number of replicas per cell for the bouncer after the resize |
-| `parameters` | Yes | object | The bouncer parameters |
-| `previous_replicas_per_cell` | Yes | integer | The number of replicas per cell for the bouncer before the resize |
-| `previous_parameters` | Yes | object | The previous bouncer parameters |
-| `started_at` | Yes | string | The time the bouncer resize started |
-| `completed_at` | Yes | string | The time the bouncer resize completed |
-| `created_at` | Yes | string | The time the bouncer resize was created |
-| `updated_at` | Yes | string | The time the bouncer resize was last updated |
 | `actor` | Yes | object |  |
 | `bouncer` | Yes | object |  |
-| `sku` | Yes | object |  |
+| `completed_at` | Yes | string | The time the bouncer resize completed |
+| `created_at` | Yes | string | The time the bouncer resize was created |
+| `id` | Yes | string | The ID of the bouncer resize |
+| `parameters` | Yes | object | The bouncer parameters |
+| `previous_parameters` | Yes | object | The previous bouncer parameters |
+| `previous_replicas_per_cell` | Yes | integer | The number of replicas per cell for the bouncer before the resize |
 | `previous_sku` | Yes | object |  |
+| `replicas_per_cell` | Yes | integer | The number of replicas per cell for the bouncer after the resize |
+| `sku` | Yes | object |  |
+| `started_at` | Yes | string | The time the bouncer resize started |
+| `state` | Yes | string | The state of the bouncer resize |
+| `updated_at` | Yes | string | The time the bouncer resize was last updated |
 
 
 ### 401

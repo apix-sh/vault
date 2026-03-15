@@ -8,37 +8,37 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | Yes | string | The ID of the branch |
-| `name` | Yes | string | The name of the branch |
+| `actor` | Yes | object |  |
+| `cluster_iops` | Yes | integer | IOPS for the cluster |
+| `cluster_name` | Yes | string | The SKU representing the branch's cluster size |
 | `created_at` | Yes | string | When the branch was created |
-| `updated_at` | Yes | string | When the branch was last updated |
 | `deleted_at` | Yes | string | When the branch was deleted |
-| `restore_checklist_completed_at` | Yes | string | When a user last marked a backup restore checklist as completed |
-| `schema_last_updated_at` | Yes | string | When the schema for the branch was last updated |
+| `direct_vtgate` | Yes | boolean | True if the branch allows passwords to connect directly to a vtgate, bypassing load balancers |
+| `has_read_only_replicas` | Yes | boolean | True if the branch has read-only replica servers |
+| `has_replicas` | Yes | boolean | True if the branch has replica servers |
+| `html_url` | Yes | string | Planetscale app URL for the branch |
+| `id` | Yes | string | The ID of the branch |
 | `kind` | Yes | string | The kind of branch Allowed values: mysql, postgresql |
+| `metal` | Yes | boolean | Whether or not this is a metal database |
 | `mysql_address` | Yes | string | The MySQL address for the branch |
 | `mysql_edge_address` | Yes | string | The address of the MySQL provider for the branch |
-| `state` | Yes | string | The current state of the branch Allowed values: pending, sleep_in_progress, sleeping, awakening, ready |
-| `direct_vtgate` | Yes | boolean | True if the branch allows passwords to connect directly to a vtgate, bypassing load balancers |
-| `vtgate_size` | Yes | string | The size of the vtgate cluster for the branch |
-| `vtgate_count` | Yes | integer | The number of vtgate instances in the branch |
-| `cluster_name` | Yes | string | The SKU representing the branch's cluster size |
-| `cluster_iops` | Yes | integer | IOPS for the cluster |
-| `ready` | Yes | boolean | Whether or not the branch is ready to serve queries |
-| `schema_ready` | Yes | boolean | Whether or not the schema is ready for queries |
-| `metal` | Yes | boolean | Whether or not this is a metal database |
-| `production` | Yes | boolean | Whether or not the branch is a production branch |
-| `safe_migrations` | Yes | boolean | Whether or not the branch has safe migrations enabled |
-| `sharded` | Yes | boolean | Whether or not the branch is sharded |
-| `shard_count` | Yes | integer | The number of shards in the branch |
-| `stale_schema` | Yes | boolean | Whether or not the branch has a stale schema |
-| `actor` | Yes | object |  |
-| `restored_from_branch` | Yes | object |  |
-| `private_edge_connectivity` | Yes | boolean | True if private connections are enabled |
-| `has_replicas` | Yes | boolean | True if the branch has replica servers |
-| `has_read_only_replicas` | Yes | boolean | True if the branch has read-only replica servers |
-| `html_url` | Yes | string | Planetscale app URL for the branch |
-| `url` | Yes | string | Planetscale API URL for the branch |
-| `region` | Yes | object |  |
+| `name` | Yes | string | The name of the branch |
 | `parent_branch` | Yes | string | The name of the parent branch from which the branch was created |
+| `private_edge_connectivity` | Yes | boolean | True if private connections are enabled |
+| `production` | Yes | boolean | Whether or not the branch is a production branch |
+| `ready` | Yes | boolean | Whether or not the branch is ready to serve queries |
+| `region` | Yes | object |  |
+| `restore_checklist_completed_at` | Yes | string | When a user last marked a backup restore checklist as completed |
+| `restored_from_branch` | Yes | object |  |
+| `safe_migrations` | Yes | boolean | Whether or not the branch has safe migrations enabled |
+| `schema_last_updated_at` | Yes | string | When the schema for the branch was last updated |
+| `schema_ready` | Yes | boolean | Whether or not the schema is ready for queries |
+| `shard_count` | Yes | integer | The number of shards in the branch |
+| `sharded` | Yes | boolean | Whether or not the branch is sharded |
+| `stale_schema` | Yes | boolean | Whether or not the branch has a stale schema |
+| `state` | Yes | string | The current state of the branch Allowed values: pending, sleep_in_progress, sleeping, awakening, ready |
+| `updated_at` | Yes | string | When the branch was last updated |
+| `url` | Yes | string | Planetscale API URL for the branch |
+| `vtgate_count` | Yes | integer | The number of vtgate instances in the branch |
 | `vtgate_options` | Yes | object | VTGate configuration options |
+| `vtgate_size` | Yes | string | The size of the vtgate cluster for the branch |

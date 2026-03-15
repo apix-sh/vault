@@ -39,16 +39,16 @@ The VPC interface's firewall template allows for login with SSH, regular network
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta.<br/>*Serialization: style=Simple* |
-| `slug` | Yes | string | __Enum__ The firewall template type, available for either `vpc` or `public` interfaces.<br/>*Serialization: style=Simple* |
+| `apiVersion` | Yes | string | __Enum__ Call either the `v4` URL, or `v4beta` for operations still in Beta. |
+| `slug` | Yes | string | __Enum__ The firewall template type, available for either `vpc` or `public` interfaces. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page of a collection to return.<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | The number of items to return per page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | The page of a collection to return. |
+| `page_size` | No | integer | The number of items to return per page. |
 
 
 
@@ -66,10 +66,8 @@ Returns a `vpc` or `public` firewall template for interface firewalls.
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `rules` | No | object | The inbound and outbound access rules for the VPC firewall template.
-
-A firewall can have up to 25 rules across its inbound and outbound rule sets. Multiple rules are applied in order. If two rules conflict, the first rule takes precedence. For example, if the first rule accepts inbound traffic from an address, and the second rule drops inbound traffic from the same address, the first rule applies, and inbound traffic from that address is accepted. |
-| `slug` | No | any | __Read-only__ The firewall template types available for VPC and public Linode interfaces. |
+| `rules` | No | object | The inbound and outbound access rules for the VPC firewall template.<br/><br/>A firewall can have up to 25 rules across its inbound and outbound rule sets. Multiple rules are applied in order. If two rules conflict, the first rule takes precedence. For example, if the first rule accepts inbound traffic from an address, and the second rule drops inbound traffic from the same address, the first rule applies, and inbound traffic from that address is accepted. |
+| `slug` | No | array<string> | __Read-only__ The firewall template types available for VPC and public Linode interfaces. |
 
 
 ### default

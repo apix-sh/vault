@@ -13,19 +13,19 @@ Get a list of aliases related to the last promote request with their mapping sta
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `projectId` | Yes | string | *Serialization: style=Simple* |
+| `projectId` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | number | Maximum number of aliases to list from a request (max 100).<br/>*Serialization: style=Form* |
-| `since` | No | number | Get aliases created after this epoch timestamp.<br/>*Serialization: style=Form* |
-| `until` | No | number | Get aliases created before this epoch timestamp.<br/>*Serialization: style=Form* |
-| `failedOnly` | No | boolean | Filter results down to aliases that failed to map to the requested deployment<br/>*Serialization: style=Form* |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `limit` | No | number | Maximum number of aliases to list from a request (max 100). |
+| `since` | No | number | Get aliases created after this epoch timestamp. |
+| `until` | No | number | Get aliases created before this epoch timestamp. |
+| `failedOnly` | No | boolean | Filter results down to aliases that failed to map to the requested deployment |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

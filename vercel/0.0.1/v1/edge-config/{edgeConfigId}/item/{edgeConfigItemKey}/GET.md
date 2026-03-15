@@ -13,16 +13,16 @@ Returns a specific Edge Config Item.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `edgeConfigId` | Yes | string | *Serialization: style=Simple* |
-| `edgeConfigItemKey` | Yes | string | *Serialization: style=Simple* |
+| `edgeConfigId` | Yes | string |  |
+| `edgeConfigItemKey` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `teamId` | No | string | The Team identifier to perform the request on behalf of.<br/>*Serialization: style=Form* |
-| `slug` | No | string | The Team slug to perform the request on behalf of.<br/>*Serialization: style=Form* |
+| `teamId` | No | string | The Team identifier to perform the request on behalf of. |
+| `slug` | No | string | The Team slug to perform the request on behalf of. |
 
 
 

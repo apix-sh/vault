@@ -11,6 +11,6 @@ The domain is not registered with Vercel.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `status` | Yes | number |  |
 | `code` | Yes | string | Allowed values: domain_not_registered |
 | `message` | Yes | string |  |
+| `status` | Yes | number |  |
