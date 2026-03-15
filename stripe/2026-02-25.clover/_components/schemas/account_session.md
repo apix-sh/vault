@@ -18,11 +18,7 @@ Related guide: [Connect embedded components](https://docs.stripe.com/connect/get
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `account` | Yes | string | The ID of the account the AccountSession was created for |
-| `client_secret` | Yes | string | The client secret of this AccountSession. Used on the client to set up secure access to the given `account`.
-
-The client secret can be used to provide access to `account` from your frontend. It should not be stored, logged, or exposed to anyone other than the connected account. Make sure that you have TLS enabled on any page that includes the client secret.
-
-Refer to our docs to [setup Connect embedded components](https://docs.stripe.com/connect/get-started-connect-embedded-components) and learn about how `client_secret` should be handled. |
+| `client_secret` | Yes | string | The client secret of this AccountSession. Used on the client to set up secure access to the given `account`.<br/><br/>The client secret can be used to provide access to `account` from your frontend. It should not be stored, logged, or exposed to anyone other than the connected account. Make sure that you have TLS enabled on any page that includes the client secret.<br/><br/>Refer to our docs to [setup Connect embedded components](https://docs.stripe.com/connect/get-started-connect-embedded-components) and learn about how `client_secret` should be handled. |
 | `components` | Yes | [connect_embedded_account_session_create_components](connect_embedded_account_session_create_components.md) |  |
 | `expires_at` | Yes | integer | The timestamp at which this AccountSession will expire. |
 | `livemode` | Yes | boolean | Has the value `true` if the object exists in live mode or the value `false` if the object exists in test mode. |

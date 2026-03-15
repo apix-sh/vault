@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/payment_links/{payment_link}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

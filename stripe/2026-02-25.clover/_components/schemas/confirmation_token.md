@@ -27,9 +27,7 @@ To learn more about how to use ConfirmationToken, visit the related guides:
 | `payment_method_options` | No | anyOf(1) | Payment-method-specific configuration for this ConfirmationToken. |
 | `payment_method_preview` | No | anyOf(1) | Payment details collected by the Payment Element, used to create a PaymentMethod when a PaymentIntent or SetupIntent is confirmed with this ConfirmationToken. |
 | `return_url` | No | string | Return URL used to confirm the Intent. |
-| `setup_future_usage` | No | string | Indicates that you intend to make future payments with this ConfirmationToken's payment method.
-
-The presence of this property will [attach the payment method](https://docs.stripe.com/payments/save-during-payment) to the PaymentIntent's Customer, if present, after the PaymentIntent is confirmed and any required actions from the user are complete. Allowed values: off_session, on_session |
+| `setup_future_usage` | No | string | Indicates that you intend to make future payments with this ConfirmationToken's payment method.<br/><br/>The presence of this property will [attach the payment method](https://docs.stripe.com/payments/save-during-payment) to the PaymentIntent's Customer, if present, after the PaymentIntent is confirmed and any required actions from the user are complete. Allowed values: off_session, on_session |
 | `setup_intent` | No | string | ID of the SetupIntent that this ConfirmationToken was used to confirm, or null if this ConfirmationToken has not yet been used. |
 | `shipping` | No | anyOf(1) | Shipping information collected on this ConfirmationToken. |
 | `use_stripe_sdk` | Yes | boolean | Indicates whether the Stripe SDK is used to handle confirmation flow. Defaults to `true` on ConfirmationToken. |

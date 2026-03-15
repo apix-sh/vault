@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/treasury/outbound_transfers/{outbound_transfer}/cancel"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

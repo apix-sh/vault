@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/payment_records/{id}/report_payment_attempt_informational"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

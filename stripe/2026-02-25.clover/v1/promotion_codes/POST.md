@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/promotion_codes"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -28,9 +29,7 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `active` | No | boolean | Whether the promotion code is currently active. |
-| `code` | No | string | The customer-facing code. Regardless of case, this code must be unique across all active promotion codes for a specific customer. Valid characters are lower case letters (a-z), upper case letters (A-Z), digits (0-9), and dashes (-).
-
-If left blank, we will generate one automatically. |
+| `code` | No | string | The customer-facing code. Regardless of case, this code must be unique across all active promotion codes for a specific customer. Valid characters are lower case letters (a-z), upper case letters (A-Z), digits (0-9), and dashes (-).<br/><br/>If left blank, we will generate one automatically. |
 | `customer` | No | string | The customer who can use this promotion code. If not set, all customers can use the promotion code. |
 | `customer_account` | No | string | The account representing the customer who can use this promotion code. If not set, all customers can use the promotion code. |
 | `expand` | No | array<string> | Specifies which fields in the response should be expanded. |

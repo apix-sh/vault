@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/reporting/report_runs/{report_run}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

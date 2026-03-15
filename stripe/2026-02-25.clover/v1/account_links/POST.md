@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/account_links"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -33,9 +34,7 @@ Supported content types:
 | `expand` | No | array<string> | Specifies which fields in the response should be expanded. |
 | `refresh_url` | No | string | The URL the user will be redirected to if the account link is expired, has been previously-visited, or is otherwise invalid. The URL you specify should attempt to generate a new account link with the same parameters used to create the original account link, then redirect the user to the new account link's URL so they can continue with Connect Onboarding. If a new account link cannot be generated or the redirect fails you should display a useful error to the user. |
 | `return_url` | No | string | The URL that the user will be redirected to upon leaving or completing the linked flow. |
-| `type` | Yes | string | The type of account link the user is requesting.
-
-You can create Account Links of type `account_update` only for connected accounts where your platform is responsible for collecting requirements, including Custom accounts. You can't create them for accounts that have access to a Stripe-hosted Dashboard. If you use [Connect embedded components](/connect/get-started-connect-embedded-components), you can include components that allow your connected accounts to update their own information. For an account without Stripe-hosted Dashboard access where Stripe is liable for negative balances, you must use embedded components. |
+| `type` | Yes | string | The type of account link the user is requesting.<br/><br/>You can create Account Links of type `account_update` only for connected accounts where your platform is responsible for collecting requirements, including Custom accounts. You can't create them for accounts that have access to a Stripe-hosted Dashboard. If you use [Connect embedded components](/connect/get-started-connect-embedded-components), you can include components that allow your connected accounts to update their own information. For an account without Stripe-hosted Dashboard access where Stripe is liable for negative balances, you must use embedded components. |
 
 
 ## Responses

@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/identity/verification_sessions/{session}/redact"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

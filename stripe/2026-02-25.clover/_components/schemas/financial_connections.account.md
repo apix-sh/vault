@@ -27,20 +27,7 @@ A Financial Connections Account represents an account that exists outside of Str
 | `ownership_refresh` | No | anyOf(1) | The state of the most recent attempt to refresh the account owners. |
 | `permissions` | No | array<string> | The list of permissions granted by this account. |
 | `status` | Yes | string | The status of the link to the account. Allowed values: active, disconnected, inactive |
-| `subcategory` | Yes | string | If `category` is `cash`, one of:
-
- - `checking`
- - `savings`
- - `other`
-
-If `category` is `credit`, one of:
-
- - `mortgage`
- - `line_of_credit`
- - `credit_card`
- - `other`
-
-If `category` is `investment` or `other`, this will be `other`. Allowed values: checking, credit_card, line_of_credit, mortgage, other, savings |
+| `subcategory` | Yes | string | If `category` is `cash`, one of:<br/><br/> - `checking`<br/> - `savings`<br/> - `other`<br/><br/>If `category` is `credit`, one of:<br/><br/> - `mortgage`<br/> - `line_of_credit`<br/> - `credit_card`<br/> - `other`<br/><br/>If `category` is `investment` or `other`, this will be `other`. Allowed values: checking, credit_card, line_of_credit, mortgage, other, savings |
 | `subscriptions` | No | array<string> | The list of data refresh subscriptions requested on this account. |
 | `supported_payment_method_types` | Yes | array<string> | The [PaymentMethod type](https://docs.stripe.com/api/payment_methods/object#payment_method_object-type)(s) that can be created from this account. |
 | `transaction_refresh` | No | anyOf(1) | The state of the most recent attempt to refresh the account transactions. |

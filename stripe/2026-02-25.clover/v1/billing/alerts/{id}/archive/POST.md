@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/billing/alerts/{id}/archive"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

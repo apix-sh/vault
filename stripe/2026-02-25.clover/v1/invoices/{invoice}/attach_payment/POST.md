@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/invoices/{invoice}/attach_payment"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

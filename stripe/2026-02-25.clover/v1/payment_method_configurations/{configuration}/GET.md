@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/payment_method_configurations/{configuration}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

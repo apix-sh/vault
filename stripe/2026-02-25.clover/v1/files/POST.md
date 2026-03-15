@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/files"
+auth: "none"
 content_type: "multipart/form-data"
 ---
 

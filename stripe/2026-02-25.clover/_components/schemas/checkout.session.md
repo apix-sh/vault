@@ -33,11 +33,8 @@ Related guide: [Checkout quickstart](https://docs.stripe.com/checkout/quickstart
 | `billing_address_collection` | No | string | Describes whether Checkout should collect the customer's billing address. Defaults to `auto`. Allowed values: auto, required |
 | `branding_settings` | No | [payment_pages_checkout_session_branding_settings](payment_pages_checkout_session_branding_settings.md) |  |
 | `cancel_url` | No | string | If set, Checkout displays a back button and customers will be directed to this URL if they decide to cancel payment and return to your website. |
-| `client_reference_id` | No | string | A unique string to reference the Checkout Session. This can be a
-customer ID, a cart ID, or similar, and can be used to reconcile the
-Session with your internal systems. |
-| `client_secret` | No | string | The client secret of your Checkout Session. Applies to Checkout Sessions with `ui_mode: embedded` or `ui_mode: custom`. For `ui_mode: embedded`, the client secret is to be used when initializing Stripe.js embedded checkout.
- For `ui_mode: custom`, use the client secret with [initCheckout](https://docs.stripe.com/js/custom_checkout/init) on your front end. |
+| `client_reference_id` | No | string | A unique string to reference the Checkout Session. This can be a<br/>customer ID, a cart ID, or similar, and can be used to reconcile the<br/>Session with your internal systems. |
+| `client_secret` | No | string | The client secret of your Checkout Session. Applies to Checkout Sessions with `ui_mode: embedded` or `ui_mode: custom`. For `ui_mode: embedded`, the client secret is to be used when initializing Stripe.js embedded checkout.<br/> For `ui_mode: custom`, use the client secret with [initCheckout](https://docs.stripe.com/js/custom_checkout/init) on your front end. |
 | `collected_information` | No | anyOf(1) | Information about the customer collected within the Checkout Session. |
 | `consent` | No | anyOf(1) | Results of `consent_collection` for this session. |
 | `consent_collection` | No | anyOf(1) | When set, provides configuration for the Checkout Session to gather active consent from customers. |
@@ -46,19 +43,11 @@ Session with your internal systems. |
 | `currency_conversion` | No | anyOf(1) | Currency conversion details for [Adaptive Pricing](https://docs.stripe.com/payments/checkout/adaptive-pricing) sessions created before 2025-03-31. |
 | `custom_fields` | Yes | array<[payment_pages_checkout_session_custom_fields](./payment_pages_checkout_session_custom_fields.md)> | Collect additional information from your customer using custom fields. Up to 3 fields are supported. You can't set this parameter if `ui_mode` is `custom`. |
 | `custom_text` | Yes | [payment_pages_checkout_session_custom_text](payment_pages_checkout_session_custom_text.md) |  |
-| `customer` | No | anyOf(3) | The ID of the customer for this Session.
-For Checkout Sessions in `subscription` mode or Checkout Sessions with `customer_creation` set as `always` in `payment` mode, Checkout
-will create a new customer object based on information provided
-during the payment flow unless an existing customer was provided when
-the Session was created. |
+| `customer` | No | anyOf(3) | The ID of the customer for this Session.<br/>For Checkout Sessions in `subscription` mode or Checkout Sessions with `customer_creation` set as `always` in `payment` mode, Checkout<br/>will create a new customer object based on information provided<br/>during the payment flow unless an existing customer was provided when<br/>the Session was created. |
 | `customer_account` | No | string | The ID of the account for this Session. |
 | `customer_creation` | No | string | Configure whether a Checkout Session creates a Customer when the Checkout Session completes. Allowed values: always, if_required |
 | `customer_details` | No | anyOf(1) | The customer details including the customer's tax exempt status and the customer's tax IDs. Customer's address details are not present on Sessions in `setup` mode. |
-| `customer_email` | No | string | If provided, this value will be used when the Customer object is created.
-If not provided, customers will be asked to enter their email address.
-Use this parameter to prefill customer data if you already have an email
-on file. To access information about the customer once the payment flow is
-complete, use the `customer` attribute. |
+| `customer_email` | No | string | If provided, this value will be used when the Customer object is created.<br/>If not provided, customers will be asked to enter their email address.<br/>Use this parameter to prefill customer data if you already have an email<br/>on file. To access information about the customer once the payment flow is<br/>complete, use the `customer` attribute. |
 | `discounts` | No | array<[payment_pages_checkout_session_discount](./payment_pages_checkout_session_discount.md)> | List of coupons and promotion codes attached to the Checkout Session. |
 | `excluded_payment_method_types` | No | array<string> | A list of the types of payment methods (e.g., `card`) that should be excluded from this Checkout Session. This should only be used when payment methods for this Checkout Session are managed through the [Stripe Dashboard](https://dashboard.stripe.com/settings/payment_methods). |
 | `expires_at` | Yes | integer | The timestamp at which the Checkout Session will expire. |
@@ -79,13 +68,9 @@ complete, use the `customer` attribute. |
 | `payment_method_collection` | No | string | Configure whether a Checkout Session should collect a payment method. Defaults to `always`. Allowed values: always, if_required |
 | `payment_method_configuration_details` | No | anyOf(1) | Information about the payment method configuration used for this Checkout session if using dynamic payment methods. |
 | `payment_method_options` | No | anyOf(1) | Payment-method-specific configuration for the PaymentIntent or SetupIntent of this CheckoutSession. |
-| `payment_method_types` | Yes | array<string> | A list of the types of payment methods (e.g. card) this Checkout
-Session is allowed to accept. |
-| `payment_status` | Yes | string | The payment status of the Checkout Session, one of `paid`, `unpaid`, or `no_payment_required`.
-You can use this value to decide when to fulfill your customer's order. Allowed values: no_payment_required, paid, unpaid |
-| `permissions` | No | anyOf(1) | This property is used to set up permissions for various actions (e.g., update) on the CheckoutSession object.
-
-For specific permissions, please refer to their dedicated subsections, such as `permissions.update_shipping_details`. |
+| `payment_method_types` | Yes | array<string> | A list of the types of payment methods (e.g. card) this Checkout<br/>Session is allowed to accept. |
+| `payment_status` | Yes | string | The payment status of the Checkout Session, one of `paid`, `unpaid`, or `no_payment_required`.<br/>You can use this value to decide when to fulfill your customer's order. Allowed values: no_payment_required, paid, unpaid |
+| `permissions` | No | anyOf(1) | This property is used to set up permissions for various actions (e.g., update) on the CheckoutSession object.<br/><br/>For specific permissions, please refer to their dedicated subsections, such as `permissions.update_shipping_details`. |
 | `phone_number_collection` | No | [payment_pages_checkout_session_phone_number_collection](payment_pages_checkout_session_phone_number_collection.md) |  |
 | `presentment_details` | No | [payment_flows_payment_intent_presentment_details](payment_flows_payment_intent_presentment_details.md) |  |
 | `recovered_from` | No | string | The ID of the original expired Checkout Session that triggered the recovery flow. |
@@ -97,15 +82,11 @@ For specific permissions, please refer to their dedicated subsections, such as `
 | `shipping_cost` | No | anyOf(1) | The details of the customer cost of shipping, including the customer chosen ShippingRate. |
 | `shipping_options` | Yes | array<[payment_pages_checkout_session_shipping_option](./payment_pages_checkout_session_shipping_option.md)> | The shipping rate options applied to this Session. |
 | `status` | No | string | The status of the Checkout Session, one of `open`, `complete`, or `expired`. Allowed values: complete, expired, open |
-| `submit_type` | No | string | Describes the type of transaction being performed by Checkout in order to customize
-relevant text on the page, such as the submit button. `submit_type` can only be
-specified on Checkout Sessions in `payment` mode. If blank or `auto`, `pay` is used. Allowed values: auto, book, donate, pay, subscribe |
+| `submit_type` | No | string | Describes the type of transaction being performed by Checkout in order to customize<br/>relevant text on the page, such as the submit button. `submit_type` can only be<br/>specified on Checkout Sessions in `payment` mode. If blank or `auto`, `pay` is used. Allowed values: auto, book, donate, pay, subscribe |
 | `subscription` | No | anyOf(2) | The ID of the [Subscription](https://docs.stripe.com/api/subscriptions) for Checkout Sessions in `subscription` mode. |
-| `success_url` | No | string | The URL the customer will be directed to after the payment or
-subscription creation is successful. |
+| `success_url` | No | string | The URL the customer will be directed to after the payment or<br/>subscription creation is successful. |
 | `tax_id_collection` | No | [payment_pages_checkout_session_tax_id_collection](payment_pages_checkout_session_tax_id_collection.md) |  |
 | `total_details` | No | anyOf(1) | Tax and discount details for the computed total amount. |
 | `ui_mode` | No | string | The UI mode of the Session. Defaults to `hosted`. Allowed values: custom, embedded, hosted |
-| `url` | No | string | The URL to the Checkout Session. Applies to Checkout Sessions with `ui_mode: hosted`. Redirect customers to this URL to take them to Checkout. If you’re using [Custom Domains](https://docs.stripe.com/payments/checkout/custom-domains), the URL will use your subdomain. Otherwise, it’ll use `checkout.stripe.com.`
-This value is only present when the session is active. |
+| `url` | No | string | The URL to the Checkout Session. Applies to Checkout Sessions with `ui_mode: hosted`. Redirect customers to this URL to take them to Checkout. If you’re using [Custom Domains](https://docs.stripe.com/payments/checkout/custom-domains), the URL will use your subdomain. Otherwise, it’ll use `checkout.stripe.com.`<br/>This value is only present when the session is active. |
 | `wallet_options` | No | anyOf(1) | Wallet-specific configuration for this Checkout Session. |

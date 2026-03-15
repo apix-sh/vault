@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/link_account_sessions/{session}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

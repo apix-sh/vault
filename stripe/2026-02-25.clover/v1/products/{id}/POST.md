@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/products/{id}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -39,10 +40,7 @@ Supported content types:
 | `name` | No | string | The product's name, meant to be displayable to the customer. |
 | `package_dimensions` | No | anyOf(2) | The dimensions of this product for shipping purposes. |
 | `shippable` | No | boolean | Whether this product is shipped (i.e., physical goods). |
-| `statement_descriptor` | No | string | An arbitrary string to be displayed on your customer's credit card or bank statement. While most banks display this information consistently, some may display it incorrectly or not at all.
-
-This may be up to 22 characters. The statement description may not include `<`, `>`, `\`, `"`, `'` characters, and will appear on your customer's statement in capital letters. Non-ASCII characters are automatically stripped.
- It must contain at least one letter. May only be set if `type=service`. Only used for subscription payments. |
+| `statement_descriptor` | No | string | An arbitrary string to be displayed on your customer's credit card or bank statement. While most banks display this information consistently, some may display it incorrectly or not at all.<br/><br/>This may be up to 22 characters. The statement description may not include `<`, `>`, `\`, `"`, `'` characters, and will appear on your customer's statement in capital letters. Non-ASCII characters are automatically stripped.<br/> It must contain at least one letter. May only be set if `type=service`. Only used for subscription payments. |
 | `tax_code` | No | anyOf(2) | A [tax code](https://docs.stripe.com/tax/tax-categories) ID. |
 | `unit_label` | No | anyOf(2) | A label that represents units of this product. When set, this will be included in customers' receipts, invoices, Checkout, and the customer portal. May only be set if `type=service`. |
 | `url` | No | anyOf(2) | A URL of a publicly-accessible webpage for this product. |

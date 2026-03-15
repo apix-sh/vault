@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/sigma/scheduled_query_runs/{scheduled_query_run}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

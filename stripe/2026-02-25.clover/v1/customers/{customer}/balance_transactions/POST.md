@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/customers/{customer}/balance_transactions"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

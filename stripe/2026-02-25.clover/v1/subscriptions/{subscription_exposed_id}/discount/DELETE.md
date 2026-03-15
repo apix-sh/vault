@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.stripe.com//v1/subscriptions/{subscription_exposed_id}/discount"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

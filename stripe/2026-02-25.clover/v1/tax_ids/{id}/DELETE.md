@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.stripe.com//v1/tax_ids/{id}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

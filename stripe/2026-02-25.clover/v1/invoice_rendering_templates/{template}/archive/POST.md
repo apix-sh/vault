@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/invoice_rendering_templates/{template}/archive"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

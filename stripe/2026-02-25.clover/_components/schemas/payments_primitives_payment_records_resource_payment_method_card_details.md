@@ -19,9 +19,7 @@ Details of the card used for this payment attempt.
 | `description` | No | string | A high-level description of the type of cards issued in this range. |
 | `exp_month` | Yes | integer | Two-digit number representing the card's expiration month. |
 | `exp_year` | Yes | integer | Four-digit number representing the card's expiration year. |
-| `fingerprint` | No | string | Uniquely identifies this particular card number. You can use this attribute to check whether two customers who’ve signed up with you are using the same card number, for example. For payment methods that tokenize card information (Apple Pay, Google Pay), the tokenized number might be provided instead of the underlying card number.
-
-*As of May 1, 2021, card fingerprint in India for Connect changed to allow two fingerprints for the same card---one for India and one for the rest of the world.* |
+| `fingerprint` | No | string | Uniquely identifies this particular card number. You can use this attribute to check whether two customers who’ve signed up with you are using the same card number, for example. For payment methods that tokenize card information (Apple Pay, Google Pay), the tokenized number might be provided instead of the underlying card number.<br/><br/>*As of May 1, 2021, card fingerprint in India for Connect changed to allow two fingerprints for the same card---one for India and one for the rest of the world.* |
 | `funding` | Yes | string | Card funding type. Can be `credit`, `debit`, `prepaid`, or `unknown`. Allowed values: credit, debit, prepaid, unknown |
 | `iin` | No | string | Issuer identification number of the card. |
 | `installments` | No | anyOf(1) | Installment details for this payment. |

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/webhook_endpoints/{webhook_endpoint}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

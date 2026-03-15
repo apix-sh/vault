@@ -19,14 +19,8 @@ and track payments that belong to the same customer.
 | `created` | Yes | integer | Time at which the object was created. Measured in seconds since the Unix epoch. |
 | `currency` | No | string | Three-letter [ISO code for the currency](https://stripe.com/docs/currencies) the customer can be charged in for recurring billing purposes. |
 | `customer_account` | No | string | The ID of an Account representing a customer. You can use this ID with any v1 API that accepts a customer_account parameter. |
-| `default_source` | No | anyOf(4) | ID of the default payment source for the customer.
-
-If you use payment methods created through the PaymentMethods API, see the [invoice_settings.default_payment_method](https://docs.stripe.com/api/customers/object#customer_object-invoice_settings-default_payment_method) field instead. |
-| `delinquent` | No | boolean | Tracks the most recent state change on any invoice belonging to the customer. Paying an invoice or marking it uncollectible via the API will set this field to false. An automatic payment failure or passing the `invoice.due_date` will set this field to `true`.
-
-If an invoice becomes uncollectible by [dunning](https://docs.stripe.com/billing/automatic-collection), `delinquent` doesn't reset to `false`.
-
-If you care whether the customer has paid their most recent subscription invoice, use `subscription.status` instead. Paying or marking uncollectible any customer invoice regardless of whether it is the latest invoice for a subscription will always set this field to `false`. |
+| `default_source` | No | anyOf(4) | ID of the default payment source for the customer.<br/><br/>If you use payment methods created through the PaymentMethods API, see the [invoice_settings.default_payment_method](https://docs.stripe.com/api/customers/object#customer_object-invoice_settings-default_payment_method) field instead. |
+| `delinquent` | No | boolean | Tracks the most recent state change on any invoice belonging to the customer. Paying an invoice or marking it uncollectible via the API will set this field to false. An automatic payment failure or passing the `invoice.due_date` will set this field to `true`.<br/><br/>If an invoice becomes uncollectible by [dunning](https://docs.stripe.com/billing/automatic-collection), `delinquent` doesn't reset to `false`.<br/><br/>If you care whether the customer has paid their most recent subscription invoice, use `subscription.status` instead. Paying or marking uncollectible any customer invoice regardless of whether it is the latest invoice for a subscription will always set this field to `false`. |
 | `description` | No | string | An arbitrary string attached to the object. Often useful for displaying to users. |
 | `discount` | No | anyOf(1) | Describes the current discount active on the customer, if there is one. |
 | `email` | No | string | The customer's email address. |

@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/treasury/outbound_transfers"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

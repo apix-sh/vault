@@ -24,8 +24,7 @@ Related guide: [How to create a cardholder](https://docs.stripe.com/issuing/card
 | `name` | Yes | string | The cardholder's name. This will be printed on cards issued to them. |
 | `object` | Yes | string | String representing the object's type. Objects of the same type share the same value. Allowed values: issuing.cardholder |
 | `phone_number` | No | string | The cardholder's phone number. This is required for all cardholders who will be creating EU cards. See the [3D Secure documentation](https://docs.stripe.com/issuing/3d-secure#when-is-3d-secure-applied) for more details. |
-| `preferred_locales` | No | array<string> | The cardholder’s preferred locales (languages), ordered by preference. Locales can be `de`, `en`, `es`, `fr`, or `it`.
- This changes the language of the [3D Secure flow](https://docs.stripe.com/issuing/3d-secure) and one-time password messages sent to the cardholder. |
+| `preferred_locales` | No | array<string> | The cardholder’s preferred locales (languages), ordered by preference. Locales can be `de`, `en`, `es`, `fr`, or `it`.<br/> This changes the language of the [3D Secure flow](https://docs.stripe.com/issuing/3d-secure) and one-time password messages sent to the cardholder. |
 | `requirements` | Yes | [issuing_cardholder_requirements](issuing_cardholder_requirements.md) |  |
 | `spending_controls` | No | anyOf(1) | Rules that control spending across this cardholder's cards. Refer to our [documentation](https://docs.stripe.com/issuing/controls/spending-controls) for more details. |
 | `status` | Yes | string | Specifies whether to permit authorizations on this cardholder's cards. Allowed values: active, blocked, inactive |

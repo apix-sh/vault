@@ -32,26 +32,16 @@ Related guide: [Setup Intents API](https://docs.stripe.com/payments/setup-intent
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `application` | No | anyOf(2) | ID of the Connect application that created the SetupIntent. |
-| `attach_to_self` | No | boolean | If present, the SetupIntent's payment method will be attached to the in-context Stripe Account.
-
-It can only be used for this Stripe Account’s own money movement flows like InboundTransfer and OutboundTransfers. It cannot be set to true when setting up a PaymentMethod for a Customer, and defaults to false when attaching a PaymentMethod to a Customer. |
+| `attach_to_self` | No | boolean | If present, the SetupIntent's payment method will be attached to the in-context Stripe Account.<br/><br/>It can only be used for this Stripe Account’s own money movement flows like InboundTransfer and OutboundTransfers. It cannot be set to true when setting up a PaymentMethod for a Customer, and defaults to false when attaching a PaymentMethod to a Customer. |
 | `automatic_payment_methods` | No | anyOf(1) | Settings for dynamic payment methods compatible with this Setup Intent |
 | `cancellation_reason` | No | string | Reason for cancellation of this SetupIntent, one of `abandoned`, `requested_by_customer`, or `duplicate`. Allowed values: abandoned, duplicate, requested_by_customer |
-| `client_secret` | No | string | The client secret of this SetupIntent. Used for client-side retrieval using a publishable key.
-
-The client secret can be used to complete payment setup from your frontend. It should not be stored, logged, or exposed to anyone other than the customer. Make sure that you have TLS enabled on any page that includes the client secret. |
+| `client_secret` | No | string | The client secret of this SetupIntent. Used for client-side retrieval using a publishable key.<br/><br/>The client secret can be used to complete payment setup from your frontend. It should not be stored, logged, or exposed to anyone other than the customer. Make sure that you have TLS enabled on any page that includes the client secret. |
 | `created` | Yes | integer | Time at which the object was created. Measured in seconds since the Unix epoch. |
-| `customer` | No | anyOf(3) | ID of the Customer this SetupIntent belongs to, if one exists.
-
-If present, the SetupIntent's payment method will be attached to the Customer on successful setup. Payment methods attached to other Customers cannot be used with this SetupIntent. |
-| `customer_account` | No | string | ID of the Account this SetupIntent belongs to, if one exists.
-
-If present, the SetupIntent's payment method will be attached to the Account on successful setup. Payment methods attached to other Accounts cannot be used with this SetupIntent. |
+| `customer` | No | anyOf(3) | ID of the Customer this SetupIntent belongs to, if one exists.<br/><br/>If present, the SetupIntent's payment method will be attached to the Customer on successful setup. Payment methods attached to other Customers cannot be used with this SetupIntent. |
+| `customer_account` | No | string | ID of the Account this SetupIntent belongs to, if one exists.<br/><br/>If present, the SetupIntent's payment method will be attached to the Account on successful setup. Payment methods attached to other Accounts cannot be used with this SetupIntent. |
 | `description` | No | string | An arbitrary string attached to the object. Often useful for displaying to users. |
 | `excluded_payment_method_types` | No | array<string> | Payment method types that are excluded from this SetupIntent. |
-| `flow_directions` | No | array<string> | Indicates the directions of money movement for which this payment method is intended to be used.
-
-Include `inbound` if you intend to use the payment method as the origin to pull funds from. Include `outbound` if you intend to use the payment method as the destination to send funds to. You can include both if you intend to use the payment method for both purposes. |
+| `flow_directions` | No | array<string> | Indicates the directions of money movement for which this payment method is intended to be used.<br/><br/>Include `inbound` if you intend to use the payment method as the origin to pull funds from. Include `outbound` if you intend to use the payment method as the destination to send funds to. You can include both if you intend to use the payment method for both purposes. |
 | `id` | Yes | string | Unique identifier for the object. |
 | `last_setup_error` | No | anyOf(1) | The error encountered in the previous SetupIntent confirmation. |
 | `latest_attempt` | No | anyOf(2) | The most recent SetupAttempt for this SetupIntent. |
@@ -67,6 +57,4 @@ Include `inbound` if you intend to use the payment method as the origin to pull 
 | `payment_method_types` | Yes | array<string> | The list of payment method types (e.g. card) that this SetupIntent is allowed to set up. A list of valid payment method types can be found [here](https://docs.stripe.com/api/payment_methods/object#payment_method_object-type). |
 | `single_use_mandate` | No | anyOf(2) | ID of the single_use Mandate generated by the SetupIntent. |
 | `status` | Yes | string | [Status](https://docs.stripe.com/payments/intents#intent-statuses) of this SetupIntent, one of `requires_payment_method`, `requires_confirmation`, `requires_action`, `processing`, `canceled`, or `succeeded`. Allowed values: canceled, processing, requires_action, requires_confirmation, requires_payment_method, succeeded |
-| `usage` | Yes | string | Indicates how the payment method is intended to be used in the future.
-
-Use `on_session` if you intend to only reuse the payment method when the customer is in your checkout flow. Use `off_session` if your customer may or may not be in your checkout flow. If not provided, this value defaults to `off_session`. |
+| `usage` | Yes | string | Indicates how the payment method is intended to be used in the future.<br/><br/>Use `on_session` if you intend to only reuse the payment method when the customer is in your checkout flow. Use `off_session` if your customer may or may not be in your checkout flow. If not provided, this value defaults to `off_session`. |

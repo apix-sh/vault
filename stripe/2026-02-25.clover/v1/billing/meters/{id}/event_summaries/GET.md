@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/billing/meters/{id}/event_summaries"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

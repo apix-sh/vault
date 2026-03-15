@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/reviews/{review}/approve"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/test_helpers/issuing/settlements/{settlement}/complete"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

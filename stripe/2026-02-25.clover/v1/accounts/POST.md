@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/accounts"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -36,14 +37,7 @@ Supported content types:
 | `bank_account` | No | anyOf(2) | Either a token, like the ones returned by [Stripe.js](https://stripe.com/docs/js), or a dictionary containing a user's bank account details. |
 | `business_profile` | No | object | Business information about the account. |
 | `business_type` | No | string | The business type. Once you create an [Account Link](/api/account_links) or [Account Session](/api/account_sessions), this property can only be updated for accounts where [controller.requirement_collection](/api/accounts/object#account_object-controller-requirement_collection) is `application`, which includes Custom accounts. |
-| `capabilities` | No | object | Each key of the dictionary represents a capability, and each capability
-maps to its settings (for example, whether it has been requested or not). Each
-capability is inactive until you have provided its specific
-requirements and Stripe has verified them. An account might have some
-of its requested capabilities be active and some be inactive.
-
-Required when [account.controller.stripe_dashboard.type](/api/accounts/create#create_account-controller-dashboard-type)
-is `none`, which includes Custom accounts. |
+| `capabilities` | No | object | Each key of the dictionary represents a capability, and each capability<br/>maps to its settings (for example, whether it has been requested or not). Each<br/>capability is inactive until you have provided its specific<br/>requirements and Stripe has verified them. An account might have some<br/>of its requested capabilities be active and some be inactive.<br/><br/>Required when [account.controller.stripe_dashboard.type](/api/accounts/create#create_account-controller-dashboard-type)<br/>is `none`, which includes Custom accounts. |
 | `company` | No | object | Information about the company or business. This field is available for any `business_type`. Once you create an [Account Link](/api/account_links) or [Account Session](/api/account_sessions), this property can only be updated for accounts where [controller.requirement_collection](/api/accounts/object#account_object-controller-requirement_collection) is `application`, which includes Custom accounts. |
 | `controller` | No | object | A hash of configuration describing the account controller's attributes. |
 | `country` | No | string | The country in which the account holder resides, or in which the business is legally established. This should be an ISO 3166-1 alpha-2 country code. For example, if you are in the United States and the business for which you're creating an account is legally represented in Canada, you would use `CA` as the country for the account being created. Available countries include [Stripe's global markets](https://stripe.com/global) as well as countries where [cross-border payouts](https://stripe.com/docs/connect/cross-border-payouts) are supported. |

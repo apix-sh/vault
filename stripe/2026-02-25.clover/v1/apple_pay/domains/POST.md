@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/apple_pay/domains"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

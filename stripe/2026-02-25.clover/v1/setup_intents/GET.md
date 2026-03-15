@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/setup_intents"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -17,9 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `attach_to_self` | No | boolean | If present, the SetupIntent's payment method will be attached to the in-context Stripe Account.
-
-It can only be used for this Stripe Account’s own money movement flows like InboundTransfer and OutboundTransfers. It cannot be set to true when setting up a PaymentMethod for a Customer, and defaults to false when attaching a PaymentMethod to a Customer.<br/>*Serialization: style=Form* |
+| `attach_to_self` | No | boolean | If present, the SetupIntent's payment method will be attached to the in-context Stripe Account.<br/><br/>It can only be used for this Stripe Account’s own money movement flows like InboundTransfer and OutboundTransfers. It cannot be set to true when setting up a PaymentMethod for a Customer, and defaults to false when attaching a PaymentMethod to a Customer.<br/>*Serialization: style=Form* |
 | `created` | No | anyOf(2) | A filter on the list, based on the object `created` field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with a number of different query options.<br/>*Serialization: style=DeepObject, explode=true* |
 | `customer` | No | string | Only return SetupIntents for the customer specified by this customer ID.<br/>*Serialization: style=Form* |
 | `customer_account` | No | string | Only return SetupIntents for the account specified by this customer ID.<br/>*Serialization: style=Form* |

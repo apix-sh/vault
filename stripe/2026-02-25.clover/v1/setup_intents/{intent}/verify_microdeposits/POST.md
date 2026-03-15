@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/setup_intents/{intent}/verify_microdeposits"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

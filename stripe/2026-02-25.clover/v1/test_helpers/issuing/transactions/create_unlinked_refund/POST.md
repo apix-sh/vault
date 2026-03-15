@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/test_helpers/issuing/transactions/create_unlinked_refund"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

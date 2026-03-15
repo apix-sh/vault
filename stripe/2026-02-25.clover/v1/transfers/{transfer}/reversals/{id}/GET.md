@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/transfers/{transfer}/reversals/{id}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

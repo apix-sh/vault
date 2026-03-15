@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/tax_rates/{tax_rate}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

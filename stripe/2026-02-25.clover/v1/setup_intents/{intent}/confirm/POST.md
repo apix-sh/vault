@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/setup_intents/{intent}/confirm"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -43,18 +44,13 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `client_secret` | No | string | The client secret of the SetupIntent. |
-| `confirmation_token` | No | string | ID of the ConfirmationToken used to confirm this SetupIntent.
-
-If the provided ConfirmationToken contains properties that are also being provided in this request, such as `payment_method`, then the values in this request will take precedence. |
+| `confirmation_token` | No | string | ID of the ConfirmationToken used to confirm this SetupIntent.<br/><br/>If the provided ConfirmationToken contains properties that are also being provided in this request, such as `payment_method`, then the values in this request will take precedence. |
 | `expand` | No | array<string> | Specifies which fields in the response should be expanded. |
 | `mandate_data` | No | anyOf(3) |  |
 | `payment_method` | No | string | ID of the payment method (a PaymentMethod, Card, or saved Source object) to attach to this SetupIntent. |
-| `payment_method_data` | No | object | When included, this hash creates a PaymentMethod that is set as the [`payment_method`](https://docs.stripe.com/api/setup_intents/object#setup_intent_object-payment_method)
-value in the SetupIntent. |
+| `payment_method_data` | No | object | When included, this hash creates a PaymentMethod that is set as the [`payment_method`](https://docs.stripe.com/api/setup_intents/object#setup_intent_object-payment_method)<br/>value in the SetupIntent. |
 | `payment_method_options` | No | object | Payment method-specific configuration for this SetupIntent. |
-| `return_url` | No | string | The URL to redirect your customer back to after they authenticate on the payment method's app or site.
-If you'd prefer to redirect to a mobile application, you can alternatively supply an application URI scheme.
-This parameter is only used for cards and other redirect-based payment methods. |
+| `return_url` | No | string | The URL to redirect your customer back to after they authenticate on the payment method's app or site.<br/>If you'd prefer to redirect to a mobile application, you can alternatively supply an application URI scheme.<br/>This parameter is only used for cards and other redirect-based payment methods. |
 | `use_stripe_sdk` | No | boolean | Set to `true` when confirming server-side and using Stripe.js, iOS, or Android client-side SDKs to handle the next actions. |
 
 

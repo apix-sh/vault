@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/customers/{customer}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -40,11 +41,7 @@ Supported content types:
 | `default_alipay_account` | No | string | ID of Alipay account to make the customer's new default for invoice payments. |
 | `default_bank_account` | No | string | ID of bank account to make the customer's new default for invoice payments. |
 | `default_card` | No | string | ID of card to make the customer's new default for invoice payments. |
-| `default_source` | No | string | If you are using payment methods created via the PaymentMethods API, see the [invoice_settings.default_payment_method](https://docs.stripe.com/api/customers/update#update_customer-invoice_settings-default_payment_method) parameter.
-
-Provide the ID of a payment source already attached to this customer to make it this customer's default payment source.
-
-If you want to add a new payment source and make it the default, see the [source](https://docs.stripe.com/api/customers/update#update_customer-source) property. |
+| `default_source` | No | string | If you are using payment methods created via the PaymentMethods API, see the [invoice_settings.default_payment_method](https://docs.stripe.com/api/customers/update#update_customer-invoice_settings-default_payment_method) parameter.<br/><br/>Provide the ID of a payment source already attached to this customer to make it this customer's default payment source.<br/><br/>If you want to add a new payment source and make it the default, see the [source](https://docs.stripe.com/api/customers/update#update_customer-source) property. |
 | `description` | No | string | An arbitrary string that you can attach to a customer object. It is displayed alongside the customer in the dashboard. |
 | `email` | No | string | Customer's email address. It's displayed alongside the customer in your dashboard and can be useful for searching and tracking. This may be up to *512 characters*. |
 | `expand` | No | array<string> | Specifies which fields in the response should be expanded. |

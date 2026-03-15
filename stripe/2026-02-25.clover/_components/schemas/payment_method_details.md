@@ -60,9 +60,7 @@ type: "object"
 | `stripe_account` | No | [payment_method_details_stripe_account](payment_method_details_stripe_account.md) |  |
 | `swish` | No | [payment_method_details_swish](payment_method_details_swish.md) |  |
 | `twint` | No | [payment_method_details_twint](payment_method_details_twint.md) |  |
-| `type` | Yes | string | The type of transaction-specific details of the payment method used in the payment. See [PaymentMethod.type](https://docs.stripe.com/api/payment_methods/object#payment_method_object-type) for the full list of possible types.
-An additional hash is included on `payment_method_details` with a name matching this value.
-It contains information specific to the payment method. |
+| `type` | Yes | string | The type of transaction-specific details of the payment method used in the payment. See [PaymentMethod.type](https://docs.stripe.com/api/payment_methods/object#payment_method_object-type) for the full list of possible types.<br/>An additional hash is included on `payment_method_details` with a name matching this value.<br/>It contains information specific to the payment method. |
 | `us_bank_account` | No | [payment_method_details_us_bank_account](payment_method_details_us_bank_account.md) |  |
 | `wechat` | No | [payment_method_details_wechat](payment_method_details_wechat.md) |  |
 | `wechat_pay` | No | [payment_method_details_wechat_pay](payment_method_details_wechat_pay.md) |  |

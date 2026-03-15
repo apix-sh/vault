@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/test_helpers/issuing/personalization_designs/{personalization_design}/reject"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

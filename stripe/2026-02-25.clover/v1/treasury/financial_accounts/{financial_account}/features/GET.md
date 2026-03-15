@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/treasury/financial_accounts/{financial_account}/features"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

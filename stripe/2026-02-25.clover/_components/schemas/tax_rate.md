@@ -18,9 +18,7 @@ Related guide: [Tax rates](/billing/taxes/tax-rates)
 | `created` | Yes | integer | Time at which the object was created. Measured in seconds since the Unix epoch. |
 | `description` | No | string | An arbitrary string attached to the tax rate for your internal use only. It will not be visible to your customers. |
 | `display_name` | Yes | string | The display name of the tax rates as it will appear to your customer on their receipt email, PDF, and the hosted invoice page. |
-| `effective_percentage` | No | number | Actual/effective tax rate percentage out of 100. For tax calculations with automatic_tax[enabled]=true,
-this percentage reflects the rate actually used to calculate tax based on the product's taxability
-and whether the user is registered to collect taxes in the corresponding jurisdiction. |
+| `effective_percentage` | No | number | Actual/effective tax rate percentage out of 100. For tax calculations with automatic_tax[enabled]=true,<br/>this percentage reflects the rate actually used to calculate tax based on the product's taxability<br/>and whether the user is registered to collect taxes in the corresponding jurisdiction. |
 | `flat_amount` | No | anyOf(1) | The amount of the tax rate when the `rate_type` is `flat_amount`. Tax rates with `rate_type` `percentage` can vary based on the transaction, resulting in this field being `null`. This field exposes the amount and currency of the flat tax rate. |
 | `id` | Yes | string | Unique identifier for the object. |
 | `inclusive` | Yes | boolean | This specifies if the tax rate is inclusive or exclusive. |

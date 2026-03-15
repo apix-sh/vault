@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/quotes/{quote}/computed_upfront_line_items"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

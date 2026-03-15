@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/treasury/debit_reversals/{debit_reversal}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

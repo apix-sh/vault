@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/terminal/readers/{reader}/collect_inputs"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

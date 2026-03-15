@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/payment_method_domains/{payment_method_domain}/validate"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

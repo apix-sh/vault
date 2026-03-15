@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/test_helpers/confirmation_tokens"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -32,9 +33,7 @@ Supported content types:
 | `payment_method_data` | No | object | If provided, this hash will be used to create a PaymentMethod. |
 | `payment_method_options` | No | object | Payment-method-specific configuration for this ConfirmationToken. |
 | `return_url` | No | string | Return URL used to confirm the Intent. |
-| `setup_future_usage` | No | string | Indicates that you intend to make future payments with this ConfirmationToken's payment method.
-
-The presence of this property will [attach the payment method](https://docs.stripe.com/payments/save-during-payment) to the PaymentIntent's Customer, if present, after the PaymentIntent is confirmed and any required actions from the user are complete. |
+| `setup_future_usage` | No | string | Indicates that you intend to make future payments with this ConfirmationToken's payment method.<br/><br/>The presence of this property will [attach the payment method](https://docs.stripe.com/payments/save-during-payment) to the PaymentIntent's Customer, if present, after the PaymentIntent is confirmed and any required actions from the user are complete. |
 | `shipping` | No | object | Shipping information for this ConfirmationToken. |
 
 

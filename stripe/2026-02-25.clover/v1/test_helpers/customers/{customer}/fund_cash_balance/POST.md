@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/test_helpers/customers/{customer}/fund_cash_balance"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

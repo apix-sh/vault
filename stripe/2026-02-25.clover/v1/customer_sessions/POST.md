@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/customer_sessions"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

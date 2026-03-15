@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/linked_accounts/{account}/owners"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

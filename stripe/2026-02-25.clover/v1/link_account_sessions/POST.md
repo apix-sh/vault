@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/link_account_sessions"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -30,9 +31,7 @@ Supported content types:
 | `account_holder` | Yes | object | The account holder to link accounts for. |
 | `expand` | No | array<string> | Specifies which fields in the response should be expanded. |
 | `filters` | No | object | Filters to restrict the kinds of accounts to collect. |
-| `permissions` | Yes | array<string> | List of data features that you would like to request access to.
-
-Possible values are `balances`, `transactions`, `ownership`, and `payment_method`. |
+| `permissions` | Yes | array<string> | List of data features that you would like to request access to.<br/><br/>Possible values are `balances`, `transactions`, `ownership`, and `payment_method`. |
 | `prefetch` | No | array<string> | List of data features that you would like to retrieve upon account creation. |
 | `return_url` | No | string | For webview integrations only. Upon completing OAuth login in the native browser, the user will be redirected to this URL to return to your app. |
 

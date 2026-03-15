@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/payment_links"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -45,19 +46,11 @@ Supported content types:
 | `metadata` | No | object | Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to `metadata`. Metadata associated with this Payment Link will automatically be copied to [checkout sessions](https://docs.stripe.com/api/checkout/sessions) created by this payment link. |
 | `name_collection` | No | object | Controls settings applied for collecting the customer's name. |
 | `on_behalf_of` | No | string | The account on behalf of which to charge. |
-| `optional_items` | No | array<object> | A list of optional items the customer can add to their order at checkout. Use this parameter to pass one-time or recurring [Prices](https://docs.stripe.com/api/prices).
-There is a maximum of 10 optional items allowed on a payment link, and the existing limits on the number of line items allowed on a payment link apply to the combined number of line items and optional items.
-There is a maximum of 20 combined line items and optional items. |
+| `optional_items` | No | array<object> | A list of optional items the customer can add to their order at checkout. Use this parameter to pass one-time or recurring [Prices](https://docs.stripe.com/api/prices).<br/>There is a maximum of 10 optional items allowed on a payment link, and the existing limits on the number of line items allowed on a payment link apply to the combined number of line items and optional items.<br/>There is a maximum of 20 combined line items and optional items. |
 | `payment_intent_data` | No | object | A subset of parameters to be passed to PaymentIntent creation for Checkout Sessions in `payment` mode. |
-| `payment_method_collection` | No | string | Specify whether Checkout should collect a payment method. When set to `if_required`, Checkout will not collect a payment method when the total due for the session is 0.This may occur if the Checkout Session includes a free trial or a discount.
-
-Can only be set in `subscription` mode. Defaults to `always`.
-
-If you'd like information on how to collect a payment method outside of Checkout, read the guide on [configuring subscriptions with a free trial](https://docs.stripe.com/payments/checkout/free-trials). |
+| `payment_method_collection` | No | string | Specify whether Checkout should collect a payment method. When set to `if_required`, Checkout will not collect a payment method when the total due for the session is 0.This may occur if the Checkout Session includes a free trial or a discount.<br/><br/>Can only be set in `subscription` mode. Defaults to `always`.<br/><br/>If you'd like information on how to collect a payment method outside of Checkout, read the guide on [configuring subscriptions with a free trial](https://docs.stripe.com/payments/checkout/free-trials). |
 | `payment_method_types` | No | array<string> | The list of payment method types that customers can use. If no value is passed, Stripe will dynamically show relevant payment methods from your [payment method settings](https://dashboard.stripe.com/settings/payment_methods) (20+ payment methods [supported](https://docs.stripe.com/payments/payment-methods/integration-options#payment-method-product-support)). |
-| `phone_number_collection` | No | object | Controls phone number collection settings during checkout.
-
-We recommend that you review your privacy policy and check with your legal contacts. |
+| `phone_number_collection` | No | object | Controls phone number collection settings during checkout.<br/><br/>We recommend that you review your privacy policy and check with your legal contacts. |
 | `restrictions` | No | object | Settings that restrict the usage of a payment link. |
 | `shipping_address_collection` | No | object | Configuration for collecting the customer's shipping address. |
 | `shipping_options` | No | array<object> | The shipping rate options to apply to [checkout sessions](https://docs.stripe.com/api/checkout/sessions) created by this payment link. |

@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/promotion_codes/{promotion_code}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

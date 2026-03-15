@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/tax/transactions/create_from_calculation"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

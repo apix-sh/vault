@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.stripe.com//v1/climate/products"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 

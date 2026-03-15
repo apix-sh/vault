@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.stripe.com//v1/accounts/{account}"
+auth: "none"
 content_type: "application/x-www-form-urlencoded"
 ---
 
@@ -44,14 +45,7 @@ Supported content types:
 | `account_token` | No | string | An [account token](https://api.stripe.com#create_account_token), used to securely provide details to the account. |
 | `business_profile` | No | object | Business information about the account. |
 | `business_type` | No | string | The business type. Once you create an [Account Link](/api/account_links) or [Account Session](/api/account_sessions), this property can only be updated for accounts where [controller.requirement_collection](/api/accounts/object#account_object-controller-requirement_collection) is `application`, which includes Custom accounts. |
-| `capabilities` | No | object | Each key of the dictionary represents a capability, and each capability
-maps to its settings (for example, whether it has been requested or not). Each
-capability is inactive until you have provided its specific
-requirements and Stripe has verified them. An account might have some
-of its requested capabilities be active and some be inactive.
-
-Required when [account.controller.stripe_dashboard.type](/api/accounts/create#create_account-controller-dashboard-type)
-is `none`, which includes Custom accounts. |
+| `capabilities` | No | object | Each key of the dictionary represents a capability, and each capability<br/>maps to its settings (for example, whether it has been requested or not). Each<br/>capability is inactive until you have provided its specific<br/>requirements and Stripe has verified them. An account might have some<br/>of its requested capabilities be active and some be inactive.<br/><br/>Required when [account.controller.stripe_dashboard.type](/api/accounts/create#create_account-controller-dashboard-type)<br/>is `none`, which includes Custom accounts. |
 | `company` | No | object | Information about the company or business. This field is available for any `business_type`. Once you create an [Account Link](/api/account_links) or [Account Session](/api/account_sessions), this property can only be updated for accounts where [controller.requirement_collection](/api/accounts/object#account_object-controller-requirement_collection) is `application`, which includes Custom accounts. |
 | `default_currency` | No | string | Three-letter ISO currency code representing the default currency for the account. This must be a currency that [Stripe supports in the account's country](https://docs.stripe.com/payouts). |
 | `documents` | No | object | Documents that may be submitted to satisfy various informational requests. |
