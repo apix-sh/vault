@@ -17,8 +17,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username` | No | string | The user name for login<br/>*Serialization: style=Form* |
-| `password` | No | string | The password for login in clear text<br/>*Serialization: style=Form* |
+| `username` | No | string | The user name for login |
+| `password` | No | string | The password for login in clear text |
 
 
 
@@ -37,14 +37,14 @@ successful operation
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `X-Rate-Limit` | No | integer | calls per hour allowed by the user |
 | `X-Expires-After` | No | string | date in UTC when token expires |
+| `X-Rate-Limit` | No | integer | calls per hour allowed by the user |
 
-
-#### Response Schema (`application/xml`)
-*(No object properties found)*
 
 #### Response Schema (`application/json`)
+*(No object properties found)*
+
+#### Response Schema (`application/xml`)
 *(No object properties found)*
 
 

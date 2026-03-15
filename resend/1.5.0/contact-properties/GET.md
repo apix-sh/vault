@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.resend.com/contact-properties"
+auth: "none"
 content_type: "application/json"
 ---
 

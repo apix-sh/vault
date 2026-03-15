@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.resend.com/emails/receiving/{email_id}/attachments"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,16 +11,16 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `email_id` | Yes | string | The ID of the received email.<br/>*Serialization: style=Simple* |
+| `email_id` | Yes | string | The ID of the received email. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Maximum number of attachments to return.<br/>*Serialization: style=Form* |
-| `after` | No | string | Pagination cursor to fetch results after this attachment ID. Cannot be used with 'before'.<br/>*Serialization: style=Form* |
-| `before` | No | string | Pagination cursor to fetch results before this attachment ID. Cannot be used with 'after'.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Maximum number of attachments to return. |
+| `after` | No | string | Pagination cursor to fetch results after this attachment ID. Cannot be used with 'before'. |
+| `before` | No | string | Pagination cursor to fetch results before this attachment ID. Cannot be used with 'after'. |
 
 
 

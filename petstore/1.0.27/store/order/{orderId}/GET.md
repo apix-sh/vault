@@ -12,7 +12,7 @@ For valid response try integer IDs with value <= 5 or > 10. Other values will ge
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `orderId` | Yes | integer | ID of order that needs to be fetched<br/>*Serialization: style=Simple* |
+| `orderId` | Yes | integer | ID of order that needs to be fetched |
 
 
 ## Query Parameters

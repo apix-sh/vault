@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `status` | Yes | string | Status values that need to be considered for filter<br/>*Serialization: style=Form, explode=true* |
+| `status` | Yes | string | Status values that need to be considered for filter<br/>*Serialization: explode=true* |
 
 
 

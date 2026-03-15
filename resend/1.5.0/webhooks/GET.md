@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.resend.com/webhooks"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -15,9 +16,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Maximum number of webhooks to return.<br/>*Serialization: style=Form* |
-| `after` | No | string | Pagination cursor to fetch results after this webhook ID. Cannot be used with 'before'.<br/>*Serialization: style=Form* |
-| `before` | No | string | Pagination cursor to fetch results before this webhook ID. Cannot be used with 'after'.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Maximum number of webhooks to return. |
+| `after` | No | string | Pagination cursor to fetch results after this webhook ID. Cannot be used with 'before'. |
+| `before` | No | string | Pagination cursor to fetch results before this webhook ID. Cannot be used with 'after'. |
 
 
 

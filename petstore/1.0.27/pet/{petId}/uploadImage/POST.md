@@ -13,14 +13,14 @@ Upload image of the pet.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `petId` | Yes | integer | ID of pet to update<br/>*Serialization: style=Simple* |
+| `petId` | Yes | integer | ID of pet to update |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `additionalMetadata` | No | string | Additional Metadata<br/>*Serialization: style=Form* |
+| `additionalMetadata` | No | string | Additional Metadata |
 
 
 

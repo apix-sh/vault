@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.resend.com/webhooks/{webhook_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `webhook_id` | Yes | string | The Webhook ID.<br/>*Serialization: style=Simple* |
+| `webhook_id` | Yes | string | The Webhook ID. |
 
 
 ## Query Parameters

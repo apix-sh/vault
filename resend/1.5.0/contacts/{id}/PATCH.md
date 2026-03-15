@@ -1,6 +1,7 @@
 ---
 method: "PATCH"
 url: "https://api.resend.com/contacts/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The Contact ID or email address.<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The Contact ID or email address. |
 
 
 ## Query Parameters

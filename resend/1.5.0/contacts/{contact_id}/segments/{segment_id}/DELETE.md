@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.resend.com/contacts/{contact_id}/segments/{segment_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `contact_id` | Yes | string | The Contact ID or email address.<br/>*Serialization: style=Simple* |
-| `segment_id` | Yes | string | The Segment ID.<br/>*Serialization: style=Simple* |
+| `contact_id` | Yes | string | The Contact ID or email address. |
+| `segment_id` | Yes | string | The Segment ID. |
 
 
 ## Query Parameters

@@ -1,6 +1,7 @@
 ---
 method: "PATCH"
 url: "https://api.resend.com/emails/{email_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `email_id` | Yes | string | The ID of the email.<br/>*Serialization: style=Simple* |
+| `email_id` | Yes | string | The ID of the email. |
 
 
 ## Query Parameters

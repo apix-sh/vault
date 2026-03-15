@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.resend.com/webhooks"
+auth: "none"
 content_type: "application/json"
 ---
 

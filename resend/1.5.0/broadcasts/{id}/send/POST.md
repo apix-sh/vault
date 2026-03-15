@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.resend.com/broadcasts/{id}/send"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The Broadcast ID.<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The Broadcast ID. |
 
 
 ## Query Parameters

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.resend.com/domains"
+auth: "none"
 content_type: "application/json"
 ---
 

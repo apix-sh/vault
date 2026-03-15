@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.resend.com/api-keys/{api_key_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `api_key_id` | Yes | string | The API key ID.<br/>*Serialization: style=Simple* |
+| `api_key_id` | Yes | string | The API key ID. |
 
 
 ## Query Parameters

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.resend.com/topics/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The Topic ID.<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The Topic ID. |
 
 
 ## Query Parameters

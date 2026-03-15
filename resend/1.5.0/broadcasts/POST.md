@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.resend.com/broadcasts"
+auth: "none"
 content_type: "application/json"
 ---
 

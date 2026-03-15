@@ -13,7 +13,7 @@ Delete a pet.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `petId` | Yes | integer | Pet id to delete<br/>*Serialization: style=Simple* |
+| `petId` | Yes | integer | Pet id to delete |
 
 
 ## Query Parameters
@@ -24,7 +24,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `api_key` | No | string | *Serialization: style=Simple* |
+| `api_key` | No | string |  |
 
 
 ## Request Body

@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `object` | No | string | The type of object. |
-| `id` | No | string | The ID of the domain. |
 | `deleted` | No | boolean | Indicates whether the domain was deleted successfully. |
+| `id` | No | string | The ID of the domain. |
+| `object` | No | string | The type of object. |

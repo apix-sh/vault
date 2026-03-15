@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.resend.com/templates/{id}/publish"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The Template ID or alias.<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The Template ID or alias. |
 
 
 ## Query Parameters

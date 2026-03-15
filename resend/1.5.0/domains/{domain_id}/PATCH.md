@@ -1,6 +1,7 @@
 ---
 method: "PATCH"
 url: "https://api.resend.com/domains/{domain_id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain_id` | Yes | string | The ID of the domain.<br/>*Serialization: style=Simple* |
+| `domain_id` | Yes | string | The ID of the domain. |
 
 
 ## Query Parameters

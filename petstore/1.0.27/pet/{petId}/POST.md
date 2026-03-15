@@ -13,15 +13,15 @@ Updates a pet resource based on the form data.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `petId` | Yes | integer | ID of pet that needs to be updated<br/>*Serialization: style=Simple* |
+| `petId` | Yes | integer | ID of pet that needs to be updated |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | Name of pet that needs to be updated<br/>*Serialization: style=Form* |
-| `status` | No | string | Status of pet that needs to be updated<br/>*Serialization: style=Form* |
+| `name` | No | string | Name of pet that needs to be updated |
+| `status` | No | string | Status of pet that needs to be updated |
 
 
 

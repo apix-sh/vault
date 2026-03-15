@@ -13,7 +13,7 @@ Returns a single pet.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `petId` | Yes | integer | ID of pet to return<br/>*Serialization: style=Simple* |
+| `petId` | Yes | integer | ID of pet to return |
 
 
 ## Query Parameters

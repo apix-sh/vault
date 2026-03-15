@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tags` | Yes | array<string> | Tags to filter by<br/>*Serialization: style=Form, explode=true* |
+| `tags` | Yes | array<string> | Tags to filter by<br/>*Serialization: explode=true* |
 
 
 

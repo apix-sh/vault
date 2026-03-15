@@ -24,16 +24,16 @@ _(None)_
 
 Supported content types:
 - `application/json`
-- `application/xml`
 - `application/x-www-form-urlencoded`
+- `application/xml`
 
 ### Inline Request Schema (`application/json`)
 [Pet](../_components/schemas/Pet.md)
 
-### Inline Request Schema (`application/xml`)
+### Inline Request Schema (`application/x-www-form-urlencoded`)
 [Pet](../_components/schemas/Pet.md)
 
-### Inline Request Schema (`application/x-www-form-urlencoded`)
+### Inline Request Schema (`application/xml`)
 [Pet](../_components/schemas/Pet.md)
 
 

@@ -8,11 +8,11 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | integer |  |
-| `username` | No | string |  |
-| `firstName` | No | string |  |
-| `lastName` | No | string |  |
 | `email` | No | string |  |
+| `firstName` | No | string |  |
+| `id` | No | integer |  |
+| `lastName` | No | string |  |
 | `password` | No | string |  |
 | `phone` | No | string |  |
 | `userStatus` | No | integer | User Status |
+| `username` | No | string |  |

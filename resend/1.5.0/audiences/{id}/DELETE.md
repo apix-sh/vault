@@ -1,6 +1,7 @@
 ---
 method: "DELETE"
 url: "https://api.resend.com/audiences/{id}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ Deprecated: Use Segments instead. These endpoints still work, but will be remove
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | The Audience ID.<br/>*Serialization: style=Simple* |
+| `id` | Yes | string | The Audience ID. |
 
 
 ## Query Parameters

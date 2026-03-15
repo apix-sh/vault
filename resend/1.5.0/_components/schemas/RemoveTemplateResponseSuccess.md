@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `object` | No | string | Type of the response object. |
-| `id` | No | string | The ID of the template. |
 | `deleted` | No | boolean | Indicates whether the template was successfully deleted. |
+| `id` | No | string | The ID of the template. |
+| `object` | No | string | Type of the response object. |

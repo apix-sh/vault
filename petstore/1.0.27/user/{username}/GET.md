@@ -12,7 +12,7 @@ Get user detail based on username.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username` | Yes | string | The name that needs to be fetched. Use user1 for testing<br/>*Serialization: style=Simple* |
+| `username` | Yes | string | The name that needs to be fetched. Use user1 for testing |
 
 
 ## Query Parameters

@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.resend.com/contacts/{contact_id}/segments"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -10,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `contact_id` | Yes | string | The Contact ID or email address.<br/>*Serialization: style=Simple* |
+| `contact_id` | Yes | string | The Contact ID or email address. |
 
 
 ## Query Parameters

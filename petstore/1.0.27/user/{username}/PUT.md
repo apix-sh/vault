@@ -12,7 +12,7 @@ This can only be done by the logged in user.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `username` | Yes | string | name that need to be deleted<br/>*Serialization: style=Simple* |
+| `username` | Yes | string | name that need to be deleted |
 
 
 ## Query Parameters
@@ -25,16 +25,16 @@ _(None)_
 
 Supported content types:
 - `application/json`
-- `application/xml`
 - `application/x-www-form-urlencoded`
+- `application/xml`
 
 ### Inline Request Schema (`application/json`)
 [User](../../_components/schemas/User.md)
 
-### Inline Request Schema (`application/xml`)
+### Inline Request Schema (`application/x-www-form-urlencoded`)
 [User](../../_components/schemas/User.md)
 
-### Inline Request Schema (`application/x-www-form-urlencoded`)
+### Inline Request Schema (`application/xml`)
 [User](../../_components/schemas/User.md)
 
 

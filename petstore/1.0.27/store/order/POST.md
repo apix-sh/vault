@@ -23,16 +23,16 @@ _(None)_
 
 Supported content types:
 - `application/json`
-- `application/xml`
 - `application/x-www-form-urlencoded`
+- `application/xml`
 
 ### Inline Request Schema (`application/json`)
 [Order](../../_components/schemas/Order.md)
 
-### Inline Request Schema (`application/xml`)
+### Inline Request Schema (`application/x-www-form-urlencoded`)
 [Order](../../_components/schemas/Order.md)
 
-### Inline Request Schema (`application/x-www-form-urlencoded`)
+### Inline Request Schema (`application/xml`)
 [Order](../../_components/schemas/Order.md)
 
 

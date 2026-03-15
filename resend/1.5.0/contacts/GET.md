@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.resend.com/contacts"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -15,7 +16,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `segment_id` | No | string | Filter contacts by segment ID.<br/>*Serialization: style=Form* |
+| `segment_id` | No | string | Filter contacts by segment ID. |
 | `Reference` | N/A | [PaginationLimit](../_components/parameters/PaginationLimit.md) |  |
 | `Reference` | N/A | [PaginationAfter](../_components/parameters/PaginationAfter.md) |  |
 | `Reference` | N/A | [PaginationBefore](../_components/parameters/PaginationBefore.md) |  |
