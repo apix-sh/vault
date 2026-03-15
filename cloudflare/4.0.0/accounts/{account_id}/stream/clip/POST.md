@@ -13,7 +13,7 @@ Clips a video based on the specified start and end times provided in seconds.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Clip videos given a start and end time response.
 [stream_clipResponseSingle](../../../../_components/schemas/stream_clipResponseSingle.md)
 
 
-### 4xx
+### 4XX
 
 Clip videos given a start and end time response failure.
 

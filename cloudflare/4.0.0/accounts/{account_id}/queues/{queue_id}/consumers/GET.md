@@ -13,8 +13,8 @@ Returns the consumers for a Queue
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queue_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `queue_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) |  |
+| `account_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ All consumers attached to this Queue
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure response
 

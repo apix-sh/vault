@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # cache-rules_variants
@@ -11,3 +11,6 @@ Variant support enables caching variants of images with certain file extensions 
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | string | Identifier of the zone setting. |
+| `modified_on` | No | string | Last time this setting was modified. |
+| `id` | No | string | ID of the zone setting. Allowed values: variants |

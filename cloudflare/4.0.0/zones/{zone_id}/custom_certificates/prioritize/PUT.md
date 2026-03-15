@@ -13,7 +13,7 @@ If a zone has multiple SSL certificates, you can set the order in which they sho
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `certificates` | Yes | array<object> | Array of ordered certificates. |
 
 
 ## Responses
@@ -41,7 +43,7 @@ Re-prioritize SSL Certificates response
 [tls-certificates-and-hostnames_certificate_response_collection](../../../../_components/schemas/tls-certificates-and-hostnames_certificate_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Re-prioritize SSL Certificates response failure
 

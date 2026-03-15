@@ -13,7 +13,7 @@ Create a new Worker.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters

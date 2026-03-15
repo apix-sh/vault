@@ -13,8 +13,8 @@ Detaches a Worker from a zone and hostname.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_account_identifier](../../../../../_components/schemas/workers_account_identifier.md) | *Serialization: style=Simple* |
-| `domain_id` | Yes | [workers_domain_identifier](../../../../../_components/schemas/workers_domain_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_account_identifier](../../../../../_components/schemas/workers_account_identifier.md) |  |
+| `domain_id` | Yes | [workers_domain_identifier](../../../../../_components/schemas/workers_domain_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Detach from Domain response.
 
 No schema provided for `application/json`.
 
-### 4xx
+### 4XX
 
 Detach from Domain response failure.
 

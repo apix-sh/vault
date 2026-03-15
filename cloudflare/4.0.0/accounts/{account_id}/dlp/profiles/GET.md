@@ -13,14 +13,14 @@ Lists all DLP profiles in an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `all` | No | boolean | Return all profiles, including those that current account does not have access to.<br/>*Serialization: style=Form* |
+| `all` | No | boolean | Return all profiles, including those that current account does not have access to. |
 
 
 
@@ -39,7 +39,7 @@ List all profiles response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List all profiles failure response.
 

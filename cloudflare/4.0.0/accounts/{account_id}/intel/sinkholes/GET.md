@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [intel-sinkholes_identifier](../../../../_components/schemas/intel-sinkholes_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [intel-sinkholes_identifier](../../../../_components/schemas/intel-sinkholes_identifier.md) |  |
 
 
 ## Query Parameters

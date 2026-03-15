@@ -13,7 +13,7 @@ Enable or disable zone-level authenticated origin pulls. 'enabled' should be set
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Set Enablement for Zone response
 [tls-certificates-and-hostnames_enabled_response](../../../../_components/schemas/tls-certificates-and-hostnames_enabled_response.md)
 
 
-### 4xx
+### 4XX
 
 Set Enablement for Zone response failure
 

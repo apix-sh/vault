@@ -13,7 +13,7 @@ Lists Bookmark applications.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_components-schemas-identifier](../../../../_components/schemas/access_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_components-schemas-identifier](../../../../_components/schemas/access_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Bookmark applications response
 [access_bookmarks_components-schemas-response_collection](../../../../_components/schemas/access_bookmarks_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Bookmark applications response failure
 

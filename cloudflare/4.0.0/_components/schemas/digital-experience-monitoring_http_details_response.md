@@ -12,7 +12,7 @@ type: "object"
 | `httpStats` | No | object |  |
 | `httpStatsByColo` | No | array<object> |  |
 | `interval` | No | string | The interval at which the HTTP synthetic application test is set to run. |
-| `kind` | No | any |  |
+| `kind` | No | any | Allowed values: http |
 | `method` | No | string | The HTTP method to use when running the test |
 | `name` | No | string | The name of the HTTP synthetic application test |
 | `target_policies` | No | array<object> |  |

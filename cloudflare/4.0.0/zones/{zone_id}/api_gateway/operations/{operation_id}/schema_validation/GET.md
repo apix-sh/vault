@@ -38,7 +38,7 @@ Operation-level schema validation settings response
 [api-shield_old_operation_schema_validation_settings](../../../../../../_components/schemas/api-shield_old_operation_schema_validation_settings.md)
 
 
-### 4xx
+### 4XX
 
 Operation-level schema validation settings response
 

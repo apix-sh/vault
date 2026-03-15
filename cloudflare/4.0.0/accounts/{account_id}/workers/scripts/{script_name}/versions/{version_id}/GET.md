@@ -13,9 +13,9 @@ Retrieves detailed information about a specific version of a Workers script.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_schemas-script_name](../../../../../../../_components/schemas/workers_schemas-script_name.md) | *Serialization: style=Simple* |
-| `version_id` | Yes | [workers_version_identifier](../../../../../../../_components/schemas/workers_version_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `script_name` | Yes | [workers_schemas-script_name](../../../../../../../_components/schemas/workers_schemas-script_name.md) |  |
+| `version_id` | Yes | [workers_version_identifier](../../../../../../../_components/schemas/workers_version_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Get Version Detail response.
 [workers_versions-single-response](../../../../../../../_components/schemas/workers_versions-single-response.md)
 
 
-### 4xx
+### 4XX
 
 Get Version Detail response failure.
 

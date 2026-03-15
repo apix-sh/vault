@@ -13,8 +13,8 @@ Return saved logo queries based on ID
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `logo_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `logo_id` | Yes | string |  |
 
 
 ## Query Parameters

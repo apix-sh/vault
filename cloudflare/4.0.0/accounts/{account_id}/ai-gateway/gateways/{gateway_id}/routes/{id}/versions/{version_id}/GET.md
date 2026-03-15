@@ -13,10 +13,10 @@ Get an AI Gateway Dynamic Route Version.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `gateway_id` | Yes | string | *Serialization: style=Simple* |
-| `id` | Yes | string | *Serialization: style=Simple* |
-| `version_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `gateway_id` | Yes | string |  |
+| `id` | Yes | string |  |
+| `version_id` | Yes | string |  |
 
 
 ## Query Parameters

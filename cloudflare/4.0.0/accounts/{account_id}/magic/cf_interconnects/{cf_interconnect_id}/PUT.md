@@ -13,8 +13,8 @@ Updates a specific interconnect associated with an account. Use `?validate_only=
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `cf_interconnect_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `cf_interconnect_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -25,8 +25,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the request and response bodies will be presented using the new object format. Defaults to false.<br/>*Serialization: style=Simple* |
+| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the request and response bodies will be presented using the new object format. Defaults to false. |
 
 
 ## Request Body
@@ -48,7 +47,7 @@ Update interconnect response
 [magic_components-schemas-tunnel_modified_response](../../../../../_components/schemas/magic_components-schemas-tunnel_modified_response.md)
 
 
-### 4xx
+### 4XX
 
 Update interconnect response failure
 

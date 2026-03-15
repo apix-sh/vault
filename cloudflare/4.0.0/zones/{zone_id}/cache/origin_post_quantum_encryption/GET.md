@@ -13,7 +13,7 @@ Instructs Cloudflare to use Post-Quantum (PQ) key agreement algorithms when conn
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Origin Post-Quantum Encryption setting response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get Origin Post-Quantum Encryption setting response failure.
 

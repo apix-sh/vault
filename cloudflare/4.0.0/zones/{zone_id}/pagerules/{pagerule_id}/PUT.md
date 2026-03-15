@@ -13,8 +13,8 @@ Replaces the configuration of an existing Page Rule. The configuration of the up
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pagerule_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) | *Serialization: style=Simple* |
+| `pagerule_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) |  |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Update a Page Rule response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update a Page Rule response failure
 

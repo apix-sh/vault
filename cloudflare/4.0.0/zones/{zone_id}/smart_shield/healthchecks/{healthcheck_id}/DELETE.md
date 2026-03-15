@@ -13,8 +13,8 @@ Delete a health check.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `healthcheck_id` | Yes | [smartshield_identifier](../../../../../_components/schemas/smartshield_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [smartshield_identifier](../../../../../_components/schemas/smartshield_identifier.md) | *Serialization: style=Simple* |
+| `healthcheck_id` | Yes | [smartshield_identifier](../../../../../_components/schemas/smartshield_identifier.md) |  |
+| `zone_id` | Yes | [smartshield_identifier](../../../../../_components/schemas/smartshield_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Health Check response.
 [smartshield_single_hc_id_response](../../../../../_components/schemas/smartshield_single_hc_id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete Health Check response failure.
 

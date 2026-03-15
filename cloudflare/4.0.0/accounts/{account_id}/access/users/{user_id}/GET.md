@@ -13,8 +13,8 @@ Gets a specific user for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `user_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `user_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get user response
 [access_single_user_response](../../../../../_components/schemas/access_single_user_response.md)
 
 
-### 4xx
+### 4XX
 
 Get user response failure
 

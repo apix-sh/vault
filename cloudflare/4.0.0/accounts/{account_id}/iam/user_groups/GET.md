@@ -13,19 +13,19 @@ List all the user groups for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | No | [iam_user_group_identifier](../../../../_components/schemas/iam_user_group_identifier.md) | ID of the user group to be fetched.<br/>*Serialization: style=Form* |
-| `name` | No | string | *Serialization: style=Form* |
-| `fuzzyName` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
+| `id` | No | [iam_user_group_identifier](../../../../_components/schemas/iam_user_group_identifier.md) | ID of the user group to be fetched. |
+| `name` | No | string |  |
+| `fuzzyName` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `direction` | No | string |  |
 
 
 
@@ -44,7 +44,7 @@ List User Group response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List User Group response failure
 

@@ -13,7 +13,7 @@ Lists short-lived certificate CAs and their public keys.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List short-lived certificate CAs response
 [access_ca_components-schemas-response_collection-2](../../../../../_components/schemas/access_ca_components-schemas-response_collection-2.md)
 
 
-### 4xx
+### 4XX
 
 List short-lived certificate CAs response failure
 

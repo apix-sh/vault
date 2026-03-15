@@ -13,8 +13,8 @@ Deletes a short-lived certificate CA.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [access_uuid](../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [access_uuid](../../../../../../_components/schemas/access_uuid.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete a short-lived certificate CA response
 [access_ca_components-schemas-id_response](../../../../../../_components/schemas/access_ca_components-schemas-id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete a short-lived certificate CA response failure
 

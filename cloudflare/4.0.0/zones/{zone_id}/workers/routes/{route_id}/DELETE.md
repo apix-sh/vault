@@ -13,8 +13,8 @@ Deletes a route.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `route_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `route_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) |  |
+| `zone_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete Route response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete Route response failure.
 

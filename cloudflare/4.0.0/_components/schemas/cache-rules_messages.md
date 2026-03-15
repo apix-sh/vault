@@ -1,5 +1,5 @@
 ---
-type: "array<any>"
+type: "array<object>"
 ---
 
 # cache-rules_messages

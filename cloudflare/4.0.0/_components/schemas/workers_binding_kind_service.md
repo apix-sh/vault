@@ -8,6 +8,7 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `entrypoint` | No | string | Entrypoint to invoke on the target Worker. |
 | `environment` | No | string | Optional environment if the Worker utilizes one. |
 | `name` | Yes | [workers_binding_name](workers_binding_name.md) |  |
 | `service` | Yes | string | Name of Worker to bind to. |

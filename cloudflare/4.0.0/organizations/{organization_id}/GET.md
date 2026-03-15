@@ -13,7 +13,7 @@ Retrieve the details of a certain organization. (Currently in Closed Beta - see 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [organizations-api_OrganizationID](../../_components/schemas/organizations-api_OrganizationID.md) | The ID of the organization to retrieve.<br/>*Serialization: style=Simple* |
+| `organization_id` | Yes | [organizations-api_OrganizationID](../../_components/schemas/organizations-api_OrganizationID.md) | The ID of the organization to retrieve. |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ The request has succeeded.
 | `success` | Yes | boolean |  |
 
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

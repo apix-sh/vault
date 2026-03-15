@@ -13,7 +13,7 @@ Lists default sampling, router IPs, warp devices, and rules for account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List rules and account configuration response
 [magic-visibility-mnm_mnm_config_single_response](../../../../../_components/schemas/magic-visibility-mnm_mnm_config_single_response.md)
 
 
-### 4xx
+### 4XX
 
 List rules and account configuration response failure
 

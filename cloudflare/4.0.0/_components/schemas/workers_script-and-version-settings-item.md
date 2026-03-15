@@ -8,13 +8,13 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `annotations` | No | object | Annotations for the Worker version. Annotations are not inherited across settings updates; omitting this field means the new version will have no annotations. |
 | `bindings` | No | allOf(2) |  |
 | `compatibility_date` | No | allOf(2) |  |
 | `compatibility_flags` | No | allOf(2) |  |
 | `limits` | No | [workers_limits](workers_limits.md) |  |
 | `logpush` | No | [workers_logpush](workers_logpush.md) |  |
-| `migrations` | No | oneOf(2) | Migrations to apply for Durable Objects associated with this Worker.
- |
+| `migrations` | No | oneOf(2) | Migrations to apply for Durable Objects associated with this Worker.<br/> |
 | `observability` | No | [workers_observability](workers_observability.md) |  |
 | `placement` | No | allOf(2) |  |
 | `tags` | No | allOf(2) |  |

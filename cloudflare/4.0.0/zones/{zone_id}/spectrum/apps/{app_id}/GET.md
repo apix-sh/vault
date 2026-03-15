@@ -13,8 +13,8 @@ Gets the application configuration of a specific application inside a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [spectrum-config_app_identifier](../../../../../_components/schemas/spectrum-config_app_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../../_components/schemas/spectrum-config_zone_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [spectrum-config_app_identifier](../../../../../_components/schemas/spectrum-config_app_identifier.md) |  |
+| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../../_components/schemas/spectrum-config_zone_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get Spectrum application configuration response.
 [spectrum-config_app_config_single](../../../../../_components/schemas/spectrum-config_app_config_single.md)
 
 
-### 4xx
+### 4XX
 
 Get Spectrum application configuration response failure.
 

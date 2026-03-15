@@ -13,7 +13,7 @@ Accept or reject this account invitation.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `membership_id` | Yes | [iam_membership_components-schemas-identifier](../../_components/schemas/iam_membership_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `membership_id` | Yes | [iam_membership_components-schemas-identifier](../../_components/schemas/iam_membership_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `status` | Yes | any | Whether to accept or reject this account invitation. |
 
 
 ## Responses
@@ -41,7 +43,7 @@ Update Membership response
 [iam_single_membership_response_with_policies](../../_components/schemas/iam_single_membership_response_with_policies.md)
 
 
-### 4xx
+### 4XX
 
 Update Membership response failure
 

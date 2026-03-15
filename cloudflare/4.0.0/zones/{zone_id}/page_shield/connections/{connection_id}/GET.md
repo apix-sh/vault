@@ -13,8 +13,8 @@ Fetches a connection detected by Page Shield by connection ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
-| `connection_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
+| `connection_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Page Shield connection response
 [page-shield_get-zone-connection-response](../../../../../_components/schemas/page-shield_get-zone-connection-response.md)
 
 
-### 4xx
+### 4XX
 
 Get a Page Shield connection response failure
 

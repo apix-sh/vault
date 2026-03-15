@@ -13,7 +13,7 @@ Updates Page Shield settings.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,11 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `enabled` | No | [page-shield_enabled](../../../_components/schemas/page-shield_enabled.md) |  |
+| `use_cloudflare_reporting_endpoint` | No | [page-shield_use_cloudflare_reporting_endpoint](../../../_components/schemas/page-shield_use_cloudflare_reporting_endpoint.md) |  |
+| `use_connection_url_path` | No | [page-shield_use_connection_url_path](../../../_components/schemas/page-shield_use_connection_url_path.md) |  |
 
 
 ## Responses
@@ -41,7 +45,7 @@ Update Page Shield settings response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update Page Shield settings response failure
 

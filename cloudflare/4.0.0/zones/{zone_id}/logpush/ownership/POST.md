@@ -13,7 +13,7 @@ Gets a new ownership challenge sent to your destination.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [logpush_identifier](../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [logpush_identifier](../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Get ownership challenge response.
 [logpush_get_ownership_response](../../../../_components/schemas/logpush_get_ownership_response.md)
 
 
-### 4xx
+### 4XX
 
 Get ownership challenge response failure.
 

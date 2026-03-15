@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Defines the Account ID.<br/>*Serialization: style=Simple* |
-| `config_id` | Yes | string | Defines the Config ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Defines the Account ID. |
+| `config_id` | Yes | string | Defines the Config ID. |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Returns the updated config.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update an Existing Scan Config failure.
 

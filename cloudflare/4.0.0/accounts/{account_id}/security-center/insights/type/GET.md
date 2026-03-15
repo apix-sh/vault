@@ -11,24 +11,24 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [security-center_identifier](../../../../../_components/schemas/security-center_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [security-center_identifier](../../../../../_components/schemas/security-center_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `dismissed` | No | [security-center_dismissed](../../../../../_components/schemas/security-center_dismissed.md) | *Serialization: style=Form* |
-| `issue_class` | No | [security-center_issueClasses](../../../../../_components/schemas/security-center_issueClasses.md) | *Serialization: style=Form* |
-| `issue_type` | No | [security-center_issueTypes](../../../../../_components/schemas/security-center_issueTypes.md) | *Serialization: style=Form* |
-| `product` | No | [security-center_products](../../../../../_components/schemas/security-center_products.md) | *Serialization: style=Form* |
-| `severity` | No | [security-center_severityQueryParam](../../../../../_components/schemas/security-center_severityQueryParam.md) | *Serialization: style=Form* |
-| `subject` | No | [security-center_subjects](../../../../../_components/schemas/security-center_subjects.md) | *Serialization: style=Form* |
-| `issue_class~neq` | No | [security-center_issueClasses](../../../../../_components/schemas/security-center_issueClasses.md) | *Serialization: style=Form* |
-| `issue_type~neq` | No | [security-center_issueTypes](../../../../../_components/schemas/security-center_issueTypes.md) | *Serialization: style=Form* |
-| `product~neq` | No | [security-center_products](../../../../../_components/schemas/security-center_products.md) | *Serialization: style=Form* |
-| `severity~neq` | No | [security-center_severityQueryParam](../../../../../_components/schemas/security-center_severityQueryParam.md) | *Serialization: style=Form* |
-| `subject~neq` | No | [security-center_subjects](../../../../../_components/schemas/security-center_subjects.md) | *Serialization: style=Form* |
+| `dismissed` | No | [security-center_dismissed](../../../../../_components/schemas/security-center_dismissed.md) |  |
+| `issue_class` | No | [security-center_issueClasses](../../../../../_components/schemas/security-center_issueClasses.md) |  |
+| `issue_type` | No | [security-center_issueTypes](../../../../../_components/schemas/security-center_issueTypes.md) |  |
+| `product` | No | [security-center_products](../../../../../_components/schemas/security-center_products.md) |  |
+| `severity` | No | [security-center_severityQueryParam](../../../../../_components/schemas/security-center_severityQueryParam.md) |  |
+| `subject` | No | [security-center_subjects](../../../../../_components/schemas/security-center_subjects.md) |  |
+| `issue_class~neq` | No | [security-center_issueClasses](../../../../../_components/schemas/security-center_issueClasses.md) |  |
+| `issue_type~neq` | No | [security-center_issueTypes](../../../../../_components/schemas/security-center_issueTypes.md) |  |
+| `product~neq` | No | [security-center_products](../../../../../_components/schemas/security-center_products.md) |  |
+| `severity~neq` | No | [security-center_severityQueryParam](../../../../../_components/schemas/security-center_severityQueryParam.md) |  |
+| `subject~neq` | No | [security-center_subjects](../../../../../_components/schemas/security-center_subjects.md) |  |
 
 
 
@@ -47,7 +47,7 @@ The request was successful.
 [security-center_valueCountsResponse](../../../../../_components/schemas/security-center_valueCountsResponse.md)
 
 
-### 4xx
+### 4XX
 
 A client error occurred.
 

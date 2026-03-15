@@ -19,7 +19,7 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [api-shield_zone_id](../../../../_components/parameters/api-shield_zone_id.md) |  |
-| `normalize` | No | boolean | Ensures that the configuration is written or retrieved in normalized fashion<br/>*Serialization: style=Form* |
+| `normalize` | No | boolean | Ensures that the configuration is written or retrieved in normalized fashion |
 
 
 
@@ -34,7 +34,7 @@ _(None)_
 
 Reference: [api-shield_config-update-success](../../../../_components/responses/api-shield_config-update-success.md)
 
-### 4xx
+### 4XX
 
 Reference: [api-shield_generic-failure](../../../../_components/responses/api-shield_generic-failure.md)
 

@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `category_id` | Yes | string | Category UUID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `category_id` | Yes | string | Category UUID. |
 
 
 ## Query Parameters

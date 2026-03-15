@@ -18,13 +18,13 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account.name` | No | [iam_properties-name](../_components/schemas/iam_properties-name.md) | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `name` | No | [iam_properties-name](../_components/schemas/iam_properties-name.md) | *Serialization: style=Form* |
-| `status` | No | string | *Serialization: style=Form* |
+| `account.name` | No | [iam_properties-name](../_components/schemas/iam_properties-name.md) |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `order` | No | string |  |
+| `direction` | No | string |  |
+| `name` | No | [iam_properties-name](../_components/schemas/iam_properties-name.md) |  |
+| `status` | No | string |  |
 
 
 
@@ -43,7 +43,7 @@ List Memberships response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Memberships response failure
 

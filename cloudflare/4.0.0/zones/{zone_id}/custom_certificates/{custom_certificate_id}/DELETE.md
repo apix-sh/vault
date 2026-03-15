@@ -13,8 +13,8 @@ Remove a SSL certificate from a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `custom_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `custom_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete SSL Configuration response
 [tls-certificates-and-hostnames_certificate_response_id_only](../../../../_components/schemas/tls-certificates-and-hostnames_certificate_response_id_only.md)
 
 
-### 4xx
+### 4XX
 
 Delete SSL Configuration response failure
 

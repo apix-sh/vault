@@ -11,20 +11,20 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `page` | No | integer | *Serialization: style=Form* |
-| `task` | No | string | Filter by Task Name<br/>*Serialization: style=Form* |
-| `author` | No | string | Filter by Author<br/>*Serialization: style=Form* |
-| `source` | No | number | Filter by Source Id<br/>*Serialization: style=Form* |
-| `hide_experimental` | No | boolean | Filter to hide experimental models<br/>*Serialization: style=Form* |
-| `search` | No | string | Search<br/>*Serialization: style=Form* |
+| `per_page` | No | integer |  |
+| `page` | No | integer |  |
+| `task` | No | string | Filter by Task Name |
+| `author` | No | string | Filter by Author |
+| `source` | No | number | Filter by Source Id |
+| `hide_experimental` | No | boolean | Filter to hide experimental models |
+| `search` | No | string | Search |
 
 
 

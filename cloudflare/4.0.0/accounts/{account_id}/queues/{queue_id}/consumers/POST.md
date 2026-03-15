@@ -13,8 +13,8 @@ Creates a new consumer for a Queue
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queue_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `queue_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) |  |
+| `account_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Create Queue Consumer response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure response
 

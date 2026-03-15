@@ -13,7 +13,7 @@ Initiates an asynchronous scan for common DNS records on your domain. Note that 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-records_identifier](../../../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-records_identifier](../../../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Trigger DNS Records Scan Response
 [dns-records_dns_response_trigger_scan](../../../../../_components/schemas/dns-records_dns_response_trigger_scan.md)
 
 
-### 4xx
+### 4XX
 
 Trigger DNS Records Scan response failure
 

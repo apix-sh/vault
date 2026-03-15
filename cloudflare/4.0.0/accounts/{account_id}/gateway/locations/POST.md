@@ -13,7 +13,7 @@ Create a new Zero Trust Gateway location.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -48,7 +48,7 @@ Creates a Zero Trust Gateway location response.
 [zero-trust-gateway_schemas-single_response](../../../../_components/schemas/zero-trust-gateway_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Creates a Zero Trust Gateway location response failure.
 

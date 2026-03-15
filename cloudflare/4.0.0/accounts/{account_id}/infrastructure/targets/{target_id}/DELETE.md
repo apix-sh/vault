@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [infra_AccountTag](../../../../../_components/schemas/infra_AccountTag.md) | *Serialization: style=Simple* |
-| `target_id` | Yes | [infra_TargetId](../../../../../_components/schemas/infra_TargetId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [infra_AccountTag](../../../../../_components/schemas/infra_AccountTag.md) |  |
+| `target_id` | Yes | [infra_TargetId](../../../../../_components/schemas/infra_TargetId.md) |  |
 
 
 ## Query Parameters
@@ -32,7 +32,7 @@ _(None)_
 
 Successfully deleted the target
 
-### 4xx
+### 4XX
 
 Failed to delete the target
 

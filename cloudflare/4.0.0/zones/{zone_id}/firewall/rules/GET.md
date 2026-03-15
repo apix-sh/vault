@@ -13,19 +13,19 @@ Fetches firewall rules in a zone. You can filter the results using several optio
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `description` | No | string | *Serialization: style=Form* |
-| `action` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `id` | No | string | *Serialization: style=Form* |
-| `paused` | No | boolean | *Serialization: style=Form* |
+| `description` | No | string |  |
+| `action` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `id` | No | string |  |
+| `paused` | No | boolean |  |
 
 
 
@@ -44,7 +44,7 @@ List firewall rules response
 [firewall_filter-rules-response-collection](../../../../_components/schemas/firewall_filter-rules-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 List firewall rules response failure
 

@@ -13,8 +13,8 @@ Get the list of resources that reference the provided monitor group.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `monitor_group_id` | Yes | [load-balancing_identifier](../../../../../../_components/schemas/load-balancing_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `monitor_group_id` | Yes | [load-balancing_identifier](../../../../../../_components/schemas/load-balancing_identifier.md) |  |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List Monitor Group References response.
 [load-balancing_monitor-group-references-response](../../../../../../_components/schemas/load-balancing_monitor-group-references-response.md)
 
 
-### 4xx
+### 4XX
 
 List Monitor Group References response failure.
 

@@ -13,7 +13,7 @@ Aegis provides dedicated egress IPs (from Cloudflare to your origin) for your la
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get aegis setting response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get aegis setting response failure.
 

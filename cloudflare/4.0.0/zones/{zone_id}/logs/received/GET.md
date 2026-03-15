@@ -13,19 +13,19 @@ The `/received` api route allows customers to retrieve their edge HTTP logs. The
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [logshare_identifier](../../../../_components/schemas/logshare_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [logshare_identifier](../../../../_components/schemas/logshare_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `start` | No | [logshare_start](../../../../_components/schemas/logshare_start.md) | *Serialization: style=Form* |
-| `end` | Yes | [logshare_end](../../../../_components/schemas/logshare_end.md) | *Serialization: style=Form* |
-| `fields` | No | [logshare_fields](../../../../_components/schemas/logshare_fields.md) | *Serialization: style=Form* |
-| `sample` | No | [logshare_sample](../../../../_components/schemas/logshare_sample.md) | *Serialization: style=Form* |
-| `count` | No | [logshare_count](../../../../_components/schemas/logshare_count.md) | *Serialization: style=Form* |
-| `timestamps` | No | [logshare_timestamps](../../../../_components/schemas/logshare_timestamps.md) | *Serialization: style=Form* |
+| `start` | No | [logshare_start](../../../../_components/schemas/logshare_start.md) |  |
+| `end` | Yes | [logshare_end](../../../../_components/schemas/logshare_end.md) |  |
+| `fields` | No | [logshare_fields](../../../../_components/schemas/logshare_fields.md) |  |
+| `sample` | No | [logshare_sample](../../../../_components/schemas/logshare_sample.md) |  |
+| `count` | No | [logshare_count](../../../../_components/schemas/logshare_count.md) |  |
+| `timestamps` | No | [logshare_timestamps](../../../../_components/schemas/logshare_timestamps.md) |  |
 
 
 
@@ -44,7 +44,7 @@ Get logs received response
 [logshare_logs_response_json_lines](../../../../_components/schemas/logshare_logs_response_json_lines.md)
 
 
-### 4xx
+### 4XX
 
 Get logs received response failure
 

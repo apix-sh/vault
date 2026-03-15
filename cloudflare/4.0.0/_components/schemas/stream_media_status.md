@@ -11,3 +11,7 @@ Specifies a detailed status for a video. If the `state` is `inprogress` or `erro
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `errorReasonCode` | No | [stream_errorReasonCode](stream_errorReasonCode.md) |  |
+| `errorReasonText` | No | [stream_errorReasonText](stream_errorReasonText.md) |  |
+| `pctComplete` | No | [stream_pctComplete](stream_pctComplete.md) |  |
+| `state` | No | [stream_media_state](stream_media_state.md) |  |

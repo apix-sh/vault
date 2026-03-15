@@ -13,8 +13,8 @@ Stop full PCAP.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pcap_id` | Yes | [magic-visibility-pcaps_identifier](../../../../../_components/schemas/magic-visibility-pcaps_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic-visibility-pcaps_identifier](../../../../../_components/schemas/magic-visibility-pcaps_identifier.md) | *Serialization: style=Simple* |
+| `pcap_id` | Yes | [magic-visibility-pcaps_identifier](../../../../../_components/schemas/magic-visibility-pcaps_identifier.md) |  |
+| `account_id` | Yes | [magic-visibility-pcaps_identifier](../../../../../_components/schemas/magic-visibility-pcaps_identifier.md) |  |
 
 
 ## Query Parameters

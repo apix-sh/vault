@@ -13,8 +13,8 @@ Fetches details for a single device posture integration.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `integration_id` | Yes | [teams-devices_uuid](../../../../../../_components/schemas/teams-devices_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `integration_id` | Yes | [teams-devices_uuid](../../../../../../_components/schemas/teams-devices_uuid.md) |  |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get device posture integration details response.
 [teams-devices_schemas-single_response](../../../../../../_components/schemas/teams-devices_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get device posture integration details response failure.
 

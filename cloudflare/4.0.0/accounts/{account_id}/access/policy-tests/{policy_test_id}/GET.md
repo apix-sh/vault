@@ -13,8 +13,8 @@ Fetches the current status of a given Access policy test.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
-| `policy_test_id` | Yes | [access_policy_test_id](../../../../../_components/schemas/access_policy_test_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
+| `policy_test_id` | Yes | [access_policy_test_id](../../../../../_components/schemas/access_policy_test_id.md) |  |
 
 
 ## Query Parameters

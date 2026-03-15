@@ -13,7 +13,7 @@ Update an existing account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update Account response
 [iam_response_single_account](../../_components/schemas/iam_response_single_account.md)
 
 
-### 4xx
+### 4XX
 
 Update Account response failure
 

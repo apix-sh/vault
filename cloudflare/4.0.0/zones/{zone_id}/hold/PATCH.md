@@ -14,7 +14,7 @@ The hold is enabled if the `hold_after` date-time value is in the past.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | Zone ID<br/>*Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | Zone ID |
 
 
 ## Query Parameters
@@ -31,15 +31,8 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `hold_after` | No | string | If `hold_after` is provided and future-dated, the hold will be temporarily disabled,
-then automatically re-enabled by the system at the time specified
-in this RFC3339-formatted timestamp. A past-dated `hold_after` value will have
-no effect on an existing, enabled hold. Providing an empty string will set its value
-to the current time. |
-| `include_subdomains` | No | boolean | If `true`, the zone hold will extend to block any subdomain of the given zone, as well
-as SSL4SaaS Custom Hostnames. For example, a zone hold on a zone with the hostname
-'example.com' and include_subdomains=true will block 'example.com',
-'staging.example.com', 'api.staging.example.com', etc. |
+| `hold_after` | No | string | If `hold_after` is provided and future-dated, the hold will be temporarily disabled,<br/>then automatically re-enabled by the system at the time specified<br/>in this RFC3339-formatted timestamp. A past-dated `hold_after` value will have<br/>no effect on an existing, enabled hold. Providing an empty string will set its value<br/>to the current time. |
+| `include_subdomains` | No | boolean | If `true`, the zone hold will extend to block any subdomain of the given zone, as well<br/>as SSL4SaaS Custom Hostnames. For example, a zone hold on a zone with the hostname<br/>'example.com' and include_subdomains=true will block 'example.com',<br/>'staging.example.com', 'api.staging.example.com', etc. |
 
 
 ## Responses
@@ -52,7 +45,7 @@ Successful Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Client Error
 

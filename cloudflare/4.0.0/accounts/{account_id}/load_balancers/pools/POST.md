@@ -13,7 +13,7 @@ Create a new pool.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -55,7 +55,7 @@ Create Pool response.
 [load-balancing_schemas-single_response](../../../../_components/schemas/load-balancing_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Pool response failure.
 

@@ -13,7 +13,7 @@ Deletes all the PagerDuty Services connected to the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Delete PagerDuty Services response
 [aaa_schemas-api-response-common](../../../../../../_components/schemas/aaa_schemas-api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Delete PagerDuty Services response failure
 

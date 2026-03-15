@@ -13,8 +13,8 @@ Fetches the details of a Page Rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pagerule_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) | *Serialization: style=Simple* |
+| `pagerule_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) |  |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Page Rule response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get a Page Rule response failure
 

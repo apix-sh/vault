@@ -13,7 +13,7 @@ Get information about a specific account that you are a member of.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Account Details response
 [iam_response_single_account](../../_components/schemas/iam_response_single_account.md)
 
 
-### 4xx
+### 4XX
 
 Account Details response failure
 

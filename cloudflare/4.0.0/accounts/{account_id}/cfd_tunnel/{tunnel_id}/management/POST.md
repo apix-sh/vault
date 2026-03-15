@@ -1,7 +1,6 @@
 ---
 method: "POST"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/cfd_tunnel/{tunnel_id}/management"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,8 +12,8 @@ Gets a management token used to access the management resources (i.e. Streaming 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_account_id](../../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
-| `tunnel_id` | Yes | [tunnel_tunnel_id](../../../../../_components/schemas/tunnel_tunnel_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_account_id](../../../../../_components/schemas/tunnel_account_id.md) |  |
+| `tunnel_id` | Yes | [tunnel_tunnel_id](../../../../../_components/schemas/tunnel_tunnel_id.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +43,7 @@ Get a Cloudflare Tunnel management token response
 [tunnel_tunnel_response_token](../../../../../_components/schemas/tunnel_tunnel_response_token.md)
 
 
-### 4xx
+### 4XX
 
 Cloudflare API response failure
 

@@ -1,5 +1,5 @@
 ---
-type: "array<any>"
+type: "array<object>"
 ---
 
 # cloudforce-one-port-scan-api_messages

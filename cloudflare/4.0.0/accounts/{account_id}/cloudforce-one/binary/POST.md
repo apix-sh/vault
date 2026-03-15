@@ -11,7 +11,7 @@ content_type: "multipart/form-data"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | number | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | number | Account ID. |
 
 
 ## Query Parameters

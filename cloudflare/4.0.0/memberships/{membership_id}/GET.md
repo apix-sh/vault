@@ -13,7 +13,7 @@ Get a specific membership.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `membership_id` | Yes | [iam_membership_components-schemas-identifier](../../_components/schemas/iam_membership_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `membership_id` | Yes | [iam_membership_components-schemas-identifier](../../_components/schemas/iam_membership_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Membership Details response
 [iam_single_membership_response_with_policies](../../_components/schemas/iam_single_membership_response_with_policies.md)
 
 
-### 4xx
+### 4XX
 
 Membership Details response failure
 

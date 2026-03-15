@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # cache-rules_origin_max_http_version
@@ -11,3 +11,7 @@ Origin Max HTTP Setting Version sets the highest HTTP version Cloudflare will at
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | string | Identifier of the zone setting. |
+| `modified_on` | No | string | Last time this setting was modified. |
+| `id` | No | string | Value of the zone setting. Allowed values: origin_max_http_version |
+| `value` | No | [cache-rules_origin_max_http_version_value](cache-rules_origin_max_http_version_value.md) |  |

@@ -13,9 +13,9 @@ Returns a meeting details in an App for the given meeting ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
-| `meeting_id` | Yes | string | ID of the meeting. Fetch the meeting ID using the create a meeting API.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../../_components/schemas/realtimekit_app_id.md) |  |
+| `meeting_id` | Yes | string | ID of the meeting. Fetch the meeting ID using the create a meeting API. |
 
 
 ## Query Parameters
@@ -23,7 +23,7 @@ Returns a meeting details in an App for the given meeting ID.
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [realtimekit_meeting_id](../../../../../../../_components/parameters/realtimekit_meeting_id.md) |  |
-| `name` | No | string | *Serialization: style=Form* |
+| `name` | No | string |  |
 
 
 

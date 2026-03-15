@@ -13,8 +13,8 @@ Updates and returns the specified Hyperdrive configuration.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [hyperdrive_identifier](../../../../../_components/schemas/hyperdrive_identifier.md) | The Cloudflare account ID.<br/>*Serialization: style=Simple* |
-| `hyperdrive_id` | Yes | [hyperdrive_identifier](../../../../../_components/schemas/hyperdrive_identifier.md) | The unique identifier of the Hyperdrive configuration.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [hyperdrive_identifier](../../../../../_components/schemas/hyperdrive_identifier.md) | The Cloudflare account ID. |
+| `hyperdrive_id` | Yes | [hyperdrive_identifier](../../../../../_components/schemas/hyperdrive_identifier.md) | The unique identifier of the Hyperdrive configuration. |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update Hyperdrive Response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update Hyperdrive Failure Response.
 

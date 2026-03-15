@@ -13,8 +13,8 @@ Get a Workers for Platforms namespace.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../_components/schemas/workers_dispatch_namespace_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) |  |
+| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../_components/schemas/workers_dispatch_namespace_name.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Workers for Platforms namespace.
 [workers_namespace-single-response](../../../../../../_components/schemas/workers_namespace-single-response.md)
 
 
-### 4xx
+### 4XX
 
 Failure to get Workers for Platforms namespace.
 

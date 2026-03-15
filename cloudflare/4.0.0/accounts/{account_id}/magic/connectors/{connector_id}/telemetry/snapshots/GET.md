@@ -11,18 +11,18 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mconn_account_id](../../../../../../../_components/schemas/mconn_account_id.md) | *Serialization: style=Simple* |
-| `connector_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [mconn_account_id](../../../../../../../_components/schemas/mconn_account_id.md) |  |
+| `connector_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `from` | Yes | number | *Serialization: style=Form* |
-| `to` | Yes | number | *Serialization: style=Form* |
-| `limit` | No | number | *Serialization: style=Form* |
-| `cursor` | No | string | *Serialization: style=Form* |
+| `from` | Yes | number |  |
+| `to` | Yes | number |  |
+| `limit` | No | number |  |
+| `cursor` | No | string |  |
 
 
 

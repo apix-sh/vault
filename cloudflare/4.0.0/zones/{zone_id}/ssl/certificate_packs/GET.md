@@ -13,17 +13,17 @@ For a given zone, list all active certificate packs.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `status` | No | any | *Serialization: style=Form* |
-| `deploy` | No | any | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `status` | No | any |  |
+| `deploy` | No | any |  |
 
 
 
@@ -42,7 +42,7 @@ List Certificate Packs response
 [tls-certificates-and-hostnames_certificate_pack_response_collection](../../../../_components/schemas/tls-certificates-and-hostnames_certificate_pack_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Certificate Packs response failure
 

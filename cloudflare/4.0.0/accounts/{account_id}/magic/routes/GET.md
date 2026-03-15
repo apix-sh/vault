@@ -13,7 +13,7 @@ List all Magic static routes.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Routes response
 [magic_routes_collection_response](../../../../_components/schemas/magic_routes_collection_response.md)
 
 
-### 4xx
+### 4XX
 
 List Routes response failure
 

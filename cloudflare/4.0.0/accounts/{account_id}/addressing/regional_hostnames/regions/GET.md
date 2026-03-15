@@ -37,7 +37,7 @@ List regions response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure to list regions
 

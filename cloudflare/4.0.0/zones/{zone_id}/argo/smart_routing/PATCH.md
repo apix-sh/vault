@@ -13,7 +13,7 @@ Configures the value of the Argo Smart Routing enablement setting.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [argo-config_identifier](../../../../_components/schemas/argo-config_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [argo-config_identifier](../../../../_components/schemas/argo-config_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Patch Argo Smart Routing enablement setting response.
 [argo-config_api_response_single](../../../../_components/schemas/argo-config_api_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Patch Argo Smart Routing enablement setting failure.
 

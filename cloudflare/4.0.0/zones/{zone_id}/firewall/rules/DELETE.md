@@ -13,7 +13,7 @@ Deletes existing firewall rules.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Delete firewall rules response
 [firewall_filter-rules-response-collection-delete](../../../../_components/schemas/firewall_filter-rules-response-collection-delete.md)
 
 
-### 4xx
+### 4XX
 
 Delete firewall rules response failure
 

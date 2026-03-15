@@ -18,10 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | Filter by the name of the permission group.
-The value must be URL-encoded.<br/>*Serialization: style=Form* |
-| `scope` | No | string | Filter by the scope of the permission group.
-The value must be URL-encoded.<br/>*Serialization: style=Form* |
+| `name` | No | string | Filter by the name of the permission group.<br/>The value must be URL-encoded. |
+| `scope` | No | string | Filter by the scope of the permission group.<br/>The value must be URL-encoded. |
 
 
 
@@ -40,7 +38,7 @@ List Token Permission Groups response
 [iam_permissions_group_response_collection](../../../_components/schemas/iam_permissions_group_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Token Permission Groups response failure
 

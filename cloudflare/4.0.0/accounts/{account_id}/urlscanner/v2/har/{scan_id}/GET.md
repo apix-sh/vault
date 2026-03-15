@@ -13,8 +13,8 @@ Get a URL scan's HAR file. See HAR spec at http://www.softwareishard.com/blog/ha
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `scan_id` | Yes | string | Scan UUID.<br/>*Serialization: style=Simple* |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `scan_id` | Yes | string | Scan UUID. |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters

@@ -13,7 +13,7 @@ Add Custom Origin Trust Store for a Zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `certificate` | Yes | [tls-certificates-and-hostnames_components-schemas-certificate](../../../../_components/schemas/tls-certificates-and-hostnames_components-schemas-certificate.md) |  |
 
 
 ## Responses
@@ -41,7 +43,7 @@ Upload Custom Origin Trust Store response
 [tls-certificates-and-hostnames_custom_trust_store_response_single](../../../../_components/schemas/tls-certificates-and-hostnames_custom_trust_store_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Upload Custom Origin Trust Store response failure
 

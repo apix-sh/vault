@@ -16,5 +16,4 @@ these fields will update the entry's settings.
 | :------- | :------: | :--- | :---------- |
 | `enabled` | Yes | boolean |  |
 | `entry_id` | Yes | string |  |
-| `profile_id` | No | string | This field is not used as the owning profile.
-For predefined entries it is already set to a predefined profile. |
+| `profile_id` | No | string | This field is not used as the owning profile.<br/>For predefined entries it is already set to a predefined profile. |

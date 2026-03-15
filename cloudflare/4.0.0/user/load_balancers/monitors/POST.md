@@ -39,7 +39,7 @@ Create Monitor response.
 [load-balancing_monitor-response-single](../../../_components/schemas/load-balancing_monitor-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Create Monitor response failure.
 

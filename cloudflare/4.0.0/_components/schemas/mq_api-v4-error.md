@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "array<object>"
 ---
 
 # mq_api-v4-error

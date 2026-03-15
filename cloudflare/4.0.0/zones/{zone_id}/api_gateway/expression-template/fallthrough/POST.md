@@ -41,7 +41,7 @@ Generate fallthrough WAF expression template response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Generate fallthrough WAF expression template failure
 

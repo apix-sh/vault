@@ -13,7 +13,7 @@ Sets the list of routes included in the WARP client's tunnel.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Set the Split Tunnel include list response.
 [teams-devices_split_tunnel_include_response_collection](../../../../../_components/schemas/teams-devices_split_tunnel_include_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Set the Split Tunnel include list response failure.
 

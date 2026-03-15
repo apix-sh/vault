@@ -13,8 +13,8 @@ Removes a Keyless SSL configuration. SSL connections will no longer use the keyl
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `keyless_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `keyless_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Keyless SSL Configuration response
 [tls-certificates-and-hostnames_keyless_response_single_id](../../../../_components/schemas/tls-certificates-and-hostnames_keyless_response_single_id.md)
 
 
-### 4xx
+### 4XX
 
 Delete Keyless SSL Configuration response failure
 

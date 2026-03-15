@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `errors` | Yes | array<any> | A list of error messages. |
-| `messages` | No | array<any> |  |
+| `errors` | Yes | array<object> | A list of error messages. |
+| `messages` | No | array<object> |  |
 | `success` | Yes | boolean | Indicates whether the API call was failed |

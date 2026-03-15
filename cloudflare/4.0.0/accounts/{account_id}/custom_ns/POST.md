@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dns-custom-nameservers_identifier](../../../_components/schemas/dns-custom-nameservers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dns-custom-nameservers_identifier](../../../_components/schemas/dns-custom-nameservers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Add Account Custom Nameserver response
 [dns-custom-nameservers_acns_response_single](../../../_components/schemas/dns-custom-nameservers_acns_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Add Account Custom Nameserver response failure
 

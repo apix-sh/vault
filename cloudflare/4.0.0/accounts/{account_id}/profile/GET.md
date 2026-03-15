@@ -7,11 +7,13 @@ content_type: "application/json"
 
 # Get account profile
 
+Retrieves the profile information for a specific Cloudflare account, including organization details, settings, and metadata. This endpoint is commonly used to verify account access and retrieve account-level configuration.
+
 ## Path Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -40,7 +42,7 @@ The request has succeeded.
 | `success` | Yes | boolean |  |
 
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

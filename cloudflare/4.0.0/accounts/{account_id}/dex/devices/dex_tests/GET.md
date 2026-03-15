@@ -13,17 +13,17 @@ Fetch all DEX tests
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | Page number of paginated results<br/>*Serialization: style=Form* |
-| `per_page` | No | number | Number of items per page<br/>*Serialization: style=Form* |
-| `testName` | No | string | Filter by test name<br/>*Serialization: style=Form* |
-| `kind` | No | string | Filter by test type<br/>*Serialization: style=Form* |
+| `page` | No | number | Page number of paginated results |
+| `per_page` | No | number | Number of items per page |
+| `testName` | No | string | Filter by test name |
+| `kind` | No | string | Filter by test type |
 
 
 
@@ -42,7 +42,7 @@ Device DEX test details response
 [digital-experience-monitoring_dex-response_collection](../../../../../_components/schemas/digital-experience-monitoring_dex-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Device DEX test response failure
 

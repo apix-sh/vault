@@ -13,7 +13,7 @@ Gets the current billing profile for the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Billing Profile Details response
 [bill-subs-api_billing_response_single](../../../../_components/schemas/bill-subs-api_billing_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Billing Profile Details response failure
 

@@ -13,7 +13,7 @@ Opens a WebSocket connection to stream inference results from the @cf/test/hello
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters

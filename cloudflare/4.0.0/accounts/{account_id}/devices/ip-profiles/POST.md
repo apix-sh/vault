@@ -13,7 +13,7 @@ Creates a WARP Device IP profile. Currently, only IPv4 Device subnets can be ass
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters

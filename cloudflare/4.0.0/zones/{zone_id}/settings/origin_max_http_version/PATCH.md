@@ -13,7 +13,7 @@ Origin Max HTTP Setting Version sets the highest HTTP version Cloudflare will at
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Change Origin Max HTTP Version setting response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Change Origin Max HTTP Version response failure.
 

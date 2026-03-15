@@ -1,5 +1,5 @@
 ---
-type: "array<any>"
+type: "array<object>"
 ---
 
 # dns-custom-nameservers_messages

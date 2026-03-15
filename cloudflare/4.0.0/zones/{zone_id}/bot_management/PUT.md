@@ -60,7 +60,7 @@ It is strongly recommended that you ensure you have [custom rules](https://devel
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [bot-management_identifier](../../../_components/schemas/bot-management_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [bot-management_identifier](../../../_components/schemas/bot-management_identifier.md) |  |
 
 
 ## Query Parameters
@@ -88,7 +88,7 @@ Update Bot Management response
 [bot-management_bot_management_response_body](../../../_components/schemas/bot-management_bot_management_response_body.md)
 
 
-### 4xx
+### 4XX
 
 Update Bot Management response failure
 

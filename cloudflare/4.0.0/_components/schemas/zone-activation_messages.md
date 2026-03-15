@@ -1,5 +1,5 @@
 ---
-type: "array<any>"
+type: "array<object>"
 ---
 
 # zone-activation_messages

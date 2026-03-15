@@ -13,14 +13,14 @@ Upload assets ahead of creating a Worker version.  To learn more about the direc
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `base64` | Yes | boolean | *Serialization: style=Form* |
+| `base64` | Yes | boolean |  |
 
 
 
@@ -51,7 +51,7 @@ Upload Assets response.
 [workers_upload-assets-response](../../../../../_components/schemas/workers_upload-assets-response.md)
 
 
-### 4xx
+### 4XX
 
 Upload Assets response failure.
 

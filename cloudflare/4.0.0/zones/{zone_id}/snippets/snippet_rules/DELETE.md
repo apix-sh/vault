@@ -13,7 +13,7 @@ Deletes all snippet rules belonging to the zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [snippets_ZoneId](../../../../_components/schemas/snippets_ZoneId.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [snippets_ZoneId](../../../../_components/schemas/snippets_ZoneId.md) |  |
 
 
 ## Query Parameters
@@ -33,11 +33,11 @@ _(None)_
 
 Reference: [snippets_SnippetRules](../../../../_components/responses/snippets_SnippetRules.md)
 
-### 4xx
+### 4XX
 
 Reference: [snippets_Failure](../../../../_components/responses/snippets_Failure.md)
 
-### 5xx
+### 5XX
 
 Reference: [snippets_Failure](../../../../_components/responses/snippets_Failure.md)
 

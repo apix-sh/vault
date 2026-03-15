@@ -13,18 +13,18 @@ Returns details of the given participant ID along with call statistics for the g
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
-| `participant_id` | Yes | string | ID of the participant<br/>*Serialization: style=Simple* |
-| `session_id` | Yes | string | ID of the session<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../../_components/schemas/realtimekit_app_id.md) |  |
+| `participant_id` | Yes | string | ID of the participant |
+| `session_id` | Yes | string | ID of the session |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `filters` | No | string | Comma separated list of filters to apply. Note that there must be no spaces between the filters.<br/>*Serialization: style=Form* |
-| `include_peer_events` | No | boolean | if true, response includes all the peer events of participant.<br/>*Serialization: style=Form* |
+| `filters` | No | string | Comma separated list of filters to apply. Note that there must be no spaces between the filters. |
+| `include_peer_events` | No | boolean | if true, response includes all the peer events of participant. |
 
 
 

@@ -13,8 +13,8 @@ Deletes a watermark profile.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_watermark_identifier](../../../../../_components/schemas/stream_watermark_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_watermark_identifier](../../../../../_components/schemas/stream_watermark_identifier.md) |  |
+| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete watermark profiles response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete watermark profiles response failure.
 

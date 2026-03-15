@@ -13,27 +13,27 @@ Lists all cookies collected by Page Shield.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `hosts` | No | string | *Serialization: style=Form* |
-| `page` | No | string | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order_by` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `page_url` | No | string | *Serialization: style=Form* |
-| `export` | No | string | *Serialization: style=Form* |
-| `name` | No | string | *Serialization: style=Form* |
-| `secure` | No | boolean | *Serialization: style=Form* |
-| `http_only` | No | boolean | *Serialization: style=Form* |
-| `same_site` | No | string | *Serialization: style=Form* |
-| `type` | No | string | *Serialization: style=Form* |
-| `path` | No | string | *Serialization: style=Form* |
-| `domain` | No | string | *Serialization: style=Form* |
+| `hosts` | No | string |  |
+| `page` | No | string |  |
+| `per_page` | No | number |  |
+| `order_by` | No | string |  |
+| `direction` | No | string |  |
+| `page_url` | No | string |  |
+| `export` | No | string |  |
+| `name` | No | string |  |
+| `secure` | No | boolean |  |
+| `http_only` | No | boolean |  |
+| `same_site` | No | string |  |
+| `type` | No | string |  |
+| `path` | No | string |  |
+| `domain` | No | string |  |
 
 
 
@@ -52,7 +52,7 @@ List Page Shield cookies response
 [page-shield_list-zone-cookies-response](../../../../_components/schemas/page-shield_list-zone-cookies-response.md)
 
 
-### 4xx
+### 4XX
 
 List Page Shield cookies response failure
 

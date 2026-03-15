@@ -13,7 +13,7 @@ Gets a specific organization the user is associated with.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [iam_common_components-schemas-identifier](../../../_components/schemas/iam_common_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `organization_id` | Yes | [iam_common_components-schemas-identifier](../../../_components/schemas/iam_common_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Organization Details response
 [iam_single_organization_response](../../../_components/schemas/iam_single_organization_response.md)
 
 
-### 4xx
+### 4XX
 
 Organization Details response failure
 

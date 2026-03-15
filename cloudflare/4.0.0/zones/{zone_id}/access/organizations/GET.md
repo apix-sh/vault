@@ -13,7 +13,7 @@ Returns the configuration for your Zero Trust organization.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_organizations_components-schemas-identifier](../../../../_components/schemas/access_organizations_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_organizations_components-schemas-identifier](../../../../_components/schemas/access_organizations_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get your Zero Trust organization response
 [access_organizations_components-schemas-single_response](../../../../_components/schemas/access_organizations_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get your Zero Trust organization response failure
 

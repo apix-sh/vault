@@ -13,8 +13,8 @@ Adds an additional audio track to a video using the provided audio track URL.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
-| `identifier` | Yes | [stream_identifier](../../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../../../_components/schemas/stream_account_identifier.md) |  |
+| `identifier` | Yes | [stream_identifier](../../../../../../_components/schemas/stream_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Add audio tracks to a video.
 [stream_addAudioTrackResponse](../../../../../../_components/schemas/stream_addAudioTrackResponse.md)
 
 
-### 4xx
+### 4XX
 
 Add audio tracks to a video response failure.
 

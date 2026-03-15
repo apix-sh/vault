@@ -17,3 +17,6 @@ type: "allOf(2)"
 | `name` | No | [access_apps_components-schemas-name](access_apps_components-schemas-name.md) |  |
 | `session_duration` | No | [access_schemas-session_duration](access_schemas-session_duration.md) |  |
 | `type` | Yes | [access_type](access_type.md) |  |
+| `domain` | No | any |  |
+| `name` | No | any |  |
+| `type` | No | allOf(2) |  |

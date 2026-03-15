@@ -13,7 +13,7 @@ Creates a live input, and returns credentials that you or your users can use to 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create a live input response.
 [stream_live_input_response_single](../../../../_components/schemas/stream_live_input_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create a live input response failure.
 

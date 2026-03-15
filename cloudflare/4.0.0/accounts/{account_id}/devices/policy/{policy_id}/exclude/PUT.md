@@ -13,8 +13,8 @@ Sets the list of routes excluded from the WARP client's tunnel for a specific de
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `policy_id` | Yes | [teams-devices_schemas-uuid](../../../../../../_components/schemas/teams-devices_schemas-uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `policy_id` | Yes | [teams-devices_schemas-uuid](../../../../../../_components/schemas/teams-devices_schemas-uuid.md) |  |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Set the Split Tunnel exclude list for a device settings profile response.
 [teams-devices_split_tunnel_response_collection](../../../../../../_components/schemas/teams-devices_split_tunnel_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Set the Split Tunnel exclude list for a device settings profile response failure.
 

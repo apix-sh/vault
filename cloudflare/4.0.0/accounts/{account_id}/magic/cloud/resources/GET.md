@@ -13,26 +13,26 @@ List resources in the Resource Catalog (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../_components/schemas/mcn_account_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `provider_id` | No | string | *Serialization: style=Form* |
-| `resource_type` | No | array<[mcn_resource_type](../../../../../_components/schemas/mcn_resource_type.md)> | *Serialization: style=Form* |
-| `resource_id` | No | array<[mcn_resource_id](../../../../../_components/schemas/mcn_resource_id.md)> | *Serialization: style=Form* |
-| `region` | No | string | *Serialization: style=Form* |
-| `resource_group` | No | string | *Serialization: style=Form* |
-| `managed` | No | boolean | *Serialization: style=Form* |
-| `search` | No | array<string> | *Serialization: style=Form* |
-| `order_by` | No | string | One of ["id", "resource_type", "region"].<br/>*Serialization: style=Form* |
-| `desc` | No | boolean | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `page` | No | integer | *Serialization: style=Form* |
-| `cloudflare` | No | boolean | *Serialization: style=Form* |
-| `v2` | No | boolean | *Serialization: style=Form* |
+| `provider_id` | No | string |  |
+| `resource_type` | No | array<[mcn_resource_type](../../../../../_components/schemas/mcn_resource_type.md)> |  |
+| `resource_id` | No | array<[mcn_resource_id](../../../../../_components/schemas/mcn_resource_id.md)> |  |
+| `region` | No | string |  |
+| `resource_group` | No | string |  |
+| `managed` | No | boolean |  |
+| `search` | No | array<string> |  |
+| `order_by` | No | string | One of ["id", "resource_type", "region"]. |
+| `desc` | No | boolean |  |
+| `per_page` | No | integer |  |
+| `page` | No | integer |  |
+| `cloudflare` | No | boolean |  |
+| `v2` | No | boolean |  |
 
 
 

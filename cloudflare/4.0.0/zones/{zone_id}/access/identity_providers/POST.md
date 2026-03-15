@@ -13,7 +13,7 @@ Adds a new identity provider to Access.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Add an Access identity provider response
 [access_identity-providers_components-schemas-single_response](../../../../_components/schemas/access_identity-providers_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Add an Access identity provider response failure
 

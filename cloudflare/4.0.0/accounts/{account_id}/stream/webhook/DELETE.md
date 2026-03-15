@@ -13,7 +13,7 @@ Deletes a webhook.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Delete webhooks response.
 [stream_deleted_response](../../../../_components/schemas/stream_deleted_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete webhooks response failure.
 

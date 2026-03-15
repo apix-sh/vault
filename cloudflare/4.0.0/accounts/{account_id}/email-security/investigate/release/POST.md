@@ -13,7 +13,7 @@ Releases a quarantined email message, allowing it to be delivered to the recipie
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../_components/schemas/email-security_AccountId.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ array<[email-security_PostfixId](../../../../../_components/schemas/email-securi
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../_components/responses/email-security_ClientError.md)
 

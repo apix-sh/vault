@@ -13,8 +13,8 @@ Fetches a predefined DLP profile by id.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `profile_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `profile_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Predefined profile response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Predefined profile failure response.
 

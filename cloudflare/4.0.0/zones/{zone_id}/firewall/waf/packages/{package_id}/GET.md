@@ -15,8 +15,8 @@ Fetches the details of a WAF package.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `package_id` | Yes | [firewall_package_id](../../../../../../_components/schemas/firewall_package_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `package_id` | Yes | [firewall_package_id](../../../../../../_components/schemas/firewall_package_id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Get a WAF package response
 [firewall_package_response_single](../../../../../../_components/schemas/firewall_package_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get a WAF package response failure
 

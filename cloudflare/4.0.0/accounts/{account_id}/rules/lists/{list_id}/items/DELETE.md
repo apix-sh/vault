@@ -17,8 +17,8 @@ There is a limit of 1 pending bulk operation per account. If an outstanding bulk
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `list_id` | Yes | [lists_list_id](../../../../../../_components/schemas/lists_list_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [lists_account_id](../../../../../../_components/schemas/lists_account_id.md) | *Serialization: style=Simple* |
+| `list_id` | Yes | [lists_list_id](../../../../../../_components/schemas/lists_list_id.md) |  |
+| `account_id` | Yes | [lists_account_id](../../../../../../_components/schemas/lists_account_id.md) |  |
 
 
 ## Query Parameters
@@ -48,7 +48,7 @@ Delete list items response.
 [lists_lists-async-response](../../../../../../_components/schemas/lists_lists-async-response.md)
 
 
-### 4xx
+### 4XX
 
 Delete list items response failure.
 

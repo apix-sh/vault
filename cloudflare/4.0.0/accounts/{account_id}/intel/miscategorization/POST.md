@@ -13,7 +13,7 @@ Allows you to submit requests to change a domain’s category.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Miscategorization response.
 [intel_api-response-single](../../../../_components/schemas/intel_api-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Create Miscategorization response failure.
 

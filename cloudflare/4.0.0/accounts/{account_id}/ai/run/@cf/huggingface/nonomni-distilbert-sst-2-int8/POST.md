@@ -1,27 +1,27 @@
 ---
 method: "POST"
-url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/huggingface/omni-distilbert-sst-2-int8"
+url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/huggingface/nonomni-distilbert-sst-2-int8"
 auth: "bearer | apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key)"
 content_type: "application/json"
 ---
 
-# Execute @cf/huggingface/omni-distilbert-sst-2-int8 model.
+# Execute @cf/huggingface/nonomni-distilbert-sst-2-int8 model.
 
-Runs inference on the @cf/huggingface/omni-distilbert-sst-2-int8 model.
+Runs inference on the @cf/huggingface/nonomni-distilbert-sst-2-int8 model.
 
 ## Path Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queueRequest` | No | string | *Serialization: style=Form* |
-| `tags` | No | string | *Serialization: style=Form* |
+| `queueRequest` | No | string |  |
+| `tags` | No | string |  |
 
 
 

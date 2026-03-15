@@ -13,14 +13,14 @@ Fetch all Zero Trust lists for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `type` | No | [zero-trust-gateway_schemas-type](../../../../_components/schemas/zero-trust-gateway_schemas-type.md) | *Serialization: style=Form* |
+| `type` | No | [zero-trust-gateway_schemas-type](../../../../_components/schemas/zero-trust-gateway_schemas-type.md) |  |
 
 
 
@@ -39,7 +39,7 @@ List Zero Trust lists response.
 [zero-trust-gateway_schemas-response_collection](../../../../_components/schemas/zero-trust-gateway_schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Zero Trust lists response failure.
 

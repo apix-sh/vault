@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `service_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `service_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -36,7 +36,7 @@ Successfully retrieved connectivity service
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to retrieve connectivity service
 

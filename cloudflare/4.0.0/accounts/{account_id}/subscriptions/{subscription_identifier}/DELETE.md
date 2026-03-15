@@ -13,8 +13,8 @@ Deletes an account's subscription.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `subscription_identifier` | Yes | [bill-subs-api_schemas-identifier](../../../../_components/schemas/bill-subs-api_schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) | *Serialization: style=Simple* |
+| `subscription_identifier` | Yes | [bill-subs-api_schemas-identifier](../../../../_components/schemas/bill-subs-api_schemas-identifier.md) |  |
+| `account_id` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Subscription response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete Subscription response failure
 

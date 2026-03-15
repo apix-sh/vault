@@ -13,7 +13,7 @@ Creates a namespace under the given title. A `400` is returned if the account al
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create a Namespace response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create a Namespace response failure.
 

@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # cache-rules_cache_reserve
@@ -11,3 +11,6 @@ Increase cache lifetimes by automatically storing all cacheable files into Cloud
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | string | Identifier of the zone setting. |
+| `modified_on` | No | string | Last time this setting was modified. |
+| `id` | No | string | ID of the zone setting. Allowed values: cache_reserve |

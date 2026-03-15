@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/dex/rules"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,18 +12,18 @@ List DEX Rules
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | Yes | number | Page number of paginated results<br/>*Serialization: style=Form* |
-| `per_page` | Yes | number | Number of items per page<br/>*Serialization: style=Form* |
-| `sort_order` | No | string | Sort direction for sort_by property<br/>*Serialization: style=Form* |
-| `sort_by` | No | string | Which property to sort results by<br/>*Serialization: style=Form* |
-| `name` | No | string | Filter results by rule name<br/>*Serialization: style=Form* |
+| `page` | Yes | number | Page number of paginated results |
+| `per_page` | Yes | number | Number of items per page |
+| `sort_order` | No | string | Sort direction for sort_by property |
+| `sort_by` | No | string | Which property to sort results by |
+| `name` | No | string | Filter results by rule name |
 
 
 
@@ -43,7 +42,7 @@ success response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List DEX Rules failure response
 

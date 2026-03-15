@@ -13,8 +13,8 @@ Retrieve a saved event query by its ID
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `query_id` | Yes | integer | Event query ID<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `query_id` | Yes | integer | Event query ID |
 
 
 ## Query Parameters

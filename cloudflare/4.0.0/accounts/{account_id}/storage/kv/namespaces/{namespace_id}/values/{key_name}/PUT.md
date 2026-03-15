@@ -13,17 +13,17 @@ Write a value identified by a key. Use URL-encoding to use special characters (f
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key_name` | Yes | [workers-kv_key_name](../../../../../../../../_components/schemas/workers-kv_key_name.md) | *Serialization: style=Simple* |
-| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `key_name` | Yes | [workers-kv_key_name](../../../../../../../../_components/schemas/workers-kv_key_name.md) |  |
+| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) |  |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `expiration` | No | [workers-kv_expiration](../../../../../../../../_components/schemas/workers-kv_expiration.md) | *Serialization: style=Form* |
-| `expiration_ttl` | No | [workers-kv_expiration_ttl](../../../../../../../../_components/schemas/workers-kv_expiration_ttl.md) | *Serialization: style=Form* |
+| `expiration` | No | [workers-kv_expiration](../../../../../../../../_components/schemas/workers-kv_expiration.md) |  |
+| `expiration_ttl` | No | [workers-kv_expiration_ttl](../../../../../../../../_components/schemas/workers-kv_expiration_ttl.md) |  |
 
 
 
@@ -53,7 +53,7 @@ Write key-value pair with metadata response.
 [workers-kv_api-response-common-no-result](../../../../../../../../_components/schemas/workers-kv_api-response-common-no-result.md)
 
 
-### 4xx
+### 4XX
 
 Write key-value pair with metadata response failure.
 

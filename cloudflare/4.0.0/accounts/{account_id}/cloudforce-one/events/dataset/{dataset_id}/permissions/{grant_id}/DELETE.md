@@ -13,9 +13,9 @@ Delete a permission
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `dataset_id` | Yes | string | Dataset UUID.<br/>*Serialization: style=Simple* |
-| `grant_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `dataset_id` | Yes | string | Dataset UUID. |
+| `grant_id` | Yes | string |  |
 
 
 ## Query Parameters

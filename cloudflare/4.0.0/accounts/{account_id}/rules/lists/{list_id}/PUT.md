@@ -13,8 +13,8 @@ Updates the description of a list.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `list_id` | Yes | [lists_list_id](../../../../../_components/schemas/lists_list_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [lists_account_id](../../../../../_components/schemas/lists_account_id.md) | *Serialization: style=Simple* |
+| `list_id` | Yes | [lists_list_id](../../../../../_components/schemas/lists_list_id.md) |  |
+| `account_id` | Yes | [lists_account_id](../../../../../_components/schemas/lists_account_id.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Update a list response.
 [lists_list-response-collection](../../../../../_components/schemas/lists_list-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Update a list response failure.
 

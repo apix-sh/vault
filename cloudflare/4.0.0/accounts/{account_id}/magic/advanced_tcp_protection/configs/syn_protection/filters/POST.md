@@ -13,7 +13,7 @@ Create a SYN Protection filter for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account. |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create SYN Protection filter response.
 [dos_expression-filter-response](../../../../../../../_components/schemas/dos_expression-filter-response.md)
 
 
-### 4xx
+### 4XX
 
 Create SYN Protection filter failure.
 

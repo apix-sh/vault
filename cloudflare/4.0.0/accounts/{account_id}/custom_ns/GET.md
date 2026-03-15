@@ -13,7 +13,7 @@ List an account's custom nameservers.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dns-custom-nameservers_identifier](../../../_components/schemas/dns-custom-nameservers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dns-custom-nameservers_identifier](../../../_components/schemas/dns-custom-nameservers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Account Custom Nameservers response
 [dns-custom-nameservers_acns_response_collection](../../../_components/schemas/dns-custom-nameservers_acns_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Account Custom Nameservers response failure
 

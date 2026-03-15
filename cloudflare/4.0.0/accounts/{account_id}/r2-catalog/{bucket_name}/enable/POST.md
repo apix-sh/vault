@@ -16,8 +16,8 @@ Iceberg metadata and data files.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [r2-data-catalog_account-id](../../../../../_components/schemas/r2-data-catalog_account-id.md) | Identifies the account.<br/>*Serialization: style=Simple* |
-| `bucket_name` | Yes | [r2-data-catalog_bucket-name](../../../../../_components/schemas/r2-data-catalog_bucket-name.md) | Specifies the R2 bucket name to enable as catalog.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [r2-data-catalog_account-id](../../../../../_components/schemas/r2-data-catalog_account-id.md) | Identifies the account. |
+| `bucket_name` | Yes | [r2-data-catalog_bucket-name](../../../../../_components/schemas/r2-data-catalog_bucket-name.md) | Specifies the R2 bucket name to enable as catalog. |
 
 
 ## Query Parameters
@@ -39,19 +39,6 @@ Catalog enabled successfully.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "errors": [],
-  "messages": [],
-  "result": {
-    "id": "550e8400-e29b-41d4-a716-446655440000",
-    "name": "account123_my-bucket"
-  },
-  "success": true
-}
-```
 
 
 ### 400

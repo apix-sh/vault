@@ -16,7 +16,7 @@ See more accepted API fields and expression types at https://developers.cloudfla
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [bot-management_identifier](../../../../_components/schemas/bot-management_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [bot-management_identifier](../../../../_components/schemas/bot-management_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Supported content types:
 
 Feedback report created
 
-### 4xx
+### 4XX
 
 Feedback creation failure
 

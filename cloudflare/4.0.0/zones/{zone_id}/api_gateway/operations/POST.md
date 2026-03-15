@@ -41,7 +41,7 @@ Add operations to a zone response
 [api-shield_multiple-operation-response](../../../../_components/schemas/api-shield_multiple-operation-response.md)
 
 
-### 4xx
+### 4XX
 
 Add operations to a zone response failure
 

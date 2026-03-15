@@ -13,8 +13,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [cloudflare-pipelines_workers-pipelines-account-id](../../../../_components/schemas/cloudflare-pipelines_workers-pipelines-account-id.md) | *Serialization: style=Simple* |
-| `pipeline_name` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [cloudflare-pipelines_workers-pipelines-account-id](../../../../_components/schemas/cloudflare-pipelines_workers-pipelines-account-id.md) |  |
+| `pipeline_name` | Yes | string |  |
 
 
 ## Query Parameters

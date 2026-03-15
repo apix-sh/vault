@@ -13,8 +13,8 @@ Fetches the details of a Zone Lockdown rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `lock_downs_id` | Yes | [firewall_lockdowns_components-schemas-id](../../../../../_components/schemas/firewall_lockdowns_components-schemas-id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `lock_downs_id` | Yes | [firewall_lockdowns_components-schemas-id](../../../../../_components/schemas/firewall_lockdowns_components-schemas-id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Zone Lockdown rule response
 [firewall_zonelockdown_response_single](../../../../../_components/schemas/firewall_zonelockdown_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get a Zone Lockdown rule response failure
 

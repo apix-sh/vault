@@ -13,7 +13,7 @@ Instructs Cloudflare to check a regional hub data center on the way to your uppe
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Change Regional Tiered Cache setting response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Change Regional Tiered Cache setting response failure.
 

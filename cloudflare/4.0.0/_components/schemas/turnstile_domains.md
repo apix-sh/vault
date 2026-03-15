@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "array<string>"
 ---
 
 # turnstile_domains

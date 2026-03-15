@@ -13,15 +13,15 @@ List DNS Firewall clusters for an account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dns-firewall_identifier](../../../_components/schemas/dns-firewall_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dns-firewall_identifier](../../../_components/schemas/dns-firewall_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
 
 
 
@@ -40,7 +40,7 @@ List DNS Firewall Clusters response
 [dns-firewall_dns_firewall_response_collection](../../../_components/schemas/dns-firewall_dns_firewall_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List DNS Firewall Clusters response failure
 

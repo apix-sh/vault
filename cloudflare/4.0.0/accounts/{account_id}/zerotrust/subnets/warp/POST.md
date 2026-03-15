@@ -1,7 +1,6 @@
 ---
 method: "POST"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/zerotrust/subnets/warp"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -22,7 +21,7 @@ Create a WARP IP assignment subnet. Currently, only IPv4 subnets can be created.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_account_id](../../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_account_id](../../../../../_components/schemas/tunnel_account_id.md) |  |
 
 
 ## Query Parameters
@@ -55,7 +54,7 @@ Create subnet response
 [tunnel_subnet_response_single](../../../../../_components/schemas/tunnel_subnet_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create subnet response failure
 

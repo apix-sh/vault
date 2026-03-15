@@ -13,7 +13,7 @@ Gets the pay-per-crawl config for a zone including the bot configuration.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | string | zone id<br/>*Serialization: style=Simple* |
+| `zone_id` | Yes | string | zone id |
 
 
 ## Query Parameters

@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `asn` | No | integer | Filters results by Autonomous System. Specify a single Autonomous System Number (ASN) as integer.<br/>*Serialization: style=Form* |
-| `location` | No | string | Filters results by location. Specify an alpha-2 location code.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `asn` | No | integer | Filters results by Autonomous System. Specify a single Autonomous System Number (ASN) as integer. |
+| `location` | No | string | Filters results by location. Specify an alpha-2 location code. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

@@ -13,17 +13,17 @@ Fetches all the items in the list.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `list_id` | Yes | [lists_list_id](../../../../../../_components/schemas/lists_list_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [lists_account_id](../../../../../../_components/schemas/lists_account_id.md) | *Serialization: style=Simple* |
+| `list_id` | Yes | [lists_list_id](../../../../../../_components/schemas/lists_list_id.md) |  |
+| `account_id` | Yes | [lists_account_id](../../../../../../_components/schemas/lists_account_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `cursor` | No | string | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `search` | No | string | *Serialization: style=Form* |
+| `cursor` | No | string |  |
+| `per_page` | No | integer |  |
+| `search` | No | string |  |
 
 
 
@@ -42,7 +42,7 @@ Get list items response.
 [lists_items-list-response-collection](../../../../../../_components/schemas/lists_items-list-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Get list items response failure.
 

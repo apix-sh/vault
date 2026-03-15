@@ -13,17 +13,17 @@ Search for Load Balancing resources.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `query` | No | string | *Serialization: style=Form* |
-| `references` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
+| `query` | No | string |  |
+| `references` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
 
 
 
@@ -42,7 +42,7 @@ Search Resources response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Search Resources response failure.
 

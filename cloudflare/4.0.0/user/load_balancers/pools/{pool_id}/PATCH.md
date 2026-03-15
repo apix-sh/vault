@@ -13,7 +13,7 @@ Apply changes to an existing pool, overwriting the supplied properties.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../_components/schemas/load-balancing_schemas-identifier.md) | *Serialization: style=Simple* |
+| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../_components/schemas/load-balancing_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -57,7 +57,7 @@ Patch Pool response.
 [load-balancing_schemas-single_response](../../../../_components/schemas/load-balancing_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Patch Pool response failure.
 

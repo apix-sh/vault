@@ -13,7 +13,7 @@ Creates a new Zero Trust list.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Create Zero Trust list response.
 [zero-trust-gateway_single_response_with_list_items](../../../../_components/schemas/zero-trust-gateway_single_response_with_list_items.md)
 
 
-### 4xx
+### 4XX
 
 Create Zero Trust list response failure.
 

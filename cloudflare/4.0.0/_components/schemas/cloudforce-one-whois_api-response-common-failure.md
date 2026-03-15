@@ -8,7 +8,7 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `errors` | Yes | any |  |
+| `errors` | Yes | allOf(1) |  |
 | `messages` | Yes | allOf(1) |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean | Returns a boolean for the success/failure of the API call. |

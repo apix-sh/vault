@@ -13,8 +13,8 @@ Get a single Zero Trust Gateway proxy endpoint.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `proxy_endpoint_id` | Yes | [zero-trust-gateway_components-schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_components-schemas-uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `proxy_endpoint_id` | Yes | [zero-trust-gateway_components-schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_components-schemas-uuid.md) |  |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Returns a proxy endpoint response.
 [zero-trust-gateway_proxy-endpoints_components-schemas-single_response](../../../../../_components/schemas/zero-trust-gateway_proxy-endpoints_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Returns a proxy endpoint response failure.
 

@@ -13,8 +13,8 @@ Revokes all WARP registrations associated with the specified device.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `device_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `device_id` | Yes | string |  |
 
 
 ## Query Parameters

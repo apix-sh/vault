@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -35,7 +35,7 @@ Risk score for all users in the account.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to get risk scores.
 

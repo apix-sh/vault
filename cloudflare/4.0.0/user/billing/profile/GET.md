@@ -35,7 +35,7 @@ Billing Profile Details response
 [bill-subs-api_billing_response_single](../../../_components/schemas/bill-subs-api_billing_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Billing Profile Details response failure
 

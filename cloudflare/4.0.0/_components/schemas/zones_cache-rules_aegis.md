@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # zones_cache-rules_aegis
@@ -11,3 +11,7 @@ Aegis provides dedicated egress IPs (from Cloudflare to your origin) for your la
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | string | Identifier of the zone setting. |
+| `modified_on` | No | string | Last time this setting was modified. |
+| `id` | No | string | ID of the zone setting. Allowed values: aegis |
+| `value` | No | [zones_cache-rules_aegis_value](zones_cache-rules_aegis_value.md) |  |

@@ -13,8 +13,8 @@ Apply changes to an existing monitor group, overwriting the supplied properties.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `monitor_group_id` | Yes | [load-balancing_schemas-identifier](../../../../../_components/schemas/load-balancing_schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `monitor_group_id` | Yes | [load-balancing_schemas-identifier](../../../../../_components/schemas/load-balancing_schemas-identifier.md) |  |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -50,7 +50,7 @@ Precondition Failed - Referenced monitor does not exist
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Patch Monitor Group response failure
 

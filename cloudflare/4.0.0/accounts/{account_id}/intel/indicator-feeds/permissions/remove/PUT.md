@@ -13,7 +13,7 @@ Revokes access permissions for a custom threat indicator feed.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../../../_components/schemas/custom-indicator-feeds_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../../../_components/schemas/custom-indicator-feeds_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Get indicator feed metadata
 [custom-indicator-feeds_permissions_response](../../../../../../_components/schemas/custom-indicator-feeds_permissions_response.md)
 
 
-### 4xx
+### 4XX
 
 Get indicator feeds response failure
 

@@ -13,7 +13,7 @@ Lists the video ID and creation date and time when a signing key was created.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List signing keys response.
 [stream_key_response_collection](../../../../_components/schemas/stream_key_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List signing keys response failure.
 

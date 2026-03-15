@@ -13,8 +13,8 @@ Retrieves the client certificate authentication status for a specific hostname, 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `hostname` | Yes | [tls-certificates-and-hostnames_schemas-hostname](../../../../../_components/schemas/tls-certificates-and-hostnames_schemas-hostname.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `hostname` | Yes | [tls-certificates-and-hostnames_schemas-hostname](../../../../../_components/schemas/tls-certificates-and-hostnames_schemas-hostname.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get the Hostname Status for Client Authentication response
 [tls-certificates-and-hostnames_hostname_aop_single_response](../../../../../_components/schemas/tls-certificates-and-hostnames_hostname_aop_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get the Hostname Status for Client Authentication response failure
 

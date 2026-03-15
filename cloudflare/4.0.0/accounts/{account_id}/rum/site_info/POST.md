@@ -13,7 +13,7 @@ Creates a new Web Analytics site.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [rum_identifier](../../../../_components/schemas/rum_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [rum_identifier](../../../../_components/schemas/rum_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Created Web Analytics site.
 [rum_site-response-single](../../../../_components/schemas/rum_site-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

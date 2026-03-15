@@ -13,8 +13,8 @@ This is a no-op as predefined profiles can't be deleted but is needed for our ge
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `profile_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `profile_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete predefined profile response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete predefined profile failure response.
 

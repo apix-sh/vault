@@ -13,8 +13,8 @@ Disables sending on a subdomain and removes its DNS records. If routing is still
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `subdomain_id` | Yes | [email_sending_subdomain_identifier](../../../../../../_components/schemas/email_sending_subdomain_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [email_identifier](../../../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `subdomain_id` | Yes | [email_sending_subdomain_identifier](../../../../../../_components/schemas/email_sending_subdomain_identifier.md) |  |
+| `zone_id` | Yes | [email_identifier](../../../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters

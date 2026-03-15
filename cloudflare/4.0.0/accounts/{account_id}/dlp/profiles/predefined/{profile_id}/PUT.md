@@ -13,8 +13,8 @@ Updates a DLP predefined profile. Only supports enabling/disabling entries.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `profile_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `profile_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update predefined profile response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update predefined profile failure response.
 

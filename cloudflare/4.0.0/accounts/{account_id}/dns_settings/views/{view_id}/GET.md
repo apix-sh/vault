@@ -13,8 +13,8 @@ Get DNS Internal View
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dns-settings_identifier](../../../../../_components/schemas/dns-settings_identifier.md) | *Serialization: style=Simple* |
-| `view_id` | Yes | [dns-settings_identifier](../../../../../_components/schemas/dns-settings_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dns-settings_identifier](../../../../../_components/schemas/dns-settings_identifier.md) |  |
+| `view_id` | Yes | [dns-settings_identifier](../../../../../_components/schemas/dns-settings_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get DNS Internal View response
 [dns-settings_dns_view_response_single](../../../../../_components/schemas/dns-settings_dns_view_response_single.md)
 
 
-### 4xx
+### 4XX
 
 List Internal DNS Views response failure
 

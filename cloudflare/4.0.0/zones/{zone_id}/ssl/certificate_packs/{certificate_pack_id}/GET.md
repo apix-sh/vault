@@ -13,8 +13,8 @@ For a given zone, get a certificate pack.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get Certificate Pack response
 [tls-certificates-and-hostnames_certificate_pack_response_single](../../../../../_components/schemas/tls-certificates-and-hostnames_certificate_pack_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get Certificate Pack response failure
 

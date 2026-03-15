@@ -13,16 +13,16 @@ List all versions for a Worker.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `worker_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) |  |
+| `worker_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | Current page.<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Items per-page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | Current page. |
+| `per_page` | No | integer | Items per-page. |
 
 
 
@@ -41,7 +41,7 @@ List versions success.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List versions failure.
 

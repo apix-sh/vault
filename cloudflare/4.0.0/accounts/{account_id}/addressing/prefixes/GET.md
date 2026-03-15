@@ -13,7 +13,7 @@ List all prefixes owned by the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Prefixes response
 [addressing_response_collection](../../../../_components/schemas/addressing_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Prefixes response failure
 

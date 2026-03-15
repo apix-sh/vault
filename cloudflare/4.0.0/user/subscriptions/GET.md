@@ -35,7 +35,7 @@ Get User Subscriptions response
 [bill-subs-api_user_subscription_response_collection](../../_components/schemas/bill-subs-api_user_subscription_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Get User Subscriptions response failure
 

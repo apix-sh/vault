@@ -13,8 +13,8 @@ Get information about a specific role for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `role_id` | Yes | [iam_role_components-schemas-identifier](../../../../_components/schemas/iam_role_components-schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `role_id` | Yes | [iam_role_components-schemas-identifier](../../../../_components/schemas/iam_role_components-schemas-identifier.md) |  |
+| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Role Details response
 [iam_single_role_response](../../../../_components/schemas/iam_single_role_response.md)
 
 
-### 4xx
+### 4XX
 
 Role Details response failure
 

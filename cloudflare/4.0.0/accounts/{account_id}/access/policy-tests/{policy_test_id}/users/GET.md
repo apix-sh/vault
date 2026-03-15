@@ -13,8 +13,8 @@ Fetches a single page of user results from an Access policy test.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
-| `policy_test_id` | Yes | [access_policy_test_id](../../../../../../_components/schemas/access_policy_test_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) |  |
+| `policy_test_id` | Yes | [access_policy_test_id](../../../../../../_components/schemas/access_policy_test_id.md) |  |
 
 
 ## Query Parameters
@@ -22,8 +22,8 @@ Fetches a single page of user results from an Access policy test.
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [access_page](../../../../../../_components/parameters/access_page.md) |  |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `status` | No | string | Filter users by their policy evaluation status.<br/>*Serialization: style=Form* |
+| `per_page` | No | integer |  |
+| `status` | No | string | Filter users by their policy evaluation status. |
 
 
 

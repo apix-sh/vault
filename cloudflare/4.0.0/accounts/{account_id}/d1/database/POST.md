@@ -13,7 +13,7 @@ Returns the created D1 database.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [d1_account-identifier](../../../../_components/schemas/d1_account-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [d1_account-identifier](../../../../_components/schemas/d1_account-identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Returns the created D1 database's metadata
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Database details response failure
 

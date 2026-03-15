@@ -13,7 +13,7 @@ Creates temporary access credentials on a bucket that can be optionally scoped t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [r2_account_identifier](../../../../_components/schemas/r2_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [r2_account_identifier](../../../../_components/schemas/r2_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create temporary access credentials response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create temporary access credentials response failure.
 

@@ -13,16 +13,16 @@ Delete multiple scripts from a Workers for Platforms namespace based on optional
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tags` | No | string | Filter scripts by tags before deletion. Format: comma-separated list of tag:allowed pairs where allowed is 'yes' or 'no'.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Limit the number of scripts to delete.<br/>*Serialization: style=Form* |
+| `tags` | No | string | Filter scripts by tags before deletion. Format: comma-separated list of tag:allowed pairs where allowed is 'yes' or 'no'. |
+| `limit` | No | integer | Limit the number of scripts to delete. |
 
 
 
@@ -41,7 +41,7 @@ Delete scripts in namespace response.
 [workers_namespace-script-delete-bulk-response](../../../../../../../_components/schemas/workers_namespace-script-delete-bulk-response.md)
 
 
-### 4xx
+### 4XX
 
 Delete scripts in namespace response failure.
 

@@ -14,17 +14,14 @@ creation and activation of zones with this zone's hostname.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | Zone ID<br/>*Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | Zone ID |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `hold_after` | No | string | If `hold_after` is provided, the hold will be temporarily disabled,
-then automatically re-enabled by the system at the time specified
-in this RFC3339-formatted timestamp. Otherwise, the hold will be
-disabled indefinitely.<br/>*Serialization: style=Form* |
+| `hold_after` | No | string | If `hold_after` is provided, the hold will be temporarily disabled,<br/>then automatically re-enabled by the system at the time specified<br/>in this RFC3339-formatted timestamp. Otherwise, the hold will be<br/>disabled indefinitely. |
 
 
 
@@ -43,7 +40,7 @@ Successful Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Client Error
 

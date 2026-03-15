@@ -34,7 +34,7 @@ _(None)_
 
 Reference: [api-shield_update-config-credentials-success](../../../../../../_components/responses/api-shield_update-config-credentials-success.md)
 
-### 4xx
+### 4XX
 
 Reference: [api-shield_generic_failure](../../../../../../_components/responses/api-shield_generic_failure.md)
 

@@ -13,9 +13,9 @@ Patch script metadata, such as bindings.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `service_name` | Yes | [workers_service](../../../../../../../../_components/schemas/workers_service.md) | *Serialization: style=Simple* |
-| `environment_name` | Yes | [workers_environment](../../../../../../../../_components/schemas/workers_environment.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `service_name` | Yes | [workers_service](../../../../../../../../_components/schemas/workers_service.md) |  |
+| `environment_name` | Yes | [workers_environment](../../../../../../../../_components/schemas/workers_environment.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Patch script settings.
 [workers_script-settings-response](../../../../../../../../_components/schemas/workers_script-settings-response.md)
 
 
-### 4xx
+### 4XX
 
 Patch script settings failure.
 

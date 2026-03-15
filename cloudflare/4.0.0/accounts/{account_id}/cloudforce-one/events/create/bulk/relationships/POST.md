@@ -13,7 +13,7 @@ This method is deprecated. Please use `event_create_bulk` instead
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters

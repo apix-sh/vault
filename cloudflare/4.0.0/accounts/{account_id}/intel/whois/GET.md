@@ -11,14 +11,14 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [cloudforce-one-whois_identifier](../../../../_components/schemas/cloudforce-one-whois_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [cloudforce-one-whois_identifier](../../../../_components/schemas/cloudforce-one-whois_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | No | string | *Serialization: style=Form* |
+| `domain` | No | string |  |
 
 
 
@@ -37,7 +37,7 @@ Get WHOIS Record response.
 [cloudforce-one-whois_schemas-single_response](../../../../_components/schemas/cloudforce-one-whois_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get WHOIS Record response failure.
 

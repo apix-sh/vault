@@ -14,7 +14,7 @@ type: "object"
 | `custom_pages` | No | [access_schemas-custom_pages](access_schemas-custom_pages.md) |  |
 | `logo_url` | No | [access_logo_url](access_logo_url.md) |  |
 | `name` | No | [access_apps_components-schemas-name](access_apps_components-schemas-name.md) |  |
-| `saas_app` | No | any |  |
+| `saas_app` | No | oneOf(2) |  |
 | `scim_config` | No | [access_scim_config](access_scim_config.md) |  |
 | `tags` | No | [access_tags](access_tags.md) |  |
 | `type` | No | allOf(2) |  |

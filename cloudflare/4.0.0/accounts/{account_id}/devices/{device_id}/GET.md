@@ -18,8 +18,8 @@ Fetches a single WARP device. Not supported when [multi-user mode](https://devel
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `device_id` | Yes | [teams-devices_registration_id](../../../../_components/schemas/teams-devices_registration_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `device_id` | Yes | [teams-devices_registration_id](../../../../_components/schemas/teams-devices_registration_id.md) |  |
+| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Get device details response.
 [teams-devices_device_response](../../../../_components/schemas/teams-devices_device_response.md)
 
 
-### 4xx
+### 4XX
 
 Get device details response failure.
 

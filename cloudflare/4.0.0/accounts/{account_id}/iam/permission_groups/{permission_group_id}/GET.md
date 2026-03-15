@@ -13,8 +13,8 @@ Get information about a specific permission group in an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
-| `permission_group_id` | Yes | [iam_permission_group_identifier](../../../../../_components/schemas/iam_permission_group_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) |  |
+| `permission_group_id` | Yes | [iam_permission_group_identifier](../../../../../_components/schemas/iam_permission_group_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Permission Group Details response
 [iam_single_permission_groups_response](../../../../../_components/schemas/iam_single_permission_groups_response.md)
 
 
-### 4xx
+### 4XX
 
 Permission Group Details response failure
 

@@ -13,8 +13,8 @@ Generates a new Client Secret for a service token and revokes the old one.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `service_token_id` | Yes | [access_uuid](../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `service_token_id` | Yes | [access_uuid](../../../../../../_components/schemas/access_uuid.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -29,7 +29,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `previous_client_secret_expires_at` | No | string | The expiration of the previous `client_secret`. If not provided, it defaults to the current timestamp in order to immediately expire the previous secret. |
 
 
 ## Responses
@@ -42,7 +44,7 @@ Rotate a service token response
 [access_create_response](../../../../../../_components/schemas/access_create_response.md)
 
 
-### 4xx
+### 4XX
 
 Rotate a service token response failure
 

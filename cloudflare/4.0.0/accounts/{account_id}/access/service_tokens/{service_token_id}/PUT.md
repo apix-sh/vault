@@ -13,8 +13,8 @@ Updates a configured service token.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `service_token_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `service_token_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -29,7 +29,12 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `client_secret_version` | No | [access_client_secret_version](../../../../../_components/schemas/access_client_secret_version.md) |  |
+| `duration` | No | [access_duration](../../../../../_components/schemas/access_duration.md) |  |
+| `name` | No | [access_schemas-name](../../../../../_components/schemas/access_schemas-name.md) |  |
+| `previous_client_secret_expires_at` | No | [access_previous_client_secret_expires_at](../../../../../_components/schemas/access_previous_client_secret_expires_at.md) |  |
 
 
 ## Responses
@@ -42,7 +47,7 @@ Update a service token response
 [access_schemas-single_response](../../../../../_components/schemas/access_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update a service token response failure
 

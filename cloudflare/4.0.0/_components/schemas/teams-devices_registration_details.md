@@ -11,4 +11,4 @@ The summary of a registration.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `policy` | No | any | A summary of the device profile evaluated for the registration. |
+| `policy` | No | allOf(1) | A summary of the device profile evaluated for the registration. |

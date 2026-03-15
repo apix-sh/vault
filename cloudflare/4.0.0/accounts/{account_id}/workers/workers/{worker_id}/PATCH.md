@@ -13,8 +13,8 @@ Perform a partial update on a Worker, where omitted properties are left unchange
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `worker_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) |  |
+| `worker_id` | Yes | string |  |
 
 
 ## Query Parameters

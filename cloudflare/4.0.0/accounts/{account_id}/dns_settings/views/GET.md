@@ -13,25 +13,25 @@ List DNS Internal Views for an Account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dns-settings_identifier](../../../../_components/schemas/dns-settings_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dns-settings_identifier](../../../../_components/schemas/dns-settings_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | *Serialization: style=Form* |
-| `name.exact` | No | string | *Serialization: style=Form* |
-| `name.contains` | No | string | *Serialization: style=Form* |
-| `name.startswith` | No | string | *Serialization: style=Form* |
-| `name.endswith` | No | string | *Serialization: style=Form* |
-| `zone_id` | No | string | *Serialization: style=Form* |
-| `zone_name` | No | string | *Serialization: style=Form* |
-| `match` | No | [dns-settings_match](../../../../_components/schemas/dns-settings_match.md) | *Serialization: style=Form* |
-| `page` | No | [dns-settings_page](../../../../_components/schemas/dns-settings_page.md) | *Serialization: style=Form* |
-| `per_page` | No | [dns-settings_per_page](../../../../_components/schemas/dns-settings_per_page.md) | *Serialization: style=Form* |
-| `order` | No | [dns-settings_order](../../../../_components/schemas/dns-settings_order.md) | *Serialization: style=Form* |
-| `direction` | No | [dns-settings_direction](../../../../_components/schemas/dns-settings_direction.md) | *Serialization: style=Form* |
+| `name` | No | string |  |
+| `name.exact` | No | string |  |
+| `name.contains` | No | string |  |
+| `name.startswith` | No | string |  |
+| `name.endswith` | No | string |  |
+| `zone_id` | No | string |  |
+| `zone_name` | No | string |  |
+| `match` | No | [dns-settings_match](../../../../_components/schemas/dns-settings_match.md) |  |
+| `page` | No | [dns-settings_page](../../../../_components/schemas/dns-settings_page.md) |  |
+| `per_page` | No | [dns-settings_per_page](../../../../_components/schemas/dns-settings_per_page.md) |  |
+| `order` | No | [dns-settings_order](../../../../_components/schemas/dns-settings_order.md) |  |
+| `direction` | No | [dns-settings_direction](../../../../_components/schemas/dns-settings_direction.md) |  |
 
 
 
@@ -50,7 +50,7 @@ List Internal DNS Views response
 [dns-settings_dns_view_response_collection](../../../../_components/schemas/dns-settings_dns_view_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Internal DNS Views response failure
 

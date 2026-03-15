@@ -13,62 +13,62 @@ Gets a list of audit logs for an account. <br />  <br /> This is the beta releas
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_name` | No | array<string> | *Serialization: style=Form* |
-| `action_result` | No | array<string> | *Serialization: style=Form* |
-| `action_type` | No | array<string> | *Serialization: style=Form* |
-| `actor_context` | No | array<string> | *Serialization: style=Form* |
-| `actor_email` | No | array<string> | *Serialization: style=Form* |
-| `actor_id` | No | array<string> | *Serialization: style=Form* |
-| `actor_ip_address` | No | array<string> | *Serialization: style=Form* |
-| `actor_token_id` | No | array<string> | *Serialization: style=Form* |
-| `actor_token_name` | No | array<string> | *Serialization: style=Form* |
-| `actor_type` | No | array<string> | *Serialization: style=Form* |
-| `audit_log_id` | No | array<string> | *Serialization: style=Form* |
-| `id` | No | array<string> | *Serialization: style=Form* |
-| `raw_cf_ray_id` | No | array<string> | *Serialization: style=Form* |
-| `raw_method` | No | array<string> | *Serialization: style=Form* |
-| `raw_status_code` | No | array<integer> | *Serialization: style=Form* |
-| `raw_uri` | No | array<string> | *Serialization: style=Form* |
-| `resource_id` | No | array<string> | *Serialization: style=Form* |
-| `resource_product` | No | array<string> | *Serialization: style=Form* |
-| `resource_type` | No | array<string> | *Serialization: style=Form* |
-| `resource_scope` | No | array<string> | *Serialization: style=Form* |
-| `zone_id` | No | array<string> | *Serialization: style=Form* |
-| `zone_name` | No | array<string> | *Serialization: style=Form* |
-| `account_name.not` | No | array<string> | *Serialization: style=Form* |
-| `action_result.not` | No | array<string> | *Serialization: style=Form* |
-| `action_type.not` | No | array<string> | *Serialization: style=Form* |
-| `actor_context.not` | No | array<string> | *Serialization: style=Form* |
-| `actor_email.not` | No | array<string> | *Serialization: style=Form* |
-| `actor_id.not` | No | array<string> | *Serialization: style=Form* |
-| `actor_ip_address.not` | No | array<string> | *Serialization: style=Form* |
-| `actor_token_id.not` | No | array<string> | *Serialization: style=Form* |
-| `actor_token_name.not` | No | array<string> | *Serialization: style=Form* |
-| `actor_type.not` | No | array<string> | *Serialization: style=Form* |
-| `audit_log_id.not` | No | array<string> | *Serialization: style=Form* |
-| `id.not` | No | array<string> | *Serialization: style=Form* |
-| `raw_cf_ray_id.not` | No | array<string> | *Serialization: style=Form* |
-| `raw_method.not` | No | array<string> | *Serialization: style=Form* |
-| `raw_status_code.not` | No | array<integer> | *Serialization: style=Form* |
-| `raw_uri.not` | No | array<string> | *Serialization: style=Form* |
-| `resource_id.not` | No | array<string> | *Serialization: style=Form* |
-| `resource_product.not` | No | array<string> | *Serialization: style=Form* |
-| `resource_type.not` | No | array<string> | *Serialization: style=Form* |
-| `resource_scope.not` | No | array<string> | *Serialization: style=Form* |
-| `zone_id.not` | No | array<string> | *Serialization: style=Form* |
-| `zone_name.not` | No | array<string> | *Serialization: style=Form* |
-| `since` | Yes | string | Limits the returned results to logs newer than the specified date. This can be a date string 2019-04-30 (interpreted in UTC) or an absolute timestamp that conforms to RFC3339.<br/>*Serialization: style=Form* |
-| `before` | Yes | string | Limits the returned results to logs older than the specified date. This can be a date string 2019-04-30 (interpreted in UTC) or an absolute timestamp that conforms to RFC3339.<br/>*Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `limit` | No | number | *Serialization: style=Form* |
-| `cursor` | No | string | *Serialization: style=Form* |
+| `account_name` | No | array<string> |  |
+| `action_result` | No | array<string> |  |
+| `action_type` | No | array<string> |  |
+| `actor_context` | No | array<string> |  |
+| `actor_email` | No | array<string> |  |
+| `actor_id` | No | array<string> |  |
+| `actor_ip_address` | No | array<string> |  |
+| `actor_token_id` | No | array<string> |  |
+| `actor_token_name` | No | array<string> |  |
+| `actor_type` | No | array<string> |  |
+| `audit_log_id` | No | array<string> |  |
+| `id` | No | array<string> |  |
+| `raw_cf_ray_id` | No | array<string> |  |
+| `raw_method` | No | array<string> |  |
+| `raw_status_code` | No | array<integer> |  |
+| `raw_uri` | No | array<string> |  |
+| `resource_id` | No | array<string> |  |
+| `resource_product` | No | array<string> |  |
+| `resource_type` | No | array<string> |  |
+| `resource_scope` | No | array<string> |  |
+| `zone_id` | No | array<string> |  |
+| `zone_name` | No | array<string> |  |
+| `account_name.not` | No | array<string> |  |
+| `action_result.not` | No | array<string> |  |
+| `action_type.not` | No | array<string> |  |
+| `actor_context.not` | No | array<string> |  |
+| `actor_email.not` | No | array<string> |  |
+| `actor_id.not` | No | array<string> |  |
+| `actor_ip_address.not` | No | array<string> |  |
+| `actor_token_id.not` | No | array<string> |  |
+| `actor_token_name.not` | No | array<string> |  |
+| `actor_type.not` | No | array<string> |  |
+| `audit_log_id.not` | No | array<string> |  |
+| `id.not` | No | array<string> |  |
+| `raw_cf_ray_id.not` | No | array<string> |  |
+| `raw_method.not` | No | array<string> |  |
+| `raw_status_code.not` | No | array<integer> |  |
+| `raw_uri.not` | No | array<string> |  |
+| `resource_id.not` | No | array<string> |  |
+| `resource_product.not` | No | array<string> |  |
+| `resource_type.not` | No | array<string> |  |
+| `resource_scope.not` | No | array<string> |  |
+| `zone_id.not` | No | array<string> |  |
+| `zone_name.not` | No | array<string> |  |
+| `since` | Yes | string | Limits the returned results to logs newer than the specified date. This can be a date string 2019-04-30 (interpreted in UTC) or an absolute timestamp that conforms to RFC3339. |
+| `before` | Yes | string | Limits the returned results to logs older than the specified date. This can be a date string 2019-04-30 (interpreted in UTC) or an absolute timestamp that conforms to RFC3339. |
+| `direction` | No | string |  |
+| `limit` | No | number |  |
+| `cursor` | No | string |  |
 
 
 
@@ -87,7 +87,7 @@ Get account audit logs successful response
 [aaa_audit-logs-v2-response-collection](../../../../_components/schemas/aaa_audit-logs-v2-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Get account audit logs failed response
 

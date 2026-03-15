@@ -13,8 +13,8 @@ Edit SSL validation method for a certificate pack. A PATCH request will request 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_cert_pack_uuid](../../../../../_components/schemas/tls-certificates-and-hostnames_cert_pack_uuid.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_cert_pack_uuid](../../../../../_components/schemas/tls-certificates-and-hostnames_cert_pack_uuid.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Edit SSL Certificate Pack Validation Method response
 [tls-certificates-and-hostnames_ssl_validation_method_response_collection](../../../../../_components/schemas/tls-certificates-and-hostnames_ssl_validation_method_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Edit SSL Certificate Pack Validation Method response failure
 

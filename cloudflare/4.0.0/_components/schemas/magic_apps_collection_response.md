@@ -12,3 +12,4 @@ type: "allOf(2)"
 | `messages` | Yes | [magic_messages](magic_messages.md) |  |
 | `result` | Yes | array<any> |  |
 | `success` | Yes | boolean | Whether the API call was successful |
+| `result` | No | array<[magic_app](./magic_app.md)> |  |

@@ -13,7 +13,7 @@ Remove the associated member from an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `membership_id` | Yes | [iam_membership_components-schemas-identifier](../../_components/schemas/iam_membership_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `membership_id` | Yes | [iam_membership_components-schemas-identifier](../../_components/schemas/iam_membership_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Delete Membership response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete Membership response failure
 

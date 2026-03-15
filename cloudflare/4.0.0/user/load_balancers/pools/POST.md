@@ -55,7 +55,7 @@ Create Pool response.
 [load-balancing_schemas-single_response](../../../_components/schemas/load-balancing_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Pool response failure.
 

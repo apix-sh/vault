@@ -13,8 +13,8 @@ Updates a Logpush job.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `job_id` | Yes | [logpush_id](../../../../../_components/schemas/logpush_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `job_id` | Yes | [logpush_id](../../../../../_components/schemas/logpush_id.md) |  |
+| `zone_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,37 +44,6 @@ Supported content types:
 | `output_options` | No | [logpush_output_options](../../../../../_components/schemas/logpush_output_options.md) |  |
 | `ownership_challenge` | No | [logpush_ownership_challenge](../../../../../_components/schemas/logpush_ownership_challenge.md) |  |
 
-#### Example Payload
-```json
-{
-  "destination_conf": "s3://mybucket/logs?region=us-west-2",
-  "enabled": false,
-  "filter": "{\"where\":{\"and\":[{\"key\":\"ClientRequestPath\",\"operator\":\"contains\",\"value\":\"/static\"},{\"key\":\"ClientRequestHost\",\"operator\":\"eq\",\"value\":\"example.com\"}]}}",
-  "kind": "",
-  "max_upload_bytes": 5000000,
-  "max_upload_interval_seconds": 30,
-  "max_upload_records": 1000,
-  "output_options": {
-    "CVE-2021-44228": false,
-    "batch_prefix": "",
-    "batch_suffix": "",
-    "field_delimiter": ",",
-    "field_names": [
-      "RayID",
-      "ClientIP",
-      "EdgeStartTimestamp"
-    ],
-    "output_type": "ndjson",
-    "record_delimiter": "",
-    "record_prefix": "{",
-    "record_suffix": "}\n",
-    "sample_rate": 1,
-    "timestamp_format": "unixnano"
-  },
-  "ownership_challenge": "00000000000000000000"
-}
-```
-
 
 ## Responses
 
@@ -86,7 +55,7 @@ Update Logpush job response.
 [logpush_logpush_job_response_single](../../../../../_components/schemas/logpush_logpush_job_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update Logpush job response failure.
 

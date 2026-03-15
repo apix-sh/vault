@@ -8,6 +8,6 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `errors` | Yes | any |  |
+| `errors` | Yes | allOf(1) |  |
 | `messages` | Yes | [aaa_messages](aaa_messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful |

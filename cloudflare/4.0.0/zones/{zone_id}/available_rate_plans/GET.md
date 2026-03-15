@@ -13,7 +13,7 @@ Lists all rate plans the zone can subscribe to.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [bill-subs-api_identifier](../../../_components/schemas/bill-subs-api_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [bill-subs-api_identifier](../../../_components/schemas/bill-subs-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Available Rate Plans response
 [bill-subs-api_plan_response_collection](../../../_components/schemas/bill-subs-api_plan_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Available Rate Plans response failure
 

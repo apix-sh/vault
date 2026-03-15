@@ -13,7 +13,7 @@ List Peers.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [secondary-dns_account_identifier](../../../../_components/schemas/secondary-dns_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [secondary-dns_account_identifier](../../../../_components/schemas/secondary-dns_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Peers response.
 [secondary-dns_schemas-response_collection](../../../../_components/schemas/secondary-dns_schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Peers response failure.
 

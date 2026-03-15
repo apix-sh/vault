@@ -13,7 +13,7 @@ Remove a specific environment variable from a trigger
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `environment_variable_key` | Yes | [builds_environment_variable_key](../../../../../../../_components/schemas/builds_environment_variable_key.md) | *Serialization: style=Simple* |
+| `environment_variable_key` | Yes | [builds_environment_variable_key](../../../../../../../_components/schemas/builds_environment_variable_key.md) |  |
 
 
 ## Query Parameters

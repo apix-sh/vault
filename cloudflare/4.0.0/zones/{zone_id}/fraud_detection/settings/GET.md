@@ -13,7 +13,7 @@ Retrieve Fraud Detection settings for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [fraud_identifier](../../../../_components/schemas/fraud_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [fraud_identifier](../../../../_components/schemas/fraud_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Fraud Detection settings response
 [fraud_fraud_settings_response_body](../../../../_components/schemas/fraud_fraud_settings_response_body.md)
 
 
-### 4xx
+### 4XX
 
 Fraud Detection settings response failure
 

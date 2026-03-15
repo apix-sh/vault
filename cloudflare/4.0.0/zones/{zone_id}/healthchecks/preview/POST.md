@@ -13,7 +13,7 @@ Create a new preview health check.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [healthchecks_identifier](../../../../_components/schemas/healthchecks_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [healthchecks_identifier](../../../../_components/schemas/healthchecks_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Preview Health Check response.
 [healthchecks_single_response](../../../../_components/schemas/healthchecks_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Preview Health Check response failure.
 

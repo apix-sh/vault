@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Initialize new SSO connector response
 [iam_sso_connector_response](../../../_components/schemas/iam_sso_connector_response.md)
 
 
-### 4xx
+### 4XX
 
 Initialize new SSO connector response failure
 

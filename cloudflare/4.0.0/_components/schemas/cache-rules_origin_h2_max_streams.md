@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # cache-rules_origin_h2_max_streams
@@ -11,3 +11,7 @@ Origin H2 Max Streams configures the max number of concurrent requests that Clou
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | string | Identifier of the zone setting. |
+| `modified_on` | No | string | Last time this setting was modified. |
+| `id` | No | string | Value of the zone setting. Allowed values: origin_h2_max_streams |
+| `value` | No | [cache-rules_origin_h2_max_streams_value](cache-rules_origin_h2_max_streams_value.md) |  |

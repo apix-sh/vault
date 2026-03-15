@@ -13,7 +13,7 @@ Lists Apps associated with an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Apps response
 [magic_apps_collection_response](../../../../_components/schemas/magic_apps_collection_response.md)
 
 
-### 4xx
+### 4XX
 
 List Apps response failure
 

@@ -13,8 +13,8 @@ Deletes the specified Vectorize Index.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [vectorize_identifier](../../../../../../_components/schemas/vectorize_identifier.md) | *Serialization: style=Simple* |
-| `index_name` | Yes | [vectorize_index-name](../../../../../../_components/schemas/vectorize_index-name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [vectorize_identifier](../../../../../../_components/schemas/vectorize_identifier.md) |  |
+| `index_name` | Yes | [vectorize_index-name](../../../../../../_components/schemas/vectorize_index-name.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete Vectorize Index Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete Vectorize Index Failure
 

@@ -13,8 +13,8 @@ Update a specific Site.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `site_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `site_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update Site response
 [magic_site_modified_response](../../../../../_components/schemas/magic_site_modified_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Site response failure
 

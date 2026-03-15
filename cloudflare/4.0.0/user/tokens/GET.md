@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `direction` | No | string |  |
 
 
 
@@ -39,7 +39,7 @@ List Tokens response
 [iam_collection_tokens_response](../../_components/schemas/iam_collection_tokens_response.md)
 
 
-### 4xx
+### 4XX
 
 List Tokens response failure
 

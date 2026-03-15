@@ -11,10 +11,10 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mconn_account_id](../../../../../../../../_components/schemas/mconn_account_id.md) | *Serialization: style=Simple* |
-| `connector_id` | Yes | string | *Serialization: style=Simple* |
-| `event_t` | Yes | number | *Serialization: style=Simple* |
-| `event_n` | Yes | number | *Serialization: style=Simple* |
+| `account_id` | Yes | [mconn_account_id](../../../../../../../../_components/schemas/mconn_account_id.md) |  |
+| `connector_id` | Yes | string |  |
+| `event_t` | Yes | number |  |
+| `event_n` | Yes | number |  |
 
 
 ## Query Parameters

@@ -13,8 +13,8 @@ Deletes the mTLS certificate unless the certificate is in use by one or more Clo
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `mtls_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `mtls_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `account_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete mTLS certificate response
 [tls-certificates-and-hostnames_mtls-management_components-schemas-certificate_response_single](../../../../_components/schemas/tls-certificates-and-hostnames_mtls-management_components-schemas-certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Delete mTLS certificate response failure
 

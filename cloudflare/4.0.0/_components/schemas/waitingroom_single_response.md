@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # waitingroom_single_response
@@ -8,3 +8,5 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `result` | No | oneOf(2) |  |
+| `result` | No | [waitingroom_waitingroom](waitingroom_waitingroom.md) |  |

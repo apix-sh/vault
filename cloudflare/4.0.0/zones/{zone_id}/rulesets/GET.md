@@ -13,15 +13,15 @@ Fetches all rulesets at the zone level.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [rulesets_ZoneId](../../../_components/schemas/rulesets_ZoneId.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [rulesets_ZoneId](../../../_components/schemas/rulesets_ZoneId.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `cursor` | No | [rulesets_Cursor](../../../_components/schemas/rulesets_Cursor.md) | *Serialization: style=Form* |
-| `per_page` | No | [rulesets_PerPage](../../../_components/schemas/rulesets_PerPage.md) | *Serialization: style=Form* |
+| `cursor` | No | [rulesets_Cursor](../../../_components/schemas/rulesets_Cursor.md) |  |
+| `per_page` | No | [rulesets_PerPage](../../../_components/schemas/rulesets_PerPage.md) |  |
 
 
 
@@ -36,7 +36,7 @@ _(None)_
 
 Reference: [rulesets_Rulesets](../../../_components/responses/rulesets_Rulesets.md)
 
-### 4xx
+### 4XX
 
 Reference: [rulesets_Failure](../../../_components/responses/rulesets_Failure.md)
 

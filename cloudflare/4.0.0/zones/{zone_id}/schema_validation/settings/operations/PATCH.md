@@ -33,7 +33,7 @@ _(None)_
 
 Reference: [api-shield_per_operation_settings_bulk_edit_success](../../../../../_components/responses/api-shield_per_operation_settings_bulk_edit_success.md)
 
-### 4xx
+### 4XX
 
 Reference: [api-shield_generic_failure](../../../../../_components/responses/api-shield_generic_failure.md)
 

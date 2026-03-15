@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(1)"
 ---
 
 # public-ip_api-response-single
@@ -8,3 +8,6 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `errors` | Yes | [public-ip_messages](public-ip_messages.md) |  |
+| `messages` | Yes | [public-ip_messages](public-ip_messages.md) |  |
+| `success` | Yes | boolean | Whether the API call was successful. |

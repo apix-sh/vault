@@ -15,15 +15,15 @@ Bookmarks can be used with the restore endpoint to revert the database to a prev
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [d1_account-identifier](../../../../../../../_components/schemas/d1_account-identifier.md) | *Serialization: style=Simple* |
-| `database_id` | Yes | [d1_database-identifier](../../../../../../../_components/schemas/d1_database-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [d1_account-identifier](../../../../../../../_components/schemas/d1_account-identifier.md) |  |
+| `database_id` | Yes | [d1_database-identifier](../../../../../../../_components/schemas/d1_database-identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `timestamp` | No | [d1_time-travel-timestamp](../../../../../../../_components/schemas/d1_time-travel-timestamp.md) | An optional ISO 8601 timestamp. If provided, returns the nearest available bookmark at or before this timestamp. If omitted, returns the current bookmark.<br/>*Serialization: style=Form* |
+| `timestamp` | No | [d1_time-travel-timestamp](../../../../../../../_components/schemas/d1_time-travel-timestamp.md) | An optional ISO 8601 timestamp. If provided, returns the nearest available bookmark at or before this timestamp. If omitted, returns the current bookmark. |
 
 
 
@@ -42,7 +42,7 @@ Bookmark retrieved successfully
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to retrieve bookmark
 

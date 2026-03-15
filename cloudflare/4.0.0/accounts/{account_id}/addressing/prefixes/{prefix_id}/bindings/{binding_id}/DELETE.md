@@ -13,9 +13,9 @@ Delete a Service Binding
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `binding_id` | Yes | [addressing_service_binding_identifier](../../../../../../../_components/schemas/addressing_service_binding_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `binding_id` | Yes | [addressing_service_binding_identifier](../../../../../../../_components/schemas/addressing_service_binding_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Service Binding deleted
 [addressing_api-response-common](../../../../../../../_components/schemas/addressing_api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Delete Service Binding response failure
 

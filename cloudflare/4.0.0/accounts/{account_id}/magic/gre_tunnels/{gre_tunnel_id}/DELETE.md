@@ -13,8 +13,8 @@ Disables and removes a specific static GRE tunnel. Use `?validate_only=true` as 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `gre_tunnel_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `gre_tunnel_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -25,8 +25,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the response body will be presented using the new object format. Defaults to false.<br/>*Serialization: style=Simple* |
+| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the response body will be presented using the new object format. Defaults to false. |
 
 
 ## Request Body
@@ -47,7 +46,7 @@ Delete GRE Tunnel response
 [magic_tunnel_deleted_response](../../../../../_components/schemas/magic_tunnel_deleted_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete GRE Tunnel response failure
 

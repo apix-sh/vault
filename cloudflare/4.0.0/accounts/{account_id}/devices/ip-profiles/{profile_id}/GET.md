@@ -13,8 +13,8 @@ Fetches a single WARP Device IP profile.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `profile_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `profile_id` | Yes | string |  |
 
 
 ## Query Parameters

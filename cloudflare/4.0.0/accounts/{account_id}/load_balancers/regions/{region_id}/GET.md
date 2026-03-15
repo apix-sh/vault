@@ -13,8 +13,8 @@ Get a single region mapping.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `region_id` | Yes | [load-balancing_region_code](../../../../../_components/schemas/load-balancing_region_code.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `region_id` | Yes | [load-balancing_region_code](../../../../../_components/schemas/load-balancing_region_code.md) |  |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get Region response.
 [load-balancing_components-schemas-single_response](../../../../../_components/schemas/load-balancing_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Region response failure.
 

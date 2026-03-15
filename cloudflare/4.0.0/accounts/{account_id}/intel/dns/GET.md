@@ -13,17 +13,17 @@ Gets a list of all the domains that have resolved to a specific IP address.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `start_end_params` | No | [intel_start_end_params](../../../../_components/schemas/intel_start_end_params.md) | *Serialization: style=Form* |
-| `ipv4` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
+| `start_end_params` | No | [intel_start_end_params](../../../../_components/schemas/intel_start_end_params.md) |  |
+| `ipv4` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
 
 
 
@@ -42,7 +42,7 @@ Get Passive DNS by IP response.
 [intel_components-schemas-single_response](../../../../_components/schemas/intel_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Passive DNS by IP response failure.
 

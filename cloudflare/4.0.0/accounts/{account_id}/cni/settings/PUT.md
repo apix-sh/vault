@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account tag to update settings for<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account tag to update settings for |
 
 
 ## Query Parameters

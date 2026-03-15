@@ -13,8 +13,8 @@ Deletes signing keys and revokes all signed URLs generated with the key.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete signing keys response.
 [stream_deleted_response](../../../../../_components/schemas/stream_deleted_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete signing keys response failure.
 

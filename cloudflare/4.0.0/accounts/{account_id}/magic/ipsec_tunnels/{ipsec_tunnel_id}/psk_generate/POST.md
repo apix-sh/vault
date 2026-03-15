@@ -13,8 +13,8 @@ Generates a Pre Shared Key for a specific IPsec tunnel used in the IKE session. 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ipsec_tunnel_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `ipsec_tunnel_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Generate Pre Shared Key (PSK) for IPsec tunnels response
 [magic_psk_generation_response](../../../../../../_components/schemas/magic_psk_generation_response.md)
 
 
-### 4xx
+### 4XX
 
 Generate Pre Shared Key (PSK) for IPsec tunnels response failure
 

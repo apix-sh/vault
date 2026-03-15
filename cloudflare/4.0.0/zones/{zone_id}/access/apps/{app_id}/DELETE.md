@@ -13,8 +13,8 @@ Deletes an application from Access.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [access_app_id](../../../../../_components/schemas/access_app_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [access_app_id](../../../../../_components/schemas/access_app_id.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete an Access application response
 [access_id_response](../../../../../_components/schemas/access_id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete an Access application response failure
 

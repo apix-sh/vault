@@ -13,7 +13,7 @@ Fetch the latest pool health status for a single pool.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../../_components/schemas/load-balancing_schemas-identifier.md) | *Serialization: style=Simple* |
+| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../../_components/schemas/load-balancing_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Pool Health Details response.
 [load-balancing_health_details](../../../../../_components/schemas/load-balancing_health_details.md)
 
 
-### 4xx
+### 4XX
 
 Pool Health Details response failure.
 

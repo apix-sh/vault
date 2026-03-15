@@ -13,8 +13,8 @@ Deletes all versions of an existing zone ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ruleset_id` | Yes | [rulesets_RulesetId](../../../../_components/schemas/rulesets_RulesetId.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [rulesets_ZoneId](../../../../_components/schemas/rulesets_ZoneId.md) | *Serialization: style=Simple* |
+| `ruleset_id` | Yes | [rulesets_RulesetId](../../../../_components/schemas/rulesets_RulesetId.md) |  |
+| `zone_id` | Yes | [rulesets_ZoneId](../../../../_components/schemas/rulesets_ZoneId.md) |  |
 
 
 ## Query Parameters
@@ -34,7 +34,7 @@ _(None)_
 
 Reference: [rulesets_Empty](../../../../_components/responses/rulesets_Empty.md)
 
-### 4xx
+### 4XX
 
 Reference: [rulesets_Failure](../../../../_components/responses/rulesets_Failure.md)
 

@@ -13,7 +13,7 @@ Sends AXFR zone transfer request to primary nameserver(s).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [secondary-dns_identifier](../../../../_components/schemas/secondary-dns_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [secondary-dns_identifier](../../../../_components/schemas/secondary-dns_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Force AXFR response.
 [secondary-dns_force_response](../../../../_components/schemas/secondary-dns_force_response.md)
 
 
-### 4xx
+### 4XX
 
 Force AXFR response failure.
 

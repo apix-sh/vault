@@ -13,8 +13,8 @@ Retrieve a single membership from an Organization. (Currently in Closed Beta - s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [organizations-api_OrganizationID](../../../../_components/schemas/organizations-api_OrganizationID.md) | *Serialization: style=Simple* |
-| `member_id` | Yes | [organizations-api_MemberID](../../../../_components/schemas/organizations-api_MemberID.md) | *Serialization: style=Simple* |
+| `organization_id` | Yes | [organizations-api_OrganizationID](../../../../_components/schemas/organizations-api_OrganizationID.md) |  |
+| `member_id` | Yes | [organizations-api_MemberID](../../../../_components/schemas/organizations-api_MemberID.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ The request has succeeded.
 | `success` | Yes | boolean |  |
 
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

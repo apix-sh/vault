@@ -13,7 +13,7 @@ Creates and returns a new Vectorize Index.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [vectorize_identifier](../../../../_components/schemas/vectorize_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [vectorize_identifier](../../../../_components/schemas/vectorize_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Vectorize Index Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create Vectorize Index Failure Response
 

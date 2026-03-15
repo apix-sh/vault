@@ -13,7 +13,7 @@ Gets latest Zaraz configuration for a zone. It can be preview or published confi
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Zaraz configuration response
 [zaraz_zaraz-config-response](../../../../../_components/schemas/zaraz_zaraz-config-response.md)
 
 
-### 4xx
+### 4XX
 
 Get Zaraz configuration response failure
 

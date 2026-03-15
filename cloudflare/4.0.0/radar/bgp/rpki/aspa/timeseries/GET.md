@@ -18,12 +18,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `dateStart` | No | string | Start of the date range (inclusive).<br/>*Serialization: style=Form* |
-| `dateEnd` | No | string | End of the date range (inclusive).<br/>*Serialization: style=Form* |
-| `name` | No | array<string> | Array of names used to label the series in the response.<br/>*Serialization: style=Form* |
-| `rir` | No | array<string> | Filter by Regional Internet Registry (RIR). Multiple RIRs generate multiple series.<br/>*Serialization: style=Form* |
-| `location` | No | array<string> | Filters results by location. Specify a comma-separated list of alpha-2 location codes.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `dateStart` | No | string | Start of the date range (inclusive). |
+| `dateEnd` | No | string | End of the date range (inclusive). |
+| `name` | No | array<string> | Array of names used to label the series in the response. |
+| `rir` | No | array<string> | Filter by Regional Internet Registry (RIR). Multiple RIRs generate multiple series. |
+| `location` | No | array<string> | Filters results by location. Specify a comma-separated list of alpha-2 location codes. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

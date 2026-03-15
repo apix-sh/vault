@@ -13,7 +13,7 @@ Lists all service tokens.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List service tokens response
 [access_service-tokens_components-schemas-response_collection](../../../../_components/schemas/access_service-tokens_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List service tokens response failure
 

@@ -22,7 +22,7 @@ _(None)_
 | `Reference` | N/A | [api-shield_page](../../../../_components/parameters/api-shield_page.md) |  |
 | `Reference` | N/A | [api-shield_per_page](../../../../_components/parameters/api-shield_per_page.md) |  |
 | `Reference` | N/A | [api-shield_old_omit_source](../../../../_components/parameters/api-shield_old_omit_source.md) |  |
-| `validation_enabled` | No | [api-shield_old_validation_enabled](../../../../_components/schemas/api-shield_old_validation_enabled.md) | *Serialization: style=Form* |
+| `validation_enabled` | No | [api-shield_old_validation_enabled](../../../../_components/schemas/api-shield_old_validation_enabled.md) |  |
 
 
 
@@ -41,7 +41,7 @@ Retrieve information about all schemas on a zone response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Retrieve information about all schemas on a zone response failure
 

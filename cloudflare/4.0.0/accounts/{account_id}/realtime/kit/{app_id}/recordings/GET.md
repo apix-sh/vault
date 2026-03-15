@@ -13,18 +13,18 @@ Returns all recordings for an App. If the `meeting_id` parameter is passed, retu
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../_components/schemas/realtimekit_app_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `meeting_id` | No | string | ID of a meeting. Optional. Will limit results to only this meeting if passed.<br/>*Serialization: style=Form* |
+| `meeting_id` | No | string | ID of a meeting. Optional. Will limit results to only this meeting if passed. |
 | `Reference` | N/A | [realtimekit_pageNo](../../../../../../_components/parameters/realtimekit_pageNo.md) |  |
 | `Reference` | N/A | [realtimekit_perPage](../../../../../../_components/parameters/realtimekit_perPage.md) |  |
-| `expired` | No | boolean | If passed, only shows expired/non-expired recordings on RealtimeKit's bucket<br/>*Serialization: style=Form* |
+| `expired` | No | boolean | If passed, only shows expired/non-expired recordings on RealtimeKit's bucket |
 | `Reference` | N/A | [realtimekit_search](../../../../../../_components/parameters/realtimekit_search.md) |  |
 | `Reference` | N/A | [realtimekit_recordingSortBy](../../../../../../_components/parameters/realtimekit_recordingSortBy.md) |  |
 | `Reference` | N/A | [realtimekit_sortOrder](../../../../../../_components/parameters/realtimekit_sortOrder.md) |  |

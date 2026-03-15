@@ -13,8 +13,8 @@ Get application category by ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `accountId` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `id` | Yes | string | Application category ID.<br/>*Serialization: style=Simple* |
+| `accountId` | Yes | string | Account ID. |
+| `id` | Yes | string | Application category ID. |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get application category by id response.
 [alexandria_get_category_response](../../../../../_components/schemas/alexandria_get_category_response.md)
 
 
-### 4xx
+### 4XX
 
 Get application category by id response failure.
 

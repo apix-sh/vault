@@ -13,16 +13,16 @@ Lists all Web Analytics sites of an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [rum_identifier](../../../../../_components/schemas/rum_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [rum_identifier](../../../../../_components/schemas/rum_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `per_page` | No | [rum_per_page](../../../../../_components/schemas/rum_per_page.md) | *Serialization: style=Form* |
-| `page` | No | [rum_page](../../../../../_components/schemas/rum_page.md) | *Serialization: style=Form* |
-| `order_by` | No | [rum_order_by](../../../../../_components/schemas/rum_order_by.md) | *Serialization: style=Form* |
+| `per_page` | No | [rum_per_page](../../../../../_components/schemas/rum_per_page.md) |  |
+| `page` | No | [rum_page](../../../../../_components/schemas/rum_page.md) |  |
+| `order_by` | No | [rum_order_by](../../../../../_components/schemas/rum_order_by.md) |  |
 
 
 
@@ -41,7 +41,7 @@ List of Web Analytics sites.
 [rum_sites-response-collection](../../../../../_components/schemas/rum_sites-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

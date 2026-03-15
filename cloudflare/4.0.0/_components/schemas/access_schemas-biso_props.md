@@ -14,3 +14,6 @@ type: "allOf(2)"
 | `name` | No | [access_apps_components-schemas-name](access_apps_components-schemas-name.md) |  |
 | `session_duration` | No | [access_apps_components-schemas-session_duration](access_apps_components-schemas-session_duration.md) |  |
 | `type` | Yes | [access_components-schemas-type](access_components-schemas-type.md) |  |
+| `domain` | No | any |  |
+| `name` | No | any |  |
+| `type` | No | string | The application type. |

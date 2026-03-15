@@ -11,18 +11,18 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `gateway_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `gateway_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `order_by` | No | string | *Serialization: style=Form* |
-| `order_by_direction` | No | string | *Serialization: style=Form* |
-| `filters` | No | array<object> | *Serialization: style=Form* |
-| `limit` | No | integer | *Serialization: style=Form* |
+| `order_by` | No | string |  |
+| `order_by_direction` | No | string |  |
+| `filters` | No | array<object> |  |
+| `limit` | No | integer |  |
 
 
 

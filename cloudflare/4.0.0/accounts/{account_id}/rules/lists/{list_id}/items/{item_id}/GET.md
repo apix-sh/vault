@@ -13,9 +13,9 @@ Fetches a list item in the list.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `item_id` | Yes | [lists_item_id](../../../../../../../_components/schemas/lists_item_id.md) | *Serialization: style=Simple* |
-| `list_id` | Yes | [lists_list_id](../../../../../../../_components/schemas/lists_list_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [lists_account_id](../../../../../../../_components/schemas/lists_account_id.md) | *Serialization: style=Simple* |
+| `item_id` | Yes | [lists_item_id](../../../../../../../_components/schemas/lists_item_id.md) |  |
+| `list_id` | Yes | [lists_list_id](../../../../../../../_components/schemas/lists_list_id.md) |  |
+| `account_id` | Yes | [lists_account_id](../../../../../../../_components/schemas/lists_account_id.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Get a list item response.
 [lists_item-response-single](../../../../../../../_components/schemas/lists_item-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Get a list item response failure.
 

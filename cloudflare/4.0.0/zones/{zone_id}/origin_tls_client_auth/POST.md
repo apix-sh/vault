@@ -13,7 +13,7 @@ Upload your own certificate you want Cloudflare to use for edge-to-origin commun
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Upload Certificate response
 [tls-certificates-and-hostnames_components-schemas-certificate_response_single](../../../_components/schemas/tls-certificates-and-hostnames_components-schemas-certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Upload Certificate response failure
 

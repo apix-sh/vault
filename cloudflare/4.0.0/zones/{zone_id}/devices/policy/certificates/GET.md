@@ -13,7 +13,7 @@ Fetches device certificate provisioning.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get WARP client provision certificates enabled status response.
 [teams-devices_devices_policy_certificates_single](../../../../../_components/schemas/teams-devices_devices_policy_certificates_single.md)
 
 
-### 4xx
+### 4XX
 
 Get WARP client provision certificates enabled status failure.
 

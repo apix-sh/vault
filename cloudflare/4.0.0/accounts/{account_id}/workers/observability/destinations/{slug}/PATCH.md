@@ -1,6 +1,7 @@
 ---
 method: "PATCH"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/workers/observability/destinations/{slug}"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,8 +13,8 @@ Update an existing Workers Observability Telemetry Destination.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Your Cloudflare account ID.<br/>*Serialization: style=Simple* |
-| `slug` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string | Your Cloudflare account ID. |
+| `slug` | Yes | string |  |
 
 
 ## Query Parameters

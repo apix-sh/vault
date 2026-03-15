@@ -13,8 +13,8 @@ Modifies a namespace's title.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../_components/schemas/workers-kv_namespace_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../_components/schemas/workers-kv_namespace_identifier.md) |  |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Rename a Namespace response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Rename a Namespace response failure.
 

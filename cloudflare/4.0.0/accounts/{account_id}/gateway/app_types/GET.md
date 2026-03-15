@@ -13,7 +13,7 @@ List all application and application type mappings.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_components-schemas-identifier](../../../../_components/schemas/zero-trust-gateway_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_components-schemas-identifier](../../../../_components/schemas/zero-trust-gateway_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List application and application type mappings response.
 [zero-trust-gateway_app-types_components-schemas-response_collection](../../../../_components/schemas/zero-trust-gateway_app-types_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List application and application type mappings response failure.
 

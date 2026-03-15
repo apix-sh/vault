@@ -13,15 +13,15 @@ Fetch a list of scripts uploaded to a Workers for Platforms namespace.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tags` | No | string | Filter scripts by tags. Format: comma-separated list of tag:allowed pairs where allowed is 'yes' or 'no'.<br/>*Serialization: style=Form* |
+| `tags` | No | string | Filter scripts by tags. Format: comma-separated list of tag:allowed pairs where allowed is 'yes' or 'no'. |
 
 
 
@@ -40,7 +40,7 @@ List scripts in namespace response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List scripts in namespace response failure.
 

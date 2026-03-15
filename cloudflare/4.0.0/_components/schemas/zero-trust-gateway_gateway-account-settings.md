@@ -11,3 +11,4 @@ Specify account settings.
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `settings` | No | object | Specify account settings. |

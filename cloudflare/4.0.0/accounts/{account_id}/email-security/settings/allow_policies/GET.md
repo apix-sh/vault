@@ -13,30 +13,27 @@ Lists, searches, and sorts an account’s email allow policies.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../_components/schemas/email-security_AccountId.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page number of paginated results.<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | The number of results per page.<br/>*Serialization: style=Form* |
-| `order` | No | string | The field to sort by.<br/>*Serialization: style=Form* |
-| `direction` | No | allOf(1) | The sorting direction.<br/>*Serialization: style=Form* |
-| `search` | No | string | Allows searching in multiple properties of a record simultaneously.
-This parameter is intended for human users, not automation. Its exact
-behavior is intentionally left unspecified and is subject to change
-in the future.<br/>*Serialization: style=Form* |
-| `is_sender` | No | boolean | *Serialization: style=Form* |
-| `is_trusted_sender` | No | boolean | *Serialization: style=Form* |
-| `is_recipient` | No | boolean | *Serialization: style=Form* |
-| `is_exempt_recipient` | No | boolean | *Serialization: style=Form* |
-| `is_spoof` | No | boolean | *Serialization: style=Form* |
-| `is_acceptable_sender` | No | boolean | *Serialization: style=Form* |
-| `verify_sender` | No | boolean | *Serialization: style=Form* |
-| `pattern_type` | No | allOf(1) | *Serialization: style=Form* |
-| `pattern` | No | string | *Serialization: style=Form* |
+| `page` | No | integer | The page number of paginated results. |
+| `per_page` | No | integer | The number of results per page. |
+| `order` | No | string | The field to sort by. |
+| `direction` | No | allOf(1) | The sorting direction. |
+| `search` | No | string | Allows searching in multiple properties of a record simultaneously.<br/>This parameter is intended for human users, not automation. Its exact<br/>behavior is intentionally left unspecified and is subject to change<br/>in the future. |
+| `is_sender` | No | boolean |  |
+| `is_trusted_sender` | No | boolean |  |
+| `is_recipient` | No | boolean |  |
+| `is_exempt_recipient` | No | boolean |  |
+| `is_spoof` | No | boolean |  |
+| `is_acceptable_sender` | No | boolean |  |
+| `verify_sender` | No | boolean |  |
+| `pattern_type` | No | allOf(1) |  |
+| `pattern` | No | string |  |
 
 
 
@@ -55,7 +52,7 @@ Contains a list of allow policies for the account.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../_components/responses/email-security_ClientError.md)
 

@@ -13,7 +13,7 @@ Creates an account subscription.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [bill-subs-api_identifier](../../../_components/schemas/bill-subs-api_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [bill-subs-api_identifier](../../../_components/schemas/bill-subs-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Subscription response
 [bill-subs-api_account_subscription_response_single](../../../_components/schemas/bill-subs-api_account_subscription_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create Subscription response failure
 

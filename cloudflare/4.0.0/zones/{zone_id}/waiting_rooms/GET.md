@@ -13,7 +13,7 @@ Lists waiting rooms for zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waitingroom_identifier](../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waitingroom_identifier](../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ List waiting rooms for zone response
 [waitingroom_response_collection](../../../_components/schemas/waitingroom_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List waiting rooms for zone response failure
 

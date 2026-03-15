@@ -37,7 +37,7 @@ Retrieve discovered operations on a zone, rendered as OpenAPI schemas response
 [api-shield_schema_response_discovery](../../../../_components/schemas/api-shield_schema_response_discovery.md)
 
 
-### 4xx
+### 4XX
 
 Retrieve discovered operations on a zone, rendered as OpenAPI schemas response failure
 

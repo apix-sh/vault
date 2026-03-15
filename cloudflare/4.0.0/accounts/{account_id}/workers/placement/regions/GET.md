@@ -13,7 +13,7 @@ Returns a list of available placement regions organized by cloud provider. These
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Placement Regions response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Placement Regions response failure.
 

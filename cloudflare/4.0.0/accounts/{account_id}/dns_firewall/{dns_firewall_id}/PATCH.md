@@ -13,8 +13,8 @@ Modify the configuration of a DNS Firewall cluster
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `dns_firewall_id` | Yes | [dns-firewall_identifier](../../../../_components/schemas/dns-firewall_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [dns-firewall_identifier](../../../../_components/schemas/dns-firewall_identifier.md) | *Serialization: style=Simple* |
+| `dns_firewall_id` | Yes | [dns-firewall_identifier](../../../../_components/schemas/dns-firewall_identifier.md) |  |
+| `account_id` | Yes | [dns-firewall_identifier](../../../../_components/schemas/dns-firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update DNS Firewall Cluster response
 [dns-firewall_dns_firewall_single_response](../../../../_components/schemas/dns-firewall_dns_firewall_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update DNS Firewall Cluster response failure
 

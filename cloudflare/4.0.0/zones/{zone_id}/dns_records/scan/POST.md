@@ -13,7 +13,7 @@ Scan for common DNS records on your domain and automatically add them to your zo
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Scan DNS Records response
 [dns-records_dns_response_import_scan](../../../../_components/schemas/dns-records_dns_response_import_scan.md)
 
 
-### 4xx
+### 4XX
 
 Scan DNS Records response failure
 

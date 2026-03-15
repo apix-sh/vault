@@ -18,11 +18,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `prefix` | No | string | *Serialization: style=Form* |
-| `origin` | No | integer | Lookup prefixes originated by the given ASN.<br/>*Serialization: style=Form* |
-| `rpkiStatus` | No | string | Return only results with matching rpki status: valid, invalid or unknown.<br/>*Serialization: style=Form* |
-| `longestPrefixMatch` | No | boolean | Return only results with the longest prefix match for the given prefix. For example, specify a /32 prefix to lookup the origin ASN for an IPv4 address.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `prefix` | No | string |  |
+| `origin` | No | integer | Lookup prefixes originated by the given ASN. |
+| `rpkiStatus` | No | string | Return only results with matching rpki status: valid, invalid or unknown. |
+| `longestPrefixMatch` | No | boolean | Return only results with the longest prefix match for the given prefix. For example, specify a /32 prefix to lookup the origin ASN for an IPv4 address. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

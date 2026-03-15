@@ -13,8 +13,8 @@ Removes a client certificate used for zone-level authenticated origin pulls.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Certificate response
 [tls-certificates-and-hostnames_components-schemas-certificate_response_single](../../../../_components/schemas/tls-certificates-and-hostnames_components-schemas-certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Delete Certificate response failure
 

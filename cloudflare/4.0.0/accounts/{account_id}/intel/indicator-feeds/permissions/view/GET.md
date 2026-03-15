@@ -13,7 +13,7 @@ Lists current access permissions for custom threat indicator feeds.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../../../_components/schemas/custom-indicator-feeds_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../../../_components/schemas/custom-indicator-feeds_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get indicator feed metadata
 [custom-indicator-feeds_permission_list_item_response](../../../../../../_components/schemas/custom-indicator-feeds_permission_list_item_response.md)
 
 
-### 4xx
+### 4XX
 
 Get indicator feeds response failure
 

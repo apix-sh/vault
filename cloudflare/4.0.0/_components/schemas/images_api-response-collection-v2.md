@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # images_api-response-collection-v2
@@ -8,3 +8,8 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `errors` | Yes | [images_messages](images_messages.md) |  |
+| `messages` | Yes | [images_messages](images_messages.md) |  |
+| `result` | Yes | anyOf(3) |  |
+| `success` | Yes | boolean | Whether the API call was successful |
+| `result` | No | object |  |

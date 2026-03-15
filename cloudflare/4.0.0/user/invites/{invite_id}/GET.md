@@ -13,7 +13,7 @@ Gets the details of an invitation.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `invite_id` | Yes | [iam_invite_components-schemas-identifier](../../../_components/schemas/iam_invite_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `invite_id` | Yes | [iam_invite_components-schemas-identifier](../../../_components/schemas/iam_invite_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Invitation Details response
 [iam_single_invite_response](../../../_components/schemas/iam_single_invite_response.md)
 
 
-### 4xx
+### 4XX
 
 Invitation Details response failure
 

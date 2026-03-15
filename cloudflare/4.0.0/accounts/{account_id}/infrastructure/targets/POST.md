@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [infra_AccountTag](../../../../_components/schemas/infra_AccountTag.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [infra_AccountTag](../../../../_components/schemas/infra_AccountTag.md) |  |
 
 
 ## Query Parameters
@@ -28,10 +28,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `hostname` | Yes | string | A non-unique field that refers to a target. Case insensitive, maximum
-length of 255 characters, supports the use of special characters dash
-and period, does not support spaces, and must start and end with an
-alphanumeric character. |
+| `hostname` | Yes | string | A non-unique field that refers to a target. Case insensitive, maximum<br/>length of 255 characters, supports the use of special characters dash<br/>and period, does not support spaces, and must start and end with an<br/>alphanumeric character. |
 | `ip` | Yes | [infra_IPInfo](../../../../_components/schemas/infra_IPInfo.md) |  |
 
 
@@ -45,7 +42,7 @@ Successfully created the target
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to create the target
 

@@ -17,7 +17,7 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [api-shield_zone_id](../../../../_components/parameters/api-shield_zone_id.md) |  |
-| `host` | No | array<string> | *Serialization: style=Form* |
+| `host` | No | array<string> |  |
 | `Reference` | N/A | [api-shield_operation_feature_parameter](../../../../_components/parameters/api-shield_operation_feature_parameter.md) |  |
 
 
@@ -37,7 +37,7 @@ Retrieve operations and features as OpenAPI schemas response
 [api-shield_schema-response-with-thresholds](../../../../_components/schemas/api-shield_schema-response-with-thresholds.md)
 
 
-### 4xx
+### 4XX
 
 Retrieve operations and features as OpenAPI schemas response failure
 

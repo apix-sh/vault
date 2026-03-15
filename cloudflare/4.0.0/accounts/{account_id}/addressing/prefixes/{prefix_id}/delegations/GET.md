@@ -13,8 +13,8 @@ List all delegations for a given account IP prefix.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List Prefix Delegations response
 [addressing_schemas-response_collection](../../../../../../_components/schemas/addressing_schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Prefix Delegations response failure
 

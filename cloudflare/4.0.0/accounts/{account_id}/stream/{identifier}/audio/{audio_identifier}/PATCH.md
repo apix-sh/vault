@@ -13,9 +13,9 @@ Edits additional audio tracks on a video. Editing the default status of an audio
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
-| `identifier` | Yes | [stream_identifier](../../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `audio_identifier` | Yes | [stream_audio_identifier](../../../../../../_components/schemas/stream_audio_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../../../_components/schemas/stream_account_identifier.md) |  |
+| `identifier` | Yes | [stream_identifier](../../../../../../_components/schemas/stream_identifier.md) |  |
+| `audio_identifier` | Yes | [stream_audio_identifier](../../../../../../_components/schemas/stream_audio_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Edits additional audio tracks on a video.
 [stream_addAudioTrackResponse](../../../../../../_components/schemas/stream_addAudioTrackResponse.md)
 
 
-### 4xx
+### 4XX
 
 Edits additional audio tracks on a video response failure.
 

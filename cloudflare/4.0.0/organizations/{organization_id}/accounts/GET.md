@@ -13,29 +13,23 @@ Retrieve a list of accounts that belong to a specific organization. (Currently i
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [organizations-api_OrganizationID](../../../_components/schemas/organizations-api_OrganizationID.md) | The ID of the organization to retrieve a list of accounts for.<br/>*Serialization: style=Simple* |
+| `organization_id` | Yes | [organizations-api_OrganizationID](../../../_components/schemas/organizations-api_OrganizationID.md) | The ID of the organization to retrieve a list of accounts for. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_pubname` | No | string | (case-insensitive) Filter the list of accounts to where the account_pubname is equal to
-a particular string.<br/>*Serialization: style=Form, explode=false* |
-| `account_pubname.startsWith` | No | string | (case-insensitive) Filter the list of accounts to where the account_pubname starts with
-a particular string.<br/>*Serialization: style=Form, explode=false* |
-| `account_pubname.endsWith` | No | string | (case-insensitive) Filter the list of accounts to where the account_pubname ends with
-a particular string.<br/>*Serialization: style=Form, explode=false* |
-| `account_pubname.contains` | No | string | (case-insensitive) Filter the list of accounts to where the account_pubname contains
-a particular string.<br/>*Serialization: style=Form, explode=false* |
-| `name` | No | string | (case-insensitive) Filter the list of accounts to where the name is equal to a
-particular string.<br/>*Serialization: style=Form, explode=false* |
-| `name.startsWith` | No | string | (case-insensitive) Filter the list of accounts to where the name starts with a
-particular string.<br/>*Serialization: style=Form, explode=false* |
-| `name.endsWith` | No | string | (case-insensitive) Filter the list of accounts to where the name ends with a particular
-string.<br/>*Serialization: style=Form, explode=false* |
-| `name.contains` | No | string | (case-insensitive) Filter the list of accounts to where the name contains a particular
-string.<br/>*Serialization: style=Form, explode=false* |
+| `account_pubname` | No | string | (case-insensitive) Filter the list of accounts to where the account_pubname is equal to<br/>a particular string.<br/>*Serialization: explode=false* |
+| `account_pubname.startsWith` | No | string | (case-insensitive) Filter the list of accounts to where the account_pubname starts with<br/>a particular string.<br/>*Serialization: explode=false* |
+| `account_pubname.endsWith` | No | string | (case-insensitive) Filter the list of accounts to where the account_pubname ends with<br/>a particular string.<br/>*Serialization: explode=false* |
+| `account_pubname.contains` | No | string | (case-insensitive) Filter the list of accounts to where the account_pubname contains<br/>a particular string.<br/>*Serialization: explode=false* |
+| `name` | No | string | (case-insensitive) Filter the list of accounts to where the name is equal to a<br/>particular string.<br/>*Serialization: explode=false* |
+| `name.startsWith` | No | string | (case-insensitive) Filter the list of accounts to where the name starts with a<br/>particular string.<br/>*Serialization: explode=false* |
+| `name.endsWith` | No | string | (case-insensitive) Filter the list of accounts to where the name ends with a particular<br/>string.<br/>*Serialization: explode=false* |
+| `name.contains` | No | string | (case-insensitive) Filter the list of accounts to where the name contains a particular<br/>string.<br/>*Serialization: explode=false* |
+| `order_by` | No | string | Field to order results by. Currently supported values: `account_name`.<br/>When not specified, results are ordered by internal account ID.<br/>*Serialization: explode=false* |
+| `direction` | No | string | Sort direction for the order_by field. Valid values: `asc`, `desc`.<br/>Defaults to `asc` when order_by is specified.<br/>*Serialization: explode=false* |
 | `Reference` | N/A | [organizations-api_PageTokenParamsPageToken](../../../_components/parameters/organizations-api_PageTokenParamsPageToken.md) |  |
 | `Reference` | N/A | [organizations-api_PageTokenParamsPageSize](../../../_components/parameters/organizations-api_PageTokenParamsPageSize.md) |  |
 
@@ -62,7 +56,7 @@ The request has succeeded.
 | `success` | Yes | boolean |  |
 
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

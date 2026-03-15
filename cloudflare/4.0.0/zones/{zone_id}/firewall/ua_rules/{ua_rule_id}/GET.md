@@ -13,8 +13,8 @@ Fetches the details of a User Agent Blocking rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ua_rule_id` | Yes | [firewall_components-ua-rule-id](../../../../../_components/schemas/firewall_components-ua-rule-id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `ua_rule_id` | Yes | [firewall_components-ua-rule-id](../../../../../_components/schemas/firewall_components-ua-rule-id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a User Agent Blocking rule response
 [firewall_firewalluablock_response_single](../../../../../_components/schemas/firewall_firewalluablock_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get a User Agent Blocking rule response failure
 

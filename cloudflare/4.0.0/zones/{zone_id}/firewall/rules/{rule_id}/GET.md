@@ -13,15 +13,15 @@ Fetches the details of a firewall rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_id` | Yes | [firewall_firewall-rules_components-schemas-id](../../../../../_components/schemas/firewall_firewall-rules_components-schemas-id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `rule_id` | Yes | [firewall_firewall-rules_components-schemas-id](../../../../../_components/schemas/firewall_firewall-rules_components-schemas-id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | No | allOf(1) | *Serialization: style=Form* |
+| `id` | No | allOf(1) |  |
 
 
 
@@ -40,7 +40,7 @@ Get a firewall rule response
 [firewall_filter-rules-single-response](../../../../../_components/schemas/firewall_filter-rules-single-response.md)
 
 
-### 4xx
+### 4XX
 
 Get a firewall rule response failure
 

@@ -13,7 +13,7 @@ List all Access Applications in a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Access Applications response
 [access_apps_components-schemas-response_collection-2](../../../../_components/schemas/access_apps_components-schemas-response_collection-2.md)
 
 
-### 4xx
+### 4XX
 
 List Access Applications response failure
 

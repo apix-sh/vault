@@ -33,7 +33,7 @@ _(None)_
 
 Reference: [api-shield_schema_create_success](../../../../_components/responses/api-shield_schema_create_success.md)
 
-### 4xx
+### 4XX
 
 Reference: [api-shield_schema_create_failure](../../../../_components/responses/api-shield_schema_create_failure.md)
 

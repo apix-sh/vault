@@ -13,21 +13,21 @@ Lists all instances of a workflow with their execution status.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `workflow_name` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `workflow_name` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | `page` and `cursor` are mutually exclusive, use one or the other.<br/>*Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `cursor` | No | string | `page` and `cursor` are mutually exclusive, use one or the other.<br/>*Serialization: style=Form* |
-| `direction` | No | string | should only be used when `cursor` is used, defines a new direction for the cursor<br/>*Serialization: style=Form* |
-| `status` | No | string | *Serialization: style=Form* |
-| `date_start` | No | string | Accepts ISO 8601 with no timezone offsets and in UTC.<br/>*Serialization: style=Form* |
-| `date_end` | No | string | Accepts ISO 8601 with no timezone offsets and in UTC.<br/>*Serialization: style=Form* |
+| `page` | No | number | `page` and `cursor` are mutually exclusive, use one or the other. |
+| `per_page` | No | number |  |
+| `cursor` | No | string | `page` and `cursor` are mutually exclusive, use one or the other. |
+| `direction` | No | string | should only be used when `cursor` is used, defines a new direction for the cursor |
+| `status` | No | string |  |
+| `date_start` | No | string | Accepts ISO 8601 with no timezone offsets and in UTC. |
+| `date_end` | No | string | Accepts ISO 8601 with no timezone offsets and in UTC. |
 
 
 
@@ -61,7 +61,7 @@ Input Validation Error.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 
@@ -74,7 +74,7 @@ Workflow Name not found.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 

@@ -13,8 +13,8 @@ Returns the raw response of the network request. Find the `response_id` in the `
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `response_id` | Yes | string | Response hash.<br/>*Serialization: style=Simple* |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `response_id` | Yes | string | Response hash. |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters

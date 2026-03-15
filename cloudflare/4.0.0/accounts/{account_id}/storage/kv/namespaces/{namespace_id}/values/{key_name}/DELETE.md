@@ -13,9 +13,9 @@ Remove a KV pair from the namespace. Use URL-encoding to use special characters 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key_name` | Yes | [workers-kv_key_name](../../../../../../../../_components/schemas/workers-kv_key_name.md) | *Serialization: style=Simple* |
-| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `key_name` | Yes | [workers-kv_key_name](../../../../../../../../_components/schemas/workers-kv_key_name.md) |  |
+| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) |  |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Delete key-value pair response.
 [workers-kv_api-response-common-no-result](../../../../../../../../_components/schemas/workers-kv_api-response-common-no-result.md)
 
 
-### 4xx
+### 4XX
 
 Delete key-value pair response failure.
 

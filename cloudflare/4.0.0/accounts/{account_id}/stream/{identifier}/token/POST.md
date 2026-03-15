@@ -13,8 +13,8 @@ Creates a signed URL token for a video. If a body is not provided in the request
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Create signed URL tokens for videos response.
 [stream_signed_token_response](../../../../../_components/schemas/stream_signed_token_response.md)
 
 
-### 4xx
+### 4XX
 
 Create signed URL tokens for videos response failure.
 

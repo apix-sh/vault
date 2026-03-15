@@ -13,8 +13,8 @@ Deletes buckets added to the packet captures API.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ownership_id` | Yes | [magic-visibility-pcaps_identifier](../../../../../_components/schemas/magic-visibility-pcaps_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic-visibility-pcaps_identifier](../../../../../_components/schemas/magic-visibility-pcaps_identifier.md) | *Serialization: style=Simple* |
+| `ownership_id` | Yes | [magic-visibility-pcaps_identifier](../../../../../_components/schemas/magic-visibility-pcaps_identifier.md) |  |
+| `account_id` | Yes | [magic-visibility-pcaps_identifier](../../../../../_components/schemas/magic-visibility-pcaps_identifier.md) |  |
 
 
 ## Query Parameters

@@ -13,7 +13,7 @@ Direct uploads allow users to upload images without API keys. A common use case 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create authenticated direct upload URL V2 response
 [images_image_direct_upload_response_v2](../../../../../_components/schemas/images_image_direct_upload_response_v2.md)
 
 
-### 4xx
+### 4XX
 
 Create authenticated direct upload URL V2 response failure
 

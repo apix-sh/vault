@@ -13,8 +13,8 @@ Gets an overview of the Autonomous System Number (ASN) and a list of subnets for
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `asn` | Yes | [intel_asn](../../../../../_components/schemas/intel_asn.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [intel_identifier](../../../../../_components/schemas/intel_identifier.md) | *Serialization: style=Simple* |
+| `asn` | Yes | [intel_asn](../../../../../_components/schemas/intel_asn.md) |  |
+| `account_id` | Yes | [intel_identifier](../../../../../_components/schemas/intel_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get ASN Overview response.
 [intel_asn_components-schemas-response](../../../../../_components/schemas/intel_asn_components-schemas-response.md)
 
 
-### 4xx
+### 4XX
 
 Get ASN Overview response failure.
 

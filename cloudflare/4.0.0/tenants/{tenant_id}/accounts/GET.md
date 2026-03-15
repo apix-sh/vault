@@ -13,7 +13,7 @@ List of accounts for the Tenant.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tenant_id` | Yes | string | *Serialization: style=Simple* |
+| `tenant_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ The request has succeeded.
 | `success` | Yes | boolean |  |
 
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

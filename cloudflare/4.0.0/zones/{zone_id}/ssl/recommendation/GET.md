@@ -13,7 +13,7 @@ Retrieve the SSL/TLS Recommender's recommendation for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache_identifier](../../../../_components/schemas/cache_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache_identifier](../../../../_components/schemas/cache_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ SSL/TLS Recommendation response.
 [cache_api-response-single-id](../../../../_components/schemas/cache_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 SSL/TLS Recommendation response failure.
 

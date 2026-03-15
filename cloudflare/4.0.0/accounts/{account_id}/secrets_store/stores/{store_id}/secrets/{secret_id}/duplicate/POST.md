@@ -13,9 +13,9 @@ Duplicates the secret, keeping the value
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [secrets-store_account_identifier](../../../../../../../../_components/schemas/secrets-store_account_identifier.md) | *Serialization: style=Simple* |
-| `store_id` | Yes | [secrets-store_store_identifier](../../../../../../../../_components/schemas/secrets-store_store_identifier.md) | *Serialization: style=Simple* |
-| `secret_id` | Yes | [secrets-store_identifier](../../../../../../../../_components/schemas/secrets-store_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [secrets-store_account_identifier](../../../../../../../../_components/schemas/secrets-store_account_identifier.md) |  |
+| `store_id` | Yes | [secrets-store_store_identifier](../../../../../../../../_components/schemas/secrets-store_store_identifier.md) |  |
+| `secret_id` | Yes | [secrets-store_identifier](../../../../../../../../_components/schemas/secrets-store_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ secret detail
 [secrets-store_secret_response](../../../../../../../../_components/schemas/secrets-store_secret_response.md)
 
 
-### 4xx
+### 4XX
 
 failure
 

@@ -13,8 +13,8 @@ Deletes a video and its copies from Cloudflare Stream.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_identifier](../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_identifier](../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Delete video response.
 
 No schema provided for `application/json`.
 
-### 4xx
+### 4XX
 
 Delete video response failure.
 

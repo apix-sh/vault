@@ -1,7 +1,6 @@
 ---
 method: "DELETE"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/zerotrust/subnets/warp/{subnet_id}"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,8 +12,8 @@ Delete a WARP IP assignment subnet. This operation is idempotent - deleting an a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_account_id](../../../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
-| `subnet_id` | Yes | [tunnel_subnet_id](../../../../../../_components/schemas/tunnel_subnet_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_account_id](../../../../../../_components/schemas/tunnel_account_id.md) |  |
+| `subnet_id` | Yes | [tunnel_subnet_id](../../../../../../_components/schemas/tunnel_subnet_id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +37,7 @@ Delete subnet response
 [tunnel_subnet_response_single_nullable](../../../../../../_components/schemas/tunnel_subnet_response_single_nullable.md)
 
 
-### 4xx
+### 4XX
 
 Delete subnet response failure
 

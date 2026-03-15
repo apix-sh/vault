@@ -13,16 +13,16 @@ Returns details of the given peer ID along with call statistics for the given se
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
-| `peer_id` | Yes | string | ID of the peer<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../_components/schemas/realtimekit_app_id.md) |  |
+| `peer_id` | Yes | string | ID of the peer |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `filters` | No | string | Comma separated list of filters to apply. Note that there must be no spaces between the filters.<br/>*Serialization: style=Form* |
+| `filters` | No | string | Comma separated list of filters to apply. Note that there must be no spaces between the filters. |
 
 
 

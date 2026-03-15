@@ -13,8 +13,8 @@ Fetch details for a single image.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `image_id` | Yes | [images_image_identifier](../../../../../_components/schemas/images_image_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `image_id` | Yes | [images_image_identifier](../../../../../_components/schemas/images_image_identifier.md) |  |
+| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Image details response
 [images_image_response_single](../../../../../_components/schemas/images_image_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Image details response failure
 

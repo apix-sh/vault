@@ -13,9 +13,9 @@ Get an active session for a single user.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `user_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
-| `nonce` | Yes | [access_nonce](../../../../../../../_components/schemas/access_nonce.md) | *Serialization: style=Simple* |
+| `user_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) |  |
+| `nonce` | Yes | [access_nonce](../../../../../../../_components/schemas/access_nonce.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Get active session response
 [access_active_session_response](../../../../../../../_components/schemas/access_active_session_response.md)
 
 
-### 4xx
+### 4XX
 
 Get active session response failure
 

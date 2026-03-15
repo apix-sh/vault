@@ -13,17 +13,14 @@ Enforce a zone hold on the zone, blocking the creation and activation of zones w
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | Zone ID<br/>*Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | Zone ID |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `include_subdomains` | No | boolean | If provided, the zone hold will extend to block any subdomain of the given zone, as well
-as SSL4SaaS Custom Hostnames. For example, a zone hold on a zone with the hostname
-'example.com' and include_subdomains=true will block 'example.com',
-'staging.example.com', 'api.staging.example.com', etc.<br/>*Serialization: style=Form* |
+| `include_subdomains` | No | boolean | If provided, the zone hold will extend to block any subdomain of the given zone, as well<br/>as SSL4SaaS Custom Hostnames. For example, a zone hold on a zone with the hostname<br/>'example.com' and include_subdomains=true will block 'example.com',<br/>'staging.example.com', 'api.staging.example.com', etc. |
 
 
 
@@ -42,7 +39,7 @@ Successful Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Client Error
 

@@ -39,7 +39,7 @@ Retrieve information about a specific schema on a zone response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Retrieve information about a specific schema zone response failure
 

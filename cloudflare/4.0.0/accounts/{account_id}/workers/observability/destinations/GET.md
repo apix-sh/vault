@@ -1,6 +1,7 @@
 ---
 method: "GET"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/workers/observability/destinations"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,17 +13,17 @@ List your Workers Observability Telemetry Destinations.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Your Cloudflare account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Your Cloudflare account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `perPage` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `orderBy` | No | string | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `perPage` | No | number |  |
+| `order` | No | string |  |
+| `orderBy` | No | string |  |
 
 
 

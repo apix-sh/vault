@@ -16,7 +16,7 @@ Deprecated in favor of [Show DNS Settings](https://developers.cloudflare.com/api
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-custom-nameservers_schemas-identifier](../../../_components/schemas/dns-custom-nameservers_schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-custom-nameservers_schemas-identifier](../../../_components/schemas/dns-custom-nameservers_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Get Account Custom Nameserver Related Zone Metadata response
 [dns-custom-nameservers_get_response](../../../_components/schemas/dns-custom-nameservers_get_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Account Custom Nameserver Related Zone Metadata response failure
 

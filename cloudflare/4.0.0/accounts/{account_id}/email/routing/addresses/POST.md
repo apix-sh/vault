@@ -13,7 +13,7 @@ Create a destination address to forward your emails to. Destination addresses ne
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters

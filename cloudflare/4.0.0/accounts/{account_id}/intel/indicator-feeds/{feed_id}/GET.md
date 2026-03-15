@@ -13,8 +13,8 @@ Retrieves details for a specific custom threat indicator feed.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../../_components/schemas/custom-indicator-feeds_identifier.md) | *Serialization: style=Simple* |
-| `feed_id` | Yes | [custom-indicator-feeds_feed_id](../../../../../_components/schemas/custom-indicator-feeds_feed_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../../_components/schemas/custom-indicator-feeds_identifier.md) |  |
+| `feed_id` | Yes | [custom-indicator-feeds_feed_id](../../../../../_components/schemas/custom-indicator-feeds_feed_id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get indicator feed metadata
 [custom-indicator-feeds_indicator_feed_metadata_response](../../../../../_components/schemas/custom-indicator-feeds_indicator_feed_metadata_response.md)
 
 
-### 4xx
+### 4XX
 
 Get indicator feeds response failure
 

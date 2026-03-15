@@ -13,7 +13,7 @@ You can use Cache Reserve Clear to clear your Cache Reserve, but you must first 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Cache Reserve Clear response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get Cache Reserve Clear failure response.
 

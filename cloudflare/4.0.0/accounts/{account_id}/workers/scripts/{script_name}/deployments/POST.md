@@ -13,15 +13,15 @@ Deployments configure how [Worker Versions](https://developers.cloudflare.com/ap
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../../_components/schemas/workers_script_name.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `force` | No | boolean | If set to true, the deployment will be created even if normally blocked by something such rolling back to an older version when a secret has changed.<br/>*Serialization: style=Form* |
+| `force` | No | boolean | If set to true, the deployment will be created even if normally blocked by something such rolling back to an older version when a secret has changed. |
 
 
 
@@ -44,7 +44,7 @@ Create Deployment response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create Deployment response failure.
 

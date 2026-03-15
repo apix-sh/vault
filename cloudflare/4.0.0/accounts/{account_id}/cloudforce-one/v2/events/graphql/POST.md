@@ -13,7 +13,7 @@ Execute GraphQL aggregations over threat events. Supports multi-dimensional grou
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters

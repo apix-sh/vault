@@ -13,8 +13,8 @@ Lists Access policies configured for an application.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [access_uuid](../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [access_uuid](../../../../../../_components/schemas/access_uuid.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List Access policies response
 [access_policies_components-schemas-response_collection](../../../../../../_components/schemas/access_policies_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Access policies response failure
 

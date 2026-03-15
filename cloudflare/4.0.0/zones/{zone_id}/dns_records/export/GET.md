@@ -15,7 +15,7 @@ See [the documentation](https://developers.cloudflare.com/dns/manage-dns-records
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Export DNS Records response
 ```
 
 
-### 4xx
+### 4XX
 
 Export DNS Records response failure
 

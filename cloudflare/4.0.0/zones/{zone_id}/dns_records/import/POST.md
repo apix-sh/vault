@@ -15,7 +15,7 @@ See [the documentation](https://developers.cloudflare.com/dns/manage-dns-records
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
@@ -32,13 +32,8 @@ Supported content types:
 ### Inline Request Schema (`multipart/form-data`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `file` | Yes | string | BIND config to import.
-
-**Tip:** When using cURL, a file can be uploaded using `--form 'file=@bind_config.txt'`.
- |
-| `proxied` | No | string | Whether or not proxiable records should receive the performance and security benefits of Cloudflare.
-
-The value should be either `true` or `false`. |
+| `file` | Yes | string | BIND config to import.<br/><br/>**Tip:** When using cURL, a file can be uploaded using `--form 'file=@bind_config.txt'`.<br/> |
+| `proxied` | No | string | Whether or not proxiable records should receive the performance and security benefits of Cloudflare.<br/><br/>The value should be either `true` or `false`. |
 
 
 ## Responses
@@ -51,7 +46,7 @@ Import DNS Records response
 [dns-records_dns_response_import_scan](../../../../_components/schemas/dns-records_dns_response_import_scan.md)
 
 
-### 4xx
+### 4XX
 
 Import DNS Records response failure
 

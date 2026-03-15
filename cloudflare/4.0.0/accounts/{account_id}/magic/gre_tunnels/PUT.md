@@ -13,7 +13,7 @@ Updates multiple GRE tunnels. Use `?validate_only=true` as an optional query par
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -24,8 +24,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the request and response bodies will be presented using the new object format. Defaults to false.<br/>*Serialization: style=Simple* |
+| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the request and response bodies will be presented using the new object format. Defaults to false. |
 
 
 ## Request Body
@@ -47,7 +46,7 @@ Update multiple GRE tunnels response
 [magic_modified_tunnels_collection_response](../../../../_components/schemas/magic_modified_tunnels_collection_response.md)
 
 
-### 4xx
+### 4XX
 
 Update multiple GRE tunnels response failure
 

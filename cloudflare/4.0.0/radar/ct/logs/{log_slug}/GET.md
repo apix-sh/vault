@@ -13,14 +13,14 @@ Retrieves the requested certificate log information.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `log_slug` | Yes | string | Certificate log slug.<br/>*Serialization: style=Simple* |
+| `log_slug` | Yes | string | Certificate log slug. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limits the number of objects returned in the response.<br/>*Serialization: style=Form* |
-| `offset` | No | integer | Skips the specified number of objects before fetching the results.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limits the number of objects returned in the response. |
+| `offset` | No | integer | Skips the specified number of objects before fetching the results. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

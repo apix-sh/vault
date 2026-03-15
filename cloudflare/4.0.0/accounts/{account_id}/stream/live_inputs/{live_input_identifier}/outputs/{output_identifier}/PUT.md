@@ -13,9 +13,9 @@ Updates the state of an output.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `output_identifier` | Yes | [stream_output_identifier](../../../../../../../_components/schemas/stream_output_identifier.md) | *Serialization: style=Simple* |
-| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../../../_components/schemas/stream_live_input_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `output_identifier` | Yes | [stream_output_identifier](../../../../../../../_components/schemas/stream_output_identifier.md) |  |
+| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../../../_components/schemas/stream_live_input_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Update an output response.
 [stream_output_response_single](../../../../../../../_components/schemas/stream_output_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update an output response failure.
 

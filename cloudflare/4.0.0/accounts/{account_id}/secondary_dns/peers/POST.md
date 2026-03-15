@@ -13,7 +13,7 @@ Create Peer.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [secondary-dns_account_identifier](../../../../_components/schemas/secondary-dns_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [secondary-dns_account_identifier](../../../../_components/schemas/secondary-dns_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Create Peer response.
 [secondary-dns_schemas-single_response](../../../../_components/schemas/secondary-dns_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Peer response failure.
 

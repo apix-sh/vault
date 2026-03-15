@@ -7,13 +7,13 @@ content_type: "application/json"
 
 # Create a sending subdomain
 
-Creates a new sending subdomain or re-enables sending on an existing subdomain that had it disabled.
+Creates a new sending subdomain or re-enables sending on an existing subdomain that had it disabled. If zone-level Email Sending has not been enabled yet, the zone flag is automatically set when the entitlement is present.
 
 ## Path Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters

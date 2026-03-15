@@ -13,8 +13,8 @@ Modify the description for a prefix owned by the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -29,7 +29,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `description` | Yes | [addressing_description](../../../../../_components/schemas/addressing_description.md) |  |
 
 
 ## Responses
@@ -42,7 +44,7 @@ Update Prefix Description response
 [addressing_single_response](../../../../../_components/schemas/addressing_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Prefix Description response failure
 

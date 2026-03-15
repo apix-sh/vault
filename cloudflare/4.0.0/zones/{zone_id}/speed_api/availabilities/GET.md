@@ -13,7 +13,7 @@ Retrieves quota for all plans, as well as the current zone quota.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [observatory_identifier](../../../../_components/schemas/observatory_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [observatory_identifier](../../../../_components/schemas/observatory_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Page test availability.
 [observatory_availabilities-response](../../../../_components/schemas/observatory_availabilities-response.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

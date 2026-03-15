@@ -1,7 +1,6 @@
 ---
 method: "POST"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/dex/rules"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,7 +12,7 @@ Create a DEX Rule
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path |
 
 
 ## Query Parameters
@@ -41,7 +40,7 @@ success response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create DEX Rule failure response
 

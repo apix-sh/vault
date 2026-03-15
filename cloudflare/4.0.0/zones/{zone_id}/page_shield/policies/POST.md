@@ -13,7 +13,7 @@ Create a Page Shield policy.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create a Page Shield policy response
 [page-shield_get-zone-policy-response](../../../../_components/schemas/page-shield_get-zone-policy-response.md)
 
 
-### 4xx
+### 4XX
 
 Create a Page Shield policy response failure
 

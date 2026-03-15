@@ -13,9 +13,9 @@ Deletes an output and removes it from the associated live input.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `output_identifier` | Yes | [stream_output_identifier](../../../../../../../_components/schemas/stream_output_identifier.md) | *Serialization: style=Simple* |
-| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../../../_components/schemas/stream_live_input_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `output_identifier` | Yes | [stream_output_identifier](../../../../../../../_components/schemas/stream_output_identifier.md) |  |
+| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../../../_components/schemas/stream_live_input_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Delete an output response.
 
 No schema provided for `application/json`.
 
-### 4xx
+### 4XX
 
 Delete an output response failure.
 

@@ -10,4 +10,4 @@ type: "object"
 | :------- | :------: | :--- | :---------- |
 | `helpText` | No | string |  |
 | `name` | No | string |  |
-| `value` | No | any |  |
+| `value` | No | oneOf(5) |  |

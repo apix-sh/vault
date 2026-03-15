@@ -1,7 +1,6 @@
 ---
 method: "POST"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/teamnet/routes"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,7 +12,7 @@ Routes a private network through a Cloudflare Tunnel.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_account_id](../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_account_id](../../../../_components/schemas/tunnel_account_id.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +45,7 @@ Create a tunnel route response
 [tunnel_route_response_single](../../../../_components/schemas/tunnel_route_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create a tunnel route response failure
 

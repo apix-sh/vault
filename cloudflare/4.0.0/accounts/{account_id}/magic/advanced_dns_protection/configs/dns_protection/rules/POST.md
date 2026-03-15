@@ -13,7 +13,7 @@ Create a DNS Protection rule for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account. |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create DNS Protection rule response.
 [dos_dns-protection-rule-response](../../../../../../../_components/schemas/dos_dns-protection-rule-response.md)
 
 
-### 4xx
+### 4XX
 
 Create DNS Protection rule failure.
 

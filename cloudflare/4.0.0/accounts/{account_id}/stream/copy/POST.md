@@ -13,7 +13,7 @@ Uploads a video to Stream from a provided URL.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -24,8 +24,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `Upload-Creator` | No | [stream_creator](../../../../_components/schemas/stream_creator.md) | *Serialization: style=Simple* |
+| `Upload-Creator` | No | [stream_creator](../../../../_components/schemas/stream_creator.md) |  |
 
 
 ## Request Body
@@ -47,7 +46,7 @@ Upload videos from a URL response.
 [stream_video_response_single](../../../../_components/schemas/stream_video_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Upload videos from a URL response failure.
 

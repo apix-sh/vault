@@ -13,8 +13,8 @@ Updates the specified D1 database.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [d1_account-identifier](../../../../../_components/schemas/d1_account-identifier.md) | *Serialization: style=Simple* |
-| `database_id` | Yes | [d1_database-identifier](../../../../../_components/schemas/d1_database-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [d1_account-identifier](../../../../../_components/schemas/d1_account-identifier.md) |  |
+| `database_id` | Yes | [d1_database-identifier](../../../../../_components/schemas/d1_database-identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Database details response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update D1 database response failure
 

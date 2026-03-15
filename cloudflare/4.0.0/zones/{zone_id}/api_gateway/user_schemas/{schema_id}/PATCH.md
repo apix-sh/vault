@@ -44,7 +44,7 @@ Enable validation for a schema response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Enable validation for a schema response failure
 

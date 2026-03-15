@@ -9,6 +9,7 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `created_on` | Yes | string | When the Worker was created. |
+| `deployed_on` | No | string | When the Worker's most recent deployment was created. `null` if the Worker has never been deployed. |
 | `id` | Yes | string | Immutable ID of the Worker. |
 | `logpush` | Yes | boolean | Whether logpush is enabled for the Worker. |
 | `name` | Yes | string | Name of the Worker. |

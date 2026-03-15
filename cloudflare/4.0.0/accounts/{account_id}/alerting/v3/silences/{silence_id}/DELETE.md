@@ -13,8 +13,8 @@ Deletes an existing silence for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
-| `silence_id` | Yes | [aaa_silence-id](../../../../../../_components/schemas/aaa_silence-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) |  |
+| `silence_id` | Yes | [aaa_silence-id](../../../../../../_components/schemas/aaa_silence-id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete Silence response
 [aaa_schemas-api-response-common](../../../../../../_components/schemas/aaa_schemas-api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Delete Silence response failure
 

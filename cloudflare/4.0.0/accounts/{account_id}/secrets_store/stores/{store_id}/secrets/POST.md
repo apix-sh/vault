@@ -13,8 +13,8 @@ Creates a secret in the account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [secrets-store_account_identifier](../../../../../../_components/schemas/secrets-store_account_identifier.md) | *Serialization: style=Simple* |
-| `store_id` | Yes | [secrets-store_store_identifier](../../../../../../_components/schemas/secrets-store_store_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [secrets-store_account_identifier](../../../../../../_components/schemas/secrets-store_account_identifier.md) |  |
+| `store_id` | Yes | [secrets-store_store_identifier](../../../../../../_components/schemas/secrets-store_store_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ secret detail
 [secrets-store_secrets_response_collection](../../../../../../_components/schemas/secrets-store_secrets_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List store secrets response failure
 

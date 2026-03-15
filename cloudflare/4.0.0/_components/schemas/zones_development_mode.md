@@ -11,3 +11,10 @@ Development Mode temporarily allows you to enter development mode for your websi
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `editable` | No | boolean | Whether or not this setting can be modified for this zone (based on your Cloudflare plan level). |
+| `id` | Yes | string | Identifier of the zone setting. |
+| `modified_on` | No | string | last time this setting was modified. |
+| `value` | Yes | any | Current value of the zone setting. |
+| `id` | No | any | ID of the zone setting. Allowed values: development_mode |
+| `time_remaining` | No | number | Value of the zone setting.<br/>Notes: The interval (in seconds) from when development mode expires (positive integer) or last expired (negative integer) for the domain. If development mode has never been enabled, this value is false. |
+| `value` | No | [zones_development_mode_value](zones_development_mode_value.md) |  |

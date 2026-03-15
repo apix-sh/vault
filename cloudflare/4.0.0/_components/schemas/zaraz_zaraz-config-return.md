@@ -17,3 +17,4 @@ type: "allOf(2)"
 | `triggers` | Yes | object | Triggers set up under Zaraz configuration, where key is the trigger alpha-numeric ID and value is the trigger configuration. |
 | `variables` | Yes | object | Variables set up under Zaraz configuration, where key is the variable alpha-numeric ID and value is the variable configuration. Values of variables of type secret are not included. |
 | `zarazVersion` | Yes | integer | Zaraz internal version of the config. |
+| `tools` | No | object | Tools set up under Zaraz configuration, where key is the alpha-numeric tool ID and value is the tool configuration object. |

@@ -13,9 +13,9 @@ Retrieves a specific indicator by its UUID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `dataset_id` | Yes | string | Dataset ID.<br/>*Serialization: style=Simple* |
-| `indicator_id` | Yes | string | Indicator UUID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `dataset_id` | Yes | string | Dataset ID. |
+| `indicator_id` | Yes | string | Indicator UUID. |
 
 
 ## Query Parameters

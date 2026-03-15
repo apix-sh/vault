@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "string"
 ---
 
 # stream_pctComplete

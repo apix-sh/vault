@@ -13,8 +13,8 @@ Fetch details for a single variant.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `variant_id` | Yes | [images_image_variant_identifier](../../../../../../_components/schemas/images_image_variant_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [images_account_identifier](../../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `variant_id` | Yes | [images_image_variant_identifier](../../../../../../_components/schemas/images_image_variant_identifier.md) |  |
+| `account_id` | Yes | [images_account_identifier](../../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Variant details response
 [images_image_variant_simple_response](../../../../../../_components/schemas/images_image_variant_simple_response.md)
 
 
-### 4xx
+### 4XX
 
 Variant details response failure
 

@@ -13,7 +13,7 @@ Add a new prefix under the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,13 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `asn` | Yes | [addressing_asn](../../../../_components/schemas/addressing_asn.md) |  |
+| `cidr` | Yes | [addressing_cidr](../../../../_components/schemas/addressing_cidr.md) |  |
+| `delegate_loa_creation` | No | [addressing_delegate_loa_creation](../../../../_components/schemas/addressing_delegate_loa_creation.md) |  |
+| `description` | No | [addressing_description](../../../../_components/schemas/addressing_description.md) |  |
+| `loa_document_id` | No | [addressing_loa_document_identifier](../../../../_components/schemas/addressing_loa_document_identifier.md) |  |
 
 
 ## Responses
@@ -41,7 +47,7 @@ Add Prefix response
 [addressing_single_response](../../../../_components/schemas/addressing_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Add Prefix response failure
 

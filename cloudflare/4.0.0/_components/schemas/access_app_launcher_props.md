@@ -17,3 +17,12 @@ type: "allOf(2)"
 | `name` | No | [access_apps_components-schemas-name](access_apps_components-schemas-name.md) |  |
 | `session_duration` | No | [access_schemas-session_duration](access_schemas-session_duration.md) |  |
 | `type` | Yes | [access_type](access_type.md) |  |
+| `app_launcher_logo_url` | No | [access_app_launcher_logo_url](access_app_launcher_logo_url.md) |  |
+| `bg_color` | No | [access_bg_color](access_bg_color.md) |  |
+| `domain` | No | any |  |
+| `footer_links` | No | [access_footer_links](access_footer_links.md) |  |
+| `header_bg_color` | No | [access_header_bg_color](access_header_bg_color.md) |  |
+| `landing_page_design` | No | [access_landing_page_design](access_landing_page_design.md) |  |
+| `name` | No | any |  |
+| `skip_app_launcher_login_page` | No | [access_skip_app_launcher_login_page](access_skip_app_launcher_login_page.md) |  |
+| `type` | No | allOf(2) |  |

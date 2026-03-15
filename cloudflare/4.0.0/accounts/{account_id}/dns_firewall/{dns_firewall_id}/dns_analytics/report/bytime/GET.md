@@ -15,22 +15,22 @@ See [Analytics API properties](https://developers.cloudflare.com/dns/reference/a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `dns_firewall_id` | Yes | [dns-analytics_identifier](../../../../../../../_components/schemas/dns-analytics_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [dns-analytics_identifier](../../../../../../../_components/schemas/dns-analytics_identifier.md) | *Serialization: style=Simple* |
+| `dns_firewall_id` | Yes | [dns-analytics_identifier](../../../../../../../_components/schemas/dns-analytics_identifier.md) |  |
+| `account_id` | Yes | [dns-analytics_identifier](../../../../../../../_components/schemas/dns-analytics_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `metrics` | No | [dns-analytics_metrics](../../../../../../../_components/schemas/dns-analytics_metrics.md) | *Serialization: style=Form* |
-| `dimensions` | No | [dns-analytics_dimensions](../../../../../../../_components/schemas/dns-analytics_dimensions.md) | *Serialization: style=Form* |
-| `since` | No | [dns-analytics_since](../../../../../../../_components/schemas/dns-analytics_since.md) | *Serialization: style=Form* |
-| `until` | No | [dns-analytics_until](../../../../../../../_components/schemas/dns-analytics_until.md) | *Serialization: style=Form* |
-| `limit` | No | [dns-analytics_limit](../../../../../../../_components/schemas/dns-analytics_limit.md) | *Serialization: style=Form* |
-| `sort` | No | [dns-analytics_sort](../../../../../../../_components/schemas/dns-analytics_sort.md) | *Serialization: style=Form* |
-| `filters` | No | [dns-analytics_filters](../../../../../../../_components/schemas/dns-analytics_filters.md) | *Serialization: style=Form* |
-| `time_delta` | No | [dns-analytics_time_delta](../../../../../../../_components/schemas/dns-analytics_time_delta.md) | *Serialization: style=Form* |
+| `metrics` | No | [dns-analytics_metrics](../../../../../../../_components/schemas/dns-analytics_metrics.md) |  |
+| `dimensions` | No | [dns-analytics_dimensions](../../../../../../../_components/schemas/dns-analytics_dimensions.md) |  |
+| `since` | No | [dns-analytics_since](../../../../../../../_components/schemas/dns-analytics_since.md) |  |
+| `until` | No | [dns-analytics_until](../../../../../../../_components/schemas/dns-analytics_until.md) |  |
+| `limit` | No | [dns-analytics_limit](../../../../../../../_components/schemas/dns-analytics_limit.md) |  |
+| `sort` | No | [dns-analytics_sort](../../../../../../../_components/schemas/dns-analytics_sort.md) |  |
+| `filters` | No | [dns-analytics_filters](../../../../../../../_components/schemas/dns-analytics_filters.md) |  |
+| `time_delta` | No | [dns-analytics_time_delta](../../../../../../../_components/schemas/dns-analytics_time_delta.md) |  |
 
 
 
@@ -49,7 +49,7 @@ By Time response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 By Time response failure
 

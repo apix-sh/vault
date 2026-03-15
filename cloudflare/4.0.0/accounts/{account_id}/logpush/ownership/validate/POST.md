@@ -13,7 +13,7 @@ Validates ownership challenge of the destination.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Validate ownership challenge response.
 [logpush_validate_ownership_response](../../../../../_components/schemas/logpush_validate_ownership_response.md)
 
 
-### 4xx
+### 4XX
 
 Validate ownership challenge response failure.
 

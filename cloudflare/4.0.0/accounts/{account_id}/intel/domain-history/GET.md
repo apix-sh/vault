@@ -13,14 +13,14 @@ Gets historical security threat and content categories currently and previously 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | No | string | *Serialization: style=Form* |
+| `domain` | No | string |  |
 
 
 
@@ -39,7 +39,7 @@ Get Domain History response.
 [intel_response](../../../../_components/schemas/intel_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Domain History response failure.
 

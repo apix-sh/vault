@@ -13,9 +13,9 @@ Updates the consumer for a queue, or creates one if it does not exist.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `consumer_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
-| `queue_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `consumer_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
+| `queue_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
+| `account_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Update Queue Consumer response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update Queue Consumer response failure.
 

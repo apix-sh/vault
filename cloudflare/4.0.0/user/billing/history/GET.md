@@ -18,12 +18,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `occurred_at` | No | [bill-subs-api_occurred_at](../../../_components/schemas/bill-subs-api_occurred_at.md) | *Serialization: style=Form* |
-| `type` | No | string | *Serialization: style=Form* |
-| `action` | No | string | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `order` | No | string |  |
+| `occurred_at` | No | [bill-subs-api_occurred_at](../../../_components/schemas/bill-subs-api_occurred_at.md) |  |
+| `type` | No | string |  |
+| `action` | No | string |  |
 
 
 
@@ -42,7 +42,7 @@ Billing History Details response
 [bill-subs-api_billing_history_collection](../../../_components/schemas/bill-subs-api_billing_history_collection.md)
 
 
-### 4xx
+### 4XX
 
 Billing History Details response failure
 

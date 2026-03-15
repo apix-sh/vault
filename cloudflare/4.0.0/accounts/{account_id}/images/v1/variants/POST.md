@@ -13,7 +13,7 @@ Specify variants that allow you to resize images for different use cases.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create a variant response
 [images_image_variant_simple_response](../../../../../_components/schemas/images_image_variant_simple_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a variant response failure
 

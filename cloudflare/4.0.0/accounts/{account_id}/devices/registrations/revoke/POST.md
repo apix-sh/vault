@@ -13,14 +13,14 @@ Revokes a list of WARP registrations.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | array<string> | A list of registration IDs to revoke.<br/>*Serialization: style=Form* |
+| `id` | Yes | array<string> | A list of registration IDs to revoke. |
 
 
 

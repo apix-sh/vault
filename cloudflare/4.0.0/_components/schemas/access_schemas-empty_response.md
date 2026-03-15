@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(1)"
 ---
 
 # access_schemas-empty_response
@@ -8,3 +8,5 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `result` | No | object |  |
+| `success` | No | boolean |  |

@@ -13,9 +13,9 @@ Updates a rule in a Web Analytics ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [rum_identifier](../../../../../../../_components/schemas/rum_identifier.md) | *Serialization: style=Simple* |
-| `ruleset_id` | Yes | [rum_ruleset_identifier](../../../../../../../_components/schemas/rum_ruleset_identifier.md) | *Serialization: style=Simple* |
-| `rule_id` | Yes | [rum_rule_identifier](../../../../../../../_components/schemas/rum_rule_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [rum_identifier](../../../../../../../_components/schemas/rum_identifier.md) |  |
+| `ruleset_id` | Yes | [rum_ruleset_identifier](../../../../../../../_components/schemas/rum_ruleset_identifier.md) |  |
+| `rule_id` | Yes | [rum_rule_identifier](../../../../../../../_components/schemas/rum_rule_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Updated Web Analytics rule.
 [rum_rule-response-single](../../../../../../../_components/schemas/rum_rule-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

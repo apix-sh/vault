@@ -13,8 +13,8 @@ Deletes a Logpush job.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `job_id` | Yes | [logpush_id](../../../../../_components/schemas/logpush_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `job_id` | Yes | [logpush_id](../../../../../_components/schemas/logpush_id.md) |  |
+| `zone_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Logpush job response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete Logpush job response failure.
 

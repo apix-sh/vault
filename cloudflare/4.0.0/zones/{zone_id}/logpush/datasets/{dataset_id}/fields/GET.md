@@ -13,8 +13,8 @@ Lists all fields available for a dataset. The response result is. an object with
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `dataset_id` | Yes | [logpush_dataset](../../../../../../_components/schemas/logpush_dataset.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [logpush_identifier](../../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `dataset_id` | Yes | [logpush_dataset](../../../../../../_components/schemas/logpush_dataset.md) |  |
+| `zone_id` | Yes | [logpush_identifier](../../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List fields response.
 [logpush_logpush_field_response_collection](../../../../../../_components/schemas/logpush_logpush_field_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List fields response failure.
 

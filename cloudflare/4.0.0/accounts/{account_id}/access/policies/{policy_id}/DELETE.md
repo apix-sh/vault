@@ -13,8 +13,8 @@ Deletes an Access reusable policy.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
-| `policy_id` | Yes | [access_schemas-uuid](../../../../../_components/schemas/access_schemas-uuid.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
+| `policy_id` | Yes | [access_schemas-uuid](../../../../../_components/schemas/access_schemas-uuid.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete an Access reusable policy response.
 [access_reusable-policies_components-schemas-id_response](../../../../../_components/schemas/access_reusable-policies_components-schemas-id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete an Access reusable policy response failure.
 

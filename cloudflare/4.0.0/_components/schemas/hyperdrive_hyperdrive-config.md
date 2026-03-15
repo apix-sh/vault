@@ -14,5 +14,5 @@ type: "object"
 | `modified_on` | No | string | Defines the last modified time of the Hyperdrive configuration. |
 | `mtls` | No | [hyperdrive_hyperdrive-mtls](hyperdrive_hyperdrive-mtls.md) |  |
 | `name` | Yes | [hyperdrive_hyperdrive-name](hyperdrive_hyperdrive-name.md) |  |
-| `origin` | Yes | any |  |
+| `origin` | Yes | oneOf(2) |  |
 | `origin_connection_limit` | No | [hyperdrive_hyperdrive-origin-connection-limit](hyperdrive_hyperdrive-origin-connection-limit.md) |  |

@@ -13,7 +13,7 @@ Create a new Cloud Integration (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../_components/schemas/mcn_account_id.md) |  |
 
 
 ## Query Parameters
@@ -24,8 +24,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `forwarded` | No | string | *Serialization: style=Simple* |
+| `forwarded` | No | string |  |
 
 
 ## Request Body
@@ -47,7 +46,6 @@ Created.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `location` | No | string | The path to the newly created resource. |
 
 

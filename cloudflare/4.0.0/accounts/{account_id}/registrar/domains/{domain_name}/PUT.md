@@ -13,8 +13,8 @@ Update individual domain.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain_name` | Yes | [registrar-api_domain_name](../../../../../_components/schemas/registrar-api_domain_name.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [registrar-api_identifier](../../../../../_components/schemas/registrar-api_identifier.md) | *Serialization: style=Simple* |
+| `domain_name` | Yes | [registrar-api_domain_name](../../../../../_components/schemas/registrar-api_domain_name.md) |  |
+| `account_id` | Yes | [registrar-api_identifier](../../../../../_components/schemas/registrar-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update domain response
 [registrar-api_domain_response_single](../../../../../_components/schemas/registrar-api_domain_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update domain response failure
 

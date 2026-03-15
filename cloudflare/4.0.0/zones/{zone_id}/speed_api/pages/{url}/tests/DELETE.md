@@ -13,15 +13,15 @@ Deletes all tests for a specific webpage from a specific region. Deleted tests a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [observatory_identifier](../../../../../../_components/schemas/observatory_identifier.md) | *Serialization: style=Simple* |
-| `url` | Yes | [observatory_url](../../../../../../_components/schemas/observatory_url.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [observatory_identifier](../../../../../../_components/schemas/observatory_identifier.md) |  |
+| `url` | Yes | [observatory_url](../../../../../../_components/schemas/observatory_url.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `region` | No | allOf(2) | *Serialization: style=Form* |
+| `region` | No | allOf(2) |  |
 
 
 
@@ -40,7 +40,7 @@ Number of deleted tests.
 [observatory_count-response](../../../../../../_components/schemas/observatory_count-response.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

@@ -13,7 +13,7 @@ Deletes CMB config.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [logcontrol_identifier](../../../../../../_components/schemas/logcontrol_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [logcontrol_identifier](../../../../../../_components/schemas/logcontrol_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Delete CMB config response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete CMB config response failure
 

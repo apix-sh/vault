@@ -13,7 +13,7 @@ Get information on the default catch-all routing rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [email_identifier](../../../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [email_identifier](../../../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters

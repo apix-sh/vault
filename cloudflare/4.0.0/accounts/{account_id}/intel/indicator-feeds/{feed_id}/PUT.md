@@ -13,8 +13,8 @@ Revises details for a specific custom threat indicator feed.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../../_components/schemas/custom-indicator-feeds_identifier.md) | *Serialization: style=Simple* |
-| `feed_id` | Yes | [custom-indicator-feeds_feed_id](../../../../../_components/schemas/custom-indicator-feeds_feed_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../../_components/schemas/custom-indicator-feeds_identifier.md) |  |
+| `feed_id` | Yes | [custom-indicator-feeds_feed_id](../../../../../_components/schemas/custom-indicator-feeds_feed_id.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Get update public field response
 [custom-indicator-feeds_update_public_field_response](../../../../../_components/schemas/custom-indicator-feeds_update_public_field_response.md)
 
 
-### 4xx
+### 4XX
 
 Get update public field response failure
 

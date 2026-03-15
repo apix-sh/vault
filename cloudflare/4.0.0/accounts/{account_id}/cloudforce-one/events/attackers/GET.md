@@ -11,14 +11,14 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `datasetIds` | No | array<string> | Array of dataset IDs to query attackers from. If not provided, uses the default dataset.<br/>*Serialization: style=Form* |
+| `datasetIds` | No | array<string> | Array of dataset IDs to query attackers from. If not provided, uses the default dataset. |
 
 
 

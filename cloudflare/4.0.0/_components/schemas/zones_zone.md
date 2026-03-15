@@ -9,14 +9,10 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `account` | Yes | object | The account the zone belongs to. |
-| `activated_on` | Yes | string | The last time proof of ownership was detected and the zone was made
-active. |
-| `cname_suffix` | No | string | Allows the customer to use a custom apex.
-*Tenants Only Configuration*. |
+| `activated_on` | Yes | string | The last time proof of ownership was detected and the zone was made<br/>active. |
+| `cname_suffix` | No | string | Allows the customer to use a custom apex.<br/>*Tenants Only Configuration*. |
 | `created_on` | Yes | string | When the zone was created. |
-| `development_mode` | Yes | number | The interval (in seconds) from when development mode expires
-(positive integer) or last expired (negative integer) for the
-domain. If development mode has never been enabled, this value is 0. |
+| `development_mode` | Yes | number | The interval (in seconds) from when development mode expires<br/>(positive integer) or last expired (negative integer) for the<br/>domain. If development mode has never been enabled, this value is 0. |
 | `id` | Yes | [zones_identifier](zones_identifier.md) |  |
 | `meta` | Yes | object | Metadata about the zone. |
 | `modified_on` | Yes | string | When the zone was last modified. |

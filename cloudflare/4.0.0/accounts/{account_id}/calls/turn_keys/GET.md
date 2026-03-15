@@ -13,7 +13,7 @@ Lists all TURN keys in the Cloudflare account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [calls_account_identifier](../../../../_components/schemas/calls_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [calls_account_identifier](../../../../_components/schemas/calls_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List TURN key response
 [calls_turn_key_collection](../../../../_components/schemas/calls_turn_key_collection.md)
 
 
-### 4xx
+### 4XX
 
 List TURN key response failure
 

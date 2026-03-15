@@ -9,22 +9,22 @@ apis:
     tags: [demo, pets, crud]
     notes: Canonical OpenAPI example. Good baseline for validation.
 
-  - name: OpenAI Responses API (GPT-5.4)
+  - name: openai
     spec_url: https://raw.githubusercontent.com/openai/openai-openapi/refs/heads/manual_spec/openapi.yaml
     tags: ["AI", "Generative Intelligence"]
     notes: Latest 2026 Agentic interface supporting tool search, computer use, and long-range task reasoning.[4, 5]
 
-  - name: Stripe Combined API (v1/v2)
-    spec_url: https://raw.githubusercontent.com/stripe/openapi/master/latest/spec3.json
+  - name: stripe
+    spec_url: https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json
     tags: ["Fintech", "Payments"]
     notes: The gold standard for financial payments; 2026 version fully supports OAS 3.1 and complex extension models.[14, 23]
 
-  - name: Cloudflare Full API Schema
+  - name: cloudflare
     spec_url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
     tags: ["Infrastructure", "Cloud"]
     notes: Comprehensive schema covering hundreds of endpoints including Workers AI, Zero Trust, and DNS management.[21]
 
-  - name: GitHub REST API (OAS 3.1 Compliant)
+  - name: github
     spec_url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
     tags: ["Code", "DevOps", "Social"]
     notes: Covers 600+ operations, supporting Webhook definitions and GitHub Actions integration specs.[25]

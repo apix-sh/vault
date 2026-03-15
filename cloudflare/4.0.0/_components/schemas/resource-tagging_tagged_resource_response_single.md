@@ -11,3 +11,4 @@ type: "allOf(2)"
 | `errors` | Yes | [resource-tagging_messages](resource-tagging_messages.md) |  |
 | `messages` | Yes | [resource-tagging_messages](resource-tagging_messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful. |
+| `result` | No | [resource-tagging_tagged_resource_object](resource-tagging_tagged_resource_object.md) |  |

@@ -1,7 +1,6 @@
 ---
 method: "PATCH"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/zerotrust/connectivity_settings"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,7 +12,7 @@ Updates the Zero Trust Connectivity Settings for the given account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_account_id](../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_account_id](../../../../_components/schemas/tunnel_account_id.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +43,7 @@ Update Zero Trust Connectivity Settings response
 [tunnel_zero_trust_connectivity_settings_response](../../../../_components/schemas/tunnel_zero_trust_connectivity_settings_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Zero Trust Connectivity Settings response failure
 

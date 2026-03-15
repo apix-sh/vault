@@ -18,11 +18,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limits the number of objects returned in the response.<br/>*Serialization: style=Form* |
-| `offset` | No | integer | Skips the specified number of objects before fetching the results.<br/>*Serialization: style=Form* |
-| `datasetType` | No | string | Filters results by dataset type.<br/>*Serialization: style=Form* |
-| `date` | No | string | Filters results by the specified date.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limits the number of objects returned in the response. |
+| `offset` | No | integer | Skips the specified number of objects before fetching the results. |
+| `datasetType` | No | string | Filters results by dataset type. |
+| `date` | No | string | Filters results by the specified date. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

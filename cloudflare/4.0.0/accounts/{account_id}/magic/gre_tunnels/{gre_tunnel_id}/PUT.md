@@ -13,8 +13,8 @@ Updates a specific GRE tunnel. Use `?validate_only=true` as an optional query pa
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `gre_tunnel_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `gre_tunnel_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -25,8 +25,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the request and response bodies will be presented using the new object format. Defaults to false.<br/>*Serialization: style=Simple* |
+| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the request and response bodies will be presented using the new object format. Defaults to false. |
 
 
 ## Request Body
@@ -48,7 +47,7 @@ Update GRE Tunnel response
 [magic_tunnel_modified_response](../../../../../_components/schemas/magic_tunnel_modified_response.md)
 
 
-### 4xx
+### 4XX
 
 Update GRE Tunnel response failure
 

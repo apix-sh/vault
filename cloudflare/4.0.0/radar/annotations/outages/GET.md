@@ -18,15 +18,15 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limits the number of objects returned in the response.<br/>*Serialization: style=Form* |
-| `offset` | No | integer | Skips the specified number of objects before fetching the results.<br/>*Serialization: style=Form* |
-| `dateRange` | No | string | Filters results by date range.<br/>*Serialization: style=Form* |
-| `dateStart` | No | string | Start of the date range (inclusive).<br/>*Serialization: style=Form* |
-| `dateEnd` | No | string | End of the date range (inclusive).<br/>*Serialization: style=Form* |
-| `asn` | No | integer | Filters results by Autonomous System. Specify a single Autonomous System Number (ASN) as integer.<br/>*Serialization: style=Form* |
-| `location` | No | string | Filters results by location. Specify an alpha-2 location code.<br/>*Serialization: style=Form* |
-| `origin` | No | string | Filters results by origin.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limits the number of objects returned in the response. |
+| `offset` | No | integer | Skips the specified number of objects before fetching the results. |
+| `dateRange` | No | string | Filters results by date range. |
+| `dateStart` | No | string | Start of the date range (inclusive). |
+| `dateEnd` | No | string | End of the date range (inclusive). |
+| `asn` | No | integer | Filters results by Autonomous System. Specify a single Autonomous System Number (ASN) as integer. |
+| `location` | No | string | Filters results by location. Specify an alpha-2 location code. |
+| `origin` | No | string | Filters results by origin. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

@@ -13,8 +13,8 @@ Get information for a specific routing rule already created.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_identifier` | Yes | [email_rule_identifier](../../../../../../_components/schemas/email_rule_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [email_identifier](../../../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `rule_identifier` | Yes | [email_rule_identifier](../../../../../../_components/schemas/email_rule_identifier.md) |  |
+| `zone_id` | Yes | [email_identifier](../../../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters

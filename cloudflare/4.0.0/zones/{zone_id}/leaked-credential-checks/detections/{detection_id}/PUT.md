@@ -13,8 +13,8 @@ Update user-defined detection pattern for Leaked Credential Checks.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../../_components/schemas/waf-product-api-bundle_identifier.md) | *Serialization: style=Simple* |
-| `detection_id` | Yes | [waf-product-api-bundle_detection-id](../../../../../_components/schemas/waf-product-api-bundle_detection-id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../../_components/schemas/waf-product-api-bundle_identifier.md) |  |
+| `detection_id` | Yes | [waf-product-api-bundle_detection-id](../../../../../_components/schemas/waf-product-api-bundle_detection-id.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update Leaked Credential Checks custom detection response.
 [waf-product-api-bundle_response-custom-detection](../../../../../_components/schemas/waf-product-api-bundle_response-custom-detection.md)
 
 
-### 4xx
+### 4XX
 
 Update Leaked Credential Checks custom detection failure response.
 

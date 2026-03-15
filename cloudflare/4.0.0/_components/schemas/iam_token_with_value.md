@@ -18,3 +18,4 @@ type: "allOf(2)"
 | `not_before` | No | [iam_not_before](iam_not_before.md) |  |
 | `policies` | No | [iam_token_policies](iam_token_policies.md) |  |
 | `status` | No | [iam_token_status](iam_token_status.md) |  |
+| `value` | No | [iam_value](iam_value.md) |  |

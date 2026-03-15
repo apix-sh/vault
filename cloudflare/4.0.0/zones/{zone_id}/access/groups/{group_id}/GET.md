@@ -13,8 +13,8 @@ Fetches a single Access group.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `group_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `group_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get an Access group response
 [access_groups_components-schemas-single_response-2](../../../../../_components/schemas/access_groups_components-schemas-single_response-2.md)
 
 
-### 4xx
+### 4XX
 
 Get an Access group response failure
 

@@ -13,7 +13,7 @@ Associate a hostname to a certificate and enable, disable or invalidate the asso
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `config` | Yes | [tls-certificates-and-hostnames_config](../../../../_components/schemas/tls-certificates-and-hostnames_config.md) |  |
 
 
 ## Responses
@@ -41,7 +43,7 @@ Enable or Disable a Hostname for Client Authentication response
 [tls-certificates-and-hostnames_hostname_aop_response_collection](../../../../_components/schemas/tls-certificates-and-hostnames_hostname_aop_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Enable or Disable a Hostname for Client Authentication response failure
 

@@ -13,7 +13,7 @@ Returns a list of settings (and their details) that Page Rules can apply to matc
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List available Page Rules settings response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List available Page Rules settings response failure
 

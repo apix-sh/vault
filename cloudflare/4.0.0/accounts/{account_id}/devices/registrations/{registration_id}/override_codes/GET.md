@@ -13,8 +13,8 @@ Fetches one-time use admin override codes for a registration. This relies on the
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `registration_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `registration_id` | Yes | string |  |
 
 
 ## Query Parameters

@@ -13,7 +13,7 @@ Get all application categories.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `accountId` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `accountId` | Yes | string | Account ID. |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get all application categories response.
 [alexandria_get_categories_response](../../../../_components/schemas/alexandria_get_categories_response.md)
 
 
-### 4xx
+### 4XX
 
 Get application categories response failure.
 

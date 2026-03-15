@@ -13,14 +13,14 @@ Show the DNS records needed to configure your Email Routing zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `subdomain` | No | [email_email_setting_name](../../../../../_components/schemas/email_email_setting_name.md) | *Serialization: style=Form* |
+| `subdomain` | No | [email_email_setting_name](../../../../../_components/schemas/email_email_setting_name.md) |  |
 
 
 

@@ -8,6 +8,4 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | string | If enabled, any `http://`` URL is converted to `https://` through a
-301 redirect.
- Allowed values: always_use_https |
+| `id` | No | string | If enabled, any `http://`` URL is converted to `https://` through a<br/>301 redirect.<br/> Allowed values: always_use_https |

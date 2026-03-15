@@ -13,16 +13,16 @@ Returns a paginated list of vector identifiers from the specified index.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [vectorize_identifier](../../../../../../../_components/schemas/vectorize_identifier.md) | *Serialization: style=Simple* |
-| `index_name` | Yes | [vectorize_index-name](../../../../../../../_components/schemas/vectorize_index-name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [vectorize_identifier](../../../../../../../_components/schemas/vectorize_identifier.md) |  |
+| `index_name` | Yes | [vectorize_index-name](../../../../../../../_components/schemas/vectorize_index-name.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `count` | No | integer | *Serialization: style=Form* |
-| `cursor` | No | string | *Serialization: style=Form* |
+| `count` | No | integer |  |
+| `cursor` | No | string |  |
 
 
 
@@ -41,7 +41,7 @@ List Vectors Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Vectors Failure Response
 

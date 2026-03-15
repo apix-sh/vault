@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "array<[teams-devices_registration_id](./teams-devices_registration_id.md)>"
 ---
 
 # teams-devices_unrevoke_devices_request

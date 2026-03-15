@@ -13,7 +13,7 @@ Lists your signing keys. These can be found on your Cloudflare Images dashboard.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Signing Keys response
 [images_image_key_response_collection](../../../../../_components/schemas/images_image_key_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Signing Keys response failure
 

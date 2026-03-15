@@ -13,7 +13,7 @@ Updates the current device settings for a Zero Trust account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update device settings for a Zero Trust account response.
 [teams-devices_zero-trust-account-device-settings-response](../../../../_components/schemas/teams-devices_zero-trust-account-device-settings-response.md)
 
 
-### 4xx
+### 4XX
 
 Update device settings for a Zero Trust account response failure.
 

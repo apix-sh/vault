@@ -13,7 +13,7 @@ Gets CMB config.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [logcontrol_identifier](../../../../../../_components/schemas/logcontrol_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [logcontrol_identifier](../../../../../../_components/schemas/logcontrol_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get CMB config response
 [logcontrol_cmb_config_response_single](../../../../../../_components/schemas/logcontrol_cmb_config_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get CMB config response failure
 

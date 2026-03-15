@@ -41,7 +41,7 @@ Update multiple operation-level schema validation settings response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update multiple operation-level schema validation settings response failure
 

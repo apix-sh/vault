@@ -15,7 +15,7 @@ navigation faster. Refer to the Cloudflare Speed Brain documentation for more in
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [speed_identifier](../../../../_components/schemas/speed_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [speed_identifier](../../../../_components/schemas/speed_identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Cloudflare Speed Brain setting response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Change Cloudflare Speed Brain setting response failure.
 

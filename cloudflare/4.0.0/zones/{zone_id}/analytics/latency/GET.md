@@ -11,14 +11,14 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [argo-analytics_identifier](../../../../_components/schemas/argo-analytics_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [argo-analytics_identifier](../../../../_components/schemas/argo-analytics_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `bins` | No | string | *Serialization: style=Form* |
+| `bins` | No | string |  |
 
 
 
@@ -37,7 +37,7 @@ Argo Analytics for a zone response
 [argo-analytics_response_single](../../../../_components/schemas/argo-analytics_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Argo Analytics for a zone response failure
 

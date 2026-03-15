@@ -13,8 +13,8 @@ Delete a configured load balancer.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) | *Serialization: style=Simple* |
-| `load_balancer_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) |  |
+| `load_balancer_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Load Balancer response.
 [load-balancing_components-schemas-id_response](../../../../_components/schemas/load-balancing_components-schemas-id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete Load Balancer response failure.
 

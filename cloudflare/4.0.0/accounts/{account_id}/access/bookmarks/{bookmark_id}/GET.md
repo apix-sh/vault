@@ -13,8 +13,8 @@ Fetches a single Bookmark application.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `bookmark_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_components-schemas-identifier](../../../../../_components/schemas/access_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `bookmark_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) |  |
+| `account_id` | Yes | [access_components-schemas-identifier](../../../../../_components/schemas/access_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Bookmark application response
 [access_bookmarks_components-schemas-single_response](../../../../../_components/schemas/access_bookmarks_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get a Bookmark application response failure
 

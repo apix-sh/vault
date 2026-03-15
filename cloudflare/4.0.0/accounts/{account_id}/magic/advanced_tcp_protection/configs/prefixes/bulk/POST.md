@@ -13,7 +13,7 @@ Create multiple prefixes for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account. |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create multiple prefixes response.
 [dos_prefix-list-response](../../../../../../../_components/schemas/dos_prefix-list-response.md)
 
 
-### 4xx
+### 4XX
 
 Create multiple prefixes failure.
 

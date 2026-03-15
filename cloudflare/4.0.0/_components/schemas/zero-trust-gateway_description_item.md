@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "string"
 ---
 
 # zero-trust-gateway_description_item

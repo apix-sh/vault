@@ -13,8 +13,8 @@ Fetches a snippet belonging to the zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [snippets_ZoneId](../../../../_components/schemas/snippets_ZoneId.md) | *Serialization: style=Simple* |
-| `snippet_name` | Yes | [snippets_SnippetName](../../../../_components/schemas/snippets_SnippetName.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [snippets_ZoneId](../../../../_components/schemas/snippets_ZoneId.md) |  |
+| `snippet_name` | Yes | [snippets_SnippetName](../../../../_components/schemas/snippets_SnippetName.md) |  |
 
 
 ## Query Parameters
@@ -34,11 +34,11 @@ _(None)_
 
 Reference: [snippets_Snippet](../../../../_components/responses/snippets_Snippet.md)
 
-### 4xx
+### 4XX
 
 Reference: [snippets_Failure](../../../../_components/responses/snippets_Failure.md)
 
-### 5xx
+### 5XX
 
 Reference: [snippets_Failure](../../../../_components/responses/snippets_Failure.md)
 

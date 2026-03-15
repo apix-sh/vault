@@ -13,7 +13,7 @@ Returns the set of hostnames, the signature algorithm, and the expiration date o
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Analyze Certificate response
 [tls-certificates-and-hostnames_certificate_analyze_response](../../../../_components/schemas/tls-certificates-and-hostnames_certificate_analyze_response.md)
 
 
-### 4xx
+### 4XX
 
 Analyze Certificate response failure
 

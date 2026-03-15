@@ -13,8 +13,8 @@ Download specified LOA document under the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `loa_document_id` | Yes | [addressing_loa_document_identifier](../../../../../../_components/schemas/addressing_loa_document_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `loa_document_id` | Yes | [addressing_loa_document_identifier](../../../../../../_components/schemas/addressing_loa_document_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Download LOA Document response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Download LOA Document response failure
 

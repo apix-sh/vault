@@ -13,8 +13,8 @@ Upload a new private key and/or PEM/CRT for the SSL certificate. Note: PATCHing 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `custom_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `custom_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -33,6 +33,7 @@ Supported content types:
 | :--- | :---: | :--- | :--- |
 | `bundle_method` | No | [tls-certificates-and-hostnames_bundle_method](../../../../_components/schemas/tls-certificates-and-hostnames_bundle_method.md) |  |
 | `certificate` | No | [tls-certificates-and-hostnames_certificate](../../../../_components/schemas/tls-certificates-and-hostnames_certificate.md) |  |
+| `custom_csr_id` | No | [tls-certificates-and-hostnames_custom_csr_id](../../../../_components/schemas/tls-certificates-and-hostnames_custom_csr_id.md) |  |
 | `deploy` | No | [tls-certificates-and-hostnames_deploy](../../../../_components/schemas/tls-certificates-and-hostnames_deploy.md) |  |
 | `geo_restrictions` | No | [tls-certificates-and-hostnames_geo_restrictions](../../../../_components/schemas/tls-certificates-and-hostnames_geo_restrictions.md) |  |
 | `policy` | No | [tls-certificates-and-hostnames_policy](../../../../_components/schemas/tls-certificates-and-hostnames_policy.md) |  |
@@ -49,7 +50,7 @@ Edit SSL Configuration response
 [tls-certificates-and-hostnames_certificate_response_single](../../../../_components/schemas/tls-certificates-and-hostnames_certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Edit SSL Configuration response failure
 

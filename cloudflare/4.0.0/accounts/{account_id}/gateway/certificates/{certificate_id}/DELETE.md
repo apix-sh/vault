@@ -13,8 +13,8 @@ Delete a gateway-managed Zero Trust certificate. You must deactivate the certifi
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `certificate_id` | Yes | [zero-trust-gateway_uuid](../../../../../_components/schemas/zero-trust-gateway_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `certificate_id` | Yes | [zero-trust-gateway_uuid](../../../../../_components/schemas/zero-trust-gateway_uuid.md) |  |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Deletes Zero Trust certificate response.
 [zero-trust-gateway_single_response](../../../../../_components/schemas/zero-trust-gateway_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Deletes Zero Trust certificate response failure.
 

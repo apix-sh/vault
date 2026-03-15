@@ -13,16 +13,16 @@ Lists all workflows configured for the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `search` | No | string | Allows filtering workflows` name.<br/>*Serialization: style=Form* |
+| `per_page` | No | number |  |
+| `page` | No | number |  |
+| `search` | No | string | Allows filtering workflows` name. |
 
 
 
@@ -56,7 +56,7 @@ Input Validation Error.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 

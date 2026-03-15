@@ -13,7 +13,7 @@ Unlock MX Records previously locked by Email Routing.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters

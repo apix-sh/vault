@@ -13,16 +13,16 @@ The dashboard view provides both totals and timeseries data for the given zone a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_identifier` | Yes | [zone-analytics-api_identifier](../../../../_components/schemas/zone-analytics-api_identifier.md) | *Serialization: style=Simple* |
+| `zone_identifier` | Yes | [zone-analytics-api_identifier](../../../../_components/schemas/zone-analytics-api_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `until` | No | [zone-analytics-api_until](../../../../_components/schemas/zone-analytics-api_until.md) | *Serialization: style=Form* |
-| `since` | No | anyOf(2) | *Serialization: style=Form* |
-| `continuous` | No | boolean | *Serialization: style=Form* |
+| `until` | No | [zone-analytics-api_until](../../../../_components/schemas/zone-analytics-api_until.md) |  |
+| `since` | No | anyOf(2) |  |
+| `continuous` | No | boolean |  |
 
 
 
@@ -41,7 +41,7 @@ Get dashboard response
 [zone-analytics-api_dashboard_response](../../../../_components/schemas/zone-analytics-api_dashboard_response.md)
 
 
-### 4xx
+### 4XX
 
 Get dashboard response failure
 

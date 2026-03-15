@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(1)"
 ---
 
 # resource-tagging_zone_id

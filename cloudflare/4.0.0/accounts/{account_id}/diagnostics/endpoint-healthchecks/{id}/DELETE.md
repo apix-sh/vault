@@ -13,8 +13,8 @@ Delete Endpoint Health Check.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic-transit_identifier](../../../../../_components/schemas/magic-transit_identifier.md) | *Serialization: style=Simple* |
-| `id` | Yes | [magic-transit_uuid](../../../../../_components/schemas/magic-transit_uuid.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic-transit_identifier](../../../../../_components/schemas/magic-transit_identifier.md) |  |
+| `id` | Yes | [magic-transit_uuid](../../../../../_components/schemas/magic-transit_uuid.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Endpoint Health Checks response.
 [magic-transit_api-response-common](../../../../../_components/schemas/magic-transit_api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Endpoint Health Check failure.
 

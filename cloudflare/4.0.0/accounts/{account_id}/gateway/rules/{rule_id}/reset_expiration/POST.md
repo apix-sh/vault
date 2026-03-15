@@ -13,8 +13,8 @@ Resets the expiration of a Zero Trust Gateway Rule if its duration elapsed and i
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_id` | Yes | [zero-trust-gateway_schemas-uuid](../../../../../../_components/schemas/zero-trust-gateway_schemas-uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `rule_id` | Yes | [zero-trust-gateway_schemas-uuid](../../../../../../_components/schemas/zero-trust-gateway_schemas-uuid.md) |  |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Reset the expiration of a Zero Trust Gateway rule response.
 [zero-trust-gateway_components-schemas-single_response](../../../../../../_components/schemas/zero-trust-gateway_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Reset the expiration of a Zero Trust Gateway rule response failure.
 

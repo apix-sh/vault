@@ -13,7 +13,7 @@ List configured monitor groups.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Monitor Groups response
 [load-balancing_monitor-group-response-collection](../../../../_components/schemas/load-balancing_monitor-group-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 List Monitor Groups response failure
 

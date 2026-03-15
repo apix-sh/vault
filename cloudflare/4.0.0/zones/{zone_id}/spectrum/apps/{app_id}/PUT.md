@@ -13,8 +13,8 @@ Updates a previously existing application's configuration that uses a name for t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [spectrum-config_app_identifier](../../../../../_components/schemas/spectrum-config_app_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../../_components/schemas/spectrum-config_zone_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [spectrum-config_app_identifier](../../../../../_components/schemas/spectrum-config_app_identifier.md) |  |
+| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../../_components/schemas/spectrum-config_zone_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update Spectrum application configuration using a name for the origin response.
 [spectrum-config_app_config_single](../../../../../_components/schemas/spectrum-config_app_config_single.md)
 
 
-### 4xx
+### 4XX
 
 Update Spectrum application configuration using a name for the origin response failure.
 

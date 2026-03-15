@@ -13,7 +13,7 @@ Fetches all lists in the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [lists_account_id](../../../../_components/schemas/lists_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [lists_account_id](../../../../_components/schemas/lists_account_id.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get lists response.
 [lists_lists-response-collection](../../../../_components/schemas/lists_lists-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Get lists response failure.
 

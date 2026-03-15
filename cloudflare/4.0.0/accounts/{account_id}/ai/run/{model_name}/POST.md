@@ -18,8 +18,8 @@ Model specific inputs available in [Cloudflare Docs](https://developers.cloudfla
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `model_name` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `model_name` | Yes | string |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Model response
 #### Response Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `result` | No | any |  |
+| `result` | No | oneOf(13) |  |
 
 
 ### 400

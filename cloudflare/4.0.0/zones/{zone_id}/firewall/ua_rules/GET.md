@@ -13,18 +13,18 @@ Fetches User Agent Blocking rules in a zone. You can filter the results using se
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `description` | No | allOf(1) | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `user_agent` | No | string | *Serialization: style=Form* |
-| `paused` | No | boolean | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `description` | No | allOf(1) |  |
+| `per_page` | No | number |  |
+| `user_agent` | No | string |  |
+| `paused` | No | boolean |  |
 
 
 
@@ -43,7 +43,7 @@ List User Agent Blocking rules response
 [firewall_firewalluablock_response_collection](../../../../_components/schemas/firewall_firewalluablock_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List User Agent Blocking rules response failure
 

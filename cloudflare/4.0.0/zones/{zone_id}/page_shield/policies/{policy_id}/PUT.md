@@ -13,8 +13,8 @@ Update a Page Shield policy by ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
-| `policy_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
+| `policy_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
@@ -29,7 +29,13 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `action` | No | [page-shield_policy-action](../../../../../_components/schemas/page-shield_policy-action.md) |  |
+| `description` | No | [page-shield_policy-description](../../../../../_components/schemas/page-shield_policy-description.md) |  |
+| `enabled` | No | [page-shield_policy-enabled](../../../../../_components/schemas/page-shield_policy-enabled.md) |  |
+| `expression` | No | [page-shield_policy-expression](../../../../../_components/schemas/page-shield_policy-expression.md) |  |
+| `value` | No | [page-shield_policy-value](../../../../../_components/schemas/page-shield_policy-value.md) |  |
 
 
 ## Responses
@@ -42,7 +48,7 @@ Update a Page Shield policy response
 [page-shield_get-zone-policy-response](../../../../../_components/schemas/page-shield_get-zone-policy-response.md)
 
 
-### 4xx
+### 4XX
 
 Update a Page Shield policy response failure
 

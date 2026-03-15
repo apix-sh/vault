@@ -13,16 +13,16 @@ Delete a worker from a Workers for Platforms namespace. This call has no respons
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../../../../_components/schemas/workers_script_name.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `force` | No | boolean | If set to true, delete will not be stopped by associated service binding, durable object, or other binding. Any of these associated bindings/durable objects will be deleted along with the script.<br/>*Serialization: style=Form* |
+| `force` | No | boolean | If set to true, delete will not be stopped by associated service binding, durable object, or other binding. Any of these associated bindings/durable objects will be deleted along with the script. |
 
 
 
@@ -44,7 +44,7 @@ Delete Worker response.
 [workers_api-response-null-result](../../../../../../../../_components/schemas/workers_api-response-null-result.md)
 
 
-### 4xx
+### 4XX
 
 Delete Worker response failure.
 

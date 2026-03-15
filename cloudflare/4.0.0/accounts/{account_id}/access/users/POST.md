@@ -13,7 +13,7 @@ Creates a new user.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,10 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `email` | Yes | [access_schemas-email](../../../../_components/schemas/access_schemas-email.md) |  |
+| `name` | No | [access_users_components-schemas-name](../../../../_components/schemas/access_users_components-schemas-name.md) |  |
 
 
 ## Responses
@@ -41,7 +44,7 @@ Create user response
 [access_single_user_response](../../../../_components/schemas/access_single_user_response.md)
 
 
-### 4xx
+### 4XX
 
 Create user response failure
 

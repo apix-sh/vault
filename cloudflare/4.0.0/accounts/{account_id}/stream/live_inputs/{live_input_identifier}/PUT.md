@@ -13,8 +13,8 @@ Updates a specified live input.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../_components/schemas/stream_live_input_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../_components/schemas/stream_live_input_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update a live input response.
 [stream_live_input_response_single](../../../../../_components/schemas/stream_live_input_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update a live input response failure.
 

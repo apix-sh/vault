@@ -13,7 +13,7 @@ Sets the list of domains to bypass Gateway DNS resolution. These domains will us
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Set your Local Domain Fallback list response.
 [teams-devices_fallback_domain_response_collection](../../../../../_components/schemas/teams-devices_fallback_domain_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Set your Local Domain Fallback list response failure.
 

@@ -13,7 +13,7 @@ Lists all webpages which have been tested.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [observatory_identifier](../../../../_components/schemas/observatory_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [observatory_identifier](../../../../_components/schemas/observatory_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List of pages.
 [observatory_pages-response-collection](../../../../_components/schemas/observatory_pages-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

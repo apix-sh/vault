@@ -20,7 +20,7 @@ Notes:
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-records_identifier](../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-records_identifier](../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
@@ -48,7 +48,7 @@ Create DNS Record response
 [dns-records_dns_response_single](../../../_components/schemas/dns-records_dns_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create DNS Record response failure
 

@@ -13,7 +13,7 @@ Get Storage/Object Count Metrics across all buckets in your account. Note that A
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [r2_account_identifier](../../../../_components/schemas/r2_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [r2_account_identifier](../../../../_components/schemas/r2_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Account-Level Metrics response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get Account-Level Metrics response failure.
 

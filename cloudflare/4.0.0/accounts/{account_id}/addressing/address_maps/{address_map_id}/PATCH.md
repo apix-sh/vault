@@ -13,8 +13,8 @@ Modify properties of an address map owned by the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../_components/schemas/addressing_address_map_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../_components/schemas/addressing_address_map_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -29,7 +29,11 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `default_sni` | No | [addressing_default_sni](../../../../../_components/schemas/addressing_default_sni.md) |  |
+| `description` | No | [addressing_schemas-description](../../../../../_components/schemas/addressing_schemas-description.md) |  |
+| `enabled` | No | [addressing_enabled](../../../../../_components/schemas/addressing_enabled.md) |  |
 
 
 ## Responses
@@ -42,7 +46,7 @@ Update Address Map response
 [addressing_components-schemas-single_response](../../../../../_components/schemas/addressing_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Address Map response failure
 

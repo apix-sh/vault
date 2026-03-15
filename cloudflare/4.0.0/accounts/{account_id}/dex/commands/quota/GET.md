@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/dex/commands/quota"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,7 +12,7 @@ Retrieves the current quota usage and limits for device commands within a specif
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path |
 
 
 ## Query Parameters
@@ -37,7 +36,7 @@ Get commands quota response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get commands quota failure response
 

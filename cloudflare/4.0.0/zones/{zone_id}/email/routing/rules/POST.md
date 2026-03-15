@@ -13,7 +13,7 @@ Rules consist of a set of criteria for matching emails (such as an email being s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [email_identifier](../../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters

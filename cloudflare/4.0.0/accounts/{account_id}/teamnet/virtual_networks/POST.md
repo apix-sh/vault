@@ -1,7 +1,6 @@
 ---
 method: "POST"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/teamnet/virtual_networks"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,7 +12,7 @@ Adds a new virtual network to an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_account_id](../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_account_id](../../../../_components/schemas/tunnel_account_id.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +45,7 @@ Create a virtual network response
 [tunnel_vnet_response_single](../../../../_components/schemas/tunnel_vnet_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create a virtual network response failure
 

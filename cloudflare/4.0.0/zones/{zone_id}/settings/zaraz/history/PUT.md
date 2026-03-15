@@ -13,7 +13,7 @@ Restores a historical published Zaraz configuration by ID for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Restore Zaraz historical configuration by ID response
 [zaraz_zaraz-config-response](../../../../../_components/schemas/zaraz_zaraz-config-response.md)
 
 
-### 4xx
+### 4XX
 
 Restore Zaraz historical configuration by ID failure
 

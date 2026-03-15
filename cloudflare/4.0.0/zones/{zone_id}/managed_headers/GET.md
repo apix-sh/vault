@@ -13,7 +13,7 @@ Fetches a list of all Managed Transforms.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [rulesets_ZoneId](../../../_components/schemas/rulesets_ZoneId.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [rulesets_ZoneId](../../../_components/schemas/rulesets_ZoneId.md) |  |
 
 
 ## Query Parameters
@@ -33,7 +33,7 @@ _(None)_
 
 Reference: [rulesets_ManagedTransforms](../../../_components/responses/rulesets_ManagedTransforms.md)
 
-### 4xx
+### 4XX
 
 Reference: [rulesets_Failure](../../../_components/responses/rulesets_Failure.md)
 

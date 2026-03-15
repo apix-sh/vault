@@ -13,7 +13,7 @@ Create network monitoring rules for account. Currently only supports creating a 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -48,7 +48,7 @@ Create rules response
 [magic-visibility-mnm_mnm_rules_single_response](../../../../_components/schemas/magic-visibility-mnm_mnm_rules_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create rules response failure
 

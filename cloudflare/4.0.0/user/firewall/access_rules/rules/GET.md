@@ -18,15 +18,15 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `mode` | No | [firewall_schemas-mode](../../../../_components/schemas/firewall_schemas-mode.md) | *Serialization: style=Form* |
-| `configuration.target` | No | string | *Serialization: style=Form* |
-| `configuration.value` | No | string | *Serialization: style=Form* |
-| `notes` | No | string | *Serialization: style=Form* |
-| `match` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
+| `mode` | No | [firewall_schemas-mode](../../../../_components/schemas/firewall_schemas-mode.md) |  |
+| `configuration.target` | No | string |  |
+| `configuration.value` | No | string |  |
+| `notes` | No | string |  |
+| `match` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `order` | No | string |  |
+| `direction` | No | string |  |
 
 
 
@@ -45,7 +45,7 @@ List IP Access rules response.
 [firewall_rule_collection_response](../../../../_components/schemas/firewall_rule_collection_response.md)
 
 
-### 4xx
+### 4XX
 
 List IP Access rules response failure.
 

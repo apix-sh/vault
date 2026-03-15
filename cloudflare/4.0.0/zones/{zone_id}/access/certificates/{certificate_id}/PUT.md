@@ -13,8 +13,8 @@ Updates a configured mTLS certificate.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `certificate_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `certificate_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -29,7 +29,10 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `associated_hostnames` | Yes | [access_schemas-associated_hostnames](../../../../../_components/schemas/access_schemas-associated_hostnames.md) |  |
+| `name` | No | [access_certificates_components-schemas-name-2](../../../../../_components/schemas/access_certificates_components-schemas-name-2.md) |  |
 
 
 ## Responses
@@ -42,7 +45,7 @@ Update an mTLS certificate response
 [access_certificates_components-schemas-single_response-2](../../../../../_components/schemas/access_certificates_components-schemas-single_response-2.md)
 
 
-### 4xx
+### 4XX
 
 Update an mTLS certificate response failure
 

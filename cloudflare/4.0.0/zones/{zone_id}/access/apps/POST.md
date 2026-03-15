@@ -13,7 +13,7 @@ Adds a new application to Access.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Add an Access application response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Add an Access application response failure
 

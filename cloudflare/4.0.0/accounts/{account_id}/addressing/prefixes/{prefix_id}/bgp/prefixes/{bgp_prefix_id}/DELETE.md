@@ -13,9 +13,9 @@ Delete a BGP Prefix associated with the specified IP Prefix. A BGP Prefix must b
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `bgp_prefix_id` | Yes | [addressing_bgp_prefix_identifier](../../../../../../../../_components/schemas/addressing_bgp_prefix_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `bgp_prefix_id` | Yes | [addressing_bgp_prefix_identifier](../../../../../../../../_components/schemas/addressing_bgp_prefix_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Delete BGP Prefix response
 [addressing_api-response-common](../../../../../../../../_components/schemas/addressing_api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Delete BGP Prefix response failure
 

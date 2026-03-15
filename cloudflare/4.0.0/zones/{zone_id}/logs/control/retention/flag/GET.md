@@ -13,7 +13,7 @@ Gets log retention flag for Logpull API.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [logcontrol_identifier](../../../../../../_components/schemas/logcontrol_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [logcontrol_identifier](../../../../../../_components/schemas/logcontrol_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get log retention flag response
 [logcontrol_retention_flag_response_single](../../../../../../_components/schemas/logcontrol_retention_flag_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get log retention flag response failure
 

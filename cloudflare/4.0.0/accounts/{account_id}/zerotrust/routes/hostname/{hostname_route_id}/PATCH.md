@@ -1,7 +1,6 @@
 ---
 method: "PATCH"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/zerotrust/routes/hostname/{hostname_route_id}"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,8 +12,8 @@ Updates a hostname route.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_account_id](../../../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
-| `hostname_route_id` | Yes | [tunnel_hostname_route_id](../../../../../../_components/schemas/tunnel_hostname_route_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_account_id](../../../../../../_components/schemas/tunnel_account_id.md) |  |
+| `hostname_route_id` | Yes | [tunnel_hostname_route_id](../../../../../../_components/schemas/tunnel_hostname_route_id.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +45,7 @@ Update hostname route response
 [tunnel_hostname_route_response_single](../../../../../../_components/schemas/tunnel_hostname_route_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update hostname route response failure
 

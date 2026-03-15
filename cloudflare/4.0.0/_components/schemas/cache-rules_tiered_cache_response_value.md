@@ -8,4 +8,4 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `result` | No | any |  |
+| `result` | No | allOf(2) |  |

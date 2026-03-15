@@ -13,8 +13,8 @@ Delete the downloads for a video. Use `/downloads/{download_type}` instead for t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete downloads response.
 [stream_deleted_response](../../../../../_components/schemas/stream_deleted_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete downloads response failure.
 

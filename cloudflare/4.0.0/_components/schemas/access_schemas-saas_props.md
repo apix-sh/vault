@@ -13,5 +13,5 @@ type: "object"
 | `auto_redirect_to_identity` | No | [access_schemas-auto_redirect_to_identity](access_schemas-auto_redirect_to_identity.md) |  |
 | `logo_url` | No | [access_logo_url](access_logo_url.md) |  |
 | `name` | No | [access_apps_components-schemas-name](access_apps_components-schemas-name.md) |  |
-| `saas_app` | No | any |  |
+| `saas_app` | No | oneOf(2) |  |
 | `type` | No | string | The application type. |

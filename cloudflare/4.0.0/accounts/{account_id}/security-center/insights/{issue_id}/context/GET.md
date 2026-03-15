@@ -13,8 +13,8 @@ Returns the full context payload for an insight. This endpoint is used for insig
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [security-center_identifier](../../../../../../_components/schemas/security-center_identifier.md) | *Serialization: style=Simple* |
-| `issue_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [security-center_identifier](../../../../../../_components/schemas/security-center_identifier.md) |  |
+| `issue_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ The request was successful.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 A client error occurred.
 

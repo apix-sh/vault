@@ -13,7 +13,7 @@ Retrieve information about the current Zero Trust account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_identifier](../../../_components/schemas/zero-trust-gateway_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_identifier](../../../_components/schemas/zero-trust-gateway_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Zero Trust account information response.
 [zero-trust-gateway_gateway_account](../../../_components/schemas/zero-trust-gateway_gateway_account.md)
 
 
-### 4xx
+### 4XX
 
 Zero Trust account information response failure.
 

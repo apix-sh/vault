@@ -13,8 +13,8 @@ Updates an account subscription.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `subscription_identifier` | Yes | [bill-subs-api_schemas-identifier](../../../../_components/schemas/bill-subs-api_schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) | *Serialization: style=Simple* |
+| `subscription_identifier` | Yes | [bill-subs-api_schemas-identifier](../../../../_components/schemas/bill-subs-api_schemas-identifier.md) |  |
+| `account_id` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update Subscription response
 [bill-subs-api_account_subscription_response_single](../../../../_components/schemas/bill-subs-api_account_subscription_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update Subscription response failure
 

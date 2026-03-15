@@ -14,10 +14,10 @@ created in the Cloudflare dashboard.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `dataset_id` | Yes | string | *Serialization: style=Simple* |
-| `version` | Yes | integer | *Serialization: style=Simple* |
-| `entry_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `dataset_id` | Yes | string |  |
+| `version` | Yes | integer |  |
+| `entry_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Dataset column uploaded successfully.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to upload dataset column.
 

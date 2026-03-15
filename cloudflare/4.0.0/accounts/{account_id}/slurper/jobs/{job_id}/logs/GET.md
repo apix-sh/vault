@@ -11,16 +11,16 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `job_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `job_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | *Serialization: style=Form* |
-| `offset` | No | integer | *Serialization: style=Form* |
+| `limit` | No | integer |  |
+| `offset` | No | integer |  |
 
 
 
@@ -39,7 +39,7 @@ Job logs
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure response
 

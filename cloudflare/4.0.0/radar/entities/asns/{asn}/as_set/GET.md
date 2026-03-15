@@ -13,14 +13,14 @@ Retrieves Internet Routing Registry AS-SETs that an AS is a member of.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `asn` | Yes | integer | Retrieves all AS-SETs that the given AS is a member of.<br/>*Serialization: style=Simple* |
+| `asn` | Yes | integer | Retrieves all AS-SETs that the given AS is a member of. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

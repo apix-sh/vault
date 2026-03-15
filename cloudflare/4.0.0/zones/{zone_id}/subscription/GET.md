@@ -13,7 +13,7 @@ Lists zone subscription details.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [bill-subs-api_identifier](../../../_components/schemas/bill-subs-api_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [bill-subs-api_identifier](../../../_components/schemas/bill-subs-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Zone Subscription Details response
 [bill-subs-api_zone_subscription_response_single](../../../_components/schemas/bill-subs-api_zone_subscription_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Zone Subscription Details response failure
 

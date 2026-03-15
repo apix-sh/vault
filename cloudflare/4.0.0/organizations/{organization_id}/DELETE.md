@@ -14,7 +14,7 @@ It must not contain any sub-organizations, accounts, members or users. (Currentl
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [organizations-api_OrganizationID](../../_components/schemas/organizations-api_OrganizationID.md) | The ID of the organization to delete.<br/>*Serialization: style=Simple* |
+| `organization_id` | Yes | [organizations-api_OrganizationID](../../_components/schemas/organizations-api_OrganizationID.md) | The ID of the organization to delete. |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ The request has succeeded.
 | `success` | Yes | boolean |  |
 
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

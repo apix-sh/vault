@@ -13,8 +13,8 @@ Delete a Page Shield policy by ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
-| `policy_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
+| `policy_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
@@ -34,7 +34,7 @@ _(None)_
 
 Delete a Page Shield policy response
 
-### 4xx
+### 4XX
 
 Delete a Page Shield policy response failure
 

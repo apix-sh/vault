@@ -13,9 +13,9 @@ Delete an account delegation for a given IP prefix.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `delegation_id` | Yes | [addressing_delegation_identifier](../../../../../../../_components/schemas/addressing_delegation_identifier.md) | *Serialization: style=Simple* |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `delegation_id` | Yes | [addressing_delegation_identifier](../../../../../../../_components/schemas/addressing_delegation_identifier.md) |  |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Delete Prefix Delegation response
 [addressing_id_response](../../../../../../../_components/schemas/addressing_id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete Prefix Delegation response failure
 

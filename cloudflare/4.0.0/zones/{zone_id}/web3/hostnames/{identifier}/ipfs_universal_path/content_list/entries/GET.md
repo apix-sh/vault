@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [web3_identifier](../../../../../../../../_components/schemas/web3_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [web3_identifier](../../../../../../../../_components/schemas/web3_identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [web3_identifier](../../../../../../../../_components/schemas/web3_identifier.md) |  |
+| `zone_id` | Yes | [web3_identifier](../../../../../../../../_components/schemas/web3_identifier.md) |  |
 
 
 ## Query Parameters
@@ -36,7 +36,7 @@ List IPFS Universal Path Gateway Content List Entries response.
 [web3_content_list_entry_collection_response](../../../../../../../../_components/schemas/web3_content_list_entry_collection_response.md)
 
 
-### 4xx
+### 4XX
 
 List IPFS Universal Path Gateway Content List Entries error response (4XX).
 
@@ -44,7 +44,7 @@ List IPFS Universal Path Gateway Content List Entries error response (4XX).
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 List IPFS Universal Path Gateway Content List Entries response failure.
 

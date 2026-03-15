@@ -13,7 +13,7 @@ Update Zero Trust Audit SSH and SSH with Access for Infrastructure settings for 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Update Zero Trust SSH settings response.
 [zero-trust-gateway_audit_ssh_settings_components-schemas-single_response](../../../../_components/schemas/zero-trust-gateway_audit_ssh_settings_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Zero Trust SSH settings response failure.
 

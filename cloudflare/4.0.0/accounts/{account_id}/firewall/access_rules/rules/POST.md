@@ -15,7 +15,7 @@ Note: To create an IP Access rule that applies to a single zone, refer to the [I
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [firewall_account_identifier](../../../../../_components/schemas/firewall_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [firewall_account_identifier](../../../../../_components/schemas/firewall_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Create an IP Access rule response.
 [firewall_response_single](../../../../../_components/schemas/firewall_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create an IP Access rule response failure.
 

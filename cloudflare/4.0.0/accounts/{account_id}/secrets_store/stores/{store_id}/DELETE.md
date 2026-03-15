@@ -13,8 +13,8 @@ Deletes a single store
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [secrets-store_account_identifier](../../../../../_components/schemas/secrets-store_account_identifier.md) | *Serialization: style=Simple* |
-| `store_id` | Yes | [secrets-store_store_identifier](../../../../../_components/schemas/secrets-store_store_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [secrets-store_account_identifier](../../../../../_components/schemas/secrets-store_account_identifier.md) |  |
+| `store_id` | Yes | [secrets-store_store_identifier](../../../../../_components/schemas/secrets-store_store_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ store details
 [secrets-store_store_response](../../../../../_components/schemas/secrets-store_store_response.md)
 
 
-### 4xx
+### 4XX
 
 failure
 

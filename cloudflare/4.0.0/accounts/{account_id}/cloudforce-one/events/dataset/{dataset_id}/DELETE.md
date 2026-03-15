@@ -13,8 +13,8 @@ Deletes a dataset given a datasetId.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `dataset_id` | Yes | string | Dataset ID to delete<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `dataset_id` | Yes | string | Dataset ID to delete |
 
 
 ## Query Parameters

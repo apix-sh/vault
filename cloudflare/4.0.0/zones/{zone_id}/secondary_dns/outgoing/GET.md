@@ -13,7 +13,7 @@ Get primary zone configuration for outgoing zone transfers.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [secondary-dns_identifier](../../../../_components/schemas/secondary-dns_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [secondary-dns_identifier](../../../../_components/schemas/secondary-dns_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Primary Zone Configuration Details response.
 [secondary-dns_single_response_outgoing](../../../../_components/schemas/secondary-dns_single_response_outgoing.md)
 
 
-### 4xx
+### 4XX
 
 Primary Zone Configuration Details response failure.
 

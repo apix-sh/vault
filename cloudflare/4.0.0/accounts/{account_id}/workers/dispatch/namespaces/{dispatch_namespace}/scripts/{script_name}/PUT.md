@@ -13,16 +13,16 @@ Upload a worker module to a Workers for Platforms namespace. You can find more a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../../../../_components/schemas/workers_script_name.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `bindings_inherit` | No | string | When set to "strict", the upload will fail if any `inherit` type bindings cannot be resolved against the previous version of the script. Without this, unresolvable inherit bindings are silently dropped.<br/>*Serialization: style=Form* |
+| `bindings_inherit` | No | string | When set to "strict", the upload will fail if any `inherit` type bindings cannot be resolved against the previous version of the script. Without this, unresolvable inherit bindings are silently dropped. |
 
 
 
@@ -37,7 +37,7 @@ Upload a worker module to a Workers for Platforms namespace. You can find more a
 
 Reference: [workers_200](../../../../../../../../_components/responses/workers_200.md)
 
-### 4xx
+### 4XX
 
 Reference: [workers_4XX](../../../../../../../../_components/responses/workers_4XX.md)
 

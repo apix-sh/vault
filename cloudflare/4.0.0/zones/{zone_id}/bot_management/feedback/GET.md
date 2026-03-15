@@ -14,7 +14,7 @@ Returns all feedback reports previously submitted for the specified zone. Feedba
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [bot-management_identifier](../../../../_components/schemas/bot-management_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [bot-management_identifier](../../../../_components/schemas/bot-management_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List of feedback reports
 array<[bot-management_feedback_report](../../../../_components/schemas/bot-management_feedback_report.md)>
 
 
-### 4xx
+### 4XX
 
 Feedback list failure
 

@@ -13,15 +13,15 @@ Delete Stream in Account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [cloudflare-pipelines_workers-pipelines-account-id](../../../../../../_components/schemas/cloudflare-pipelines_workers-pipelines-account-id.md) | *Serialization: style=Simple* |
-| `stream_id` | Yes | [cloudflare-pipelines_workers-pipelines-stream-id](../../../../../../_components/schemas/cloudflare-pipelines_workers-pipelines-stream-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [cloudflare-pipelines_workers-pipelines-account-id](../../../../../../_components/schemas/cloudflare-pipelines_workers-pipelines-account-id.md) |  |
+| `stream_id` | Yes | [cloudflare-pipelines_workers-pipelines-stream-id](../../../../../../_components/schemas/cloudflare-pipelines_workers-pipelines-stream-id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `force` | No | string | *Serialization: style=Form* |
+| `force` | No | string |  |
 
 
 
@@ -36,7 +36,7 @@ _(None)_
 
 Indicates a successfully deleted Stream.
 
-### 4xx
+### 4XX
 
 Indicates an error in listing Streams.
 

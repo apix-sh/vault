@@ -13,7 +13,7 @@ Fetch a list of Workers for Platforms namespaces.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Fetch a list of Workers for Platforms namespaces.
 [workers_namespace-list-response](../../../../../_components/schemas/workers_namespace-list-response.md)
 
 
-### 4xx
+### 4XX
 
 Failure to get list of Workers for Platforms namespaces.
 

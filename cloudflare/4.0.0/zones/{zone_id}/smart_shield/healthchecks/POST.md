@@ -13,7 +13,7 @@ Create a new health check.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [smartshield_identifier](../../../../_components/schemas/smartshield_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [smartshield_identifier](../../../../_components/schemas/smartshield_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Health Check response.
 [smartshield_single_hc_response](../../../../_components/schemas/smartshield_single_hc_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Health Check response failure.
 

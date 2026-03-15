@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Defines the Account ID.<br/>*Serialization: style=Simple* |
-| `config_id` | Yes | string | Defines the Config ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Defines the Account ID. |
+| `config_id` | Yes | string | Defines the Config ID. |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete a Scan Config.
 | `success` | Yes | boolean |  |
 
 
-### 4xx
+### 4XX
 
 Delete a Scan Config failure.
 

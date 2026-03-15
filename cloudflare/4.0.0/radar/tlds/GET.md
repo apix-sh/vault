@@ -18,12 +18,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limits the number of objects returned in the response.<br/>*Serialization: style=Form* |
-| `offset` | No | integer | Skips the specified number of objects before fetching the results.<br/>*Serialization: style=Form* |
-| `tldManager` | No | string | Filters results by TLD manager.<br/>*Serialization: style=Form* |
-| `tldType` | No | string | Filters results by TLD type.<br/>*Serialization: style=Form* |
-| `tld` | No | string | Filters results by top-level domain. Specify a comma-separated list of TLDs.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limits the number of objects returned in the response. |
+| `offset` | No | integer | Skips the specified number of objects before fetching the results. |
+| `tldManager` | No | string | Filters results by TLD manager. |
+| `tldType` | No | string | Filters results by TLD type. |
+| `tld` | No | string | Filters results by top-level domain. Specify a comma-separated list of TLDs. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

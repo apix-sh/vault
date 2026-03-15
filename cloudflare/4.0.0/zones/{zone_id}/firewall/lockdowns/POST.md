@@ -13,7 +13,7 @@ Creates a new Zone Lockdown rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Create a Zone Lockdown rule response
 [firewall_zonelockdown_response_single](../../../../_components/schemas/firewall_zonelockdown_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create a Zone Lockdown rule response failure
 

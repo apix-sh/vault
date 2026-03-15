@@ -13,4 +13,4 @@ Member attached to a User Group.
 | :------- | :------: | :--- | :---------- |
 | `email` | No | [iam_email](iam_email.md) |  |
 | `id` | Yes | string | Account member identifier. |
-| `status` | No | any | The member's status in the account. |
+| `status` | No | any | The member's status in the account. Allowed values: accepted, pending |

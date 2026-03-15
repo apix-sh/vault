@@ -13,15 +13,15 @@ Runs inference on the @hf/thebloke/openhermes-2.5-mistral-7b-awq model.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queueRequest` | No | string | *Serialization: style=Form* |
-| `tags` | No | string | *Serialization: style=Form* |
+| `queueRequest` | No | string |  |
+| `tags` | No | string |  |
 
 
 

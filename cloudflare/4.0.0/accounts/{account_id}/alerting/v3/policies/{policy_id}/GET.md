@@ -13,8 +13,8 @@ Get details for a single policy.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
-| `policy_id` | Yes | [aaa_policy-id](../../../../../../_components/schemas/aaa_policy-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) |  |
+| `policy_id` | Yes | [aaa_policy-id](../../../../../../_components/schemas/aaa_policy-id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Notification policy response
 [aaa_single_response](../../../../../../_components/schemas/aaa_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get a Notification policy response failure
 

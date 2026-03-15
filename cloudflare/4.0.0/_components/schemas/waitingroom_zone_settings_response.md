@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # waitingroom_zone_settings_response
@@ -8,3 +8,5 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `result` | No | oneOf(2) |  |
+| `result` | Yes | object |  |

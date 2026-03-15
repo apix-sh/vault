@@ -13,15 +13,15 @@ Retrieves the test schedule for a page in a specific region.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [observatory_identifier](../../../../../_components/schemas/observatory_identifier.md) | *Serialization: style=Simple* |
-| `url` | Yes | [observatory_url](../../../../../_components/schemas/observatory_url.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [observatory_identifier](../../../../../_components/schemas/observatory_identifier.md) |  |
+| `url` | Yes | [observatory_url](../../../../../_components/schemas/observatory_url.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `region` | No | allOf(2) | *Serialization: style=Form* |
+| `region` | No | allOf(2) |  |
 
 
 
@@ -40,7 +40,7 @@ Page test schedule.
 [observatory_schedule-response-single](../../../../../_components/schemas/observatory_schedule-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

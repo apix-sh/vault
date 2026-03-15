@@ -13,18 +13,18 @@ List all TCP Flow Protection filters for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `mode` | No | string | The mode of the filters to get. Optional. Valid values: 'enabled', 'disabled', 'monitoring'.<br/>*Serialization: style=Form, explode=false* |
-| `page` | No | integer | The page number for pagination. Defaults to 1.<br/>*Serialization: style=Form, explode=false* |
-| `per_page` | No | integer | The number of items per page. Must be between 10 and 1000. Defaults to 25.<br/>*Serialization: style=Form, explode=false* |
-| `order` | No | string | The field to order by. Defaults to 'prefix'.<br/>*Serialization: style=Form, explode=false* |
-| `direction` | No | string | The direction of ordering (ASC or DESC). Defaults to 'ASC'.<br/>*Serialization: style=Form, explode=false* |
+| `mode` | No | string | The mode of the filters to get. Optional. Valid values: 'enabled', 'disabled', 'monitoring'.<br/>*Serialization: explode=false* |
+| `page` | No | integer | The page number for pagination. Defaults to 1.<br/>*Serialization: explode=false* |
+| `per_page` | No | integer | The number of items per page. Must be between 10 and 1000. Defaults to 25.<br/>*Serialization: explode=false* |
+| `order` | No | string | The field to order by. Defaults to 'prefix'.<br/>*Serialization: explode=false* |
+| `direction` | No | string | The direction of ordering (ASC or DESC). Defaults to 'ASC'.<br/>*Serialization: explode=false* |
 
 
 
@@ -43,7 +43,7 @@ List all TCP Flow Protection filters response.
 [dos_expression-filter-list-response](../../../../../../../_components/schemas/dos_expression-filter-list-response.md)
 
 
-### 4xx
+### 4XX
 
 List all TCP Flow Protection filters failure.
 

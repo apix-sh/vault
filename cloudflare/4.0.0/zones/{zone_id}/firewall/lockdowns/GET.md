@@ -13,24 +13,24 @@ Fetches Zone Lockdown rules. You can filter the results using several optional p
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `description` | No | allOf(1) | *Serialization: style=Form* |
-| `modified_on` | No | allOf(1) | *Serialization: style=Form* |
-| `ip` | No | allOf(1) | *Serialization: style=Form* |
-| `priority` | No | allOf(1) | *Serialization: style=Form* |
-| `uri_search` | No | allOf(1) | *Serialization: style=Form* |
-| `ip_range_search` | No | allOf(1) | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `created_on` | No | string | *Serialization: style=Form* |
-| `description_search` | No | string | *Serialization: style=Form* |
-| `ip_search` | No | string | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `description` | No | allOf(1) |  |
+| `modified_on` | No | allOf(1) |  |
+| `ip` | No | allOf(1) |  |
+| `priority` | No | allOf(1) |  |
+| `uri_search` | No | allOf(1) |  |
+| `ip_range_search` | No | allOf(1) |  |
+| `per_page` | No | number |  |
+| `created_on` | No | string |  |
+| `description_search` | No | string |  |
+| `ip_search` | No | string |  |
 
 
 
@@ -49,7 +49,7 @@ List Zone Lockdown rules response
 [firewall_zonelockdown_response_collection](../../../../_components/schemas/firewall_zonelockdown_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Zone Lockdown rules response failure
 

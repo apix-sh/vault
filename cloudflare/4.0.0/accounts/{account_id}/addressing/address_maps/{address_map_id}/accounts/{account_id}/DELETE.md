@@ -13,8 +13,8 @@ Remove an account as a member of a particular address map.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
-| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../../../_components/schemas/addressing_address_map_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
+| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../../../_components/schemas/addressing_address_map_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Remove an account membership from an Address Map response
 [addressing_api-response-collection](../../../../../../../_components/schemas/addressing_api-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Remove an account membership from an Address Map response failure
 

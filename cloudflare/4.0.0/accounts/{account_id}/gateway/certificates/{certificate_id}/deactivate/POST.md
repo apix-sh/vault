@@ -13,8 +13,8 @@ Unbind a single Zero Trust certificate from the edge.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `certificate_id` | Yes | [zero-trust-gateway_uuid](../../../../../../_components/schemas/zero-trust-gateway_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `certificate_id` | Yes | [zero-trust-gateway_uuid](../../../../../../_components/schemas/zero-trust-gateway_uuid.md) |  |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Deactivate Zero Trust certificate details response.
 [zero-trust-gateway_single_response](../../../../../../_components/schemas/zero-trust-gateway_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Deactivate Zero Trust certificate details response failure.
 

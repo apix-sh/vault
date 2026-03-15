@@ -13,3 +13,4 @@ Request body schema for setting tags on zone-level resources with no extra requi
 | :------- | :------: | :--- | :---------- |
 | `resource_id` | Yes | [resource-tagging_resource_id](resource-tagging_resource_id.md) |  |
 | `resource_type` | Yes | [resource-tagging_zone_resource_type_base_enum](resource-tagging_zone_resource_type_base_enum.md) |  |
+| `tags` | No | [resource-tagging_tags](resource-tagging_tags.md) |  |

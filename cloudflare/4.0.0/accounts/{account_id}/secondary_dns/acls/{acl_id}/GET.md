@@ -13,8 +13,8 @@ Get ACL.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `acl_id` | Yes | [secondary-dns_components-schemas-identifier](../../../../../_components/schemas/secondary-dns_components-schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [secondary-dns_account_identifier](../../../../../_components/schemas/secondary-dns_account_identifier.md) | *Serialization: style=Simple* |
+| `acl_id` | Yes | [secondary-dns_components-schemas-identifier](../../../../../_components/schemas/secondary-dns_components-schemas-identifier.md) |  |
+| `account_id` | Yes | [secondary-dns_account_identifier](../../../../../_components/schemas/secondary-dns_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ ACL Details response.
 [secondary-dns_components-schemas-single_response](../../../../../_components/schemas/secondary-dns_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 ACL Details response failure.
 

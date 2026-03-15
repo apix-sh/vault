@@ -13,7 +13,7 @@ Allows an account admin to set the can_be_enabled setting on a list of zones.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | account id<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | account id |
 
 
 ## Query Parameters

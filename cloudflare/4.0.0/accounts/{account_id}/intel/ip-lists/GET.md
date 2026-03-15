@@ -13,7 +13,7 @@ Returns a list of available IP list categories (e.g., anonymizer, botnetcc, malw
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Available IP Lists response.
 [intel_components-schemas-response](../../../../_components/schemas/intel_components-schemas-response.md)
 
 
-### 4xx
+### 4XX
 
 Get Available IP Lists response failure.
 

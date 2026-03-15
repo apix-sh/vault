@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/teamnet/virtual_networks"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,18 +12,18 @@ Lists and filters virtual networks in an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_account_id](../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_account_id](../../../../_components/schemas/tunnel_account_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | No | [tunnel_virtual_network_id](../../../../_components/schemas/tunnel_virtual_network_id.md) | *Serialization: style=Form* |
-| `name` | No | [tunnel_virtual_network_name](../../../../_components/schemas/tunnel_virtual_network_name.md) | *Serialization: style=Form* |
-| `is_default` | No | boolean | *Serialization: style=Form* |
-| `is_default_network` | No | boolean | *Serialization: style=Form* |
-| `is_deleted` | No | boolean | *Serialization: style=Form* |
+| `id` | No | [tunnel_virtual_network_id](../../../../_components/schemas/tunnel_virtual_network_id.md) |  |
+| `name` | No | [tunnel_virtual_network_name](../../../../_components/schemas/tunnel_virtual_network_name.md) |  |
+| `is_default` | No | boolean |  |
+| `is_default_network` | No | boolean |  |
+| `is_deleted` | No | boolean |  |
 
 
 
@@ -43,7 +42,7 @@ List virtual networks response
 [tunnel_vnet_response_collection](../../../../_components/schemas/tunnel_vnet_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List virtual networks response failure
 

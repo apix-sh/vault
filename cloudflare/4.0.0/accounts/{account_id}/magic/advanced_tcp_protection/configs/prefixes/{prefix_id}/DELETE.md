@@ -13,8 +13,8 @@ Delete the prefix for an account given a UUID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account.<br/>*Serialization: style=Simple* |
-| `prefix_id` | Yes | [dos_uuid](../../../../../../../_components/schemas/dos_uuid.md) | The UUID of the prefix to delete.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account. |
+| `prefix_id` | Yes | [dos_uuid](../../../../../../../_components/schemas/dos_uuid.md) | The UUID of the prefix to delete. |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete prefix response.
 [dos_api-response-common](../../../../../../../_components/schemas/dos_api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Delete prefix failure.
 

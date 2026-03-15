@@ -44,7 +44,7 @@ Store details
 [secrets-store_store_response](../../../../_components/schemas/secrets-store_store_response.md)
 
 
-### 4xx
+### 4XX
 
 Create store failure
 

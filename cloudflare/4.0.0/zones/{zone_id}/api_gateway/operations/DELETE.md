@@ -53,7 +53,7 @@ Delete multiple operations response
 [api-shield_api-response-common](../../../../_components/schemas/api-shield_api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Delete multiple operations response failure
 

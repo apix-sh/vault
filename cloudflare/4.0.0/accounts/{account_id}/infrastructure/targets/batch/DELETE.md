@@ -13,7 +13,7 @@ Removes one or more targets.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [infra_AccountTag](../../../../../_components/schemas/infra_AccountTag.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [infra_AccountTag](../../../../../_components/schemas/infra_AccountTag.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Supported content types:
 
 Successfully deleted the targets
 
-### 4xx
+### 4XX
 
 Failed to delete the targets
 

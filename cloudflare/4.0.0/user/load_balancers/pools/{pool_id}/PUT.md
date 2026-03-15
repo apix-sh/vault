@@ -13,7 +13,7 @@ Modify a configured pool.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../_components/schemas/load-balancing_schemas-identifier.md) | *Serialization: style=Simple* |
+| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../_components/schemas/load-balancing_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -58,7 +58,7 @@ Update Pool response.
 [load-balancing_schemas-single_response](../../../../_components/schemas/load-balancing_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Pool response failure.
 

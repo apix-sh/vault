@@ -15,8 +15,8 @@ List the Cloudflare services this prefix is currently bound to. Traffic sent to 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) |  |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Service Bindings attached to the Prefix
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Service Bindings response failure
 

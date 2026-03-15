@@ -13,8 +13,8 @@ Update a DEX test.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | *Serialization: style=Simple* |
-| `dex_test_id` | Yes | [digital-experience-monitoring_uuid](../../../../../../_components/schemas/digital-experience-monitoring_uuid.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) |  |
+| `dex_test_id` | Yes | [digital-experience-monitoring_uuid](../../../../../../_components/schemas/digital-experience-monitoring_uuid.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update Dex test response
 [digital-experience-monitoring_dex-single_response](../../../../../../_components/schemas/digital-experience-monitoring_dex-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Dex test response failure
 

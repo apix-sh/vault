@@ -9,4 +9,4 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `item_type` | Yes | string |  |
-| `list` | Yes | array<any> |  |
+| `list` | Yes | array<oneOf(2)> |  |

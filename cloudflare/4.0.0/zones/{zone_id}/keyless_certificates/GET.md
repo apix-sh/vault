@@ -13,7 +13,7 @@ List all Keyless SSL configurations for a given zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Keyless SSL Configurations response
 [tls-certificates-and-hostnames_keyless_response_collection](../../../_components/schemas/tls-certificates-and-hostnames_keyless_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Keyless SSL Configurations response failure
 

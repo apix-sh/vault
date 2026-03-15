@@ -13,46 +13,46 @@ List, search, sort, and filter a zones' DNS records.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-records_identifier](../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-records_identifier](../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | *Serialization: style=Form* |
-| `name.exact` | No | string | *Serialization: style=Form* |
-| `name.contains` | No | string | *Serialization: style=Form* |
-| `name.startswith` | No | string | *Serialization: style=Form* |
-| `name.endswith` | No | string | *Serialization: style=Form* |
-| `type` | No | [dns-records_type](../../../_components/schemas/dns-records_type.md) | *Serialization: style=Form* |
-| `content` | No | string | *Serialization: style=Form* |
-| `content.exact` | No | string | *Serialization: style=Form* |
-| `content.contains` | No | string | *Serialization: style=Form* |
-| `content.startswith` | No | string | *Serialization: style=Form* |
-| `content.endswith` | No | string | *Serialization: style=Form* |
-| `proxied` | No | [dns-records_proxied](../../../_components/schemas/dns-records_proxied.md) | *Serialization: style=Form* |
-| `match` | No | [dns-records_match](../../../_components/schemas/dns-records_match.md) | *Serialization: style=Form* |
-| `comment` | No | string | *Serialization: style=Form* |
-| `comment.present` | No | string | *Serialization: style=Form* |
-| `comment.absent` | No | string | *Serialization: style=Form* |
-| `comment.exact` | No | string | *Serialization: style=Form* |
-| `comment.contains` | No | string | *Serialization: style=Form* |
-| `comment.startswith` | No | string | *Serialization: style=Form* |
-| `comment.endswith` | No | string | *Serialization: style=Form* |
-| `tag` | No | string | *Serialization: style=Form* |
-| `tag.present` | No | string | *Serialization: style=Form* |
-| `tag.absent` | No | string | *Serialization: style=Form* |
-| `tag.exact` | No | string | *Serialization: style=Form* |
-| `tag.contains` | No | string | *Serialization: style=Form* |
-| `tag.startswith` | No | string | *Serialization: style=Form* |
-| `tag.endswith` | No | string | *Serialization: style=Form* |
-| `search` | No | [dns-records_search](../../../_components/schemas/dns-records_search.md) | *Serialization: style=Form* |
-| `tag_match` | No | [dns-records_tag_match](../../../_components/schemas/dns-records_tag_match.md) | *Serialization: style=Form* |
-| `page` | No | [dns-records_page](../../../_components/schemas/dns-records_page.md) | *Serialization: style=Form* |
-| `per_page` | No | [dns-records_per_page](../../../_components/schemas/dns-records_per_page.md) | *Serialization: style=Form* |
-| `order` | No | [dns-records_order](../../../_components/schemas/dns-records_order.md) | *Serialization: style=Form* |
-| `direction` | No | [dns-records_direction](../../../_components/schemas/dns-records_direction.md) | *Serialization: style=Form* |
+| `name` | No | string |  |
+| `name.exact` | No | string |  |
+| `name.contains` | No | string |  |
+| `name.startswith` | No | string |  |
+| `name.endswith` | No | string |  |
+| `type` | No | [dns-records_type](../../../_components/schemas/dns-records_type.md) |  |
+| `content` | No | string |  |
+| `content.exact` | No | string |  |
+| `content.contains` | No | string |  |
+| `content.startswith` | No | string |  |
+| `content.endswith` | No | string |  |
+| `proxied` | No | [dns-records_proxied](../../../_components/schemas/dns-records_proxied.md) |  |
+| `match` | No | [dns-records_match](../../../_components/schemas/dns-records_match.md) |  |
+| `comment` | No | string |  |
+| `comment.present` | No | string |  |
+| `comment.absent` | No | string |  |
+| `comment.exact` | No | string |  |
+| `comment.contains` | No | string |  |
+| `comment.startswith` | No | string |  |
+| `comment.endswith` | No | string |  |
+| `tag` | No | string |  |
+| `tag.present` | No | string |  |
+| `tag.absent` | No | string |  |
+| `tag.exact` | No | string |  |
+| `tag.contains` | No | string |  |
+| `tag.startswith` | No | string |  |
+| `tag.endswith` | No | string |  |
+| `search` | No | [dns-records_search](../../../_components/schemas/dns-records_search.md) |  |
+| `tag_match` | No | [dns-records_tag_match](../../../_components/schemas/dns-records_tag_match.md) |  |
+| `page` | No | [dns-records_page](../../../_components/schemas/dns-records_page.md) |  |
+| `per_page` | No | [dns-records_per_page](../../../_components/schemas/dns-records_per_page.md) |  |
+| `order` | No | [dns-records_order](../../../_components/schemas/dns-records_order.md) |  |
+| `direction` | No | [dns-records_direction](../../../_components/schemas/dns-records_direction.md) |  |
 
 
 
@@ -71,7 +71,7 @@ List DNS Records response
 [dns-records_dns_response_collection](../../../_components/schemas/dns-records_dns_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List DNS Records response failure
 

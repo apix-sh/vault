@@ -13,7 +13,7 @@ Enable Content Scanning.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Enable Content Scanning response.
 [waf-product-api-bundle_schemas-api-response-common](../../../../_components/schemas/waf-product-api-bundle_schemas-api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Enable Content Scanning failure response.
 

@@ -13,9 +13,9 @@ Retrieves the endpoint URL for an AI Gateway.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `gateway_id` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `provider` | Yes | string | *Serialization: style=Simple* |
+| `gateway_id` | Yes | string |  |
+| `account_id` | Yes | string |  |
+| `provider` | Yes | string |  |
 
 
 ## Query Parameters

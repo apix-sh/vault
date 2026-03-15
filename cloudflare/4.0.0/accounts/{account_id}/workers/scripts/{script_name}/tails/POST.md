@@ -13,8 +13,8 @@ Starts a tail that receives logs and exception from a Worker.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../../_components/schemas/workers_script_name.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Start Tail response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Start Tail response failure.
 

@@ -13,7 +13,7 @@ Creates a Keyless SSL configuration that allows SSL/TLS termination without expo
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -48,7 +48,7 @@ Create Keyless SSL Configuration response
 [tls-certificates-and-hostnames_keyless_response_single](../../../_components/schemas/tls-certificates-and-hostnames_keyless_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create Keyless SSL Configuration response failure
 

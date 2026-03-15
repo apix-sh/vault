@@ -13,8 +13,8 @@ Permanently deletes a custom hostname and revokes any SSL certificates that were
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `custom_hostname_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `custom_hostname_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Delete Custom Hostname (and any issued SSL certificates) response
 | `id` | No | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
-### 4xx
+### 4XX
 
 Delete Custom Hostname (and any issued SSL certificates) response failure
 

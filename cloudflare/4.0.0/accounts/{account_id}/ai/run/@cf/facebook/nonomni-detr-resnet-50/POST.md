@@ -1,27 +1,27 @@
 ---
 method: "POST"
-url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/facebook/omni-detr-resnet-50"
+url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/facebook/nonomni-detr-resnet-50"
 auth: "bearer | apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key)"
 content_type: "application/octet-stream"
 ---
 
-# Execute @cf/facebook/omni-detr-resnet-50 model.
+# Execute @cf/facebook/nonomni-detr-resnet-50 model.
 
-Runs inference on the @cf/facebook/omni-detr-resnet-50 model.
+Runs inference on the @cf/facebook/nonomni-detr-resnet-50 model.
 
 ## Path Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queueRequest` | No | string | *Serialization: style=Form* |
-| `tags` | No | string | *Serialization: style=Form* |
+| `queueRequest` | No | string |  |
+| `tags` | No | string |  |
 
 
 

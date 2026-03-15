@@ -13,8 +13,8 @@ Creates a new instance of a workflow, starting its execution.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `workflow_name` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `workflow_name` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -31,7 +31,7 @@ Supported content types:
 ### Inline Request Schema (`application/json`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `instance_id` | No | any |  |
+| `instance_id` | No | string |  |
 | `instance_retention` | No | object |  |
 | `params` | No | object |  |
 
@@ -61,7 +61,7 @@ Provided Workflow ID is not valid.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 
@@ -74,7 +74,7 @@ Workflow Name not found.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 

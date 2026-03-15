@@ -13,7 +13,7 @@ Get Universal SSL Settings for a Zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Universal SSL Settings Details response
 [tls-certificates-and-hostnames_ssl_universal_settings_response](../../../../../_components/schemas/tls-certificates-and-hostnames_ssl_universal_settings_response.md)
 
 
-### 4xx
+### 4XX
 
 Universal SSL Settings Details response failure
 

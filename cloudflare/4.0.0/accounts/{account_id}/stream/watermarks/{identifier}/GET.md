@@ -13,8 +13,8 @@ Retrieves details for a single watermark profile.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_watermark_identifier](../../../../../_components/schemas/stream_watermark_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_watermark_identifier](../../../../../_components/schemas/stream_watermark_identifier.md) |  |
+| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Watermark profile details response.
 [stream_watermark_response_single](../../../../../_components/schemas/stream_watermark_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Watermark profile details response failure.
 

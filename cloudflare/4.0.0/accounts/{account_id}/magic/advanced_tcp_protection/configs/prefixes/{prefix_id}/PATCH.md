@@ -13,8 +13,8 @@ Update a prefix specified by the given UUID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account.<br/>*Serialization: style=Simple* |
-| `prefix_id` | Yes | [dos_uuid](../../../../../../../_components/schemas/dos_uuid.md) | The UUID of the prefix to update.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account. |
+| `prefix_id` | Yes | [dos_uuid](../../../../../../../_components/schemas/dos_uuid.md) | The UUID of the prefix to update. |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update prefix response.
 [dos_prefix-response](../../../../../../../_components/schemas/dos_prefix-response.md)
 
 
-### 4xx
+### 4XX
 
 Update prefix failure.
 

@@ -13,17 +13,17 @@ Remove a secret from a script uploaded to a Workers for Platforms namespace.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
-| `secret_name` | Yes | [workers_secret_name](../../../../../../../../../../_components/schemas/workers_secret_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../../../../../../_components/schemas/workers_script_name.md) |  |
+| `secret_name` | Yes | [workers_secret_name](../../../../../../../../../../_components/schemas/workers_secret_name.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `url_encoded` | No | [workers_secret_name_url_encoded](../../../../../../../../../../_components/schemas/workers_secret_name_url_encoded.md) | *Serialization: style=Form* |
+| `url_encoded` | No | [workers_secret_name_url_encoded](../../../../../../../../../../_components/schemas/workers_secret_name_url_encoded.md) |  |
 
 
 
@@ -42,7 +42,7 @@ Delete script secret binding (Workers for Platforms).
 [workers_api-response-null-result](../../../../../../../../../../_components/schemas/workers_api-response-null-result.md)
 
 
-### 4xx
+### 4XX
 
 Delete script secret failure (Workers for Platforms).
 

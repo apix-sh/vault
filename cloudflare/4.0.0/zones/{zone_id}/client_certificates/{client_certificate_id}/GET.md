@@ -13,8 +13,8 @@ Get Details for a single mTLS API Shield Client Certificate
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `client_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `client_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Client Certificate Details Response
 [tls-certificates-and-hostnames_client_certificate_response_single](../../../../_components/schemas/tls-certificates-and-hostnames_client_certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Client Certificate Details Response Failure
 

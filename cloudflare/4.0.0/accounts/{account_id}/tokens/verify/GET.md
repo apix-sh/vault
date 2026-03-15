@@ -13,7 +13,7 @@ Test whether a token works.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Verify Token response
 [iam_token_verify_response_single_segment](../../../../_components/schemas/iam_token_verify_response_single_segment.md)
 
 
-### 4xx
+### 4XX
 
 Verify Token response failure
 

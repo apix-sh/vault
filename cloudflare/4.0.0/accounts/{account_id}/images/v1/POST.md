@@ -15,7 +15,7 @@ An image can be uploaded by sending an image file or passing an accessible to an
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [images_account_identifier](../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [images_account_identifier](../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Upload an image response
 [images_image_response_single](../../../../_components/schemas/images_image_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Upload an image response failure
 

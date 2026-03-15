@@ -39,7 +39,7 @@ Account Creation Success Response
 [iam_response_single_account](../_components/schemas/iam_response_single_account.md)
 
 
-### 4xx
+### 4XX
 
 Account Creation Failure Response
 

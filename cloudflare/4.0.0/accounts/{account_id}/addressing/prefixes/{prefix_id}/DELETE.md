@@ -13,8 +13,8 @@ Delete an unapproved prefix owned by the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Prefix response
 [addressing_api-response-single](../../../../../_components/schemas/addressing_api-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Delete Prefix response failure
 

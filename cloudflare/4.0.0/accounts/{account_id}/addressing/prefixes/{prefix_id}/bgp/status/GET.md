@@ -17,8 +17,8 @@ subnets of an IP prefix.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Get Advertisement Status response
 [addressing_advertised_response](../../../../../../../_components/schemas/addressing_advertised_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Advertisement Status response failure
 

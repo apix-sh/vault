@@ -13,25 +13,17 @@ Get applications with different filters.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `accountId` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `accountId` | Yes | string | Account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `filter` | No | string | Filter applications using key:value format. Supported filter keys:
-- name: Filter by application name (e.g., name:HR)
-- id: Filter by application ID (e.g., id:0b63249c-95bf-4cc0-a7cc-d7faaaf1dac0)
-- human_id: Filter by human-readable ID (e.g., human_id:HR)
-- hostname: Filter by hostname or support domain (e.g., hostname:portal.example.com)
-- source: Filter by application source name (e.g., source:cloudflare)
-- ip_subnet: Filter by IP subnet in CIDR notation (e.g., ip_subnet:192.168.1.0/24).
-.
-<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Limit of number of results to return.<br/>*Serialization: style=Form* |
-| `offset` | No | integer | Offset of results to return.<br/>*Serialization: style=Form* |
-| `order_by` | No | string | Order by result by field name and order (e.g., name:asc).<br/>*Serialization: style=Form* |
+| `filter` | No | string | Filter applications using key:value format. Supported filter keys:<br/>- name: Filter by application name (e.g., name:HR)<br/>- id: Filter by application ID (e.g., id:0b63249c-95bf-4cc0-a7cc-d7faaaf1dac0)<br/>- human_id: Filter by human-readable ID (e.g., human_id:HR)<br/>- hostname: Filter by hostname or support domain (e.g., hostname:portal.example.com)<br/>- source: Filter by application source name (e.g., source:cloudflare)<br/>- ip_subnet: Filter by IP subnet in CIDR notation (e.g., ip_subnet:192.168.1.0/24).<br/>.<br/> |
+| `limit` | No | integer | Limit of number of results to return. |
+| `offset` | No | integer | Offset of results to return. |
+| `order_by` | No | string | Order by result by field name and order (e.g., name:asc). |
 
 
 
@@ -50,7 +42,7 @@ Get the application response.
 [alexandria_get_applications_response](../../../../_components/schemas/alexandria_get_applications_response.md)
 
 
-### 4xx
+### 4XX
 
 Get application response failure.
 

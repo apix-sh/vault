@@ -13,17 +13,17 @@ Return matches as CSV for string queries based on ID
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | No | string | *Serialization: style=Form* |
-| `offset` | No | integer | *Serialization: style=Form* |
-| `limit` | No | integer | *Serialization: style=Form* |
-| `include_domain_id` | No | boolean | *Serialization: style=Form* |
+| `id` | No | string |  |
+| `offset` | No | integer |  |
+| `limit` | No | integer |  |
+| `include_domain_id` | No | boolean |  |
 
 
 

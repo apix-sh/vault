@@ -13,7 +13,7 @@ Get all triggers for a specific worker script
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `external_script_id` | Yes | [builds_external_script_id](../../../../../../_components/schemas/builds_external_script_id.md) | *Serialization: style=Simple* |
+| `external_script_id` | Yes | [builds_external_script_id](../../../../../../_components/schemas/builds_external_script_id.md) |  |
 
 
 ## Query Parameters

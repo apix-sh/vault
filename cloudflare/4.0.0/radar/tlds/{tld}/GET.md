@@ -13,14 +13,14 @@ Retrieves the requested TLD information.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tld` | Yes | string | Top-level domain.<br/>*Serialization: style=Simple* |
+| `tld` | Yes | string | Top-level domain. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

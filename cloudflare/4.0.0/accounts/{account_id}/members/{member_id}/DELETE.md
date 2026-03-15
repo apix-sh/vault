@@ -13,8 +13,8 @@ Remove a member from an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `member_id` | Yes | [iam_membership_components-schemas-identifier](../../../../_components/schemas/iam_membership_components-schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `member_id` | Yes | [iam_membership_components-schemas-identifier](../../../../_components/schemas/iam_membership_components-schemas-identifier.md) |  |
+| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Remove Member response
 [iam_api-response-single-id](../../../../_components/schemas/iam_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Remove Member response failure
 

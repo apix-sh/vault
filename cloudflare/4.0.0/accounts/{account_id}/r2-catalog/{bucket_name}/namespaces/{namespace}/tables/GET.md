@@ -15,29 +15,19 @@ Supports pagination for efficient traversal of large table collections.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [r2-data-catalog_account-id](../../../../../../../_components/schemas/r2-data-catalog_account-id.md) | Identifies the account.<br/>*Serialization: style=Simple* |
-| `bucket_name` | Yes | [r2-data-catalog_bucket-name](../../../../../../../_components/schemas/r2-data-catalog_bucket-name.md) | Specifies the R2 bucket name.<br/>*Serialization: style=Simple* |
-| `namespace` | Yes | string | The namespace identifier.
-For nested namespaces, use %1F as separator (e.g., "bronze%1Fanalytics").
-<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [r2-data-catalog_account-id](../../../../../../../_components/schemas/r2-data-catalog_account-id.md) | Identifies the account. |
+| `bucket_name` | Yes | [r2-data-catalog_bucket-name](../../../../../../../_components/schemas/r2-data-catalog_bucket-name.md) | Specifies the R2 bucket name. |
+| `namespace` | Yes | string | The namespace identifier.<br/>For nested namespaces, use %1F as separator (e.g., "bronze%1Fanalytics").<br/> |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page_token` | No | string | Opaque pagination token from a previous response.
-Use this to fetch the next page of results.
-<br/>*Serialization: style=Form* |
-| `page_size` | No | integer | Maximum number of tables to return per page.
-Defaults to 100, maximum 1000.
-<br/>*Serialization: style=Form* |
-| `return_uuids` | No | boolean | Whether to include table UUIDs in the response.
-Set to true to receive the table_uuids array.
-<br/>*Serialization: style=Form* |
-| `return_details` | No | boolean | Whether to include additional metadata (timestamps, locations).
-When true, response includes created_at, updated_at, metadata_locations, and locations arrays.
-<br/>*Serialization: style=Form* |
+| `page_token` | No | string | Opaque pagination token from a previous response.<br/>Use this to fetch the next page of results.<br/> |
+| `page_size` | No | integer | Maximum number of tables to return per page.<br/>Defaults to 100, maximum 1000.<br/> |
+| `return_uuids` | No | boolean | Whether to include table UUIDs in the response.<br/>Set to true to receive the table_uuids array.<br/> |
+| `return_details` | No | boolean | Whether to include additional metadata (timestamps, locations).<br/>When true, response includes created_at, updated_at, metadata_locations, and locations arrays.<br/> |
 
 
 
@@ -54,64 +44,6 @@ List of tables retrieved successfully.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "errors": [],
-  "messages": [],
-  "result": {
-    "details": [
-      {
-        "created_at": "2025-10-07T10:00:00Z",
-        "identifier": {
-          "name": "events",
-          "namespace": [
-            "bronze"
-          ]
-        },
-        "location": "s3://my-bucket/__r2_data_catalog/wh-id/table-id/",
-        "metadata_location": "s3://my-bucket/__r2_data_catalog/wh-id/table-id/metadata/v1.metadata.json",
-        "table_uuid": "0199b9a1-28a0-71e0-a73e-b0fc32c8468e",
-        "updated_at": "2025-10-07T15:00:00Z"
-      },
-      {
-        "created_at": "2025-10-07T10:30:00Z",
-        "identifier": {
-          "name": "users",
-          "namespace": [
-            "bronze"
-          ]
-        },
-        "location": "s3://my-bucket/__r2_data_catalog/wh-id/table-id-2/",
-        "metadata_location": "s3://my-bucket/__r2_data_catalog/wh-id/table-id-2/metadata/v2.metadata.json",
-        "table_uuid": "0199b9a1-3c74-7731-bf53-d8c67ead079d",
-        "updated_at": "2025-10-07T16:00:00Z"
-      }
-    ],
-    "identifiers": [
-      {
-        "name": "events",
-        "namespace": [
-          "bronze"
-        ]
-      },
-      {
-        "name": "users",
-        "namespace": [
-          "bronze"
-        ]
-      }
-    ],
-    "next_page_token": null,
-    "table_uuids": [
-      "0199b9a1-28a0-71e0-a73e-b0fc32c8468e",
-      "0199b9a1-3c74-7731-bf53-d8c67ead079d"
-    ]
-  },
-  "success": true
-}
-```
 
 
 ### 400

@@ -8,3 +8,4 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `enabled` | Yes | [stream_output_enabled](stream_output_enabled.md) |  |

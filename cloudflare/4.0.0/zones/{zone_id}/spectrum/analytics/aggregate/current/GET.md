@@ -13,15 +13,15 @@ Retrieves analytics aggregated from the last minute of usage on Spectrum applica
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [spectrum-analytics_identifier](../../../../../../_components/schemas/spectrum-analytics_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [spectrum-analytics_identifier](../../../../../../_components/schemas/spectrum-analytics_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `appID` | No | [spectrum-analytics_app_id_param](../../../../../../_components/schemas/spectrum-analytics_app_id_param.md) | *Serialization: style=Form* |
-| `colo_name` | No | string | *Serialization: style=Form* |
+| `appID` | No | [spectrum-analytics_app_id_param](../../../../../../_components/schemas/spectrum-analytics_app_id_param.md) |  |
+| `colo_name` | No | string |  |
 
 
 

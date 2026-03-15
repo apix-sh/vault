@@ -18,9 +18,9 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `country` | No | string | Alpha-2 country code.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Maximum number of ASes to return.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `country` | No | string | Alpha-2 country code. |
+| `limit` | No | integer | Maximum number of ASes to return. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `event_id` | Yes | string | Event UUID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `event_id` | Yes | string | Event UUID. |
 
 
 ## Query Parameters

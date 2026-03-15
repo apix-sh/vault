@@ -13,8 +13,8 @@ Create a BGP prefix, controlling the BGP advertisement status of a specific subn
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Create BGP Prefix response
 [addressing_single_response_bgp](../../../../../../../_components/schemas/addressing_single_response_bgp.md)
 
 
-### 4xx
+### 4XX
 
 Create BGP Prefix response failure
 

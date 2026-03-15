@@ -13,7 +13,7 @@ Retrieve a zone's Bot Management Config
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [bot-management_identifier](../../../_components/schemas/bot-management_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [bot-management_identifier](../../../_components/schemas/bot-management_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Bot Management config response
 [bot-management_bot_management_response_body](../../../_components/schemas/bot-management_bot_management_response_body.md)
 
 
-### 4xx
+### 4XX
 
 Bot Management config response failure
 

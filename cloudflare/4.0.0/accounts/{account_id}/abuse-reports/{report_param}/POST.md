@@ -13,8 +13,8 @@ Submit the Abuse Report of a particular type
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Cloudflare Account ID<br/>*Serialization: style=Simple* |
-| `report_param` | Yes | [abuse-reports_SubmissionReportType](../../../../_components/schemas/abuse-reports_SubmissionReportType.md) | The report type to be submitted. Example: abuse_general<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Cloudflare Account ID |
+| `report_param` | Yes | [abuse-reports_SubmissionReportType](../../../../_components/schemas/abuse-reports_SubmissionReportType.md) | The report type to be submitted. Example: abuse_general |
 
 
 ## Query Parameters

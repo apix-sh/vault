@@ -13,8 +13,8 @@ Fetches the list of domains to bypass Gateway DNS resolution from a specified de
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `policy_id` | Yes | [teams-devices_schemas-uuid](../../../../../../_components/schemas/teams-devices_schemas-uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `policy_id` | Yes | [teams-devices_schemas-uuid](../../../../../../_components/schemas/teams-devices_schemas-uuid.md) |  |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get the Local Domain Fallback list for a device settings profile response.
 [teams-devices_fallback_domain_response_collection](../../../../../../_components/schemas/teams-devices_fallback_domain_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Get the Local Domain Fallback list for a device settings profile response failure.
 

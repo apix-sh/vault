@@ -13,17 +13,17 @@ Retrieves a list of currently existing Spectrum applications inside a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../_components/schemas/spectrum-config_zone_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../_components/schemas/spectrum-config_zone_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `direction` | No | string |  |
+| `order` | No | string |  |
 
 
 
@@ -42,7 +42,7 @@ List Spectrum applications response.
 [spectrum-config_app_config_collection](../../../../_components/schemas/spectrum-config_app_config_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Spectrum applications response failure.
 

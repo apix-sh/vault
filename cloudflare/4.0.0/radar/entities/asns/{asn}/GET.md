@@ -13,14 +13,14 @@ Retrieves the requested autonomous system information. (A confidence level below
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `asn` | Yes | integer | Single Autonomous System Number (ASN) as integer.<br/>*Serialization: style=Simple* |
+| `asn` | Yes | integer | Single Autonomous System Number (ASN) as integer. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

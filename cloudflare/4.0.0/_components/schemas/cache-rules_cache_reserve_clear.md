@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # cache-rules_cache_reserve_clear
@@ -11,3 +11,6 @@ You can use Cache Reserve Clear to clear your Cache Reserve, but you must first 
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | string | Identifier of the zone setting. |
+| `modified_on` | No | string | Last time this setting was modified. |
+| `id` | No | string | ID of the zone setting. Allowed values: cache_reserve_clear |

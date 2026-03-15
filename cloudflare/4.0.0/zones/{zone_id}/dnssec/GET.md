@@ -13,7 +13,7 @@ Details about DNSSEC status and configuration.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dnssec_identifier](../../../_components/schemas/dnssec_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dnssec_identifier](../../../_components/schemas/dnssec_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ DNSSEC Details response.
 [dnssec_dnssec_response_single](../../../_components/schemas/dnssec_dnssec_response_single.md)
 
 
-### 4xx
+### 4XX
 
 DNSSEC Details response failure.
 

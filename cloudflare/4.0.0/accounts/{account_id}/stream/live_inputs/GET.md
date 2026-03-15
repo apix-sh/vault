@@ -13,14 +13,14 @@ Lists the live inputs created for an account. To get the credentials needed to s
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `include_counts` | No | [stream_include_counts](../../../../_components/schemas/stream_include_counts.md) | *Serialization: style=Form* |
+| `include_counts` | No | [stream_include_counts](../../../../_components/schemas/stream_include_counts.md) |  |
 
 
 
@@ -39,7 +39,7 @@ List live inputs response.
 [stream_live_input_response_collection](../../../../_components/schemas/stream_live_input_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List live inputs response failure.
 

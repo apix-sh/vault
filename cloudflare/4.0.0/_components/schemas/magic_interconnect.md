@@ -20,3 +20,4 @@ type: "object"
 | `modified_on` | No | [magic_schemas-modified_on](magic_schemas-modified_on.md) |  |
 | `mtu` | No | [magic_schemas-mtu](magic_schemas-mtu.md) |  |
 | `name` | No | [magic_components-schemas-name](magic_components-schemas-name.md) |  |
+| `virtual_port_reservation_id` | No | allOf(2) |  |

@@ -13,8 +13,8 @@ Update a configured Zero Trust Gateway PAC file.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pacfile_id` | Yes | [zero-trust-gateway_components-schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_components-schemas-uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `pacfile_id` | Yes | [zero-trust-gateway_components-schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_components-schemas-uuid.md) |  |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Update a Zero Trust Gateway PAC file response.
 [zero-trust-gateway_pacfiles_components-schemas-single_response](../../../../../_components/schemas/zero-trust-gateway_pacfiles_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update a Zero Trust Gateway PAC file response failure.
 

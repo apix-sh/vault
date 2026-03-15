@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `document_fingerprint_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `document_fingerprint_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -32,7 +32,7 @@ _(None)_
 
 Document fingerprint delete was successful.
 
-### 4xx
+### 4XX
 
 Document fingerprint delete failed.
 

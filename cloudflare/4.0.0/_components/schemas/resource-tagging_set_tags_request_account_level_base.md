@@ -13,3 +13,4 @@ Request body schema for setting tags on account-level resources with no extra re
 | :------- | :------: | :--- | :---------- |
 | `resource_id` | Yes | [resource-tagging_resource_id](resource-tagging_resource_id.md) |  |
 | `resource_type` | Yes | [resource-tagging_account_resource_type_base_enum](resource-tagging_account_resource_type_base_enum.md) |  |
+| `tags` | No | [resource-tagging_tags](resource-tagging_tags.md) |  |

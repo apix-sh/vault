@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(1)"
 ---
 
 # dns-records_dns-record-scan-batch-accept

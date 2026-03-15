@@ -13,8 +13,8 @@ Get the namespace corresponding to the given ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../_components/schemas/workers-kv_namespace_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../_components/schemas/workers-kv_namespace_identifier.md) |  |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Namespace response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get a Namespace response failure.
 

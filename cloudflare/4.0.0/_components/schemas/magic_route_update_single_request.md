@@ -8,6 +8,7 @@ type: "allOf(2)"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | [magic_identifier](magic_identifier.md) |  |
 | `description` | No | [magic_description](magic_description.md) |  |
 | `nexthop` | Yes | [magic_nexthop](magic_nexthop.md) |  |
 | `prefix` | Yes | [magic_prefix](magic_prefix.md) |  |

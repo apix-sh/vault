@@ -13,7 +13,7 @@ Lists Instant Logs jobs for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Instant Logs jobs response.
 [logpush_instant_logs_job_response_collection](../../../../../_components/schemas/logpush_instant_logs_job_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Instant Logs jobs response failure.
 

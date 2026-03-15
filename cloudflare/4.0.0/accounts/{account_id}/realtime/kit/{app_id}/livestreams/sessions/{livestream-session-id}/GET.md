@@ -13,9 +13,9 @@ Returns livestream session details for the given livestream session ID. Retrieve
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
-| `livestream-session-id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../_components/schemas/realtimekit_app_id.md) |  |
+| `livestream-session-id` | Yes | string |  |
 
 
 ## Query Parameters

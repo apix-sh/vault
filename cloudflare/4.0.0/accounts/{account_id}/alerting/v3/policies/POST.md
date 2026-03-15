@@ -13,7 +13,7 @@ Creates a new Notification policy.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../_components/schemas/aaa_account-id.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,15 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `alert_interval` | No | [aaa_alert_interval](../../../../../_components/schemas/aaa_alert_interval.md) |  |
+| `alert_type` | Yes | [aaa_alert_type](../../../../../_components/schemas/aaa_alert_type.md) |  |
+| `description` | No | [aaa_schemas-description](../../../../../_components/schemas/aaa_schemas-description.md) |  |
+| `enabled` | Yes | [aaa_enabled](../../../../../_components/schemas/aaa_enabled.md) |  |
+| `filters` | No | [aaa_filters](../../../../../_components/schemas/aaa_filters.md) |  |
+| `mechanisms` | Yes | [aaa_mechanisms](../../../../../_components/schemas/aaa_mechanisms.md) |  |
+| `name` | Yes | [aaa_schemas-name](../../../../../_components/schemas/aaa_schemas-name.md) |  |
 
 
 ## Responses
@@ -41,7 +49,7 @@ Create a Notification policy response
 [aaa_id_response](../../../../../_components/schemas/aaa_id_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a Notification policy response failure
 

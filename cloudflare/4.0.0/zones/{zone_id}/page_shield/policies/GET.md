@@ -13,7 +13,7 @@ Lists all Page Shield policies.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Page Shield policies response
 [page-shield_list-zone-policies-response](../../../../_components/schemas/page-shield_list-zone-policies-response.md)
 
 
-### 4xx
+### 4XX
 
 List Page Shield policies response failure
 

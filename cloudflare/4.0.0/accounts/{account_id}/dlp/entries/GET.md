@@ -13,7 +13,7 @@ Lists all DLP entries in an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List all entries response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List all entries failure response.
 

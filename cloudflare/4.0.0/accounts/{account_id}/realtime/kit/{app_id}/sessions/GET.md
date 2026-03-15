@@ -13,8 +13,8 @@ Returns details of all sessions of an App.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../_components/schemas/realtimekit_app_id.md) |  |
 
 
 ## Query Parameters
@@ -29,8 +29,8 @@ Returns details of all sessions of an App.
 | `Reference` | N/A | [realtimekit_endTime](../../../../../../_components/parameters/realtimekit_endTime.md) |  |
 | `Reference` | N/A | [realtimekit_participants](../../../../../../_components/parameters/realtimekit_participants.md) |  |
 | `Reference` | N/A | [realtimekit_status](../../../../../../_components/parameters/realtimekit_status.md) |  |
-| `search` | No | string | Search string that matches sessions based on meeting title, meeting ID, and session ID<br/>*Serialization: style=Form* |
-| `associated_id` | No | string | ID of the meeting that sessions should be associated with<br/>*Serialization: style=Form* |
+| `search` | No | string | Search string that matches sessions based on meeting title, meeting ID, and session ID |
+| `associated_id` | No | string | ID of the meeting that sessions should be associated with |
 
 
 

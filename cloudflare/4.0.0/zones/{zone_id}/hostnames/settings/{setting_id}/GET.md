@@ -13,8 +13,8 @@ List the requested TLS setting for the hostnames under this zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `setting_id` | Yes | [tls-certificates-and-hostnames_setting_id](../../../../../_components/schemas/tls-certificates-and-hostnames_setting_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `setting_id` | Yes | [tls-certificates-and-hostnames_setting_id](../../../../../_components/schemas/tls-certificates-and-hostnames_setting_id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List per-hostname TLS settings response
 [tls-certificates-and-hostnames_per_hostname_settings_response_collection](../../../../../_components/schemas/tls-certificates-and-hostnames_per_hostname_settings_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List per-hostname TLS settings response failure
 

@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
-| `sso_connector_id` | Yes | [iam_sso_connector_identifier](../../../../_components/schemas/iam_sso_connector_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) |  |
+| `sso_connector_id` | Yes | [iam_sso_connector_identifier](../../../../_components/schemas/iam_sso_connector_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Update SSO connector state response
 [iam_sso_connector_response](../../../../_components/schemas/iam_sso_connector_response.md)
 
 
-### 4xx
+### 4XX
 
 Update SSO connector state response failure
 

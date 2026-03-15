@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `user_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `user_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -36,7 +36,7 @@ Risk events.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to get risk events.
 

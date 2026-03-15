@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `job_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `job_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -36,7 +36,7 @@ Job resumed
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure response
 

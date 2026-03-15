@@ -14,7 +14,7 @@ Bring-Your-Own IP (BYOIP) prefixes onboarded to Cloudflare must be bound to a se
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Service names and IDs
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Services response failure
 

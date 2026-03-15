@@ -13,7 +13,7 @@ Gets a list of all ASNs registered for a user for the DDoS Botnet Feed API.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../_components/schemas/dos_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../_components/schemas/dos_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get list of ASNs response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get list of ASNs response failure
 

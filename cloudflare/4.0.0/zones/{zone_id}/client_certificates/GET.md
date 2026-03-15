@@ -13,18 +13,18 @@ List all of your Zone's API Shield mTLS Client Certificates by Status and/or usi
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `status` | No | any | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `limit` | No | integer | *Serialization: style=Form* |
-| `offset` | No | integer | *Serialization: style=Form* |
+| `status` | No | any |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `limit` | No | integer |  |
+| `offset` | No | integer |  |
 
 
 
@@ -43,7 +43,7 @@ List Client Certificates Response
 [tls-certificates-and-hostnames_client_certificate_response_collection](../../../_components/schemas/tls-certificates-and-hostnames_client_certificate_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Client Certificates Response Failure
 

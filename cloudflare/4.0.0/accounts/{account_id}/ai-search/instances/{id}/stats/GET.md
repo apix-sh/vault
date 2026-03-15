@@ -13,8 +13,8 @@ Retrieves usage statistics for AI Search instances.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | Use your AI Search ID.<br/>*Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `id` | Yes | string | Use your AI Search ID. |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters

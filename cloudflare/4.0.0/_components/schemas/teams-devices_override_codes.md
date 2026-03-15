@@ -8,3 +8,4 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `disable_for_time` | No | object |  |

@@ -14,8 +14,8 @@ scanning.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
-| `trusted_domain_id` | Yes | [email-security_TrustedDomainId](../../../../../../_components/schemas/email-security_TrustedDomainId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) |  |
+| `trusted_domain_id` | Yes | [email-security_TrustedDomainId](../../../../../../_components/schemas/email-security_TrustedDomainId.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ _(None)_
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../../_components/responses/email-security_ClientError.md)
 

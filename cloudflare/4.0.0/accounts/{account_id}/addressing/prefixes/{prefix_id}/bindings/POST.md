@@ -15,8 +15,8 @@ Creates a new Service Binding, routing traffic to IPs within the given CIDR to a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) |  |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ The created Service Binding
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create Service Binding response failure
 

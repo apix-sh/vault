@@ -13,7 +13,7 @@ Fetch image statistics details for Cloudflare Images. The returned statistics de
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Images usage statistics response
 [images_images_stats_response](../../../../../_components/schemas/images_images_stats_response.md)
 
 
-### 4xx
+### 4XX
 
 Images usage statistics response failure
 

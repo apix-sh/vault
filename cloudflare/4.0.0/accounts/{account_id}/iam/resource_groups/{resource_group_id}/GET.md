@@ -13,8 +13,8 @@ Get information about a specific resource group in an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
-| `resource_group_id` | Yes | [iam_resource_group_identifier](../../../../../_components/schemas/iam_resource_group_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) |  |
+| `resource_group_id` | Yes | [iam_resource_group_identifier](../../../../../_components/schemas/iam_resource_group_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Resource Group Details response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Resource Group Details response failure
 

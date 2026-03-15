@@ -13,9 +13,9 @@ Previews an event's configuration as if it was active. Inherited fields from the
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `event_id` | Yes | [waitingroom_event_id](../../../../../../../_components/schemas/waitingroom_event_id.md) | *Serialization: style=Simple* |
-| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../../../../_components/schemas/waitingroom_waiting_room_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [waitingroom_identifier](../../../../../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `event_id` | Yes | [waitingroom_event_id](../../../../../../../_components/schemas/waitingroom_event_id.md) |  |
+| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../../../../_components/schemas/waitingroom_waiting_room_id.md) |  |
+| `zone_id` | Yes | [waitingroom_identifier](../../../../../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Preview active event details response
 [waitingroom_event_details_response](../../../../../../../_components/schemas/waitingroom_event_details_response.md)
 
 
-### 4xx
+### 4XX
 
 Preview active event details response failure
 

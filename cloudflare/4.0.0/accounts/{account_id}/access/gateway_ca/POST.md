@@ -13,7 +13,7 @@ Adds a new SSH Certificate Authority (CA).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Add a new SSH Certificate Authority (CA) response
 [access_gateway_ca_components-schemas-single_response](../../../../_components/schemas/access_gateway_ca_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Add a new SSH Certificate Authority (CA) response failure
 

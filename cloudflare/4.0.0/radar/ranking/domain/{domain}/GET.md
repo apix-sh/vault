@@ -13,19 +13,19 @@ Retrieves domain rank details. Cloudflare provides an ordered rank for the top 1
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | Yes | string | Domain name.<br/>*Serialization: style=Simple* |
+| `domain` | Yes | string | Domain name. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limits the number of objects returned in the response.<br/>*Serialization: style=Form* |
-| `rankingType` | No | string | The ranking type.<br/>*Serialization: style=Form* |
-| `name` | No | array<string> | Array of names used to label the series in the response.<br/>*Serialization: style=Form* |
-| `includeTopLocations` | No | boolean | Includes top locations in the response.<br/>*Serialization: style=Form* |
-| `date` | No | array<string> | Filters results by the specified array of dates.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limits the number of objects returned in the response. |
+| `rankingType` | No | string | The ranking type. |
+| `name` | No | array<string> | Array of names used to label the series in the response. |
+| `includeTopLocations` | No | boolean | Includes top locations in the response. |
+| `date` | No | array<string> | Filters results by the specified array of dates. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

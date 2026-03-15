@@ -15,7 +15,7 @@ Creates a URI-based WAF override for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Create a WAF override response
 [firewall_override_response_single](../../../../../_components/schemas/firewall_override_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create a WAF override response failure
 

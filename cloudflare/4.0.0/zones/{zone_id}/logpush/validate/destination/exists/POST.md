@@ -13,7 +13,7 @@ Checks if there is an existing job with a destination.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [logpush_identifier](../../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [logpush_identifier](../../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Check destination exists response.
 [logpush_destination_exists_response](../../../../../../_components/schemas/logpush_destination_exists_response.md)
 
 
-### 4xx
+### 4XX
 
 Check destination exists response failure.
 

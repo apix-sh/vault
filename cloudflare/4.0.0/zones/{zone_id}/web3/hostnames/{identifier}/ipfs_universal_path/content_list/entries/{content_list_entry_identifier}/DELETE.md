@@ -11,9 +11,9 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `content_list_entry_identifier` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) | *Serialization: style=Simple* |
-| `identifier` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) | *Serialization: style=Simple* |
+| `content_list_entry_identifier` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) |  |
+| `identifier` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) |  |
+| `zone_id` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Delete IPFS Universal Path Gateway Content List Entry response.
 [web3_api-response-single-id](../../../../../../../../../_components/schemas/web3_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Delete IPFS Universal Path Gateway Content List Entry error response (4XX).
 
@@ -48,7 +48,7 @@ Delete IPFS Universal Path Gateway Content List Entry error response (4XX).
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 Delete IPFS Universal Path Gateway Content List Entry response failure.
 

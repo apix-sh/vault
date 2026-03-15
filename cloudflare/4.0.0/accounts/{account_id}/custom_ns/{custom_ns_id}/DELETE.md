@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `custom_ns_id` | Yes | [dns-custom-nameservers_ns_name](../../../../_components/schemas/dns-custom-nameservers_ns_name.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [dns-custom-nameservers_identifier](../../../../_components/schemas/dns-custom-nameservers_identifier.md) | *Serialization: style=Simple* |
+| `custom_ns_id` | Yes | [dns-custom-nameservers_ns_name](../../../../_components/schemas/dns-custom-nameservers_ns_name.md) |  |
+| `account_id` | Yes | [dns-custom-nameservers_identifier](../../../../_components/schemas/dns-custom-nameservers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Delete Account Custom Nameserver response
 [dns-custom-nameservers_empty_response](../../../../_components/schemas/dns-custom-nameservers_empty_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete Account Custom Nameserver response failure
 

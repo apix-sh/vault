@@ -13,7 +13,7 @@ Revokes a user's access across all applications.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_organizations_components-schemas-identifier](../../../../../_components/schemas/access_organizations_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_organizations_components-schemas-identifier](../../../../../_components/schemas/access_organizations_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `email` | Yes | string | The email of the user to revoke. |
 
 
 ## Responses

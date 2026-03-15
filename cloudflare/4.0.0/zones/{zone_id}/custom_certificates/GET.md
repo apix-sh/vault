@@ -13,17 +13,17 @@ List, search, and filter all of your custom SSL certificates. The higher priorit
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `match` | No | string | *Serialization: style=Form* |
-| `status` | No | any | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `match` | No | string |  |
+| `status` | No | any |  |
 
 
 
@@ -42,7 +42,7 @@ List SSL Configurations response
 [tls-certificates-and-hostnames_certificate_response_collection](../../../_components/schemas/tls-certificates-and-hostnames_certificate_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List SSL Configurations response failure
 

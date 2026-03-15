@@ -13,8 +13,8 @@ Retrieve the details of an abuse report.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Cloudflare Account ID<br/>*Serialization: style=Simple* |
-| `report_param` | Yes | string | Identifier of the abuse report<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Cloudflare Account ID |
+| `report_param` | Yes | string | Identifier of the abuse report |
 
 
 ## Query Parameters

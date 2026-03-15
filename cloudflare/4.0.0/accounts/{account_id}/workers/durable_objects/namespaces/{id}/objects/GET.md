@@ -13,16 +13,16 @@ Returns the Durable Objects in a given namespace.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `id` | Yes | [workers_schemas-id](../../../../../../../_components/schemas/workers_schemas-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `id` | Yes | [workers_schemas-id](../../../../../../../_components/schemas/workers_schemas-id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | number | *Serialization: style=Form* |
-| `cursor` | No | string | *Serialization: style=Form* |
+| `limit` | No | number |  |
+| `cursor` | No | string |  |
 
 
 
@@ -41,7 +41,7 @@ List Objects response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Objects response failure.
 

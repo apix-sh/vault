@@ -13,8 +13,8 @@ Delete an image on Cloudflare Images. On success, all copies of the image are de
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `image_id` | Yes | [images_image_identifier](../../../../../_components/schemas/images_image_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `image_id` | Yes | [images_image_identifier](../../../../../_components/schemas/images_image_identifier.md) |  |
+| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete image response
 [images_deleted_response](../../../../../_components/schemas/images_deleted_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete image response failure
 

@@ -15,8 +15,8 @@ Updates a WAF package. You can update the sensitivity and the action of an anoma
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `package_id` | Yes | [firewall_package_id](../../../../../../_components/schemas/firewall_package_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `package_id` | Yes | [firewall_package_id](../../../../../../_components/schemas/firewall_package_id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Update a WAF package response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update a WAF package response failure
 

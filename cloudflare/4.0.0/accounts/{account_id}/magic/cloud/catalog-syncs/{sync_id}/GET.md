@@ -13,8 +13,8 @@ Read a Catalog Sync (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
-| `sync_id` | Yes | [mcn_catalog_sync_id](../../../../../../_components/schemas/mcn_catalog_sync_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) |  |
+| `sync_id` | Yes | [mcn_catalog_sync_id](../../../../../../_components/schemas/mcn_catalog_sync_id.md) |  |
 
 
 ## Query Parameters

@@ -8,3 +8,4 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | [secrets-store_identifier](secrets-store_identifier.md) |  |

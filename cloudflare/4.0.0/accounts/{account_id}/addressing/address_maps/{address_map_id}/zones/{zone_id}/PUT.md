@@ -13,9 +13,9 @@ Add a zone as a member of a particular address map.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [addressing_zone_identifier](../../../../../../../_components/schemas/addressing_zone_identifier.md) | *Serialization: style=Simple* |
-| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../../../_components/schemas/addressing_address_map_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [addressing_zone_identifier](../../../../../../../_components/schemas/addressing_zone_identifier.md) |  |
+| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../../../_components/schemas/addressing_address_map_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Add a zone membership to an Address Map response
 [addressing_api-response-collection](../../../../../../../_components/schemas/addressing_api-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Add a zone membership to an Address Map response failure
 

@@ -13,8 +13,8 @@ Pull a batch of messages from a Queue
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queue_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `queue_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
+| `account_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ A batch of messages in the Queue
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure response
 

@@ -13,7 +13,7 @@ Create a custom page
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create a custom page response
 [access_single_response_without_html](../../../../_components/schemas/access_single_response_without_html.md)
 
 
-### 4xx
+### 4XX
 
 Create a custom page response failure
 

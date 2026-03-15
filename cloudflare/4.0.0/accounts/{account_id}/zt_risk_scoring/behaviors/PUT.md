@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Dataset created successfully.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Dataset creation failed.
 

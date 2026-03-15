@@ -8,3 +8,4 @@ type: "allOf(1)"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `result` | No | array<[tls-certificates-and-hostnames_verification](./tls-certificates-and-hostnames_verification.md)> |  |

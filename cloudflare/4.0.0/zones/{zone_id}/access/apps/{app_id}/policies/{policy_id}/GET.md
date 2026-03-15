@@ -13,9 +13,9 @@ Fetches a single Access policy.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `policy_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `policy_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) |  |
+| `app_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Get an Access policy response
 [access_policies_components-schemas-single_response](../../../../../../../_components/schemas/access_policies_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get an Access policy response failure
 

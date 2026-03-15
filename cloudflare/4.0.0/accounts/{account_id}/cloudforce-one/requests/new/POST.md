@@ -13,7 +13,7 @@ Creating a request adds the request into the Cloudforce One queue for analysis. 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [cloudforce-one-requests_identifier](../../../../../_components/schemas/cloudforce-one-requests_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [cloudforce-one-requests_identifier](../../../../../_components/schemas/cloudforce-one-requests_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create request response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create response failure.
 

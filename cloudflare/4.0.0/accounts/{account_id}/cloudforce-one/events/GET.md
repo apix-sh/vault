@@ -13,22 +13,22 @@ When `datasetId` is unspecified, events will be listed from the `Cloudforce One 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `cursor` | No | string | *Serialization: style=Form* |
-| `search` | No | array<object> | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `pageSize` | No | number | *Serialization: style=Form* |
-| `orderBy` | No | string | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `datasetId` | No | array<string> | *Serialization: style=Form* |
-| `forceRefresh` | No | boolean | *Serialization: style=Form* |
-| `format` | No | string | *Serialization: style=Form* |
+| `cursor` | No | string |  |
+| `search` | No | array<object> |  |
+| `page` | No | number |  |
+| `pageSize` | No | number |  |
+| `orderBy` | No | string |  |
+| `order` | No | string |  |
+| `datasetId` | No | array<string> |  |
+| `forceRefresh` | No | boolean |  |
+| `format` | No | string |  |
 
 
 

@@ -13,8 +13,8 @@ Deletes a DLP custom profile.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `profile_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `profile_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete custom profile response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete custom profile failure response.
 

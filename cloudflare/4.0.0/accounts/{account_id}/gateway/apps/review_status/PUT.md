@@ -13,7 +13,7 @@ Update the statuses of your applications.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_components-schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_components-schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Update applications review status response.
 [zero-trust-gateway_applications_review_status_response](../../../../../_components/schemas/zero-trust-gateway_applications_review_status_response.md)
 
 
-### 4xx
+### 4XX
 
 Update applications review status failure response.
 

@@ -13,16 +13,16 @@ List emails sent to the customer for an abuse report. Returns all successful cus
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Cloudflare Account ID<br/>*Serialization: style=Simple* |
-| `report_id` | Yes | string | Abuse Report ID<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Cloudflare Account ID |
+| `report_id` | Yes | string | Abuse Report ID |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | Page number to retrieve (default 1)<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Number of emails per page (default 20, max 100)<br/>*Serialization: style=Form* |
+| `page` | No | integer | Page number to retrieve (default 1) |
+| `per_page` | No | integer | Number of emails per page (default 20, max 100) |
 
 
 

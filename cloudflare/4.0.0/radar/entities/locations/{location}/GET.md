@@ -13,14 +13,14 @@ Retrieves the requested location information. (A confidence level below `5` indi
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `location` | Yes | string | Location alpha-2 code.<br/>*Serialization: style=Simple* |
+| `location` | Yes | string | Location alpha-2 code. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

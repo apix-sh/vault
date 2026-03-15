@@ -13,7 +13,7 @@ Create a new Account Owned API token.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Token response
 [iam_single_token_create_response](../../../_components/schemas/iam_single_token_create_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Token response failure
 

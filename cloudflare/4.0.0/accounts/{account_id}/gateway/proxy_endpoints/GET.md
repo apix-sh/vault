@@ -13,7 +13,7 @@ List all Zero Trust Gateway proxy endpoints for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Returns a list of proxy endpoints response.
 [zero-trust-gateway_proxy-endpoints_components-schemas-response_collection](../../../../_components/schemas/zero-trust-gateway_proxy-endpoints_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Returns a list of proxy endpoints response failure.
 

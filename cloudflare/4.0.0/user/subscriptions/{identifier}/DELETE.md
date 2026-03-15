@@ -13,7 +13,7 @@ Deletes a user's subscription.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [bill-subs-api_schemas-identifier](../../../_components/schemas/bill-subs-api_schemas-identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [bill-subs-api_schemas-identifier](../../../_components/schemas/bill-subs-api_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Delete User Subscription response
 | `subscription_id` | No | [bill-subs-api_schemas-identifier](../../../_components/schemas/bill-subs-api_schemas-identifier.md) |  |
 
 
-### 4xx
+### 4XX
 
 Delete User Subscription response failure
 

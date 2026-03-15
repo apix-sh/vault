@@ -11,3 +11,4 @@ type: "allOf(2)"
 | `errors` | Yes | [zones_messages](zones_messages.md) |  |
 | `messages` | Yes | [zones_messages](zones_messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful |
+| `result` | No | array<anyOf(61)> |  |

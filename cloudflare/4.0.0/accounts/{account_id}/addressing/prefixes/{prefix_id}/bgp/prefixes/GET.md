@@ -13,8 +13,8 @@ List all BGP Prefixes within the specified IP Prefix. BGP Prefixes are used to c
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List BGP Prefixes response
 [addressing_response_collection_bgp](../../../../../../../_components/schemas/addressing_response_collection_bgp.md)
 
 
-### 4xx
+### 4XX
 
 List BGP Prefixes response failure
 

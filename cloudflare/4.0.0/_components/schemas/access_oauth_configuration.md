@@ -13,6 +13,5 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `dynamic_client_registration` | No | object | Settings for OAuth dynamic client registration. |
-| `enabled` | No | boolean | Whether the OAuth configuration is enabled for this application. When set to `false`, Access will not handle OAuth for this application. Defaults to `true` if omitted.
- |
+| `enabled` | No | boolean | Whether the OAuth configuration is enabled for this application. When set to `false`, Access will not handle OAuth for this application. Defaults to `true` if omitted.<br/> |
 | `grant` | No | object | Settings for OAuth grant behavior. |

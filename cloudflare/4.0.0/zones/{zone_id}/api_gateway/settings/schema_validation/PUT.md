@@ -41,7 +41,7 @@ Update zone level schema validation settings response
 [api-shield_old_zone_schema_validation_settings](../../../../../_components/schemas/api-shield_old_zone_schema_validation_settings.md)
 
 
-### 4xx
+### 4XX
 
 Update zone level schema validation settings response failure
 

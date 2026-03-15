@@ -13,7 +13,7 @@ Run discovery for all Cloud Integrations in an account (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) |  |
 
 
 ## Query Parameters

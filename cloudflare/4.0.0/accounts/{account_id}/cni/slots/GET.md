@@ -11,19 +11,19 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [nsc_AccountTag](../../../../_components/schemas/nsc_AccountTag.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [nsc_AccountTag](../../../../_components/schemas/nsc_AccountTag.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `address_contains` | No | string | If specified, only show slots with the given text in their address field<br/>*Serialization: style=Form* |
-| `site` | No | string | If specified, only show slots located at the given site<br/>*Serialization: style=Form* |
-| `speed` | No | string | If specified, only show slots that support the given speed<br/>*Serialization: style=Form* |
-| `occupied` | No | boolean | If specified, only show slots with a specific occupied/unoccupied state<br/>*Serialization: style=Form* |
-| `cursor` | No | integer | *Serialization: style=Form* |
-| `limit` | No | integer | *Serialization: style=Form* |
+| `address_contains` | No | string | If specified, only show slots with the given text in their address field |
+| `site` | No | string | If specified, only show slots located at the given site |
+| `speed` | No | string | If specified, only show slots that support the given speed |
+| `occupied` | No | boolean | If specified, only show slots with a specific occupied/unoccupied state |
+| `cursor` | No | integer |  |
+| `limit` | No | integer |  |
 
 
 

@@ -13,8 +13,8 @@ Delete a configured webhook destination.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `webhook_id` | Yes | [aaa_webhook-id](../../../../../../../_components/schemas/aaa_webhook-id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [aaa_account-id](../../../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
+| `webhook_id` | Yes | [aaa_webhook-id](../../../../../../../_components/schemas/aaa_webhook-id.md) |  |
+| `account_id` | Yes | [aaa_account-id](../../../../../../../_components/schemas/aaa_account-id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete a webhook response
 [aaa_schemas-api-response-common](../../../../../../../_components/schemas/aaa_schemas-api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Delete a webhook response failure
 

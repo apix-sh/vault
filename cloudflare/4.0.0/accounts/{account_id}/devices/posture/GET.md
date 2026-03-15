@@ -13,7 +13,7 @@ Fetches device posture rules for a Zero Trust account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List device posture rules response.
 [teams-devices_response_collection](../../../../_components/schemas/teams-devices_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List device posture rules response failure.
 

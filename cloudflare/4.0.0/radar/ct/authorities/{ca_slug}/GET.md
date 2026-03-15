@@ -13,14 +13,14 @@ Retrieves the requested CA information.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ca_slug` | Yes | string | Certificate authority SHA256 fingerprint.<br/>*Serialization: style=Simple* |
+| `ca_slug` | Yes | string | Certificate authority SHA256 fingerprint. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

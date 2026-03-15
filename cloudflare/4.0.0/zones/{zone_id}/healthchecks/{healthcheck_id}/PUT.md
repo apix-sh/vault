@@ -13,8 +13,8 @@ Update a configured health check.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `healthcheck_id` | Yes | [healthchecks_identifier](../../../../_components/schemas/healthchecks_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [healthchecks_identifier](../../../../_components/schemas/healthchecks_identifier.md) | *Serialization: style=Simple* |
+| `healthcheck_id` | Yes | [healthchecks_identifier](../../../../_components/schemas/healthchecks_identifier.md) |  |
+| `zone_id` | Yes | [healthchecks_identifier](../../../../_components/schemas/healthchecks_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update Health Check response.
 [healthchecks_single_response](../../../../_components/schemas/healthchecks_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Health Check response failure.
 

@@ -13,7 +13,7 @@ Creates a new Page Rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Create a Page Rule response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create a Page Rule response failure
 

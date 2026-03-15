@@ -13,19 +13,19 @@ Retrieves a paginated list of indicators for the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `dataset_id` | Yes | string | Dataset UUID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `dataset_id` | Yes | string | Dataset UUID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `pageSize` | No | number | *Serialization: style=Form* |
-| `search` | No | string | *Serialization: style=Form* |
-| `indicatorType` | No | string | *Serialization: style=Form* |
-| `relatedEvent` | No | array<string> | Filter indicators by related event UUID(s). Multiple UUIDs can be provided by repeating the parameter.<br/>*Serialization: style=Form* |
+| `page` | No | number |  |
+| `pageSize` | No | number |  |
+| `search` | No | string |  |
+| `indicatorType` | No | string |  |
+| `relatedEvent` | No | array<string> | Filter indicators by related event UUID(s). Multiple UUIDs can be provided by repeating the parameter. |
 
 
 

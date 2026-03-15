@@ -13,7 +13,7 @@ Create application.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `accountId` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `accountId` | Yes | string | Account ID. |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Created.
 [alexandria_get_application_response](../../../../_components/schemas/alexandria_get_application_response.md)
 
 
-### 4xx
+### 4XX
 
 Create application response failure.
 

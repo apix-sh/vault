@@ -13,8 +13,8 @@ Updates an Account App
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_app_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_app_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update App response
 [magic_app_single_response](../../../../../_components/schemas/magic_app_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update App response failure
 

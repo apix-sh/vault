@@ -13,7 +13,7 @@ Creates a new webhook destination.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,11 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `name` | Yes | [aaa_components-schemas-name](../../../../../../_components/schemas/aaa_components-schemas-name.md) |  |
+| `secret` | No | [aaa_secret](../../../../../../_components/schemas/aaa_secret.md) |  |
+| `url` | Yes | [aaa_url](../../../../../../_components/schemas/aaa_url.md) |  |
 
 
 ## Responses
@@ -41,7 +45,7 @@ Create a webhook response
 [aaa_id_response](../../../../../../_components/schemas/aaa_id_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a webhook response failure
 

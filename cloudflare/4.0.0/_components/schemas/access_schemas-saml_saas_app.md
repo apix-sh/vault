@@ -14,8 +14,7 @@ type: "object"
 | `custom_attributes` | No | array<object> |  |
 | `idp_entity_id` | No | string | The unique identifier for your SaaS application. |
 | `name_id_format` | No | string | The format of the name identifier sent to the SaaS application. Allowed values: id, email |
-| `name_id_transform_jsonata` | No | string | A [JSONata](https://jsonata.org/) expression that transforms an application's user identities into a NameID value for its SAML assertion. This expression should evaluate to a singular string. The output of this expression can override the `name_id_format` setting.
- |
+| `name_id_transform_jsonata` | No | string | A [JSONata](https://jsonata.org/) expression that transforms an application's user identities into a NameID value for its SAML assertion. This expression should evaluate to a singular string. The output of this expression can override the `name_id_format` setting.<br/> |
 | `public_key` | No | string | The Access public certificate that will be used to verify your identity. |
 | `sp_entity_id` | No | string | A globally unique name for an identity or service provider. |
 | `sso_endpoint` | No | string | The endpoint where your SaaS application will send login requests. |

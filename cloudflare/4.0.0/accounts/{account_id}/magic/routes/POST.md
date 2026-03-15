@@ -13,7 +13,7 @@ Creates a new Magic static route. Use `?validate_only=true` as an optional query
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Routes response
 [magic_create_route_response](../../../../_components/schemas/magic_create_route_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Routes response failure
 

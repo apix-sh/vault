@@ -1,6 +1,7 @@
 ---
 method: "POST"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/workers/observability/telemetry/keys"
+auth: "none"
 content_type: "application/json"
 ---
 
@@ -12,7 +13,7 @@ List all the keys in your telemetry events.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Your Cloudflare account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Your Cloudflare account ID. |
 
 
 ## Query Parameters

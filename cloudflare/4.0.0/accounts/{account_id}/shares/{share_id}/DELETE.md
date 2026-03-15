@@ -13,8 +13,8 @@ Deletion is not immediate, an updated share object with a new status will be ret
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [resource-sharing_account_id](../../../../_components/schemas/resource-sharing_account_id.md) | *Serialization: style=Simple* |
-| `share_id` | Yes | [resource-sharing_share_id](../../../../_components/schemas/resource-sharing_share_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [resource-sharing_account_id](../../../../_components/schemas/resource-sharing_account_id.md) |  |
+| `share_id` | Yes | [resource-sharing_share_id](../../../../_components/schemas/resource-sharing_share_id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Share deleted.
 [resource-sharing_share_response_single](../../../../_components/schemas/resource-sharing_share_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Delete share failure.
 
@@ -46,7 +46,7 @@ Delete share failure.
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 Delete share failure.
 

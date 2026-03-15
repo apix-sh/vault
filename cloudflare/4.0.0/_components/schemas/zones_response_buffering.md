@@ -8,10 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | string | Turn on or off whether Cloudflare should wait for an entire file
-from the origin server before forwarding it to the site visitor. By
-default, Cloudflare sends packets to the client as they arrive from
-the origin server.
- Allowed values: response_buffering |
-| `value` | No | string | The status of Response Buffering
- Allowed values: on, off |
+| `id` | No | string | Turn on or off whether Cloudflare should wait for an entire file<br/>from the origin server before forwarding it to the site visitor. By<br/>default, Cloudflare sends packets to the client as they arrive from<br/>the origin server.<br/> Allowed values: response_buffering |
+| `value` | No | string | The status of Response Buffering<br/> Allowed values: on, off |

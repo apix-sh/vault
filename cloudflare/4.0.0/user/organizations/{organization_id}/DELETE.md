@@ -13,7 +13,7 @@ Removes association to an organization.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [iam_common_components-schemas-identifier](../../../_components/schemas/iam_common_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `organization_id` | Yes | [iam_common_components-schemas-identifier](../../../_components/schemas/iam_common_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Leave Organization response
 | `id` | No | [iam_common_components-schemas-identifier](../../../_components/schemas/iam_common_components-schemas-identifier.md) |  |
 
 
-### 4xx
+### 4XX
 
 Leave Organization response failure
 

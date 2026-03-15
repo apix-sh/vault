@@ -13,7 +13,7 @@ Creates a new resource share for sharing Cloudflare resources with other account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [resource-sharing_account_id](../../../_components/schemas/resource-sharing_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [resource-sharing_account_id](../../../_components/schemas/resource-sharing_account_id.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Share created.
 [resource-sharing_share_response_single](../../../_components/schemas/resource-sharing_share_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create share failure.
 
@@ -49,7 +49,7 @@ Create share failure.
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 Create share failure.
 

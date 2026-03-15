@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `networks` | No | string | Specified as `jdcloud` to list IPs used by JD Cloud data centers.<br/>*Serialization: style=Form* |
+| `networks` | No | string | Specified as `jdcloud` to list IPs used by JD Cloud data centers. |
 
 
 
@@ -37,7 +37,7 @@ Cloudflare IP Details response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Cloudflare IP Details response failure
 

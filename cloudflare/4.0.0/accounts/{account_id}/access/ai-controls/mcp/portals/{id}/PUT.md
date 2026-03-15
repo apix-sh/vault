@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `id` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters

@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `service_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `service_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -32,7 +32,7 @@ _(None)_
 
 Successfully deleted connectivity service
 
-### 4xx
+### 4XX
 
 Failed to delete connectivity service
 

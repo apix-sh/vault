@@ -8,3 +8,4 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `notificationUrl` | Yes | [stream_notificationUrl](stream_notificationUrl.md) |  |

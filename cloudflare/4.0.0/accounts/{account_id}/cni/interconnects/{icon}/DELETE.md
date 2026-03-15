@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `icon` | Yes | string | Interconnect name to retrieve information about<br/>*Serialization: style=Simple* |
-| `account_id` | Yes | [nsc_AccountTag](../../../../../_components/schemas/nsc_AccountTag.md) | *Serialization: style=Simple* |
+| `icon` | Yes | string | Interconnect name to retrieve information about |
+| `account_id` | Yes | [nsc_AccountTag](../../../../../_components/schemas/nsc_AccountTag.md) |  |
 
 
 ## Query Parameters

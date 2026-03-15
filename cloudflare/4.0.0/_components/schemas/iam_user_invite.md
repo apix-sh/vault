@@ -18,4 +18,4 @@ type: "object"
 | `organization_is_enforcing_twofactor` | No | boolean |  |
 | `organization_name` | No | string | Organization name. |
 | `roles` | No | [iam_role_names](iam_role_names.md) |  |
-| `status` | No | any | Current status of the invitation. |
+| `status` | No | any | Current status of the invitation. Allowed values: pending, accepted, rejected, expired |

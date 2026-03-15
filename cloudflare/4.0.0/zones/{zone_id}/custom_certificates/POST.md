@@ -13,7 +13,7 @@ Upload a new SSL certificate for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -32,6 +32,7 @@ Supported content types:
 | :--- | :---: | :--- | :--- |
 | `bundle_method` | No | [tls-certificates-and-hostnames_bundle_method](../../../_components/schemas/tls-certificates-and-hostnames_bundle_method.md) |  |
 | `certificate` | Yes | [tls-certificates-and-hostnames_certificate](../../../_components/schemas/tls-certificates-and-hostnames_certificate.md) |  |
+| `custom_csr_id` | No | [tls-certificates-and-hostnames_custom_csr_id](../../../_components/schemas/tls-certificates-and-hostnames_custom_csr_id.md) |  |
 | `deploy` | No | [tls-certificates-and-hostnames_deploy](../../../_components/schemas/tls-certificates-and-hostnames_deploy.md) |  |
 | `geo_restrictions` | No | [tls-certificates-and-hostnames_geo_restrictions](../../../_components/schemas/tls-certificates-and-hostnames_geo_restrictions.md) |  |
 | `policy` | No | [tls-certificates-and-hostnames_policy](../../../_components/schemas/tls-certificates-and-hostnames_policy.md) |  |
@@ -49,7 +50,7 @@ Create SSL Configuration response
 [tls-certificates-and-hostnames_certificate_response_single](../../../_components/schemas/tls-certificates-and-hostnames_certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create SSL Configuration response failure
 

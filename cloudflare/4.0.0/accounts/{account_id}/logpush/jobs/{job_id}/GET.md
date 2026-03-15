@@ -13,8 +13,8 @@ Gets the details of a Logpush job.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `job_id` | Yes | [logpush_id](../../../../../_components/schemas/logpush_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `job_id` | Yes | [logpush_id](../../../../../_components/schemas/logpush_id.md) |  |
+| `account_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get Logpush job details response.
 [logpush_logpush_job_response_single](../../../../../_components/schemas/logpush_logpush_job_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get Logpush job details response failure.
 

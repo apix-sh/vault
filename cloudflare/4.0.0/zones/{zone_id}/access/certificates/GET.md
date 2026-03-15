@@ -13,7 +13,7 @@ Lists all mTLS certificates.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List mTLS certificates response
 [access_certificates_components-schemas-response_collection-2](../../../../_components/schemas/access_certificates_components-schemas-response_collection-2.md)
 
 
-### 4xx
+### 4XX
 
 List mTLS certificates response failure
 

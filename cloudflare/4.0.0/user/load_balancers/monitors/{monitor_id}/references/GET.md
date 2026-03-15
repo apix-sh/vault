@@ -13,7 +13,7 @@ Get the list of resources that reference the provided monitor.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `monitor_id` | Yes | [load-balancing_identifier](../../../../../_components/schemas/load-balancing_identifier.md) | *Serialization: style=Simple* |
+| `monitor_id` | Yes | [load-balancing_identifier](../../../../../_components/schemas/load-balancing_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Monitor References response.
 [load-balancing_monitor-references-response](../../../../../_components/schemas/load-balancing_monitor-references-response.md)
 
 
-### 4xx
+### 4XX
 
 List Monitor References response failure.
 

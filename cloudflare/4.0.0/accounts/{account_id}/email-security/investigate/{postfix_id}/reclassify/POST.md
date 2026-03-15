@@ -14,8 +14,8 @@ based on new analysis.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
-| `postfix_id` | Yes | [email-security_PostfixId](../../../../../../_components/schemas/email-security_PostfixId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) |  |
+| `postfix_id` | Yes | [email-security_PostfixId](../../../../../../_components/schemas/email-security_PostfixId.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Supported content types:
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../../_components/responses/email-security_ClientError.md)
 

@@ -15,7 +15,7 @@ Zones.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zone-activation_identifier](../../../_components/schemas/zone-activation_identifier.md) | Zone ID<br/>*Serialization: style=Simple* |
+| `zone_id` | Yes | [zone-activation_identifier](../../../_components/schemas/zone-activation_identifier.md) | Zone ID |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Successful Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Client Error
 

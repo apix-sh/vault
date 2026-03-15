@@ -13,8 +13,8 @@ List all AI Gateway Dynamic Routes.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `gateway_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `gateway_id` | Yes | string |  |
 
 
 ## Query Parameters

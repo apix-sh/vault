@@ -13,16 +13,16 @@ List up to 100 images with one request. Use the optional parameters below to get
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [images_account_identifier](../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [images_account_identifier](../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `creator` | No | string | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `creator` | No | string |  |
 
 
 
@@ -41,7 +41,7 @@ List images response
 [images_images_list_response](../../../../_components/schemas/images_images_list_response.md)
 
 
-### 4xx
+### 4XX
 
 List images response failure
 

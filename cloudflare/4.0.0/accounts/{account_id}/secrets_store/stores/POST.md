@@ -13,7 +13,7 @@ Creates a store in the account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [secrets-store_account_identifier](../../../../_components/schemas/secrets-store_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [secrets-store_account_identifier](../../../../_components/schemas/secrets-store_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ store details
 [secrets-store_stores_response_collection](../../../../_components/schemas/secrets-store_stores_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List store secrets response failure
 

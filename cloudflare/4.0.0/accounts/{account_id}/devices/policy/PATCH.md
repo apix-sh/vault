@@ -13,7 +13,7 @@ Updates the default device settings profile for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -59,7 +59,7 @@ Update the default device settings profile response.
 [teams-devices_default_device_settings_response](../../../../_components/schemas/teams-devices_default_device_settings_response.md)
 
 
-### 4xx
+### 4XX
 
 Update the default device settings profile response failure.
 

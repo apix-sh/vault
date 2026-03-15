@@ -13,8 +13,8 @@ Create a new account delegation for a given IP prefix.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -29,7 +29,10 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `cidr` | Yes | [addressing_cidr](../../../../../../_components/schemas/addressing_cidr.md) |  |
+| `delegated_account_id` | Yes | [addressing_delegated_account_identifier](../../../../../../_components/schemas/addressing_delegated_account_identifier.md) |  |
 
 
 ## Responses
@@ -42,7 +45,7 @@ Create Prefix Delegation response
 [addressing_schemas-single_response](../../../../../../_components/schemas/addressing_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Prefix Delegation response failure
 

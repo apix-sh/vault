@@ -13,8 +13,8 @@ Creates a new Site ACL.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `site_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) |  |
+| `site_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Create Site ACL response
 [magic_acl_single_response](../../../../../../_components/schemas/magic_acl_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Site ACL response failure
 

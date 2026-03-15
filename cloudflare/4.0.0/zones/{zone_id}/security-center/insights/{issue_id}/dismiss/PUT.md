@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [security-center_identifier](../../../../../../_components/schemas/security-center_identifier.md) | *Serialization: style=Simple* |
-| `issue_id` | Yes | string | *Serialization: style=Simple* |
+| `zone_id` | Yes | [security-center_identifier](../../../../../../_components/schemas/security-center_identifier.md) |  |
+| `issue_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ The request was successful.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 A client error occurred.
 

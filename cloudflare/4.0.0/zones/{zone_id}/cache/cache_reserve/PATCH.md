@@ -13,7 +13,7 @@ Increase cache lifetimes by automatically storing all cacheable files into Cloud
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Change Cache Reserve setting response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Change Cache Reserve setting response failure.
 

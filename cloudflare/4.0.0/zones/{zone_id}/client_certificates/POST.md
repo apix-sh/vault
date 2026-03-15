@@ -13,7 +13,7 @@ Create a new API Shield mTLS Client Certificate
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Create Client Certificate Response
 [tls-certificates-and-hostnames_client_certificate_response_single](../../../_components/schemas/tls-certificates-and-hostnames_client_certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create Client Certificate Response Failure
 

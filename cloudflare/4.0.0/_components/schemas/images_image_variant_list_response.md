@@ -12,3 +12,4 @@ type: "allOf(2)"
 | `messages` | Yes | [images_messages](images_messages.md) |  |
 | `result` | Yes | anyOf(3) |  |
 | `success` | Yes | boolean | Whether the API call was successful |
+| `result` | No | [images_image_variants_response](images_image_variants_response.md) |  |

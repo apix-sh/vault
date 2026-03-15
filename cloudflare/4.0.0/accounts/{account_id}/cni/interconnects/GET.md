@@ -11,17 +11,17 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [nsc_AccountTag](../../../../_components/schemas/nsc_AccountTag.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [nsc_AccountTag](../../../../_components/schemas/nsc_AccountTag.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `site` | No | string | If specified, only show interconnects located at the given site<br/>*Serialization: style=Form* |
-| `type` | No | string | If specified, only show interconnects of the given type<br/>*Serialization: style=Form* |
-| `cursor` | No | integer | *Serialization: style=Form* |
-| `limit` | No | integer | *Serialization: style=Form* |
+| `site` | No | string | If specified, only show interconnects located at the given site |
+| `type` | No | string | If specified, only show interconnects of the given type |
+| `cursor` | No | integer |  |
+| `limit` | No | integer |  |
 
 
 

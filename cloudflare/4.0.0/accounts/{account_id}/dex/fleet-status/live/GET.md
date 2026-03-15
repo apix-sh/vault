@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/dex/fleet-status/live"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,14 +12,14 @@ List details for live (up to 60 minutes) devices using WARP
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | Unique identifier for account<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | Unique identifier for account |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `since_minutes` | Yes | [digital-experience-monitoring_since_minutes](../../../../../_components/schemas/digital-experience-monitoring_since_minutes.md) | Number of minutes before current time<br/>*Serialization: style=Form* |
+| `since_minutes` | Yes | [digital-experience-monitoring_since_minutes](../../../../../_components/schemas/digital-experience-monitoring_since_minutes.md) | Number of minutes before current time |
 
 
 
@@ -39,7 +38,7 @@ List device details (live) response
 [digital-experience-monitoring_fleet_status_live_response](../../../../../_components/schemas/digital-experience-monitoring_fleet_status_live_response.md)
 
 
-### 4xx
+### 4XX
 
 List device details (live) response failure
 

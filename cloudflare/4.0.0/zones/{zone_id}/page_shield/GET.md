@@ -13,7 +13,7 @@ Fetches the Page Shield settings.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Page Shield settings response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get Page Shield settings response failure
 

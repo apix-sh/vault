@@ -13,7 +13,7 @@ Delete a specific account (only available for tenant admins at this time). This 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Account Deletion Success Response
 [iam_api-response-single-id](../../_components/schemas/iam_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Account Deletion Failure Response
 

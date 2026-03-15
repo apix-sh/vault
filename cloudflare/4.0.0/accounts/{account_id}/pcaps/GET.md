@@ -13,7 +13,7 @@ Lists all packet capture requests for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic-visibility-pcaps_identifier](../../../_components/schemas/magic-visibility-pcaps_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic-visibility-pcaps_identifier](../../../_components/schemas/magic-visibility-pcaps_identifier.md) |  |
 
 
 ## Query Parameters

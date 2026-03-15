@@ -13,8 +13,8 @@ Adds a recipient to a resource share, granting them access to the shared resourc
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [resource-sharing_account_id](../../../../../_components/schemas/resource-sharing_account_id.md) | *Serialization: style=Simple* |
-| `share_id` | Yes | [resource-sharing_share_id](../../../../../_components/schemas/resource-sharing_share_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [resource-sharing_account_id](../../../../../_components/schemas/resource-sharing_account_id.md) |  |
+| `share_id` | Yes | [resource-sharing_share_id](../../../../../_components/schemas/resource-sharing_share_id.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Share recipient created.
 [resource-sharing_share_recipient_response_single](../../../../../_components/schemas/resource-sharing_share_recipient_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create share recipient failure.
 
@@ -50,7 +50,7 @@ Create share recipient failure.
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 Create share recipient failure.
 

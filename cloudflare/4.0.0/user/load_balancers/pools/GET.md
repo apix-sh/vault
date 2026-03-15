@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `monitor` | No | string | *Serialization: style=Form* |
+| `monitor` | No | string |  |
 
 
 
@@ -37,7 +37,7 @@ List Pools response.
 [load-balancing_schemas-response_collection](../../../_components/schemas/load-balancing_schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Pools response failure.
 

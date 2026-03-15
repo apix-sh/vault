@@ -17,8 +17,8 @@ Note that secrets cannot be rotated again during the grace period.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [turnstile_identifier](../../../../../../_components/schemas/turnstile_identifier.md) | *Serialization: style=Simple* |
-| `sitekey` | Yes | [turnstile_sitekey](../../../../../../_components/schemas/turnstile_sitekey.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [turnstile_identifier](../../../../../../_components/schemas/turnstile_identifier.md) |  |
+| `sitekey` | Yes | [turnstile_sitekey](../../../../../../_components/schemas/turnstile_sitekey.md) |  |
 
 
 ## Query Parameters
@@ -48,7 +48,7 @@ Rotate Secret Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Rotate Secret Response Error
 

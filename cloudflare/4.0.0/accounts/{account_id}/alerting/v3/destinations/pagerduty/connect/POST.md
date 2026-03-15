@@ -13,7 +13,7 @@ Creates a new token for integrating with PagerDuty.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../../../_components/schemas/aaa_account-id.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Token for PagerDuty integration
 [aaa_sensitive_id_response](../../../../../../../_components/schemas/aaa_sensitive_id_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a token for PagerDuty integration failure
 

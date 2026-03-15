@@ -13,7 +13,7 @@ Updates Zaraz workflow for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update Zaraz workflow response
 [zaraz_zaraz-workflow-response](../../../../../_components/schemas/zaraz_zaraz-workflow-response.md)
 
 
-### 4xx
+### 4XX
 
 Update Zaraz workflow response failure
 

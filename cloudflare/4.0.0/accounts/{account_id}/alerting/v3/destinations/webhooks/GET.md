@@ -13,7 +13,7 @@ Gets a list of all configured webhook destinations.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../../_components/schemas/aaa_account-id.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List webhooks response
 [aaa_webhooks_components-schemas-response_collection](../../../../../../_components/schemas/aaa_webhooks_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List webhooks response failure
 

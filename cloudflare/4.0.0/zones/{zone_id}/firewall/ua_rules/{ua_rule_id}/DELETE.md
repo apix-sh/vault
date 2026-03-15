@@ -13,8 +13,8 @@ Deletes an existing User Agent Blocking rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ua_rule_id` | Yes | [firewall_components-ua-rule-id](../../../../../_components/schemas/firewall_components-ua-rule-id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `ua_rule_id` | Yes | [firewall_components-ua-rule-id](../../../../../_components/schemas/firewall_components-ua-rule-id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete a User Agent Blocking rule response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete a User Agent Blocking rule response failure
 

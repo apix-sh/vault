@@ -13,7 +13,7 @@ Fetches Worker account settings for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Fetch Worker Account Settings response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Fetch Worker Account Settings response failure.
 

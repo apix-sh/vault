@@ -13,7 +13,7 @@ Creates a route that maps a URL pattern to a Worker.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Route response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create Route response failure.
 

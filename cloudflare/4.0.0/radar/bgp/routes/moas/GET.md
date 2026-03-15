@@ -18,10 +18,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `origin` | No | integer | Lookup MOASes originated by the given ASN.<br/>*Serialization: style=Form* |
-| `prefix` | No | string | *Serialization: style=Form* |
-| `invalid_only` | No | boolean | Lookup only RPKI invalid MOASes.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `origin` | No | integer | Lookup MOASes originated by the given ASN. |
+| `prefix` | No | string |  |
+| `invalid_only` | No | boolean | Lookup only RPKI invalid MOASes. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

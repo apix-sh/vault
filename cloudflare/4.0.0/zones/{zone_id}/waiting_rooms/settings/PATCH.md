@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waitingroom_identifier](../../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waitingroom_identifier](../../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ The updated zone-level Waiting Room settings
 [waitingroom_zone_settings_response](../../../../_components/schemas/waitingroom_zone_settings_response.md)
 
 
-### 4xx
+### 4XX
 
 The zone-level Waiting Room settings response failure
 

@@ -11,9 +11,9 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [cloudforce-one-requests_identifier](../../../../../../../_components/schemas/cloudforce-one-requests_identifier.md) | *Serialization: style=Simple* |
-| `request_id` | Yes | [cloudforce-one-requests_uuid](../../../../../../../_components/schemas/cloudforce-one-requests_uuid.md) | *Serialization: style=Simple* |
-| `asset_id` | Yes | [cloudforce-one-requests_uuid](../../../../../../../_components/schemas/cloudforce-one-requests_uuid.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [cloudforce-one-requests_identifier](../../../../../../../_components/schemas/cloudforce-one-requests_identifier.md) |  |
+| `request_id` | Yes | [cloudforce-one-requests_uuid](../../../../../../../_components/schemas/cloudforce-one-requests_uuid.md) |  |
+| `asset_id` | Yes | [cloudforce-one-requests_uuid](../../../../../../../_components/schemas/cloudforce-one-requests_uuid.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update request asset response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update request asset response failure.
 

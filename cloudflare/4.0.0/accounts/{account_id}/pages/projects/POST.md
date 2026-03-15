@@ -13,7 +13,7 @@ Create a new project.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [pages_identifier](../../../../_components/schemas/pages_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [pages_identifier](../../../../_components/schemas/pages_identifier.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Create project response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create project response failure.
 

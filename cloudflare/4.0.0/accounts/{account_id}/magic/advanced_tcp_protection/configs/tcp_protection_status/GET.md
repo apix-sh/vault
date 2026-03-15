@@ -13,7 +13,7 @@ Get the protection status of the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../_components/schemas/dos_identifier.md) | The account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../_components/schemas/dos_identifier.md) | The account ID. |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get protection status response.
 [dos_protection-status-response](../../../../../../_components/schemas/dos_protection-status-response.md)
 
 
-### 4xx
+### 4XX
 
 Get protection status failure.
 

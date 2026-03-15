@@ -13,14 +13,14 @@ Retrieves the requested origin information with its regions.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `slug` | Yes | string | Origin slug.<br/>*Serialization: style=Simple* |
+| `slug` | Yes | string | Origin slug. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

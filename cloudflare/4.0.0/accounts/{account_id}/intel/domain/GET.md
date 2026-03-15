@@ -13,14 +13,14 @@ Gets security details and statistics about a domain.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | No | string | *Serialization: style=Form* |
+| `domain` | No | string |  |
 
 
 
@@ -39,7 +39,7 @@ Get Domain Details response.
 [intel_single_response](../../../../_components/schemas/intel_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Domain Details response failure.
 

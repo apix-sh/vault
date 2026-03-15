@@ -13,14 +13,14 @@ List prebuilt catalog sync policies (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `destination_type` | No | [mcn_catalog_sync_destination_type](../../../../../../_components/schemas/mcn_catalog_sync_destination_type.md) | Specify type of destination, omit to return all.<br/>*Serialization: style=Form* |
+| `destination_type` | No | [mcn_catalog_sync_destination_type](../../../../../../_components/schemas/mcn_catalog_sync_destination_type.md) | Specify type of destination, omit to return all. |
 
 
 

@@ -13,7 +13,7 @@ Updates the current status of Leaked Credential Checks.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../_components/schemas/waf-product-api-bundle_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../_components/schemas/waf-product-api-bundle_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Set Leaked Credential Checks status response.
 [waf-product-api-bundle_response-status](../../../_components/schemas/waf-product-api-bundle_response-status.md)
 
 
-### 4xx
+### 4XX
 
 Set Leaked Credential Checks status failure response.
 

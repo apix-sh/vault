@@ -13,8 +13,8 @@ Delete a Content Scan Custom Expression.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../../_components/schemas/waf-product-api-bundle_identifier.md) | *Serialization: style=Simple* |
-| `expression_id` | Yes | [waf-product-api-bundle_custom-scan-id](../../../../../_components/schemas/waf-product-api-bundle_custom-scan-id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../../_components/schemas/waf-product-api-bundle_identifier.md) |  |
+| `expression_id` | Yes | [waf-product-api-bundle_custom-scan-id](../../../../../_components/schemas/waf-product-api-bundle_custom-scan-id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete Content Scan custom scan expressions response.
 [waf-product-api-bundle_response-custom-scan-collection](../../../../../_components/schemas/waf-product-api-bundle_response-custom-scan-collection.md)
 
 
-### 4xx
+### 4XX
 
 Delete Content Scan custom scan expressions failure response.
 

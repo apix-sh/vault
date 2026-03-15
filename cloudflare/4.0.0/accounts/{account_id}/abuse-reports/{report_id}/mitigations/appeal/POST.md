@@ -13,8 +13,8 @@ Request a review for mitigations on an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Cloudflare Account ID<br/>*Serialization: style=Simple* |
-| `report_id` | Yes | string | Abuse Report ID<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Cloudflare Account ID |
+| `report_id` | Yes | string | Abuse Report ID |
 
 
 ## Query Parameters

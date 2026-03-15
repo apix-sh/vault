@@ -13,14 +13,14 @@ Takes a screenshot of a webpage from provided URL or HTML. Control page loading 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `cacheTTL` | No | number | Cache TTL default is 5s. Set to 0 to disable.<br/>*Serialization: style=Form* |
+| `cacheTTL` | No | number | Cache TTL default is 5s. Set to 0 to disable. |
 
 
 
@@ -88,7 +88,6 @@ Request failed due to rate limiting. The Retry-After header indicates when the c
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Retry-After` | Yes | number | Number of seconds to wait before retrying the request |
 
 
@@ -97,19 +96,6 @@ Request failed due to rate limiting. The Retry-After header indicates when the c
 | :--- | :---: | :--- | :--- |
 | `errors` | No | array<object> |  |
 | `success` | Yes | boolean | Response status |
-
-#### Example Payload
-```json
-{
-  "errors": [
-    {
-      "code": 2001,
-      "message": "Rate limit exceeded"
-    }
-  ],
-  "success": false
-}
-```
 
 
 ### 500

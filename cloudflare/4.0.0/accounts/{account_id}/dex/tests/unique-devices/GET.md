@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/dex/tests/unique-devices"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,15 +12,15 @@ Returns unique count of devices that have run synthetic application monitoring t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `testName` | No | string | Optionally filter results by test name<br/>*Serialization: style=Form* |
-| `deviceId` | No | array<string> | Optionally filter result stats to a specific device(s). Cannot be used in combination with colo param.<br/>*Serialization: style=Form* |
+| `testName` | No | string | Optionally filter results by test name |
+| `deviceId` | No | array<string> | Optionally filter result stats to a specific device(s). Cannot be used in combination with colo param. |
 
 
 
@@ -40,7 +39,7 @@ DEX unique devices targeted response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 DEX unique devices targeted failure response
 

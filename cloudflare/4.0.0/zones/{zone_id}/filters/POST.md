@@ -13,7 +13,7 @@ Creates one or more filters.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create filters response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create filters response failure
 

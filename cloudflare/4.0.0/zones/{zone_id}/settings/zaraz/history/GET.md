@@ -13,17 +13,17 @@ Lists a history of published Zaraz configuration records for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `offset` | No | integer | Ordinal number to start listing the results with. Default value is 0.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Maximum amount of results to list. Default value is 10.<br/>*Serialization: style=Form* |
-| `sortField` | No | string | The field to sort by. Default is updated_at.<br/>*Serialization: style=Form* |
-| `sortOrder` | No | string | Sorting order. Default is DESC.<br/>*Serialization: style=Form* |
+| `offset` | No | integer | Ordinal number to start listing the results with. Default value is 0. |
+| `limit` | No | integer | Maximum amount of results to list. Default value is 10. |
+| `sortField` | No | string | The field to sort by. Default is updated_at. |
+| `sortOrder` | No | string | Sorting order. Default is DESC. |
 
 
 
@@ -42,7 +42,7 @@ List Zaraz historical configuration records response
 [zaraz_zaraz-history-response](../../../../../_components/schemas/zaraz_zaraz-history-response.md)
 
 
-### 4xx
+### 4XX
 
 List Zaraz historical configuration records failure
 

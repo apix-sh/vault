@@ -13,8 +13,8 @@ This deletes all versions of the dataset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `dataset_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `dataset_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -34,7 +34,7 @@ _(None)_
 
 Dataset deleted successfully.
 
-### 4xx
+### 4XX
 
 Dataset delete failed.
 

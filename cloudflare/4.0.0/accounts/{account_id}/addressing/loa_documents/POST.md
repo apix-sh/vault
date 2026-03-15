@@ -13,7 +13,7 @@ Submit LOA document (pdf format) under the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Upload LOA Document response
 [addressing_loa_upload_response](../../../../_components/schemas/addressing_loa_upload_response.md)
 
 
-### 4xx
+### 4XX
 
 Upload LOA Document response failure
 

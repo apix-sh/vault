@@ -13,7 +13,7 @@ Delete a configured pool.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../_components/schemas/load-balancing_schemas-identifier.md) | *Serialization: style=Simple* |
+| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../_components/schemas/load-balancing_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Delete Pool response.
 [load-balancing_schemas-id_response](../../../../_components/schemas/load-balancing_schemas-id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete Pool response failure.
 

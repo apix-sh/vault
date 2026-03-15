@@ -18,13 +18,13 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limits the number of objects returned in the response.<br/>*Serialization: style=Form* |
-| `offset` | No | integer | Skips the specified number of objects before fetching the results.<br/>*Serialization: style=Form* |
-| `location` | No | string | Filters results by location. Specify a comma-separated list of alpha-2 location codes.<br/>*Serialization: style=Form* |
-| `region` | No | string | Filters results by region.<br/>*Serialization: style=Form* |
-| `subregion` | No | string | Filters results by subregion.<br/>*Serialization: style=Form* |
-| `continent` | No | string | Filters results by continent code.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limits the number of objects returned in the response. |
+| `offset` | No | integer | Skips the specified number of objects before fetching the results. |
+| `location` | No | string | Filters results by location. Specify a comma-separated list of alpha-2 location codes. |
+| `region` | No | string | Filters results by region. |
+| `subregion` | No | string | Filters results by subregion. |
+| `continent` | No | string | Filters results by continent code. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

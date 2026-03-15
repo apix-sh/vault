@@ -13,8 +13,8 @@ Updating a request alters the request in the Cloudforce One queue. This API may 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [cloudforce-one-requests_identifier](../../../../../_components/schemas/cloudforce-one-requests_identifier.md) | *Serialization: style=Simple* |
-| `request_id` | Yes | [cloudforce-one-requests_uuid](../../../../../_components/schemas/cloudforce-one-requests_uuid.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [cloudforce-one-requests_identifier](../../../../../_components/schemas/cloudforce-one-requests_identifier.md) |  |
+| `request_id` | Yes | [cloudforce-one-requests_uuid](../../../../../_components/schemas/cloudforce-one-requests_uuid.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update request response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update request response failure.
 

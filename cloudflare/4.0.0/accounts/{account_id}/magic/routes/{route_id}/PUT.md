@@ -13,8 +13,8 @@ Update a specific Magic static route. Use `?validate_only=true` as an optional q
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `route_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `route_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update Route response
 [magic_route_modified_response](../../../../../_components/schemas/magic_route_modified_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Route response failure
 

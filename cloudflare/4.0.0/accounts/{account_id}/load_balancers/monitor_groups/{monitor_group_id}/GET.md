@@ -13,8 +13,8 @@ Fetch a single configured monitor group.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `monitor_group_id` | Yes | [load-balancing_schemas-identifier](../../../../../_components/schemas/load-balancing_schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `monitor_group_id` | Yes | [load-balancing_schemas-identifier](../../../../../_components/schemas/load-balancing_schemas-identifier.md) |  |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Monitor Group Details response
 [load-balancing_monitor-group-single-response](../../../../../_components/schemas/load-balancing_monitor-group-single-response.md)
 
 
-### 4xx
+### 4XX
 
 Monitor Group Details response failure
 

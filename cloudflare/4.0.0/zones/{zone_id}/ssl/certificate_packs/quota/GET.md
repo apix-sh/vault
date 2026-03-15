@@ -13,7 +13,7 @@ For a given zone, list certificate pack quotas.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Certificate Pack Quotas response
 [tls-certificates-and-hostnames_certificate_pack_quota_response](../../../../../_components/schemas/tls-certificates-and-hostnames_certificate_pack_quota_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Certificate Pack Quotas response failure
 

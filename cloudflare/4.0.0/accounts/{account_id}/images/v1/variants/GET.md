@@ -13,7 +13,7 @@ Lists existing variants.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List variants response
 [images_image_variant_list_response](../../../../../_components/schemas/images_image_variant_list_response.md)
 
 
-### 4xx
+### 4XX
 
 List variants response failure
 

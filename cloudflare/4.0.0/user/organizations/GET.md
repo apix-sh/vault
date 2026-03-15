@@ -18,13 +18,13 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | [iam_schemas-name](../../_components/schemas/iam_schemas-name.md) | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `match` | No | string | *Serialization: style=Form* |
-| `status` | No | string | *Serialization: style=Form* |
+| `name` | No | [iam_schemas-name](../../_components/schemas/iam_schemas-name.md) |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `order` | No | string |  |
+| `direction` | No | string |  |
+| `match` | No | string |  |
+| `status` | No | string |  |
 
 
 
@@ -43,7 +43,7 @@ List Organizations response
 [iam_collection_organization_response](../../_components/schemas/iam_collection_organization_response.md)
 
 
-### 4xx
+### 4XX
 
 List Organizations response failure
 

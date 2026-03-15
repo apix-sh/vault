@@ -13,8 +13,8 @@ Remove a user group from an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
-| `user_group_id` | Yes | [iam_user_group_identifier](../../../../../_components/schemas/iam_user_group_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) |  |
+| `user_group_id` | Yes | [iam_user_group_identifier](../../../../../_components/schemas/iam_user_group_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Remove User Group response
 [iam_api-response-single-id](../../../../../_components/schemas/iam_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Remove User Group response failure
 

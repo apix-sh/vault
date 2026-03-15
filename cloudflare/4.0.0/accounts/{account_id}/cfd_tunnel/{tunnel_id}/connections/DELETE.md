@@ -1,7 +1,6 @@
 ---
 method: "DELETE"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/cfd_tunnel/{tunnel_id}/connections"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,15 +12,15 @@ Removes a connection (aka Cloudflare Tunnel Connector) from a Cloudflare Tunnel 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_account_id](../../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
-| `tunnel_id` | Yes | [tunnel_tunnel_id](../../../../../_components/schemas/tunnel_tunnel_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_account_id](../../../../../_components/schemas/tunnel_account_id.md) |  |
+| `tunnel_id` | Yes | [tunnel_tunnel_id](../../../../../_components/schemas/tunnel_tunnel_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `client_id` | No | [tunnel_client_id](../../../../../_components/schemas/tunnel_client_id.md) | *Serialization: style=Form* |
+| `client_id` | No | [tunnel_client_id](../../../../../_components/schemas/tunnel_client_id.md) |  |
 
 
 
@@ -44,7 +43,7 @@ Clean up Cloudflare Tunnel connections response
 [tunnel_empty_response](../../../../../_components/schemas/tunnel_empty_response.md)
 
 
-### 4xx
+### 4XX
 
 Clean up Cloudflare Tunnel connections response failure
 

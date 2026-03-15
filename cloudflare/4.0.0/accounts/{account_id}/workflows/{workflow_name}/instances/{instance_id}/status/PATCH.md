@@ -13,9 +13,9 @@ Changes the execution status of a workflow instance (e.g., pause, resume, termin
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `workflow_name` | Yes | string | *Serialization: style=Simple* |
-| `instance_id` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `workflow_name` | Yes | string |  |
+| `instance_id` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -60,7 +60,7 @@ Bad Request.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 
@@ -73,7 +73,7 @@ Instance not found.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 
@@ -86,7 +86,7 @@ Instance not in a restartable state.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 

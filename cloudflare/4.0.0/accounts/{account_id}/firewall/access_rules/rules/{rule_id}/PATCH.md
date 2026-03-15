@@ -15,8 +15,8 @@ Note: This operation will affect all zones in the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_id` | Yes | [firewall_rule_identifier](../../../../../../_components/schemas/firewall_rule_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [firewall_account_identifier](../../../../../../_components/schemas/firewall_account_identifier.md) | *Serialization: style=Simple* |
+| `rule_id` | Yes | [firewall_rule_identifier](../../../../../../_components/schemas/firewall_rule_identifier.md) |  |
+| `account_id` | Yes | [firewall_account_identifier](../../../../../../_components/schemas/firewall_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Update an IP Access rule response.
 [firewall_response_single](../../../../../../_components/schemas/firewall_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update an IP Access rule response failure.
 

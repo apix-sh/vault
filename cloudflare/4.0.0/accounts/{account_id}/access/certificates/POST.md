@@ -13,7 +13,7 @@ Adds a new mTLS root certificate to Access.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,11 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `associated_hostnames` | No | [access_associated_hostnames](../../../../_components/schemas/access_associated_hostnames.md) |  |
+| `certificate` | Yes | string | The certificate content. |
+| `name` | Yes | [access_certificates_components-schemas-name](../../../../_components/schemas/access_certificates_components-schemas-name.md) |  |
 
 
 ## Responses
@@ -41,7 +45,7 @@ Add an mTLS certificate response
 [access_certificates_components-schemas-single_response](../../../../_components/schemas/access_certificates_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Add an mTLS certificate response failure
 

@@ -27,3 +27,4 @@ type: "allOf(2)"
 | `skip_interstitial` | No | [access_skip_interstitial](access_skip_interstitial.md) |  |
 | `type` | Yes | string | The application type. |
 | `use_clientless_isolation_app_launcher_url` | No | [access_use_clientless_isolation_app_launcher_url](access_use_clientless_isolation_app_launcher_url.md) |  |
+| `type` | No | string | The application type. |

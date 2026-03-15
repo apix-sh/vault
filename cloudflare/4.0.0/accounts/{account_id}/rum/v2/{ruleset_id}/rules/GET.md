@@ -13,8 +13,8 @@ Lists all the rules in a Web Analytics ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [rum_identifier](../../../../../../_components/schemas/rum_identifier.md) | *Serialization: style=Simple* |
-| `ruleset_id` | Yes | [rum_ruleset_identifier](../../../../../../_components/schemas/rum_ruleset_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [rum_identifier](../../../../../../_components/schemas/rum_identifier.md) |  |
+| `ruleset_id` | Yes | [rum_ruleset_identifier](../../../../../../_components/schemas/rum_ruleset_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List of Web Analytics rules in the ruleset.
 [rum_rules-response-collection](../../../../../../_components/schemas/rum_rules-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

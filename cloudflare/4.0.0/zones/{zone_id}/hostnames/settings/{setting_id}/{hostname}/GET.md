@@ -13,9 +13,9 @@ Get the requested TLS setting for the hostname.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `setting_id` | Yes | [tls-certificates-and-hostnames_setting_id](../../../../../../_components/schemas/tls-certificates-and-hostnames_setting_id.md) | *Serialization: style=Simple* |
-| `hostname` | Yes | [tls-certificates-and-hostnames_components-schemas-hostname](../../../../../../_components/schemas/tls-certificates-and-hostnames_components-schemas-hostname.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `setting_id` | Yes | [tls-certificates-and-hostnames_setting_id](../../../../../../_components/schemas/tls-certificates-and-hostnames_setting_id.md) |  |
+| `hostname` | Yes | [tls-certificates-and-hostnames_components-schemas-hostname](../../../../../../_components/schemas/tls-certificates-and-hostnames_components-schemas-hostname.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Get TLS setting for hostname response
 [tls-certificates-and-hostnames_per_hostname_settings_response](../../../../../../_components/schemas/tls-certificates-and-hostnames_per_hostname_settings_response.md)
 
 
-### 4xx
+### 4XX
 
 Get TLS setting for hostname response failure
 

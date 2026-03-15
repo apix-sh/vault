@@ -13,8 +13,8 @@ Fetches a DLP entry by ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `entry_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `entry_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get entry response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get entry failure response.
 

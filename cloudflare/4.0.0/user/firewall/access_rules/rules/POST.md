@@ -45,7 +45,7 @@ Create an IP Access rule response.
 [firewall_rule_single_response](../../../../_components/schemas/firewall_rule_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create an IP Access rule response failure.
 

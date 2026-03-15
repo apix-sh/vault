@@ -13,8 +13,8 @@ Only available for the Waiting Room Advanced subscription. Creates an event for 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../../_components/schemas/waitingroom_waiting_room_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [waitingroom_identifier](../../../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../../_components/schemas/waitingroom_waiting_room_id.md) |  |
+| `zone_id` | Yes | [waitingroom_identifier](../../../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Create event response
 [waitingroom_event_response](../../../../../_components/schemas/waitingroom_event_response.md)
 
 
-### 4xx
+### 4XX
 
 Create event response failure
 

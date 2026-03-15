@@ -13,7 +13,7 @@ Creates a new User Agent Blocking rule in a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Create a User Agent Blocking rule response
 [firewall_firewalluablock_response_single](../../../../_components/schemas/firewall_firewalluablock_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create a User Agent Blocking rule response failure
 

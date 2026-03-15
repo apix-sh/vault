@@ -16,7 +16,7 @@ number of characters that can be matched using a range, e.g. `{1,100}`.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Validation response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to validate.
 

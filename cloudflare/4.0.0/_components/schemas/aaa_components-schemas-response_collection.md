@@ -11,3 +11,4 @@ type: "allOf(2)"
 | `errors` | Yes | [aaa_components-schemas-messages](aaa_components-schemas-messages.md) |  |
 | `messages` | Yes | [aaa_components-schemas-messages](aaa_components-schemas-messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful |
+| `result` | No | array<[aaa_pagerduty](./aaa_pagerduty.md)> |  |

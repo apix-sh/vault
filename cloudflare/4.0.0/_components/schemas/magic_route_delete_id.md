@@ -8,3 +8,4 @@ type: "allOf(1)"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | [magic_identifier](magic_identifier.md) |  |

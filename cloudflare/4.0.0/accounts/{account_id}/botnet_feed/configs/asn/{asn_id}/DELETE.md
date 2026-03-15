@@ -13,8 +13,8 @@ Delete an ASN from botnet threat feed for a given user.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../_components/schemas/dos_identifier.md) | *Serialization: style=Simple* |
-| `asn_id` | Yes | [dos_asn](../../../../../../_components/schemas/dos_asn.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../_components/schemas/dos_identifier.md) |  |
+| `asn_id` | Yes | [dos_asn](../../../../../../_components/schemas/dos_asn.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete ASN response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete ASN response failure
 

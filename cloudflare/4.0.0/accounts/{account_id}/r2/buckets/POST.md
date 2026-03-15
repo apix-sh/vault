@@ -13,7 +13,7 @@ Creates a new R2 bucket.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [r2_account_identifier](../../../../_components/schemas/r2_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [r2_account_identifier](../../../../_components/schemas/r2_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -24,8 +24,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `cf-r2-jurisdiction` | No | [r2_jurisdiction](../../../../_components/schemas/r2_jurisdiction.md) | *Serialization: style=Simple* |
+| `cf-r2-jurisdiction` | No | [r2_jurisdiction](../../../../_components/schemas/r2_jurisdiction.md) |  |
 
 
 ## Request Body
@@ -56,7 +55,7 @@ Create Bucket response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create Bucket response failure.
 

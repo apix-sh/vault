@@ -13,7 +13,7 @@ Update an existing network monitoring configuration, requires the entire configu
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Update an entire account configuration response
 [magic-visibility-mnm_mnm_config_single_response](../../../../_components/schemas/magic-visibility-mnm_mnm_config_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update an entire account configuration response failure
 

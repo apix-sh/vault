@@ -13,7 +13,7 @@ Update secondary zone configuration for incoming zone transfers.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [secondary-dns_identifier](../../../../_components/schemas/secondary-dns_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [secondary-dns_identifier](../../../../_components/schemas/secondary-dns_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update Secondary Zone Configuration response.
 [secondary-dns_single_response_incoming](../../../../_components/schemas/secondary-dns_single_response_incoming.md)
 
 
-### 4xx
+### 4XX
 
 Update Secondary Zone Configuration response failure.
 

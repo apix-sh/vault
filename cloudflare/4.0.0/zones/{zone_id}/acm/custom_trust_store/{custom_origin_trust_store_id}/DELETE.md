@@ -13,8 +13,8 @@ Removes a CA certificate from the custom origin trust store. Origins using certi
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `custom_origin_trust_store_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `custom_origin_trust_store_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete Custom Origin Trust Store response
 [tls-certificates-and-hostnames_custom_trust_store_response_id_only](../../../../../_components/schemas/tls-certificates-and-hostnames_custom_trust_store_response_id_only.md)
 
 
-### 4xx
+### 4XX
 
 Delete Custom Origin Trust Store response failure
 

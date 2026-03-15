@@ -13,7 +13,7 @@ Get whether zone-level authenticated origin pulls is enabled or not. It is false
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Enablement Setting for Zone response
 [tls-certificates-and-hostnames_enabled_response](../../../../_components/schemas/tls-certificates-and-hostnames_enabled_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Enablement Setting for Zone response failure
 

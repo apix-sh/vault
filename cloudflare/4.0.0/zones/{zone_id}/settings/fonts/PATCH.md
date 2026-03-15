@@ -15,7 +15,7 @@ boost performance, and enhance user privacy. Refer to the Cloudflare Fonts docum
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [speed_identifier](../../../../_components/schemas/speed_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [speed_identifier](../../../../_components/schemas/speed_identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Change Cloudflare Fonts setting response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Change Cloudflare Fonts setting response failure.
 

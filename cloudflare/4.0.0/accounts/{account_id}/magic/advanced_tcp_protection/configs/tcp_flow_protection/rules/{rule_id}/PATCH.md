@@ -13,8 +13,8 @@ Update a TCP Flow Protection rule specified by the given UUID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account.<br/>*Serialization: style=Simple* |
-| `rule_id` | Yes | [dos_uuid](../../../../../../../../_components/schemas/dos_uuid.md) | The UUID of the TCP Flow Protection rule to update.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account. |
+| `rule_id` | Yes | [dos_uuid](../../../../../../../../_components/schemas/dos_uuid.md) | The UUID of the TCP Flow Protection rule to update. |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update TCP Flow Protection rule response.
 [dos_tcp-flow-protection-rule-response](../../../../../../../../_components/schemas/dos_tcp-flow-protection-rule-response.md)
 
 
-### 4xx
+### 4XX
 
 Update TCP Flow Protection rule failure.
 

@@ -13,9 +13,9 @@ Retrieves details for a specific AI Search indexing job.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | Use your AI Search ID.<br/>*Serialization: style=Simple* |
-| `job_id` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `id` | Yes | string | Use your AI Search ID. |
+| `job_id` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters

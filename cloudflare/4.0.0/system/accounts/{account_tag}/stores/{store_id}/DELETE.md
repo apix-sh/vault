@@ -15,7 +15,7 @@ Returns 404 if the store doesn't exist or is not managed by the authenticated se
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `store_id` | Yes | [secrets-store_store_identifier](../../../../../_components/schemas/secrets-store_store_identifier.md) | *Serialization: style=Simple* |
+| `store_id` | Yes | [secrets-store_store_identifier](../../../../../_components/schemas/secrets-store_store_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Store deleted
 [secrets-store_store_response](../../../../../_components/schemas/secrets-store_store_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete store failure
 

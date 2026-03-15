@@ -18,11 +18,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `dateStart` | No | string | Start of the date range (inclusive).<br/>*Serialization: style=Form* |
-| `dateEnd` | No | string | End of the date range (inclusive).<br/>*Serialization: style=Form* |
-| `asn` | No | integer | Filter changes involving this ASN (as customer or provider).<br/>*Serialization: style=Form* |
-| `includeAsnInfo` | No | boolean | Include ASN metadata (name, country) in response.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `dateStart` | No | string | Start of the date range (inclusive). |
+| `dateEnd` | No | string | End of the date range (inclusive). |
+| `asn` | No | integer | Filter changes involving this ASN (as customer or provider). |
+| `includeAsnInfo` | No | boolean | Include ASN metadata (name, country) in response. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

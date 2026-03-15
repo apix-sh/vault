@@ -18,12 +18,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limits the number of objects returned in the response.<br/>*Serialization: style=Form* |
-| `dateRange` | No | string | Filters results by date range.<br/>*Serialization: style=Form* |
-| `dateStart` | No | string | Start of the date range (inclusive).<br/>*Serialization: style=Form* |
-| `dateEnd` | No | string | End of the date range (inclusive).<br/>*Serialization: style=Form* |
-| `status` | No | string | *Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limits the number of objects returned in the response. |
+| `dateRange` | No | string | Filters results by date range. |
+| `dateStart` | No | string | Start of the date range (inclusive). |
+| `dateEnd` | No | string | End of the date range (inclusive). |
+| `status` | No | string |  |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

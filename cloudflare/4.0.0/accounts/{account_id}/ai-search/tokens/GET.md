@@ -13,17 +13,17 @@ List tokens.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `order_by` | No | string | Order By Column Name<br/>*Serialization: style=Form* |
-| `order_by_direction` | No | string | Order By Direction<br/>*Serialization: style=Form* |
+| `page` | No | integer |  |
+| `per_page` | No | integer |  |
+| `order_by` | No | string | Order By Column Name |
+| `order_by_direction` | No | string | Order By Direction |
 
 
 

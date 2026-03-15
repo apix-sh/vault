@@ -13,8 +13,8 @@ Remove multiple KV pairs from the namespace. Body should be an array of up to 10
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) |  |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Delete multiple key-value pairs response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete multiple key-value pairs response failure.
 

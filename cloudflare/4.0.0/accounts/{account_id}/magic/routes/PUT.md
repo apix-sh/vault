@@ -13,7 +13,7 @@ Update multiple Magic static routes. Use `?validate_only=true` as an optional qu
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update Many Routes response
 [magic_multiple_route_modified_response](../../../../_components/schemas/magic_multiple_route_modified_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Many Routes response failure
 

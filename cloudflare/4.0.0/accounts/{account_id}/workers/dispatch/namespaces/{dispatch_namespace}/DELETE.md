@@ -13,8 +13,8 @@ Delete a Workers for Platforms namespace.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../_components/schemas/workers_dispatch_namespace_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) |  |
+| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../_components/schemas/workers_dispatch_namespace_name.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete a Workers for Platforms namespace.
 [workers_api-response-null-result](../../../../../../_components/schemas/workers_api-response-null-result.md)
 
 
-### 4xx
+### 4XX
 
 Failure to delete Workers for Platforms namespace.
 

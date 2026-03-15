@@ -13,8 +13,8 @@ Delete an event query alert subscription by its ID
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `alert_id` | Yes | integer | Event query alert ID<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `alert_id` | Yes | integer | Event query alert ID |
 
 
 ## Query Parameters

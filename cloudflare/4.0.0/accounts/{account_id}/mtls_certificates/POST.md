@@ -13,7 +13,7 @@ Upload a certificate that you want to use with mTLS-enabled Cloudflare services,
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Upload mTLS certificate response
 [tls-certificates-and-hostnames_certificate_response_single_post](../../../_components/schemas/tls-certificates-and-hostnames_certificate_response_single_post.md)
 
 
-### 4xx
+### 4XX
 
 Upload mTLS certificate response failure
 

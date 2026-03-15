@@ -13,9 +13,9 @@ Generate captions or subtitles for provided language via AI.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `language` | Yes | [stream_language](../../../../../../../_components/schemas/stream_language.md) | *Serialization: style=Simple* |
-| `identifier` | Yes | [stream_identifier](../../../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `language` | Yes | [stream_language](../../../../../../../_components/schemas/stream_language.md) |  |
+| `identifier` | Yes | [stream_identifier](../../../../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Generate captions or subtitles response for a provided language.
 [stream_language_response_single](../../../../../../../_components/schemas/stream_language_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Generate captions or subtitles response for a provided language.
 

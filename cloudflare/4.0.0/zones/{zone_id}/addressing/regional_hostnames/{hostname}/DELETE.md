@@ -38,7 +38,7 @@ Delete hostname response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure to delete hostname
 

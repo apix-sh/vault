@@ -13,17 +13,17 @@ List Cloud Integrations (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../_components/schemas/mcn_account_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `status` | No | boolean | *Serialization: style=Form* |
-| `order_by` | No | string | One of ["updated_at", "id", "cloud_type", "name"].<br/>*Serialization: style=Form* |
-| `desc` | No | boolean | *Serialization: style=Form* |
-| `cloudflare` | No | boolean | *Serialization: style=Form* |
+| `status` | No | boolean |  |
+| `order_by` | No | string | One of ["updated_at", "id", "cloud_type", "name"]. |
+| `desc` | No | boolean |  |
+| `cloudflare` | No | boolean |  |
 
 
 

@@ -13,8 +13,8 @@ Fetches a cookie collected by Page Shield by cookie ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
-| `cookie_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
+| `cookie_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Page Shield cookie response
 [page-shield_get-zone-cookie-response](../../../../../_components/schemas/page-shield_get-zone-cookie-response.md)
 
 
-### 4xx
+### 4XX
 
 Get a Page Shield cookie response failure
 

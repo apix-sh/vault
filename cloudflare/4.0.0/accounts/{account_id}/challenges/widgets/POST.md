@@ -13,27 +13,18 @@ Lists challenge widgets.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [turnstile_identifier](../../../../_components/schemas/turnstile_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [turnstile_identifier](../../../../_components/schemas/turnstile_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `filter` | No | string | Filter widgets by field using case-insensitive substring matching.
-Format: `field:value`
-
-Supported fields:
-- `name` - Filter by widget name (e.g., `filter=name:login-form`)
-- `sitekey` - Filter by sitekey (e.g., `filter=sitekey:0x4AAA`)
-
-Returns 400 Bad Request if the field is unsupported or format is invalid.
-An empty filter value returns all results.
-<br/>*Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `order` | No | string |  |
+| `direction` | No | string |  |
+| `filter` | No | string | Filter widgets by field using case-insensitive substring matching.<br/>Format: `field:value`<br/><br/>Supported fields:<br/>- `name` - Filter by widget name (e.g., `filter=name:login-form`)<br/>- `sitekey` - Filter by sitekey (e.g., `filter=sitekey:0x4AAA`)<br/><br/>Returns 400 Bad Request if the field is unsupported or format is invalid.<br/>An empty filter value returns all results.<br/> |
 
 
 
@@ -65,7 +56,7 @@ Create Turnstile Widget Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create Turnstile Widget Response Error
 

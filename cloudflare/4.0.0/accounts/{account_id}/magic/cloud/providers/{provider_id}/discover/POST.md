@@ -13,15 +13,15 @@ Run discovery for a Cloud Integration (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
-| `provider_id` | Yes | [mcn_provider_id](../../../../../../../_components/schemas/mcn_provider_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../../../_components/schemas/mcn_account_id.md) |  |
+| `provider_id` | Yes | [mcn_provider_id](../../../../../../../_components/schemas/mcn_provider_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `v2` | No | boolean | *Serialization: style=Form* |
+| `v2` | No | boolean |  |
 
 
 

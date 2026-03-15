@@ -13,15 +13,15 @@ Runs inference on the @hf/nousresearch/hermes-2-pro-mistral-7b model.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queueRequest` | No | string | *Serialization: style=Form* |
-| `tags` | No | string | *Serialization: style=Form* |
+| `queueRequest` | No | string |  |
+| `tags` | No | string |  |
 
 
 

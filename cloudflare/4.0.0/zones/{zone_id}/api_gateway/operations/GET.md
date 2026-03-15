@@ -21,7 +21,7 @@ _(None)_
 | `Reference` | N/A | [api-shield_zone_id](../../../../_components/parameters/api-shield_zone_id.md) |  |
 | `Reference` | N/A | [api-shield_page](../../../../_components/parameters/api-shield_page.md) |  |
 | `Reference` | N/A | [api-shield_per_page](../../../../_components/parameters/api-shield_per_page.md) |  |
-| `order` | No | string | *Serialization: style=Form* |
+| `order` | No | string |  |
 | `Reference` | N/A | [api-shield_direction_parameter](../../../../_components/parameters/api-shield_direction_parameter.md) |  |
 | `Reference` | N/A | [api-shield_host_parameter](../../../../_components/parameters/api-shield_host_parameter.md) |  |
 | `Reference` | N/A | [api-shield_method_parameter](../../../../_components/parameters/api-shield_method_parameter.md) |  |
@@ -45,7 +45,7 @@ Retrieve information about all operations on a zone response
 [api-shield_multiple-operation-response-paginated](../../../../_components/schemas/api-shield_multiple-operation-response-paginated.md)
 
 
-### 4xx
+### 4XX
 
 Retrieve information about all operations on a zone response failure
 

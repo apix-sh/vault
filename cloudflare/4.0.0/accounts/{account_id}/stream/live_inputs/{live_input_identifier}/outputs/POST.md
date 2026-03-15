@@ -13,8 +13,8 @@ Creates a new output that can be used to simulcast or restream live video to oth
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../../_components/schemas/stream_live_input_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../../_components/schemas/stream_live_input_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Create a new output, connected to a live input response.
 [stream_output_response_single](../../../../../../_components/schemas/stream_output_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create a new output, connected to a live input response failure.
 

@@ -13,8 +13,8 @@ This is a no-op as predefined entires can't be deleted but is needed for our gen
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `entry_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `entry_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete predefined entry response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete entry failure response.
 

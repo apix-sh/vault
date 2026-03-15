@@ -13,16 +13,16 @@ Creates a scheduled test for a page.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [observatory_identifier](../../../../../_components/schemas/observatory_identifier.md) | *Serialization: style=Simple* |
-| `url` | Yes | [observatory_url](../../../../../_components/schemas/observatory_url.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [observatory_identifier](../../../../../_components/schemas/observatory_identifier.md) |  |
+| `url` | Yes | [observatory_url](../../../../../_components/schemas/observatory_url.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `region` | No | allOf(2) | *Serialization: style=Form* |
-| `frequency` | No | [observatory_schedule_frequency](../../../../../_components/schemas/observatory_schedule_frequency.md) | The frequency of the scheduled test. Defaults to WEEKLY for free plans, DAILY for paid plans.<br/>*Serialization: style=Form* |
+| `region` | No | allOf(2) |  |
+| `frequency` | No | [observatory_schedule_frequency](../../../../../_components/schemas/observatory_schedule_frequency.md) | The frequency of the scheduled test. Defaults to WEEKLY for free plans, DAILY for paid plans. |
 
 
 
@@ -41,7 +41,7 @@ Page test schedule.
 [observatory_create-schedule-response](../../../../../_components/schemas/observatory_create-schedule-response.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

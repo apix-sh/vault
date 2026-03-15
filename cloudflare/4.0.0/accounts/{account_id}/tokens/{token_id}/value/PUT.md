@@ -13,8 +13,8 @@ Roll the Account Owned API token secret.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
-| `token_id` | Yes | [iam_token_identifier](../../../../../_components/schemas/iam_token_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) |  |
+| `token_id` | Yes | [iam_token_identifier](../../../../../_components/schemas/iam_token_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Roll Token response
 [iam_response_single_value](../../../../../_components/schemas/iam_response_single_value.md)
 
 
-### 4xx
+### 4XX
 
 Roll Token response failure
 

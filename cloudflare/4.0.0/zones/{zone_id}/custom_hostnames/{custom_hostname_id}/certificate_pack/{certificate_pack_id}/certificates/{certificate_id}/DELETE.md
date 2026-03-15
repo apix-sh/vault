@@ -13,10 +13,10 @@ Delete a single custom certificate from a certificate pack that contains two bun
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `custom_hostname_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `custom_hostname_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Delete Single Certificate and Key In a Custom Hostname response
 | `id` | No | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
-### 4xx
+### 4XX
 
 Delete Single Certificate and Key In a Custom Hostname response failure
 

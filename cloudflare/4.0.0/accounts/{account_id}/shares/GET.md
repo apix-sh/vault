@@ -13,7 +13,7 @@ Lists all account shares.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [resource-sharing_account_id](../../../_components/schemas/resource-sharing_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [resource-sharing_account_id](../../../_components/schemas/resource-sharing_account_id.md) |  |
 
 
 ## Query Parameters
@@ -48,7 +48,7 @@ List account shares response.
 [resource-sharing_share_response_collection](../../../_components/schemas/resource-sharing_share_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List account shares response failure.
 
@@ -56,7 +56,7 @@ List account shares response failure.
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 List account shares response failure.
 

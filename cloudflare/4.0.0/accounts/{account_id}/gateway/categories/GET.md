@@ -13,7 +13,7 @@ List all categories.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_components-schemas-identifier](../../../../_components/schemas/zero-trust-gateway_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_components-schemas-identifier](../../../../_components/schemas/zero-trust-gateway_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List categories response.
 [zero-trust-gateway_categories_components-schemas-response_collection](../../../../_components/schemas/zero-trust-gateway_categories_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List categories response failure.
 

@@ -13,8 +13,8 @@ Updates a DLP custom profile.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `profile_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `profile_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update custom profile response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update custom profile failure response.
 

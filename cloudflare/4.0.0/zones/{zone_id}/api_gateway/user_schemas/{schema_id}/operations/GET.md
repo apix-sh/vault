@@ -26,7 +26,7 @@ _(None)_
 | `Reference` | N/A | [api-shield_endpoint_parameter](../../../../../../_components/parameters/api-shield_endpoint_parameter.md) |  |
 | `Reference` | N/A | [api-shield_page](../../../../../../_components/parameters/api-shield_page.md) |  |
 | `Reference` | N/A | [api-shield_per_page](../../../../../../_components/parameters/api-shield_per_page.md) |  |
-| `operation_status` | No | string | Filter results by whether operations exist in API Shield Endpoint Management or not. `new` will just return operations from the schema that do not exist in API Shield Endpoint Management. `existing` will just return operations from the schema that already exist in API Shield Endpoint Management.<br/>*Serialization: style=Form* |
+| `operation_status` | No | string | Filter results by whether operations exist in API Shield Endpoint Management or not. `new` will just return operations from the schema that do not exist in API Shield Endpoint Management. `existing` will just return operations from the schema that already exist in API Shield Endpoint Management. |
 
 
 
@@ -45,7 +45,7 @@ Retrieve all operations from a schema response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Retrieve all operations from a schema response failure
 

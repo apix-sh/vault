@@ -13,8 +13,8 @@ Fetch a list of all domains associated with a Pages project.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `project_name` | Yes | [pages_project_name](../../../../../../_components/schemas/pages_project_name.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [pages_identifier](../../../../../../_components/schemas/pages_identifier.md) | *Serialization: style=Simple* |
+| `project_name` | Yes | [pages_project_name](../../../../../../_components/schemas/pages_project_name.md) |  |
+| `account_id` | Yes | [pages_identifier](../../../../../../_components/schemas/pages_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get domains response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get domains response failure.
 

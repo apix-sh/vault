@@ -13,15 +13,15 @@ Upload a worker module. You can find more about the multipart metadata on our do
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../_components/schemas/workers_script_name.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `bindings_inherit` | No | string | When set to "strict", the upload will fail if any `inherit` type bindings cannot be resolved against the previous version of the Worker. Without this, unresolvable inherit bindings are silently dropped.<br/>*Serialization: style=Form* |
+| `bindings_inherit` | No | string | When set to "strict", the upload will fail if any `inherit` type bindings cannot be resolved against the previous version of the Worker. Without this, unresolvable inherit bindings are silently dropped. |
 
 
 
@@ -40,7 +40,7 @@ Upload Worker Module response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Upload Worker Module response failure.
 

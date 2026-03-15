@@ -13,9 +13,9 @@ Patch script metadata, such as bindings.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `dispatch_namespace` | Yes | [workers_dispatch_namespace_name](../../../../../../../../../_components/schemas/workers_dispatch_namespace_name.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../../../../../_components/schemas/workers_script_name.md) |  |
 
 
 ## Query Parameters
@@ -32,7 +32,7 @@ Supported content types:
 ### Inline Request Schema (`multipart/form-data`)
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
-| `settings` | No | [workers_script-and-version-settings-item](../../../../../../../../../_components/schemas/workers_script-and-version-settings-item.md) |  |
+| `settings` | No | [workers_namespace-script-and-version-settings-item](../../../../../../../../../_components/schemas/workers_namespace-script-and-version-settings-item.md) |  |
 
 
 ## Responses
@@ -45,7 +45,7 @@ Patch script settings.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Patch script settings failure.
 

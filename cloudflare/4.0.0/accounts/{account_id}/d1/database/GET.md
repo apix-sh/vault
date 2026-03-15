@@ -13,16 +13,16 @@ Returns a list of D1 databases.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [d1_account-identifier](../../../../_components/schemas/d1_account-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [d1_account-identifier](../../../../_components/schemas/d1_account-identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
+| `name` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
 
 
 
@@ -41,7 +41,7 @@ List D1 databases response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List D1 databases response failure
 

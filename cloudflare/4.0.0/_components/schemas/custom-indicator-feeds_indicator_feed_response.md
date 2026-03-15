@@ -11,3 +11,4 @@ type: "allOf(2)"
 | `errors` | Yes | [custom-indicator-feeds_schemas-messages](custom-indicator-feeds_schemas-messages.md) |  |
 | `messages` | Yes | [custom-indicator-feeds_schemas-messages](custom-indicator-feeds_schemas-messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful. |
+| `result` | No | array<[custom-indicator-feeds_indicator_feed_item](./custom-indicator-feeds_indicator_feed_item.md)> |  |

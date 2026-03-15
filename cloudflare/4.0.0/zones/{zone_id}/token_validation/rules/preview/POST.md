@@ -25,11 +25,11 @@ _(None)_
 | `Reference` | N/A | [api-shield_zone_id](../../../../../_components/parameters/api-shield_zone_id.md) |  |
 | `Reference` | N/A | [api-shield_per_page](../../../../../_components/parameters/api-shield_per_page.md) |  |
 | `Reference` | N/A | [api-shield_page](../../../../../_components/parameters/api-shield_page.md) |  |
-| `state` | No | array<[api-shield_selector-operation-state](../../../../../_components/schemas/api-shield_selector-operation-state.md)> | *Serialization: style=Form* |
-| `host` | No | array<[api-shield_host](../../../../../_components/schemas/api-shield_host.md)> | Filter operations by host.<br/>*Serialization: style=Form* |
-| `hostname` | No | array<[api-shield_host](../../../../../_components/schemas/api-shield_host.md)> | Filter operations by host.<br/>*Serialization: style=Form* |
-| `method` | No | array<[api-shield_method](../../../../../_components/schemas/api-shield_method.md)> | Filter operations by method.<br/>*Serialization: style=Form* |
-| `endpoint` | No | array<[api-shield_endpoint](../../../../../_components/schemas/api-shield_endpoint.md)> | Filter operations by endpoint. Allows substring matching.<br/>*Serialization: style=Form* |
+| `state` | No | array<[api-shield_selector-operation-state](../../../../../_components/schemas/api-shield_selector-operation-state.md)> |  |
+| `host` | No | array<[api-shield_host](../../../../../_components/schemas/api-shield_host.md)> | Filter operations by host. |
+| `hostname` | No | array<[api-shield_host](../../../../../_components/schemas/api-shield_host.md)> | Filter operations by host. |
+| `method` | No | array<[api-shield_method](../../../../../_components/schemas/api-shield_method.md)> | Filter operations by method. |
+| `endpoint` | No | array<[api-shield_endpoint](../../../../../_components/schemas/api-shield_endpoint.md)> | Filter operations by endpoint. Allows substring matching. |
 
 
 
@@ -44,7 +44,7 @@ _(None)_
 
 Reference: [api-shield_preview-rules-success](../../../../../_components/responses/api-shield_preview-rules-success.md)
 
-### 4xx
+### 4XX
 
 Reference: [api-shield_generic_failure](../../../../../_components/responses/api-shield_generic_failure.md)
 

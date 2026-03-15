@@ -13,8 +13,8 @@ Preview pool health using provided monitor details. The returned preview_id can 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../../../_components/schemas/load-balancing_schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../../../_components/schemas/load-balancing_schemas-identifier.md) |  |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Preview Pool response.
 [load-balancing_preview_response](../../../../../../_components/schemas/load-balancing_preview_response.md)
 
 
-### 4xx
+### 4XX
 
 Preview Pool response failure.
 

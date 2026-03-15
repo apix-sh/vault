@@ -13,8 +13,8 @@ Deletes an existing firewall rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_id` | Yes | [firewall_firewall-rules_components-schemas-id](../../../../../_components/schemas/firewall_firewall-rules_components-schemas-id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `rule_id` | Yes | [firewall_firewall-rules_components-schemas-id](../../../../../_components/schemas/firewall_firewall-rules_components-schemas-id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Delete a firewall rule response
 [firewall_filter-rules-single-response-delete](../../../../../_components/schemas/firewall_filter-rules-single-response-delete.md)
 
 
-### 4xx
+### 4XX
 
 Delete a firewall rule response failure
 

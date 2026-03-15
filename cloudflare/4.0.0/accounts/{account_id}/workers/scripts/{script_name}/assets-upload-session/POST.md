@@ -13,8 +13,8 @@ Start uploading a collection of assets for use in a Worker version. To learn mor
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../../_components/schemas/workers_script_name.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Create Assets Upload Session response.
 [workers_create-assets-upload-session-response](../../../../../../_components/schemas/workers_create-assets-upload-session-response.md)
 
 
-### 4xx
+### 4XX
 
 Create Assets Upload Session response failure.
 

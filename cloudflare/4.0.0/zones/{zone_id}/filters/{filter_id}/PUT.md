@@ -13,8 +13,8 @@ Updates an existing filter.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `filter_id` | Yes | [firewall_filters_components-schemas-id](../../../../_components/schemas/firewall_filters_components-schemas-id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `filter_id` | Yes | [firewall_filters_components-schemas-id](../../../../_components/schemas/firewall_filters_components-schemas-id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update a filter response
 [firewall_filter-response-single](../../../../_components/schemas/firewall_filter-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Update a filter response failure
 

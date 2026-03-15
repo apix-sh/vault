@@ -13,7 +13,7 @@ Creates and returns a new Hyperdrive configuration.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [hyperdrive_identifier](../../../../_components/schemas/hyperdrive_identifier.md) | The Cloudflare account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [hyperdrive_identifier](../../../../_components/schemas/hyperdrive_identifier.md) | The Cloudflare account ID. |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Hyperdrive Response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create Hyperdrive Failure Response.
 

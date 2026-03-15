@@ -13,7 +13,7 @@ Get the list of resources that reference the provided pool.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../../_components/schemas/load-balancing_schemas-identifier.md) | *Serialization: style=Simple* |
+| `pool_id` | Yes | [load-balancing_schemas-identifier](../../../../../_components/schemas/load-balancing_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Pool References response.
 [load-balancing_pools-references-response](../../../../../_components/schemas/load-balancing_pools-references-response.md)
 
 
-### 4xx
+### 4XX
 
 List Pool References response failure.
 

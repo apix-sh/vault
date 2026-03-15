@@ -13,8 +13,8 @@ Gets all the data the botnet threat feed tracking database has for a given ASN r
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../_components/schemas/dos_identifier.md) | *Serialization: style=Simple* |
-| `asn_id` | Yes | [dos_asn](../../../../../../_components/schemas/dos_asn.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../_components/schemas/dos_identifier.md) |  |
+| `asn_id` | Yes | [dos_asn](../../../../../../_components/schemas/dos_asn.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get full botnet feed report
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get full botnet feed report response failure
 

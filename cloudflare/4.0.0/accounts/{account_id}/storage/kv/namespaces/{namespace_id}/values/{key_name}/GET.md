@@ -13,9 +13,9 @@ Returns the value associated with the given key in the given namespace. Use URL-
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key_name` | Yes | [workers-kv_key_name](../../../../../../../../_components/schemas/workers-kv_key_name.md) | *Serialization: style=Simple* |
-| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `key_name` | Yes | [workers-kv_key_name](../../../../../../../../_components/schemas/workers-kv_key_name.md) |  |
+| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) |  |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Read key-value pair response.
 [workers-kv_value](../../../../../../../../_components/schemas/workers-kv_value.md)
 
 
-### 4xx
+### 4XX
 
 Read key-value pair response failure.
 

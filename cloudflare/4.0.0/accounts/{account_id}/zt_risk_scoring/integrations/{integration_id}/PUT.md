@@ -13,8 +13,8 @@ Overwrite the reference_id, tenant_url, and active values with the ones provided
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `integration_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `integration_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update failure response.
 

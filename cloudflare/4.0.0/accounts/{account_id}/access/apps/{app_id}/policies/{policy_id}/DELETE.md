@@ -13,9 +13,9 @@ Deletes an Access policy specific to an application. To delete a reusable policy
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) | The application ID.<br/>*Serialization: style=Simple* |
-| `policy_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) | The policy ID.<br/>*Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) | The application ID. |
+| `policy_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) | The policy ID. |
+| `account_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Delete an Access application policy response.
 [access_app-policies_components-schemas-id_response](../../../../../../../_components/schemas/access_app-policies_components-schemas-id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete an Access application policy response failure.
 

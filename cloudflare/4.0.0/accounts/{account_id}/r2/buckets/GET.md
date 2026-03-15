@@ -13,26 +13,25 @@ Lists all R2 buckets on your account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [r2_account_identifier](../../../../_components/schemas/r2_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [r2_account_identifier](../../../../_components/schemas/r2_account_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name_contains` | No | string | *Serialization: style=Form* |
-| `start_after` | No | string | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `cursor` | No | string | *Serialization: style=Form* |
+| `name_contains` | No | string |  |
+| `start_after` | No | string |  |
+| `per_page` | No | number |  |
+| `order` | No | string |  |
+| `direction` | No | string |  |
+| `cursor` | No | string |  |
 
 ## Header Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `cf-r2-jurisdiction` | No | [r2_jurisdiction](../../../../_components/schemas/r2_jurisdiction.md) | *Serialization: style=Simple* |
+| `cf-r2-jurisdiction` | No | [r2_jurisdiction](../../../../_components/schemas/r2_jurisdiction.md) |  |
 
 
 ## Request Body
@@ -50,7 +49,7 @@ List Buckets response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Buckets response failure.
 

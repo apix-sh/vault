@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "array<string>"
 ---
 
 # magic-transit_targets

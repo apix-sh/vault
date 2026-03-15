@@ -13,8 +13,8 @@ Tests if a specific user has permission to access an application.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [access_app_id](../../../../../../_components/schemas/access_app_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [access_app_id](../../../../../../_components/schemas/access_app_id.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Test Access policies response
 [access_policy_check_response](../../../../../../_components/schemas/access_policy_check_response.md)
 
 
-### 4xx
+### 4XX
 
 Test Access policies response failure
 

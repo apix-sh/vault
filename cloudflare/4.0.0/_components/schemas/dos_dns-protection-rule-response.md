@@ -11,3 +11,4 @@ type: "allOf(2)"
 | `errors` | Yes | [dos_messages](dos_messages.md) |  |
 | `messages` | Yes | [dos_messages](dos_messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful. |
+| `result` | No | [dos_DnsProtectionRule](dos_DnsProtectionRule.md) |  |

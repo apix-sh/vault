@@ -13,8 +13,8 @@ If a API Shield mTLS Client Certificate is in a pending_revocation state, you ma
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `client_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `client_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Reactivate Client Certificate Response
 [tls-certificates-and-hostnames_client_certificate_response_single](../../../../_components/schemas/tls-certificates-and-hostnames_client_certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Reactivate Client Certificate Response Failure
 

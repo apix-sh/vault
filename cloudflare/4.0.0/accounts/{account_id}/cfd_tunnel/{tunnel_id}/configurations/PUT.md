@@ -1,7 +1,6 @@
 ---
 method: "PUT"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/cfd_tunnel/{tunnel_id}/configurations"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,8 +12,8 @@ Adds or updates the configuration for a remotely-managed tunnel.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [tunnel_identifier](../../../../../_components/schemas/tunnel_identifier.md) | *Serialization: style=Simple* |
-| `tunnel_id` | Yes | [tunnel_schemas-tunnel_id](../../../../../_components/schemas/tunnel_schemas-tunnel_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [tunnel_identifier](../../../../../_components/schemas/tunnel_identifier.md) |  |
+| `tunnel_id` | Yes | [tunnel_schemas-tunnel_id](../../../../../_components/schemas/tunnel_schemas-tunnel_id.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +43,7 @@ Put configuration response
 [tunnel_configuration_response](../../../../../_components/schemas/tunnel_configuration_response.md)
 
 
-### 4xx
+### 4XX
 
 Put configuration response failure
 

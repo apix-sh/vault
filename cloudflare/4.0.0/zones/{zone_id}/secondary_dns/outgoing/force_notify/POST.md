@@ -13,7 +13,7 @@ Notifies the secondary nameserver(s) and clears IXFR backlog of primary zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [secondary-dns_identifier](../../../../../_components/schemas/secondary-dns_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [secondary-dns_identifier](../../../../../_components/schemas/secondary-dns_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Force DNS NOTIFY response.
 [secondary-dns_schemas-force_response](../../../../../_components/schemas/secondary-dns_schemas-force_response.md)
 
 
-### 4xx
+### 4XX
 
 Force DNS NOTIFY response failure.
 

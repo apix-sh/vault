@@ -13,8 +13,8 @@ Updates a configured Access group.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `group_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `group_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -29,7 +29,12 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `exclude` | No | [access_exclude](../../../../../_components/schemas/access_exclude.md) |  |
+| `include` | Yes | [access_include](../../../../../_components/schemas/access_include.md) |  |
+| `name` | Yes | [access_groups_components-schemas-name-2](../../../../../_components/schemas/access_groups_components-schemas-name-2.md) |  |
+| `require` | No | [access_require](../../../../../_components/schemas/access_require.md) |  |
 
 
 ## Responses
@@ -42,7 +47,7 @@ Update an Access group response
 [access_groups_components-schemas-single_response-2](../../../../../_components/schemas/access_groups_components-schemas-single_response-2.md)
 
 
-### 4xx
+### 4XX
 
 Update an Access group response failure
 

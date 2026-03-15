@@ -15,8 +15,8 @@ including compaction settings and credential status.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [r2-data-catalog_account-id](../../../../../_components/schemas/r2-data-catalog_account-id.md) | Identifies the account.<br/>*Serialization: style=Simple* |
-| `bucket_name` | Yes | [r2-data-catalog_bucket-name](../../../../../_components/schemas/r2-data-catalog_bucket-name.md) | Specifies the R2 bucket name.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [r2-data-catalog_account-id](../../../../../_components/schemas/r2-data-catalog_account-id.md) | Identifies the account. |
+| `bucket_name` | Yes | [r2-data-catalog_bucket-name](../../../../../_components/schemas/r2-data-catalog_bucket-name.md) | Specifies the R2 bucket name. |
 
 
 ## Query Parameters
@@ -38,29 +38,6 @@ Maintenance configuration retrieved successfully.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "errors": [],
-  "messages": [],
-  "result": {
-    "credential_status": "present",
-    "maintenance_config": {
-      "compaction": {
-        "state": "enabled",
-        "target_size_mb": "128"
-      },
-      "snapshot_expiration": {
-        "max_snapshot_age": "7d",
-        "min_snapshots_to_keep": 100,
-        "state": "enabled"
-      }
-    }
-  },
-  "success": true
-}
-```
 
 
 ### 400

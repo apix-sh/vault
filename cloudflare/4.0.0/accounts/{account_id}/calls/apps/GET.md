@@ -13,7 +13,7 @@ Lists all apps in the Cloudflare account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [calls_account_identifier](../../../../_components/schemas/calls_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [calls_account_identifier](../../../../_components/schemas/calls_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List apps response
 [calls_app_response_collection](../../../../_components/schemas/calls_app_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List apps response failure
 

@@ -13,8 +13,8 @@ Update a configured Zero Trust Gateway rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_id` | Yes | [zero-trust-gateway_schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_schemas-uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `rule_id` | Yes | [zero-trust-gateway_schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_schemas-uuid.md) |  |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -55,7 +55,7 @@ Update a Zero Trust Gateway rule response.
 [zero-trust-gateway_components-schemas-single_response](../../../../../_components/schemas/zero-trust-gateway_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update a Zero Trust Gateway rule response failure.
 

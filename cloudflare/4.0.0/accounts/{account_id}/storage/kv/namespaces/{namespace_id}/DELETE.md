@@ -13,8 +13,8 @@ Deletes the namespace corresponding to the given ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../_components/schemas/workers-kv_namespace_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../_components/schemas/workers-kv_namespace_identifier.md) |  |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Remove a Namespace response.
 [workers-kv_api-response-common-no-result](../../../../../../_components/schemas/workers-kv_api-response-common-no-result.md)
 
 
-### 4xx
+### 4XX
 
 Remove a Namespace response failure.
 

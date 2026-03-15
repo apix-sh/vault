@@ -13,7 +13,7 @@ Deletes an existing zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_identifier](../../_components/schemas/zones_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_identifier](../../_components/schemas/zones_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Delete Zone response.
 [zones_api-response-single-id](../../_components/schemas/zones_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Delete Zone response failure.
 

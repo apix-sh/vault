@@ -13,7 +13,7 @@ Delete multiple Magic static routes.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Many Routes response
 [magic_multiple_route_delete_response](../../../../_components/schemas/magic_multiple_route_delete_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete Many Routes response failure
 

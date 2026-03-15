@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # waitingroom_event_details_response
@@ -8,3 +8,5 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `result` | No | oneOf(2) |  |
+| `result` | No | [waitingroom_event_details_result](waitingroom_event_details_result.md) |  |

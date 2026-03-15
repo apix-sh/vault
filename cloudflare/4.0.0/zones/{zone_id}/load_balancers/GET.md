@@ -13,7 +13,7 @@ List configured load balancers.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Load Balancers response.
 [load-balancing_load-balancer_components-schemas-response_collection](../../../_components/schemas/load-balancing_load-balancer_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Load Balancers response failure.
 

@@ -39,7 +39,7 @@ Create Token response
 [iam_single_token_create_response](../../_components/schemas/iam_single_token_create_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Token response failure
 

@@ -13,7 +13,7 @@ Lists all client certificates configured for per-hostname authenticated origin p
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Certificates response
 [tls-certificates-and-hostnames_hostname-authenticated-origin-pull_components-schemas-certificate_response_collection](../../../../../_components/schemas/tls-certificates-and-hostnames_hostname-authenticated-origin-pull_components-schemas-certificate_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Certificates response failure
 

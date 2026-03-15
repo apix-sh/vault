@@ -13,10 +13,10 @@ Sends an event to a running workflow instance to trigger state transitions.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `workflow_name` | Yes | string | *Serialization: style=Simple* |
-| `instance_id` | Yes | string | *Serialization: style=Simple* |
-| `event_type` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `workflow_name` | Yes | string |  |
+| `instance_id` | Yes | string |  |
+| `event_type` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -59,7 +59,7 @@ Bad Request.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 
@@ -72,7 +72,7 @@ Workflow not found.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 

@@ -13,7 +13,7 @@ Creates an RSA private key in PEM and JWK formats. Key files are only displayed 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Create signing keys response.
 [stream_key_generation_response](../../../../_components/schemas/stream_key_generation_response.md)
 
 
-### 4xx
+### 4XX
 
 Create signing keys response failure.
 

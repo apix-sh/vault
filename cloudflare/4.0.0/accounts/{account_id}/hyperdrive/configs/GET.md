@@ -13,7 +13,7 @@ Returns a list of Hyperdrives.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [hyperdrive_identifier](../../../../_components/schemas/hyperdrive_identifier.md) | The Cloudflare account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [hyperdrive_identifier](../../../../_components/schemas/hyperdrive_identifier.md) | The Cloudflare account ID. |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Hyperdrives Response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Hyperdrives Failure Response.
 

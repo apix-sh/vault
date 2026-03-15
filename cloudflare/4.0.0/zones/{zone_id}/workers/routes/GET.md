@@ -13,7 +13,7 @@ Returns routes for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Routes response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Routes response failure.
 

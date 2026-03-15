@@ -8,6 +8,4 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | string | Turn off all active [Cloudflare Apps](https://developers.cloudflare.com/support/more-dashboard-apps/cloudflare-apps/)
-(deprecated).
- Allowed values: disable_apps |
+| `id` | No | string | Turn off all active [Cloudflare Apps](https://developers.cloudflare.com/support/more-dashboard-apps/cloudflare-apps/)<br/>(deprecated).<br/> Allowed values: disable_apps |

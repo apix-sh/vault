@@ -13,9 +13,9 @@ Deletes a specific MFA device for a user. This action is only available if MFA i
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `user_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
-| `authenticator_id` | Yes | [access_authenticator_id](../../../../../../../_components/schemas/access_authenticator_id.md) | *Serialization: style=Simple* |
+| `user_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) |  |
+| `authenticator_id` | Yes | [access_authenticator_id](../../../../../../../_components/schemas/access_authenticator_id.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Delete authenticator response.
 [access_delete_authenticator_response](../../../../../../../_components/schemas/access_delete_authenticator_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete authenticator response failure.
 

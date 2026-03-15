@@ -13,8 +13,8 @@ Updates an existing email allow policy, modifying its matching criteria or scope
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
-| `policy_id` | Yes | [email-security_AllowPolicyId](../../../../../../_components/schemas/email-security_AllowPolicyId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) |  |
+| `policy_id` | Yes | [email-security_AllowPolicyId](../../../../../../_components/schemas/email-security_AllowPolicyId.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Supported content types:
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../../_components/responses/email-security_ClientError.md)
 

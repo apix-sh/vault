@@ -13,8 +13,8 @@ List share resources by share ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [resource-sharing_account_id](../../../../../_components/schemas/resource-sharing_account_id.md) | *Serialization: style=Simple* |
-| `share_id` | Yes | [resource-sharing_share_id](../../../../../_components/schemas/resource-sharing_share_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [resource-sharing_account_id](../../../../../_components/schemas/resource-sharing_account_id.md) |  |
+| `share_id` | Yes | [resource-sharing_share_id](../../../../../_components/schemas/resource-sharing_share_id.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ List account share resources response.
 [resource-sharing_share_resource_response_collection](../../../../../_components/schemas/resource-sharing_share_resource_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List account share resources response failure.
 
@@ -51,7 +51,7 @@ List account share resources response failure.
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 List account share resources response failure.
 

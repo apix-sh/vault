@@ -13,17 +13,17 @@ Retrieves logs and execution status for a specific workflow instance.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `workflow_name` | Yes | string | *Serialization: style=Simple* |
-| `instance_id` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `workflow_name` | Yes | string |  |
+| `instance_id` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `simple` | No | string | When true, omits step details and returns only metadata with step_count.<br/>*Serialization: style=Form* |
-| `order` | No | string | Step ordering: "asc" (default, oldest first) or "desc" (newest first).<br/>*Serialization: style=Form* |
+| `simple` | No | string | When true, omits step details and returns only metadata with step_count. |
+| `order` | No | string | Step ordering: "asc" (default, oldest first) or "desc" (newest first). |
 
 
 
@@ -57,7 +57,7 @@ Bad Request.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 
@@ -70,7 +70,7 @@ Instance not found.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 

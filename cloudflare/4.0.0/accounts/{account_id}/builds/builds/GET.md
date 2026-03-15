@@ -19,7 +19,7 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [builds_AccountId](../../../../_components/parameters/builds_AccountId.md) |  |
-| `version_ids` | Yes | [builds_version_ids](../../../../_components/schemas/builds_version_ids.md) | *Serialization: style=Form* |
+| `version_ids` | Yes | [builds_version_ids](../../../../_components/schemas/builds_version_ids.md) |  |
 
 
 

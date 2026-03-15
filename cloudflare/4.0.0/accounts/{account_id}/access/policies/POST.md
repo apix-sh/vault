@@ -13,7 +13,7 @@ Creates a new Access reusable policy.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create an Access reusable policy response.
 [access_reusable-policies_components-schemas-single_response](../../../../_components/schemas/access_reusable-policies_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create an Access reusable policy response failure.
 

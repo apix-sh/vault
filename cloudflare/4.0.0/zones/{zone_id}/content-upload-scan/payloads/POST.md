@@ -13,7 +13,7 @@ Add custom scan expressions for Content Scanning.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Add custom scan expressions for Content Scanning.
 [waf-product-api-bundle_response-custom-scan-collection](../../../../_components/schemas/waf-product-api-bundle_response-custom-scan-collection.md)
 
 
-### 4xx
+### 4XX
 
 List existing Content Scan custom scan expressions failure response.
 

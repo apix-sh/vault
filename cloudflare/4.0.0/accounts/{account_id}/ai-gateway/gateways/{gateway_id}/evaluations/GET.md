@@ -13,19 +13,19 @@ Lists all AI Gateway evaluator types configured for the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `gateway_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `gateway_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `name` | No | string | *Serialization: style=Form* |
-| `processed` | No | boolean | *Serialization: style=Form* |
-| `search` | No | string | *Serialization: style=Form* |
+| `page` | No | integer |  |
+| `per_page` | No | integer |  |
+| `name` | No | string |  |
+| `processed` | No | boolean |  |
+| `search` | No | string |  |
 
 
 

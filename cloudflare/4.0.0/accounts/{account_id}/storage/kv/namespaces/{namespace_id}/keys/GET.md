@@ -13,17 +13,17 @@ Lists a namespace's keys.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `namespace_id` | Yes | [workers-kv_namespace_identifier](../../../../../../../_components/schemas/workers-kv_namespace_identifier.md) |  |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | number | *Serialization: style=Form* |
-| `prefix` | No | string | *Serialization: style=Form* |
-| `cursor` | No | string | *Serialization: style=Form* |
+| `limit` | No | number |  |
+| `prefix` | No | string |  |
+| `cursor` | No | string |  |
 
 
 
@@ -42,7 +42,7 @@ List a Namespace's Keys response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List a Namespace's Keys response failure.
 

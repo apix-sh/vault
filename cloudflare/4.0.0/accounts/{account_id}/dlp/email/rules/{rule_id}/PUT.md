@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `rule_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `rule_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Update Email Scanner Rule response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update Email Scanner Rule failure response.
 

@@ -13,7 +13,7 @@ Creates watermark profiles using a single `HTTP POST multipart/form-data` reques
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create watermark profiles via basic upload response.
 [stream_watermark_response_single](../../../../_components/schemas/stream_watermark_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create watermark profiles via basic upload response failure.
 

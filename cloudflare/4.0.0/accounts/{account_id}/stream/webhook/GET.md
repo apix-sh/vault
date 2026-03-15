@@ -13,7 +13,7 @@ Retrieves a list of webhooks.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ View webhooks response.
 [stream_webhook_response_single](../../../../_components/schemas/stream_webhook_response_single.md)
 
 
-### 4xx
+### 4XX
 
 View webhooks response failure.
 

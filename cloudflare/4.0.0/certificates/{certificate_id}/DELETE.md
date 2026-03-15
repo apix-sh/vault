@@ -13,7 +13,7 @@ Revoke an existing Origin CA certificate by its serial number. You can use an Or
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Revoke Certificate response
 [tls-certificates-and-hostnames_certificate_revoke_response](../../_components/schemas/tls-certificates-and-hostnames_certificate_revoke_response.md)
 
 
-### 4xx
+### 4XX
 
 Revoke Certificate response failure
 

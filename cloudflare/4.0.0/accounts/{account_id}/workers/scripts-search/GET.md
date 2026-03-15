@@ -13,18 +13,18 @@ Search for Workers in an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | *Serialization: style=Form* |
-| `id` | No | string | *Serialization: style=Form* |
-| `order_by` | No | string | *Serialization: style=Form* |
-| `page` | No | integer | Current page.<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Items per page.<br/>*Serialization: style=Form* |
+| `name` | No | string |  |
+| `id` | No | string |  |
+| `order_by` | No | string |  |
+| `page` | No | integer | Current page. |
+| `per_page` | No | integer | Items per page. |
 
 
 
@@ -43,7 +43,7 @@ Search Workers success.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Search Workers failure.
 

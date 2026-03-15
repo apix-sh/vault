@@ -13,16 +13,16 @@ Return a success message after creating new saved string queries
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | No | string | *Serialization: style=Form* |
-| `tag` | No | string | *Serialization: style=Form* |
-| `scan` | No | boolean | *Serialization: style=Form* |
+| `id` | No | string |  |
+| `tag` | No | string |  |
+| `scan` | No | boolean |  |
 
 
 

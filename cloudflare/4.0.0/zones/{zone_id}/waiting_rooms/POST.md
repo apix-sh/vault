@@ -13,7 +13,7 @@ Creates a new waiting room.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waitingroom_identifier](../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waitingroom_identifier](../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create waiting room response
 [waitingroom_single_response](../../../_components/schemas/waitingroom_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create waiting room response failure
 

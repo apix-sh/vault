@@ -21,3 +21,6 @@ type: "allOf(2)"
 | `ratelimit` | No | [rulesets_RuleRatelimit](rulesets_RuleRatelimit.md) |  |
 | `ref` | No | string | The reference of the rule (the rule's ID by default). |
 | `version` | Yes | string | The version of the rule. |
+| `action` | No | any | Allowed values: skip |
+| `action_parameters` | No | any |  |
+| `description` | No | any |  |

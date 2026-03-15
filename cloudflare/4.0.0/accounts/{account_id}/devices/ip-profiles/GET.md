@@ -13,14 +13,14 @@ Lists WARP Device IP profiles.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `per_page` | No | integer | The number of IP profiles to return per page.<br/>*Serialization: style=Form* |
+| `per_page` | No | integer | The number of IP profiles to return per page. |
 
 
 

@@ -13,8 +13,8 @@ Push a batch of message to a Queue
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queue_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `queue_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
+| `account_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Successful batch ingestion
 [mq_api-v4-success](../../../../../../_components/schemas/mq_api-v4-success.md)
 
 
-### 4xx
+### 4XX
 
 Failure response
 

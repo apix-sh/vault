@@ -9,6 +9,7 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `class_name` | No | string | The exported class name of the Durable Object. |
+| `dispatch_namespace` | No | string | The dispatch namespace the Durable Object script belongs to. |
 | `environment` | No | string | The environment of the script_name to bind to. |
 | `name` | Yes | [workers_binding_name](workers_binding_name.md) |  |
 | `namespace_id` | No | allOf(2) |  |

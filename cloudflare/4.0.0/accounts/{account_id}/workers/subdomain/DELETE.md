@@ -13,7 +13,7 @@ Deletes a Workers subdomain for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -33,7 +33,7 @@ _(None)_
 
 Subdomain deleted successfully.
 
-### 4xx
+### 4XX
 
 Delete Subdomain response failure.
 

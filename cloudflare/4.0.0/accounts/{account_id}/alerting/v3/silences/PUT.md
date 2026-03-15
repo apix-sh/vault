@@ -13,7 +13,7 @@ Updates existing silences for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../_components/schemas/aaa_account-id.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update Silences response
 [aaa_silences_components-schemas-response_collection](../../../../../_components/schemas/aaa_silences_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Update Silences response failure
 

@@ -30,7 +30,7 @@ For example, you can make a request to `http://waitingrooms.dev/preview/<uuid>?w
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waitingroom_identifier](../../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waitingroom_identifier](../../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -58,7 +58,7 @@ Create a custom waiting room page preview response
 [waitingroom_preview_response](../../../../_components/schemas/waitingroom_preview_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a custom waiting room page preview response failure
 

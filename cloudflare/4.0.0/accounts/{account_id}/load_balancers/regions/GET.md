@@ -13,16 +13,16 @@ List all region mappings.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `subdivision_code` | No | [load-balancing_subdivision_code_a2](../../../../_components/schemas/load-balancing_subdivision_code_a2.md) | *Serialization: style=Form* |
-| `subdivision_code_a2` | No | [load-balancing_subdivision_code_a2](../../../../_components/schemas/load-balancing_subdivision_code_a2.md) | *Serialization: style=Form* |
-| `country_code_a2` | No | string | *Serialization: style=Form* |
+| `subdivision_code` | No | [load-balancing_subdivision_code_a2](../../../../_components/schemas/load-balancing_subdivision_code_a2.md) |  |
+| `subdivision_code_a2` | No | [load-balancing_subdivision_code_a2](../../../../_components/schemas/load-balancing_subdivision_code_a2.md) |  |
+| `country_code_a2` | No | string |  |
 
 
 
@@ -41,7 +41,7 @@ List Regions response.
 [load-balancing_region_components-schemas-response_collection](../../../../_components/schemas/load-balancing_region_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Regions response failure.
 

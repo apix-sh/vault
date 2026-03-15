@@ -13,7 +13,7 @@ Creates a new list of the specified kind.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [lists_account_id](../../../../_components/schemas/lists_account_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [lists_account_id](../../../../_components/schemas/lists_account_id.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Create a list response.
 [lists_list-response-collection](../../../../_components/schemas/lists_list-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Create a list response failure.
 

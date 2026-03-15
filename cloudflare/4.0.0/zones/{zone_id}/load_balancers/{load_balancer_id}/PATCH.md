@@ -13,8 +13,8 @@ Apply changes to an existing load balancer, overwriting the supplied properties.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) | *Serialization: style=Simple* |
-| `load_balancer_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) |  |
+| `load_balancer_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -61,7 +61,7 @@ Patch Load Balancer response.
 [load-balancing_load-balancer_components-schemas-single_response](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Patch Load Balancer response failure.
 

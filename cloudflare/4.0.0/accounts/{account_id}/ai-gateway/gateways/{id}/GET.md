@@ -13,8 +13,8 @@ Retrieves details for a specific AI Gateway dataset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `id` | Yes | string |  |
 
 
 ## Query Parameters

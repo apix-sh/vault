@@ -13,7 +13,7 @@ Lists Logpush jobs for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [logpush_identifier](../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [logpush_identifier](../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Logpush jobs response.
 [logpush_logpush_job_response_collection](../../../../_components/schemas/logpush_logpush_job_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Logpush jobs response failure.
 

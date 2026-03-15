@@ -13,15 +13,15 @@ Get URL scan by uuid
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `scan_id` | Yes | string | Scan UUID.<br/>*Serialization: style=Simple* |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `scan_id` | Yes | string | Scan UUID. |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `full` | No | boolean | Whether to return full report (scan summary and network log).<br/>*Serialization: style=Form* |
+| `full` | No | boolean | Whether to return full report (scan summary and network log). |
 
 
 

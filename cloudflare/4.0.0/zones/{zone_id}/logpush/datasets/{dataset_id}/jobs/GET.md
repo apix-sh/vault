@@ -13,8 +13,8 @@ Lists Logpush jobs for a zone for a dataset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `dataset_id` | Yes | [logpush_dataset](../../../../../../_components/schemas/logpush_dataset.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [logpush_identifier](../../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `dataset_id` | Yes | [logpush_dataset](../../../../../../_components/schemas/logpush_dataset.md) |  |
+| `zone_id` | Yes | [logpush_identifier](../../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List Logpush jobs for a dataset response.
 [logpush_logpush_job_response_collection](../../../../../../_components/schemas/logpush_logpush_job_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Logpush jobs for a dataset response failure.
 

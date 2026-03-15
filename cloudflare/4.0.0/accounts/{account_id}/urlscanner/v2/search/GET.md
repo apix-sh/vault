@@ -13,15 +13,15 @@ Use a subset of ElasticSearch Query syntax to filter scans. Some example queries
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `size` | No | integer | Limit the number of objects in the response.<br/>*Serialization: style=Form* |
-| `q` | No | string | Filter scans<br/>*Serialization: style=Form* |
+| `size` | No | integer | Limit the number of objects in the response. |
+| `q` | No | string | Filter scans |
 
 
 

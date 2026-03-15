@@ -13,17 +13,17 @@ Get a paginated list of event subscriptions with optional sorting and filtering
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mq_identifier](../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mq_identifier](../../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | Page number for pagination<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Number of items per page<br/>*Serialization: style=Form* |
-| `order` | No | string | Field to sort by<br/>*Serialization: style=Form* |
-| `direction` | No | string | Sort direction<br/>*Serialization: style=Form* |
+| `page` | No | integer | Page number for pagination |
+| `per_page` | No | integer | Number of items per page |
+| `order` | No | string | Field to sort by |
+| `direction` | No | string | Sort direction |
 
 
 
@@ -42,7 +42,7 @@ List of event subscriptions
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure response
 

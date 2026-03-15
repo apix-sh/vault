@@ -11,9 +11,9 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `content_list_entry_identifier` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) | *Serialization: style=Simple* |
-| `identifier` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) | *Serialization: style=Simple* |
+| `content_list_entry_identifier` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) |  |
+| `identifier` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) |  |
+| `zone_id` | Yes | [web3_identifier](../../../../../../../../../_components/schemas/web3_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Edit IPFS Universal Path Gateway Content List Entry response.
 [web3_content_list_entry_single_response](../../../../../../../../../_components/schemas/web3_content_list_entry_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Edit IPFS Universal Path Gateway Content List Entry error response (4XX).
 
@@ -49,7 +49,7 @@ Edit IPFS Universal Path Gateway Content List Entry error response (4XX).
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 Edit IPFS Universal Path Gateway Content List Entry response failure.
 

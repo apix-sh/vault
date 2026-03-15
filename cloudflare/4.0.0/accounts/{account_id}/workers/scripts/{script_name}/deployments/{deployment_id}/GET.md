@@ -13,9 +13,9 @@ Get information about a Worker Deployment.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
-| `deployment_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../../../_components/schemas/workers_script_name.md) |  |
+| `deployment_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Get Deployment response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get Deployment response failure.
 

@@ -13,7 +13,7 @@ Create a configured monitor.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Monitor response.
 [load-balancing_monitor-response-single](../../../../_components/schemas/load-balancing_monitor-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Create Monitor response failure.
 

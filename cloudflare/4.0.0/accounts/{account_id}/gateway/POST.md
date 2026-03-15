@@ -13,7 +13,7 @@ Create a Zero Trust account for an existing Cloudflare account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_identifier](../../../_components/schemas/zero-trust-gateway_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_identifier](../../../_components/schemas/zero-trust-gateway_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Create Zero Trust account response.
 [zero-trust-gateway_gateway_account](../../../_components/schemas/zero-trust-gateway_gateway_account.md)
 
 
-### 4xx
+### 4XX
 
 Create Zero Trust account response failure.
 

@@ -13,7 +13,7 @@ Get information about a specific token.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `token_id` | Yes | [iam_token_identifier](../../../_components/schemas/iam_token_identifier.md) | *Serialization: style=Simple* |
+| `token_id` | Yes | [iam_token_identifier](../../../_components/schemas/iam_token_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Token Details response
 [iam_single_token_response](../../../_components/schemas/iam_single_token_response.md)
 
 
-### 4xx
+### 4XX
 
 Token Details response failure
 

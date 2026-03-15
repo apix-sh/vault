@@ -18,11 +18,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `limit` | No | integer | *Serialization: style=Form* |
-| `offset` | No | integer | *Serialization: style=Form* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `limit` | No | integer |  |
+| `offset` | No | integer |  |
 
 
 
@@ -41,7 +41,7 @@ List Certificates response
 [tls-certificates-and-hostnames_schemas-certificate_response_collection](../_components/schemas/tls-certificates-and-hostnames_schemas-certificate_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Certificates response failure
 

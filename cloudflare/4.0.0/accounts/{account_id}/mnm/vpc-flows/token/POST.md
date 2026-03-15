@@ -13,7 +13,7 @@ Generate authentication token for VPC flow logs export.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Generate authentication token for VPC flow logs export response.
 [magic-visibility-mnm_mnm_vpc_flows_single_response](../../../../../_components/schemas/magic-visibility-mnm_mnm_vpc_flows_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Generate authentication token for VPC flow logs export failure.
 

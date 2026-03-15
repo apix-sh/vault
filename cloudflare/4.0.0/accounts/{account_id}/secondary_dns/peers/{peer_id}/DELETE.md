@@ -13,8 +13,8 @@ Delete Peer.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `peer_id` | Yes | [secondary-dns_components-schemas-identifier](../../../../../_components/schemas/secondary-dns_components-schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [secondary-dns_account_identifier](../../../../../_components/schemas/secondary-dns_account_identifier.md) | *Serialization: style=Simple* |
+| `peer_id` | Yes | [secondary-dns_components-schemas-identifier](../../../../../_components/schemas/secondary-dns_components-schemas-identifier.md) |  |
+| `account_id` | Yes | [secondary-dns_account_identifier](../../../../../_components/schemas/secondary-dns_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Peer response.
 [secondary-dns_components-schemas-id_response](../../../../../_components/schemas/secondary-dns_components-schemas-id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete Peer response failure.
 

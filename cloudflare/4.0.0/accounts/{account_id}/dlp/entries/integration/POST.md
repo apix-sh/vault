@@ -14,7 +14,7 @@ This is needed for our generated terraform API.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Create integration entry response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create entry failure response.
 

@@ -13,7 +13,7 @@ Creates a new App for an account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Account App response
 [magic_app_single_response](../../../../_components/schemas/magic_app_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Account App response failure
 

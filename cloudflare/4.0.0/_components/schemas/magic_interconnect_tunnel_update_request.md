@@ -15,3 +15,4 @@ type: "object"
 | `interface_address` | No | [magic_interface_address](magic_interface_address.md) |  |
 | `interface_address6` | No | [magic_interface_address6](magic_interface_address6.md) |  |
 | `mtu` | No | [magic_schemas-mtu](magic_schemas-mtu.md) |  |
+| `name` | No | [magic_components-schemas-name](magic_components-schemas-name.md) |  |

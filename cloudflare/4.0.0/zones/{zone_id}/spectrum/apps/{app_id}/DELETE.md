@@ -13,8 +13,8 @@ Deletes a previously existing application.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [spectrum-config_app_identifier](../../../../../_components/schemas/spectrum-config_app_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../../_components/schemas/spectrum-config_zone_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [spectrum-config_app_identifier](../../../../../_components/schemas/spectrum-config_app_identifier.md) |  |
+| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../../_components/schemas/spectrum-config_zone_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete Spectrum application response.
 [spectrum-config_api-response-single-id](../../../../../_components/schemas/spectrum-config_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Delete Spectrum application response failure.
 

@@ -13,7 +13,7 @@ Update DNS settings for a zone
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-settings_identifier](../../../_components/schemas/dns-settings_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-settings_identifier](../../../_components/schemas/dns-settings_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Show DNS Settings response
 [dns-settings_schemas-dns_response_single](../../../_components/schemas/dns-settings_schemas-dns_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Show DNS Settings response failure
 

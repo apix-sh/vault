@@ -13,9 +13,9 @@ Delete a version.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `worker_id` | Yes | string | *Serialization: style=Simple* |
-| `version_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `worker_id` | Yes | string |  |
+| `version_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Delete version success.
 [workers_api-response-common](../../../../../../../_components/schemas/workers_api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Delete version failure.
 

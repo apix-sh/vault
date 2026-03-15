@@ -11,3 +11,4 @@ type: "allOf(2)"
 | `errors` | Yes | [magic-transit_messages](magic-transit_messages.md) |  |
 | `messages` | Yes | [magic-transit_messages](magic-transit_messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful. |
+| `result` | No | [magic-transit_endpoint_health_check_response](magic-transit_endpoint_health_check_response.md) |  |

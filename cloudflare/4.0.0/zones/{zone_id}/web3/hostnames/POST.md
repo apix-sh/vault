@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [web3_identifier](../../../../_components/schemas/web3_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [web3_identifier](../../../../_components/schemas/web3_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Create Web3 Hostname response.
 [web3_single_response](../../../../_components/schemas/web3_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Web3 Hostname error response (4XX).
 
@@ -47,7 +47,7 @@ Create Web3 Hostname error response (4XX).
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 Create Web3 Hostname response failure.
 

@@ -13,8 +13,8 @@ Delete an existing Internal DNS View
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dns-settings_identifier](../../../../../_components/schemas/dns-settings_identifier.md) | *Serialization: style=Simple* |
-| `view_id` | Yes | [dns-settings_identifier](../../../../../_components/schemas/dns-settings_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dns-settings_identifier](../../../../../_components/schemas/dns-settings_identifier.md) |  |
+| `view_id` | Yes | [dns-settings_identifier](../../../../../_components/schemas/dns-settings_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Delete Internal DNS View response
 | `result` | No | object |  |
 
 
-### 4xx
+### 4XX
 
 Update Internal DNS View response failure
 

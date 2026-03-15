@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `integration_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `integration_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -36,7 +36,7 @@ Get response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get failure response.
 

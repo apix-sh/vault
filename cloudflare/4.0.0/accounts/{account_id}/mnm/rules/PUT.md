@@ -13,7 +13,7 @@ Update network monitoring rules for account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -49,7 +49,7 @@ Update rules response
 [magic-visibility-mnm_mnm_rules_single_response](../../../../_components/schemas/magic-visibility-mnm_mnm_rules_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update rules response failure
 

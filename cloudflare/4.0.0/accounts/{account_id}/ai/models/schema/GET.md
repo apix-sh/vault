@@ -13,14 +13,14 @@ Retrieves the input and output JSON schema definition for a Workers AI model.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `model` | Yes | string | Model Name<br/>*Serialization: style=Form* |
+| `model` | Yes | string | Model Name |
 
 
 

@@ -13,16 +13,16 @@ The `/rayids` api route allows lookups by specific rayid. The rayids route will 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [logshare_identifier](../../../../../_components/schemas/logshare_identifier.md) | *Serialization: style=Simple* |
-| `ray_id` | Yes | [logshare_ray_identifier](../../../../../_components/schemas/logshare_ray_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [logshare_identifier](../../../../../_components/schemas/logshare_identifier.md) |  |
+| `ray_id` | Yes | [logshare_ray_identifier](../../../../../_components/schemas/logshare_ray_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `fields` | No | [logshare_fields](../../../../../_components/schemas/logshare_fields.md) | *Serialization: style=Form* |
-| `timestamps` | No | [logshare_timestamps](../../../../../_components/schemas/logshare_timestamps.md) | *Serialization: style=Form* |
+| `fields` | No | [logshare_fields](../../../../../_components/schemas/logshare_fields.md) |  |
+| `timestamps` | No | [logshare_timestamps](../../../../../_components/schemas/logshare_timestamps.md) |  |
 
 
 
@@ -41,7 +41,7 @@ Get logs RayIDs response
 [logshare_logs_response_json_lines](../../../../../_components/schemas/logshare_logs_response_json_lines.md)
 
 
-### 4xx
+### 4XX
 
 Get logs RayIDs response failure
 

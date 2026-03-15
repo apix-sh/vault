@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/dex/http-tests/{test_id}"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,19 +12,19 @@ Get test details and aggregate performance metrics for an http test for a given 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path.<br/>*Serialization: style=Simple* |
-| `test_id` | Yes | [digital-experience-monitoring_uuid](../../../../../_components/schemas/digital-experience-monitoring_uuid.md) | unique identifier for a specific test<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account in the API request path. |
+| `test_id` | Yes | [digital-experience-monitoring_uuid](../../../../../_components/schemas/digital-experience-monitoring_uuid.md) | unique identifier for a specific test |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deviceId` | No | array<string> | Optionally filter result stats to a specific device(s). Cannot be used in combination with colo param.<br/>*Serialization: style=Form* |
-| `from` | Yes | string | Start time for aggregate metrics in ISO ms<br/>*Serialization: style=Form* |
-| `to` | Yes | string | End time for aggregate metrics in ISO ms<br/>*Serialization: style=Form* |
-| `interval` | Yes | string | Time interval for aggregate time slots.<br/>*Serialization: style=Form* |
-| `colo` | No | string | Optionally filter result stats to a Cloudflare colo. Cannot be used in combination with deviceId param.<br/>*Serialization: style=Form* |
+| `deviceId` | No | array<string> | Optionally filter result stats to a specific device(s). Cannot be used in combination with colo param. |
+| `from` | Yes | string | Start time for aggregate metrics in ISO ms |
+| `to` | Yes | string | End time for aggregate metrics in ISO ms |
+| `interval` | Yes | string | Time interval for aggregate time slots. |
+| `colo` | No | string | Optionally filter result stats to a Cloudflare colo. Cannot be used in combination with deviceId param. |
 
 
 
@@ -44,7 +43,7 @@ DEX HTTP test details response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 DEX HTTP test details failure response
 

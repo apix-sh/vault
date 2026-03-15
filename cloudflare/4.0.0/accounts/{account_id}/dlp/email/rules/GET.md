@@ -13,7 +13,7 @@ Lists all email scanner rules for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List all email scanner rules response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List all email scanner rules failure response.
 

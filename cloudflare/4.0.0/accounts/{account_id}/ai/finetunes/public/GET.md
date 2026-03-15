@@ -11,16 +11,16 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | number | Pagination Limit<br/>*Serialization: style=Form* |
-| `offset` | No | number | Pagination Offset<br/>*Serialization: style=Form* |
-| `orderBy` | No | string | Order By Column Name<br/>*Serialization: style=Form* |
+| `limit` | No | number | Pagination Limit |
+| `offset` | No | number | Pagination Offset |
+| `orderBy` | No | string | Order By Column Name |
 
 
 

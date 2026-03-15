@@ -13,9 +13,9 @@ Deletes additional audio tracks on a video. Deleting a default audio track is no
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
-| `identifier` | Yes | [stream_identifier](../../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `audio_identifier` | Yes | [stream_audio_identifier](../../../../../../_components/schemas/stream_audio_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../../../_components/schemas/stream_account_identifier.md) |  |
+| `identifier` | Yes | [stream_identifier](../../../../../../_components/schemas/stream_identifier.md) |  |
+| `audio_identifier` | Yes | [stream_audio_identifier](../../../../../../_components/schemas/stream_audio_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Deletes additional audio tracks on a video.
 [stream_deleted_response](../../../../../../_components/schemas/stream_deleted_response.md)
 
 
-### 4xx
+### 4XX
 
 Deletes additional audio tracks on a video response failure.
 

@@ -13,7 +13,7 @@ Creates a new Instant Logs job for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Create Instant Logs job response.
 [logpush_instant_logs_job_response_single](../../../../../_components/schemas/logpush_instant_logs_job_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create Instant Logs job response failure.
 

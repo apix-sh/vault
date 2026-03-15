@@ -11,4 +11,4 @@ type: "object"
 | `created_at` | Yes | [api-shield_schemas-timestamp](api-shield_schemas-timestamp.md) |  |
 | `hosts` | Yes | array<string> | Hosts serving the schema, e.g zone.host.com |
 | `name` | Yes | string | Name of the schema |
-| `schema_id` | Yes | any |  |
+| `schema_id` | Yes | allOf(2) |  |

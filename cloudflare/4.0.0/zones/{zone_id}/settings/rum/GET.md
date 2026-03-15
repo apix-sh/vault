@@ -13,7 +13,7 @@ Retrieves RUM status for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [rum_identifier](../../../../_components/schemas/rum_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [rum_identifier](../../../../_components/schemas/rum_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Rum Status.
 [rum_rum-site-response-single](../../../../_components/schemas/rum_rum-site-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

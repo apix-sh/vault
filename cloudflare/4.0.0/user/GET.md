@@ -33,7 +33,7 @@ User Details response
 [iam_single_user_response](../_components/schemas/iam_single_user_response.md)
 
 
-### 4xx
+### 4XX
 
 User Details response failure
 

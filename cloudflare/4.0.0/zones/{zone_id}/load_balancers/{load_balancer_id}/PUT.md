@@ -13,8 +13,8 @@ Update a configured load balancer.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) | *Serialization: style=Simple* |
-| `load_balancer_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) |  |
+| `load_balancer_id` | Yes | [load-balancing_load-balancer_components-schemas-identifier](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -62,7 +62,7 @@ Update Load Balancer response.
 [load-balancing_load-balancer_components-schemas-single_response](../../../../_components/schemas/load-balancing_load-balancer_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Load Balancer response failure.
 

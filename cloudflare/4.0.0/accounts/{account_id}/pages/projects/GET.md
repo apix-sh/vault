@@ -13,15 +13,15 @@ Fetch a list of all user projects.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [pages_identifier](../../../../_components/schemas/pages_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [pages_identifier](../../../../_components/schemas/pages_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
+| `page` | No | integer |  |
+| `per_page` | No | integer |  |
 
 
 
@@ -40,7 +40,7 @@ Get projects response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get projects response failure.
 

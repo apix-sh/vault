@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # cache-rules_origin_post_quantum_encryption
@@ -11,3 +11,6 @@ Instructs Cloudflare to use Post-Quantum (PQ) key agreement algorithms when conn
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `id` | Yes | string | Identifier of the zone setting. |
+| `modified_on` | No | string | Last time this setting was modified. |
+| `id` | No | string | Value of the zone setting. Allowed values: origin_pqe |

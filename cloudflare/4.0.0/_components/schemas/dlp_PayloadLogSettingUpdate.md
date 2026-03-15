@@ -14,8 +14,4 @@ Unlike the legacy endpoint, null and missing are treated identically here
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `masking_level` | No | allOf(1) |  |
-| `public_key` | No | string | Base64-encoded public key for encrypting payload logs.
-
-- Set to a non-empty base64 string to enable payload logging with the given key.
-- Set to an empty string to disable payload logging.
-- Omit or set to null to leave unchanged (PATCH) or reset to disabled (PUT). |
+| `public_key` | No | string | Base64-encoded public key for encrypting payload logs.<br/><br/>- Set to a non-empty base64 string to enable payload logging with the given key.<br/>- Set to an empty string to disable payload logging.<br/>- Omit or set to null to leave unchanged (PATCH) or reset to disabled (PUT). |

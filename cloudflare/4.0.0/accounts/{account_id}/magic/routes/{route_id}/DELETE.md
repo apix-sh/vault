@@ -13,8 +13,8 @@ Disable and remove a specific Magic static route.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `route_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `route_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Route response
 [magic_route_deleted_response](../../../../../_components/schemas/magic_route_deleted_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete Route response failure
 

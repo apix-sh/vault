@@ -13,7 +13,7 @@ Get primary zone transfer status.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [secondary-dns_identifier](../../../../../_components/schemas/secondary-dns_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [secondary-dns_identifier](../../../../../_components/schemas/secondary-dns_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Outgoing Zone Transfer Status response.
 [secondary-dns_enable_transfer_response](../../../../../_components/schemas/secondary-dns_enable_transfer_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Outgoing Zone Transfer Status response failure.
 

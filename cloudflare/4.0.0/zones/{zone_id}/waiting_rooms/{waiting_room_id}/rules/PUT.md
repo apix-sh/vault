@@ -13,8 +13,8 @@ Only available for the Waiting Room Advanced subscription. Replaces all rules fo
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../../_components/schemas/waitingroom_waiting_room_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [waitingroom_identifier](../../../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../../_components/schemas/waitingroom_waiting_room_id.md) |  |
+| `zone_id` | Yes | [waitingroom_identifier](../../../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Replace Waiting Room Rules response
 [waitingroom_rules_response_collection](../../../../../_components/schemas/waitingroom_rules_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Replace Waiting Room Rules response failure
 

@@ -13,7 +13,7 @@ Validates destination.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [logpush_identifier](../../../../../_components/schemas/logpush_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Validate destination response.
 [logpush_validate_response](../../../../../_components/schemas/logpush_validate_response.md)
 
 
-### 4xx
+### 4XX
 
 Validate destination response failure.
 

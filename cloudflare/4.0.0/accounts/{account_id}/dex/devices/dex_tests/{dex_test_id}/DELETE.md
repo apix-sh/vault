@@ -13,8 +13,8 @@ Delete a Device DEX test. Returns the remaining device dex tests for the account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | *Serialization: style=Simple* |
-| `dex_test_id` | Yes | [digital-experience-monitoring_uuid](../../../../../../_components/schemas/digital-experience-monitoring_uuid.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) |  |
+| `dex_test_id` | Yes | [digital-experience-monitoring_uuid](../../../../../../_components/schemas/digital-experience-monitoring_uuid.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete Device DEX test response
 [digital-experience-monitoring_dex-delete-response-collection](../../../../../../_components/schemas/digital-experience-monitoring_dex-delete-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Delete DEX test response failure
 

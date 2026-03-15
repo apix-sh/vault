@@ -13,10 +13,10 @@ Updates a participant's details for the given meeting and participant ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
-| `meeting_id` | Yes | string | ID of the meeting. You can fetch the meeting ID using the create a meeting API.<br/>*Serialization: style=Simple* |
-| `participant_id` | Yes | string | ID of the participant. You can fetch the participant ID using the add a participant API.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../../_components/schemas/realtimekit_app_id.md) |  |
+| `meeting_id` | Yes | string | ID of the meeting. You can fetch the meeting ID using the create a meeting API. |
+| `participant_id` | Yes | string | ID of the participant. You can fetch the participant ID using the add a participant API. |
 
 
 ## Query Parameters

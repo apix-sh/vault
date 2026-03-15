@@ -13,8 +13,8 @@ Update image access control. On access control change, all copies of the image a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `image_id` | Yes | [images_image_identifier](../../../../../_components/schemas/images_image_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `image_id` | Yes | [images_image_identifier](../../../../../_components/schemas/images_image_identifier.md) |  |
+| `account_id` | Yes | [images_account_identifier](../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update image response
 [images_image_response_single](../../../../../_components/schemas/images_image_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update image response failure
 

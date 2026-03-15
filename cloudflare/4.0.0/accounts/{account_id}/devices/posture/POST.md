@@ -13,7 +13,7 @@ Creates a new device posture rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -49,7 +49,7 @@ Create device posture rule response.
 [teams-devices_single_response](../../../../_components/schemas/teams-devices_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create device posture rule response failure.
 

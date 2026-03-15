@@ -13,8 +13,8 @@ Returns the specified D1 database.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [d1_account-identifier](../../../../../_components/schemas/d1_account-identifier.md) | *Serialization: style=Simple* |
-| `database_id` | Yes | oneOf(2) | *Serialization: style=Simple* |
+| `account_id` | Yes | [d1_account-identifier](../../../../../_components/schemas/d1_account-identifier.md) |  |
+| `database_id` | Yes | oneOf(2) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Database details response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Database details response failure
 

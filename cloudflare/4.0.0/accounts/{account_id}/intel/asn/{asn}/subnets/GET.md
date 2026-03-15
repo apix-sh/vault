@@ -13,8 +13,8 @@ Get ASN Subnets.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `asn` | Yes | [intel_asn](../../../../../../_components/schemas/intel_asn.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [intel_identifier](../../../../../../_components/schemas/intel_identifier.md) | *Serialization: style=Simple* |
+| `asn` | Yes | [intel_asn](../../../../../../_components/schemas/intel_asn.md) |  |
+| `account_id` | Yes | [intel_identifier](../../../../../../_components/schemas/intel_identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Get ASN Subnets response.
 | `subnets` | No | array<string> |  |
 
 
-### 4xx
+### 4XX
 
 Get ASN Subnets response failure.
 

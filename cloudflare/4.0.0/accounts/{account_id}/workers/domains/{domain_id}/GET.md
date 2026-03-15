@@ -13,8 +13,8 @@ Gets a Worker domain.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_account_identifier](../../../../../_components/schemas/workers_account_identifier.md) | *Serialization: style=Simple* |
-| `domain_id` | Yes | [workers_domain_identifier](../../../../../_components/schemas/workers_domain_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_account_identifier](../../../../../_components/schemas/workers_account_identifier.md) |  |
+| `domain_id` | Yes | [workers_domain_identifier](../../../../../_components/schemas/workers_domain_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Domain response.
 [workers_domain-response-single](../../../../../_components/schemas/workers_domain-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Get a Domain response failure.
 

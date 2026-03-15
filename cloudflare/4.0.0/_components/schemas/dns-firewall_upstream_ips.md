@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "array<anyOf(2)>"
 ---
 
 # dns-firewall_upstream_ips

@@ -13,7 +13,7 @@ Updates the DoH settings for your Zero Trust organization.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,10 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `doh_jwt_duration` | No | [access_doh_jwt_duration](../../../../../_components/schemas/access_doh_jwt_duration.md) |  |
+| `service_token_id` | No | string | The uuid of the service token you want to use for DoH authentication |
 
 
 ## Responses
@@ -41,7 +44,7 @@ Update your Zero Trust organization DoH settings response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update your Zero Trust organization DoH settings response failure
 

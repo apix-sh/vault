@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ip` | Yes | string | IP address.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `ip` | Yes | string | IP address. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

@@ -39,7 +39,7 @@ Retrieve schema hosts in a zone response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Retrieve schema hosts in a zone response failure
 

@@ -13,16 +13,16 @@ Delete an On-ramp (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
-| `onramp_id` | Yes | [mcn_onramp_id](../../../../../../_components/schemas/mcn_onramp_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) |  |
+| `onramp_id` | Yes | [mcn_onramp_id](../../../../../../_components/schemas/mcn_onramp_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `destroy` | No | boolean | *Serialization: style=Form* |
-| `force` | No | boolean | *Serialization: style=Form* |
+| `destroy` | No | boolean |  |
+| `force` | No | boolean |  |
 
 
 

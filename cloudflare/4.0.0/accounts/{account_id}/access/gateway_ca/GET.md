@@ -13,7 +13,7 @@ Lists SSH Certificate Authorities (CA).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List SSH Certificate Authorities (CA) response
 [access_gateway_ca_components-schemas-response_collection](../../../../_components/schemas/access_gateway_ca_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List SSH Certificate Authorities (CA) response failure
 

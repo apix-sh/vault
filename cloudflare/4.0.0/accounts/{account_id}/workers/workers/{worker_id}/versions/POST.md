@@ -13,15 +13,15 @@ Create a new version.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `worker_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) |  |
+| `worker_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deploy` | No | boolean | *Serialization: style=Form* |
+| `deploy` | No | boolean |  |
 
 
 
@@ -44,7 +44,7 @@ Create version success.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create version failure.
 

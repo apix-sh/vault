@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(1)"
 ---
 
 # access_empty_response
@@ -8,3 +8,5 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `result` | No | boolean |  |
+| `success` | No | boolean |  |

@@ -13,9 +13,9 @@ Rollback the production deployment to a previous deployment. You can only rollba
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deployment_id` | Yes | [pages_identifier](../../../../../../../../_components/schemas/pages_identifier.md) | *Serialization: style=Simple* |
-| `project_name` | Yes | [pages_project_name](../../../../../../../../_components/schemas/pages_project_name.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [pages_identifier](../../../../../../../../_components/schemas/pages_identifier.md) | *Serialization: style=Simple* |
+| `deployment_id` | Yes | [pages_identifier](../../../../../../../../_components/schemas/pages_identifier.md) |  |
+| `project_name` | Yes | [pages_project_name](../../../../../../../../_components/schemas/pages_project_name.md) |  |
+| `account_id` | Yes | [pages_identifier](../../../../../../../../_components/schemas/pages_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Rollback deployment response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Rollback deployment response failure.
 

@@ -44,7 +44,7 @@ Upload a schema response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Upload a schema response failure
 

@@ -13,9 +13,9 @@ Updates an App Config for a site
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `site_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `app_config_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) |  |
+| `site_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) |  |
+| `app_config_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Update Site App Config response
 [magic_app_config_single_response](../../../../../../../_components/schemas/magic_app_config_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Site App Config response failure
 

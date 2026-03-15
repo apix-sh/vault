@@ -13,7 +13,7 @@ Creates a direct upload that allows video uploads without an API key.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -24,8 +24,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `Upload-Creator` | No | [stream_creator](../../../../_components/schemas/stream_creator.md) | *Serialization: style=Simple* |
+| `Upload-Creator` | No | [stream_creator](../../../../_components/schemas/stream_creator.md) |  |
 
 
 ## Request Body
@@ -47,7 +46,7 @@ Upload videos via direct upload URLs response.
 [stream_direct_upload_response](../../../../_components/schemas/stream_direct_upload_response.md)
 
 
-### 4xx
+### 4XX
 
 Upload videos via direct upload URLs response failure.
 

@@ -13,8 +13,8 @@ Fetches the details of a custom page.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [custom-pages_error_page_type](../../../../_components/schemas/custom-pages_error_page_type.md) | *Serialization: style=Simple* |
-| `account_identifier` | Yes | [custom-pages_identifier](../../../../_components/schemas/custom-pages_identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [custom-pages_error_page_type](../../../../_components/schemas/custom-pages_error_page_type.md) |  |
+| `account_identifier` | Yes | [custom-pages_identifier](../../../../_components/schemas/custom-pages_identifier.md) |  |
 
 
 ## Query Parameters

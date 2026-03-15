@@ -18,8 +18,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `prefix` | No | string | *Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `prefix` | No | string |  |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

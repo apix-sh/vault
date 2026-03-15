@@ -13,7 +13,7 @@ Enable or disable DNSSEC.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dnssec_identifier](../../../_components/schemas/dnssec_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dnssec_identifier](../../../_components/schemas/dnssec_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Edit DNSSEC Status response.
 [dnssec_dnssec_response_single](../../../_components/schemas/dnssec_dnssec_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Edit DNSSEC Status response failure.
 

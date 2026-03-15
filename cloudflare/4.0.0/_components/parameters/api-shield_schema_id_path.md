@@ -2,6 +2,6 @@
 
 - **Location**: path
 - **Required**: Yes
-- **Type**: any
+- **Type**: allOf(2)
 
 The unique identifier of the schema

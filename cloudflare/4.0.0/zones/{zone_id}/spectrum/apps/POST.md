@@ -13,7 +13,7 @@ Creates a new Spectrum application from a configuration using a name for the ori
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../_components/schemas/spectrum-config_zone_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [spectrum-config_zone_identifier](../../../../_components/schemas/spectrum-config_zone_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Spectrum application using a name for the origin response.
 [spectrum-config_app_config_single](../../../../_components/schemas/spectrum-config_app_config_single.md)
 
 
-### 4xx
+### 4XX
 
 Create Spectrum application using a name for the origin response failure.
 

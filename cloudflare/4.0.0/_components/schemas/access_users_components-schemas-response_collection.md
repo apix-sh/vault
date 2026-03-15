@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(3)"
 ---
 
 # access_users_components-schemas-response_collection
@@ -8,3 +8,9 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `errors` | Yes | [access_messages](access_messages.md) |  |
+| `messages` | Yes | [access_messages](access_messages.md) |  |
+| `success` | Yes | boolean | Whether the API call was successful. |
+| `result_info` | No | object |  |
+| `result_info` | No | object |  |
+| `result` | No | array<[access_schemas-users](./access_schemas-users.md)> |  |

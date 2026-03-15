@@ -13,8 +13,8 @@ Updates the Usage Model for a given Worker. Requires a Workers Paid subscription
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_script_name](../../../../../../_components/schemas/workers_script_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) |  |
+| `script_name` | Yes | [workers_script_name](../../../../../../_components/schemas/workers_script_name.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Update Usage Model response.
 [workers_usage-model-response](../../../../../../_components/schemas/workers_usage-model-response.md)
 
 
-### 4xx
+### 4XX
 
 Update Usage Model response failure.
 

@@ -13,7 +13,7 @@ List configured monitors for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Monitors response.
 [load-balancing_monitor-response-collection](../../../../_components/schemas/load-balancing_monitor-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 List Monitors response failure.
 

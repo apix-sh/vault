@@ -13,8 +13,8 @@ Apply changes to an existing monitor, overwriting the supplied properties.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `monitor_id` | Yes | [load-balancing_identifier](../../../../../_components/schemas/load-balancing_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `monitor_id` | Yes | [load-balancing_identifier](../../../../../_components/schemas/load-balancing_identifier.md) |  |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Patch Monitor response.
 [load-balancing_monitor-response-single](../../../../../_components/schemas/load-balancing_monitor-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Patch Monitor response failure.
 

@@ -13,18 +13,18 @@ Read an On-ramp (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
-| `onramp_id` | Yes | [mcn_onramp_id](../../../../../../_components/schemas/mcn_onramp_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../../_components/schemas/mcn_account_id.md) |  |
+| `onramp_id` | Yes | [mcn_onramp_id](../../../../../../_components/schemas/mcn_onramp_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `status` | No | boolean | *Serialization: style=Form* |
-| `vpcs` | No | boolean | *Serialization: style=Form* |
-| `post_apply_resources` | No | boolean | *Serialization: style=Form* |
-| `planned_resources` | No | boolean | *Serialization: style=Form* |
+| `status` | No | boolean |  |
+| `vpcs` | No | boolean |  |
+| `post_apply_resources` | No | boolean |  |
+| `planned_resources` | No | boolean |  |
 
 
 

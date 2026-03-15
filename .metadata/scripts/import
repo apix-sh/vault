@@ -1,0 +1,172 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+VAULT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+CATALOG="$VAULT_ROOT/.metadata/sources/catalog.yaml"
+LOG_FILE="$VAULT_ROOT/.metadata/scripts/import-log.txt"
+APIX_BIN="${APIX_BIN:-apix}"
+
+NAMES=()
+URLS=()
+SUCCESS=0
+FAILED=0
+FROM=0
+SIZE=-1
+ONLY_NAME=""
+SKIP_COMMIT=0
+SKIP_REGISTRY=0
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --from)
+      FROM="$2"
+      shift 2
+      ;;
+    --size)
+      SIZE="$2"
+      shift 2
+      ;;
+    --name)
+      ONLY_NAME="$2"
+      shift 2
+      ;;
+    --no-commit)
+      SKIP_COMMIT=1
+      shift
+      ;;
+    --no-registry)
+      SKIP_REGISTRY=1
+      shift
+      ;;
+    -h|--help)
+      cat <<'EOF'
+Usage:
+  .metadata/scripts/import [--from N] [--size N] [--name NAME] [--no-commit] [--no-registry]
+
+Options:
+  --from N     Start index for batch import (default: 0)
+  --size N     Number of entries to import from --from (default: all)
+  --name NAME  Import only the catalog entry with this name
+  --no-commit  Skip all git add/commit steps
+  --no-registry Skip registry rebuild and registry commit
+
+Environment:
+  APIX_BIN     APIX command or absolute path (default: apix)
+EOF
+      exit 0
+      ;;
+    *)
+      echo "error: unknown argument: $1" >&2
+      exit 1
+      ;;
+  esac
+done
+
+if [[ "$APIX_BIN" == */* ]]; then
+  [[ -x "$APIX_BIN" ]] || { echo "error: APIX_BIN is not executable: $APIX_BIN" >&2; exit 1; }
+else
+  command -v "$APIX_BIN" >/dev/null 2>&1 || { echo "error: $APIX_BIN not found on PATH" >&2; exit 1; }
+fi
+
+if [[ ! -f "$CATALOG" ]]; then
+  echo "error: catalog not found at $CATALOG" >&2
+  exit 1
+fi
+
+while IFS= read -r line; do
+  if [[ "$line" =~ ^[[:space:]]*-[[:space:]]*name:[[:space:]]*(.*) ]]; then
+    NAMES+=("${BASH_REMATCH[1]}")
+  elif [[ "$line" =~ ^[[:space:]]*spec_url:[[:space:]]*(.*) ]]; then
+    URLS+=("${BASH_REMATCH[1]}")
+  fi
+done < "$CATALOG"
+
+TOTAL=${#NAMES[@]}
+
+echo "=== apix vault import ($(date -Iseconds)) ===" | tee "$LOG_FILE"
+echo "catalog: $CATALOG" | tee -a "$LOG_FILE"
+echo "vault:   $VAULT_ROOT" | tee -a "$LOG_FILE"
+echo "apix:    $APIX_BIN" | tee -a "$LOG_FILE"
+echo "range:   from $FROM, size ${SIZE}" | tee -a "$LOG_FILE"
+echo "commit:  $([[ $SKIP_COMMIT -eq 1 ]] && echo off || echo on)" | tee -a "$LOG_FILE"
+echo "registry:$([[ $SKIP_REGISTRY -eq 1 ]] && echo off || echo on)" | tee -a "$LOG_FILE"
+if [[ -n "$ONLY_NAME" ]]; then
+  echo "filter:  name = $ONLY_NAME" | tee -a "$LOG_FILE"
+fi
+echo "entries: $TOTAL (catalog)" | tee -a "$LOG_FILE"
+echo "" | tee -a "$LOG_FILE"
+
+SELECTED=()
+if [[ -n "$ONLY_NAME" ]]; then
+  for i in "${!NAMES[@]}"; do
+    if [[ "${NAMES[$i]}" == "$ONLY_NAME" ]]; then
+      SELECTED+=("$i")
+      break
+    fi
+  done
+
+  if (( ${#SELECTED[@]} == 0 )); then
+    echo "error: catalog entry not found: $ONLY_NAME" | tee -a "$LOG_FILE" >&2
+    exit 1
+  fi
+else
+  for i in "${!NAMES[@]}"; do
+    if (( i < FROM )); then continue; fi
+    if (( SIZE != -1 && i >= FROM + SIZE )); then break; fi
+    SELECTED+=("$i")
+  done
+fi
+
+SELECTED_TOTAL=${#SELECTED[@]}
+echo "selected: $SELECTED_TOTAL" | tee -a "$LOG_FILE"
+echo "" | tee -a "$LOG_FILE"
+
+for idx in "${!SELECTED[@]}"; do
+  i="${SELECTED[$idx]}"
+
+  NAME="${NAMES[$i]}"
+  URL="${URLS[$i]}"
+  echo "[$((idx+1))/$SELECTED_TOTAL] Importing $NAME (catalog #$((i+1))) ..." | tee -a "$LOG_FILE"
+  echo "  spec: $URL" | tee -a "$LOG_FILE"
+
+  if "$APIX_BIN" import "$URL" --name "$NAME" --output "$VAULT_ROOT" --overwrite 2>&1 | tee -a "$LOG_FILE"; then
+    echo "  ✓ $NAME imported successfully" | tee -a "$LOG_FILE"
+    ((SUCCESS++))
+
+    if (( SKIP_COMMIT == 0 )); then
+      # Commit each API import independently to avoid massive commits
+      echo "  - committing changes..." | tee -a "$LOG_FILE"
+      git -C "$VAULT_ROOT" add .
+      git -C "$VAULT_ROOT" commit -m "vault: import $NAME ($URL)" >/dev/null 2>&1 || echo "    (no changes detected)" | tee -a "$LOG_FILE"
+    else
+      echo "  - skipping commit (--no-commit)" | tee -a "$LOG_FILE"
+    fi
+  else
+    echo "  ✗ $NAME failed (see log above)" | tee -a "$LOG_FILE"
+    ((FAILED++))
+  fi
+  echo "" | tee -a "$LOG_FILE"
+done
+
+if (( SKIP_REGISTRY == 0 )); then
+  echo "--- Rebuilding registry.json ---" | tee -a "$LOG_FILE"
+  "$APIX_BIN" registry rebuild --path "$VAULT_ROOT" 2>&1 | tee -a "$LOG_FILE"
+
+  if (( SKIP_COMMIT == 0 )); then
+    # Final registry update commit
+    git -C "$VAULT_ROOT" add registry.json
+    git -C "$VAULT_ROOT" commit -m "vault: update registry" >/dev/null 2>&1 || echo "  - registry up to date" | tee -a "$LOG_FILE"
+  else
+    echo "  - skipping registry commit (--no-commit)" | tee -a "$LOG_FILE"
+  fi
+else
+  echo "--- Skipping registry rebuild (--no-registry) ---" | tee -a "$LOG_FILE"
+fi
+
+echo "" | tee -a "$LOG_FILE"
+echo "=== Summary ===" | tee -a "$LOG_FILE"
+echo "  total:   $SELECTED_TOTAL" | tee -a "$LOG_FILE"
+echo "  success: $SUCCESS" | tee -a "$LOG_FILE"
+echo "  failed:  $FAILED" | tee -a "$LOG_FILE"
+echo "  log:     $LOG_FILE" | tee -a "$LOG_FILE"

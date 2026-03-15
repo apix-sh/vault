@@ -13,7 +13,7 @@ To create a dataset, see the [`Create Dataset`](https://developers.cloudflare.co
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters

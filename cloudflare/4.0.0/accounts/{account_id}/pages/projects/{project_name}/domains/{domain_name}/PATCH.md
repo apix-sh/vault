@@ -13,9 +13,9 @@ Retry the validation status of a single domain.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain_name` | Yes | [pages_domain_name](../../../../../../../_components/schemas/pages_domain_name.md) | *Serialization: style=Simple* |
-| `project_name` | Yes | [pages_project_name](../../../../../../../_components/schemas/pages_project_name.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [pages_identifier](../../../../../../../_components/schemas/pages_identifier.md) | *Serialization: style=Simple* |
+| `domain_name` | Yes | [pages_domain_name](../../../../../../../_components/schemas/pages_domain_name.md) |  |
+| `project_name` | Yes | [pages_project_name](../../../../../../../_components/schemas/pages_project_name.md) |  |
+| `account_id` | Yes | [pages_identifier](../../../../../../../_components/schemas/pages_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Patch domain response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Patch domain response failure.
 

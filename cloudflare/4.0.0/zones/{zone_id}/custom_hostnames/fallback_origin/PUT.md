@@ -13,7 +13,7 @@ Updates the fallback origin configuration for custom hostnames on a zone. Sets t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Update Fallback Origin for Custom Hostnames response
 [tls-certificates-and-hostnames_fallback_origin_response](../../../../_components/schemas/tls-certificates-and-hostnames_fallback_origin_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Fallback Origin for Custom Hostnames response failure
 

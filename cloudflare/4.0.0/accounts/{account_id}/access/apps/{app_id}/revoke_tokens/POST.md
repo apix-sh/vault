@@ -13,8 +13,8 @@ Revokes all tokens issued for an application.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [access_app_id](../../../../../../_components/schemas/access_app_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [access_app_id](../../../../../../_components/schemas/access_app_id.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Revoke application tokens response
 [access_schemas-empty_response](../../../../../../_components/schemas/access_schemas-empty_response.md)
 
 
-### 4xx
+### 4XX
 
 Revoke application tokens response failure
 

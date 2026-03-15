@@ -53,7 +53,7 @@ please refer to [purge cache availability and limits documentation page](https:/
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache-purge_identifier](../../../_components/schemas/cache-purge_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache-purge_identifier](../../../_components/schemas/cache-purge_identifier.md) |  |
 
 
 ## Query Parameters
@@ -81,7 +81,7 @@ Request to purge cached content successfull.
 [cache-purge_api-response-single-id](../../../_components/schemas/cache-purge_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Request to purge cached content failed.
 

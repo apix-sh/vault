@@ -13,7 +13,7 @@ Roll the token secret.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `token_id` | Yes | [iam_token_identifier](../../../../_components/schemas/iam_token_identifier.md) | *Serialization: style=Simple* |
+| `token_id` | Yes | [iam_token_identifier](../../../../_components/schemas/iam_token_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Roll Token response
 [iam_response_single_value](../../../../_components/schemas/iam_response_single_value.md)
 
 
-### 4xx
+### 4XX
 
 Roll Token response failure
 

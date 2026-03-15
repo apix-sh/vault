@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `job_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `job_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Job is not paused
 [r2-slurper_api-v4-failure](../../../../../../_components/schemas/r2-slurper_api-v4-failure.md)
 
 
-### 4xx
+### 4XX
 
 Failure response
 

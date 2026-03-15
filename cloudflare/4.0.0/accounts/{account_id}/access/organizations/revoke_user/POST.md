@@ -13,14 +13,14 @@ Revokes a user's access across all applications.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `devices` | No | boolean | When set to `true`, all devices associated with the user will be revoked.<br/>*Serialization: style=Form* |
+| `devices` | No | boolean | When set to `true`, all devices associated with the user will be revoked. |
 
 
 
@@ -30,7 +30,12 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `devices` | No | boolean | When set to `true`, all devices associated with the user will be revoked. |
+| `email` | Yes | string | The email of the user to revoke. |
+| `user_uid` | No | string | The uuid of the user to revoke. |
+| `warp_session_reauth` | No | boolean | When set to `true`, the user will be required to re-authenticate to WARP for all Gateway policies that enforce a WARP client session duration. When `false`, the user’s WARP session will remain active |
 
 
 ## Responses

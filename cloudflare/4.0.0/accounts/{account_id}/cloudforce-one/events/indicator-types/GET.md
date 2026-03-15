@@ -11,14 +11,14 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `datasetIds` | No | array<string> | Array of dataset IDs to query indicator types from. If not provided, queries all datasets for the account.<br/>*Serialization: style=Form* |
+| `datasetIds` | No | array<string> | Array of dataset IDs to query indicator types from. If not provided, queries all datasets for the account. |
 
 
 

@@ -13,8 +13,8 @@ Fetches details for a single managed network.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `network_id` | Yes | [teams-devices_uuid](../../../../../_components/schemas/teams-devices_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `network_id` | Yes | [teams-devices_uuid](../../../../../_components/schemas/teams-devices_uuid.md) |  |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get device managed network details response.
 [teams-devices_components-schemas-single_response](../../../../../_components/schemas/teams-devices_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get device managed network details response failure.
 

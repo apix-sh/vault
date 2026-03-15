@@ -13,9 +13,9 @@ Returns a list of participants for the given session ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
-| `session_id` | Yes | string | ID of the session<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../_components/schemas/realtimekit_app_id.md) |  |
+| `session_id` | Yes | string | ID of the session |
 
 
 ## Query Parameters
@@ -27,8 +27,8 @@ Returns a list of participants for the given session ID.
 | `Reference` | N/A | [realtimekit_perPage](../../../../../../../../_components/parameters/realtimekit_perPage.md) |  |
 | `Reference` | N/A | [realtimekit_sortOrder](../../../../../../../../_components/parameters/realtimekit_sortOrder.md) |  |
 | `Reference` | N/A | [realtimekit_participantsSortBy](../../../../../../../../_components/parameters/realtimekit_participantsSortBy.md) |  |
-| `include_peer_events` | No | boolean | if true, response includes all the peer events of participants.<br/>*Serialization: style=Form* |
-| `view` | No | string | In breakout room sessions, the view parameter can be set to `raw` for session specific duration for participants or `consolidated` to accumulate breakout room durations.<br/>*Serialization: style=Form* |
+| `include_peer_events` | No | boolean | if true, response includes all the peer events of participants. |
+| `view` | No | string | In breakout room sessions, the view parameter can be set to `raw` for session specific duration for participants or `consolidated` to accumulate breakout room durations. |
 
 
 

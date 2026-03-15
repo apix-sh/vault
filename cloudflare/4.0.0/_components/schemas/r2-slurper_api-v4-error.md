@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "array<object>"
 ---
 
 # r2-slurper_api-v4-error

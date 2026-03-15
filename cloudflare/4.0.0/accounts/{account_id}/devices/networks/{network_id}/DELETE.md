@@ -13,8 +13,8 @@ Deletes a device managed network and fetches a list of the remaining device mana
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `network_id` | Yes | [teams-devices_uuid](../../../../../_components/schemas/teams-devices_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `network_id` | Yes | [teams-devices_uuid](../../../../../_components/schemas/teams-devices_uuid.md) |  |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete a device managed network response.
 [teams-devices_components-schemas-response_collection](../../../../../_components/schemas/teams-devices_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Delete a device managed network response failure.
 

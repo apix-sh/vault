@@ -13,16 +13,16 @@ Gets a list of users for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | *Serialization: style=Form* |
-| `email` | No | string | *Serialization: style=Form* |
-| `search` | No | string | *Serialization: style=Form* |
+| `name` | No | string |  |
+| `email` | No | string |  |
+| `search` | No | string |  |
 | `Reference` | N/A | [access_page](../../../../_components/parameters/access_page.md) |  |
 | `Reference` | N/A | [access_per_page](../../../../_components/parameters/access_per_page.md) |  |
 
@@ -43,7 +43,7 @@ Get users response
 [access_users_components-schemas-response_collection](../../../../_components/schemas/access_users_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Get users response failure
 

@@ -15,9 +15,9 @@ Updates a WAF rule group. You can update the state (`mode` parameter) of a rule 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `group_id` | Yes | [waf-managed-rules_identifier](../../../../../../../../_components/schemas/waf-managed-rules_identifier.md) | *Serialization: style=Simple* |
-| `package_id` | Yes | [waf-managed-rules_identifier](../../../../../../../../_components/schemas/waf-managed-rules_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [waf-managed-rules_schemas-identifier](../../../../../../../../_components/schemas/waf-managed-rules_schemas-identifier.md) | *Serialization: style=Simple* |
+| `group_id` | Yes | [waf-managed-rules_identifier](../../../../../../../../_components/schemas/waf-managed-rules_identifier.md) |  |
+| `package_id` | Yes | [waf-managed-rules_identifier](../../../../../../../../_components/schemas/waf-managed-rules_identifier.md) |  |
+| `zone_id` | Yes | [waf-managed-rules_schemas-identifier](../../../../../../../../_components/schemas/waf-managed-rules_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Update a WAF rule group response.
 [waf-managed-rules_rule_group_response_single](../../../../../../../../_components/schemas/waf-managed-rules_rule_group_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update a WAF rule group response failure.
 

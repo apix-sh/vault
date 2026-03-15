@@ -13,8 +13,8 @@ Fetch a single Zero Trust list.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `list_id` | Yes | [zero-trust-gateway_schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_schemas-uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `list_id` | Yes | [zero-trust-gateway_schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_schemas-uuid.md) |  |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get Zero Trust list details response.
 [zero-trust-gateway_list_single_response](../../../../../_components/schemas/zero-trust-gateway_list_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Zero Trust list details response failure.
 

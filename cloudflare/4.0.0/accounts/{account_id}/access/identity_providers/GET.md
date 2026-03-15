@@ -13,16 +13,16 @@ Lists all configured identity providers.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `scim_enabled` | No | string | *Serialization: style=Form* |
+| `scim_enabled` | No | string |  |
 | `Reference` | N/A | [access_page](../../../../_components/parameters/access_page.md) |  |
-| `per_page` | No | integer | *Serialization: style=Form* |
+| `per_page` | No | integer |  |
 
 
 
@@ -41,7 +41,7 @@ List Access identity providers response
 [access_response_collection](../../../../_components/schemas/access_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Access identity providers response failure
 

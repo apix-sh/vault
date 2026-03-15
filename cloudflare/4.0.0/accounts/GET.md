@@ -18,10 +18,10 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
+| `name` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `direction` | No | string |  |
 
 
 
@@ -40,7 +40,7 @@ List Accounts response
 [iam_response_collection_accounts](../_components/schemas/iam_response_collection_accounts.md)
 
 
-### 4xx
+### 4XX
 
 List Accounts response failure
 

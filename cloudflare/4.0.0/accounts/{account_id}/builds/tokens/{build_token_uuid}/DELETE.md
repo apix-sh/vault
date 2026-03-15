@@ -13,7 +13,7 @@ Remove a build authentication token
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `build_token_uuid` | Yes | [builds_build_token_uuid](../../../../../_components/schemas/builds_build_token_uuid.md) | *Serialization: style=Simple* |
+| `build_token_uuid` | Yes | [builds_build_token_uuid](../../../../../_components/schemas/builds_build_token_uuid.md) |  |
 
 
 ## Query Parameters

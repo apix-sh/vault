@@ -13,7 +13,7 @@ Lists all DLP custom profiles in an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List all custom profiles response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List all profiles failure response.
 

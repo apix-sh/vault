@@ -13,16 +13,16 @@ Return new saved logo queries created from image files
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tag` | No | string | *Serialization: style=Form* |
-| `match_type` | No | string | *Serialization: style=Form* |
-| `threshold` | No | number | *Serialization: style=Form* |
+| `tag` | No | string |  |
+| `match_type` | No | string |  |
+| `threshold` | No | number |  |
 
 
 

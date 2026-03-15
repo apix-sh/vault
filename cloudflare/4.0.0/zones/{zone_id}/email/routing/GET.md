@@ -13,7 +13,7 @@ Get information about the settings for your Email Routing zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [email_identifier](../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [email_identifier](../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters

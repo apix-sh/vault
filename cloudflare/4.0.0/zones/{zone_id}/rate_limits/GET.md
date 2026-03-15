@@ -13,15 +13,15 @@ Fetches the rate limits for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
 
 
 
@@ -40,7 +40,7 @@ List rate limits response.
 [firewall_ratelimit_response_collection](../../../_components/schemas/firewall_ratelimit_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List rate limits response failure.
 

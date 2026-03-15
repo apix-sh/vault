@@ -18,7 +18,5 @@ type: "object"
 | `num_cells` | Yes | integer |  |
 | `secret` | Yes | boolean |  |
 | `status` | Yes | [dlp_DatasetUploadStatus](dlp_DatasetUploadStatus.md) |  |
-| `updated_at` | Yes | string | Stores when the dataset was last updated.
-
-This includes name or description changes as well as uploads. |
+| `updated_at` | Yes | string | Stores when the dataset was last updated.<br/><br/>This includes name or description changes as well as uploads. |
 | `uploads` | Yes | array<[dlp_DatasetUpload](./dlp_DatasetUpload.md)> |  |

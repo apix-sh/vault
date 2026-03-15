@@ -13,8 +13,8 @@ Deletes an existing Page Rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `pagerule_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) | *Serialization: style=Simple* |
+| `pagerule_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) |  |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../../_components/schemas/zones_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete a Page Rule response
 [zones_schemas-api-response-single-id](../../../../_components/schemas/zones_schemas-api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Delete a Page Rule response failure
 

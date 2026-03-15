@@ -13,19 +13,19 @@ Lists all Access applications in an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | *Serialization: style=Form* |
-| `domain` | No | string | *Serialization: style=Form* |
-| `aud` | No | string | *Serialization: style=Form* |
-| `target_attributes` | No | string | *Serialization: style=Form* |
-| `exact` | No | boolean | *Serialization: style=Form* |
-| `search` | No | string | *Serialization: style=Form* |
+| `name` | No | string |  |
+| `domain` | No | string |  |
+| `aud` | No | string |  |
+| `target_attributes` | No | string |  |
+| `exact` | No | boolean |  |
+| `search` | No | string |  |
 | `Reference` | N/A | [access_page](../../../../_components/parameters/access_page.md) |  |
 | `Reference` | N/A | [access_per_page](../../../../_components/parameters/access_per_page.md) |  |
 
@@ -46,7 +46,7 @@ List Access applications response
 [access_apps_components-schemas-response_collection](../../../../_components/schemas/access_apps_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Access applications response failure
 

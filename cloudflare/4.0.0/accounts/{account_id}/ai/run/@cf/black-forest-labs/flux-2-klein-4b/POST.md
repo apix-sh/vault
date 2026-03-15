@@ -13,15 +13,15 @@ Runs inference on the @cf/black-forest-labs/flux-2-klein-4b model.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queueRequest` | No | string | *Serialization: style=Form* |
-| `tags` | No | string | *Serialization: style=Form* |
+| `queueRequest` | No | string |  |
+| `tags` | No | string |  |
 
 
 

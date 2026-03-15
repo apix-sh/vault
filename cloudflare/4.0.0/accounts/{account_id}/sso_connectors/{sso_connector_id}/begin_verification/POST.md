@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
-| `sso_connector_id` | Yes | [iam_sso_connector_identifier](../../../../../_components/schemas/iam_sso_connector_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) |  |
+| `sso_connector_id` | Yes | [iam_sso_connector_identifier](../../../../../_components/schemas/iam_sso_connector_identifier.md) |  |
 
 
 ## Query Parameters
@@ -36,7 +36,7 @@ Begin SSO connector verification process response
 [iam_api-response-single](../../../../../_components/schemas/iam_api-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Begin SSO connector verification process response failure
 

@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Defines the Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Defines the Account ID. |
 
 
 ## Query Parameters
@@ -35,7 +35,7 @@ Returns all Scan Configs.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Scan Configs failure.
 

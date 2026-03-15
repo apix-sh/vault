@@ -13,7 +13,7 @@ Updates a user's subscriptions.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [bill-subs-api_schemas-identifier](../../../_components/schemas/bill-subs-api_schemas-identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [bill-subs-api_schemas-identifier](../../../_components/schemas/bill-subs-api_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update User Subscription response
 [bill-subs-api_user_subscription_response_single](../../../_components/schemas/bill-subs-api_user_subscription_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update User Subscription response failure
 

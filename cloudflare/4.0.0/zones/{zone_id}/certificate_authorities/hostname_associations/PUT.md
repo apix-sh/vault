@@ -13,7 +13,7 @@ Replace Hostname Associations
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Replace Hostname Associations Response
 [tls-certificates-and-hostnames_hostname_associations_response](../../../../_components/schemas/tls-certificates-and-hostnames_hostname_associations_response.md)
 
 
-### 4xx
+### 4XX
 
 Replace Hostname Associations Response Failure
 

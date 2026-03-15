@@ -15,8 +15,8 @@ Fetches the details of a URI-based WAF override.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `overrides_id` | Yes | [firewall_overrides-id](../../../../../../_components/schemas/firewall_overrides-id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `overrides_id` | Yes | [firewall_overrides-id](../../../../../../_components/schemas/firewall_overrides-id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Get a WAF override response
 [firewall_override_response_single](../../../../../../_components/schemas/firewall_override_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get a WAF override response failure
 

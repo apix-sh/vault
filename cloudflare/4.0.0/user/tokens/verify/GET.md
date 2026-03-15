@@ -35,7 +35,7 @@ Verify Token response
 [iam_token_verify_response_single_segment](../../../_components/schemas/iam_token_verify_response_single_segment.md)
 
 
-### 4xx
+### 4XX
 
 Verify Token response failure
 

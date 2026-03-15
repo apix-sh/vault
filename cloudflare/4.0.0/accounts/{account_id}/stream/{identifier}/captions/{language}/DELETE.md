@@ -13,9 +13,9 @@ Removes the captions or subtitles from a video.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `language` | Yes | [stream_language](../../../../../../_components/schemas/stream_language.md) | *Serialization: style=Simple* |
-| `identifier` | Yes | [stream_identifier](../../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `language` | Yes | [stream_language](../../../../../../_components/schemas/stream_language.md) |  |
+| `identifier` | Yes | [stream_identifier](../../../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Delete captions or subtitles response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Delete captions or subtitles response failure.
 

@@ -13,8 +13,8 @@ Links PagerDuty with the account using the integration token.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
-| `token_id` | Yes | [aaa_integration-token](../../../../../../../../_components/schemas/aaa_integration-token.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../../../../_components/schemas/aaa_account-id.md) |  |
+| `token_id` | Yes | [aaa_integration-token](../../../../../../../../_components/schemas/aaa_integration-token.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Create a Notification policy response
 [aaa_id_response](../../../../../../../../_components/schemas/aaa_id_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a Notification policy response failure
 

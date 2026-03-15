@@ -13,25 +13,25 @@ Gets a list of audit logs for an account. Can be filtered by who made the change
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_identifier](../../../_components/schemas/aaa_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_identifier](../../../_components/schemas/aaa_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | No | string | *Serialization: style=Form* |
-| `export` | No | boolean | *Serialization: style=Form* |
-| `action.type` | No | string | *Serialization: style=Form* |
-| `actor.ip` | No | string | *Serialization: style=Form* |
-| `actor.email` | No | string | *Serialization: style=Form* |
-| `since` | No | oneOf(2) | *Serialization: style=Form* |
-| `before` | No | oneOf(2) | *Serialization: style=Form* |
-| `zone.name` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `hide_user_logs` | No | boolean | *Serialization: style=Form* |
+| `id` | No | string |  |
+| `export` | No | boolean |  |
+| `action.type` | No | string |  |
+| `actor.ip` | No | string |  |
+| `actor.email` | No | string |  |
+| `since` | No | oneOf(2) |  |
+| `before` | No | oneOf(2) |  |
+| `zone.name` | No | string |  |
+| `direction` | No | string |  |
+| `per_page` | No | number |  |
+| `page` | No | number |  |
+| `hide_user_logs` | No | boolean |  |
 
 
 
@@ -50,7 +50,7 @@ Get account audit logs response
 [aaa_audit_logs_response_collection](../../../_components/schemas/aaa_audit_logs_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Get account audit logs response failure
 

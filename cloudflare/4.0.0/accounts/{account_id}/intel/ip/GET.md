@@ -13,15 +13,15 @@ Gets the geolocation, ASN, infrastructure type of the ASN, and any security thre
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [intel_identifier](../../../../_components/schemas/intel_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ipv4` | No | string | *Serialization: style=Form* |
-| `ipv6` | No | string | *Serialization: style=Form* |
+| `ipv4` | No | string |  |
+| `ipv6` | No | string |  |
 
 
 
@@ -40,7 +40,7 @@ Get IP Overview response.
 [intel_schemas-response](../../../../_components/schemas/intel_schemas-response.md)
 
 
-### 4xx
+### 4XX
 
 Get IP Overview response failure.
 

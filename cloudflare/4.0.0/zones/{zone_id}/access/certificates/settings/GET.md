@@ -13,7 +13,7 @@ List all mTLS hostname settings for this zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List mTLS hostname settings response
 [access_schemas-response_collection_hostnames](../../../../../_components/schemas/access_schemas-response_collection_hostnames.md)
 
 
-### 4xx
+### 4XX
 
 List mTLS hostname settings response failure
 

@@ -15,8 +15,8 @@ Returns 404 if the store doesn't exist or is not managed by the authenticated se
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `store_id` | Yes | [secrets-store_store_identifier](../../../../../../../_components/schemas/secrets-store_store_identifier.md) | *Serialization: style=Simple* |
-| `secret_id` | Yes | [secrets-store_identifier](../../../../../../../_components/schemas/secrets-store_identifier.md) | *Serialization: style=Simple* |
+| `store_id` | Yes | [secrets-store_store_identifier](../../../../../../../_components/schemas/secrets-store_store_identifier.md) |  |
+| `secret_id` | Yes | [secrets-store_identifier](../../../../../../../_components/schemas/secrets-store_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Secret detail
 [secrets-store_secret_response](../../../../../../../_components/schemas/secrets-store_secret_response.md)
 
 
-### 4xx
+### 4XX
 
 Get secret failure
 

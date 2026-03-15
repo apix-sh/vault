@@ -13,3 +13,6 @@ Request body schema for setting tags on access_application_policy resources.
 | :------- | :------: | :--- | :---------- |
 | `resource_id` | Yes | [resource-tagging_resource_id](resource-tagging_resource_id.md) |  |
 | `resource_type` | Yes | [resource-tagging_zone_resource_type_base_enum](resource-tagging_zone_resource_type_base_enum.md) |  |
+| `access_application_id` | Yes | [resource-tagging_access_application_id](resource-tagging_access_application_id.md) |  |
+| `resource_type` | No | [resource-tagging_zone_resource_type_access_application_policy_enum](resource-tagging_zone_resource_type_access_application_policy_enum.md) |  |
+| `tags` | No | [resource-tagging_tags](resource-tagging_tags.md) |  |

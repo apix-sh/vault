@@ -13,7 +13,7 @@ Lists all fields available. The response is json object with key-value pairs, wh
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [logshare_identifier](../../../../../_components/schemas/logshare_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [logshare_identifier](../../../../../_components/schemas/logshare_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List fields response
 [logshare_fields_response](../../../../../_components/schemas/logshare_fields_response.md)
 
 
-### 4xx
+### 4XX
 
 List fields response failure
 

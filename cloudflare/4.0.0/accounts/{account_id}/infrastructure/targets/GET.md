@@ -14,41 +14,33 @@ together.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [infra_AccountTag](../../../../_components/schemas/infra_AccountTag.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [infra_AccountTag](../../../../_components/schemas/infra_AccountTag.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `hostname` | No | string | Hostname of a target<br/>*Serialization: style=Form* |
-| `hostname_contains` | No | string | Partial match to the hostname of a target<br/>*Serialization: style=Form* |
-| `virtual_network_id` | No | string | Private virtual network identifier of the target<br/>*Serialization: style=Form* |
-| `ip_v4` | No | string | IPv4 address of the target<br/>*Serialization: style=Form* |
-| `ip_v6` | No | string | IPv6 address of the target<br/>*Serialization: style=Form* |
-| `created_before` | No | string | Date and time at which the target was created before (inclusive)<br/>*Serialization: style=Form* |
-| `created_after` | No | string | Date and time at which the target was created after (inclusive)<br/>*Serialization: style=Form* |
-| `modified_before` | No | string | Date and time at which the target was modified before (inclusive)<br/>*Serialization: style=Form* |
-| `modified_after` | No | string | Date and time at which the target was modified after (inclusive)<br/>*Serialization: style=Form* |
-| `ips` | No | array<string> | Filters for targets that have any of the following IP addresses. Specify
-`ips` multiple times in query parameter to build list of candidates.<br/>*Serialization: style=Form* |
-| `target_ids` | No | array<string> | Filters for targets that have any of the following UUIDs. Specify
-`target_ids` multiple times in query parameter to build list of
-candidates.<br/>*Serialization: style=Form* |
-| `ip_like` | No | string | Filters for targets whose IP addresses look like the specified string.
-Supports `*` as a wildcard character<br/>*Serialization: style=Form* |
-| `ipv4_start` | No | string | Defines an IPv4 filter range's starting value (inclusive). Requires
-`ipv4_end` to be specified as well.<br/>*Serialization: style=Form* |
-| `ipv4_end` | No | string | Defines an IPv4 filter range's ending value (inclusive). Requires
-`ipv4_start` to be specified as well.<br/>*Serialization: style=Form* |
-| `ipv6_start` | No | string | Defines an IPv6 filter range's starting value (inclusive). Requires
-`ipv6_end` to be specified as well.<br/>*Serialization: style=Form* |
-| `ipv6_end` | No | string | Defines an IPv6 filter range's ending value (inclusive). Requires
-`ipv6_start` to be specified as well.<br/>*Serialization: style=Form* |
-| `page` | No | integer | Current page in the response<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Max amount of entries returned per page<br/>*Serialization: style=Form* |
-| `order` | No | string | The field to sort by.<br/>*Serialization: style=Form* |
-| `direction` | No | allOf(1) | The sorting direction.<br/>*Serialization: style=Form* |
+| `hostname` | No | string | Hostname of a target |
+| `hostname_contains` | No | string | Partial match to the hostname of a target |
+| `virtual_network_id` | No | string | Private virtual network identifier of the target |
+| `ip_v4` | No | string | IPv4 address of the target |
+| `ip_v6` | No | string | IPv6 address of the target |
+| `created_before` | No | string | Date and time at which the target was created before (inclusive) |
+| `created_after` | No | string | Date and time at which the target was created after (inclusive) |
+| `modified_before` | No | string | Date and time at which the target was modified before (inclusive) |
+| `modified_after` | No | string | Date and time at which the target was modified after (inclusive) |
+| `ips` | No | array<string> | Filters for targets that have any of the following IP addresses. Specify<br/>`ips` multiple times in query parameter to build list of candidates. |
+| `target_ids` | No | array<string> | Filters for targets that have any of the following UUIDs. Specify<br/>`target_ids` multiple times in query parameter to build list of<br/>candidates. |
+| `ip_like` | No | string | Filters for targets whose IP addresses look like the specified string.<br/>Supports `*` as a wildcard character |
+| `ipv4_start` | No | string | Defines an IPv4 filter range's starting value (inclusive). Requires<br/>`ipv4_end` to be specified as well. |
+| `ipv4_end` | No | string | Defines an IPv4 filter range's ending value (inclusive). Requires<br/>`ipv4_start` to be specified as well. |
+| `ipv6_start` | No | string | Defines an IPv6 filter range's starting value (inclusive). Requires<br/>`ipv6_end` to be specified as well. |
+| `ipv6_end` | No | string | Defines an IPv6 filter range's ending value (inclusive). Requires<br/>`ipv6_start` to be specified as well. |
+| `page` | No | integer | Current page in the response |
+| `per_page` | No | integer | Max amount of entries returned per page |
+| `order` | No | string | The field to sort by. |
+| `direction` | No | allOf(1) | The sorting direction. |
 
 
 
@@ -67,7 +59,7 @@ Successfully retrieved all targets in the account
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to retrieve all targets in the account
 

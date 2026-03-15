@@ -18,7 +18,7 @@ List WARP devices. Not supported when [multi-user mode](https://developers.cloud
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ List devices response.
 [teams-devices_devices_response](../../../_components/schemas/teams-devices_devices_response.md)
 
 
-### 4xx
+### 4XX
 
 List devices response failure.
 

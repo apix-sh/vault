@@ -16,8 +16,8 @@ Fetches a one-time use admin override code for a device. This relies on the **Ad
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `device_id` | Yes | [teams-devices_registration_id](../../../../../_components/schemas/teams-devices_registration_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `device_id` | Yes | [teams-devices_registration_id](../../../../../_components/schemas/teams-devices_registration_id.md) |  |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Get an admin override code for a device response.
 [teams-devices_override_codes_response](../../../../../_components/schemas/teams-devices_override_codes_response.md)
 
 
-### 4xx
+### 4XX
 
 Get an admin override code for a device response failure.
 

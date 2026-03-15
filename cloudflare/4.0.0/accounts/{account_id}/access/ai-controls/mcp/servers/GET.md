@@ -11,16 +11,16 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `search` | No | string | *Serialization: style=Form* |
+| `page` | No | integer |  |
+| `per_page` | No | integer |  |
+| `search` | No | string |  |
 
 
 

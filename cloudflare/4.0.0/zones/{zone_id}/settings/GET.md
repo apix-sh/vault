@@ -13,7 +13,7 @@ Available settings for your user in relation to a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_identifier](../../../_components/schemas/zones_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_identifier](../../../_components/schemas/zones_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get all Zone settings response
 [zones_zone_settings_response_collection](../../../_components/schemas/zones_zone_settings_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Get all Zone settings response failure
 

@@ -35,7 +35,7 @@ Successful list monitors response.
 [load-balancing_monitor-response-collection](../../../_components/schemas/load-balancing_monitor-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Failed list monitors response.
 

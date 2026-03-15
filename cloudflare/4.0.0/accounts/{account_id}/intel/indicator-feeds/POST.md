@@ -13,7 +13,7 @@ Creates a new custom threat indicator feed for sharing threat intelligence data.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../_components/schemas/custom-indicator-feeds_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [custom-indicator-feeds_identifier](../../../../_components/schemas/custom-indicator-feeds_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create indicator feed response
 [custom-indicator-feeds_create_feed_response](../../../../_components/schemas/custom-indicator-feeds_create_feed_response.md)
 
 
-### 4xx
+### 4XX
 
 Get indicator feeds failure response
 

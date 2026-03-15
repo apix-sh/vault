@@ -13,8 +13,8 @@ Fetches an HTML code snippet to embed a video in a web page delivered through Cl
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Retreieve embed Code HTML response.
 ```
 
 
-### 4xx
+### 4XX
 
 Retreieve embed Code HTML response failure.
 

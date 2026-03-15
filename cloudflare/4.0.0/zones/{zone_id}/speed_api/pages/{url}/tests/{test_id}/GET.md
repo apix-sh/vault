@@ -13,9 +13,9 @@ Retrieves the result of a specific test.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [observatory_identifier](../../../../../../../_components/schemas/observatory_identifier.md) | *Serialization: style=Simple* |
-| `url` | Yes | [observatory_url](../../../../../../../_components/schemas/observatory_url.md) | *Serialization: style=Simple* |
-| `test_id` | Yes | string | *Serialization: style=Simple* |
+| `zone_id` | Yes | [observatory_identifier](../../../../../../../_components/schemas/observatory_identifier.md) |  |
+| `url` | Yes | [observatory_url](../../../../../../../_components/schemas/observatory_url.md) |  |
+| `test_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Page test result.
 [observatory_page-test-response-single](../../../../../../../_components/schemas/observatory_page-test-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

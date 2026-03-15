@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cloud-connector_identifier](../../../../_components/schemas/cloud-connector_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cloud-connector_identifier](../../../../_components/schemas/cloud-connector_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Cloud Connector rules response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Cloud Connector response failure
 
@@ -47,7 +47,7 @@ Cloud Connector response failure
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 Cloud Connector response failure
 

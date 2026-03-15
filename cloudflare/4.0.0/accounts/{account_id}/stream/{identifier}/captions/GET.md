@@ -13,8 +13,8 @@ Lists the available captions or subtitles for a specific video.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List captions or subtitles response.
 [stream_language_response_collection](../../../../../_components/schemas/stream_language_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List captions or subtitles response failure.
 

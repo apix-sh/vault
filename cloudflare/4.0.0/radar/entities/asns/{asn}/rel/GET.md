@@ -13,15 +13,15 @@ Retrieves AS-level relationship for given networks.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `asn` | Yes | integer | Retrieves all ASNs with provider-customer or peering relationships with the given ASN.<br/>*Serialization: style=Simple* |
+| `asn` | Yes | integer | Retrieves all ASNs with provider-customer or peering relationships with the given ASN. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `asn2` | No | integer | Retrieves the AS relationship of ASN2 with respect to the given ASN.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `asn2` | No | integer | Retrieves the AS relationship of ASN2 with respect to the given ASN. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

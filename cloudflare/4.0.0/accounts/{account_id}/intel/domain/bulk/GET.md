@@ -13,7 +13,7 @@ Same as summary.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [intel_identifier](../../../../../_components/schemas/intel_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [intel_identifier](../../../../../_components/schemas/intel_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Get Multiple Domain Details response.
 [intel_collection_response](../../../../../_components/schemas/intel_collection_response.md)
 
 
-### 4xx
+### 4XX
 
 Get Multiple Domain Details response failure.
 

@@ -13,7 +13,7 @@ Update logging settings for the current Zero Trust account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_identifier](../../../../_components/schemas/zero-trust-gateway_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_identifier](../../../../_components/schemas/zero-trust-gateway_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Logging settings update response.
 [zero-trust-gateway_gateway-account-logging-settings-response](../../../../_components/schemas/zero-trust-gateway_gateway-account-logging-settings-response.md)
 
 
-### 4xx
+### 4XX
 
 Logging settings update response failure.
 

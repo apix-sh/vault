@@ -1,7 +1,6 @@
 ---
 method: "DELETE"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/teamnet/routes/network/{ip_network_encoded}"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -14,17 +13,17 @@ Deletes a private network route from an account. The CIDR in `ip_network_encoded
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ip_network_encoded` | Yes | [tunnel_ip_network_encoded](../../../../../../_components/schemas/tunnel_ip_network_encoded.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [tunnel_account_id](../../../../../../_components/schemas/tunnel_account_id.md) | *Serialization: style=Simple* |
+| `ip_network_encoded` | Yes | [tunnel_ip_network_encoded](../../../../../../_components/schemas/tunnel_ip_network_encoded.md) |  |
+| `account_id` | Yes | [tunnel_account_id](../../../../../../_components/schemas/tunnel_account_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `virtual_network_id` | No | [tunnel_virtual_network_id](../../../../../../_components/schemas/tunnel_virtual_network_id.md) | *Serialization: style=Form* |
-| `tun_type` | No | [tunnel_tunnel_type](../../../../../../_components/schemas/tunnel_tunnel_type.md) | *Serialization: style=Form* |
-| `tunnel_id` | No | [tunnel_tunnel_id](../../../../../../_components/schemas/tunnel_tunnel_id.md) | *Serialization: style=Form* |
+| `virtual_network_id` | No | [tunnel_virtual_network_id](../../../../../../_components/schemas/tunnel_virtual_network_id.md) |  |
+| `tun_type` | No | [tunnel_tunnel_type](../../../../../../_components/schemas/tunnel_tunnel_type.md) |  |
+| `tunnel_id` | No | [tunnel_tunnel_id](../../../../../../_components/schemas/tunnel_tunnel_id.md) |  |
 
 
 
@@ -43,7 +42,7 @@ Delete a tunnel route response
 [tunnel_route_response_single](../../../../../../_components/schemas/tunnel_route_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Delete a tunnel route response failure
 

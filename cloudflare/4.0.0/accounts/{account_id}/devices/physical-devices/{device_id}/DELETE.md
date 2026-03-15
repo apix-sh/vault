@@ -13,8 +13,8 @@ Deletes a WARP device.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `device_id` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `device_id` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters

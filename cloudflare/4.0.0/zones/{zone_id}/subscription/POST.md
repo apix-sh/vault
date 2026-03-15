@@ -13,7 +13,7 @@ Create a zone subscription, either plan or add-ons.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [bill-subs-api_identifier](../../../_components/schemas/bill-subs-api_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [bill-subs-api_identifier](../../../_components/schemas/bill-subs-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Zone Subscription response
 [bill-subs-api_zone_subscription_response_single](../../../_components/schemas/bill-subs-api_zone_subscription_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create Zone Subscription response failure
 

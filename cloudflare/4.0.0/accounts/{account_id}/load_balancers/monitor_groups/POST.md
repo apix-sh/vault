@@ -13,7 +13,7 @@ Create a new monitor group.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -49,7 +49,7 @@ Precondition Failed - Referenced monitor does not exist
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create Monitor Group response failure
 

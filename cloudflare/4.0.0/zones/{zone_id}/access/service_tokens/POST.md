@@ -13,7 +13,7 @@ Generates a new service token. **Note:** This is the only time you can get the C
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [access_identifier](../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,12 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `client_secret_version` | No | [access_client_secret_version](../../../../_components/schemas/access_client_secret_version.md) |  |
+| `duration` | No | [access_schemas-duration](../../../../_components/schemas/access_schemas-duration.md) |  |
+| `name` | Yes | [access_service-tokens_components-schemas-name](../../../../_components/schemas/access_service-tokens_components-schemas-name.md) |  |
+| `previous_client_secret_expires_at` | No | [access_previous_client_secret_expires_at](../../../../_components/schemas/access_previous_client_secret_expires_at.md) |  |
 
 
 ## Responses
@@ -41,7 +46,7 @@ Create a service token response
 [access_schemas-create_response](../../../../_components/schemas/access_schemas-create_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a service token response failure
 

@@ -13,9 +13,9 @@ Trigger Summary generation of Transcripts for the session ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
-| `session_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../../../_components/schemas/realtimekit_app_id.md) |  |
+| `session_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -31,7 +31,7 @@ _(None)_
 
 ## Responses
 
-### 2xx
+### 2XX
 
 Success
 

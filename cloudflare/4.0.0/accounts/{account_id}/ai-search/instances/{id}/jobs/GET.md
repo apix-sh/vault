@@ -13,16 +13,16 @@ Lists indexing jobs for an AI Search instance.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | Use your AI Search ID.<br/>*Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `id` | Yes | string | Use your AI Search ID. |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
+| `page` | No | integer |  |
+| `per_page` | No | integer |  |
 
 
 

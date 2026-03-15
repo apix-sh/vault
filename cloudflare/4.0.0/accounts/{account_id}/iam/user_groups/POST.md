@@ -13,7 +13,7 @@ Create a new user group under the specified account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Add User Group response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Add User Group response failure
 

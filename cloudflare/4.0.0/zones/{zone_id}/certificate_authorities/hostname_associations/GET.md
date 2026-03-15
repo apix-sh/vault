@@ -13,14 +13,14 @@ List Hostname Associations
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `mtls_certificate_id` | No | string | *Serialization: style=Form* |
+| `mtls_certificate_id` | No | string |  |
 
 
 
@@ -39,7 +39,7 @@ List Hostname Associations Response
 [tls-certificates-and-hostnames_hostname_associations_response](../../../../_components/schemas/tls-certificates-and-hostnames_hostname_associations_response.md)
 
 
-### 4xx
+### 4XX
 
 List Hostname Associations Response Failure
 

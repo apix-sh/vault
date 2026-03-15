@@ -47,7 +47,7 @@ Retrieve discovered operations on a zone response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Retrieve discovered operations on a zone response failure
 

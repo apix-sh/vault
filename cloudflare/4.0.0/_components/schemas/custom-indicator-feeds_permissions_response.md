@@ -8,3 +8,7 @@ type: "allOf(2)"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `errors` | Yes | [custom-indicator-feeds_schemas-messages](custom-indicator-feeds_schemas-messages.md) |  |
+| `messages` | Yes | [custom-indicator-feeds_schemas-messages](custom-indicator-feeds_schemas-messages.md) |  |
+| `success` | Yes | boolean | Whether the API call was successful. |
+| `result` | No | [custom-indicator-feeds_permissions_update](custom-indicator-feeds_permissions_update.md) |  |

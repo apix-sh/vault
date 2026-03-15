@@ -13,8 +13,8 @@ Update an existing event subscription
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
-| `subscription_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) |  |
+| `subscription_id` | Yes | [mq_identifier](../../../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters

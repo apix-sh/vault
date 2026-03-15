@@ -13,7 +13,7 @@ Retrieve the current status of Content Scanning.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Content Scanning status response.
 [waf-product-api-bundle_schemas-response-status](../../../../_components/schemas/waf-product-api-bundle_schemas-response-status.md)
 
 
-### 4xx
+### 4XX
 
 Get Content Scanning status failure response.
 

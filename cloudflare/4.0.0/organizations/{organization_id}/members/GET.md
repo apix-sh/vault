@@ -13,18 +13,18 @@ List memberships for an Organization. (Currently in Closed Beta - see https://de
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [organizations-api_OrganizationID](../../../_components/schemas/organizations-api_OrganizationID.md) | *Serialization: style=Simple* |
+| `organization_id` | Yes | [organizations-api_OrganizationID](../../../_components/schemas/organizations-api_OrganizationID.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `status` | No | array<string> | Filter the list of memberships by membership status.<br/>*Serialization: style=Form* |
-| `user.email` | No | string | Filter the list of memberships for a specific email.<br/>*Serialization: style=Form, explode=false* |
-| `user.email.contains` | No | string | Filter the list of memberships for a specific email that contains a substring.<br/>*Serialization: style=Form, explode=false* |
-| `user.email.startsWith` | No | string | Filter the list of memberships for a specific email that starts with a substring.<br/>*Serialization: style=Form, explode=false* |
-| `user.email.endsWith` | No | string | Filter the list of memberships for a specific email that ends with a substring.<br/>*Serialization: style=Form, explode=false* |
+| `status` | No | array<string> | Filter the list of memberships by membership status. |
+| `user.email` | No | string | Filter the list of memberships for a specific email.<br/>*Serialization: explode=false* |
+| `user.email.contains` | No | string | Filter the list of memberships for a specific email that contains a substring.<br/>*Serialization: explode=false* |
+| `user.email.startsWith` | No | string | Filter the list of memberships for a specific email that starts with a substring.<br/>*Serialization: explode=false* |
+| `user.email.endsWith` | No | string | Filter the list of memberships for a specific email that ends with a substring.<br/>*Serialization: explode=false* |
 | `Reference` | N/A | [organizations-api_PageTokenParamsPageToken](../../../_components/parameters/organizations-api_PageTokenParamsPageToken.md) |  |
 | `Reference` | N/A | [organizations-api_PageTokenParamsPageSize](../../../_components/parameters/organizations-api_PageTokenParamsPageSize.md) |  |
 
@@ -51,7 +51,7 @@ The request has succeeded.
 | `success` | Yes | boolean |  |
 
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

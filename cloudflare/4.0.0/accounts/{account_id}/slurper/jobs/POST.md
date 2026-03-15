@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Maximum number of concurrent jobs has been reached
 [r2-slurper_api-v4-failure](../../../../_components/schemas/r2-slurper_api-v4-failure.md)
 
 
-### 4xx
+### 4XX
 
 Failure response
 

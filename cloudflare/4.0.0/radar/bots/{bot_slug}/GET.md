@@ -13,14 +13,14 @@ Retrieves the requested bot information.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `bot_slug` | Yes | string | Bot slug.<br/>*Serialization: style=Simple* |
+| `bot_slug` | Yes | string | Bot slug. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

@@ -13,14 +13,14 @@ Get SSL Verification Info for a Zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `retry` | No | any | *Serialization: style=Form* |
+| `retry` | No | any |  |
 
 
 
@@ -39,7 +39,7 @@ SSL Verification Details response
 [tls-certificates-and-hostnames_ssl_verification_response_collection](../../../../_components/schemas/tls-certificates-and-hostnames_ssl_verification_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 SSL Verification Details response failure
 

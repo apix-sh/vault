@@ -13,8 +13,8 @@ Lists Site LANs associated with an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `site_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) |  |
+| `site_id` | Yes | [magic_identifier](../../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List Site LANs response
 [magic_lans_collection_response](../../../../../../_components/schemas/magic_lans_collection_response.md)
 
 
-### 4xx
+### 4XX
 
 List Site LANs response failure
 

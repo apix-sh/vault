@@ -13,25 +13,25 @@ Lists all connections detected by Page Shield.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `exclude_urls` | No | string | *Serialization: style=Form* |
-| `urls` | No | string | *Serialization: style=Form* |
-| `hosts` | No | string | *Serialization: style=Form* |
-| `page` | No | string | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order_by` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `prioritize_malicious` | No | boolean | *Serialization: style=Form* |
-| `exclude_cdn_cgi` | No | boolean | *Serialization: style=Form* |
-| `status` | No | string | *Serialization: style=Form* |
-| `page_url` | No | string | *Serialization: style=Form* |
-| `export` | No | string | *Serialization: style=Form* |
+| `exclude_urls` | No | string |  |
+| `urls` | No | string |  |
+| `hosts` | No | string |  |
+| `page` | No | string |  |
+| `per_page` | No | number |  |
+| `order_by` | No | string |  |
+| `direction` | No | string |  |
+| `prioritize_malicious` | No | boolean |  |
+| `exclude_cdn_cgi` | No | boolean |  |
+| `status` | No | string |  |
+| `page_url` | No | string |  |
+| `export` | No | string |  |
 
 
 
@@ -50,7 +50,7 @@ List Page Shield connections response
 [page-shield_list-zone-connections-response](../../../../_components/schemas/page-shield_list-zone-connections-response.md)
 
 
-### 4xx
+### 4XX
 
 List Page Shield connections response failure
 

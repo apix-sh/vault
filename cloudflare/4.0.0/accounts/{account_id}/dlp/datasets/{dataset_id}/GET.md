@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `dataset_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `dataset_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -36,7 +36,7 @@ Dataset read successfully.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Dataset read failed.
 

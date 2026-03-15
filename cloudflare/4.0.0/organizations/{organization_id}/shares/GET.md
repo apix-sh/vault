@@ -13,7 +13,7 @@ Lists all organization shares.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [resource-sharing_organization_id](../../../_components/schemas/resource-sharing_organization_id.md) | *Serialization: style=Simple* |
+| `organization_id` | Yes | [resource-sharing_organization_id](../../../_components/schemas/resource-sharing_organization_id.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ List organization shares response.
 [resource-sharing_share_response_collection](../../../_components/schemas/resource-sharing_share_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List organization shares response failure.
 
@@ -54,7 +54,7 @@ List organization shares response failure.
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 List organization shares response failure.
 

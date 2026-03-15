@@ -13,19 +13,19 @@ Aggregate threat events by one or more columns (e.g., attacker, targetIndustry) 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `aggregateBy` | Yes | string | Column(s) to aggregate by - single column or comma-separated list (e.g., 'attacker', 'targetIndustry', 'attacker,targetIndustry')<br/>*Serialization: style=Form* |
-| `datasetId` | No | anyOf(2) | Dataset ID(s) to filter by. Can be a single dataset ID or array of dataset IDs. If not provided, uses default dataset<br/>*Serialization: style=Form* |
-| `startDate` | No | string | Start date for filtering (ISO 8601 format, e.g., '2024-01-01')<br/>*Serialization: style=Form* |
-| `endDate` | No | string | End date for filtering (ISO 8601 format, e.g., '2024-12-31')<br/>*Serialization: style=Form* |
-| `groupByDate` | No | boolean | Whether to group results by date (daily aggregation)<br/>*Serialization: style=Form* |
-| `limit` | No | number | Maximum number of results to return<br/>*Serialization: style=Form* |
+| `aggregateBy` | Yes | string | Column(s) to aggregate by - single column or comma-separated list (e.g., 'attacker', 'targetIndustry', 'attacker,targetIndustry') |
+| `datasetId` | No | anyOf(2) | Dataset ID(s) to filter by. Can be a single dataset ID or array of dataset IDs. If not provided, uses default dataset |
+| `startDate` | No | string | Start date for filtering (ISO 8601 format, e.g., '2024-01-01') |
+| `endDate` | No | string | End date for filtering (ISO 8601 format, e.g., '2024-12-31') |
+| `groupByDate` | No | boolean | Whether to group results by date (daily aggregation) |
+| `limit` | No | number | Maximum number of results to return |
 
 
 

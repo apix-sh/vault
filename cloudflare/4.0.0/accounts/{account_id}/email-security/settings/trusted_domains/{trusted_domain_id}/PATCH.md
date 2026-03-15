@@ -13,8 +13,8 @@ Modifies a trusted domain entry's configuration.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
-| `trusted_domain_id` | Yes | [email-security_TrustedDomainId](../../../../../../_components/schemas/email-security_TrustedDomainId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) |  |
+| `trusted_domain_id` | Yes | [email-security_TrustedDomainId](../../../../../../_components/schemas/email-security_TrustedDomainId.md) |  |
 
 
 ## Query Parameters
@@ -32,12 +32,9 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `comments` | No | string |  |
-| `is_recent` | No | boolean | Select to prevent recently registered domains from triggering a
-Suspicious or Malicious disposition. |
+| `is_recent` | No | boolean | Select to prevent recently registered domains from triggering a<br/>Suspicious or Malicious disposition. |
 | `is_regex` | No | boolean |  |
-| `is_similarity` | No | boolean | Select for partner or other approved domains that have similar
-spelling to your connected domains. Prevents listed domains from
-triggering a Spoof disposition. |
+| `is_similarity` | No | boolean | Select for partner or other approved domains that have similar<br/>spelling to your connected domains. Prevents listed domains from<br/>triggering a Spoof disposition. |
 | `pattern` | No | string |  |
 
 
@@ -49,7 +46,7 @@ triggering a Spoof disposition. |
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../../_components/responses/email-security_ClientError.md)
 

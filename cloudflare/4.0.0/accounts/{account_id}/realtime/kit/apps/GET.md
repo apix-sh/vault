@@ -13,8 +13,8 @@ Fetch all apps for your account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
 
 
 ## Query Parameters

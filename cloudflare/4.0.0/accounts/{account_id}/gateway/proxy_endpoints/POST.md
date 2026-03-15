@@ -13,7 +13,7 @@ Create a new Zero Trust Gateway proxy endpoint.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `kind` | No | string | The proxy endpoint kind. |
 
 
 ## Responses
@@ -41,7 +43,7 @@ Returns a created proxy endpoint response.
 [zero-trust-gateway_proxy-endpoints_components-schemas-single_response](../../../../_components/schemas/zero-trust-gateway_proxy-endpoints_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Returns a created proxy endpoint response failure.
 

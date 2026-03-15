@@ -13,7 +13,7 @@ Add a user to the list of members for this account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Add Member response
 [iam_single_member_response_with_policies](../../../_components/schemas/iam_single_member_response_with_policies.md)
 
 
-### 4xx
+### 4XX
 
 Add Member response failure
 

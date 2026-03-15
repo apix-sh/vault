@@ -13,8 +13,8 @@ Returns a plain text response, with the scan's DOM content as rendered by Chrome
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `scan_id` | Yes | string | Scan UUID.<br/>*Serialization: style=Simple* |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `scan_id` | Yes | string | Scan UUID. |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters

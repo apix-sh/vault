@@ -13,7 +13,7 @@ Fetches all the custom pages at the account level.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_identifier` | Yes | [custom-pages_identifier](../../../_components/schemas/custom-pages_identifier.md) | *Serialization: style=Simple* |
+| `account_identifier` | Yes | [custom-pages_identifier](../../../_components/schemas/custom-pages_identifier.md) |  |
 
 
 ## Query Parameters

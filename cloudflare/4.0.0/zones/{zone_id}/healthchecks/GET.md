@@ -13,7 +13,7 @@ List configured health checks.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [healthchecks_identifier](../../../_components/schemas/healthchecks_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [healthchecks_identifier](../../../_components/schemas/healthchecks_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ List Health Checks response
 [healthchecks_response_collection](../../../_components/schemas/healthchecks_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Health Checks response failure.
 

@@ -18,12 +18,12 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `limit` | No | integer | Limits the number of objects returned in the response.<br/>*Serialization: style=Form* |
-| `limitPerGroup` | No | number | Limits the number of objects per search category.<br/>*Serialization: style=Form* |
-| `query` | Yes | string | String used to perform the search operation.<br/>*Serialization: style=Form* |
-| `include` | No | array<string> | Search types included in results.<br/>*Serialization: style=Form* |
-| `exclude` | No | array<string> | Search types excluded from results.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `limit` | No | integer | Limits the number of objects returned in the response. |
+| `limitPerGroup` | No | number | Limits the number of objects per search category. |
+| `query` | Yes | string | String used to perform the search operation. |
+| `include` | No | array<string> | Search types included in results. |
+| `exclude` | No | array<string> | Search types excluded from results. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | number | Account ID.<br/>*Serialization: style=Simple* |
-| `hash` | Yes | string | hash of the binary<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | number | Account ID. |
+| `hash` | Yes | string | hash of the binary |
 
 
 ## Query Parameters

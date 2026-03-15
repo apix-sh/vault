@@ -13,9 +13,9 @@ Put script content from a worker with an environment.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `service_name` | Yes | [workers_service](../../../../../../../../_components/schemas/workers_service.md) | *Serialization: style=Simple* |
-| `environment_name` | Yes | [workers_environment](../../../../../../../../_components/schemas/workers_environment.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `service_name` | Yes | [workers_service](../../../../../../../../_components/schemas/workers_service.md) |  |
+| `environment_name` | Yes | [workers_environment](../../../../../../../../_components/schemas/workers_environment.md) |  |
 
 
 ## Query Parameters
@@ -26,9 +26,8 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `CF-WORKER-BODY-PART` | No | string | The multipart name of a script upload part containing script content in service worker format. Alternative to including in a metadata part.<br/>*Serialization: style=Simple* |
-| `CF-WORKER-MAIN-MODULE-PART` | No | string | The multipart name of a script upload part containing script content in es module format. Alternative to including in a metadata part.<br/>*Serialization: style=Simple* |
+| `CF-WORKER-BODY-PART` | No | string | The multipart name of a script upload part containing script content in service worker format. Alternative to including in a metadata part. |
+| `CF-WORKER-MAIN-MODULE-PART` | No | string | The multipart name of a script upload part containing script content in es module format. Alternative to including in a metadata part. |
 
 
 ## Request Body
@@ -53,7 +52,7 @@ Put script content.
 [workers_script-response-single](../../../../../../../../_components/schemas/workers_script-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Put script content failure.
 

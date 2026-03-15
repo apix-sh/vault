@@ -13,7 +13,7 @@ Run traceroutes from Cloudflare colos.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic-transit_identifier](../../../../_components/schemas/magic-transit_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic-transit_identifier](../../../../_components/schemas/magic-transit_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,11 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `colos` | No | [magic-transit_colos](../../../../_components/schemas/magic-transit_colos.md) |  |
+| `options` | No | [magic-transit_options](../../../../_components/schemas/magic-transit_options.md) |  |
+| `targets` | Yes | [magic-transit_targets](../../../../_components/schemas/magic-transit_targets.md) |  |
 
 
 ## Responses
@@ -41,7 +45,7 @@ Traceroute response.
 [magic-transit_traceroute_response_collection](../../../../_components/schemas/magic-transit_traceroute_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Traceroute response failure.
 

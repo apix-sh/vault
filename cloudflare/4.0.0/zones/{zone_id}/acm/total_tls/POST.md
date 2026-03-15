@@ -13,7 +13,7 @@ Set Total TLS Settings or disable the feature for a Zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,10 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `certificate_authority` | No | [tls-certificates-and-hostnames_components-schemas-certificate_authority](../../../../_components/schemas/tls-certificates-and-hostnames_components-schemas-certificate_authority.md) |  |
+| `enabled` | Yes | [tls-certificates-and-hostnames_components-schemas-enabled](../../../../_components/schemas/tls-certificates-and-hostnames_components-schemas-enabled.md) |  |
 
 
 ## Responses
@@ -41,7 +44,7 @@ Enable or Disable Total TLS response
 [tls-certificates-and-hostnames_total_tls_settings_response](../../../../_components/schemas/tls-certificates-and-hostnames_total_tls_settings_response.md)
 
 
-### 4xx
+### 4XX
 
 Enable or Disable Total TLS response failure
 

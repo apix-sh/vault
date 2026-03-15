@@ -22,8 +22,8 @@ Fetches the status of a configured waiting room. Response fields include:
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../../_components/schemas/waitingroom_waiting_room_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [waitingroom_identifier](../../../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../../_components/schemas/waitingroom_waiting_room_id.md) |  |
+| `zone_id` | Yes | [waitingroom_identifier](../../../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Get waiting room status response
 [waitingroom_status_response](../../../../../_components/schemas/waitingroom_status_response.md)
 
 
-### 4xx
+### 4XX
 
 Get waiting room status response failure
 

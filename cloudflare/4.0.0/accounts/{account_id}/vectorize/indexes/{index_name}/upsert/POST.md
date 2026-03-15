@@ -13,8 +13,8 @@ Upserts vectors into the specified index, creating them if they do not exist and
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [vectorize_identifier](../../../../../../_components/schemas/vectorize_identifier.md) | *Serialization: style=Simple* |
-| `index_name` | Yes | [vectorize_index-name](../../../../../../_components/schemas/vectorize_index-name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [vectorize_identifier](../../../../../../_components/schemas/vectorize_identifier.md) |  |
+| `index_name` | Yes | [vectorize_index-name](../../../../../../_components/schemas/vectorize_index-name.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Insert Vectors Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Insert Vectors Failure Response
 

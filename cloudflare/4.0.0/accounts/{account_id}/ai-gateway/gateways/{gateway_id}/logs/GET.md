@@ -11,42 +11,42 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `gateway_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `gateway_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `search` | No | string | *Serialization: style=Form* |
-| `page` | No | integer | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `order_by` | No | string | *Serialization: style=Form* |
-| `order_by_direction` | No | string | *Serialization: style=Form* |
-| `filters` | No | array<object> | *Serialization: style=Form* |
-| `meta_info` | No | boolean | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `start_date` | No | string | *Serialization: style=Form* |
-| `end_date` | No | string | *Serialization: style=Form* |
-| `min_cost` | No | number | *Serialization: style=Form* |
-| `max_cost` | No | number | *Serialization: style=Form* |
-| `min_tokens_in` | No | number | *Serialization: style=Form* |
-| `max_tokens_in` | No | number | *Serialization: style=Form* |
-| `min_tokens_out` | No | number | *Serialization: style=Form* |
-| `max_tokens_out` | No | number | *Serialization: style=Form* |
-| `min_total_tokens` | No | number | *Serialization: style=Form* |
-| `max_total_tokens` | No | number | *Serialization: style=Form* |
-| `min_duration` | No | number | *Serialization: style=Form* |
-| `max_duration` | No | number | *Serialization: style=Form* |
-| `feedback` | No | anyOf(3) | *Serialization: style=Form* |
-| `success` | No | boolean | *Serialization: style=Form* |
-| `cached` | No | boolean | *Serialization: style=Form* |
-| `model` | No | string | *Serialization: style=Form* |
-| `model_type` | No | string | *Serialization: style=Form* |
-| `provider` | No | string | *Serialization: style=Form* |
-| `request_content_type` | No | string | *Serialization: style=Form* |
-| `response_content_type` | No | string | *Serialization: style=Form* |
+| `search` | No | string |  |
+| `page` | No | integer |  |
+| `per_page` | No | integer |  |
+| `order_by` | No | string |  |
+| `order_by_direction` | No | string |  |
+| `filters` | No | array<object> |  |
+| `meta_info` | No | boolean |  |
+| `direction` | No | string |  |
+| `start_date` | No | string |  |
+| `end_date` | No | string |  |
+| `min_cost` | No | number |  |
+| `max_cost` | No | number |  |
+| `min_tokens_in` | No | number |  |
+| `max_tokens_in` | No | number |  |
+| `min_tokens_out` | No | number |  |
+| `max_tokens_out` | No | number |  |
+| `min_total_tokens` | No | number |  |
+| `max_total_tokens` | No | number |  |
+| `min_duration` | No | number |  |
+| `max_duration` | No | number |  |
+| `feedback` | No | anyOf(3) |  |
+| `success` | No | boolean |  |
+| `cached` | No | boolean |  |
+| `model` | No | string |  |
+| `model_type` | No | string |  |
+| `provider` | No | string |  |
+| `request_content_type` | No | string |  |
+| `response_content_type` | No | string |  |
 
 
 

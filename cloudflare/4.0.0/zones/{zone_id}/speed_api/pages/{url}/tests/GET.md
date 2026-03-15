@@ -13,17 +13,17 @@ Test history (list of tests) for a specific webpage.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [observatory_identifier](../../../../../../_components/schemas/observatory_identifier.md) | *Serialization: style=Simple* |
-| `url` | Yes | [observatory_url](../../../../../../_components/schemas/observatory_url.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [observatory_identifier](../../../../../../_components/schemas/observatory_identifier.md) |  |
+| `url` | Yes | [observatory_url](../../../../../../_components/schemas/observatory_url.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | *Serialization: style=Form* |
-| `per_page` | No | integer | *Serialization: style=Form* |
-| `region` | No | allOf(2) | *Serialization: style=Form* |
+| `page` | No | integer |  |
+| `per_page` | No | integer |  |
+| `region` | No | allOf(2) |  |
 
 
 
@@ -42,7 +42,7 @@ List of test history for a page.
 [observatory_page-test-response-collection](../../../../../../_components/schemas/observatory_page-test-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

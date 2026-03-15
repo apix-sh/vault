@@ -13,8 +13,8 @@ Fetches a configured identity provider.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identity_provider_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `identity_provider_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get an Access identity provider response
 [access_identity-providers_components-schemas-single_response](../../../../../_components/schemas/access_identity-providers_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get an Access identity provider response failure
 

@@ -15,8 +15,8 @@ Deletes an existing URI-based WAF override.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `overrides_id` | Yes | [firewall_overrides-id](../../../../../../_components/schemas/firewall_overrides-id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `overrides_id` | Yes | [firewall_overrides-id](../../../../../../_components/schemas/firewall_overrides-id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Delete a WAF override response
 | `result` | No | object |  |
 
 
-### 4xx
+### 4XX
 
 Delete a WAF override response failure
 

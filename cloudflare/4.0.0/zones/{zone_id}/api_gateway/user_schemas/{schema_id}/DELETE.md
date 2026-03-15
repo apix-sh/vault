@@ -38,7 +38,7 @@ Delete a schema response
 [api-shield_api-response-single](../../../../../_components/schemas/api-shield_api-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Delete a schema response failure
 

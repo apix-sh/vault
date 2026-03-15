@@ -11,3 +11,5 @@ type: "allOf(2)"
 | `errors` | Yes | [cloudforce-one-port-scan-api_messages](cloudforce-one-port-scan-api_messages.md) |  |
 | `messages` | Yes | [cloudforce-one-port-scan-api_messages](cloudforce-one-port-scan-api_messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful. |
+| `errors` | No | object |  |
+| `success` | No | boolean |  |

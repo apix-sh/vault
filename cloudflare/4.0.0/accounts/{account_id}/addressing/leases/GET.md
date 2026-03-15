@@ -13,7 +13,7 @@ List all leases owned by the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_schemas-account_identifier](../../../../_components/schemas/addressing_schemas-account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_schemas-account_identifier](../../../../_components/schemas/addressing_schemas-account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Leases response
 [addressing_leases_components-schemas-response_collection](../../../../_components/schemas/addressing_leases_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Leases response failure
 

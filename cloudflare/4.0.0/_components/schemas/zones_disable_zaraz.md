@@ -8,5 +8,4 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | string | Turn off [Zaraz](https://developers.cloudflare.com/zaraz/).
- Allowed values: disable_zaraz |
+| `id` | No | string | Turn off [Zaraz](https://developers.cloudflare.com/zaraz/).<br/> Allowed values: disable_zaraz |

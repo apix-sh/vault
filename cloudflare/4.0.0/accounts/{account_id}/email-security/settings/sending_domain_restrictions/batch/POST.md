@@ -13,7 +13,7 @@ Send a Batch of `sending_domain_restrictions` API calls to be executed together.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Supported content types:
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../../_components/responses/email-security_ClientError.md)
 

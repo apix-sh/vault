@@ -13,7 +13,7 @@ Create a new Zero Trust certificate.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Creates Zero Trust certificate response.
 [zero-trust-gateway_single_response](../../../../_components/schemas/zero-trust-gateway_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Creates Zero Trust certificate response failure.
 

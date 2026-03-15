@@ -8,7 +8,7 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `errors` | Yes | any |  |
-| `messages` | Yes | any |  |
-| `result` | Yes | any |  |
+| `errors` | Yes | allOf(1) |  |
+| `messages` | Yes | allOf(1) |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean | Indicate whether the API call was successful. |

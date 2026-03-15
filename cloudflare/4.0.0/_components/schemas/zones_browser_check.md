@@ -8,8 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | string | Inspect the visitor's browser for headers commonly associated with
-spammers and certain bots.
- Allowed values: browser_check |
-| `value` | No | string | The status of Browser Integrity Check.
- Allowed values: on, off |
+| `id` | No | string | Inspect the visitor's browser for headers commonly associated with<br/>spammers and certain bots.<br/> Allowed values: browser_check |
+| `value` | No | string | The status of Browser Integrity Check.<br/> Allowed values: on, off |

@@ -13,7 +13,7 @@ Return matches for logo queries based on ID
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -21,8 +21,8 @@ Return matches for logo queries based on ID
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `logo_id` | No | array<string> | *Serialization: style=Form, explode=true* |
-| `offset` | No | string | *Serialization: style=Form* |
-| `limit` | No | string | *Serialization: style=Form* |
+| `offset` | No | string |  |
+| `limit` | No | string |  |
 
 
 

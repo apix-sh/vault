@@ -13,7 +13,7 @@ Get the current DNS record usage and quota for an account. May include internal 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get DNS Record Usage response
 [dns-records_dns_response_account_usage](../../../../_components/schemas/dns-records_dns_response_account_usage.md)
 
 
-### 4xx
+### 4XX
 
 Get DNS Record Usage response failure
 

@@ -15,23 +15,23 @@ Fetches WAF rules in a WAF package.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `package_id` | Yes | [waf-managed-rules_identifier](../../../../../../../_components/schemas/waf-managed-rules_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [waf-managed-rules_schemas-identifier](../../../../../../../_components/schemas/waf-managed-rules_schemas-identifier.md) | *Serialization: style=Simple* |
+| `package_id` | Yes | [waf-managed-rules_identifier](../../../../../../../_components/schemas/waf-managed-rules_identifier.md) |  |
+| `zone_id` | Yes | [waf-managed-rules_schemas-identifier](../../../../../../../_components/schemas/waf-managed-rules_schemas-identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `mode` | No | string | *Serialization: style=Form* |
-| `group_id` | No | allOf(1) | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `match` | No | string | *Serialization: style=Form* |
-| `description` | No | string | *Serialization: style=Form* |
-| `priority` | No | string | *Serialization: style=Form* |
+| `mode` | No | string |  |
+| `group_id` | No | allOf(1) |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `order` | No | string |  |
+| `direction` | No | string |  |
+| `match` | No | string |  |
+| `description` | No | string |  |
+| `priority` | No | string |  |
 
 
 
@@ -50,7 +50,7 @@ List WAF rules response.
 [waf-managed-rules_rule_response_collection](../../../../../../../_components/schemas/waf-managed-rules_rule_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List WAF rules response failure.
 

@@ -13,7 +13,7 @@ Add a new custom hostname and request that an SSL certificate be issued for it. 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Create Custom Hostname response
 [tls-certificates-and-hostnames_custom_hostname_response_single](../../../_components/schemas/tls-certificates-and-hostnames_custom_hostname_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create Custom Hostname response failure
 

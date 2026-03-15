@@ -13,8 +13,8 @@ Deletes a service token.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `service_token_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `service_token_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete a service token response
 [access_service-tokens_components-schemas-single_response](../../../../../_components/schemas/access_service-tokens_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete a service token response failure
 

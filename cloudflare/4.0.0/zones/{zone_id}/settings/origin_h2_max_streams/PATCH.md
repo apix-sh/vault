@@ -13,7 +13,7 @@ Origin H2 Max Streams configures the max number of concurrent requests that Clou
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Change Origin H2 Max Streams setting response.
 [cache-rules_origin_h2_max_streams_response_value](../../../../_components/schemas/cache-rules_origin_h2_max_streams_response_value.md)
 
 
-### 4xx
+### 4XX
 
 Change Origin H2 Max Streams response failure.
 

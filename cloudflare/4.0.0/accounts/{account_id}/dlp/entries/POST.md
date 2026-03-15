@@ -13,7 +13,7 @@ Creates a DLP custom entry.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create new custom entry response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Create new custom entry failure response.
 

@@ -13,8 +13,8 @@ Details of the available plan that the zone can subscribe to.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `plan_identifier` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) | *Serialization: style=Simple* |
+| `plan_identifier` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) |  |
+| `zone_id` | Yes | [bill-subs-api_identifier](../../../../_components/schemas/bill-subs-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Available Plan Details response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Available Plan Details response failure
 

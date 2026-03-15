@@ -13,17 +13,17 @@ Returns the namespaces owned by an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers-kv_identifier](../../../../../_components/schemas/workers-kv_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers-kv_identifier](../../../../../_components/schemas/workers-kv_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `order` | No | string |  |
+| `direction` | No | string |  |
 
 
 
@@ -42,7 +42,7 @@ List Namespaces response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Namespaces response failure.
 

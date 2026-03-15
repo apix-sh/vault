@@ -13,7 +13,7 @@ For a given zone, order an advanced certificate pack.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -48,7 +48,7 @@ Order Advanced Certificate Manager Certificate Pack response
 [tls-certificates-and-hostnames_advanced_certificate_pack_response_single](../../../../../_components/schemas/tls-certificates-and-hostnames_advanced_certificate_pack_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Order Advanced Certificate Manager Certificate Pack response failure
 

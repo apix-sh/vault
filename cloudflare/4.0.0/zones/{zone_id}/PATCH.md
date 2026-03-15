@@ -13,7 +13,7 @@ Edits a zone. Only one zone property can be changed at a time.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_identifier](../../_components/schemas/zones_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_identifier](../../_components/schemas/zones_identifier.md) |  |
 
 
 ## Query Parameters
@@ -31,16 +31,8 @@ Supported content types:
 | Property | Required | Type | Description |
 | :--- | :---: | :--- | :--- |
 | `paused` | No | [zones_paused](../../_components/schemas/zones_paused.md) |  |
-| `plan` | No | object | (Deprecated) Please use the `/zones/{zone_id}/subscription` API
-to update a zone's plan. Changing this value will create/cancel
-associated subscriptions. To view available plans for this zone,
-see Zone Plans.
- |
-| `type` | No | string | A full zone implies that DNS is hosted with Cloudflare. A partial
-zone is typically a partner-hosted zone or a CNAME setup. This
-parameter is only available to Enterprise customers or if it has
-been explicitly enabled on a zone.
- |
+| `plan` | No | object | (Deprecated) Please use the `/zones/{zone_id}/subscription` API<br/>to update a zone's plan. Changing this value will create/cancel<br/>associated subscriptions. To view available plans for this zone,<br/>see Zone Plans.<br/> |
+| `type` | No | string | A full zone implies that DNS is hosted with Cloudflare. A partial<br/>zone is typically a partner-hosted zone or a CNAME setup. This<br/>parameter is only available to Enterprise customers or if it has<br/>been explicitly enabled on a zone.<br/> |
 | `vanity_name_servers` | No | [zones_vanity_name_servers](../../_components/schemas/zones_vanity_name_servers.md) |  |
 
 #### Example Payload
@@ -61,7 +53,7 @@ Edit Zone response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Edit Zone response failure.
 

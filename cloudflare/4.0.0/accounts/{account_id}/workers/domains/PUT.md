@@ -13,7 +13,7 @@ Attaches a Worker to a zone and hostname.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_account_identifier](../../../../_components/schemas/workers_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_account_identifier](../../../../_components/schemas/workers_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Attach to Domain response.
 [workers_domain-response-single](../../../../_components/schemas/workers_domain-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Attach to Domain response failure.
 

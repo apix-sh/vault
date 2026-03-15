@@ -13,9 +13,9 @@ Add an IP from a prefix owned by the account to a particular address map.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ip_address` | Yes | [addressing_ip_address](../../../../../../../_components/schemas/addressing_ip_address.md) | *Serialization: style=Simple* |
-| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../../../_components/schemas/addressing_address_map_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `ip_address` | Yes | [addressing_ip_address](../../../../../../../_components/schemas/addressing_ip_address.md) |  |
+| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../../../_components/schemas/addressing_address_map_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Add an IP to an Address Map response
 [addressing_api-response-collection](../../../../../../../_components/schemas/addressing_api-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Add an IP to an Address Map response failure
 

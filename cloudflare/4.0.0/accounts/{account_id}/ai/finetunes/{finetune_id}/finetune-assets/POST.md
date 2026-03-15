@@ -11,8 +11,8 @@ content_type: "multipart/form-data"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `finetune_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `finetune_id` | Yes | string |  |
 
 
 ## Query Parameters

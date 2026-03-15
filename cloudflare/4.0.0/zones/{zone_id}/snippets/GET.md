@@ -13,15 +13,15 @@ Fetches all snippets belonging to the zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [snippets_ZoneId](../../../_components/schemas/snippets_ZoneId.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [snippets_ZoneId](../../../_components/schemas/snippets_ZoneId.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | [snippets_Page](../../../_components/schemas/snippets_Page.md) | *Serialization: style=Form* |
-| `per_page` | No | [snippets_PerPage](../../../_components/schemas/snippets_PerPage.md) | *Serialization: style=Form* |
+| `page` | No | [snippets_Page](../../../_components/schemas/snippets_Page.md) |  |
+| `per_page` | No | [snippets_PerPage](../../../_components/schemas/snippets_PerPage.md) |  |
 
 
 
@@ -36,11 +36,11 @@ _(None)_
 
 Reference: [snippets_Snippets](../../../_components/responses/snippets_Snippets.md)
 
-### 4xx
+### 4XX
 
 Reference: [snippets_Failure](../../../_components/responses/snippets_Failure.md)
 
-### 5xx
+### 5XX
 
 Reference: [snippets_Failure](../../../_components/responses/snippets_Failure.md)
 

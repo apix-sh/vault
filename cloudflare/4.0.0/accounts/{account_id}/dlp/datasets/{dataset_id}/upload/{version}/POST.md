@@ -16,9 +16,9 @@ be a UTF-8 encoded, newline (NL or CRNL) separated list of words to be matched.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `dataset_id` | Yes | string | *Serialization: style=Simple* |
-| `version` | Yes | integer | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `dataset_id` | Yes | string |  |
+| `version` | Yes | integer |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Dataset version uploaded successfully.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Dataset version upload failed.
 

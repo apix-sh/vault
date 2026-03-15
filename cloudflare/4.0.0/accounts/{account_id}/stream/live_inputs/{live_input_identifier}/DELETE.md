@@ -13,8 +13,8 @@ Prevents a live input from being streamed to and makes the live input inaccessib
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../_components/schemas/stream_live_input_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `live_input_identifier` | Yes | [stream_live_input_identifier](../../../../../_components/schemas/stream_live_input_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Delete a live input response.
 
 No schema provided for `application/json`.
 
-### 4xx
+### 4XX
 
 Delete a live input response failure.
 

@@ -13,8 +13,8 @@ Delete a network monitoring rule for account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_id` | Yes | [magic-visibility-mnm_rule_identifier](../../../../../_components/schemas/magic-visibility-mnm_rule_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) | *Serialization: style=Simple* |
+| `rule_id` | Yes | [magic-visibility-mnm_rule_identifier](../../../../../_components/schemas/magic-visibility-mnm_rule_identifier.md) |  |
+| `account_id` | Yes | [magic-visibility-mnm_account_identifier](../../../../../_components/schemas/magic-visibility-mnm_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete rule response
 [magic-visibility-mnm_mnm_rules_single_response](../../../../../_components/schemas/magic-visibility-mnm_mnm_rules_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete rule response failure
 

@@ -13,7 +13,7 @@ Apply changes to a number of existing pools, overwriting the supplied properties
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -28,7 +28,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `notification_email` | No | [load-balancing_patch_pools_notification_email](../../../../_components/schemas/load-balancing_patch_pools_notification_email.md) |  |
 
 
 ## Responses
@@ -41,7 +43,7 @@ Patch Pools response.
 [load-balancing_schemas-response_collection](../../../../_components/schemas/load-balancing_schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Patch Pools response failure.
 

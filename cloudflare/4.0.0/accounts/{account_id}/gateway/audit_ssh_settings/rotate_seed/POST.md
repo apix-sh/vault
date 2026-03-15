@@ -13,7 +13,7 @@ Rotate the SSH account seed that generates the host key identity when connecting
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Rotate Zero Trust SSH account seed response.
 [zero-trust-gateway_audit_ssh_settings_components-schemas-single_response](../../../../../_components/schemas/zero-trust-gateway_audit_ssh_settings_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Rotate Zero Trust SSH account seed response failure.
 

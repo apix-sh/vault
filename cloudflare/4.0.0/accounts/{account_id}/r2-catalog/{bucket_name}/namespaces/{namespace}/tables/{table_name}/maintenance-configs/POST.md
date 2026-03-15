@@ -15,10 +15,10 @@ enable or disable compaction and adjust target file sizes for optimization.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [r2-data-catalog_account-id](../../../../../../../../../_components/schemas/r2-data-catalog_account-id.md) | Identifies the account.<br/>*Serialization: style=Simple* |
-| `bucket_name` | Yes | [r2-data-catalog_bucket-name](../../../../../../../../../_components/schemas/r2-data-catalog_bucket-name.md) | Specifies the R2 bucket name.<br/>*Serialization: style=Simple* |
-| `namespace` | Yes | string | The namespace identifier (use %1F as separator for nested namespaces).<br/>*Serialization: style=Simple* |
-| `table_name` | Yes | string | The table name.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [r2-data-catalog_account-id](../../../../../../../../../_components/schemas/r2-data-catalog_account-id.md) | Identifies the account. |
+| `bucket_name` | Yes | [r2-data-catalog_bucket-name](../../../../../../../../../_components/schemas/r2-data-catalog_bucket-name.md) | Specifies the R2 bucket name. |
+| `namespace` | Yes | string | The namespace identifier (use %1F as separator for nested namespaces). |
+| `table_name` | Yes | string | The table name. |
 
 
 ## Query Parameters
@@ -44,26 +44,6 @@ Table maintenance configuration updated successfully.
 
 #### Response Schema (`application/json`)
 *(No object properties found)*
-
-#### Example Payload
-```json
-{
-  "errors": [],
-  "messages": [],
-  "result": {
-    "compaction": {
-      "state": "enabled",
-      "target_size_mb": "256"
-    },
-    "snapshot_expiration": {
-      "max_snapshot_age": "14d",
-      "min_snapshots_to_keep": 5,
-      "state": "enabled"
-    }
-  },
-  "success": true
-}
-```
 
 
 ### 400

@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "anyOf(1)"
 ---
 
 # cc_InstanceType
@@ -14,6 +14,9 @@ The instance type will be used to configure vCPU, memory, and disk.
 - "standard-3": 2 vCPU, 8 GiB memory, 16 GB disk
 - "standard-4": 4 vCPU, 12 GiB memory, 20 GB disk
 
+
+Variants:
+- (Inline Schema)
 
 ## Properties
 

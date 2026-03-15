@@ -23,7 +23,7 @@ Notes:
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
@@ -51,7 +51,7 @@ Batch DNS Records response
 [dns-records_dns_response_batch](../../../../_components/schemas/dns-records_dns_response_batch.md)
 
 
-### 4xx
+### 4XX
 
 Batch DNS Records response failure
 

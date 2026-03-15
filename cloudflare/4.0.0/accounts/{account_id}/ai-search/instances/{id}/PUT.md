@@ -13,8 +13,8 @@ Update instances.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `id` | Yes | string | Use your AI Search ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `id` | Yes | string | Use your AI Search ID. |
 
 
 ## Query Parameters

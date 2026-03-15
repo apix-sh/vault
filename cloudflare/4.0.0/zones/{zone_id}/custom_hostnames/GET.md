@@ -13,20 +13,25 @@ List, search, sort, and filter all of your custom hostnames.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `hostname` | No | string | *Serialization: style=Form* |
-| `id` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | any | *Serialization: style=Form* |
-| `direction` | No | any | *Serialization: style=Form* |
-| `ssl` | No | any | *Serialization: style=Form* |
+| `hostname` | No | string |  |
+| `hostname.contain` | No | string |  |
+| `id` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `order` | No | any |  |
+| `direction` | No | any |  |
+| `ssl_status` | No | string |  |
+| `hostname_status` | No | string |  |
+| `certificate_authority` | No | string |  |
+| `wildcard` | No | boolean |  |
+| `ssl` | No | any |  |
 
 
 
@@ -45,7 +50,7 @@ List Custom Hostnames response
 [tls-certificates-and-hostnames_custom_hostname_response_collection](../../../_components/schemas/tls-certificates-and-hostnames_custom_hostname_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Custom Hostnames response failure
 

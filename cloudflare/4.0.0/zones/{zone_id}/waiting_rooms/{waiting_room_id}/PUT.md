@@ -13,8 +13,8 @@ Updates a configured waiting room.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../_components/schemas/waitingroom_waiting_room_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [waitingroom_identifier](../../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `waiting_room_id` | Yes | [waitingroom_waiting_room_id](../../../../_components/schemas/waitingroom_waiting_room_id.md) |  |
+| `zone_id` | Yes | [waitingroom_identifier](../../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update waiting room response
 [waitingroom_single_response](../../../../_components/schemas/waitingroom_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update waiting room response failure
 

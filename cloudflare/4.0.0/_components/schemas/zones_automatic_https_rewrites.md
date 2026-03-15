@@ -9,5 +9,4 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `id` | No | string | Turn on or off Automatic HTTPS Rewrites. Allowed values: automatic_https_rewrites |
-| `value` | No | string | The status of Automatic HTTPS Rewrites.
- Allowed values: on, off |
+| `value` | No | string | The status of Automatic HTTPS Rewrites.<br/> Allowed values: on, off |

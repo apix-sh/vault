@@ -13,8 +13,8 @@ Deletes a specific list and all its items.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `list_id` | Yes | [lists_list_id](../../../../../_components/schemas/lists_list_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [lists_account_id](../../../../../_components/schemas/lists_account_id.md) | *Serialization: style=Simple* |
+| `list_id` | Yes | [lists_list_id](../../../../../_components/schemas/lists_list_id.md) |  |
+| `account_id` | Yes | [lists_account_id](../../../../../_components/schemas/lists_account_id.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete a list response.
 [lists_list-delete-response-collection](../../../../../_components/schemas/lists_list-delete-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Delete a list response failure.
 

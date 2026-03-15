@@ -18,11 +18,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `location` | No | string | Filters results by location. Specify an alpha-2 location code.<br/>*Serialization: style=Form* |
-| `limit` | No | integer | Limits the number of objects returned in the response.<br/>*Serialization: style=Form* |
-| `sortBy` | No | string | Sorts results by the specified field.<br/>*Serialization: style=Form* |
-| `sortOrder` | No | string | Sort order.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `location` | No | string | Filters results by location. Specify an alpha-2 location code. |
+| `limit` | No | integer | Limits the number of objects returned in the response. |
+| `sortBy` | No | string | Sorts results by the specified field. |
+| `sortOrder` | No | string | Sort order. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

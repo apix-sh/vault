@@ -26,7 +26,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `notification_email` | No | [load-balancing_patch_pools_notification_email](../../../_components/schemas/load-balancing_patch_pools_notification_email.md) |  |
 
 
 ## Responses
@@ -39,7 +41,7 @@ Patch Pools response.
 [load-balancing_schemas-response_collection](../../../_components/schemas/load-balancing_schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Patch Pools response failure.
 

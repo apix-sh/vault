@@ -11,17 +11,17 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [nsc_AccountTag](../../../../_components/schemas/nsc_AccountTag.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [nsc_AccountTag](../../../../_components/schemas/nsc_AccountTag.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `slot` | No | string | If specified, only show CNIs associated with the specified slot<br/>*Serialization: style=Form* |
-| `tunnel_id` | No | string | If specified, only show cnis associated with the specified tunnel id<br/>*Serialization: style=Form* |
-| `cursor` | No | integer | *Serialization: style=Form* |
-| `limit` | No | integer | *Serialization: style=Form* |
+| `slot` | No | string | If specified, only show CNIs associated with the specified slot |
+| `tunnel_id` | No | string | If specified, only show cnis associated with the specified tunnel id |
+| `cursor` | No | integer |  |
+| `limit` | No | integer |  |
 
 
 

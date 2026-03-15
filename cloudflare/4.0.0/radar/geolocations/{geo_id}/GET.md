@@ -13,14 +13,14 @@ Retrieves the requested Geolocation information.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `geo_id` | Yes | string | Geolocation ID. Refer to [GeoNames](https://download.geonames.org/export/dump/readme.txt)<br/>*Serialization: style=Simple* |
+| `geo_id` | Yes | string | Geolocation ID. Refer to [GeoNames](https://download.geonames.org/export/dump/readme.txt) |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

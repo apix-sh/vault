@@ -11,7 +11,7 @@ type: "object"
 | `deviceName` | No | string |  |
 | `id` | Yes | [digital-experience-monitoring_uuid](digital-experience-monitoring_uuid.md) |  |
 | `interval` | No | string | The interval at which the Traceroute synthetic application test is set to run. |
-| `kind` | No | any |  |
+| `kind` | No | any | Allowed values: traceroute |
 | `name` | No | string |  |
 | `networkPath` | No | object |  |
 | `url` | No | string | The host of the Traceroute synthetic application test |

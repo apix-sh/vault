@@ -13,8 +13,8 @@ Modify TSIG.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `tsig_id` | Yes | [secondary-dns_schemas-identifier](../../../../../_components/schemas/secondary-dns_schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [secondary-dns_account_identifier](../../../../../_components/schemas/secondary-dns_account_identifier.md) | *Serialization: style=Simple* |
+| `tsig_id` | Yes | [secondary-dns_schemas-identifier](../../../../../_components/schemas/secondary-dns_schemas-identifier.md) |  |
+| `account_id` | Yes | [secondary-dns_account_identifier](../../../../../_components/schemas/secondary-dns_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update TSIG response.
 [secondary-dns_single_response](../../../../../_components/schemas/secondary-dns_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update TSIG response failure.
 

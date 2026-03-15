@@ -1,27 +1,27 @@
 ---
 method: "POST"
-url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/facebook/omni-bart-large-cnn"
+url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/@cf/facebook/nonomni-bart-large-cnn"
 auth: "bearer | apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key)"
 content_type: "application/json"
 ---
 
-# Execute @cf/facebook/omni-bart-large-cnn model.
+# Execute @cf/facebook/nonomni-bart-large-cnn model.
 
-Runs inference on the @cf/facebook/omni-bart-large-cnn model.
+Runs inference on the @cf/facebook/nonomni-bart-large-cnn model.
 
 ## Path Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `queueRequest` | No | string | *Serialization: style=Form* |
-| `tags` | No | string | *Serialization: style=Form* |
+| `queueRequest` | No | string |  |
+| `tags` | No | string |  |
 
 
 

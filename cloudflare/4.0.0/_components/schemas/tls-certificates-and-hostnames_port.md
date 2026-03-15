@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "number"
 ---
 
 # tls-certificates-and-hostnames_port

@@ -13,8 +13,8 @@ Export an On-ramp to terraform ready file(s) (Closed Beta).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mcn_account_id](../../../../../../../_components/schemas/mcn_account_id.md) | *Serialization: style=Simple* |
-| `onramp_id` | Yes | [mcn_onramp_id](../../../../../../../_components/schemas/mcn_onramp_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mcn_account_id](../../../../../../../_components/schemas/mcn_account_id.md) |  |
+| `onramp_id` | Yes | [mcn_onramp_id](../../../../../../../_components/schemas/mcn_onramp_id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,6 @@ Exported file.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
 | `Content-Disposition` | No | string |  |
 
 

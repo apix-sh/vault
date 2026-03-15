@@ -13,7 +13,7 @@ Returns a list of Vectorize Indexes
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [vectorize_identifier](../../../../../_components/schemas/vectorize_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [vectorize_identifier](../../../../../_components/schemas/vectorize_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Vectorize Index Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Vectorize Index Failure Response
 

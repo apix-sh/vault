@@ -13,8 +13,8 @@ Gets information for a specific destination email already created.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `destination_address_identifier` | Yes | [email_destination_address_identifier](../../../../../../_components/schemas/email_destination_address_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [email_identifier](../../../../../../_components/schemas/email_identifier.md) | *Serialization: style=Simple* |
+| `destination_address_identifier` | Yes | [email_destination_address_identifier](../../../../../../_components/schemas/email_destination_address_identifier.md) |  |
+| `account_id` | Yes | [email_identifier](../../../../../../_components/schemas/email_identifier.md) |  |
 
 
 ## Query Parameters

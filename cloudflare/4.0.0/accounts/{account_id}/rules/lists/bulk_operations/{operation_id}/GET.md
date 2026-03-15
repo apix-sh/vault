@@ -15,8 +15,8 @@ The `status` property can have one of the following values: `pending`, `running`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `operation_id` | Yes | [lists_operation_id](../../../../../../_components/schemas/lists_operation_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [lists_account_id](../../../../../../_components/schemas/lists_account_id.md) | *Serialization: style=Simple* |
+| `operation_id` | Yes | [lists_operation_id](../../../../../../_components/schemas/lists_operation_id.md) |  |
+| `account_id` | Yes | [lists_account_id](../../../../../../_components/schemas/lists_account_id.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Get bulk operation status response.
 [lists_bulk-operation-response-single](../../../../../../_components/schemas/lists_bulk-operation-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Get bulk operation status response failure.
 

@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(1)"
 ---
 
 # spectrum-config_api-response-single
@@ -8,3 +8,6 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `errors` | Yes | [spectrum-config_messages](spectrum-config_messages.md) |  |
+| `messages` | Yes | [spectrum-config_messages](spectrum-config_messages.md) |  |
+| `success` | Yes | boolean | Whether the API call was successful. |

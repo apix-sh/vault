@@ -11,5 +11,4 @@ Network settings for an application
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `bandwidth_limit_mbps` | Yes | integer | The network bandwidth limit per container in Megabits per second (Mbps).
- |
+| `bandwidth_limit_mbps` | Yes | integer | The network bandwidth limit per container in Megabits per second (Mbps).<br/> |

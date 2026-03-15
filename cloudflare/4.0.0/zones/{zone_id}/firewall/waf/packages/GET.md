@@ -15,19 +15,19 @@ Fetches WAF packages for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `order` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `match` | No | string | *Serialization: style=Form* |
-| `name` | No | string | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `order` | No | string |  |
+| `direction` | No | string |  |
+| `match` | No | string |  |
+| `name` | No | string |  |
 
 
 
@@ -46,7 +46,7 @@ List WAF packages response
 [firewall_package_response_collection](../../../../../_components/schemas/firewall_package_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List WAF packages response failure
 

@@ -13,9 +13,9 @@ Retrieves the raw data associated with an event. Searches across all shards in t
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `event_id` | Yes | string | Event ID.<br/>*Serialization: style=Simple* |
-| `dataset_id` | Yes | string | Dataset ID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `event_id` | Yes | string | Event ID. |
+| `dataset_id` | Yes | string | Dataset ID. |
 
 
 ## Query Parameters

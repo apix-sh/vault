@@ -13,7 +13,7 @@ Publish current Zaraz preview configuration for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zaraz_identifier](../../../../../_components/schemas/zaraz_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Update Zaraz workflow response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update Zaraz workflow response failure
 

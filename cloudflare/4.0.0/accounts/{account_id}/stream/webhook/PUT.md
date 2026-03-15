@@ -13,7 +13,7 @@ Creates a webhook notification.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create webhooks response.
 [stream_webhook_response_single](../../../../_components/schemas/stream_webhook_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create webhooks response failure.
 

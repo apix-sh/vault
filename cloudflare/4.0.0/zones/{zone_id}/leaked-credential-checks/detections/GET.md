@@ -13,7 +13,7 @@ List user-defined detection patterns for Leaked Credential Checks.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Leaked Credential Checks custom detections response.
 [waf-product-api-bundle_response-custom-detection-collection](../../../../_components/schemas/waf-product-api-bundle_response-custom-detection-collection.md)
 
 
-### 4xx
+### 4XX
 
 List Leaked Credential Checks custom detections failure response.
 

@@ -13,7 +13,7 @@ Lists the number of secrets used in the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [secrets-store_account_identifier](../../../../_components/schemas/secrets-store_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [secrets-store_account_identifier](../../../../_components/schemas/secrets-store_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Usage and quota
 [secrets-store_quota_response](../../../../_components/schemas/secrets-store_quota_response.md)
 
 
-### 4xx
+### 4XX
 
 List store secrets response failure
 

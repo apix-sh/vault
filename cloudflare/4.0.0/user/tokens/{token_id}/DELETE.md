@@ -13,7 +13,7 @@ Destroy a token.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `token_id` | Yes | [iam_token_identifier](../../../_components/schemas/iam_token_identifier.md) | *Serialization: style=Simple* |
+| `token_id` | Yes | [iam_token_identifier](../../../_components/schemas/iam_token_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Delete Token response
 [iam_api-response-single-id](../../../_components/schemas/iam_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Delete Token response failure
 

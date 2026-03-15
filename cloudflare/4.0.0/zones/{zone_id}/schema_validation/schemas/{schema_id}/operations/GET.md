@@ -26,7 +26,7 @@ _(None)_
 | `Reference` | N/A | [api-shield_endpoint_parameter](../../../../../../_components/parameters/api-shield_endpoint_parameter.md) |  |
 | `Reference` | N/A | [api-shield_page](../../../../../../_components/parameters/api-shield_page.md) |  |
 | `Reference` | N/A | [api-shield_per_page](../../../../../../_components/parameters/api-shield_per_page.md) |  |
-| `operation_status` | No | string | Filter results by whether operations exist in Web Asset Management or not. `new` will just return operations from the schema that do not exist otherwise. `existing` will just return operations from the schema that already exist.<br/>*Serialization: style=Form* |
+| `operation_status` | No | string | Filter results by whether operations exist in Web Asset Management or not. `new` will just return operations from the schema that do not exist otherwise. `existing` will just return operations from the schema that already exist. |
 
 
 
@@ -41,7 +41,7 @@ _(None)_
 
 Reference: [api-shield_schemas_extract_operations_get_success](../../../../../../_components/responses/api-shield_schemas_extract_operations_get_success.md)
 
-### 4xx
+### 4XX
 
 Reference: [api-shield_generic_failure](../../../../../../_components/responses/api-shield_generic_failure.md)
 

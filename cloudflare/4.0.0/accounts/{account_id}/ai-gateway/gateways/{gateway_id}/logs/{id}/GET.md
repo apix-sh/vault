@@ -13,9 +13,9 @@ Retrieves detailed information for a specific AI Gateway log entry.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | Yes | string | *Serialization: style=Simple* |
-| `gateway_id` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `id` | Yes | string |  |
+| `gateway_id` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters

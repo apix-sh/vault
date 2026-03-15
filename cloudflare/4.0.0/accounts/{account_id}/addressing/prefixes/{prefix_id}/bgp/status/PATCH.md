@@ -17,8 +17,8 @@ subnets of an IP prefix.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -33,7 +33,9 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `advertised` | Yes | [addressing_components-schemas-advertised](../../../../../../../_components/schemas/addressing_components-schemas-advertised.md) |  |
 
 
 ## Responses
@@ -46,7 +48,7 @@ Update Prefix Dynamic Advertisement Status response
 [addressing_advertised_response](../../../../../../../_components/schemas/addressing_advertised_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Prefix Dynamic Advertisement Status response failure
 

@@ -13,7 +13,7 @@ Lists waiting rooms for account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [waitingroom_identifier](../../../_components/schemas/waitingroom_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [waitingroom_identifier](../../../_components/schemas/waitingroom_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ List waiting rooms for account response
 [waitingroom_response_collection](../../../_components/schemas/waitingroom_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List waiting rooms for account response failure
 

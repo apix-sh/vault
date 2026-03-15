@@ -13,7 +13,7 @@ Updates an IP Access rule defined at the user level. You can only update the rul
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_id` | Yes | [firewall_rule_identifier](../../../../../_components/schemas/firewall_rule_identifier.md) | *Serialization: style=Simple* |
+| `rule_id` | Yes | [firewall_rule_identifier](../../../../../_components/schemas/firewall_rule_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Update an IP Access rule response.
 [firewall_rule_single_response](../../../../../_components/schemas/firewall_rule_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update an IP Access rule response failure.
 

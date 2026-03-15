@@ -8,8 +8,7 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `active_from` | No | string | Timestamp of the moment the lease was created.
- |
+| `active_from` | No | string | Timestamp of the moment the lease was created.<br/> |
 | `cidrs` | No | array<[addressing_schemas-cidr](./addressing_schemas-cidr.md)> | CIDRs attached to the lease |
 | `created_at` | No | [addressing_created_at](addressing_created_at.md) |  |
 | `id` | No | [addressing_lease_id](addressing_lease_id.md) |  |

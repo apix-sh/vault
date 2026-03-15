@@ -15,8 +15,8 @@ Note: This operation will affect all zones in the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_id` | Yes | [firewall_rule_identifier](../../../../../../_components/schemas/firewall_rule_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [firewall_account_identifier](../../../../../../_components/schemas/firewall_account_identifier.md) | *Serialization: style=Simple* |
+| `rule_id` | Yes | [firewall_rule_identifier](../../../../../../_components/schemas/firewall_rule_identifier.md) |  |
+| `account_id` | Yes | [firewall_account_identifier](../../../../../../_components/schemas/firewall_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Delete an IP Access rule response.
 [firewall_api-response-single-id](../../../../../../_components/schemas/firewall_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Delete an IP Access rule response failure.
 

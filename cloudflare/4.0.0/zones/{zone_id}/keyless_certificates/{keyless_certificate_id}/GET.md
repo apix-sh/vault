@@ -13,8 +13,8 @@ Get details for one Keyless SSL configuration.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `keyless_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `keyless_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get Keyless SSL Configuration response
 [tls-certificates-and-hostnames_keyless_response_single](../../../../_components/schemas/tls-certificates-and-hostnames_keyless_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get Keyless SSL Configuration response failure
 

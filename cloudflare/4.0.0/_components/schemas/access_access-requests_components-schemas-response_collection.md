@@ -11,3 +11,4 @@ type: "allOf(2)"
 | `errors` | Yes | [access_messages](access_messages.md) |  |
 | `messages` | Yes | [access_messages](access_messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful. |
+| `result` | No | array<[access_access-requests](./access_access-requests.md)> |  |

@@ -13,8 +13,8 @@ Get details for a single webhooks destination.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
-| `webhook_id` | Yes | [aaa_webhook-id](../../../../../../../_components/schemas/aaa_webhook-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../../../_components/schemas/aaa_account-id.md) |  |
+| `webhook_id` | Yes | [aaa_webhook-id](../../../../../../../_components/schemas/aaa_webhook-id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a webhook response
 [aaa_schemas-single_response](../../../../../../../_components/schemas/aaa_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Get a webhook response failure
 

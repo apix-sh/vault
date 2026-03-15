@@ -13,7 +13,7 @@ Creates a new Site
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Site response
 [magic_site_single_response](../../../../_components/schemas/magic_site_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create Site response failure
 

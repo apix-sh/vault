@@ -8,6 +8,8 @@ type: "allOf(2)"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `value` | No | string | Whether the feature is enabled or disabled.
-Defaults to "on" for Free plans, otherwise defaults to "off".
- |
+| `editable` | No | boolean | Whether or not this setting can be modified for this zone (based on your Cloudflare plan level). |
+| `id` | No | string | Identifier of the zone setting. |
+| `modified_on` | No | string | last time this setting was modified. |
+| `value` | No | string | Current value of the zone setting. Allowed values: on, off |
+| `value` | No | string | Whether the feature is enabled or disabled.<br/>Defaults to "on" for Free plans, otherwise defaults to "off".<br/> |

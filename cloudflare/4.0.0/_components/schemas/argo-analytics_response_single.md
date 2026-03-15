@@ -8,4 +8,9 @@ type: "allOf(2)"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `errors` | Yes | [argo-analytics_messages](argo-analytics_messages.md) |  |
+| `messages` | Yes | [argo-analytics_messages](argo-analytics_messages.md) |  |
+| `result` | Yes | anyOf(3) |  |
+| `success` | Yes | boolean | Whether the API call was successful |
+| `result` | No | anyOf(2) |  |
 | `result` | No | object |  |

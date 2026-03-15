@@ -11,15 +11,15 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `dataset_id` | Yes | string | Dataset UUID.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `dataset_id` | Yes | string | Dataset UUID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `keepRawData` | No | boolean | If true, copies raw data to the destination dataset. Default is false (raw data is stripped/not copied). Raw data is always deleted from the source.<br/>*Serialization: style=Form* |
+| `keepRawData` | No | boolean | If true, copies raw data to the destination dataset. Default is false (raw data is stripped/not copied). Raw data is always deleted from the source. |
 
 
 

@@ -8,8 +8,8 @@ type: "allOf(2)"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `errors` | Yes | any |  |
+| `errors` | Yes | allOf(1) |  |
 | `messages` | Yes | allOf(1) |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean | Whether the API call was successful. |
 | `upload_details` | No | [api-shield_old_schema_upload_details_errors_critical](api-shield_old_schema_upload_details_errors_critical.md) |  |

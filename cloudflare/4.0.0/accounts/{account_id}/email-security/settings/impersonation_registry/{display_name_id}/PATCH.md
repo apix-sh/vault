@@ -13,8 +13,8 @@ Updates a display name entry used for impersonation protection.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
-| `display_name_id` | Yes | integer | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) |  |
+| `display_name_id` | Yes | integer |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Supported content types:
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../../_components/responses/email-security_ClientError.md)
 

@@ -22,7 +22,7 @@ _(None)_
 | `Reference` | N/A | [api-shield_page](../../../../_components/parameters/api-shield_page.md) |  |
 | `Reference` | N/A | [api-shield_per_page](../../../../_components/parameters/api-shield_per_page.md) |  |
 | `Reference` | N/A | [api-shield_omit_source_query](../../../../_components/parameters/api-shield_omit_source_query.md) |  |
-| `validation_enabled` | No | boolean | Filter for enabled schemas<br/>*Serialization: style=Form* |
+| `validation_enabled` | No | boolean | Filter for enabled schemas |
 
 
 
@@ -37,7 +37,7 @@ _(None)_
 
 Reference: [api-shield_schemas_list_success](../../../../_components/responses/api-shield_schemas_list_success.md)
 
-### 4xx
+### 4XX
 
 Reference: [api-shield_generic_failure](../../../../_components/responses/api-shield_generic_failure.md)
 

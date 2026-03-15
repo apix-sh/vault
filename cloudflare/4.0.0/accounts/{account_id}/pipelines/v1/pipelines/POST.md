@@ -13,7 +13,7 @@ Create a new Pipeline.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [cloudflare-pipelines_workers-pipelines-account-id](../../../../../_components/schemas/cloudflare-pipelines_workers-pipelines-account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [cloudflare-pipelines_workers-pipelines-account-id](../../../../../_components/schemas/cloudflare-pipelines_workers-pipelines-account-id.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Indicates a successfully created Pipeline.
 | `success` | Yes | [cloudflare-pipelines_worker-pipelines-common-success](../../../../../_components/schemas/cloudflare-pipelines_worker-pipelines-common-success.md) |  |
 
 
-### 4xx
+### 4XX
 
 Indicates an error in creating a Pipeline.
 

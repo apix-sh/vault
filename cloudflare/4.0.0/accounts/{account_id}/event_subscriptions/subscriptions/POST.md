@@ -13,7 +13,7 @@ Create a new event subscription for a queue
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mq_identifier](../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mq_identifier](../../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters

@@ -13,8 +13,8 @@ Delete a membership to a particular Organization. (Currently in Closed Beta - se
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [organizations-api_OrganizationID](../../../../_components/schemas/organizations-api_OrganizationID.md) | *Serialization: style=Simple* |
-| `member_id` | Yes | [organizations-api_MemberID](../../../../_components/schemas/organizations-api_MemberID.md) | *Serialization: style=Simple* |
+| `organization_id` | Yes | [organizations-api_OrganizationID](../../../../_components/schemas/organizations-api_OrganizationID.md) |  |
+| `member_id` | Yes | [organizations-api_MemberID](../../../../_components/schemas/organizations-api_MemberID.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Supported content types:
 
 There is no content to send for this request, but the headers may be useful.
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

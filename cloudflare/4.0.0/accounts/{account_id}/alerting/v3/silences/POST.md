@@ -13,7 +13,7 @@ Creates a new silence for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../_components/schemas/aaa_account-id.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create Silences response
 [aaa_schemas-api-response-common](../../../../../_components/schemas/aaa_schemas-api-response-common.md)
 
 
-### 4xx
+### 4XX
 
 Create Silences response failure
 

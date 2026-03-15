@@ -13,7 +13,7 @@ Modify organization profile. (Currently in Closed Beta - see https://developers.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [organizations-api_OrganizationID](../../../_components/schemas/organizations-api_OrganizationID.md) | *Serialization: style=Simple* |
+| `organization_id` | Yes | [organizations-api_OrganizationID](../../../_components/schemas/organizations-api_OrganizationID.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Supported content types:
 
 There is no content to send for this request, but the headers may be useful.
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

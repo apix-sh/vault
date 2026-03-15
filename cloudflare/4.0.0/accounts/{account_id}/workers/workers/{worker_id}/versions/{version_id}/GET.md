@@ -13,16 +13,16 @@ Get details about a specific version.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `worker_id` | Yes | string | *Serialization: style=Simple* |
-| `version_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../../_components/schemas/workers_identifier.md) |  |
+| `worker_id` | Yes | string |  |
+| `version_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `include` | No | string | *Serialization: style=Form* |
+| `include` | No | string |  |
 
 
 
@@ -41,7 +41,7 @@ Get version success.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get version failure.
 

@@ -18,7 +18,7 @@ Deprecated in favor of [Update DNS Settings](https://developers.cloudflare.com/a
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-custom-nameservers_schemas-identifier](../../../_components/schemas/dns-custom-nameservers_schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-custom-nameservers_schemas-identifier](../../../_components/schemas/dns-custom-nameservers_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Set Account Custom Nameserver Related Zone Metadata response
 [dns-custom-nameservers_schemas-empty_response](../../../_components/schemas/dns-custom-nameservers_schemas-empty_response.md)
 
 
-### 4xx
+### 4XX
 
 Set Account Custom Nameserver Related Zone Metadata response failure
 

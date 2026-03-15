@@ -15,8 +15,8 @@ Optionally, you can use the `cascade` property to specify that you wish to delet
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
-| `rule_id` | Yes | [firewall_rule_identifier](../../../../../../_components/schemas/firewall_rule_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../../../_components/schemas/firewall_identifier.md) |  |
+| `rule_id` | Yes | [firewall_rule_identifier](../../../../../../_components/schemas/firewall_rule_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Delete an IP Access rule response.
 [firewall_rule_single_id_response](../../../../../../_components/schemas/firewall_rule_single_id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete an IP Access rule response failure.
 

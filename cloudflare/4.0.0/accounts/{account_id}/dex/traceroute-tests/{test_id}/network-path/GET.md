@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/dex/traceroute-tests/{test_id}/network-path"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,18 +12,18 @@ Get a breakdown of metrics by hop for individual traceroute test runs
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account<br/>*Serialization: style=Simple* |
-| `test_id` | Yes | [digital-experience-monitoring_uuid](../../../../../../_components/schemas/digital-experience-monitoring_uuid.md) | unique identifier for a specific test<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account |
+| `test_id` | Yes | [digital-experience-monitoring_uuid](../../../../../../_components/schemas/digital-experience-monitoring_uuid.md) | unique identifier for a specific test |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `deviceId` | Yes | string | Device to filter tracroute result runs to<br/>*Serialization: style=Form* |
-| `from` | Yes | string | Start time for aggregate metrics in ISO ms<br/>*Serialization: style=Form* |
-| `to` | Yes | string | End time for aggregate metrics in ISO ms<br/>*Serialization: style=Form* |
-| `interval` | Yes | string | Time interval for aggregate time slots.<br/>*Serialization: style=Form* |
+| `deviceId` | Yes | string | Device to filter tracroute result runs to |
+| `from` | Yes | string | Start time for aggregate metrics in ISO ms |
+| `to` | Yes | string | End time for aggregate metrics in ISO ms |
+| `interval` | Yes | string | Time interval for aggregate time slots. |
 
 
 
@@ -43,7 +42,7 @@ DEX traceroute test network path response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 DEX traceroute test network path failure response
 

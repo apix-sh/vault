@@ -14,7 +14,7 @@ Retrieves the list of DNS records discovered up to this point by the asynchronou
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [dns-records_identifier](../../../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [dns-records_identifier](../../../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List of discovered DNS records
 [dns-records_dns_response_collection](../../../../../_components/schemas/dns-records_dns_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Scan review failure
 

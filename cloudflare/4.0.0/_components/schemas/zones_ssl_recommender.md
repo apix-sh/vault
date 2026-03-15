@@ -11,3 +11,5 @@ Enrollment in the SSL/TLS Recommender service which tries to detect and recommen
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `enabled` | No | [zones_ssl_recommender_enabled](zones_ssl_recommender_enabled.md) |  |
+| `id` | No | any | Enrollment value for SSL/TLS Recommender. Allowed values: ssl_recommender |

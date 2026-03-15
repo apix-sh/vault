@@ -13,7 +13,7 @@ Variant support enables caching variants of images with certain file extensions 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache-rules_identifier](../../../../_components/schemas/cache-rules_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get variants setting response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get variants setting response failure.
 

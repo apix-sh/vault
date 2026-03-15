@@ -13,7 +13,7 @@ List all mTLS hostname settings for this account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List mTLS hostname settings response
 [access_response_collection_hostnames](../../../../../_components/schemas/access_response_collection_hostnames.md)
 
 
-### 4xx
+### 4XX
 
 List mTLS hostname settings response failure
 

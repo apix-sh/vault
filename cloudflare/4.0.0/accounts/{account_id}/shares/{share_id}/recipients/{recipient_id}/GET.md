@@ -13,9 +13,9 @@ Get share recipient by ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [resource-sharing_account_id](../../../../../../_components/schemas/resource-sharing_account_id.md) | *Serialization: style=Simple* |
-| `share_id` | Yes | [resource-sharing_share_id](../../../../../../_components/schemas/resource-sharing_share_id.md) | *Serialization: style=Simple* |
-| `recipient_id` | Yes | [resource-sharing_recipient_id](../../../../../../_components/schemas/resource-sharing_recipient_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [resource-sharing_account_id](../../../../../../_components/schemas/resource-sharing_account_id.md) |  |
+| `share_id` | Yes | [resource-sharing_share_id](../../../../../../_components/schemas/resource-sharing_share_id.md) |  |
+| `recipient_id` | Yes | [resource-sharing_recipient_id](../../../../../../_components/schemas/resource-sharing_recipient_id.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Get account share recipient response.
 [resource-sharing_share_recipient_response_single](../../../../../../_components/schemas/resource-sharing_share_recipient_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Get account share recipient response failure.
 
@@ -49,7 +49,7 @@ Get account share recipient response failure.
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 Get account share recipient response failure.
 

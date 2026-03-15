@@ -14,17 +14,17 @@ detected.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../_components/schemas/email-security_AccountId.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `from_date` | No | string | *Serialization: style=Form* |
-| `to_date` | No | string | *Serialization: style=Form* |
-| `start` | No | string | The beginning of the search date range (RFC3339 format).<br/>*Serialization: style=Form* |
-| `end` | No | string | The end of the search date range (RFC3339 format).<br/>*Serialization: style=Form* |
+| `from_date` | No | string |  |
+| `to_date` | No | string |  |
+| `start` | No | string | The beginning of the search date range (RFC3339 format). |
+| `end` | No | string | The end of the search date range (RFC3339 format). |
 
 
 
@@ -43,7 +43,7 @@ Contains a list of PhishGuard reports.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../_components/responses/email-security_ClientError.md)
 

@@ -8,3 +8,4 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `secrets` | Yes | [secrets-store_usageQuotaObject](secrets-store_usageQuotaObject.md) |  |

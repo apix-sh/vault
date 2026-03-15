@@ -11,3 +11,9 @@ The WAF examines HTTP requests to your website.  It inspects both GET and POST r
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `editable` | No | boolean | Whether or not this setting can be modified for this zone (based on your Cloudflare plan level). |
+| `id` | Yes | string | Identifier of the zone setting. |
+| `modified_on` | No | string | last time this setting was modified. |
+| `value` | Yes | any | Current value of the zone setting. |
+| `id` | No | any | ID of the zone setting. Allowed values: waf |
+| `value` | No | [zones_waf_value](zones_waf_value.md) |  |

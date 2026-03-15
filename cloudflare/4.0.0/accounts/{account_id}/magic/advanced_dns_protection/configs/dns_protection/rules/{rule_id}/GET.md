@@ -13,8 +13,8 @@ Get a DNS Protection rule specified by the given UUID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account.<br/>*Serialization: style=Simple* |
-| `rule_id` | Yes | [dos_uuid](../../../../../../../../_components/schemas/dos_uuid.md) | The UUID of the DNS Protection rule.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account. |
+| `rule_id` | Yes | [dos_uuid](../../../../../../../../_components/schemas/dos_uuid.md) | The UUID of the DNS Protection rule. |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get DNS Protection rule response.
 [dos_dns-protection-rule-response](../../../../../../../../_components/schemas/dos_dns-protection-rule-response.md)
 
 
-### 4xx
+### 4XX
 
 Get DNS Protection rule failure.
 

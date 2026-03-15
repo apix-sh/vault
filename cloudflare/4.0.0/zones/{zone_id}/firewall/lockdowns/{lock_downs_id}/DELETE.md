@@ -13,8 +13,8 @@ Deletes an existing Zone Lockdown rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `lock_downs_id` | Yes | [firewall_lockdowns_components-schemas-id](../../../../../_components/schemas/firewall_lockdowns_components-schemas-id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `lock_downs_id` | Yes | [firewall_lockdowns_components-schemas-id](../../../../../_components/schemas/firewall_lockdowns_components-schemas-id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Delete a Zone Lockdown rule response
 | `result` | No | object |  |
 
 
-### 4xx
+### 4XX
 
 Delete a Zone Lockdown rule response failure
 

@@ -13,7 +13,7 @@ Lists interconnects associated with an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -24,8 +24,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the response body will be presented using the new object format. Defaults to false.<br/>*Serialization: style=Simple* |
+| `x-magic-new-hc-target` | No | boolean | If true, the health check target in the response body will be presented using the new object format. Defaults to false. |
 
 
 ## Request Body
@@ -43,7 +42,7 @@ List interconnects response
 [magic_components-schemas-tunnels_collection_response](../../../../_components/schemas/magic_components-schemas-tunnels_collection_response.md)
 
 
-### 4xx
+### 4XX
 
 List interconnects response failure
 

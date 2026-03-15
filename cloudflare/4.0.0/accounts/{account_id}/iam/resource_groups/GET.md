@@ -13,15 +13,15 @@ List all the resource groups for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `id` | No | allOf(1) | *Serialization: style=Form* |
-| `name` | No | string | *Serialization: style=Form* |
+| `id` | No | allOf(1) |  |
+| `name` | No | string |  |
 
 
 
@@ -40,7 +40,7 @@ List Resource Groups response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Resource Groups response failure
 

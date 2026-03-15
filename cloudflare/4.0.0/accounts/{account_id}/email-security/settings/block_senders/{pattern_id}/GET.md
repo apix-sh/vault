@@ -14,8 +14,8 @@ block reason.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
-| `pattern_id` | Yes | [email-security_BlockedSenderId](../../../../../../_components/schemas/email-security_BlockedSenderId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../../_components/schemas/email-security_AccountId.md) |  |
+| `pattern_id` | Yes | [email-security_BlockedSenderId](../../../../../../_components/schemas/email-security_BlockedSenderId.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ _(None)_
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../../_components/responses/email-security_ClientError.md)
 

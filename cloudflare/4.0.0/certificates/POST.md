@@ -44,7 +44,7 @@ Create Certificate response
 [tls-certificates-and-hostnames_schemas-certificate_response_single](../_components/schemas/tls-certificates-and-hostnames_schemas-certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create Certificate response failure
 

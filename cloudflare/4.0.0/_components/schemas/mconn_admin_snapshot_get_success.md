@@ -1,5 +1,5 @@
 ---
-type: "any"
+type: "allOf(2)"
 ---
 
 # mconn_admin_snapshot_get_success
@@ -8,3 +8,7 @@ type: "any"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `errors` | No | array<[mconn_coded_message](./mconn_coded_message.md)> |  |
+| `messages` | No | array<[mconn_coded_message](./mconn_coded_message.md)> |  |
+| `success` | Yes | boolean |  |
+| `result` | Yes | [mconn_snapshot](mconn_snapshot.md) |  |

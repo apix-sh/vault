@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `dns_record_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) | *Serialization: style=Simple* |
+| `dns_record_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) |  |
+| `zone_id` | Yes | [dns-records_identifier](../../../../_components/schemas/dns-records_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete DNS Record response
 | `result` | No | object |  |
 
 
-### 4xx
+### 4XX
 
 Delete DNS Record response failure
 

@@ -13,8 +13,8 @@ Fetches a custom DLP profile by id.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `profile_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `profile_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Custom profile response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Custom profile failure response.
 

@@ -39,7 +39,7 @@ Retrieve information about an operation response
 [api-shield_single-operation-response](../../../../../_components/schemas/api-shield_single-operation-response.md)
 
 
-### 4xx
+### 4XX
 
 Retrieve information about an operation response failure
 

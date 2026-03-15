@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [request-tracer_identifier](../../../../_components/schemas/request-tracer_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [request-tracer_identifier](../../../../_components/schemas/request-tracer_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,32 +37,6 @@ Supported content types:
 | `skip_response` | No | boolean | Skip sending the request to the Origin server after all rules evaluation |
 | `url` | Yes | string | URL to which perform tracing request |
 
-#### Example Payload
-```json
-{
-  "body": {
-    "base64": "c29tZV9yZXF1ZXN0X2JvZHk="
-  },
-  "context": {
-    "geoloc": {
-      "city": "London"
-    },
-    "skip_challenge": true
-  },
-  "cookies": {
-    "cookie_name_1": "cookie_value_1",
-    "cookie_name_2": "cookie_value_2"
-  },
-  "headers": {
-    "header_name_1": "header_value_1",
-    "header_name_2": "header_value_2"
-  },
-  "method": "PUT",
-  "protocol": "HTTP/1.1",
-  "url": "https://some.zone/some_path"
-}
-```
-
 
 ## Responses
 
@@ -74,7 +48,7 @@ Request Trace response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Request Trace response failure
 

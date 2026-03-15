@@ -13,17 +13,17 @@ Get Custom Origin Trust Store for a Zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `limit` | No | integer | *Serialization: style=Form* |
-| `offset` | No | integer | *Serialization: style=Form* |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `limit` | No | integer |  |
+| `offset` | No | integer |  |
 
 
 
@@ -42,7 +42,7 @@ Custom Origin Trust Store Details response
 [tls-certificates-and-hostnames_custom_trust_store_response_collection](../../../../_components/schemas/tls-certificates-and-hostnames_custom_trust_store_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Custom Origin Trust Store response failure
 

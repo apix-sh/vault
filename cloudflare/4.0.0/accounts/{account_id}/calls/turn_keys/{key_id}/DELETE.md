@@ -13,8 +13,8 @@ Deletes a TURN key from Cloudflare Calls
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key_id` | Yes | [calls_identifier](../../../../../_components/schemas/calls_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [calls_account_identifier](../../../../../_components/schemas/calls_account_identifier.md) | *Serialization: style=Simple* |
+| `key_id` | Yes | [calls_identifier](../../../../../_components/schemas/calls_identifier.md) |  |
+| `account_id` | Yes | [calls_account_identifier](../../../../../_components/schemas/calls_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete TURN key response
 [calls_turn_key_response_single](../../../../../_components/schemas/calls_turn_key_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Delete TURN key response failure
 

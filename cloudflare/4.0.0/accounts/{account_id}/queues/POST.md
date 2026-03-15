@@ -13,7 +13,7 @@ Create a new queue
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mq_identifier](../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mq_identifier](../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Created Queue
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure response
 

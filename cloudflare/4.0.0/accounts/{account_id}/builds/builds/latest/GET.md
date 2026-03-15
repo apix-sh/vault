@@ -19,7 +19,7 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [builds_AccountId](../../../../../_components/parameters/builds_AccountId.md) |  |
-| `external_script_ids` | Yes | [builds_external_script_ids](../../../../../_components/schemas/builds_external_script_ids.md) | *Serialization: style=Form* |
+| `external_script_ids` | Yes | [builds_external_script_ids](../../../../../_components/schemas/builds_external_script_ids.md) |  |
 
 
 

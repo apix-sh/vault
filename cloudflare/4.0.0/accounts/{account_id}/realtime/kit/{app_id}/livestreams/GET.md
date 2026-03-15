@@ -13,21 +13,21 @@ Returns details of livestreams associated with the given App ID. It includes liv
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | [realtimekit_app_id](../../../../../../_components/schemas/realtimekit_app_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | [realtimekit_app_id](../../../../../../_components/schemas/realtimekit_app_id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `exclude_meetings` | No | boolean | Exclude the RealtimeKit meetings that are livestreamed.<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Number of results per page.<br/>*Serialization: style=Form* |
-| `page_no` | No | integer | The page number from which you want your page search results to be displayed.<br/>*Serialization: style=Form* |
-| `status` | No | string | Specifies the status of the operation.<br/>*Serialization: style=Form* |
-| `start_time` | No | string | Specify the start time range in ISO format to access the live stream.<br/>*Serialization: style=Form* |
-| `end_time` | No | string | Specify the end time range in ISO format to access the live stream.<br/>*Serialization: style=Form* |
-| `sort_order` | No | string | Specifies the sorting order for the results.<br/>*Serialization: style=Form* |
+| `exclude_meetings` | No | boolean | Exclude the RealtimeKit meetings that are livestreamed. |
+| `per_page` | No | integer | Number of results per page. |
+| `page_no` | No | integer | The page number from which you want your page search results to be displayed. |
+| `status` | No | string | Specifies the status of the operation. |
+| `start_time` | No | string | Specify the start time range in ISO format to access the live stream. |
+| `end_time` | No | string | Specify the end time range in ISO format to access the live stream. |
+| `sort_order` | No | string | Specifies the sorting order for the results. |
 
 
 

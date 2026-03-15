@@ -13,15 +13,15 @@ Upload a Worker Version without deploying to Cloudflare's network. You can find 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
-| `script_name` | Yes | [workers_schemas-script_name](../../../../../../_components/schemas/workers_schemas-script_name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../../_components/schemas/workers_identifier.md) |  |
+| `script_name` | Yes | [workers_schemas-script_name](../../../../../../_components/schemas/workers_schemas-script_name.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `bindings_inherit` | No | string | When set to "strict", the upload will fail if any `inherit` type bindings cannot be resolved against the previous version of the Worker. Without this, unresolvable inherit bindings are silently dropped.<br/>*Serialization: style=Form* |
+| `bindings_inherit` | No | string | When set to "strict", the upload will fail if any `inherit` type bindings cannot be resolved against the previous version of the Worker. Without this, unresolvable inherit bindings are silently dropped. |
 
 
 
@@ -40,7 +40,7 @@ Upload Version response.
 [workers_versions-upload-response](../../../../../../_components/schemas/workers_versions-upload-response.md)
 
 
-### 4xx
+### 4XX
 
 Upload Version response failure.
 

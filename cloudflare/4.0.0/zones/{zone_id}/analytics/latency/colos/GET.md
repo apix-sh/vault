@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [argo-analytics_identifier](../../../../../_components/schemas/argo-analytics_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [argo-analytics_identifier](../../../../../_components/schemas/argo-analytics_identifier.md) |  |
 
 
 ## Query Parameters
@@ -35,7 +35,7 @@ Argo Analytics for a zone at different PoPs response
 [argo-analytics_response_single](../../../../../_components/schemas/argo-analytics_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Argo Analytics for a zone at different PoPs response failure
 

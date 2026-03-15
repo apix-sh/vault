@@ -13,8 +13,8 @@ Edit details for a single video.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_identifier](../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_identifier](../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Edit video details response.
 [stream_video_response_single](../../../../_components/schemas/stream_video_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Edit video details response failure.
 

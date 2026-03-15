@@ -13,8 +13,8 @@ Creates a download for a video when a video is ready to view. Use `/downloads/{d
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create downloads response.
 [stream_downloads_response_single](../../../../../_components/schemas/stream_downloads_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create downloads response failure.
 

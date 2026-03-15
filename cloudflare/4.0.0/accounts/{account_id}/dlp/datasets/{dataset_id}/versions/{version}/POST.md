@@ -15,9 +15,9 @@ the same order as in the request.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `dataset_id` | Yes | string | *Serialization: style=Simple* |
-| `version` | Yes | integer | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `dataset_id` | Yes | string |  |
+| `version` | Yes | integer |  |
 
 
 ## Query Parameters
@@ -45,7 +45,7 @@ Dataset columns created successfully.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to create dataset columns.
 

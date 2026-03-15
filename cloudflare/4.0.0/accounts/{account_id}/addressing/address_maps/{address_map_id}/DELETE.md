@@ -13,8 +13,8 @@ Delete a particular address map owned by the account. An Address Map must be dis
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../_components/schemas/addressing_address_map_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `address_map_id` | Yes | [addressing_address_map_identifier](../../../../../_components/schemas/addressing_address_map_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Address Map response
 [addressing_api-response-collection](../../../../../_components/schemas/addressing_api-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Delete Address Map response failure
 

@@ -13,14 +13,14 @@ Returns information about an account's storage use.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `creator` | No | [stream_creator](../../../../_components/schemas/stream_creator.md) | *Serialization: style=Form* |
+| `creator` | No | [stream_creator](../../../../_components/schemas/stream_creator.md) |  |
 
 
 
@@ -39,7 +39,7 @@ Returns information about an account's storage use response.
 [stream_storage_use_response](../../../../_components/schemas/stream_storage_use_response.md)
 
 
-### 4xx
+### 4XX
 
 Returns information about an account's storage use response failure.
 

@@ -13,7 +13,7 @@ Creates a DLP custom profile.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ New custom profile response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 New custom profile failure response.
 

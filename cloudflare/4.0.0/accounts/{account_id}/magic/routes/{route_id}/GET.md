@@ -13,8 +13,8 @@ Get a specific Magic static route.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `route_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `route_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_id` | Yes | [magic_identifier](../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Route Details response
 [magic_route_single_response](../../../../../_components/schemas/magic_route_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Route Details response failure
 

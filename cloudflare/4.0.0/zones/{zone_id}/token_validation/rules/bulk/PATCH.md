@@ -40,7 +40,7 @@ _(None)_
 
 Reference: [api-shield_bulk-edit-rules-success](../../../../../_components/responses/api-shield_bulk-edit-rules-success.md)
 
-### 4xx
+### 4XX
 
 Reference: [api-shield_generic_failure](../../../../../_components/responses/api-shield_generic_failure.md)
 

@@ -13,7 +13,7 @@ List all address maps owned by the account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [addressing_account_identifier](../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Address Maps response
 [addressing_components-schemas-response_collection](../../../../_components/schemas/addressing_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Address Maps response failure
 

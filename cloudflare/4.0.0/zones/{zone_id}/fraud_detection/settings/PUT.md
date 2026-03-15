@@ -18,7 +18,7 @@ Notes on `username_expressions` behavior:
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [fraud_identifier](../../../../_components/schemas/fraud_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [fraud_identifier](../../../../_components/schemas/fraud_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Updated Fraud Detection settings response
 [fraud_fraud_settings_response_body](../../../../_components/schemas/fraud_fraud_settings_response_body.md)
 
 
-### 4xx
+### 4XX
 
 Update Fraud Detection settings failure
 

@@ -18,11 +18,11 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `customerAsn` | No | integer | Filter by customer ASN (the ASN publishing the ASPA object).<br/>*Serialization: style=Form* |
-| `providerAsn` | No | integer | Filter by provider ASN (an authorized upstream provider in ASPA objects).<br/>*Serialization: style=Form* |
-| `date` | No | string | Filters results by the specified datetime (ISO 8601).<br/>*Serialization: style=Form* |
-| `includeAsnInfo` | No | boolean | Include ASN metadata (name, country) in response.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `customerAsn` | No | integer | Filter by customer ASN (the ASN publishing the ASPA object). |
+| `providerAsn` | No | integer | Filter by provider ASN (an authorized upstream provider in ASPA objects). |
+| `date` | No | string | Filters results by the specified datetime (ISO 8601). |
+| `includeAsnInfo` | No | boolean | Include ASN metadata (name, country) in response. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

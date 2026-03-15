@@ -13,16 +13,16 @@ Lists all deployed versions of a workflow.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `workflow_name` | Yes | string | *Serialization: style=Simple* |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `workflow_name` | Yes | string |  |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
+| `per_page` | No | number |  |
+| `page` | No | number |  |
 
 
 
@@ -56,7 +56,7 @@ Bad Request.
 | :--- | :---: | :--- | :--- |
 | `errors` | Yes | array<object> |  |
 | `messages` | Yes | array<string> |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean |  |
 
 

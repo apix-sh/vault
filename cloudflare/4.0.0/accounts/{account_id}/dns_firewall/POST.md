@@ -13,7 +13,7 @@ Create a DNS Firewall cluster
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dns-firewall_identifier](../../../_components/schemas/dns-firewall_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [dns-firewall_identifier](../../../_components/schemas/dns-firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create DNS Firewall Cluster response
 [dns-firewall_dns_firewall_single_response](../../../_components/schemas/dns-firewall_dns_firewall_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create DNS Firewall Cluster response failure
 

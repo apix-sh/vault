@@ -13,7 +13,7 @@ List Zero Trust Gateway rules for the parent account of an account in the MSP co
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List Zero Trust Gateway rules response.
 [zero-trust-gateway_rules_components-schemas-response_collection](../../../../../_components/schemas/zero-trust-gateway_rules_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Zero Trust Gateway rules response failure.
 

@@ -13,17 +13,15 @@ Find all available permission groups for Account Owned API Tokens
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | string | Filter by the name of the permission group.
-The value must be URL-encoded.<br/>*Serialization: style=Form* |
-| `scope` | No | string | Filter by the scope of the permission group.
-The value must be URL-encoded.<br/>*Serialization: style=Form* |
+| `name` | No | string | Filter by the name of the permission group.<br/>The value must be URL-encoded. |
+| `scope` | No | string | Filter by the scope of the permission group.<br/>The value must be URL-encoded. |
 
 
 
@@ -42,7 +40,7 @@ List Account Owned API Token Permission Groups response
 [iam_permissions_group_response_collection](../../../../_components/schemas/iam_permissions_group_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Account Owned API Token Permission Groups response failure
 

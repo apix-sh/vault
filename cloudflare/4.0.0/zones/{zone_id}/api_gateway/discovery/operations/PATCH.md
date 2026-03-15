@@ -41,7 +41,7 @@ Patch discovered operations response
 [api-shield_patch_discoveries_response](../../../../../_components/schemas/api-shield_patch_discoveries_response.md)
 
 
-### 4xx
+### 4XX
 
 Patch discovered operations response failure
 

@@ -13,8 +13,8 @@ Lists additional audio tracks on a video. Note this API will not return informat
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
-| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../../_components/schemas/stream_account_identifier.md) |  |
+| `identifier` | Yes | [stream_identifier](../../../../../_components/schemas/stream_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Lists additional audio tracks on a video.
 [stream_listAudioTrackResponse](../../../../../_components/schemas/stream_listAudioTrackResponse.md)
 
 
-### 4xx
+### 4XX
 
 Lists additional audio tracks on a video response failure.
 

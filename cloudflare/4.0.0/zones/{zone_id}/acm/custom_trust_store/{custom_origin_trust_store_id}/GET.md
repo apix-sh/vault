@@ -13,8 +13,8 @@ Retrieves details about a specific certificate in the custom origin trust store,
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `custom_origin_trust_store_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `custom_origin_trust_store_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Custom Origin Trust Store Details response
 [tls-certificates-and-hostnames_custom_trust_store_response_single](../../../../../_components/schemas/tls-certificates-and-hostnames_custom_trust_store_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Custom Origin Trust Store Details response failure
 

@@ -13,9 +13,9 @@ Delete a group member
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
-| `group_id` | Yes | string | *Serialization: style=Simple* |
-| `member_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string | Account ID. |
+| `group_id` | Yes | string |  |
+| `member_id` | Yes | string |  |
 
 
 ## Query Parameters

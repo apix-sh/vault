@@ -13,7 +13,7 @@ Create Endpoint Health Check.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic-transit_identifier](../../../../_components/schemas/magic-transit_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic-transit_identifier](../../../../_components/schemas/magic-transit_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Endpoint Health Check response.
 [magic-transit_endpoint_health_check_response_single](../../../../_components/schemas/magic-transit_endpoint_health_check_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Endpoint Health Check response failure.
 

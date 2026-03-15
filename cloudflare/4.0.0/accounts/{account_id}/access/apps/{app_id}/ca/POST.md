@@ -13,8 +13,8 @@ Generates a new short-lived certificate CA and public key.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [access_uuid](../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [access_uuid](../../../../../../_components/schemas/access_uuid.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Create a short-lived certificate CA response
 [access_ca_components-schemas-single_response](../../../../../../_components/schemas/access_ca_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a short-lived certificate CA response failure
 

@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [cloudforce-one-requests_identifier](../../../../../_components/schemas/cloudforce-one-requests_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [cloudforce-one-requests_identifier](../../../../../_components/schemas/cloudforce-one-requests_identifier.md) |  |
 
 
 ## Query Parameters
@@ -35,7 +35,7 @@ Get request constants response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get request constants response failure.
 

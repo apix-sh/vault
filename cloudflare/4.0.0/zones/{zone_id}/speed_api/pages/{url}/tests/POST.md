@@ -13,8 +13,8 @@ Starts a test for a specific webpage, in a specific region.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [observatory_identifier](../../../../../../_components/schemas/observatory_identifier.md) | *Serialization: style=Simple* |
-| `url` | Yes | [observatory_url](../../../../../../_components/schemas/observatory_url.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [observatory_identifier](../../../../../../_components/schemas/observatory_identifier.md) |  |
+| `url` | Yes | [observatory_url](../../../../../../_components/schemas/observatory_url.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Page test details.
 [observatory_page-test-response-single](../../../../../../_components/schemas/observatory_page-test-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Failure response.
 

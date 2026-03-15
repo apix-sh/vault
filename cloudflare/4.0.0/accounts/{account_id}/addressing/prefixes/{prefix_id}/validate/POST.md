@@ -13,8 +13,8 @@ Triggers a new prefix validation. The checks are run asynchronously and include 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) | *Serialization: style=Simple* |
+| `prefix_id` | Yes | [addressing_prefix_identifier](../../../../../../_components/schemas/addressing_prefix_identifier.md) |  |
+| `account_id` | Yes | [addressing_account_identifier](../../../../../../_components/schemas/addressing_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Validate Prefix response
 [addressing_single_response](../../../../../../_components/schemas/addressing_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Validate Prefix response failure
 

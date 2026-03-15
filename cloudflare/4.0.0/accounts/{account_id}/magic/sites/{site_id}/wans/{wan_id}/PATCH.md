@@ -13,9 +13,9 @@ Patch a specific Site WAN.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `site_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
-| `wan_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `site_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) |  |
+| `account_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) |  |
+| `wan_id` | Yes | [magic_identifier](../../../../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Patch Site WAN response
 [magic_wan_modified_response](../../../../../../../_components/schemas/magic_wan_modified_response.md)
 
 
-### 4xx
+### 4XX
 
 Patch Site WAN response failure
 

@@ -13,9 +13,9 @@ Return WebVTT captions for a provided language.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `language` | Yes | [stream_language](../../../../../../../_components/schemas/stream_language.md) | *Serialization: style=Simple* |
-| `identifier` | Yes | [stream_identifier](../../../../../../../_components/schemas/stream_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [stream_schemas-identifier](../../../../../../../_components/schemas/stream_schemas-identifier.md) | *Serialization: style=Simple* |
+| `language` | Yes | [stream_language](../../../../../../../_components/schemas/stream_language.md) |  |
+| `identifier` | Yes | [stream_identifier](../../../../../../../_components/schemas/stream_identifier.md) |  |
+| `account_id` | Yes | [stream_schemas-identifier](../../../../../../../_components/schemas/stream_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Return WebVTT caption or subtitle response.
 ```
 
 
-### 4xx
+### 4XX
 
 Return WebVTT caption or subtitle response failure.
 

@@ -13,7 +13,7 @@ Fetches all the custom pages at the zone level.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_identifier` | Yes | [custom-pages_identifier](../../../_components/schemas/custom-pages_identifier.md) | *Serialization: style=Simple* |
+| `zone_identifier` | Yes | [custom-pages_identifier](../../../_components/schemas/custom-pages_identifier.md) |  |
 
 
 ## Query Parameters

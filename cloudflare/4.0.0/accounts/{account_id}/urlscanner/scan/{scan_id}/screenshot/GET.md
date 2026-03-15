@@ -13,15 +13,15 @@ Get scan's screenshot by resolution (desktop/mobile/tablet).
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `scan_id` | Yes | string | Scan UUID.<br/>*Serialization: style=Simple* |
-| `account_id` | Yes | string | Account ID.<br/>*Serialization: style=Simple* |
+| `scan_id` | Yes | string | Scan UUID. |
+| `account_id` | Yes | string | Account ID. |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `resolution` | No | string | Target device type.<br/>*Serialization: style=Form* |
+| `resolution` | No | string | Target device type. |
 
 
 

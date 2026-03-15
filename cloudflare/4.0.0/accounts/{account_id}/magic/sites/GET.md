@@ -13,14 +13,14 @@ Lists Sites associated with an account. Use connectorid query param to return si
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `connectorid` | No | [magic_identifier](../../../../_components/schemas/magic_identifier.md) | *Serialization: style=Form* |
+| `connectorid` | No | [magic_identifier](../../../../_components/schemas/magic_identifier.md) |  |
 
 
 
@@ -39,7 +39,7 @@ List Sites response
 [magic_sites_collection_response](../../../../_components/schemas/magic_sites_collection_response.md)
 
 
-### 4xx
+### 4XX
 
 List Sites response failure
 

@@ -15,8 +15,8 @@ and polling it for status updates. Imports block the D1 for their duration.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [d1_account-identifier](../../../../../../_components/schemas/d1_account-identifier.md) | *Serialization: style=Simple* |
-| `database_id` | Yes | [d1_database-identifier](../../../../../../_components/schemas/d1_database-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [d1_account-identifier](../../../../../../_components/schemas/d1_account-identifier.md) |  |
+| `database_id` | Yes | [d1_database-identifier](../../../../../../_components/schemas/d1_database-identifier.md) |  |
 
 
 ## Query Parameters
@@ -52,7 +52,7 @@ Polled successfully, task is currently running
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Poll failed (API error)
 

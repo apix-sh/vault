@@ -13,7 +13,7 @@ Create a new Zero Trust Gateway rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -54,7 +54,7 @@ Create a Zero Trust Gateway rule response.
 [zero-trust-gateway_components-schemas-single_response](../../../../_components/schemas/zero-trust-gateway_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a Zero Trust Gateway rule response failure.
 

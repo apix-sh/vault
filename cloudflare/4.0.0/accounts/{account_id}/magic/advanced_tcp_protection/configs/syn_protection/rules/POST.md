@@ -13,7 +13,7 @@ Create a SYN Protection rule for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account.<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [dos_identifier](../../../../../../../_components/schemas/dos_identifier.md) | The ID of the account. |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Create SYN Protection rule response.
 [dos_syn-protection-rule-response](../../../../../../../_components/schemas/dos_syn-protection-rule-response.md)
 
 
-### 4xx
+### 4XX
 
 Create SYN Protection rule failure.
 

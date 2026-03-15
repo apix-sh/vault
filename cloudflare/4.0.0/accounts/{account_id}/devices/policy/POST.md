@@ -13,7 +13,7 @@ Creates a device settings profile to be applied to certain devices matching the 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -64,7 +64,7 @@ Create a device settings profile response.
 [teams-devices_device_settings_response](../../../../_components/schemas/teams-devices_device_settings_response.md)
 
 
-### 4xx
+### 4XX
 
 Create a device settings profile response failure.
 

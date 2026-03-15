@@ -13,7 +13,7 @@ Create a new Workers for Platforms namespace.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Fetch a list of Workers for Platforms namespaces.
 [workers_namespace-single-response](../../../../../_components/schemas/workers_namespace-single-response.md)
 
 
-### 4xx
+### 4XX
 
 Failure to get list of Workers for Platforms namespaces.
 

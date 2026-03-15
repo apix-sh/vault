@@ -13,7 +13,7 @@ Generates temporary credentials for accessing Cloudflare's container image regis
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `domain` | Yes | string | *Serialization: style=Simple* |
+| `domain` | Yes | string |  |
 
 
 ## Query Parameters

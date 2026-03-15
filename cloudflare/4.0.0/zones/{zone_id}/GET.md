@@ -11,7 +11,7 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_identifier](../../_components/schemas/zones_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_identifier](../../_components/schemas/zones_identifier.md) |  |
 
 
 ## Query Parameters
@@ -35,7 +35,7 @@ Zone Details response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Zone Details response failure.
 

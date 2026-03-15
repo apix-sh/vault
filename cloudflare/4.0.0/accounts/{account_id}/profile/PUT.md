@@ -7,11 +7,13 @@ content_type: "application/json"
 
 # Modify account profile
 
+Updates the profile information for a Cloudflare account. Allows modification of account-level settings and organizational details. Requires Account Settings Write permission.
+
 ## Path Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -35,7 +37,7 @@ Supported content types:
 
 There is no content to send for this request, but the headers may be useful.
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

@@ -13,7 +13,7 @@ Removes a user from a Zero Trust seat when both `access_seat` and `gateway_seat`
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_schemas-identifier](../../../../_components/schemas/access_schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_schemas-identifier](../../../../_components/schemas/access_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update a user seat response
 [access_seats_components-schemas-response_collection](../../../../_components/schemas/access_seats_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Update a user seat response failure
 

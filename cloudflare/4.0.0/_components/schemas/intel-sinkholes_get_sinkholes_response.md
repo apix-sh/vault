@@ -11,3 +11,4 @@ type: "allOf(2)"
 | `errors` | Yes | [intel-sinkholes_messages](intel-sinkholes_messages.md) |  |
 | `messages` | Yes | [intel-sinkholes_messages](intel-sinkholes_messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful. |
+| `result` | No | array<[intel-sinkholes_sinkhole_item](./intel-sinkholes_sinkhole_item.md)> |  |

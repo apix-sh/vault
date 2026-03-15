@@ -10,5 +10,5 @@ type: "object"
 | :------- | :------: | :--- | :---------- |
 | `errors` | Yes | [r2_errors](r2_errors.md) |  |
 | `messages` | Yes | [r2_messages](r2_messages.md) |  |
-| `result` | Yes | any |  |
+| `result` | Yes | object |  |
 | `success` | Yes | boolean | Whether the API call was successful. |

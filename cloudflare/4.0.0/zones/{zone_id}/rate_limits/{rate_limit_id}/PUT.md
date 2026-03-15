@@ -13,8 +13,8 @@ Updates an existing rate limit.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rate_limit_id` | Yes | [firewall_rate_limit_id](../../../../_components/schemas/firewall_rate_limit_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `rate_limit_id` | Yes | [firewall_rate_limit_id](../../../../_components/schemas/firewall_rate_limit_id.md) |  |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -47,7 +47,7 @@ Update a rate limit response.
 [firewall_ratelimit_response_single](../../../../_components/schemas/firewall_ratelimit_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update a rate limit response failure.
 

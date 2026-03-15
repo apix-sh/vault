@@ -38,3 +38,4 @@ type: "allOf(2)"
 | `tags` | No | [access_tags](access_tags.md) |  |
 | `type` | Yes | allOf(2) |  |
 | `use_clientless_isolation_app_launcher_url` | No | [access_use_clientless_isolation_app_launcher_url](access_use_clientless_isolation_app_launcher_url.md) |  |
+| `type` | No | allOf(2) |  |

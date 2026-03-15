@@ -9,6 +9,7 @@ type: "object"
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
 | `bundle_method` | No | [tls-certificates-and-hostnames_bundle_method](tls-certificates-and-hostnames_bundle_method.md) |  |
+| `custom_csr_id` | No | [tls-certificates-and-hostnames_custom_csr_id](tls-certificates-and-hostnames_custom_csr_id.md) |  |
 | `expires_on` | No | [tls-certificates-and-hostnames_expires_on](tls-certificates-and-hostnames_expires_on.md) |  |
 | `geo_restrictions` | No | [tls-certificates-and-hostnames_geo_restrictions](tls-certificates-and-hostnames_geo_restrictions.md) |  |
 | `hosts` | No | [tls-certificates-and-hostnames_hosts](tls-certificates-and-hostnames_hosts.md) |  |

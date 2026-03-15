@@ -11,16 +11,16 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [infra_AccountTag](../../../../../_components/schemas/infra_AccountTag.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [infra_AccountTag](../../../../../_components/schemas/infra_AccountTag.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `type` | No | any | *Serialization: style=Form* |
-| `page` | No | integer | Current page in the response<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Max amount of entries returned per page<br/>*Serialization: style=Form* |
+| `type` | No | oneOf(1) |  |
+| `page` | No | integer | Current page in the response |
+| `per_page` | No | integer | Max amount of entries returned per page |
 
 
 
@@ -39,7 +39,7 @@ Successfully retrieved connectivity services
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to retrieve connectivity services
 

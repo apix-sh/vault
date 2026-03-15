@@ -13,8 +13,8 @@ Edit details for a single TURN key.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `key_id` | Yes | [calls_identifier](../../../../../_components/schemas/calls_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [calls_account_identifier](../../../../../_components/schemas/calls_account_identifier.md) | *Serialization: style=Simple* |
+| `key_id` | Yes | [calls_identifier](../../../../../_components/schemas/calls_identifier.md) |  |
+| `account_id` | Yes | [calls_account_identifier](../../../../../_components/schemas/calls_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Edit TURN key details response
 [calls_turn_key_response_single](../../../../../_components/schemas/calls_turn_key_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Edit TURN key details response failure
 

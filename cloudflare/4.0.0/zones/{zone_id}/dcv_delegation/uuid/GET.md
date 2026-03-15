@@ -13,7 +13,7 @@ Retrieve the account and zone specific unique identifier used as part of the CNA
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Retrieve the DCV Delegation unique identifier response.
 [tls-certificates-and-hostnames_dcv_delegation_response](../../../../_components/schemas/tls-certificates-and-hostnames_dcv_delegation_response.md)
 
 
-### 4xx
+### 4XX
 
 Retrieve the DCV Delegation unique identifier response failure.
 

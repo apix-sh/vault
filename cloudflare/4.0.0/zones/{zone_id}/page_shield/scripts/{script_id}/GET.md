@@ -13,8 +13,8 @@ Fetches a script detected by Page Shield by script ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
-| `script_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
+| `script_id` | Yes | [page-shield_id](../../../../../_components/schemas/page-shield_id.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get a Page Shield script response
 [page-shield_get-zone-script-response](../../../../../_components/schemas/page-shield_get-zone-script-response.md)
 
 
-### 4xx
+### 4XX
 
 Get a Page Shield script response failure
 

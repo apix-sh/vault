@@ -13,7 +13,7 @@ List domains handled by Registrar.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [registrar-api_identifier](../../../../_components/schemas/registrar-api_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [registrar-api_identifier](../../../../_components/schemas/registrar-api_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List domains response
 [registrar-api_domain_response_collection](../../../../_components/schemas/registrar-api_domain_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List domains response failure
 

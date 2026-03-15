@@ -13,7 +13,7 @@ Perfoms a key rotation for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Rotate Access keys response
 [access_keys_components-schemas-single_response](../../../../../_components/schemas/access_keys_components-schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Rotate Access keys response failure
 

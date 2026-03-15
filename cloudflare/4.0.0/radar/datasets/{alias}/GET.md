@@ -13,7 +13,7 @@ Retrieves the CSV content of a given dataset by alias or ID. When getting the co
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `alias` | Yes | string | Dataset alias or ID.<br/>*Serialization: style=Simple* |
+| `alias` | Yes | string | Dataset alias or ID. |
 
 
 ## Query Parameters

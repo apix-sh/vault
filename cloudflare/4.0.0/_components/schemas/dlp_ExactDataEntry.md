@@ -8,9 +8,7 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `case_sensitive` | Yes | boolean | Only applies to custom word lists.
-Determines if the words should be matched in a case-sensitive manner
-Cannot be set to false if secret is true |
+| `case_sensitive` | Yes | boolean | Only applies to custom word lists.<br/>Determines if the words should be matched in a case-sensitive manner<br/>Cannot be set to false if secret is true |
 | `created_at` | Yes | string |  |
 | `enabled` | Yes | boolean |  |
 | `id` | Yes | string |  |

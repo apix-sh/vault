@@ -13,19 +13,19 @@ Lists SCIM Group resources synced to Cloudflare via the System for Cross-domain 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `identity_provider_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `identity_provider_id` | Yes | [access_uuid](../../../../../../../_components/schemas/access_uuid.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `cf_resource_id` | No | [access_cf_resource_id](../../../../../../../_components/schemas/access_cf_resource_id.md) | *Serialization: style=Form* |
-| `idp_resource_id` | No | [access_idp_resource_id](../../../../../../../_components/schemas/access_idp_resource_id.md) | *Serialization: style=Form* |
-| `name` | No | [access_groups-name](../../../../../../../_components/schemas/access_groups-name.md) | *Serialization: style=Form* |
+| `cf_resource_id` | No | [access_cf_resource_id](../../../../../../../_components/schemas/access_cf_resource_id.md) |  |
+| `idp_resource_id` | No | [access_idp_resource_id](../../../../../../../_components/schemas/access_idp_resource_id.md) |  |
+| `name` | No | [access_groups-name](../../../../../../../_components/schemas/access_groups-name.md) |  |
 | `Reference` | N/A | [access_page](../../../../../../../_components/parameters/access_page.md) |  |
-| `per_page` | No | integer | *Serialization: style=Form* |
+| `per_page` | No | integer |  |
 
 
 
@@ -44,7 +44,7 @@ List SCIM Group resources response
 [access_scim_groups_response](../../../../../../../_components/schemas/access_scim_groups_response.md)
 
 
-### 4xx
+### 4XX
 
 List SCIM Group resources response failure
 

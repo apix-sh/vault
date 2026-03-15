@@ -13,7 +13,7 @@ Check whether tokens are valid against the target bucket
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Target connectivity checked
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure response
 

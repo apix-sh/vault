@@ -19,8 +19,8 @@ _(None)_
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [cc_AccountId](../../../_components/parameters/cc_AccountId.md) |  |
-| `name` | No | string | Filter containers by name<br/>*Serialization: style=Form* |
-| `image` | No | string | Filter containers by image<br/>*Serialization: style=Form* |
+| `name` | No | string | Filter containers by name |
+| `image` | No | string | Filter containers by image |
 
 
 

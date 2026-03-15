@@ -13,7 +13,7 @@ Gets a list of all alert types for which an account is eligible.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [aaa_account-id](../../../../../_components/schemas/aaa_account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [aaa_account-id](../../../../../_components/schemas/aaa_account-id.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Alert Types response
 [aaa_alerts-response_collection](../../../../../_components/schemas/aaa_alerts-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Get Alert Types response failure
 

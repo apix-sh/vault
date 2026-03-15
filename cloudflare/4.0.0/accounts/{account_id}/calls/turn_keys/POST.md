@@ -13,7 +13,7 @@ Creates a new Cloudflare Calls TURN key.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [calls_account_identifier](../../../../_components/schemas/calls_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [calls_account_identifier](../../../../_components/schemas/calls_account_identifier.md) |  |
 
 
 ## Query Parameters

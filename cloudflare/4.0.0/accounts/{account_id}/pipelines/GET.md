@@ -13,16 +13,16 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [cloudflare-pipelines_workers-pipelines-account-id](../../../_components/schemas/cloudflare-pipelines_workers-pipelines-account-id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [cloudflare-pipelines_workers-pipelines-account-id](../../../_components/schemas/cloudflare-pipelines_workers-pipelines-account-id.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `search` | No | string | *Serialization: style=Form* |
-| `page` | No | string | *Serialization: style=Form* |
-| `per_page` | No | string | *Serialization: style=Form* |
+| `search` | No | string |  |
+| `page` | No | string |  |
+| `per_page` | No | string |  |
 
 
 
@@ -45,7 +45,7 @@ _(None)_
 | `success` | Yes | [cloudflare-pipelines_worker-pipelines-common-success](../../../_components/schemas/cloudflare-pipelines_worker-pipelines-common-success.md) |  |
 
 
-### 4xx
+### 4XX
 
 Indicates the error trying to list pipelines.
 

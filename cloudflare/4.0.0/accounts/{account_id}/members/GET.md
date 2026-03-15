@@ -13,18 +13,18 @@ List all members of an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `order` | No | any | *Serialization: style=Form* |
-| `status` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
+| `order` | No | any |  |
+| `status` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `direction` | No | string |  |
 
 
 
@@ -43,7 +43,7 @@ List Members response
 [iam_collection_member_response_with_policies](../../../_components/schemas/iam_collection_member_response_with_policies.md)
 
 
-### 4xx
+### 4XX
 
 List Members response failure
 

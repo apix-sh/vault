@@ -13,20 +13,20 @@ Fetches filters in a zone. You can filter the results using several optional par
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `paused` | No | oneOf(1) | *Serialization: style=Form* |
-| `expression` | No | string | *Serialization: style=Form* |
-| `description` | No | string | *Serialization: style=Form* |
-| `ref` | No | string | *Serialization: style=Form* |
-| `page` | No | number | *Serialization: style=Form* |
-| `per_page` | No | number | *Serialization: style=Form* |
-| `id` | No | string | *Serialization: style=Form* |
+| `paused` | No | oneOf(1) |  |
+| `expression` | No | string |  |
+| `description` | No | string |  |
+| `ref` | No | string |  |
+| `page` | No | number |  |
+| `per_page` | No | number |  |
+| `id` | No | string |  |
 
 
 
@@ -45,7 +45,7 @@ List filters response
 [firewall_filter-response-collection](../../../_components/schemas/firewall_filter-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 List filters response failure
 

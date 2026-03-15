@@ -13,8 +13,8 @@ Get information about a specific member of an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `member_id` | Yes | [iam_membership_components-schemas-identifier](../../../../_components/schemas/iam_membership_components-schemas-identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
+| `member_id` | Yes | [iam_membership_components-schemas-identifier](../../../../_components/schemas/iam_membership_components-schemas-identifier.md) |  |
+| `account_id` | Yes | [iam_account_identifier](../../../../_components/schemas/iam_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Member Details response
 [iam_single_member_response_with_policies](../../../../_components/schemas/iam_single_member_response_with_policies.md)
 
 
-### 4xx
+### 4XX
 
 Member Details response failure
 

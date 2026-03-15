@@ -1,7 +1,6 @@
 ---
 method: "GET"
 url: "https://api.cloudflare.com/client/v4/accounts/{account_id}/dex/traceroute-test-results/{test_result_id}/network-path"
-auth: "apiKey (header: X-Auth-Email) + apiKey (header: X-Auth-Key) | bearer | apiKey (header: X-Auth-User-Service-Key)"
 content_type: "application/json"
 ---
 
@@ -13,8 +12,8 @@ Get a breakdown of hops and performance metrics for a specific traceroute test r
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account<br/>*Serialization: style=Simple* |
-| `test_result_id` | Yes | [digital-experience-monitoring_uuid](../../../../../../_components/schemas/digital-experience-monitoring_uuid.md) | unique identifier for a specific traceroute test<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [digital-experience-monitoring_account_identifier](../../../../../../_components/schemas/digital-experience-monitoring_account_identifier.md) | unique identifier linked to an account |
+| `test_result_id` | Yes | [digital-experience-monitoring_uuid](../../../../../../_components/schemas/digital-experience-monitoring_uuid.md) | unique identifier for a specific traceroute test |
 
 
 ## Query Parameters
@@ -38,7 +37,7 @@ DEX traceroute test result network path response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 DEX traceroute test result network path failure response
 

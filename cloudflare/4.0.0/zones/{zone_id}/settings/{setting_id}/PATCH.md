@@ -13,8 +13,8 @@ Updates a single zone setting by the identifier
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_identifier](../../../../_components/schemas/zones_identifier.md) | *Serialization: style=Simple* |
-| `setting_id` | Yes | [zones_setting_name](../../../../_components/schemas/zones_setting_name.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_identifier](../../../../_components/schemas/zones_identifier.md) |  |
+| `setting_id` | Yes | [zones_setting_name](../../../../_components/schemas/zones_setting_name.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Edit zone setting response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Edit zone settings info response failure
 

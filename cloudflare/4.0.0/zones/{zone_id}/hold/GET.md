@@ -13,7 +13,7 @@ Retrieve whether the zone is subject to a zone hold, and metadata about the hold
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | Zone ID<br/>*Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | Zone ID |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Successful Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Client Error
 

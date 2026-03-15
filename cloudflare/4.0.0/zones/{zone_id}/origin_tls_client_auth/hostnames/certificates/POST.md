@@ -13,7 +13,7 @@ Upload a certificate to be used for client authentication on a hostname. 10 host
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Upload a Hostname Client Certificate response
 [tls-certificates-and-hostnames_hostname-authenticated-origin-pull_components-schemas-certificate_response_single](../../../../../_components/schemas/tls-certificates-and-hostnames_hostname-authenticated-origin-pull_components-schemas-certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Upload a Hostname Client Certificate response failure
 

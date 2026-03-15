@@ -13,7 +13,7 @@ Create one or more firewall rules.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Create firewall rules response
 [firewall_filter-rules-response-collection](../../../../_components/schemas/firewall_filter-rules-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Create firewall rules response failure
 

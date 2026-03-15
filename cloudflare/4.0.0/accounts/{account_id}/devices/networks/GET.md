@@ -13,7 +13,7 @@ Fetches a list of managed networks for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List your device managed networks response.
 [teams-devices_components-schemas-response_collection](../../../../_components/schemas/teams-devices_components-schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List your device managed networks response failure.
 

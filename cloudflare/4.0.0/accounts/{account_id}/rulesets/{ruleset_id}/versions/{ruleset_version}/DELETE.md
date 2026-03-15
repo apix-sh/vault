@@ -13,9 +13,9 @@ Deletes an existing version of an account ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ruleset_version` | Yes | [rulesets_RulesetVersion](../../../../../../_components/schemas/rulesets_RulesetVersion.md) | *Serialization: style=Simple* |
-| `ruleset_id` | Yes | [rulesets_RulesetId](../../../../../../_components/schemas/rulesets_RulesetId.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [rulesets_AccountId](../../../../../../_components/schemas/rulesets_AccountId.md) | *Serialization: style=Simple* |
+| `ruleset_version` | Yes | [rulesets_RulesetVersion](../../../../../../_components/schemas/rulesets_RulesetVersion.md) |  |
+| `ruleset_id` | Yes | [rulesets_RulesetId](../../../../../../_components/schemas/rulesets_RulesetId.md) |  |
+| `account_id` | Yes | [rulesets_AccountId](../../../../../../_components/schemas/rulesets_AccountId.md) |  |
 
 
 ## Query Parameters
@@ -35,7 +35,7 @@ _(None)_
 
 Reference: [rulesets_Empty](../../../../../../_components/responses/rulesets_Empty.md)
 
-### 4xx
+### 4XX
 
 Reference: [rulesets_Failure](../../../../../../_components/responses/rulesets_Failure.md)
 

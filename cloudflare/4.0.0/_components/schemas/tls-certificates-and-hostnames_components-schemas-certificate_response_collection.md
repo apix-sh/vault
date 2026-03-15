@@ -8,3 +8,8 @@ type: "allOf(2)"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
+| `errors` | Yes | [tls-certificates-and-hostnames_messages](tls-certificates-and-hostnames_messages.md) |  |
+| `messages` | Yes | [tls-certificates-and-hostnames_messages](tls-certificates-and-hostnames_messages.md) |  |
+| `success` | Yes | boolean | Whether the API call was successful. |
+| `result_info` | No | object |  |
+| `result` | No | array<[tls-certificates-and-hostnames_zone-authenticated-origin-pull](./tls-certificates-and-hostnames_zone-authenticated-origin-pull.md)> |  |

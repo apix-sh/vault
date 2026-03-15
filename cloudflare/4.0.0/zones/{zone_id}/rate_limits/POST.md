@@ -13,7 +13,7 @@ Creates a new rate limit for a zone. Refer to the object definition for a list o
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -46,7 +46,7 @@ Create a rate limit response.
 [firewall_ratelimit_response_single](../../../_components/schemas/firewall_ratelimit_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Create a rate limit response failure.
 

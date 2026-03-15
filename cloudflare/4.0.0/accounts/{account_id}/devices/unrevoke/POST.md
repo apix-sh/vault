@@ -16,7 +16,7 @@ Unrevokes a list of devices. Not supported when [multi-user mode](https://develo
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Unrevoke devices response.
 [teams-devices_api-response-single](../../../../_components/schemas/teams-devices_api-response-single.md)
 
 
-### 4xx
+### 4XX
 
 Unrevoke devices response failure.
 

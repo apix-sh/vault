@@ -13,17 +13,17 @@ Fetches Page Rules in a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [zones_schemas-identifier](../../../_components/schemas/zones_schemas-identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `order` | No | string | *Serialization: style=Form* |
-| `direction` | No | string | *Serialization: style=Form* |
-| `match` | No | string | *Serialization: style=Form* |
-| `status` | No | string | *Serialization: style=Form* |
+| `order` | No | string |  |
+| `direction` | No | string |  |
+| `match` | No | string |  |
+| `status` | No | string |  |
 
 
 
@@ -42,7 +42,7 @@ List Page Rules response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Page Rules response failure
 

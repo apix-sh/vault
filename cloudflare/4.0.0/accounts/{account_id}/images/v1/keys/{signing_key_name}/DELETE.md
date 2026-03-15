@@ -15,8 +15,8 @@ When last key is removed, a new default signing key will be generated.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `signing_key_name` | Yes | [images_signing_key_identifier](../../../../../../_components/schemas/images_signing_key_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [images_account_identifier](../../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `signing_key_name` | Yes | [images_signing_key_identifier](../../../../../../_components/schemas/images_signing_key_identifier.md) |  |
+| `account_id` | Yes | [images_account_identifier](../../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -40,7 +40,7 @@ Delete Signing Key response
 [images_image_key_response_collection](../../../../../../_components/schemas/images_image_key_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 Delete Signing Key response failure
 

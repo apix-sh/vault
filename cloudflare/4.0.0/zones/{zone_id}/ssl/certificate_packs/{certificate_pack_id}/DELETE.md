@@ -13,8 +13,8 @@ For a given zone, delete an advanced certificate pack.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Delete Advanced Certificate Manager Certificate Pack response
 [tls-certificates-and-hostnames_delete_advanced_certificate_pack_response_single](../../../../../_components/schemas/tls-certificates-and-hostnames_delete_advanced_certificate_pack_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Delete Advanced Certificate Manager Certificate Pack response failure
 

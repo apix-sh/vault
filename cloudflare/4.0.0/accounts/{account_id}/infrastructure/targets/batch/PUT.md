@@ -13,7 +13,7 @@ Adds one or more targets.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [infra_AccountTag](../../../../../_components/schemas/infra_AccountTag.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [infra_AccountTag](../../../../../_components/schemas/infra_AccountTag.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Successfully created the targets
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to create the targets
 

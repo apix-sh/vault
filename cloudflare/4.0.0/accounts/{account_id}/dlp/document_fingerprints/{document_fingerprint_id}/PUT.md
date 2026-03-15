@@ -11,8 +11,8 @@ content_type: "multipart/form-data"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | *Serialization: style=Simple* |
-| `document_fingerprint_id` | Yes | string | *Serialization: style=Simple* |
+| `account_id` | Yes | string |  |
+| `document_fingerprint_id` | Yes | string |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ File uploaded successfully.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failed to upload file.
 

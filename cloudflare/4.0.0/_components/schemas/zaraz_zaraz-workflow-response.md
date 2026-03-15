@@ -11,3 +11,4 @@ type: "allOf(2)"
 | `errors` | Yes | [zaraz_messages](zaraz_messages.md) |  |
 | `messages` | Yes | [zaraz_messages](zaraz_messages.md) |  |
 | `success` | Yes | boolean | Whether the API call was successful |
+| `result` | No | [zaraz_zaraz-workflow](zaraz_zaraz-workflow.md) |  |

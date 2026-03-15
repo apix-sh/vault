@@ -13,7 +13,7 @@ Lists all the stores in an account
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [secrets-store_account_identifier](../../../../_components/schemas/secrets-store_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [secrets-store_account_identifier](../../../../_components/schemas/secrets-store_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ List account stores response
 [secrets-store_stores_response_collection](../../../../_components/schemas/secrets-store_stores_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List account stores response failure
 

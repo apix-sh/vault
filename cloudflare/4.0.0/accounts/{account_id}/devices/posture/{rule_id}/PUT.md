@@ -13,8 +13,8 @@ Updates a device posture rule.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `rule_id` | Yes | [teams-devices_uuid](../../../../../_components/schemas/teams-devices_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `rule_id` | Yes | [teams-devices_uuid](../../../../../_components/schemas/teams-devices_uuid.md) |  |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -50,7 +50,7 @@ Update a device posture rule response.
 [teams-devices_single_response](../../../../../_components/schemas/teams-devices_single_response.md)
 
 
-### 4xx
+### 4XX
 
 Update a device posture rule response failure.
 

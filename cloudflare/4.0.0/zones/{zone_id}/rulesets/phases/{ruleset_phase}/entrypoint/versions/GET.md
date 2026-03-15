@@ -13,8 +13,8 @@ Fetches the versions of a zone entry point ruleset.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `ruleset_phase` | Yes | [rulesets_RulesetPhase](../../../../../../../_components/schemas/rulesets_RulesetPhase.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [rulesets_ZoneId](../../../../../../../_components/schemas/rulesets_ZoneId.md) | *Serialization: style=Simple* |
+| `ruleset_phase` | Yes | [rulesets_RulesetPhase](../../../../../../../_components/schemas/rulesets_RulesetPhase.md) |  |
+| `zone_id` | Yes | [rulesets_ZoneId](../../../../../../../_components/schemas/rulesets_ZoneId.md) |  |
 
 
 ## Query Parameters
@@ -34,7 +34,7 @@ _(None)_
 
 Reference: [rulesets_Rulesets](../../../../../../../_components/responses/rulesets_Rulesets.md)
 
-### 4xx
+### 4XX
 
 Reference: [rulesets_Failure](../../../../../../../_components/responses/rulesets_Failure.md)
 

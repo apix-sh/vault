@@ -13,10 +13,10 @@ Replace a single custom certificate within a certificate pack that contains two 
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `custom_hostname_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `custom_hostname_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `certificate_pack_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -44,7 +44,7 @@ Edit Custom Certificate In a Custom Hostname response
 [tls-certificates-and-hostnames_custom_hostname_response_single](../../../../../../../../_components/schemas/tls-certificates-and-hostnames_custom_hostname_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Edit Custom Certificate In a Custom Hostname response failure
 

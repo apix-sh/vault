@@ -1,5 +1,5 @@
 ---
-type: "array<any>"
+type: "array<string>"
 ---
 
 # waitingroom_enabled_origin_commands

@@ -13,8 +13,8 @@ Get information about a specific user group in an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) | *Serialization: style=Simple* |
-| `user_group_id` | Yes | [iam_user_group_identifier](../../../../../_components/schemas/iam_user_group_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [iam_account_identifier](../../../../../_components/schemas/iam_account_identifier.md) |  |
+| `user_group_id` | Yes | [iam_user_group_identifier](../../../../../_components/schemas/iam_user_group_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ User Group Details response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 User Group Details response failure
 

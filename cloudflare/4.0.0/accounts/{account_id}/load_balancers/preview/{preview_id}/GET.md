@@ -13,8 +13,8 @@ Get the result of a previous preview operation using the provided preview_id.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `preview_id` | Yes | [load-balancing_schemas-preview_id](../../../../../_components/schemas/load-balancing_schemas-preview_id.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `preview_id` | Yes | [load-balancing_schemas-preview_id](../../../../../_components/schemas/load-balancing_schemas-preview_id.md) |  |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Preview Result response.
 [load-balancing_preview_result_response](../../../../../_components/schemas/load-balancing_preview_result_response.md)
 
 
-### 4xx
+### 4XX
 
 Preview Result response failure.
 

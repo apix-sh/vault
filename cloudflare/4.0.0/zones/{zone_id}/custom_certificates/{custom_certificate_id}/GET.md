@@ -13,8 +13,8 @@ Retrieves details for a specific custom SSL certificate, including certificate m
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `custom_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `custom_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `zone_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ SSL Configuration Details response
 [tls-certificates-and-hostnames_certificate_response_single](../../../../_components/schemas/tls-certificates-and-hostnames_certificate_response_single.md)
 
 
-### 4xx
+### 4XX
 
 SSL Configuration Details response failure
 

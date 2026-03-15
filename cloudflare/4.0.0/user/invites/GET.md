@@ -35,7 +35,7 @@ List Invitations response
 [iam_schemas-collection_invite_response](../../_components/schemas/iam_schemas-collection_invite_response.md)
 
 
-### 4xx
+### 4XX
 
 List Invitations response failure
 

@@ -13,9 +13,9 @@ Fetches the consumer for a queue by consumer id
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `consumer_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
-| `queue_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `consumer_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
+| `queue_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
+| `account_id` | Yes | [mq_identifier](../../../../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters
@@ -39,7 +39,7 @@ Get Queue Consumer response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get Queue Consumer response failure.
 

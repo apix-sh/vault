@@ -8,7 +8,5 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | string | Change the origin address to the value specified in this setting.
- Allowed values: resolve_override |
-| `value` | No | string | The origin address you want to override with.
- |
+| `id` | No | string | Change the origin address to the value specified in this setting.<br/> Allowed values: resolve_override |
+| `value` | No | string | The origin address you want to override with.<br/> |

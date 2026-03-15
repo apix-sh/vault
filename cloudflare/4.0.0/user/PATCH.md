@@ -26,7 +26,13 @@ Supported content types:
 - `application/json`
 
 ### Inline Request Schema (`application/json`)
-*(No object properties found)*
+| Property | Required | Type | Description |
+| :--- | :---: | :--- | :--- |
+| `country` | No | [iam_country](../_components/schemas/iam_country.md) |  |
+| `first_name` | No | [iam_first_name](../_components/schemas/iam_first_name.md) |  |
+| `last_name` | No | [iam_last_name](../_components/schemas/iam_last_name.md) |  |
+| `telephone` | No | [iam_telephone](../_components/schemas/iam_telephone.md) |  |
+| `zipcode` | No | [iam_zipcode](../_components/schemas/iam_zipcode.md) |  |
 
 
 ## Responses
@@ -39,7 +45,7 @@ Edit User response
 [iam_single_user_response](../_components/schemas/iam_single_user_response.md)
 
 
-### 4xx
+### 4XX
 
 Edit User response failure
 

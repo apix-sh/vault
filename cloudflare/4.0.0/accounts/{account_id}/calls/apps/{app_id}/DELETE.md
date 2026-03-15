@@ -13,8 +13,8 @@ Deletes an app from Cloudflare Calls
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [calls_identifier](../../../../../_components/schemas/calls_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [calls_account_identifier](../../../../../_components/schemas/calls_account_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [calls_identifier](../../../../../_components/schemas/calls_identifier.md) |  |
+| `account_id` | Yes | [calls_account_identifier](../../../../../_components/schemas/calls_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete app response
 [calls_app_response_single](../../../../../_components/schemas/calls_app_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Delete app response failure
 

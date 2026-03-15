@@ -13,7 +13,7 @@ Provided a list of pay-per-crawl configured zones this method will return whethe
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | string | account id<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | string | account id |
 
 
 ## Query Parameters

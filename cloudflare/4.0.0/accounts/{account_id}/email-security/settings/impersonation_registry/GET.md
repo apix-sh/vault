@@ -13,22 +13,19 @@ Lists, searches, and sorts entries in the impersonation registry.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [email-security_AccountId](../../../../../_components/schemas/email-security_AccountId.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [email-security_AccountId](../../../../../_components/schemas/email-security_AccountId.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | The page number of paginated results.<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | The number of results per page.<br/>*Serialization: style=Form* |
-| `order` | No | string | The field to sort by.<br/>*Serialization: style=Form* |
-| `direction` | No | allOf(1) | The sorting direction.<br/>*Serialization: style=Form* |
-| `search` | No | string | Allows searching in multiple properties of a record simultaneously.
-This parameter is intended for human users, not automation. Its exact
-behavior is intentionally left unspecified and is subject to change
-in the future.<br/>*Serialization: style=Form* |
-| `provenance` | No | allOf(1) | *Serialization: style=Form* |
+| `page` | No | integer | The page number of paginated results. |
+| `per_page` | No | integer | The number of results per page. |
+| `order` | No | string | The field to sort by. |
+| `direction` | No | allOf(1) | The sorting direction. |
+| `search` | No | string | Allows searching in multiple properties of a record simultaneously.<br/>This parameter is intended for human users, not automation. Its exact<br/>behavior is intentionally left unspecified and is subject to change<br/>in the future. |
+| `provenance` | No | allOf(1) |  |
 
 
 
@@ -47,7 +44,7 @@ Contains the list of impersonation registry entries for the account.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Reference: [email-security_ClientError](../../../../../_components/responses/email-security_ClientError.md)
 

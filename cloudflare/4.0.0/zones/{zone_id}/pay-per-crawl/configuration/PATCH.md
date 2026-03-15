@@ -13,7 +13,7 @@ Changes the pay-per-crawl config for a zone.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | string | zone id<br/>*Serialization: style=Simple* |
+| `zone_id` | Yes | string | zone id |
 
 
 ## Query Parameters

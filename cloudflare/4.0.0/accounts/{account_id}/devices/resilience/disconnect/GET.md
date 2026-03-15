@@ -13,7 +13,7 @@ Fetch the Global WARP override state.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Fetch Global WARP override state response.
 [teams-devices_global_warp_override_response](../../../../../_components/schemas/teams-devices_global_warp_override_response.md)
 
 
-### 4xx
+### 4XX
 
 Fetch Global WARP override state failure.
 

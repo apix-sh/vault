@@ -18,7 +18,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `host` | Yes | string | Hostname or IP address to test for Post-Quantum TLS support, optionally with port (defaults to 443).<br/>*Serialization: style=Form* |
+| `host` | Yes | string | Hostname or IP address to test for Post-Quantum TLS support, optionally with port (defaults to 443). |
 
 
 

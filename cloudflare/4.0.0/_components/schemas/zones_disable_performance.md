@@ -8,7 +8,4 @@ type: "object"
 
 | Property | Required | Type | Description |
 | :------- | :------: | :--- | :---------- |
-| `id` | No | string | Turn off
-[Rocket Loader](https://developers.cloudflare.com/speed/optimization/content/rocket-loader/), and
-[Polish](https://developers.cloudflare.com/images/polish/).
- Allowed values: disable_performance |
+| `id` | No | string | Turn off<br/>[Rocket Loader](https://developers.cloudflare.com/speed/optimization/content/rocket-loader/), and<br/>[Polish](https://developers.cloudflare.com/images/polish/).<br/> Allowed values: disable_performance |

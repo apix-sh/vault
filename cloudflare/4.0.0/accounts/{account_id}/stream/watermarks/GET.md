@@ -13,7 +13,7 @@ Lists all watermark profiles for an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [stream_account_identifier](../../../../_components/schemas/stream_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List watermark profiles response.
 [stream_watermark_response_collection](../../../../_components/schemas/stream_watermark_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List watermark profiles response failure.
 

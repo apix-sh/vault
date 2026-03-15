@@ -13,7 +13,7 @@ Enable Zero Trust Clients to provision a certificate, containing a x509 subject,
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [teams-devices_identifier](../../../../../_components/schemas/teams-devices_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update a zone to toggle permission for devices to provision certificates respons
 [teams-devices_devices_policy_certificates_single](../../../../../_components/schemas/teams-devices_devices_policy_certificates_single.md)
 
 
-### 4xx
+### 4XX
 
 Patch a zone to toggle permission for devices to provision certificates failure.
 

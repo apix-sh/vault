@@ -13,7 +13,7 @@ Updates one or more existing firewall rules.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [firewall_identifier](../../../../_components/schemas/firewall_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Update firewall rules response
 [firewall_filter-rules-response-collection](../../../../_components/schemas/firewall_filter-rules-response-collection.md)
 
 
-### 4xx
+### 4XX
 
 Update firewall rules response failure
 

@@ -13,7 +13,7 @@ Returns the queues owned by an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mq_identifier](../../../_components/schemas/mq_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mq_identifier](../../../_components/schemas/mq_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List of all Queues that belong to this account
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Failure response
 

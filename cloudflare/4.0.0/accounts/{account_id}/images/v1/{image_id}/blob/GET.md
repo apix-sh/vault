@@ -13,8 +13,8 @@ Fetch base image. For most images this will be the originally uploaded file. For
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `image_id` | Yes | [images_image_identifier](../../../../../../_components/schemas/images_image_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [images_account_identifier](../../../../../../_components/schemas/images_account_identifier.md) | *Serialization: style=Simple* |
+| `image_id` | Yes | [images_image_identifier](../../../../../../_components/schemas/images_image_identifier.md) |  |
+| `account_id` | Yes | [images_account_identifier](../../../../../../_components/schemas/images_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Base image response. Returns uploaded image data.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Base image response failure
 

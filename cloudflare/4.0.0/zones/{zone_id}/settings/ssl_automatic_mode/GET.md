@@ -13,7 +13,7 @@ If the system is enabled, the response will include next_scheduled_scan, represe
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache_identifier](../../../../_components/schemas/cache_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache_identifier](../../../../_components/schemas/cache_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Get Automatic SSL/TLS Enrollment status response.
 [cache_api-response-single-id](../../../../_components/schemas/cache_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Get Automatic SSL/TLS Enrollment status failure.
 

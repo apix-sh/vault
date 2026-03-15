@@ -13,8 +13,8 @@ Update a configured health check.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `healthcheck_id` | Yes | [smartshield_identifier](../../../../../_components/schemas/smartshield_identifier.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [smartshield_identifier](../../../../../_components/schemas/smartshield_identifier.md) | *Serialization: style=Simple* |
+| `healthcheck_id` | Yes | [smartshield_identifier](../../../../../_components/schemas/smartshield_identifier.md) |  |
+| `zone_id` | Yes | [smartshield_identifier](../../../../../_components/schemas/smartshield_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update Health Check response.
 [smartshield_single_hc_response](../../../../../_components/schemas/smartshield_single_hc_response.md)
 
 
-### 4xx
+### 4XX
 
 Update Health Check response failure.
 

@@ -13,15 +13,15 @@ Returns the Durable Object namespaces owned by an account.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [workers_identifier](../../../../../_components/schemas/workers_identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `page` | No | integer | Current page.<br/>*Serialization: style=Form* |
-| `per_page` | No | integer | Items per-page.<br/>*Serialization: style=Form* |
+| `page` | No | integer | Current page. |
+| `per_page` | No | integer | Items per-page. |
 
 
 
@@ -40,7 +40,7 @@ List Namespaces response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 List Namespaces response failure.
 

@@ -13,8 +13,8 @@ Finds vectors closest to a given vector in an index.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [vectorize_identifier](../../../../../../_components/schemas/vectorize_identifier.md) | *Serialization: style=Simple* |
-| `index_name` | Yes | [vectorize_index-name](../../../../../../_components/schemas/vectorize_index-name.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [vectorize_identifier](../../../../../../_components/schemas/vectorize_identifier.md) |  |
+| `index_name` | Yes | [vectorize_index-name](../../../../../../_components/schemas/vectorize_index-name.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Query Vectors Response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Query Vectors Failure Response
 

@@ -13,7 +13,7 @@ Retrieve Smart Shield Settings.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [smartshield_identifier](../../../_components/schemas/smartshield_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [smartshield_identifier](../../../_components/schemas/smartshield_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Smart Shield Settings response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Patch Smart Shield Settings response failure.
 

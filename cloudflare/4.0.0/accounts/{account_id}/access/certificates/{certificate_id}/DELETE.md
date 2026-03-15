@@ -13,8 +13,8 @@ Deletes an mTLS certificate.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `certificate_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `certificate_id` | Yes | [access_uuid](../../../../../_components/schemas/access_uuid.md) |  |
+| `account_id` | Yes | [access_identifier](../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Delete an mTLS certificate response
 [access_components-schemas-id_response](../../../../../_components/schemas/access_components-schemas-id_response.md)
 
 
-### 4xx
+### 4XX
 
 Delete an mTLS certificate response failure
 

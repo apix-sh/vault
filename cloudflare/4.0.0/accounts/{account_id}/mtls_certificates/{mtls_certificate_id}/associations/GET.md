@@ -13,8 +13,8 @@ Lists all active associations between the certificate and Cloudflare services.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `mtls_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) | *Serialization: style=Simple* |
+| `mtls_certificate_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
+| `account_id` | Yes | [tls-certificates-and-hostnames_identifier](../../../../../_components/schemas/tls-certificates-and-hostnames_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ List mTLS certificate associations response
 [tls-certificates-and-hostnames_association_response_collection](../../../../../_components/schemas/tls-certificates-and-hostnames_association_response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List mTLS certificate associations response failure
 

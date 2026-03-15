@@ -13,9 +13,9 @@ Update is not immediate, an updated share resource object with a new status will
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [resource-sharing_account_id](../../../../../../_components/schemas/resource-sharing_account_id.md) | *Serialization: style=Simple* |
-| `share_id` | Yes | [resource-sharing_share_id](../../../../../../_components/schemas/resource-sharing_share_id.md) | *Serialization: style=Simple* |
-| `resource_id` | Yes | [resource-sharing_resource_id](../../../../../../_components/schemas/resource-sharing_resource_id.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [resource-sharing_account_id](../../../../../../_components/schemas/resource-sharing_account_id.md) |  |
+| `share_id` | Yes | [resource-sharing_share_id](../../../../../../_components/schemas/resource-sharing_share_id.md) |  |
+| `resource_id` | Yes | [resource-sharing_resource_id](../../../../../../_components/schemas/resource-sharing_resource_id.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Share resource updated.
 [resource-sharing_share_resource_response_single](../../../../../../_components/schemas/resource-sharing_share_resource_response_single.md)
 
 
-### 4xx
+### 4XX
 
 Update share resource failure.
 
@@ -51,7 +51,7 @@ Update share resource failure.
 *(No object properties found)*
 
 
-### 5xx
+### 5XX
 
 Update share resource failure.
 

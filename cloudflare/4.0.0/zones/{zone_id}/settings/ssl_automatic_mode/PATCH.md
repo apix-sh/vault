@@ -13,7 +13,7 @@ The automatic system is enabled when this endpoint is hit with value in the requ
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [cache_identifier](../../../../_components/schemas/cache_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [cache_identifier](../../../../_components/schemas/cache_identifier.md) |  |
 
 
 ## Query Parameters
@@ -41,7 +41,7 @@ Patch Automatic SSL/TLS Enrollment status response.
 [cache_api-response-single-id](../../../../_components/schemas/cache_api-response-single-id.md)
 
 
-### 4xx
+### 4XX
 
 Patch Automatic SSL/TLS Enrollment status failure.
 

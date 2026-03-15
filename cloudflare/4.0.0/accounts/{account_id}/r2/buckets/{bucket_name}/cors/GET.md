@@ -13,8 +13,8 @@ Get the CORS policy for a bucket.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `bucket_name` | Yes | [r2_bucket_name](../../../../../../_components/schemas/r2_bucket_name.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [r2_account_identifier](../../../../../../_components/schemas/r2_account_identifier.md) | *Serialization: style=Simple* |
+| `bucket_name` | Yes | [r2_bucket_name](../../../../../../_components/schemas/r2_bucket_name.md) |  |
+| `account_id` | Yes | [r2_account_identifier](../../../../../../_components/schemas/r2_account_identifier.md) |  |
 
 
 ## Query Parameters
@@ -25,8 +25,7 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-
-| `cf-r2-jurisdiction` | No | [r2_jurisdiction](../../../../../../_components/schemas/r2_jurisdiction.md) | *Serialization: style=Simple* |
+| `cf-r2-jurisdiction` | No | [r2_jurisdiction](../../../../../../_components/schemas/r2_jurisdiction.md) |  |
 
 
 ## Request Body
@@ -44,7 +43,7 @@ Success Response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Error Response.
 

@@ -13,7 +13,7 @@ Retrieve the statuses of your applications.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_components-schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_components-schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ List applications review status response.
 [zero-trust-gateway_applications_review_status_response](../../../../../_components/schemas/zero-trust-gateway_applications_review_status_response.md)
 
 
-### 4xx
+### 4XX
 
 List applications review status failure response.
 

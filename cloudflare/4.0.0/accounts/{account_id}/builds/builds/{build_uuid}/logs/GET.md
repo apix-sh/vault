@@ -20,7 +20,7 @@ _(None)_
 | :--- | :------: | :--- | :---------- |
 | `Reference` | N/A | [builds_AccountId](../../../../../../_components/parameters/builds_AccountId.md) |  |
 | `Reference` | N/A | [builds_BuildUuid](../../../../../../_components/parameters/builds_BuildUuid.md) |  |
-| `cursor` | No | [builds_cursor](../../../../../../_components/schemas/builds_cursor.md) | *Serialization: style=Form* |
+| `cursor` | No | [builds_cursor](../../../../../../_components/schemas/builds_cursor.md) |  |
 
 
 

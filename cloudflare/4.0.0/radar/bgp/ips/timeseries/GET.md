@@ -18,15 +18,15 @@ _(None)_
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `name` | No | array<string> | Array of names used to label the series in the response.<br/>*Serialization: style=Form* |
-| `dateRange` | No | array<string> | Filters results by date range. For example, use `7d` and `7dcontrol` to compare this week with the previous week. Use this parameter or set specific start and end dates (`dateStart` and `dateEnd` parameters).<br/>*Serialization: style=Form* |
-| `dateStart` | No | array<string> | Start of the date range.<br/>*Serialization: style=Form* |
-| `dateEnd` | No | array<string> | End of the date range (inclusive).<br/>*Serialization: style=Form* |
-| `asn` | No | array<string> | Filters results by Autonomous System. Specify one or more Autonomous System Numbers (ASNs) as a comma-separated list. Prefix with `-` to exclude ASNs from results. For example, `-174, 3356` excludes results from AS174, but includes results from AS3356.<br/>*Serialization: style=Form* |
-| `location` | No | array<string> | Filters results by location. Specify a comma-separated list of alpha-2 location codes.<br/>*Serialization: style=Form* |
-| `ipVersion` | No | array<string> | Filters results by IP version (Ipv4 vs. IPv6).<br/>*Serialization: style=Form* |
-| `includeDelay` | No | boolean | Includes data delay meta information.<br/>*Serialization: style=Form* |
-| `format` | No | string | Format in which results will be returned.<br/>*Serialization: style=Form* |
+| `name` | No | array<string> | Array of names used to label the series in the response. |
+| `dateRange` | No | array<string> | Filters results by date range. For example, use `7d` and `7dcontrol` to compare this week with the previous week. Use this parameter or set specific start and end dates (`dateStart` and `dateEnd` parameters). |
+| `dateStart` | No | array<string> | Start of the date range. |
+| `dateEnd` | No | array<string> | End of the date range (inclusive). |
+| `asn` | No | array<string> | Filters results by Autonomous System. Specify one or more Autonomous System Numbers (ASNs) as a comma-separated list. Prefix with `-` to exclude ASNs from results. For example, `-174, 3356` excludes results from AS174, but includes results from AS3356. |
+| `location` | No | array<string> | Filters results by location. Specify a comma-separated list of alpha-2 location codes. |
+| `ipVersion` | No | array<string> | Filters results by IP version (Ipv4 vs. IPv6). |
+| `includeDelay` | No | boolean | Includes data delay meta information. |
+| `format` | No | string | Format in which results will be returned. |
 
 
 

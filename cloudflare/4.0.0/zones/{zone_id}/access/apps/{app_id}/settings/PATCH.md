@@ -13,8 +13,8 @@ Updates application settings.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `app_id` | Yes | [access_app_id](../../../../../../_components/schemas/access_app_id.md) | *Serialization: style=Simple* |
-| `zone_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) | *Serialization: style=Simple* |
+| `app_id` | Yes | [access_app_id](../../../../../../_components/schemas/access_app_id.md) |  |
+| `zone_id` | Yes | [access_identifier](../../../../../../_components/schemas/access_identifier.md) |  |
 
 
 ## Query Parameters
@@ -42,7 +42,7 @@ Update application settings response
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Update application settings response failure
 

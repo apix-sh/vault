@@ -13,8 +13,8 @@ Get a single Zero Trust Gateway location.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `location_id` | Yes | [zero-trust-gateway_components-schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_components-schemas-uuid.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) | *Serialization: style=Simple* |
+| `location_id` | Yes | [zero-trust-gateway_components-schemas-uuid](../../../../../_components/schemas/zero-trust-gateway_components-schemas-uuid.md) |  |
+| `account_id` | Yes | [zero-trust-gateway_schemas-identifier](../../../../../_components/schemas/zero-trust-gateway_schemas-identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Gets Zero Trust Gateway location details response.
 [zero-trust-gateway_schemas-single_response](../../../../../_components/schemas/zero-trust-gateway_schemas-single_response.md)
 
 
-### 4xx
+### 4XX
 
 Gets Zero Trust Gateway location details response failure.
 

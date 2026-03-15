@@ -11,8 +11,8 @@ content_type: "application/json"
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [mconn_account_id](../../../../../_components/schemas/mconn_account_id.md) | *Serialization: style=Simple* |
-| `connector_id` | Yes | [mconn_uuid](../../../../../_components/schemas/mconn_uuid.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [mconn_account_id](../../../../../_components/schemas/mconn_account_id.md) |  |
+| `connector_id` | Yes | [mconn_uuid](../../../../../_components/schemas/mconn_uuid.md) |  |
 
 
 ## Query Parameters

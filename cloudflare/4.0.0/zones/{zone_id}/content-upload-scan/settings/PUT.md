@@ -13,7 +13,7 @@ Update the Content Scanning status.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) | *Serialization: style=Simple* |
+| `zone_id` | Yes | [waf-product-api-bundle_identifier](../../../../_components/schemas/waf-product-api-bundle_identifier.md) |  |
 
 
 ## Query Parameters
@@ -43,7 +43,7 @@ Update Content Scanning settings response.
 [waf-product-api-bundle_schemas-response-status](../../../../_components/schemas/waf-product-api-bundle_schemas-response-status.md)
 
 
-### 4xx
+### 4XX
 
 Update Content Scanning settings failure response.
 

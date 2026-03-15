@@ -13,7 +13,7 @@ Get an organizations profile if it exists. (Currently in Closed Beta - see https
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `organization_id` | Yes | [organizations-api_OrganizationID](../../../_components/schemas/organizations-api_OrganizationID.md) | The ID of the organization to retrieve a profile for.<br/>*Serialization: style=Simple* |
+| `organization_id` | Yes | [organizations-api_OrganizationID](../../../_components/schemas/organizations-api_OrganizationID.md) | The ID of the organization to retrieve a profile for. |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ The request has succeeded.
 [organizations-api_ProfileResponse](../../../_components/schemas/organizations-api_ProfileResponse.md)
 
 
-### 4xx
+### 4XX
 
 An unexpected error response.
 

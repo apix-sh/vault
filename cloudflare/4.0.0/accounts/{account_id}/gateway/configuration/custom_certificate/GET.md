@@ -13,7 +13,7 @@ Retrieve the current Zero Trust certificate configuration.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [zero-trust-gateway_identifier](../../../../../_components/schemas/zero-trust-gateway_identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [zero-trust-gateway_identifier](../../../../../_components/schemas/zero-trust-gateway_identifier.md) |  |
 
 
 ## Query Parameters
@@ -37,7 +37,7 @@ Zero Trust account configuration response.
 [zero-trust-gateway_custom-certificate-settings](../../../../../_components/schemas/zero-trust-gateway_custom-certificate-settings.md)
 
 
-### 4xx
+### 4XX
 
 Zero Trust account configuration response failure.
 

@@ -13,14 +13,14 @@ List configured pools.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) | *Serialization: style=Simple* |
+| `account_id` | Yes | [load-balancing_components-schemas-identifier](../../../../_components/schemas/load-balancing_components-schemas-identifier.md) |  |
 
 
 ## Query Parameters
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `monitor` | No | string | *Serialization: style=Form* |
+| `monitor` | No | string |  |
 
 
 
@@ -39,7 +39,7 @@ List Pools response.
 [load-balancing_schemas-response_collection](../../../../_components/schemas/load-balancing_schemas-response_collection.md)
 
 
-### 4xx
+### 4XX
 
 List Pools response failure.
 

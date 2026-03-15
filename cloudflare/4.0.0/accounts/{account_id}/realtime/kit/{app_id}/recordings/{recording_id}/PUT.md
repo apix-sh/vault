@@ -13,9 +13,9 @@ Pause/Resume/Stop a given recording ID.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../_components/schemas/realtimekit_account_identifier.md) | *Serialization: style=Simple* |
-| `app_id` | Yes | string | A Cloudflare-generated unique identifier for an item.<br/>*Serialization: style=Simple* |
-| `recording_id` | Yes | string | ID of the recording<br/>*Serialization: style=Simple* |
+| `account_id` | Yes | [realtimekit_account_identifier](../../../../../../../_components/schemas/realtimekit_account_identifier.md) |  |
+| `app_id` | Yes | string | A Cloudflare-generated unique identifier for an item. |
+| `recording_id` | Yes | string | ID of the recording |
 
 
 ## Query Parameters

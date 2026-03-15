@@ -13,8 +13,8 @@ Fetch a project by name.
 
 | Name | Required | Type | Description |
 | :--- | :------: | :--- | :---------- |
-| `project_name` | Yes | [pages_project_name](../../../../../_components/schemas/pages_project_name.md) | *Serialization: style=Simple* |
-| `account_id` | Yes | [pages_identifier](../../../../../_components/schemas/pages_identifier.md) | *Serialization: style=Simple* |
+| `project_name` | Yes | [pages_project_name](../../../../../_components/schemas/pages_project_name.md) |  |
+| `account_id` | Yes | [pages_identifier](../../../../../_components/schemas/pages_identifier.md) |  |
 
 
 ## Query Parameters
@@ -38,7 +38,7 @@ Get project response.
 *(No object properties found)*
 
 
-### 4xx
+### 4XX
 
 Get project response failure.
 
