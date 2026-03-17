@@ -1,0 +1,3 @@
+# Response: DeletedObject
+
+Deleted Object

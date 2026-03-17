@@ -68,3 +68,8 @@ apis:
     spec_url: https://api.endpoints.huggingface.cloud/openapi.json
     tags: ["AI", "LLM"]
     notes: Management interface for accessing the world's largest open-source model hub.
+
+  - name: elevenlabs
+    spec_url: "https://elevenlabs.io/docs/api-reference/openapi.json?api=52d2f503-83c1-4a3a-8c4e-a4f854b6a51a"
+    tags: ["AI", "Voic", "STT", "TTS"]
+    notes: API Reference

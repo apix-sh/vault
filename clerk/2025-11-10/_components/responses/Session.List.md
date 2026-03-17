@@ -1,0 +1,3 @@
+# Response: Session.List
+
+Success

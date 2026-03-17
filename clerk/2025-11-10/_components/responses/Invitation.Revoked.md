@@ -1,0 +1,3 @@
+# Response: Invitation.Revoked
+
+Success

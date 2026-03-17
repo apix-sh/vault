@@ -1,0 +1,3 @@
+# Response: InstanceOAuthApplicationSettings
+
+Success
