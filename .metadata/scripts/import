@@ -9,6 +9,7 @@ APIX_BIN="${APIX_BIN:-apix}"
 
 NAMES=()
 URLS=()
+VERSIONS=()
 SUCCESS=0
 FAILED=0
 FROM=0
@@ -79,10 +80,16 @@ while IFS= read -r line; do
     NAMES+=("${BASH_REMATCH[1]}")
   elif [[ "$line" =~ ^[[:space:]]*spec_url:[[:space:]]*(.*) ]]; then
     URLS+=("${BASH_REMATCH[1]}")
+  elif [[ "$line" =~ ^[[:space:]]*spec_version:[[:space:]]*(.*) ]]; then
+    VERSIONS+=("${BASH_REMATCH[1]}")
   fi
 done < "$CATALOG"
 
 TOTAL=${#NAMES[@]}
+if (( ${#VERSIONS[@]} != TOTAL )); then
+  echo "error: catalog entries ($TOTAL) and spec_version count (${#VERSIONS[@]}) mismatch" >&2
+  exit 1
+fi
 
 echo "=== apix vault import ($(date -Iseconds)) ===" | tee "$LOG_FILE"
 echo "catalog: $CATALOG" | tee -a "$LOG_FILE"
@@ -122,13 +129,39 @@ SELECTED_TOTAL=${#SELECTED[@]}
 echo "selected: $SELECTED_TOTAL" | tee -a "$LOG_FILE"
 echo "" | tee -a "$LOG_FILE"
 
+# Validate selected specs before importing.
+for idx in "${!SELECTED[@]}"; do
+  i="${SELECTED[$idx]}"
+  NAME="${NAMES[$i]}"
+  VERSION="$(echo "${VERSIONS[$i]}" | sed 's/^"//; s/"$//' | xargs)"
+
+  if [[ -z "$VERSION" || "$VERSION" == "unknown" ]]; then
+    echo "error: $NAME has missing/unknown spec_version; catalog must declare OpenAPI >= 3.x" | tee -a "$LOG_FILE" >&2
+    exit 1
+  fi
+
+  if [[ "$VERSION" =~ ^([0-9]+) ]]; then
+    MAJOR="${BASH_REMATCH[1]}"
+  else
+    echo "error: $NAME has invalid spec_version '$VERSION'" | tee -a "$LOG_FILE" >&2
+    exit 1
+  fi
+
+  if (( MAJOR < 3 )); then
+    echo "error: $NAME uses unsupported spec_version '$VERSION' (OpenAPI >= 3.x required)" | tee -a "$LOG_FILE" >&2
+    exit 1
+  fi
+done
+
 for idx in "${!SELECTED[@]}"; do
   i="${SELECTED[$idx]}"
 
   NAME="${NAMES[$i]}"
   URL="${URLS[$i]}"
+  VERSION="$(echo "${VERSIONS[$i]}" | sed 's/^"//; s/"$//' | xargs)"
   echo "[$((idx+1))/$SELECTED_TOTAL] Importing $NAME (catalog #$((i+1))) ..." | tee -a "$LOG_FILE"
   echo "  spec: $URL" | tee -a "$LOG_FILE"
+  echo "  version: $VERSION" | tee -a "$LOG_FILE"
 
   if "$APIX_BIN" import "$URL" --name "$NAME" --output "$VAULT_ROOT" --overwrite 2>&1 | tee -a "$LOG_FILE"; then
     echo "  ✓ $NAME imported successfully" | tee -a "$LOG_FILE"

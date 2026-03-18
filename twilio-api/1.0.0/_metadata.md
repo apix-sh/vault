@@ -1,0 +1,13 @@
+---
+base_url: "https://api.twilio.com"
+auth: "basic"
+tags: [Api20100401Account, Api20100401AddOnResult, Api20100401Address, Api20100401AllTime, Api20100401Application, Api20100401AssignedAddOn, Api20100401AssignedAddOnExtension, Api20100401AuthCallsCredentialListMapping, Api20100401AuthCallsIpAccessControlListMapping, Api20100401AuthRegistrationsCredentialListMapping, Api20100401AuthorizedConnectApp, Api20100401AvailablePhoneNumberCountry, Api20100401AvailablePhoneNumberTypeParameterized, Api20100401Balance, Api20100401Call, Api20100401CallNotification, Api20100401CallRecording, Api20100401CallTranscription, Api20100401Conference, Api20100401ConferenceRecording, Api20100401ConnectApp, Api20100401Credential, Api20100401CredentialList, Api20100401CredentialListMapping, Api20100401Daily, Api20100401Data, Api20100401DependentPhoneNumber, Api20100401Domain, Api20100401Event, Api20100401Feedback, Api20100401HealthCheck, Api20100401IncomingPhoneNumber, Api20100401IncomingPhoneNumberLocal, Api20100401IncomingPhoneNumberMobile, Api20100401IncomingPhoneNumberTollFree, Api20100401IndexNode, Api20100401IpAccessControlList, Api20100401IpAccessControlListMapping, Api20100401IpAddress, Api20100401Key, Api20100401LastMonth, Api20100401Local, Api20100401MachineToMachine, Api20100401Media, Api20100401MediaInstance, Api20100401Member, Api20100401Message, Api20100401Mobile, Api20100401Monthly, Api20100401National, Api20100401NewKey, Api20100401NewSigningKey, Api20100401Notification, Api20100401OutgoingCallerId, Api20100401Participant, Api20100401Payload, Api20100401Payment, Api20100401Queue, Api20100401Record, Api20100401Recording, Api20100401RecordingTranscription, Api20100401Region, Api20100401SharedCost, Api20100401ShortCode, Api20100401SigningKey, Api20100401Sip, Api20100401SipIpAddress, Api20100401Siprec, Api20100401Sms, Api20100401SmsFeedback, Api20100401SmsMessage, Api20100401Stream, Api20100401ThisMonth, Api20100401Today, Api20100401Token, Api20100401TollFree, Api20100401Transcription, Api20100401Trigger, Api20100401TwimlSession, Api20100401Usage, Api20100401UsageRecordTimeParameterized, Api20100401UserDefinedMessage, Api20100401UserDefinedMessageSubscription, Api20100401ValidationRequest, Api20100401VersionNode, Api20100401Voip, Api20100401Yearly, Api20100401Yesterday]
+---
+
+# Twilio - Api
+
+
+This is the public Twilio REST API.
+
+**Version:** 1.0.0
+**Base URL:** `https://api.twilio.com`

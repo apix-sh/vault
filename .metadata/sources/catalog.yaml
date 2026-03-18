@@ -6,70 +6,156 @@
 apis:
   - name: petstore
     spec_url: https://petstore3.swagger.io/api/v3/openapi.json
+    spec_version: 3.0.4
     tags: [demo, pets, crud]
     notes: Canonical OpenAPI example. Good baseline for validation.
 
   - name: openai
     spec_url: https://raw.githubusercontent.com/openai/openai-openapi/refs/heads/manual_spec/openapi.yaml
+    spec_version: 3.0.0
     tags: ["AI", "Generative Intelligence"]
     notes: Latest 2026 Agentic interface supporting tool search, computer use, and long-range task reasoning.[4, 5]
 
   - name: stripe
     spec_url: https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json
+    spec_version: 3.0.0
     tags: ["Fintech", "Payments"]
     notes: The gold standard for financial payments; 2026 version fully supports OAS 3.1 and complex extension models.[14, 23]
 
   - name: cloudflare
     spec_url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
+    spec_version: 3.0.0
     tags: ["Infrastructure", "Cloud"]
     notes: Comprehensive schema covering hundreds of endpoints including Workers AI, Zero Trust, and DNS management.[21]
 
   - name: github
     spec_url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
+    spec_version: 3.0.3
     tags: ["Code", "DevOps", "Social"]
     notes: Covers 600+ operations, supporting Webhook definitions and GitHub Actions integration specs.[25]
 
   - name: resend
     spec_url: https://raw.githubusercontent.com/resend/resend-openapi/main/resend.yaml
+    spec_version: 3.0.3
     tags: [email, transactional, communication]
     notes: Small, clean spec. Good early-batch candidate.
 
   - name: anthropic
     spec_url: https://raw.githubusercontent.com/laszukdawid/anthropic-openapi-spec/main/hosted_spec.json
+    spec_version: 3.1.0
     tags: ["AI", "LLM"]
     notes: Official SDK-generated version supporting 1M+ context window and Extended Thinking outputs.[13, 22]
 
   - name: discord
     spec_url: https://raw.githubusercontent.com/discord/discord-api-spec/refs/heads/main/specs/openapi.json
+    spec_version: 3.1.0
     tags: ["Social", "Chat", "Bot"]
     notes: Official preview specification for building complex social bot ecosystems in 2026.[24]
 
   - name: vercel
     spec_url: https://openapi.vercel.sh/
+    spec_version: 3.0.3
     tags: ["Infrastructure", "Cloud"]
     notes: Manages edge networks, deployment lifecycles, and 2026-era Serverless AI projects.[16, 34]
 
   - name: planetscale
     spec_url: https://planetscale.com/docs/openapi.yaml
+    spec_version: 3.0.1
     tags: ["Database", "Cloud"]
     notes: Database service API with advanced branching and version management capabilities.[35]
 
   - name: linode
     spec_url: https://raw.githubusercontent.com/linode/linode-api-docs/refs/heads/development/openapi.json
+    spec_version: 3.0.1
     tags: ["Infrastructure", "Cloud"]
     notes: Post-Akamai acquisition integrated API for global CDN and compute node scheduling.[19]
 
   - name: gitlab
     spec_url: https://raw.githubusercontent.com/gitlabhq/gitlabhq/master/doc/api/openapi/openapi.yaml
+    spec_version: 3.0.1
     tags: ["DevOps", "Code", "CI/CD"]
     notes: Open-source DevOps full lifecycle management API.[38, 39]
 
   - name: huggingface
     spec_url: https://api.endpoints.huggingface.cloud/openapi.json
+    spec_version: 3.1.0
     tags: ["AI", "LLM"]
     notes: Management interface for accessing the world's largest open-source model hub.
 
   - name: elevenlabs
-    spec_url: "https://elevenlabs.io/docs/api-reference/openapi.json?api=52d2f503-83c1-4a3a-8c4e-a4f854b6a51a"
+    spec_url: https://api.elevenlabs.io/openapi.json
+    spec_version: 3.1.0
     tags: ["AI", "Voic", "STT", "TTS"]
     notes: API Reference
+
+  - name: azure-storage
+    spec_url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/storage/resource-manager/Microsoft.Storage/stable/2024-01-01/storage.json
+    spec_version: 2.0
+    tags: ["cloud", "infrastructure", "storage"]
+    notes: Official Azure REST API specification for Storage resource management.
+
+  - name: slack-web-api
+    spec_url: https://raw.githubusercontent.com/slackapi/slack-api-specs/master/web-api/slack_web_openapi_v2_without_examples.json
+    spec_version: 2.0
+    tags: ["chat", "collaboration", "bot"]
+    notes: Official Slack Web API OpenAPI specification.
+
+  - name: twilio-api
+    spec_url: https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/json/twilio_api_v2010.json
+    spec_version: 3.0.1
+    tags: ["communication", "sms", "voice"]
+    notes: Official Twilio core API (v2010) OpenAPI specification.
+
+  - name: twilio-messaging
+    spec_url: https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/json/twilio_messaging_v1.json
+    spec_version: 3.0.1
+    tags: ["communication", "messaging", "sms"]
+    notes: Official Twilio Messaging API v1 OpenAPI specification.
+
+  - name: paypal-checkout-orders
+    spec_url: https://raw.githubusercontent.com/paypal/paypal-rest-api-specifications/main/openapi/checkout_orders_v2.json
+    spec_version: 3.0.3
+    tags: ["payments", "checkout", "fintech"]
+    notes: Official PayPal Checkout Orders v2 OpenAPI specification.
+
+  - name: paypal-payments
+    spec_url: https://raw.githubusercontent.com/paypal/paypal-rest-api-specifications/main/openapi/payments_payment_v2.json
+    spec_version: 3.0.3
+    tags: ["payments", "fintech"]
+    notes: Official PayPal Payments v2 OpenAPI specification.
+
+  - name: plaid
+    spec_url: https://raw.githubusercontent.com/plaid/plaid-openapi/master/2020-09-14.yml
+    spec_version: 3.0.0
+    tags: ["fintech", "banking"]
+    notes: Official Plaid OpenAPI specification.
+
+  - name: sentry
+    spec_url: https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json
+    spec_version: 3.0.3
+    tags: ["monitoring", "errors", "observability"]
+    notes: Official Sentry API schema in OpenAPI format.
+
+  - name: pagerduty
+    spec_url: https://raw.githubusercontent.com/PagerDuty/api-schema/main/reference/REST/openapiv3.json
+    spec_version: 3.0.2
+    tags: ["incident", "ops", "alerting"]
+    notes: Official PagerDuty REST API OpenAPI v3 specification.
+
+  - name: hubspot-crm-contacts
+    spec_url: https://raw.githubusercontent.com/HubSpot/HubSpot-public-api-spec-collection/main/PublicApiSpecs/CRM/Contacts/Rollouts/424/v3/contacts.json
+    spec_version: 3.0.1
+    tags: ["crm", "sales", "contacts"]
+    notes: Official HubSpot CRM Contacts API OpenAPI specification.
+
+  - name: atlassian-jira
+    spec_url: https://dac-static.atlassian.com/cloud/jira/platform/swagger-v3.v3.json
+    spec_version: 3.0.1
+    tags: ["project-management", "issue-tracking", "devops"]
+    notes: Official Atlassian Jira Cloud Platform API Swagger specification.
+
+  - name: atlassian-confluence
+    spec_url: https://dac-static.atlassian.com/cloud/confluence/swagger.v3.json
+    spec_version: 3.0.1
+    tags: ["wiki", "knowledge-base", "collaboration"]
+    notes: Official Atlassian Confluence Cloud API Swagger specification.
